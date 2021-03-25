@@ -24,8 +24,8 @@ export default class LongRestDialog extends Dialog {
   getData() {
     const data = super.getData();
     const variant = game.settings.get("sw5e", "restVariant");
-    data.promptNewDay = variant !== "gritty";     // It's always a new day when resting 1 week
-    data.newDay = variant === "normal";           // It's probably a new day when resting normally (8 hours)
+    data.promptNewDay = variant !== "gritty"; // It's always a new day when resting 1 week
+    data.newDay = variant === "normal"; // It's probably a new day when resting normally (8 hours)
     return data;
   }
 
@@ -37,7 +37,7 @@ export default class LongRestDialog extends Dialog {
    * @param {Actor5e} actor
    * @return {Promise}
    */
-  static async longRestDialog({ actor } = {}) {
+  static async longRestDialog({actor} = {}) {
     return new Promise((resolve, reject) => {
       const dlg = new this(actor, {
         title: "Long Rest",
@@ -49,8 +49,7 @@ export default class LongRestDialog extends Dialog {
               let newDay = false;
               if (game.settings.get("sw5e", "restVariant") === "normal")
                 newDay = html.find('input[name="newDay"]')[0].checked;
-              else if(game.settings.get("sw5e", "restVariant") === "gritty")
-                newDay = true;
+              else if (game.settings.get("sw5e", "restVariant") === "gritty") newDay = true;
               resolve(newDay);
             }
           },
@@ -60,7 +59,7 @@ export default class LongRestDialog extends Dialog {
             callback: reject
           }
         },
-        default: 'rest',
+        default: "rest",
         close: reject
       });
       dlg.render(true);

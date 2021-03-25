@@ -3,7 +3,7 @@ import TraitSelector from "../../../apps/trait-selector.js";
 import ActorSheetFlags from "../../../apps/actor-flags.js";
 import ActorMovementConfig from "../../../apps/movement-config.js";
 import ActorSensesConfig from "../../../apps/senses-config.js";
-import {SW5E} from '../../../config.js';
+import {SW5E} from "../../../config.js";
 import {onManageActiveEffect, prepareActiveEffectCategories} from "../../../effects.js";
 
 /**
@@ -46,7 +46,7 @@ export default class ActorSheet5e extends ActorSheet {
 
   /** @override */
   get template() {
-    if ( !game.user.isGM && this.actor.limited ) return "systems/sw5e/templates/actors/oldActor/limited-sheet.html";
+    if (!game.user.isGM && this.actor.limited) return "systems/sw5e/templates/actors/oldActor/limited-sheet.html";
     return `systems/sw5e/templates/actors/oldActor/${this.actor.data.type}-sheet.html`;
   }
 
@@ -54,7 +54,6 @@ export default class ActorSheet5e extends ActorSheet {
 
   /** @override */
   getData() {
-
     // Basic data
     let isOwner = this.entity.owner;
     const data = {
@@ -65,8 +64,8 @@ export default class ActorSheet5e extends ActorSheet {
       cssClass: isOwner ? "editable" : "locked",
       isCharacter: this.entity.data.type === "character",
       isNPC: this.entity.data.type === "npc",
-      isVehicle: this.entity.data.type === 'vehicle',
-      config: CONFIG.SW5E,
+      isVehicle: this.entity.data.type === "vehicle",
+      config: CONFIG.SW5E
     };
 
     // The Actor and its Items
@@ -81,7 +80,7 @@ export default class ActorSheet5e extends ActorSheet {
     data.filters = this._filters;
 
     // Ability Scores
-    for ( let [a, abl] of Object.entries(data.actor.data.abilities)) {
+    for (let [a, abl] of Object.entries(data.actor.data.abilities)) {
       abl.icon = this._getProficiencyIcon(abl.proficient);
       abl.hover = CONFIG.SW5E.proficiencyLevels[abl.proficient];
       abl.label = CONFIG.SW5E.abilities[a];
@@ -89,7 +88,7 @@ export default class ActorSheet5e extends ActorSheet {
 
     // Skills
     if (data.actor.data.skills) {
-      for ( let [s, skl] of Object.entries(data.actor.data.skills)) {
+      for (let [s, skl] of Object.entries(data.actor.data.skills)) {
         skl.ability = CONFIG.SW5E.abilityAbbreviations[skl.ability];
         skl.icon = this._getProficiencyIcon(skl.value);
         skl.hover = CONFIG.SW5E.proficiencyLevels[skl.value];
@@ -113,7 +112,7 @@ export default class ActorSheet5e extends ActorSheet {
     data.effects = prepareActiveEffectCategories(this.entity.effects);
 
     // Return data to the sheet
-    return data
+    return data;
   }
 
   /* -------------------------------------------- */
@@ -125,17 +124,21 @@ export default class ActorSheet5e extends ActorSheet {
    * @returns {{primary: string, special: string}}
    * @private
    */
-  _getMovementSpeed(actorData, largestPrimary=false) {
+  _getMovementSpeed(actorData, largestPrimary = false) {
     const movement = actorData.data.attributes.movement || {};
 
     // Prepare an array of available movement speeds
     let speeds = [
       [movement.burrow, `${game.i18n.localize("SW5E.MovementBurrow")} ${movement.burrow}`],
       [movement.climb, `${game.i18n.localize("SW5E.MovementClimb")} ${movement.climb}`],
-      [movement.fly, `${game.i18n.localize("SW5E.MovementFly")} ${movement.fly}` + (movement.hover ? ` (${game.i18n.localize("SW5E.MovementHover")})` : "")],
+      [
+        movement.fly,
+        `${game.i18n.localize("SW5E.MovementFly")} ${movement.fly}` +
+          (movement.hover ? ` (${game.i18n.localize("SW5E.MovementHover")})` : "")
+      ],
       [movement.swim, `${game.i18n.localize("SW5E.MovementSwim")} ${movement.swim}`]
-    ]
-    if ( largestPrimary ) {
+    ];
+    if (largestPrimary) {
       speeds.push([movement.walk, `${game.i18n.localize("SW5E.MovementWalk")} ${movement.walk}`]);
     }
 
@@ -143,12 +146,12 @@ export default class ActorSheet5e extends ActorSheet {
     speeds = speeds.filter(s => !!s[0]).sort((a, b) => b[0] - a[0]);
 
     // Case 1: Largest as primary
-    if ( largestPrimary ) {
+    if (largestPrimary) {
       let primary = speeds.shift();
       return {
         primary: `${primary ? primary[1] : "0"} ${movement.units}`,
         special: speeds.map(s => s[1]).join(", ")
-      }
+      };
     }
 
     // Case 2: Walk as primary
@@ -156,7 +159,7 @@ export default class ActorSheet5e extends ActorSheet {
       return {
         primary: `${movement.walk || 0} ${movement.units}`,
         special: speeds.length ? speeds.map(s => s[1]).join(", ") : ""
-      }
+      };
     }
   }
 
@@ -165,12 +168,12 @@ export default class ActorSheet5e extends ActorSheet {
   _getSenses(actorData) {
     const senses = actorData.data.attributes.senses || {};
     const tags = {};
-    for ( let [k, label] of Object.entries(CONFIG.SW5E.senses) ) {
-      const v = senses[k] ?? 0
-      if ( v === 0 ) continue;
+    for (let [k, label] of Object.entries(CONFIG.SW5E.senses)) {
+      const v = senses[k] ?? 0;
+      if (v === 0) continue;
       tags[k] = `${game.i18n.localize(label)} ${v} ${senses.units}`;
     }
-    if ( !!senses.special ) tags["special"] = senses.special;
+    if (!!senses.special) tags["special"] = senses.special;
     return tags;
   }
 
@@ -183,20 +186,20 @@ export default class ActorSheet5e extends ActorSheet {
    */
   _prepareTraits(traits) {
     const map = {
-      "dr": CONFIG.SW5E.damageResistanceTypes,
-      "di": CONFIG.SW5E.damageResistanceTypes,
-      "dv": CONFIG.SW5E.damageResistanceTypes,
-      "ci": CONFIG.SW5E.conditionTypes,
-      "languages": CONFIG.SW5E.languages,
-      "armorProf": CONFIG.SW5E.armorProficiencies,
-      "weaponProf": CONFIG.SW5E.weaponProficiencies,
-      "toolProf": CONFIG.SW5E.toolProficiencies
+      dr: CONFIG.SW5E.damageResistanceTypes,
+      di: CONFIG.SW5E.damageResistanceTypes,
+      dv: CONFIG.SW5E.damageResistanceTypes,
+      ci: CONFIG.SW5E.conditionTypes,
+      languages: CONFIG.SW5E.languages,
+      armorProf: CONFIG.SW5E.armorProficiencies,
+      weaponProf: CONFIG.SW5E.weaponProficiencies,
+      toolProf: CONFIG.SW5E.toolProficiencies
     };
-    for ( let [t, choices] of Object.entries(map) ) {
+    for (let [t, choices] of Object.entries(map)) {
       const trait = traits[t];
-      if ( !trait ) continue;
+      if (!trait) continue;
       let values = [];
-      if ( trait.value ) {
+      if (trait.value) {
         values = trait.value instanceof Array ? trait.value : [trait.value];
       }
       trait.selected = values.reduce((obj, t) => {
@@ -205,8 +208,8 @@ export default class ActorSheet5e extends ActorSheet {
       }, {});
 
       // Add custom entry
-      if ( trait.custom ) {
-        trait.custom.split(";").forEach((c, i) => trait.selected[`custom${i+1}`] = c.trim());
+      if (trait.custom) {
+        trait.custom.split(";").forEach((c, i) => (trait.selected[`custom${i + 1}`] = c.trim()));
       }
       trait.cssClass = !isObjectEmpty(trait.selected) ? "" : "inactive";
     }
@@ -227,45 +230,45 @@ export default class ActorSheet5e extends ActorSheet {
 
     // Define some mappings
     const sections = {
-      "atwill": -20,
-      "innate": -10,
-      "pact": 0.5
+      atwill: -20,
+      innate: -10,
+      pact: 0.5
     };
 
     // Label power slot uses headers
     const useLabels = {
       "-20": "-",
       "-10": "-",
-      "0": "&infin;"
+      0: "&infin;"
     };
 
     // Format a powerbook entry for a certain indexed level
-    const registerSection = (sl, i, label, {prepMode="prepared", value, max, override}={}) => {
+    const registerSection = (sl, i, label, {prepMode = "prepared", value, max, override} = {}) => {
       powerbook[i] = {
         order: i,
         label: label,
         usesSlots: i > 0,
         canCreate: owner,
-        canPrepare: (data.actor.type === "character") && (i >= 1),
+        canPrepare: data.actor.type === "character" && i >= 1,
         powers: [],
         uses: useLabels[i] || value || 0,
         slots: useLabels[i] || max || 0,
         override: override || 0,
-        dataset: {"type": "power", "level": prepMode in sections ? 1 : i, "preparation.mode": prepMode},
+        dataset: {type: "power", level: prepMode in sections ? 1 : i, "preparation.mode": prepMode},
         prop: sl
       };
     };
 
     // Determine the maximum power level which has a slot
     const maxLevel = Array.fromRange(10).reduce((max, i) => {
-      if ( i === 0 ) return max;
+      if (i === 0) return max;
       const level = levels[`power${i}`];
-      if ( (level.max || level.override ) && ( i > max ) ) max = i;
+      if ((level.max || level.override) && i > max) max = i;
       return max;
     }, 0);
 
     // Level-based powercasters have cantrips and leveled slots
-    if ( maxLevel > 0 ) {
+    if (maxLevel > 0) {
       registerSection("power0", 0, CONFIG.SW5E.powerLevels[0]);
       for (let lvl = 1; lvl <= maxLevel; lvl++) {
         const sl = `power${lvl}`;
@@ -274,8 +277,8 @@ export default class ActorSheet5e extends ActorSheet {
     }
 
     // Pact magic users have cantrips and a pact magic section
-    if ( levels.pact && levels.pact.max ) {
-      if ( !powerbook["0"] ) registerSection("power0", 0, CONFIG.SW5E.powerLevels[0]);
+    if (levels.pact && levels.pact.max) {
+      if (!powerbook["0"]) registerSection("power0", 0, CONFIG.SW5E.powerLevels[0]);
       const l = levels.pact;
       const config = CONFIG.SW5E.powerPreparationModes.pact;
       registerSection("pact", sections.pact, config, {
@@ -293,9 +296,9 @@ export default class ActorSheet5e extends ActorSheet {
       const sl = `power${s}`;
 
       // Specialized powercasting modes (if they exist)
-      if ( mode in sections ) {
+      if (mode in sections) {
         s = sections[mode];
-        if ( !powerbook[s] ){
+        if (!powerbook[s]) {
           const l = levels[mode] || {};
           const config = CONFIG.SW5E.powerPreparationModes[mode];
           registerSection(mode, s, config, {
@@ -308,7 +311,7 @@ export default class ActorSheet5e extends ActorSheet {
       }
 
       // Sections for higher-level powers which the caster "should not" have, but power items exist for
-      else if ( !powerbook[s] ) {
+      else if (!powerbook[s]) {
         registerSection(sl, s, CONFIG.SW5E.powerLevels[s], {levels: levels[sl]});
       }
 
@@ -334,28 +337,28 @@ export default class ActorSheet5e extends ActorSheet {
       const data = item.data;
 
       // Action usage
-      for ( let f of ["action", "bonus", "reaction"] ) {
-        if ( filters.has(f) ) {
-          if ((data.activation && (data.activation.type !== f))) return false;
+      for (let f of ["action", "bonus", "reaction"]) {
+        if (filters.has(f)) {
+          if (data.activation && data.activation.type !== f) return false;
         }
       }
 
       // Power-specific filters
-      if ( filters.has("ritual") ) {
+      if (filters.has("ritual")) {
         if (data.components.ritual !== true) return false;
       }
-      if ( filters.has("concentration") ) {
+      if (filters.has("concentration")) {
         if (data.components.concentration !== true) return false;
       }
-      if ( filters.has("prepared") ) {
-        if ( data.level === 0 || ["innate", "always"].includes(data.preparation.mode) ) return true;
-        if ( this.actor.data.type === "npc" ) return true;
+      if (filters.has("prepared")) {
+        if (data.level === 0 || ["innate", "always"].includes(data.preparation.mode)) return true;
+        if (this.actor.data.type === "npc") return true;
         return data.preparation.prepared;
       }
 
       // Equipment-specific filters
-      if ( filters.has("equipped") ) {
-        if ( data.equipped !== true ) return false;
+      if (filters.has("equipped")) {
+        if (data.equipped !== true) return false;
       }
       return true;
     });
@@ -386,59 +389,58 @@ export default class ActorSheet5e extends ActorSheet {
    * @param html {HTML}   The prepared HTML object ready to be rendered into the DOM
    */
   activateListeners(html) {
-
     // Activate Item Filters
     const filterLists = html.find(".filter-list");
     filterLists.each(this._initializeFilterItemList.bind(this));
     filterLists.on("click", ".filter-item", this._onToggleFilter.bind(this));
 
     // Item summaries
-    html.find('.item .item-name.rollable h4').click(event => this._onItemSummary(event));
+    html.find(".item .item-name.rollable h4").click(event => this._onItemSummary(event));
 
     // Editable Only Listeners
-    if ( this.isEditable ) {
-
+    if (this.isEditable) {
       // Input focus and update
       const inputs = html.find("input");
       inputs.focus(ev => ev.currentTarget.select());
       inputs.addBack().find('[data-dtype="Number"]').change(this._onChangeInputDelta.bind(this));
 
       // Ability Proficiency
-      html.find('.ability-proficiency').click(this._onToggleAbilityProficiency.bind(this));
+      html.find(".ability-proficiency").click(this._onToggleAbilityProficiency.bind(this));
 
       // Toggle Skill Proficiency
-      html.find('.skill-proficiency').on("click contextmenu", this._onCycleSkillProficiency.bind(this));
+      html.find(".skill-proficiency").on("click contextmenu", this._onCycleSkillProficiency.bind(this));
 
       // Trait Selector
-      html.find('.trait-selector').click(this._onTraitSelector.bind(this));
+      html.find(".trait-selector").click(this._onTraitSelector.bind(this));
 
       // Configure Special Flags
-      html.find('.config-button').click(this._onConfigMenu.bind(this));
+      html.find(".config-button").click(this._onConfigMenu.bind(this));
 
       // Owned Item management
-      html.find('.item-create').click(this._onItemCreate.bind(this));
-      html.find('.item-edit').click(this._onItemEdit.bind(this));
-      html.find('.item-delete').click(this._onItemDelete.bind(this));
-      html.find('.item-uses input').click(ev => ev.target.select()).change(this._onUsesChange.bind(this));
-      html.find('.slot-max-override').click(this._onPowerSlotOverride.bind(this));
+      html.find(".item-create").click(this._onItemCreate.bind(this));
+      html.find(".item-edit").click(this._onItemEdit.bind(this));
+      html.find(".item-delete").click(this._onItemDelete.bind(this));
+      html
+        .find(".item-uses input")
+        .click(ev => ev.target.select())
+        .change(this._onUsesChange.bind(this));
+      html.find(".slot-max-override").click(this._onPowerSlotOverride.bind(this));
 
       // Active Effect management
       html.find(".effect-control").click(ev => onManageActiveEffect(ev, this.entity));
     }
 
     // Owner Only Listeners
-    if ( this.actor.owner ) {
-
+    if (this.actor.owner) {
       // Ability Checks
-      html.find('.ability-name').click(this._onRollAbilityTest.bind(this));
-
+      html.find(".ability-name").click(this._onRollAbilityTest.bind(this));
 
       // Roll Skill Checks
-      html.find('.skill-name').click(this._onRollSkillCheck.bind(this));
+      html.find(".skill-name").click(this._onRollSkillCheck.bind(this));
 
       // Item Rolling
-      html.find('.item .item-image').click(event => this._onItemRoll(event));
-      html.find('.item .item-recharge').click(event => this._onItemRecharge(event));
+      html.find(".item .item-image").click(event => this._onItemRoll(event));
+      html.find(".item .item-recharge").click(event => this._onItemRecharge(event));
     }
 
     // Otherwise remove rollable classes
@@ -459,8 +461,8 @@ export default class ActorSheet5e extends ActorSheet {
   _initializeFilterItemList(i, ul) {
     const set = this._filters[ul.dataset.filter];
     const filters = ul.querySelectorAll(".filter-item");
-    for ( let li of filters ) {
-      if ( set.has(li.dataset.filter) ) li.classList.add("active");
+    for (let li of filters) {
+      if (set.has(li.dataset.filter)) li.classList.add("active");
     }
   }
 
@@ -476,10 +478,10 @@ export default class ActorSheet5e extends ActorSheet {
   _onChangeInputDelta(event) {
     const input = event.target;
     const value = input.value;
-    if ( ["+", "-"].includes(value[0]) ) {
+    if (["+", "-"].includes(value[0])) {
       let delta = parseFloat(value);
       input.value = getProperty(this.actor.data, input.name) + delta;
-    } else if ( value[0] === "=" ) {
+    } else if (value[0] === "=") {
       input.value = value.slice(1);
     }
   }
@@ -494,7 +496,7 @@ export default class ActorSheet5e extends ActorSheet {
   _onConfigMenu(event) {
     event.preventDefault();
     const button = event.currentTarget;
-    switch ( button.dataset.action ) {
+    switch (button.dataset.action) {
       case "movement":
         new ActorMovementConfig(this.object).render(true);
         break;
@@ -524,10 +526,10 @@ export default class ActorSheet5e extends ActorSheet {
     let idx = levels.indexOf(level);
 
     // Toggle next level - forward on click, backwards on right
-    if ( event.type === "click" ) {
-      field.val(levels[(idx === levels.length - 1) ? 0 : idx + 1]);
-    } else if ( event.type === "contextmenu" ) {
-      field.val(levels[(idx === 0) ? levels.length - 1 : idx - 1]);
+    if (event.type === "click") {
+      field.val(levels[idx === levels.length - 1 ? 0 : idx + 1]);
+    } else if (event.type === "contextmenu") {
+      field.val(levels[idx === 0 ? levels.length - 1 : idx - 1]);
     }
 
     // Update the field value and save the form
@@ -538,8 +540,8 @@ export default class ActorSheet5e extends ActorSheet {
 
   /** @override */
   async _onDropActor(event, data) {
-    const canPolymorph = game.user.isGM || (this.actor.owner && game.settings.get('sw5e', 'allowPolymorphing'));
-    if ( !canPolymorph ) return false;
+    const canPolymorph = game.user.isGM || (this.actor.owner && game.settings.get("sw5e", "allowPolymorphing"));
+    if (!canPolymorph) return false;
 
     // Get the target actor
     let sourceActor = null;
@@ -549,78 +551,82 @@ export default class ActorSheet5e extends ActorSheet {
     } else {
       sourceActor = game.actors.get(data.id);
     }
-    if ( !sourceActor ) return;
+    if (!sourceActor) return;
 
     // Define a function to record polymorph settings for future use
     const rememberOptions = html => {
       const options = {};
-      html.find('input').each((i, el) => {
+      html.find("input").each((i, el) => {
         options[el.name] = el.checked;
       });
-      const settings = mergeObject(game.settings.get('sw5e', 'polymorphSettings') || {}, options);
-      game.settings.set('sw5e', 'polymorphSettings', settings);
+      const settings = mergeObject(game.settings.get("sw5e", "polymorphSettings") || {}, options);
+      game.settings.set("sw5e", "polymorphSettings", settings);
       return settings;
     };
 
     // Create and render the Dialog
-    return new Dialog({
-      title: game.i18n.localize('SW5E.PolymorphPromptTitle'),
-      content: {
-        options: game.settings.get('sw5e', 'polymorphSettings'),
-        i18n: SW5E.polymorphSettings,
-        isToken: this.actor.isToken
-      },
-      default: 'accept',
-      buttons: {
-        accept: {
-          icon: '<i class="fas fa-check"></i>',
-          label: game.i18n.localize('SW5E.PolymorphAcceptSettings'),
-          callback: html => this.actor.transformInto(sourceActor, rememberOptions(html))
+    return new Dialog(
+      {
+        title: game.i18n.localize("SW5E.PolymorphPromptTitle"),
+        content: {
+          options: game.settings.get("sw5e", "polymorphSettings"),
+          i18n: SW5E.polymorphSettings,
+          isToken: this.actor.isToken
         },
-        wildshape: {
-          icon: '<i class="fas fa-paw"></i>',
-          label: game.i18n.localize('SW5E.PolymorphWildShape'),
-          callback: html => this.actor.transformInto(sourceActor, {
-            keepBio: true,
-            keepClass: true,
-            keepMental: true,
-            mergeSaves: true,
-            mergeSkills: true,
-            transformTokens: rememberOptions(html).transformTokens
-          })
-        },
-        polymorph: {
-          icon: '<i class="fas fa-pastafarianism"></i>',
-          label: game.i18n.localize('SW5E.Polymorph'),
-          callback: html => this.actor.transformInto(sourceActor, {
-            transformTokens: rememberOptions(html).transformTokens
-          })
-        },
-        cancel: {
-          icon: '<i class="fas fa-times"></i>',
-          label: game.i18n.localize('Cancel')
+        default: "accept",
+        buttons: {
+          accept: {
+            icon: '<i class="fas fa-check"></i>',
+            label: game.i18n.localize("SW5E.PolymorphAcceptSettings"),
+            callback: html => this.actor.transformInto(sourceActor, rememberOptions(html))
+          },
+          wildshape: {
+            icon: '<i class="fas fa-paw"></i>',
+            label: game.i18n.localize("SW5E.PolymorphWildShape"),
+            callback: html =>
+              this.actor.transformInto(sourceActor, {
+                keepBio: true,
+                keepClass: true,
+                keepMental: true,
+                mergeSaves: true,
+                mergeSkills: true,
+                transformTokens: rememberOptions(html).transformTokens
+              })
+          },
+          polymorph: {
+            icon: '<i class="fas fa-pastafarianism"></i>',
+            label: game.i18n.localize("SW5E.Polymorph"),
+            callback: html =>
+              this.actor.transformInto(sourceActor, {
+                transformTokens: rememberOptions(html).transformTokens
+              })
+          },
+          cancel: {
+            icon: '<i class="fas fa-times"></i>',
+            label: game.i18n.localize("Cancel")
+          }
         }
+      },
+      {
+        classes: ["dialog", "sw5e"],
+        width: 600,
+        template: "systems/sw5e/templates/apps/polymorph-prompt.html"
       }
-    }, {
-      classes: ['dialog', 'sw5e'],
-      width: 600,
-      template: 'systems/sw5e/templates/apps/polymorph-prompt.html'
-    }).render(true);
+    ).render(true);
   }
 
   /* -------------------------------------------- */
 
   /** @override */
   async _onDropItemCreate(itemData) {
-
     // Create a Consumable power scroll on the Inventory tab
-    if ( (itemData.type === "power") && (this._tabs[0].active === "inventory") ) {
+    if (itemData.type === "power" && this._tabs[0].active === "inventory") {
       const scroll = await Item5e.createScrollFromPower(itemData);
       itemData = scroll.data;
     }
 
     // Ignore certain statuses
-    if ( itemData.data ) {
+    if (itemData.data) {
       ["attunement", "equipped", "proficient", "prepared"].forEach(k => delete itemData.data[k]);
     }
 
@@ -635,7 +641,7 @@ export default class ActorSheet5e extends ActorSheet {
    * @param {MouseEvent} event    The originating click event
    * @private
    */
-  async _onPowerSlotOverride (event) {
+  async _onPowerSlotOverride(event) {
     const span = event.currentTarget.parentElement;
     const level = span.dataset.level;
     const override = this.actor.data.data.powers[level].override || span.dataset.slots;
@@ -660,12 +666,12 @@ export default class ActorSheet5e extends ActorSheet {
    * @private
    */
   async _onUsesChange(event) {
-      event.preventDefault();
-      const itemId = event.currentTarget.closest(".item").dataset.itemId;
-      const item = this.actor.getOwnedItem(itemId);
-      const uses = Math.clamped(0, parseInt(event.target.value), item.data.data.uses.max);
-      event.target.value = uses;
-      return item.update({ 'data.uses.value': uses });
+    event.preventDefault();
+    const itemId = event.currentTarget.closest(".item").dataset.itemId;
+    const item = this.actor.getOwnedItem(itemId);
+    const uses = Math.clamped(0, parseInt(event.target.value), item.data.data.uses.max);
+    event.target.value = uses;
+    return item.update({"data.uses.value": uses});
   }
 
   /* -------------------------------------------- */
@@ -693,7 +699,7 @@ export default class ActorSheet5e extends ActorSheet {
     const itemId = event.currentTarget.closest(".item").dataset.itemId;
     const item = this.actor.getOwnedItem(itemId);
     return item.rollRecharge();
-  };
+  }
 
   /* -------------------------------------------- */
 
@@ -704,11 +710,11 @@ export default class ActorSheet5e extends ActorSheet {
   _onItemSummary(event) {
     event.preventDefault();
     let li = $(event.currentTarget).parents(".item"),
-        item = this.actor.getOwnedItem(li.data("item-id")),
-        chatData = item.getChatData({secrets: this.actor.owner});
+      item = this.actor.getOwnedItem(li.data("item-id")),
+      chatData = item.getChatData({secrets: this.actor.owner});
 
     // Toggle summary
-    if ( li.hasClass("expanded") ) {
+    if (li.hasClass("expanded")) {
       let summary = li.children(".item-summary");
       summary.slideUp(200, () => summary.remove());
     } else {
@@ -820,7 +826,7 @@ export default class ActorSheet5e extends ActorSheet {
     const li = event.currentTarget;
     const set = this._filters[li.parentElement.dataset.filter];
     const filter = li.dataset.filter;
-    if ( set.has(filter) ) set.delete(filter);
+    if (set.has(filter)) set.delete(filter);
     else set.add(filter);
     this.render();
   }
@@ -837,8 +843,8 @@ export default class ActorSheet5e extends ActorSheet {
     const a = event.currentTarget;
     const label = a.parentElement.querySelector("label");
     const choices = CONFIG.SW5E[a.dataset.options];
-    const options = { name: a.dataset.target, title: label.innerText, choices };
-    new TraitSelector(this.actor, options).render(true)
+    const options = {name: a.dataset.target, title: label.innerText, choices};
+    new TraitSelector(this.actor, options).render(true);
   }
 
   /* -------------------------------------------- */
@@ -848,9 +854,9 @@ export default class ActorSheet5e extends ActorSheet {
     let buttons = super._getHeaderButtons();
 
     // Add button to revert polymorph
-    if ( !this.actor.isPolymorphed || this.actor.isToken ) return buttons;
+    if (!this.actor.isPolymorphed || this.actor.isToken) return buttons;
     buttons.unshift({
-      label: 'SW5E.PolymorphRestoreTransformation',
+      label: "SW5E.PolymorphRestoreTransformation",
       class: "restore-transformation",
       icon: "fas fa-backward",
       onclick: ev => this.actor.revertOriginalForm()

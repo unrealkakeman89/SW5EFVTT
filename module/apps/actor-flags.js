@@ -7,7 +7,7 @@ export default class ActorSheetFlags extends BaseEntitySheet {
     const options = super.defaultOptions;
     return mergeObject(options, {
       id: "actor-flags",
-	    classes: ["sw5e"],
+      classes: ["sw5e"],
       template: "systems/sw5e/templates/apps/actor-flags.html",
       width: 500,
       closeOnSubmit: true
@@ -18,7 +18,7 @@ export default class ActorSheetFlags extends BaseEntitySheet {
 
   /** @override */
   get title() {
-    return `${game.i18n.localize('SW5E.FlagsTitle')}: ${this.object.name}`;
+    return `${game.i18n.localize("SW5E.FlagsTitle")}: ${this.object.name}`;
   }
 
   /* -------------------------------------------- */
@@ -42,12 +42,12 @@ export default class ActorSheetFlags extends BaseEntitySheet {
   _getFlags() {
     const flags = {};
     const baseData = this.entity._data;
-    for ( let [k, v] of Object.entries(CONFIG.SW5E.characterFlags) ) {
-      if ( !flags.hasOwnProperty(v.section) ) flags[v.section] = {};
+    for (let [k, v] of Object.entries(CONFIG.SW5E.characterFlags)) {
+      if (!flags.hasOwnProperty(v.section)) flags[v.section] = {};
       let flag = duplicate(v);
       flag.type = v.type.name;
       flag.isCheckbox = v.type === Boolean;
-      flag.isSelect = v.hasOwnProperty('choices');
+      flag.isSelect = v.hasOwnProperty("choices");
       flag.value = getProperty(baseData.flags, `sw5e.${k}`);
       flags[v.section][`flags.sw5e.${k}`] = flag;
     }
@@ -80,7 +80,7 @@ export default class ActorSheetFlags extends BaseEntitySheet {
       {name: "data.bonuses.power.forceUnivDC", label: "SW5E.BonusForceUnivPowerDC"},
       {name: "data.bonuses.power.techDC", label: "SW5E.BonusTechPowerDC"}
     ];
-    for ( let b of bonuses ) {
+    for (let b of bonuses) {
       b.value = getProperty(this.object._data, b.name) || "";
     }
     return bonuses;
@@ -97,11 +97,11 @@ export default class ActorSheetFlags extends BaseEntitySheet {
     let unset = false;
     const flags = updateData.flags.sw5e;
     //clone flags to dnd5e for module compatability
-    updateData.flags.dnd5e = updateData.flags.sw5e
-    for ( let [k, v] of Object.entries(flags) ) {
-      if ( [undefined, null, "", false, 0].includes(v) ) {
+    updateData.flags.dnd5e = updateData.flags.sw5e;
+    for (let [k, v] of Object.entries(flags)) {
+      if ([undefined, null, "", false, 0].includes(v)) {
         delete flags[k];
-        if ( hasProperty(actor._data.flags, `sw5e.${k}`) ) {
+        if (hasProperty(actor._data.flags, `sw5e.${k}`)) {
           unset = true;
           flags[`-=${k}`] = null;
         }
@@ -109,8 +109,8 @@ export default class ActorSheetFlags extends BaseEntitySheet {
     }
 
     // Clear any bonuses which are whitespace only
-    for ( let b of Object.values(updateData.data.bonuses ) ) {
-      for ( let [k, v] of Object.entries(b) ) {
+    for (let b of Object.values(updateData.data.bonuses)) {
+      for (let [k, v] of Object.entries(b)) {
         b[k] = v.trim();
       }
     }

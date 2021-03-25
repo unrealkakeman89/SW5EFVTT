@@ -1,13 +1,12 @@
-import { d20Roll, damageRoll } from "../dice.js";
+import {d20Roll, damageRoll} from "../dice.js";
 import ShortRestDialog from "../apps/short-rest.js";
 import LongRestDialog from "../apps/long-rest.js";
-import {SW5E} from '../config.js';
+import {SW5E} from "../config.js";
 
 /**
  * Extend the base Actor class to implement additional system-specific logic for SW5e.
  */
 export default class Actor5e extends Actor {
-
   /**
    * Is this Actor currently polymorphed into some other creature?
    * @return {boolean}
@@ -20,7 +19,7 @@ export default class Actor5e extends Actor {
 
   /** @override */
   prepareBaseData() {
-    switch ( this.data.type ) {
+    switch (this.data.type) {
       case "character":
         return this._prepareCharacterData(this.data);
       case "npc":
@@ -43,8 +42,8 @@ export default class Actor5e extends Actor {
     let originalSaves = null;
     let originalSkills = null;
     if (this.isPolymorphed) {
-      const transformOptions = this.getFlag('sw5e', 'transformOptions');
-      const original = game.actors?.get(this.getFlag('sw5e', 'originalActor'));
+      const transformOptions = this.getFlag("sw5e", "transformOptions");
+      const original = game.actors?.get(this.getFlag("sw5e", "originalActor"));
       if (original) {
         if (transformOptions.mergeSaves) {
           originalSaves = original.data.data.abilities;
@@ -84,8 +83,8 @@ export default class Actor5e extends Actor {
     const athlete = flags.remarkableAthlete;
     const joat = flags.jackOfAllTrades;
     init.mod = data.abilities.dex.mod;
-    if ( joat ) init.prof = Math.floor(0.5 * data.attributes.prof);
-    else if ( athlete ) init.prof = Math.ceil(0.5 * data.attributes.prof);
+    if (joat) init.prof = Math.floor(0.5 * data.attributes.prof);
+    else if (athlete) init.prof = Math.ceil(0.5 * data.attributes.prof);
     else init.prof = 0;
     init.value = init.value ?? 0;
     init.bonus = init.value + (flags.initiativeAlert ? 5 : 0);
@@ -94,7 +93,8 @@ export default class Actor5e extends Actor {
     // Prepare power-casting data
     data.attributes.powerForceLightDC = 8 + data.abilities.wis.mod + data.attributes.prof ?? 10;
     data.attributes.powerForceDarkDC = 8 + data.abilities.cha.mod + data.attributes.prof ?? 10;
-    data.attributes.powerForceUnivDC = Math.max(data.attributes.powerForceLightDC,data.attributes.powerForceDarkDC) ?? 10;
+    data.attributes.powerForceUnivDC =
+      Math.max(data.attributes.powerForceLightDC, data.attributes.powerForceDarkDC) ?? 10;
     data.attributes.powerTechDC = 8 + data.abilities.int.mod + data.attributes.prof ?? 10;
     this._computePowercastingProgression(this.data);
 
@@ -135,7 +135,7 @@ export default class Actor5e extends Actor {
   getRollData() {
     const data = super.getRollData();
     data.classes = this.data.items.reduce((obj, i) => {
-      if ( i.type === "class" ) {
+      if (i.type === "class") {
         obj[i.name.slugify({strict: true})] = i.data;
       }
       return obj;
@@ -154,7 +154,7 @@ export default class Actor5e extends Actor {
    * @param {number} priorLevel       The previous level of the added class
    * @return {Promise<Item5e[]>}     Array of Item5e entities
    */
-  static async getClassFeatures({className="", archetypeName="", level=1, priorLevel=0}={}) {
+  static async getClassFeatures({className = "", archetypeName = "", level = 1, priorLevel = 0} = {}) {
     className = className.toLowerCase();
     archetypeName = archetypeName.slugify();
 
@@ -164,27 +164,27 @@ export default class Actor5e extends Actor {
 
     // Acquire class features
     let ids = [];
-    for ( let [l, f] of Object.entries(clsConfig.features || {}) ) {
+    for (let [l, f] of Object.entries(clsConfig.features || {})) {
       l = parseInt(l);
-      if ( (l <= level) && (l > priorLevel) ) ids = ids.concat(f);
+      if (l <= level && l > priorLevel) ids = ids.concat(f);
     }
 
     // Acquire archetype features
     const archConfig = clsConfig.archetypes[archetypeName] || {};
-    for ( let [l, f] of Object.entries(archConfig.features || {}) ) {
+    for (let [l, f] of Object.entries(archConfig.features || {})) {
       l = parseInt(l);
-      if ( (l <= level) && (l > priorLevel) ) ids = ids.concat(f);
+      if (l <= level && l > priorLevel) ids = ids.concat(f);
     }
 
     // Load item data for all identified features
     const features = [];
-    for ( let id of ids ) {
+    for (let id of ids) {
       features.push(await fromUuid(id));
     }
 
     // Class powers should always be prepared
-    for ( const feature of features ) {
-      if ( feature.type === "power" ) {
+    for (const feature of features) {
+      if (feature.type === "power") {
         const preparation = feature.data.data.preparation;
         preparation.mode = "always";
         preparation.prepared = true;
@@ -196,10 +196,10 @@ export default class Actor5e extends Actor {
   /* -------------------------------------------- */
 
   /** @override */
-  async updateEmbeddedEntity(embeddedName, data, options={}) {
+  async updateEmbeddedEntity(embeddedName, data, options = {}) {
     const createItems = embeddedName === "OwnedItem" ? await this._createClassFeatures(data) : [];
     let updated = await super.updateEmbeddedEntity(embeddedName, data, options);
-    if ( createItems.length ) await this.createEmbeddedEntity("OwnedItem", createItems);
+    if (createItems.length) await this.createEmbeddedEntity("OwnedItem", createItems);
     return updated;
   }
 
@@ -213,30 +213,30 @@ export default class Actor5e extends Actor {
     let toCreate = [];
     for (let u of updated instanceof Array ? updated : [updated]) {
       const item = this.items.get(u._id);
-      if (!item || (item.data.type !== "class")) continue;
+      if (!item || item.data.type !== "class") continue;
       const updateData = expandObject(u);
       const config = {
         className: updateData.name || item.data.name,
         archetypeName: getProperty(updateData, "data.archetype") || item.data.data.archetype,
         level: getProperty(updateData, "data.levels"),
         priorLevel: item ? item.data.data.levels : 0
-      }
+      };
 
       // Get and create features for an increased class level
       let changed = false;
-      if ( config.level && (config.level > config.priorLevel)) changed = true;
-      if ( config.archetypeName !== item.data.data.archetype ) changed = true;
+      if (config.level && config.level > config.priorLevel) changed = true;
+      if (config.archetypeName !== item.data.data.archetype) changed = true;
 
       // Get features to create
-      if ( changed ) {
+      if (changed) {
         const existing = new Set(this.items.map(i => i.name));
         const features = await Actor5e.getClassFeatures(config);
-        for ( let f of features ) {
-          if ( !existing.has(f.name) ) toCreate.push(f);
+        for (let f of features) {
+          if (!existing.has(f.name)) toCreate.push(f);
         }
       }
     }
-    return toCreate
+    return toCreate;
   }
 
   /* -------------------------------------------- */
@@ -250,14 +250,17 @@ export default class Actor5e extends Actor {
     const data = actorData.data;
 
     // Determine character level and available hit dice based on owned Class items
-    const [level, hd] = actorData.items.reduce((arr, item) => {
-      if ( item.type === "class" ) {
-        const classLevels = parseInt(item.data.levels) || 1;
-        arr[0] += classLevels;
-        arr[1] += classLevels - (parseInt(item.data.hitDiceUsed) || 0);
-      }
-      return arr;
-    }, [0, 0]);
+    const [level, hd] = actorData.items.reduce(
+      (arr, item) => {
+        if (item.type === "class") {
+          const classLevels = parseInt(item.data.levels) || 1;
+          arr[0] += classLevels;
+          arr[1] += classLevels - (parseInt(item.data.hitDiceUsed) || 0);
+        }
+        return arr;
+      },
+      [0, 0]
+    );
     data.details.level = level;
     data.attributes.hd = hd;
 
@@ -269,7 +272,7 @@ export default class Actor5e extends Actor {
     xp.max = this.getLevelExp(level || 1);
     const prior = this.getLevelExp(level - 1 || 0);
     const required = xp.max - prior;
-    const pct = Math.round((xp.value - prior) * 100 / required);
+    const pct = Math.round(((xp.value - prior) * 100) / required);
     xp.pct = Math.clamped(pct, 0, 100);
   }
 
@@ -288,7 +291,7 @@ export default class Actor5e extends Actor {
     data.attributes.prof = Math.floor((Math.max(data.details.cr, 1) + 7) / 4);
 
     // Powercaster Level
-    if ( data.attributes.powercasting && !Number.isNumeric(data.details.powerLevel) ) {
+    if (data.attributes.powercasting && !Number.isNumeric(data.details.powerLevel)) {
       data.details.powerLevel = Math.max(data.details.cr, 1);
     }
   }
@@ -313,7 +316,7 @@ export default class Actor5e extends Actor {
    * @private
    */
   _prepareSkills(actorData, bonuses, checkBonus, originalSkills) {
-    if (actorData.type === 'vehicle') return;
+    if (actorData.type === "vehicle") return;
 
     const data = actorData.data;
     const flags = actorData.flags.sw5e || {};
@@ -323,24 +326,24 @@ export default class Actor5e extends Actor {
     const athlete = flags.remarkableAthlete;
     const joat = flags.jackOfAllTrades;
     const observant = flags.observantFeat;
-    const skillBonus = Number.isNumeric(bonuses.skill) ? parseInt(bonuses.skill) :  0;
+    const skillBonus = Number.isNumeric(bonuses.skill) ? parseInt(bonuses.skill) : 0;
     for (let [id, skl] of Object.entries(data.skills)) {
       skl.value = Math.clamped(Number(skl.value).toNearest(0.5), 0, 2) ?? 0;
       let round = Math.floor;
 
       // Remarkable
-      if ( athlete && (skl.value < 0.5) && feats.remarkableAthlete.abilities.includes(skl.ability) ) {
+      if (athlete && skl.value < 0.5 && feats.remarkableAthlete.abilities.includes(skl.ability)) {
         skl.value = 0.5;
         round = Math.ceil;
       }
 
       // Jack of All Trades
-      if ( joat && (skl.value < 0.5) ) {
+      if (joat && skl.value < 0.5) {
         skl.value = 0.5;
       }
 
       // Polymorph Skill Proficiencies
-      if ( originalSkills ) {
+      if (originalSkills) {
         skl.value = Math.max(skl.value, originalSkills[id].value);
       }
 
@@ -351,7 +354,7 @@ export default class Actor5e extends Actor {
       skl.total = skl.mod + skl.prof + skl.bonus;
 
       // Compute passive bonus
-      const passive = observant && (feats.observantFeat.skills.includes(id)) ? 5 : 0;
+      const passive = observant && feats.observantFeat.skills.includes(id) ? 5 : 0;
       skl.passive = 10 + skl.total + passive;
     }
   }
@@ -362,10 +365,10 @@ export default class Actor5e extends Actor {
    * Prepare data related to the power-casting capabilities of the Actor
    * @private
    */
-  _computePowercastingProgression (actorData) {
-    if (actorData.type === 'vehicle') return;
+  _computePowercastingProgression(actorData) {
+    if (actorData.type === "vehicle") return;
     const powers = actorData.data.powers;
-    const isNPC = actorData.type === 'npc';
+    const isNPC = actorData.type === "npc";
 
     // Translate the list of classes into force and tech power-casting progression
     const forceProgression = {
@@ -394,157 +397,161 @@ export default class Actor5e extends Actor {
     // Tabulate the total power-casting progression
     const classes = this.data.items.filter(i => i.type === "class");
     let priority = 0;
-    for ( let cls of classes ) {
+    for (let cls of classes) {
       const d = cls.data;
-      if ( d.powercasting === "none" ) continue;
+      if (d.powercasting === "none") continue;
       const levels = d.levels;
       const prog = d.powercasting;
 
       switch (prog) {
-        case 'consular': 
+        case "consular":
           priority = 3;
           forceProgression.levels += levels;
-          forceProgression.multi += (SW5E.powerMaxLevel['consular'][19]/9)*levels;
+          forceProgression.multi += (SW5E.powerMaxLevel["consular"][19] / 9) * levels;
           forceProgression.classes++;
           // see if class controls high level forcecasting
-          if ((levels >= forceProgression.maxClassLevels) && (priority > forceProgression.maxClassPriority)){
-            forceProgression.maxClass = 'consular';
+          if (levels >= forceProgression.maxClassLevels && priority > forceProgression.maxClassPriority) {
+            forceProgression.maxClass = "consular";
             forceProgression.maxClassLevels = levels;
             forceProgression.maxClassPriority = priority;
-            forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel['consular'][Math.clamped((levels - 1), 0, 20)];
+            forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel["consular"][Math.clamped(levels - 1, 0, 20)];
           }
           // calculate points and powers known
-          forceProgression.powersKnown += SW5E.powersKnown['consular'][Math.clamped((levels - 1), 0, 20)];
-          forceProgression.points += SW5E.powerPoints['consular'][Math.clamped((levels - 1), 0, 20)];
+          forceProgression.powersKnown += SW5E.powersKnown["consular"][Math.clamped(levels - 1, 0, 20)];
+          forceProgression.points += SW5E.powerPoints["consular"][Math.clamped(levels - 1, 0, 20)];
           break;
-        case 'engineer': 
-          priority = 2
+        case "engineer":
+          priority = 2;
           techProgression.levels += levels;
-          techProgression.multi += (SW5E.powerMaxLevel['engineer'][19]/9)*levels;
+          techProgression.multi += (SW5E.powerMaxLevel["engineer"][19] / 9) * levels;
           techProgression.classes++;
           // see if class controls high level techcasting
-          if ((levels >= techProgression.maxClassLevels) && (priority > techProgression.maxClassPriority)){
-            techProgression.maxClass = 'engineer';
+          if (levels >= techProgression.maxClassLevels && priority > techProgression.maxClassPriority) {
+            techProgression.maxClass = "engineer";
             techProgression.maxClassLevels = levels;
             techProgression.maxClassPriority = priority;
-            techProgression.maxClassPowerLevel = SW5E.powerMaxLevel['engineer'][Math.clamped((levels - 1), 0, 20)];
+            techProgression.maxClassPowerLevel = SW5E.powerMaxLevel["engineer"][Math.clamped(levels - 1, 0, 20)];
           }
-          techProgression.powersKnown += SW5E.powersKnown['engineer'][Math.clamped((levels - 1), 0, 20)];
-          techProgression.points += SW5E.powerPoints['engineer'][Math.clamped((levels - 1), 0, 20)];
+          techProgression.powersKnown += SW5E.powersKnown["engineer"][Math.clamped(levels - 1, 0, 20)];
+          techProgression.points += SW5E.powerPoints["engineer"][Math.clamped(levels - 1, 0, 20)];
           break;
-        case 'guardian': 
+        case "guardian":
           priority = 1;
           forceProgression.levels += levels;
-          forceProgression.multi += (SW5E.powerMaxLevel['guardian'][19]/9)*levels;
+          forceProgression.multi += (SW5E.powerMaxLevel["guardian"][19] / 9) * levels;
           forceProgression.classes++;
           // see if class controls high level forcecasting
-          if ((levels >= forceProgression.maxClassLevels) && (priority > forceProgression.maxClassPriority)){
-            forceProgression.maxClass = 'guardian';
+          if (levels >= forceProgression.maxClassLevels && priority > forceProgression.maxClassPriority) {
+            forceProgression.maxClass = "guardian";
             forceProgression.maxClassLevels = levels;
             forceProgression.maxClassPriority = priority;
-            forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel['guardian'][Math.clamped((levels - 1), 0, 20)];
+            forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel["guardian"][Math.clamped(levels - 1, 0, 20)];
           }
-          forceProgression.powersKnown += SW5E.powersKnown['guardian'][Math.clamped((levels - 1), 0, 20)];
-          forceProgression.points += SW5E.powerPoints['guardian'][Math.clamped((levels - 1), 0, 20)];
+          forceProgression.powersKnown += SW5E.powersKnown["guardian"][Math.clamped(levels - 1, 0, 20)];
+          forceProgression.points += SW5E.powerPoints["guardian"][Math.clamped(levels - 1, 0, 20)];
           break;
-        case 'scout': 
+        case "scout":
           priority = 1;
           techProgression.levels += levels;
-          techProgression.multi += (SW5E.powerMaxLevel['scout'][19]/9)*levels;
+          techProgression.multi += (SW5E.powerMaxLevel["scout"][19] / 9) * levels;
           techProgression.classes++;
           // see if class controls high level techcasting
-          if ((levels >= techProgression.maxClassLevels) && (priority > techProgression.maxClassPriority)){
-            techProgression.maxClass = 'scout';
+          if (levels >= techProgression.maxClassLevels && priority > techProgression.maxClassPriority) {
+            techProgression.maxClass = "scout";
             techProgression.maxClassLevels = levels;
             techProgression.maxClassPriority = priority;
-            techProgression.maxClassPowerLevel = SW5E.powerMaxLevel['scout'][Math.clamped((levels - 1), 0, 20)];
+            techProgression.maxClassPowerLevel = SW5E.powerMaxLevel["scout"][Math.clamped(levels - 1, 0, 20)];
           }
-          techProgression.powersKnown += SW5E.powersKnown['scout'][Math.clamped((levels - 1), 0, 20)];
-          techProgression.points += SW5E.powerPoints['scout'][Math.clamped((levels - 1), 0, 20)];
+          techProgression.powersKnown += SW5E.powersKnown["scout"][Math.clamped(levels - 1, 0, 20)];
+          techProgression.points += SW5E.powerPoints["scout"][Math.clamped(levels - 1, 0, 20)];
           break;
-        case 'sentinel': 
+        case "sentinel":
           priority = 2;
           forceProgression.levels += levels;
-          forceProgression.multi += (SW5E.powerMaxLevel['sentinel'][19]/9)*levels;
+          forceProgression.multi += (SW5E.powerMaxLevel["sentinel"][19] / 9) * levels;
           forceProgression.classes++;
           // see if class controls high level forcecasting
-          if ((levels >= forceProgression.maxClassLevels) && (priority > forceProgression.maxClassPriority)){
-            forceProgression.maxClass = 'sentinel';
+          if (levels >= forceProgression.maxClassLevels && priority > forceProgression.maxClassPriority) {
+            forceProgression.maxClass = "sentinel";
             forceProgression.maxClassLevels = levels;
             forceProgression.maxClassPriority = priority;
-            forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel['sentinel'][Math.clamped((levels - 1), 0, 20)];
+            forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel["sentinel"][Math.clamped(levels - 1, 0, 20)];
           }
-          forceProgression.powersKnown += SW5E.powersKnown['sentinel'][Math.clamped((levels - 1), 0, 20)];
-          forceProgression.points += SW5E.powerPoints['sentinel'][Math.clamped((levels - 1), 0, 20)];
-          break;      }
+          forceProgression.powersKnown += SW5E.powersKnown["sentinel"][Math.clamped(levels - 1, 0, 20)];
+          forceProgression.points += SW5E.powerPoints["sentinel"][Math.clamped(levels - 1, 0, 20)];
+          break;
+      }
     }
 
     // EXCEPTION: multi-classed progression uses multi rounded down rather than levels
     if (!isNPC && forceProgression.classes > 1) {
       forceProgression.levels = Math.floor(forceProgression.multi);
-      forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel['multi'][forceProgression.levels - 1];
+      forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel["multi"][forceProgression.levels - 1];
     }
     if (!isNPC && techProgression.classes > 1) {
       techProgression.levels = Math.floor(techProgression.multi);
-      techProgression.maxClassPowerLevel = SW5E.powerMaxLevel['multi'][techProgression.levels - 1];
+      techProgression.maxClassPowerLevel = SW5E.powerMaxLevel["multi"][techProgression.levels - 1];
     }
-    
+
     // EXCEPTION: NPC with an explicit power-caster level
     if (isNPC && actorData.data.details.powerForceLevel) {
       forceProgression.levels = actorData.data.details.powerForceLevel;
       actorData.data.attributes.force.level = forceProgression.levels;
       forceProgression.maxClass = actorData.data.attributes.powercasting;
-      forceProgression.maxClassPowerLevel = SW5E.powerMaxLevel[forceProgression.maxClass][Math.clamped((forceProgression.levels - 1), 0, 20)];
+      forceProgression.maxClassPowerLevel =
+        SW5E.powerMaxLevel[forceProgression.maxClass][Math.clamped(forceProgression.levels - 1, 0, 20)];
     }
     if (isNPC && actorData.data.details.powerTechLevel) {
       techProgression.levels = actorData.data.details.powerTechLevel;
       actorData.data.attributes.tech.level = techProgression.levels;
       techProgression.maxClass = actorData.data.attributes.powercasting;
-      techProgression.maxClassPowerLevel = SW5E.powerMaxLevel[techProgression.maxClass][Math.clamped((techProgression.levels - 1), 0, 20)];
+      techProgression.maxClassPowerLevel =
+        SW5E.powerMaxLevel[techProgression.maxClass][Math.clamped(techProgression.levels - 1, 0, 20)];
     }
 
     // Look up the number of slots per level from the powerLimit table
-    let forcePowerLimit = Array.from(SW5E.powerLimit['none']);
-    for (let i = 0; i < (forceProgression.maxClassPowerLevel); i++) {
+    let forcePowerLimit = Array.from(SW5E.powerLimit["none"]);
+    for (let i = 0; i < forceProgression.maxClassPowerLevel; i++) {
       forcePowerLimit[i] = SW5E.powerLimit[forceProgression.maxClass][i];
     }
 
-    for ( let [n, lvl] of Object.entries(powers) ) {
+    for (let [n, lvl] of Object.entries(powers)) {
       let i = parseInt(n.slice(-1));
-      if ( Number.isNaN(i) ) continue;
-      if ( Number.isNumeric(lvl.foverride) ) lvl.fmax = Math.max(parseInt(lvl.foverride), 0);
-      else lvl.fmax = forcePowerLimit[i-1] || 0;
-      if (isNPC){
-        lvl.fvalue = lvl.fmax; 
-      }else{
-        lvl.fvalue = Math.min(parseInt(lvl.fvalue || lvl.value || lvl.fmax),lvl.fmax);
+      if (Number.isNaN(i)) continue;
+      if (Number.isNumeric(lvl.foverride)) lvl.fmax = Math.max(parseInt(lvl.foverride), 0);
+      else lvl.fmax = forcePowerLimit[i - 1] || 0;
+      if (isNPC) {
+        lvl.fvalue = lvl.fmax;
+      } else {
+        lvl.fvalue = Math.min(parseInt(lvl.fvalue || lvl.value || lvl.fmax), lvl.fmax);
       }
     }
-    
-    let techPowerLimit = Array.from(SW5E.powerLimit['none']);
-    for (let i = 0; i < (techProgression.maxClassPowerLevel); i++) {
+
+    let techPowerLimit = Array.from(SW5E.powerLimit["none"]);
+    for (let i = 0; i < techProgression.maxClassPowerLevel; i++) {
       techPowerLimit[i] = SW5E.powerLimit[techProgression.maxClass][i];
     }
 
-    for ( let [n, lvl] of Object.entries(powers) ) {
+    for (let [n, lvl] of Object.entries(powers)) {
       let i = parseInt(n.slice(-1));
-      if ( Number.isNaN(i) ) continue;
-      if ( Number.isNumeric(lvl.toverride) ) lvl.tmax = Math.max(parseInt(lvl.toverride), 0);
-      else lvl.tmax = techPowerLimit[i-1] || 0;
-      if (isNPC){
+      if (Number.isNaN(i)) continue;
+      if (Number.isNumeric(lvl.toverride)) lvl.tmax = Math.max(parseInt(lvl.toverride), 0);
+      else lvl.tmax = techPowerLimit[i - 1] || 0;
+      if (isNPC) {
         lvl.tvalue = lvl.tmax;
-      }else{
-        lvl.tvalue = Math.min(parseInt(lvl.tvalue || lvl.value || lvl.tmax),lvl.tmax);
+      } else {
+        lvl.tvalue = Math.min(parseInt(lvl.tvalue || lvl.value || lvl.tmax), lvl.tmax);
       }
     }
 
     // Set Force and tech power for PC Actors
-    if (!isNPC && forceProgression.levels){
+    if (!isNPC && forceProgression.levels) {
       actorData.data.attributes.force.known.max = forceProgression.powersKnown;
-      actorData.data.attributes.force.points.max = forceProgression.points + Math.max(actorData.data.abilities.wis.mod,actorData.data.abilities.cha.mod);
+      actorData.data.attributes.force.points.max =
+        forceProgression.points + Math.max(actorData.data.abilities.wis.mod, actorData.data.abilities.cha.mod);
       actorData.data.attributes.force.level = forceProgression.levels;
     }
-    if (!isNPC && techProgression.levels){
+    if (!isNPC && techProgression.levels) {
       actorData.data.attributes.tech.known.max = techProgression.powersKnown;
       actorData.data.attributes.tech.points.max = techProgression.points + actorData.data.abilities.int.mod;
       actorData.data.attributes.tech.level = techProgression.levels;
@@ -552,24 +559,24 @@ export default class Actor5e extends Actor {
 
     // Tally Powers Known and check for migration first to avoid errors
     let hasKnownPowers = actorData?.data?.attributes?.force?.known?.value !== undefined;
-    if ( hasKnownPowers ) {
+    if (hasKnownPowers) {
       const knownPowers = this.data.items.filter(i => i.type === "power");
       let knownForcePowers = 0;
       let knownTechPowers = 0;
-      for ( let knownPower of knownPowers ) {
+      for (let knownPower of knownPowers) {
         const d = knownPower.data;
-        switch (knownPower.data.school){
+        switch (knownPower.data.school) {
           case "lgt":
           case "uni":
-          case "drk":{
+          case "drk": {
             knownForcePowers++;
             break;
           }
-          case "tec":{
+          case "tec": {
             knownTechPowers++;
             break;
           }
-        } 
+        }
         continue;
       }
       actorData.data.attributes.force.known.value = knownForcePowers;
@@ -589,39 +596,39 @@ export default class Actor5e extends Actor {
    * @private
    */
   _computeEncumbrance(actorData) {
-
     // Get the total weight from items
     const physicalItems = ["weapon", "equipment", "consumable", "tool", "backpack", "loot"];
     let weight = actorData.items.reduce((weight, i) => {
-      if ( !physicalItems.includes(i.type) ) return weight;
+      if (!physicalItems.includes(i.type)) return weight;
       const q = i.data.quantity || 0;
       const w = i.data.weight || 0;
-      return weight + (q * w);
+      return weight + q * w;
     }, 0);
 
     // [Optional] add Currency Weight (for non-transformed actors)
-    if ( game.settings.get("sw5e", "currencyWeight") && actorData.data.currency ) {
+    if (game.settings.get("sw5e", "currencyWeight") && actorData.data.currency) {
       const currency = actorData.data.currency;
-      const numCoins = Object.values(currency).reduce((val, denom) => val += Math.max(denom, 0), 0);
+      const numCoins = Object.values(currency).reduce((val, denom) => (val += Math.max(denom, 0)), 0);
       weight += numCoins / CONFIG.SW5E.encumbrance.currencyPerWeight;
     }
 
     // Determine the encumbrance size class
-    let mod = {
-      tiny: 0.5,
-      sm: 1,
-      med: 1,
-      lg: 2,
-      huge: 4,
-      grg: 8
-    }[actorData.data.traits.size] || 1;
-    if ( this.getFlag("sw5e", "powerfulBuild") ) mod = Math.min(mod * 2, 8);
+    let mod =
+      {
+        tiny: 0.5,
+        sm: 1,
+        med: 1,
+        lg: 2,
+        huge: 4,
+        grg: 8
+      }[actorData.data.traits.size] || 1;
+    if (this.getFlag("sw5e", "powerfulBuild")) mod = Math.min(mod * 2, 8);
 
     // Compute Encumbrance percentage
     weight = weight.toNearest(0.1);
     const max = actorData.data.abilities.str.value * CONFIG.SW5E.encumbrance.strMultiplier * mod;
     const pct = Math.clamped((weight * 100) / max, 0, 100);
-    return { value: weight.toNearest(0.1), max, pct, encumbered: pct > (2/3) };
+    return {value: weight.toNearest(0.1), max, pct, encumbered: pct > 2 / 3};
   }
 
   /* -------------------------------------------- */
@@ -629,16 +636,20 @@ export default class Actor5e extends Actor {
   /* -------------------------------------------- */
 
   /** @override */
-  static async create(data, options={}) {
+  static async create(data, options = {}) {
     data.token = data.token || {};
-    if ( data.type === "character" ) {
-      mergeObject(data.token, {
-        vision: true,
-        dimSight: 30,
-        brightSight: 0,
-        actorLink: true,
-        disposition: 1
-      }, {overwrite: false});
+    if (data.type === "character") {
+      mergeObject(
+        data.token,
+        {
+          vision: true,
+          dimSight: 30,
+          brightSight: 0,
+          actorLink: true,
+          disposition: 1
+        },
+        {overwrite: false}
+      );
     }
     return super.create(data, options);
   }
@@ -646,21 +657,20 @@ export default class Actor5e extends Actor {
   /* -------------------------------------------- */
 
   /** @override */
-  async update(data, options={}) {
-
+  async update(data, options = {}) {
     // Apply changes in Actor size to Token width/height
     const newSize = getProperty(data, "data.traits.size");
-    if ( newSize && (newSize !== getProperty(this.data, "data.traits.size")) ) {
+    if (newSize && newSize !== getProperty(this.data, "data.traits.size")) {
       let size = CONFIG.SW5E.tokenSizes[newSize];
-      if ( this.isToken ) this.token.update({height: size, width: size});
-      else if ( !data["token.width"] && !hasProperty(data, "token.width") ) {
+      if (this.isToken) this.token.update({height: size, width: size});
+      else if (!data["token.width"] && !hasProperty(data, "token.width")) {
         data["token.height"] = size;
         data["token.width"] = size;
       }
     }
 
     // Reset death save counters
-    if ( (this.data.data.attributes.hp.value <= 0) && (getProperty(data, "data.attributes.hp.value") > 0) ) {
+    if (this.data.data.attributes.hp.value <= 0 && getProperty(data, "data.attributes.hp.value") > 0) {
       setProperty(data, "data.attributes.death.success", 0);
       setProperty(data, "data.attributes.death.failure", 0);
     }
@@ -672,10 +682,9 @@ export default class Actor5e extends Actor {
   /* -------------------------------------------- */
 
   /** @override */
-  async createEmbeddedEntity(embeddedName, itemData, options={}) {
-
+  async createEmbeddedEntity(embeddedName, itemData, options = {}) {
     // Pre-creation steps for owned items
-    if ( embeddedName === "OwnedItem" ) this._preCreateOwnedItem(itemData, options);
+    if (embeddedName === "OwnedItem") this._preCreateOwnedItem(itemData, options);
 
     // Standard embedded entity creation
     return super.createEmbeddedEntity(embeddedName, itemData, options);
@@ -690,60 +699,59 @@ export default class Actor5e extends Actor {
    * @private
    */
   _preCreateOwnedItem(itemData, options) {
-    if ( this.data.type === "vehicle" ) return;
-    const isNPC = this.data.type === 'npc';
+    if (this.data.type === "vehicle") return;
+    const isNPC = this.data.type === "npc";
     let initial = {};
-    switch ( itemData.type ) {
-
+    switch (itemData.type) {
       case "weapon":
-        if ( getProperty(itemData, "data.equipped") === undefined ) {
-          initial["data.equipped"] = isNPC;       // NPCs automatically equip weapons
+        if (getProperty(itemData, "data.equipped") === undefined) {
+          initial["data.equipped"] = isNPC; // NPCs automatically equip weapons
         }
-        if ( getProperty(itemData, "data.proficient") === undefined ) {
-          if ( isNPC ) {
-            initial["data.proficient"] = true;    // NPCs automatically have equipment proficiency
+        if (getProperty(itemData, "data.proficient") === undefined) {
+          if (isNPC) {
+            initial["data.proficient"] = true; // NPCs automatically have equipment proficiency
           } else {
             const weaponProf = {
-              "natural": true,
-              "simpleVW": "sim",
-              "simpleB": "sim",
-              "simpleLW": "sim",
-              "martialVW": "mar",
-              "martialB": "mar",
-              "martialLW": "mar"
-            }[itemData.data?.weaponType];         // Player characters check proficiency
+              natural: true,
+              simpleVW: "sim",
+              simpleB: "sim",
+              simpleLW: "sim",
+              martialVW: "mar",
+              martialB: "mar",
+              martialLW: "mar"
+            }[itemData.data?.weaponType]; // Player characters check proficiency
             const actorWeaponProfs = this.data.data.traits?.weaponProf?.value || [];
-            const hasWeaponProf = (weaponProf === true) || actorWeaponProfs.includes(weaponProf);
+            const hasWeaponProf = weaponProf === true || actorWeaponProfs.includes(weaponProf);
             initial["data.proficient"] = hasWeaponProf;
           }
         }
         break;
 
       case "equipment":
-        if ( getProperty(itemData, "data.equipped") === undefined ) {
-          initial["data.equipped"] = isNPC;       // NPCs automatically equip equipment
+        if (getProperty(itemData, "data.equipped") === undefined) {
+          initial["data.equipped"] = isNPC; // NPCs automatically equip equipment
         }
-        if ( getProperty(itemData, "data.proficient") === undefined ) {
-          if ( isNPC ) {
-            initial["data.proficient"] = true;    // NPCs automatically have equipment proficiency
+        if (getProperty(itemData, "data.proficient") === undefined) {
+          if (isNPC) {
+            initial["data.proficient"] = true; // NPCs automatically have equipment proficiency
           } else {
             const armorProf = {
-              "natural": true,
-              "clothing": true,
-              "light": "lgt",
-              "medium": "med",
-              "heavy": "hvy",
-              "shield": "shl"
-            }[itemData.data?.armor?.type];        // Player characters check proficiency
+              natural: true,
+              clothing: true,
+              light: "lgt",
+              medium: "med",
+              heavy: "hvy",
+              shield: "shl"
+            }[itemData.data?.armor?.type]; // Player characters check proficiency
             const actorArmorProfs = this.data.data.traits?.armorProf?.value || [];
-            const hasEquipmentProf = (armorProf === true) || actorArmorProfs.includes(armorProf);
+            const hasEquipmentProf = armorProf === true || actorArmorProfs.includes(armorProf);
             initial["data.proficient"] = hasEquipmentProf;
           }
         }
         break;
 
       case "power":
-        initial["data.prepared"] = true;          // automatically prepare powers for everyone
+        initial["data.prepared"] = true; // automatically prepare powers for everyone
         break;
     }
     mergeObject(itemData, initial);
@@ -755,9 +763,9 @@ export default class Actor5e extends Actor {
 
   /** @override */
   async modifyTokenAttribute(attribute, value, isDelta, isBar) {
-    if ( attribute === "attributes.hp" ) {
+    if (attribute === "attributes.hp") {
       const hp = getProperty(this.data.data, attribute);
-      const delta = isDelta ? (-1 * value) : (hp.value + hp.temp) - value;
+      const delta = isDelta ? -1 * value : hp.value + hp.temp - value;
       return this.applyDamage(delta);
     }
     return super.modifyTokenAttribute(attribute, value, isDelta, isBar);
@@ -771,7 +779,7 @@ export default class Actor5e extends Actor {
    * @param {number} multiplier   A multiplier which allows for resistance, vulnerability, or healing
    * @return {Promise<Actor>}     A Promise which resolves once the damage has been applied
    */
-  async applyDamage(amount=0, multiplier=1) {
+  async applyDamage(amount = 0, multiplier = 1) {
     amount = Math.floor(parseInt(amount) * multiplier);
     const hp = this.data.data.attributes.hp;
 
@@ -791,12 +799,16 @@ export default class Actor5e extends Actor {
 
     // Delegate damage application to a hook
     // TODO replace this in the future with a better modifyTokenAttribute function in the core
-    const allowed = Hooks.call("modifyTokenAttribute", {
-      attribute: "attributes.hp",
-      value: amount,
-      isDelta: false,
-      isBar: true
-    }, updates);
+    const allowed = Hooks.call(
+      "modifyTokenAttribute",
+      {
+        attribute: "attributes.hp",
+        value: amount,
+        isDelta: false,
+        isBar: true
+      },
+      updates
+    );
     return allowed !== false ? this.update(updates) : this;
   }
 
@@ -809,7 +821,7 @@ export default class Actor5e extends Actor {
    * @param {Object} options      Options which configure how the skill check is rolled
    * @return {Promise<Roll>}      A Promise which resolves to the created Roll instance
    */
-  rollSkill(skillId, options={}) {
+  rollSkill(skillId, options = {}) {
     const skl = this.data.data.skills[skillId];
     const bonuses = getProperty(this.data.data, "bonuses.abilities") || {};
 
@@ -818,13 +830,13 @@ export default class Actor5e extends Actor {
     const data = {mod: skl.mod + skl.prof};
 
     // Ability test bonus
-    if ( bonuses.check ) {
+    if (bonuses.check) {
       data["checkBonus"] = bonuses.check;
       parts.push("@checkBonus");
     }
 
     // Skill check bonus
-    if ( bonuses.skill ) {
+    if (bonuses.skill) {
       data["skillBonus"] = bonuses.skill;
       parts.push("@skillBonus");
     }
@@ -835,7 +847,7 @@ export default class Actor5e extends Actor {
     }
 
     // Reliable Talent applies to any skill check we have full or better proficiency in
-    const reliableTalent = (skl.value >= 1 && this.getFlag("sw5e", "reliableTalent"));
+    const reliableTalent = skl.value >= 1 && this.getFlag("sw5e", "reliableTalent");
 
     // Roll and return
     const rollData = mergeObject(options, {
@@ -844,7 +856,7 @@ export default class Actor5e extends Actor {
       title: game.i18n.format("SW5E.SkillPromptTitle", {skill: CONFIG.SW5E.skills[skillId]}),
       halflingLucky: this.getFlag("sw5e", "halflingLucky"),
       reliableTalent: reliableTalent,
-      messageData: {"flags.sw5e.roll": {type: "skill", skillId }}
+      messageData: {"flags.sw5e.roll": {type: "skill", skillId}}
     });
     rollData.speaker = options.speaker || ChatMessage.getSpeaker({actor: this});
     return d20Roll(rollData);
@@ -858,7 +870,7 @@ export default class Actor5e extends Actor {
    * @param {String}abilityId     The ability id (e.g. "str")
    * @param {Object} options      Options which configure how ability tests or saving throws are rolled
    */
-  rollAbility(abilityId, options={}) {
+  rollAbility(abilityId, options = {}) {
     const label = CONFIG.SW5E.abilities[abilityId];
     new Dialog({
       title: game.i18n.format("SW5E.AbilityPromptTitle", {ability: label}),
@@ -885,7 +897,7 @@ export default class Actor5e extends Actor {
    * @param {Object} options      Options which configure how ability tests are rolled
    * @return {Promise<Roll>}      A Promise which resolves to the created Roll instance
    */
-  rollAbilityTest(abilityId, options={}) {
+  rollAbilityTest(abilityId, options = {}) {
     const label = CONFIG.SW5E.abilities[abilityId];
     const abl = this.data.data.abilities[abilityId];
 
@@ -895,18 +907,17 @@ export default class Actor5e extends Actor {
 
     // Add feat-related proficiency bonuses
     const feats = this.data.flags.sw5e || {};
-    if ( feats.remarkableAthlete && SW5E.characterFlags.remarkableAthlete.abilities.includes(abilityId) ) {
+    if (feats.remarkableAthlete && SW5E.characterFlags.remarkableAthlete.abilities.includes(abilityId)) {
       parts.push("@proficiency");
       data.proficiency = Math.ceil(0.5 * this.data.data.attributes.prof);
-    }
-    else if ( feats.jackOfAllTrades ) {
+    } else if (feats.jackOfAllTrades) {
       parts.push("@proficiency");
       data.proficiency = Math.floor(0.5 * this.data.data.attributes.prof);
     }
 
     // Add global actor bonus
     const bonuses = getProperty(this.data.data, "bonuses.abilities") || {};
-    if ( bonuses.check ) {
+    if (bonuses.check) {
       parts.push("@checkBonus");
       data.checkBonus = bonuses.check;
     }
@@ -922,7 +933,7 @@ export default class Actor5e extends Actor {
       data: data,
       title: game.i18n.format("SW5E.AbilityPromptTitle", {ability: label}),
       halflingLucky: feats.halflingLucky,
-      messageData: {"flags.sw5e.roll": {type: "ability", abilityId }}
+      messageData: {"flags.sw5e.roll": {type: "ability", abilityId}}
     });
     rollData.speaker = options.speaker || ChatMessage.getSpeaker({actor: this});
     return d20Roll(rollData);
@@ -937,7 +948,7 @@ export default class Actor5e extends Actor {
    * @param {Object} options      Options which configure how ability tests are rolled
    * @return {Promise<Roll>}      A Promise which resolves to the created Roll instance
    */
-  rollAbilitySave(abilityId, options={}) {
+  rollAbilitySave(abilityId, options = {}) {
     const label = CONFIG.SW5E.abilities[abilityId];
     const abl = this.data.data.abilities[abilityId];
 
@@ -946,14 +957,14 @@ export default class Actor5e extends Actor {
     const data = {mod: abl.mod};
 
     // Include proficiency bonus
-    if ( abl.prof > 0 ) {
+    if (abl.prof > 0) {
       parts.push("@prof");
       data.prof = abl.prof;
     }
 
     // Include a global actor ability save bonus
     const bonuses = getProperty(this.data.data, "bonuses.abilities") || {};
-    if ( bonuses.save ) {
+    if (bonuses.save) {
       parts.push("@saveBonus");
       data.saveBonus = bonuses.save;
     }
@@ -969,7 +980,7 @@ export default class Actor5e extends Actor {
       data: data,
       title: game.i18n.format("SW5E.SavePromptTitle", {ability: label}),
       halflingLucky: this.getFlag("sw5e", "halflingLucky"),
-      messageData: {"flags.sw5e.roll": {type: "save", abilityId }}
+      messageData: {"flags.sw5e.roll": {type: "save", abilityId}}
     });
     rollData.speaker = options.speaker || ChatMessage.getSpeaker({actor: this});
     return d20Roll(rollData);
@@ -982,11 +993,10 @@ export default class Actor5e extends Actor {
    * @param {Object} options        Additional options which modify the roll
    * @return {Promise<Roll|null>}   A Promise which resolves to the Roll instance
    */
-  async rollDeathSave(options={}) {
-
+  async rollDeathSave(options = {}) {
     // Display a warning if we are not at zero HP or if we already have reached 3
     const death = this.data.data.attributes.death;
-    if ( (this.data.data.attributes.hp.value > 0) || (death.failure >= 3) || (death.success >= 3)) {
+    if (this.data.data.attributes.hp.value > 0 || death.failure >= 3 || death.success >= 3) {
       ui.notifications.warn(game.i18n.localize("SW5E.DeathSaveUnnecessary"));
       return null;
     }
@@ -998,7 +1008,7 @@ export default class Actor5e extends Actor {
 
     // Include a global actor ability save bonus
     const bonuses = getProperty(this.data.data, "bonuses.abilities") || {};
-    if ( bonuses.save ) {
+    if (bonuses.save) {
       parts.push("@saveBonus");
       data.saveBonus = bonuses.save;
     }
@@ -1015,28 +1025,31 @@ export default class Actor5e extends Actor {
     });
     rollData.speaker = speaker;
     const roll = await d20Roll(rollData);
-    if ( !roll ) return null;
+    if (!roll) return null;
 
     // Take action depending on the result
     const success = roll.total >= 10;
     const d20 = roll.dice[0].total;
 
     // Save success
-    if ( success ) {
+    if (success) {
       let successes = (death.success || 0) + 1;
 
       // Critical Success = revive with 1hp
-      if ( d20 === 20 ) {
+      if (d20 === 20) {
         await this.update({
           "data.attributes.death.success": 0,
           "data.attributes.death.failure": 0,
           "data.attributes.hp.value": 1
         });
-        await ChatMessage.create({content: game.i18n.format("SW5E.DeathSaveCriticalSuccess", {name: this.name}), speaker});
+        await ChatMessage.create({
+          content: game.i18n.format("SW5E.DeathSaveCriticalSuccess", {name: this.name}),
+          speaker
+        });
       }
 
       // 3 Successes = survive and reset checks
-      else if ( successes === 3 ) {
+      else if (successes === 3) {
         await this.update({
           "data.attributes.death.success": 0,
           "data.attributes.death.failure": 0
@@ -1052,7 +1065,8 @@ export default class Actor5e extends Actor {
     else {
       let failures = (death.failure || 0) + (d20 === 1 ? 2 : 1);
       await this.update({"data.attributes.death.failure": Math.clamped(failures, 0, 3)});
-      if ( failures >= 3 ) {  // 3 Failures = death
+      if (failures >= 3) {
+        // 3 Failures = death
         await ChatMessage.create({content: game.i18n.format("SW5E.DeathSaveFailure", {name: this.name}), speaker});
       }
     }
@@ -1070,13 +1084,12 @@ export default class Actor5e extends Actor {
    * @param {boolean} [dialog]        Show a dialog prompt for configuring the hit die roll?
    * @return {Promise<Roll|null>}     The created Roll instance, or null if no hit die was rolled
    */
-  async rollHitDie(denomination, {dialog=true}={}) {
-
+  async rollHitDie(denomination, {dialog = true} = {}) {
     // If no denomination was provided, choose the first available
     let cls = null;
-    if ( !denomination ) {
+    if (!denomination) {
       cls = this.itemTypes.class.find(c => c.data.data.hitDiceUsed < c.data.data.levels);
-      if ( !cls ) return null;
+      if (!cls) return null;
       denomination = cls.data.data.hitDice;
     }
 
@@ -1084,12 +1097,12 @@ export default class Actor5e extends Actor {
     else {
       cls = this.items.find(i => {
         const d = i.data.data;
-        return (d.hitDice === denomination) && ((d.hitDiceUsed || 0) < (d.levels || 1));
+        return d.hitDice === denomination && (d.hitDiceUsed || 0) < (d.levels || 1);
       });
     }
 
     // If no class is available, display an error notification
-    if ( !cls ) {
+    if (!cls) {
       ui.notifications.error(game.i18n.format("SW5E.HitDiceWarn", {name: this.name, formula: denomination}));
       return null;
     }
@@ -1111,7 +1124,7 @@ export default class Actor5e extends Actor {
       dialogOptions: {width: 350},
       messageData: {"flags.sw5e.roll": {type: "hitDie"}}
     });
-    if ( !roll ) return null;
+    if (!roll) return null;
 
     // Adjust actor data
     await cls.update({"data.hitDiceUsed": cls.data.data.hitDiceUsed + 1});
@@ -1132,8 +1145,7 @@ export default class Actor5e extends Actor {
    * @param {boolean} autoHDThreshold   A number of missing hit points which would trigger an automatic HD roll
    * @return {Promise}        A Promise which resolves once the short rest workflow has completed
    */
-  async shortRest({dialog=true, chat=true, autoHD=false, autoHDThreshold=3}={}) {
-
+  async shortRest({dialog = true, chat = true, autoHD = false, autoHDThreshold = 3} = {}) {
     // Take note of the initial hit points and number of hit dice the Actor has
     const hp = this.data.data.attributes.hp;
     const hd0 = this.data.data.attributes.hd;
@@ -1141,19 +1153,19 @@ export default class Actor5e extends Actor {
     let newDay = false;
 
     // Display a Dialog for rolling hit dice
-    if ( dialog ) {
+    if (dialog) {
       try {
         newDay = await ShortRestDialog.shortRestDialog({actor: this, canRoll: hd0 > 0});
-      } catch(err) {
+      } catch (err) {
         return;
       }
     }
 
     // Automatically spend hit dice
-    else if ( autoHD ) {
-      while ( (hp.value + autoHDThreshold) <= hp.max ) {
+    else if (autoHD) {
+      while (hp.value + autoHDThreshold <= hp.max) {
         const r = await this.rollHitDie(undefined, {dialog: false});
-        if ( r === null ) break;
+        if (r === null) break;
       }
     }
 
@@ -1164,11 +1176,11 @@ export default class Actor5e extends Actor {
 
     // Automatically Retore Tech Points
     this.update({"data.attributes.tech.points.value": this.data.data.attributes.tech.points.max});
-    
+
     // Recover character resources
     const updateData = {};
-    for ( let [k, r] of Object.entries(this.data.data.resources) ) {
-      if ( r.max && r.sr ) {
+    for (let [k, r] of Object.entries(this.data.data.resources)) {
+      if (r.max && r.sr) {
         updateData[`data.resources.${k}.value`] = r.max;
       }
     }
@@ -1185,29 +1197,34 @@ export default class Actor5e extends Actor {
     await this.updateEmbeddedEntity("OwnedItem", updateItems);
 
     // Display a Chat Message summarizing the rest effects
-    if ( chat ) {
-
+    if (chat) {
       // Summarize the rest duration
       let restFlavor;
       switch (game.settings.get("sw5e", "restVariant")) {
-        case 'normal': restFlavor = game.i18n.localize("SW5E.ShortRestNormal"); break;
-        case 'gritty': restFlavor = game.i18n.localize(newDay ? "SW5E.ShortRestOvernight" : "SW5E.ShortRestGritty"); break;
-        case 'epic':  restFlavor = game.i18n.localize("SW5E.ShortRestEpic"); break;
+        case "normal":
+          restFlavor = game.i18n.localize("SW5E.ShortRestNormal");
+          break;
+        case "gritty":
+          restFlavor = game.i18n.localize(newDay ? "SW5E.ShortRestOvernight" : "SW5E.ShortRestGritty");
+          break;
+        case "epic":
+          restFlavor = game.i18n.localize("SW5E.ShortRestEpic");
+          break;
       }
 
       // Summarize the health effects
       let srMessage = "SW5E.ShortRestResultShort";
-      if ((dhd !== 0) && (dhp !== 0)){
-        if (dtp !== 0){
+      if (dhd !== 0 && dhp !== 0) {
+        if (dtp !== 0) {
           srMessage = "SW5E.ShortRestResultWithTech";
-        }else{
+        } else {
           srMessage = "SW5E.ShortRestResult";
         }
-      }else{
-        if (dtp !== 0){
+      } else {
+        if (dtp !== 0) {
           srMessage = "SW5E.ShortRestResultOnlyTech";
         }
-      }  
+      }
 
       // Create a chat message
       ChatMessage.create({
@@ -1226,7 +1243,7 @@ export default class Actor5e extends Actor {
       updateData: updateData,
       updateItems: updateItems,
       newDay: newDay
-    }
+    };
   }
 
   /* -------------------------------------------- */
@@ -1238,14 +1255,14 @@ export default class Actor5e extends Actor {
    * @param {boolean} newDay  Whether the long rest carries over to a new day
    * @return {Promise}        A Promise which resolves once the long rest workflow has completed
    */
-  async longRest({dialog=true, chat=true, newDay=true}={}) {
+  async longRest({dialog = true, chat = true, newDay = true} = {}) {
     const data = this.data.data;
 
     // Maybe present a confirmation dialog
-    if ( dialog ) {
+    if (dialog) {
       try {
         newDay = await LongRestDialog.longRestDialog({actor: this});
-      } catch(err) {
+      } catch (err) {
         return;
       }
     }
@@ -1267,65 +1284,73 @@ export default class Actor5e extends Actor {
     };
 
     // Recover character resources
-    for ( let [k, r] of Object.entries(data.resources) ) {
-      if ( r.max && (r.sr || r.lr) ) {
+    for (let [k, r] of Object.entries(data.resources)) {
+      if (r.max && (r.sr || r.lr)) {
         updateData[`data.resources.${k}.value`] = r.max;
       }
     }
 
     // Recover power slots
-    for ( let [k, v] of Object.entries(data.powers) ) {
-      updateData[`data.powers.${k}.fvalue`] = Number.isNumeric(v.foverride) ? v.foverride : (v.fmax ?? 0);
+    for (let [k, v] of Object.entries(data.powers)) {
+      updateData[`data.powers.${k}.fvalue`] = Number.isNumeric(v.foverride) ? v.foverride : v.fmax ?? 0;
     }
-    for ( let [k, v] of Object.entries(data.powers) ) {
-      updateData[`data.powers.${k}.tvalue`] = Number.isNumeric(v.toverride) ? v.toverride : (v.tmax ?? 0);
+    for (let [k, v] of Object.entries(data.powers)) {
+      updateData[`data.powers.${k}.tvalue`] = Number.isNumeric(v.toverride) ? v.toverride : v.tmax ?? 0;
     }
     // Determine the number of hit dice which may be recovered
     let recoverHD = Math.max(Math.floor(data.details.level / 2), 1);
     let dhd = 0;
 
     // Sort classes which can recover HD, assuming players prefer recovering larger HD first.
-    const updateItems = this.items.filter(item => item.data.type === "class").sort((a, b) => {
-      let da = parseInt(a.data.data.hitDice.slice(1)) || 0;
-      let db = parseInt(b.data.data.hitDice.slice(1)) || 0;
-      return db - da;
-    }).reduce((updates, item) => {
-      const d = item.data.data;
-      if ( (recoverHD > 0) && (d.hitDiceUsed > 0) ) {
-        let delta = Math.min(d.hitDiceUsed || 0, recoverHD);
-        recoverHD -= delta;
-        dhd += delta;
-        updates.push({_id: item.id, "data.hitDiceUsed": d.hitDiceUsed - delta});
-      }
-      return updates;
-    }, []);
+    const updateItems = this.items
+      .filter(item => item.data.type === "class")
+      .sort((a, b) => {
+        let da = parseInt(a.data.data.hitDice.slice(1)) || 0;
+        let db = parseInt(b.data.data.hitDice.slice(1)) || 0;
+        return db - da;
+      })
+      .reduce((updates, item) => {
+        const d = item.data.data;
+        if (recoverHD > 0 && d.hitDiceUsed > 0) {
+          let delta = Math.min(d.hitDiceUsed || 0, recoverHD);
+          recoverHD -= delta;
+          dhd += delta;
+          updates.push({_id: item.id, "data.hitDiceUsed": d.hitDiceUsed - delta});
+        }
+        return updates;
+      }, []);
 
     // Iterate over owned items, restoring uses per day and recovering Hit Dice
     const recovery = newDay ? ["sr", "lr", "day"] : ["sr", "lr"];
-    for ( let item of this.items ) {
+    for (let item of this.items) {
       const d = item.data.data;
-      if ( d.uses && recovery.includes(d.uses.per) ) {
+      if (d.uses && recovery.includes(d.uses.per)) {
         updateItems.push({_id: item.id, "data.uses.value": d.uses.max});
-      }
-      else if ( d.recharge && d.recharge.value ) {
+      } else if (d.recharge && d.recharge.value) {
         updateItems.push({_id: item.id, "data.recharge.charged": true});
       }
     }
 
     // Perform the updates
     await this.update(updateData);
-    if ( updateItems.length ) await this.updateEmbeddedEntity("OwnedItem", updateItems);
+    if (updateItems.length) await this.updateEmbeddedEntity("OwnedItem", updateItems);
 
     // Display a Chat Message summarizing the rest effects
     let restFlavor;
     switch (game.settings.get("sw5e", "restVariant")) {
-      case 'normal': restFlavor = game.i18n.localize(newDay ? "SW5E.LongRestOvernight" : "SW5E.LongRestNormal"); break;
-      case 'gritty': restFlavor = game.i18n.localize("SW5E.LongRestGritty"); break;
-      case 'epic':  restFlavor = game.i18n.localize("SW5E.LongRestEpic"); break;
+      case "normal":
+        restFlavor = game.i18n.localize(newDay ? "SW5E.LongRestOvernight" : "SW5E.LongRestNormal");
+        break;
+      case "gritty":
+        restFlavor = game.i18n.localize("SW5E.LongRestGritty");
+        break;
+      case "epic":
+        restFlavor = game.i18n.localize("SW5E.LongRestEpic");
+        break;
     }
 
     // Determine the chat message to display
-    if ( chat ) {
+    if (chat) {
       let lrMessage = "SW5E.LongRestResult";
       if (dhp !== 0) lrMessage += "HP";
       if (dfp !== 0) lrMessage += "FP";
@@ -1348,11 +1373,10 @@ export default class Actor5e extends Actor {
       updateData: updateData,
       updateItems: updateItems,
       newDay: newDay
-    }
+    };
   }
 
   /* -------------------------------------------- */
-
 
   /**
    * Transform this Actor into another one.
@@ -1372,13 +1396,27 @@ export default class Actor5e extends Actor {
    * @param {boolean} [keepVision] Keep vision
    * @param {boolean} [transformTokens] Transform linked tokens too
    */
-  async transformInto(target, { keepPhysical=false, keepMental=false, keepSaves=false, keepSkills=false,
-    mergeSaves=false, mergeSkills=false, keepClass=false, keepFeats=false, keepPowers=false,
-    keepItems=false, keepBio=false, keepVision=false, transformTokens=true}={}) {
-
+  async transformInto(
+    target,
+    {
+      keepPhysical = false,
+      keepMental = false,
+      keepSaves = false,
+      keepSkills = false,
+      mergeSaves = false,
+      mergeSkills = false,
+      keepClass = false,
+      keepFeats = false,
+      keepPowers = false,
+      keepItems = false,
+      keepBio = false,
+      keepVision = false,
+      transformTokens = true
+    } = {}
+  ) {
     // Ensure the player is allowed to polymorph
     const allowed = game.settings.get("sw5e", "allowPolymorphing");
-    if ( !allowed && !game.user.isGM ) {
+    if (!allowed && !game.user.isGM) {
       return ui.notifications.warn(game.i18n.localize("SW5E.PolymorphWarn"));
     }
 
@@ -1415,53 +1453,55 @@ export default class Actor5e extends Actor {
     d.data.powers = o.data.powers; // Keep power slots
 
     // Handle wildcard
-    if ( source.token.randomImg ) {
+    if (source.token.randomImg) {
       const images = await target.getTokenImages();
       d.token.img = images[Math.floor(Math.random() * images.length)];
     }
 
     // Keep Token configurations
     const tokenConfig = ["displayName", "vision", "actorLink", "disposition", "displayBars", "bar1", "bar2"];
-    if ( keepVision ) {
-      tokenConfig.push(...['dimSight', 'brightSight', 'dimLight', 'brightLight', 'vision', 'sightAngle']);
+    if (keepVision) {
+      tokenConfig.push(...["dimSight", "brightSight", "dimLight", "brightLight", "vision", "sightAngle"]);
     }
-    for ( let c of tokenConfig ) {
+    for (let c of tokenConfig) {
       d.token[c] = o.token[c];
     }
 
     // Transfer ability scores
     const abilities = d.data.abilities;
-    for ( let k of Object.keys(abilities) ) {
+    for (let k of Object.keys(abilities)) {
       const oa = o.data.abilities[k];
       const prof = abilities[k].proficient;
-      if ( keepPhysical && ["str", "dex", "con"].includes(k) ) abilities[k] = oa;
-      else if ( keepMental && ["int", "wis", "cha"].includes(k) ) abilities[k] = oa;
-      if ( keepSaves ) abilities[k].proficient = oa.proficient;
-      else if ( mergeSaves ) abilities[k].proficient = Math.max(prof, oa.proficient);
+      if (keepPhysical && ["str", "dex", "con"].includes(k)) abilities[k] = oa;
+      else if (keepMental && ["int", "wis", "cha"].includes(k)) abilities[k] = oa;
+      if (keepSaves) abilities[k].proficient = oa.proficient;
+      else if (mergeSaves) abilities[k].proficient = Math.max(prof, oa.proficient);
     }
 
     // Transfer skills
-    if ( keepSkills ) d.data.skills = o.data.skills;
-    else if ( mergeSkills ) {
-      for ( let [k, s] of Object.entries(d.data.skills) ) {
+    if (keepSkills) d.data.skills = o.data.skills;
+    else if (mergeSkills) {
+      for (let [k, s] of Object.entries(d.data.skills)) {
         s.value = Math.max(s.value, o.data.skills[k].value);
       }
     }
 
     // Keep specific items from the original data
-    d.items = d.items.concat(o.items.filter(i => {
-      if ( i.type === "class" ) return keepClass;
-      else if ( i.type === "feat" ) return keepFeats;
-      else if ( i.type === "power" ) return keepPowers;
-      else return keepItems;
-    }));
+    d.items = d.items.concat(
+      o.items.filter(i => {
+        if (i.type === "class") return keepClass;
+        else if (i.type === "feat") return keepFeats;
+        else if (i.type === "power") return keepPowers;
+        else return keepItems;
+      })
+    );
 
     // Transfer classes for NPCs
     if (!keepClass && d.data.details.cr) {
       d.items.push({
-        type: 'class',
-        name: game.i18n.localize('SW5E.PolymorphTmpClass'),
-        data: { levels: d.data.details.cr }
+        type: "class",
+        name: game.i18n.localize("SW5E.PolymorphTmpClass"),
+        data: {levels: d.data.details.cr}
       });
     }
 
@@ -1472,7 +1512,7 @@ export default class Actor5e extends Actor {
     if (keepVision) d.data.traits.senses = o.data.traits.senses;
 
     // Set new data flags
-    if ( !this.isPolymorphed || !d.flags.sw5e.originalActor ) d.flags.sw5e.originalActor = this.id;
+    if (!this.isPolymorphed || !d.flags.sw5e.originalActor) d.flags.sw5e.originalActor = this.id;
     d.flags.sw5e.isPolymorphed = true;
 
     // Update unlinked Tokens in place since they can simply be re-dropped from the base actor
@@ -1485,18 +1525,29 @@ export default class Actor5e extends Actor {
 
     // Update regular Actors by creating a new Actor with the Polymorphed data
     await this.sheet.close();
-    Hooks.callAll('sw5e.transformActor', this, target, d, {
-      keepPhysical, keepMental, keepSaves, keepSkills, mergeSaves, mergeSkills,
-      keepClass, keepFeats, keepPowers, keepItems, keepBio, keepVision, transformTokens
+    Hooks.callAll("sw5e.transformActor", this, target, d, {
+      keepPhysical,
+      keepMental,
+      keepSaves,
+      keepSkills,
+      mergeSaves,
+      mergeSkills,
+      keepClass,
+      keepFeats,
+      keepPowers,
+      keepItems,
+      keepBio,
+      keepVision,
+      transformTokens
     });
     const newActor = await this.constructor.create(d, {renderSheet: true});
 
     // Update placed Token instances
-    if ( !transformTokens ) return;
+    if (!transformTokens) return;
     const tokens = this.getActiveTokens(true);
     const updates = tokens.map(t => {
       const newTokenData = duplicate(d.token);
-      if ( !t.data.actorLink ) newTokenData.actorData = newActor.data;
+      if (!t.data.actorLink) newTokenData.actorData = newActor.data;
       newTokenData._id = t.data._id;
       newTokenData.actorId = newActor.id;
       return newTokenData;
@@ -1512,13 +1563,13 @@ export default class Actor5e extends Actor {
    * we can safely just delete this actor.
    */
   async revertOriginalForm() {
-    if ( !this.isPolymorphed ) return;
-    if ( !this.owner ) {
+    if (!this.isPolymorphed) return;
+    if (!this.owner) {
       return ui.notifications.warn(game.i18n.localize("SW5E.PolymorphRevertWarn"));
     }
 
     // If we are reverting an unlinked token, simply replace it with the base actor prototype
-    if ( this.isToken ) {
+    if (this.isToken) {
       const baseActor = game.actors.get(this.token.data.actorId);
       const prototypeTokenData = duplicate(baseActor.token);
       prototypeTokenData.actorData = null;
@@ -1526,11 +1577,11 @@ export default class Actor5e extends Actor {
     }
 
     // Obtain a reference to the original actor
-    const original = game.actors.get(this.getFlag('sw5e', 'originalActor'));
-    if ( !original ) return;
+    const original = game.actors.get(this.getFlag("sw5e", "originalActor"));
+    if (!original) return;
 
     // Get the Tokens which represent this actor
-    if ( canvas.ready ) {
+    if (canvas.ready) {
       const tokens = this.getActiveTokens(true);
       const tokenUpdates = tokens.map(t => {
         const tokenData = duplicate(original.data.token);
@@ -1543,7 +1594,7 @@ export default class Actor5e extends Actor {
 
     // Delete the polymorphed Actor and maybe re-render the original sheet
     const isRendered = this.sheet.rendered;
-    if ( game.user.isGM ) await this.delete();
+    if (game.user.isGM) await this.delete();
     original.sheet.render(isRendered);
     return original;
   }
@@ -1557,16 +1608,16 @@ export default class Actor5e extends Actor {
    */
   static addDirectoryContextOptions(html, entryOptions) {
     entryOptions.push({
-      name: 'SW5E.PolymorphRestoreTransformation',
+      name: "SW5E.PolymorphRestoreTransformation",
       icon: '<i class="fas fa-backward"></i>',
       callback: li => {
-        const actor = game.actors.get(li.data('entityId'));
+        const actor = game.actors.get(li.data("entityId"));
         return actor.revertOriginalForm();
       },
       condition: li => {
         const allowed = game.settings.get("sw5e", "allowPolymorphing");
-        if ( !allowed && !game.user.isGM ) return false;
-        const actor = game.actors.get(li.data('entityId'));
+        if (!allowed && !game.user.isGM) return false;
+        const actor = game.actors.get(li.data("entityId"));
         return actor && actor.isPolymorphed;
       }
     });
@@ -1580,7 +1631,9 @@ export default class Actor5e extends Actor {
    * @deprecated since sw5e 0.97
    */
   getPowerDC(ability) {
-    console.warn(`The Actor5e#getPowerDC(ability) method has been deprecated in favor of Actor5e#data.data.abilities[ability].dc`);
+    console.warn(
+      `The Actor5e#getPowerDC(ability) method has been deprecated in favor of Actor5e#data.data.abilities[ability].dc`
+    );
     return this.data.data.abilities[ability]?.dc;
   }
 
@@ -1592,9 +1645,9 @@ export default class Actor5e extends Actor {
    * @param {Event} event   The originating user interaction which triggered the cast
    * @deprecated since sw5e 1.2.0
    */
-  async usePower(item, {configureDialog=true}={}) {
+  async usePower(item, {configureDialog = true} = {}) {
     console.warn(`The Actor5e#usePower method has been deprecated in favor of Item5e#roll`);
-    if ( item.data.type !== "power" ) throw new Error("Wrong Item type");
+    if (item.data.type !== "power") throw new Error("Wrong Item type");
     return item.roll();
   }
 }

@@ -1,5 +1,5 @@
 import TraitSelector from "../apps/trait-selector.js";
-import { onManageActiveEffect, prepareActiveEffectCategories } from "../effects.js";
+import {onManageActiveEffect, prepareActiveEffectCategories} from "../effects.js";
 
 /**
  * Override and extend the core ItemSheet implementation to handle specific item types
@@ -26,7 +26,7 @@ export default class ItemSheet5e extends ItemSheet {
       classes: ["sw5e", "sheet", "item"],
       resizable: true,
       scrollY: [".tab.details"],
-      tabs: [{ navSelector: ".tabs", contentSelector: ".sheet-body", initial: "description" }]
+      tabs: [{navSelector: ".tabs", contentSelector: ".sheet-body", initial: "description"}]
     });
   }
 
@@ -96,7 +96,7 @@ export default class ItemSheet5e extends ItemSheet {
           }
           return ammo;
         },
-        { [item._id]: `${item.name} (${item.data.quantity})` }
+        {[item._id]: `${item.name} (${item.data.quantity})`}
       );
     }
 
@@ -127,8 +127,8 @@ export default class ItemSheet5e extends ItemSheet {
         if (uses.per && uses.max) {
           const label =
             uses.per === "charges"
-              ? ` (${game.i18n.format("SW5E.AbilityUseChargesLabel", { value: uses.value })})`
-              : ` (${game.i18n.format("SW5E.AbilityUseConsumableLabel", { max: uses.max, per: uses.per })})`;
+              ? ` (${game.i18n.format("SW5E.AbilityUseChargesLabel", {value: uses.value})})`
+              : ` (${game.i18n.format("SW5E.AbilityUseConsumableLabel", {max: uses.max, per: uses.per})})`;
           obj[i.id] = i.name + label;
         }
 
@@ -171,8 +171,8 @@ export default class ItemSheet5e extends ItemSheet {
     if (item.type === "weapon") {
       props.push(
         ...Object.entries(item.data.properties)
-          .filter((e) => e[1] === true)
-          .map((e) => CONFIG.SW5E.weaponProperties[e[0]])
+          .filter(e => e[1] === true)
+          .map(e => CONFIG.SW5E.weaponProperties[e[0]])
       );
     } else if (item.type === "power") {
       props.push(
@@ -211,7 +211,7 @@ export default class ItemSheet5e extends ItemSheet {
     if (item.type !== "weapon" && item.data.activation && !isObjectEmpty(item.data.activation)) {
       props.push(labels.activation, labels.range, labels.target, labels.duration);
     }
-    return props.filter((p) => !!p);
+    return props.filter(p => !!p);
   }
 
   /* -------------------------------------------- */
@@ -249,14 +249,14 @@ export default class ItemSheet5e extends ItemSheet {
   /** @override */
   _getSubmitData(updateData = {}) {
     // Create the expanded update data object
-    const fd = new FormDataExtended(this.form, { editors: this.editors });
+    const fd = new FormDataExtended(this.form, {editors: this.editors});
     let data = fd.toObject();
     if (updateData) data = mergeObject(data, updateData);
     else data = expandObject(data);
 
     // Handle Damage array
     const damage = data.data?.damage;
-    if (damage) damage.parts = Object.values(damage?.parts || {}).map((d) => [d[0] || "", d[1] || ""]);
+    if (damage) damage.parts = Object.values(damage?.parts || {}).map(d => [d[0] || "", d[1] || ""]);
 
     // Return the flattened submission data
     return flattenObject(data);
@@ -270,7 +270,7 @@ export default class ItemSheet5e extends ItemSheet {
     if (this.isEditable) {
       html.find(".damage-control").click(this._onDamageControl.bind(this));
       html.find(".trait-selector.class-skills").click(this._onConfigureClassSkills.bind(this));
-      html.find(".effect-control").click((ev) => {
+      html.find(".effect-control").click(ev => {
         if (this.item.isOwned)
           return ui.notifications.warn(
             "Managing Active Effects within an Owned Item is not currently supported and will be added in a subsequent update."
@@ -296,7 +296,7 @@ export default class ItemSheet5e extends ItemSheet {
     if (a.classList.contains("add-damage")) {
       await this._onSubmit(event); // Submit any unsaved changes
       const damage = this.item.data.data.damage;
-      return this.item.update({ "data.damage.parts": damage.parts.concat([["", ""]]) });
+      return this.item.update({"data.damage.parts": damage.parts.concat([["", ""]])});
     }
 
     // Remove a damage component
@@ -305,7 +305,7 @@ export default class ItemSheet5e extends ItemSheet {
       const li = a.closest(".damage-part");
       const damage = duplicate(this.item.data.data.damage);
       damage.parts.splice(Number(li.dataset.damagePart), 1);
-      return this.item.update({ "data.damage.parts": damage.parts });
+      return this.item.update({"data.damage.parts": damage.parts});
     }
   }
 

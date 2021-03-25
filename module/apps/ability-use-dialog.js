@@ -3,7 +3,7 @@
  * @type {Dialog}
  */
 export default class AbilityUseDialog extends Dialog {
-  constructor(item, dialogData={}, options={}) {
+  constructor(item, dialogData = {}, options = {}) {
     super(dialogData, options);
     this.options.classes = ["sw5e", "dialog"];
 
@@ -25,7 +25,7 @@ export default class AbilityUseDialog extends Dialog {
    * @return {Promise}
    */
   static async create(item) {
-    if ( !item.isOwned ) throw new Error("You cannot display an ability usage dialog for an unowned item");
+    if (!item.isOwned) throw new Error("You cannot display an ability usage dialog for an unowned item");
 
     // Prepare data
     const actorData = item.actor.data.data;
@@ -34,7 +34,7 @@ export default class AbilityUseDialog extends Dialog {
     const quantity = itemData.quantity || 0;
     const recharge = itemData.recharge || {};
     const recharges = !!recharge.value;
-    const sufficientUses = (quantity > 0 && !uses.value) || uses.value > 0; 
+    const sufficientUses = (quantity > 0 && !uses.value) || uses.value > 0;
 
     // Prepare dialog form data
     const data = {
@@ -49,7 +49,7 @@ export default class AbilityUseDialog extends Dialog {
       createTemplate: game.user.can("TEMPLATE_CREATE") && item.hasAreaTarget,
       errors: []
     };
-    if ( item.data.type === "power" ) this._getPowerData(actorData, itemData, data);
+    if (item.data.type === "power") this._getPowerData(actorData, itemData, data);
 
     // Render the ability usage template
     const html = await renderTemplate("systems/sw5e/templates/apps/ability-use.html", data);
@@ -57,7 +57,7 @@ export default class AbilityUseDialog extends Dialog {
     // Create the Dialog and return data as a Promise
     const icon = data.isPower ? "fa-magic" : "fa-fist-raised";
     const label = game.i18n.localize("SW5E.AbilityUse" + (data.isPower ? "Cast" : "Use"));
-    return new Promise((resolve) => {
+    return new Promise(resolve => {
       const dlg = new this(item, {
         title: `${item.name}: Usage Configuration`,
         content: html,
@@ -87,14 +87,13 @@ export default class AbilityUseDialog extends Dialog {
    * @private
    */
   static _getPowerData(actorData, itemData, data) {
-
     // Determine whether the power may be up-cast
     const lvl = itemData.level;
-    const consumePowerSlot = (lvl > 0) && CONFIG.SW5E.powerUpcastModes.includes(itemData.preparation.mode);
+    const consumePowerSlot = lvl > 0 && CONFIG.SW5E.powerUpcastModes.includes(itemData.preparation.mode);
 
     // If can't upcast, return early and don't bother calculating available power slots
     if (!consumePowerSlot) {
-      mergeObject(data, { isPower: true, consumePowerSlot });
+      mergeObject(data, {isPower: true, consumePowerSlot});
       return;
     }
 
@@ -102,74 +101,78 @@ export default class AbilityUseDialog extends Dialog {
     let lmax = 0;
     let points;
     let powerType;
-    switch (itemData.school){
+    switch (itemData.school) {
       case "lgt":
       case "uni":
       case "drk": {
-        powerType = "force"
+        powerType = "force";
         points = actorData.attributes.force.points.value + actorData.attributes.force.points.temp;
         break;
       }
       case "tec": {
-        powerType = "tech"
+        powerType = "tech";
         points = actorData.attributes.tech.points.value + actorData.attributes.tech.points.temp;
         break;
       }
     }
-    
+
     // eliminate point usage for innate casters
-    if (actorData.attributes.powercasting === 'innate') points = 999;
+    if (actorData.attributes.powercasting === "innate") points = 999;
 
-
-    let powerLevels
-    if (powerType === "force"){
-      powerLevels = Array.fromRange(10).reduce((arr, i) => {
-        if ( i < lvl ) return arr;
-        const label = CONFIG.SW5E.powerLevels[i];
-        const l = actorData.powers["power"+i] || {fmax: 0, foverride: null};
-        let max = parseInt(l.foverride || l.fmax || 0);
-        let slots = Math.clamped(parseInt(l.fvalue || 0), 0, max);
-        if ( max > 0 ) lmax = i;
-        if ((max > 0) && (slots > 0) && (points > i)){
-          arr.push({
-            level: i,
-            label: i > 0 ? game.i18n.format('SW5E.PowerLevelSlot', {level: label, n: slots}) : label,
-            canCast: max > 0,
-            hasSlots: slots > 0
-          });
-        }
-        return arr;
-      }, []).filter(sl => sl.level <= lmax);
-    }else if (powerType === "tech"){
-      powerLevels = Array.fromRange(10).reduce((arr, i) => {
-        if ( i < lvl ) return arr;
-        const label = CONFIG.SW5E.powerLevels[i];
-        const l = actorData.powers["power"+i] || {tmax: 0, toverride: null};
-        let max = parseInt(l.override || l.tmax || 0);
-        let slots = Math.clamped(parseInt(l.tvalue || 0), 0, max);
-        if ( max > 0 ) lmax = i;
-        if ((max > 0) && (slots > 0) && (points > i)){
-          arr.push({
-            level: i,
-            label: i > 0 ? game.i18n.format('SW5E.PowerLevelSlot', {level: label, n: slots}) : label,
-            canCast: max > 0,
-            hasSlots: slots > 0
-          });
-        }
-        return arr;
-      }, []).filter(sl => sl.level <= lmax);
+    let powerLevels;
+    if (powerType === "force") {
+      powerLevels = Array.fromRange(10)
+        .reduce((arr, i) => {
+          if (i < lvl) return arr;
+          const label = CONFIG.SW5E.powerLevels[i];
+          const l = actorData.powers["power" + i] || {fmax: 0, foverride: null};
+          let max = parseInt(l.foverride || l.fmax || 0);
+          let slots = Math.clamped(parseInt(l.fvalue || 0), 0, max);
+          if (max > 0) lmax = i;
+          if (max > 0 && slots > 0 && points > i) {
+            arr.push({
+              level: i,
+              label: i > 0 ? game.i18n.format("SW5E.PowerLevelSlot", {level: label, n: slots}) : label,
+              canCast: max > 0,
+              hasSlots: slots > 0
+            });
+          }
+          return arr;
+        }, [])
+        .filter(sl => sl.level <= lmax);
+    } else if (powerType === "tech") {
+      powerLevels = Array.fromRange(10)
+        .reduce((arr, i) => {
+          if (i < lvl) return arr;
+          const label = CONFIG.SW5E.powerLevels[i];
+          const l = actorData.powers["power" + i] || {tmax: 0, toverride: null};
+          let max = parseInt(l.override || l.tmax || 0);
+          let slots = Math.clamped(parseInt(l.tvalue || 0), 0, max);
+          if (max > 0) lmax = i;
+          if (max > 0 && slots > 0 && points > i) {
+            arr.push({
+              level: i,
+              label: i > 0 ? game.i18n.format("SW5E.PowerLevelSlot", {level: label, n: slots}) : label,
+              canCast: max > 0,
+              hasSlots: slots > 0
+            });
+          }
+          return arr;
+        }, [])
+        .filter(sl => sl.level <= lmax);
     }
-  
-    
 
     const canCast = powerLevels.some(l => l.hasSlots);
-    if ( !canCast ) data.errors.push(game.i18n.format("SW5E.PowerCastNoSlots", {
-      level: CONFIG.SW5E.powerLevels[lvl],
-      name: data.item.name
-    }));
+    if (!canCast)
+      data.errors.push(
+        game.i18n.format("SW5E.PowerCastNoSlots", {
+          level: CONFIG.SW5E.powerLevels[lvl],
+          name: data.item.name
+        })
+      );
 
     // Merge power casting data
-    return mergeObject(data, { isPower: true, consumePowerSlot, powerLevels });
+    return mergeObject(data, {isPower: true, consumePowerSlot, powerLevels});
   }
 
   /* -------------------------------------------- */
@@ -179,27 +182,26 @@ export default class AbilityUseDialog extends Dialog {
    * @private
    */
   static _getAbilityUseNote(item, uses, recharge) {
-
     // Zero quantity
     const quantity = item.data.quantity;
-    if ( quantity <= 0 ) return game.i18n.localize("SW5E.AbilityUseUnavailableHint");
+    if (quantity <= 0) return game.i18n.localize("SW5E.AbilityUseUnavailableHint");
 
     // Abilities which use Recharge
-    if ( !!recharge.value ) {
+    if (!!recharge.value) {
       return game.i18n.format(recharge.charged ? "SW5E.AbilityUseChargedHint" : "SW5E.AbilityUseRechargeHint", {
-        type: item.type,
-      })
+        type: item.type
+      });
     }
 
     // Does not use any resource
-    if ( !uses.per || !uses.max ) return "";
+    if (!uses.per || !uses.max) return "";
 
     // Consumables
-    if ( item.type === "consumable" ) {
+    if (item.type === "consumable") {
       let str = "SW5E.AbilityUseNormalHint";
-      if ( uses.value > 1 ) str = "SW5E.AbilityUseConsumableChargeHint";
-      else if ( item.data.quantity === 1 && uses.autoDestroy ) str = "SW5E.AbilityUseConsumableDestroyHint";
-      else if ( item.data.quantity > 1 ) str = "SW5E.AbilityUseConsumableQuantityHint";
+      if (uses.value > 1) str = "SW5E.AbilityUseConsumableChargeHint";
+      else if (item.data.quantity === 1 && uses.autoDestroy) str = "SW5E.AbilityUseConsumableDestroyHint";
+      else if (item.data.quantity > 1) str = "SW5E.AbilityUseConsumableQuantityHint";
       return game.i18n.format(str, {
         type: item.data.consumableType,
         value: uses.value,
@@ -222,7 +224,5 @@ export default class AbilityUseDialog extends Dialog {
 
   /* -------------------------------------------- */
 
-  static _handleSubmit(formData, item) {
-
-  }
+  static _handleSubmit(formData, item) {}
 }

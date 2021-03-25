@@ -3,10 +3,9 @@
  * @implements {BaseEntitySheet}
  */
 export default class ActorSensesConfig extends BaseEntitySheet {
-
   /** @override */
-	static get defaultOptions() {
-	  return mergeObject(super.defaultOptions, {
+  static get defaultOptions() {
+    return mergeObject(super.defaultOptions, {
       classes: ["sw5e"],
       template: "systems/sw5e/templates/apps/senses-config.html",
       width: 300,
@@ -29,14 +28,15 @@ export default class ActorSensesConfig extends BaseEntitySheet {
     const data = {
       senses: {},
       special: senses.special ?? "",
-      units: senses.units, movementUnits: CONFIG.SW5E.movementUnits
+      units: senses.units,
+      movementUnits: CONFIG.SW5E.movementUnits
     };
-    for ( let [name, label] of Object.entries(CONFIG.SW5E.senses) ) {
+    for (let [name, label] of Object.entries(CONFIG.SW5E.senses)) {
       const v = senses[name];
       data.senses[name] = {
         label: game.i18n.localize(label),
         value: Number.isNumeric(v) ? v.toNearest(0.1) : 0
-      }
+      };
     }
     return data;
   }

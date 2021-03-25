@@ -8,15 +8,18 @@ export function onManageActiveEffect(event, owner) {
   const a = event.currentTarget;
   const li = a.closest("li");
   const effect = li.dataset.effectId ? owner.effects.get(li.dataset.effectId) : null;
-  switch ( a.dataset.action ) {
+  switch (a.dataset.action) {
     case "create":
-      return ActiveEffect.create({
-        label: "New Effect",
-        icon: "icons/svg/aura.svg",
-        origin: owner.uuid,
-        "duration.rounds": li.dataset.effectType === "temporary" ? 1 : undefined,
-        disabled: li.dataset.effectType === "inactive"
-      }, owner).create();
+      return ActiveEffect.create(
+        {
+          label: "New Effect",
+          icon: "icons/svg/aura.svg",
+          origin: owner.uuid,
+          "duration.rounds": li.dataset.effectType === "temporary" ? 1 : undefined,
+          disabled: li.dataset.effectType === "inactive"
+        },
+        owner
+      ).create();
     case "edit":
       return effect.sheet.render(true);
     case "delete":
@@ -32,32 +35,31 @@ export function onManageActiveEffect(event, owner) {
  * @return {object}                   Data for rendering
  */
 export function prepareActiveEffectCategories(effects) {
-
-    // Define effect header categories
-    const categories = {
-      temporary: {
-        type: "temporary",
-        label: "SW5E.EffectsCategoryTemporary",
-        effects: []
-      },
-      passive: {
-        type: "passive",
-        label: "SW5E.EffectsCategoryPassive",
-        effects: []
-      },
-      inactive: {
-        type: "inactive",
-        label: "SW5E.EffectsCategoryInactive",
-        effects: []
-      }
-    };
-
-    // Iterate over active effects, classifying them into categories
-    for ( let e of effects ) {
-      e._getSourceName(); // Trigger a lookup for the source name
-      if ( e.data.disabled ) categories.inactive.effects.push(e);
-      else if ( e.isTemporary ) categories.temporary.effects.push(e);
-      else categories.passive.effects.push(e);
+  // Define effect header categories
+  const categories = {
+    temporary: {
+      type: "temporary",
+      label: "SW5E.EffectsCategoryTemporary",
+      effects: []
+    },
+    passive: {
+      type: "passive",
+      label: "SW5E.EffectsCategoryPassive",
+      effects: []
+    },
+    inactive: {
+      type: "inactive",
+      label: "SW5E.EffectsCategoryInactive",
+      effects: []
     }
-    return categories;
+  };
+
+  // Iterate over active effects, classifying them into categories
+  for (let e of effects) {
+    e._getSourceName(); // Trigger a lookup for the source name
+    if (e.data.disabled) categories.inactive.effects.push(e);
+    else if (e.isTemporary) categories.temporary.effects.push(e);
+    else categories.passive.effects.push(e);
+  }
+  return categories;
 }

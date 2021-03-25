@@ -1,11 +1,10 @@
-import { SW5E } from "../config.js";
+import {SW5E} from "../config.js";
 
 /**
  * A helper class for building MeasuredTemplates for 5e powers and abilities
  * @extends {MeasuredTemplate}
  */
 export default class AbilityTemplate extends MeasuredTemplate {
-
   /**
    * A factory method to create an AbilityTemplate instance using provided data from an Item5e instance
    * @param {Item5e} item               The Item object for which to construct the template
@@ -14,7 +13,7 @@ export default class AbilityTemplate extends MeasuredTemplate {
   static fromItem(item) {
     const target = getProperty(item.data, "data.target") || {};
     const templateShape = SW5E.areaTargetTypes[target.type];
-    if ( !templateShape ) return null;
+    if (!templateShape) return null;
 
     // Prepare template data
     const templateData = {
@@ -28,7 +27,7 @@ export default class AbilityTemplate extends MeasuredTemplate {
     };
 
     // Additional type-specific data
-    switch ( templateShape ) {
+    switch (templateShape) {
       case "cone":
         templateData.angle = CONFIG.MeasuredTemplate.defaults.angle;
         break;
@@ -65,7 +64,7 @@ export default class AbilityTemplate extends MeasuredTemplate {
     this.layer.preview.addChild(this);
 
     // Hide the sheet that originated the preview
-    if ( this.actorSheet ) this.actorSheet.minimize();
+    if (this.actorSheet) this.actorSheet.minimize();
 
     // Activate interactivity
     this.activatePreviewListeners(initialLayer);
@@ -85,7 +84,7 @@ export default class AbilityTemplate extends MeasuredTemplate {
     handlers.mm = event => {
       event.stopPropagation();
       let now = Date.now(); // Apply a 20ms throttle
-      if ( now - moveTime <= 20 ) return;
+      if (now - moveTime <= 20) return;
       const center = event.data.getLocalPosition(this.layer);
       const snapped = canvas.grid.getSnappedPosition(center.x, center.y, 2);
       this.data.x = snapped.x;
@@ -120,11 +119,11 @@ export default class AbilityTemplate extends MeasuredTemplate {
 
     // Rotate the template by 3 degree increments (mouse-wheel)
     handlers.mw = event => {
-      if ( event.ctrlKey ) event.preventDefault(); // Avoid zooming the browser window
+      if (event.ctrlKey) event.preventDefault(); // Avoid zooming the browser window
       event.stopPropagation();
       let delta = canvas.grid.type > CONST.GRID_TYPES.SQUARE ? 30 : 15;
       let snap = event.shiftKey ? delta : 5;
-      this.data.direction += (snap * Math.sign(event.deltaY));
+      this.data.direction += snap * Math.sign(event.deltaY);
       this.refresh();
     };
 

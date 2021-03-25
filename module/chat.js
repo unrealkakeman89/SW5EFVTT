@@ -1,28 +1,27 @@
-
 /**
  * Highlight critical success or failure on d20 rolls
  */
-export const highlightCriticalSuccessFailure = function(message, html, data) {
-  if ( !message.isRoll || !message.isContentVisible ) return;
+export const highlightCriticalSuccessFailure = function (message, html, data) {
+  if (!message.isRoll || !message.isContentVisible) return;
 
   // Highlight rolls where the first part is a d20 roll
   const roll = message.roll;
-  if ( !roll.dice.length ) return;
+  if (!roll.dice.length) return;
   const d = roll.dice[0];
 
   // Ensure it is an un-modified d20 roll
-  const isD20 = (d.faces === 20) && ( d.values.length === 1 );
-  if ( !isD20 ) return;
-  const isModifiedRoll = ("success" in d.results[0]) || d.options.marginSuccess || d.options.marginFailure;
-  if ( isModifiedRoll ) return;
+  const isD20 = d.faces === 20 && d.values.length === 1;
+  if (!isD20) return;
+  const isModifiedRoll = "success" in d.results[0] || d.options.marginSuccess || d.options.marginFailure;
+  if (isModifiedRoll) return;
 
   // Highlight successes and failures
   const critical = d.options.critical || 20;
   const fumble = d.options.fumble || 1;
-  if ( d.total >= critical ) html.find(".dice-total").addClass("critical");
-  else if ( d.total <= fumble ) html.find(".dice-total").addClass("fumble");
-  else if ( d.options.target ) {
-    if ( roll.total >= d.options.target ) html.find(".dice-total").addClass("success");
+  if (d.total >= critical) html.find(".dice-total").addClass("critical");
+  else if (d.total <= fumble) html.find(".dice-total").addClass("fumble");
+  else if (d.options.target) {
+    if (roll.total >= d.options.target) html.find(".dice-total").addClass("success");
     else html.find(".dice-total").addClass("failure");
   }
 };
@@ -32,22 +31,22 @@ export const highlightCriticalSuccessFailure = function(message, html, data) {
 /**
  * Optionally hide the display of chat card action buttons which cannot be performed by the user
  */
-export const displayChatActionButtons = function(message, html, data) {
+export const displayChatActionButtons = function (message, html, data) {
   const chatCard = html.find(".sw5e.chat-card");
-  if ( chatCard.length > 0 ) {
+  if (chatCard.length > 0) {
     const flavor = html.find(".flavor-text");
-    if ( flavor.text() === html.find(".item-name").text() ) flavor.remove();
+    if (flavor.text() === html.find(".item-name").text()) flavor.remove();
 
     // If the user is the message author or the actor owner, proceed
     let actor = game.actors.get(data.message.speaker.actor);
-    if ( actor && actor.owner ) return;
-    else if ( game.user.isGM || (data.author.id === game.user.id)) return;
+    if (actor && actor.owner) return;
+    else if (game.user.isGM || data.author.id === game.user.id) return;
 
     // Otherwise conceal action buttons except for saving throw
     const buttons = chatCard.find("button[data-action]");
     buttons.each((i, btn) => {
-      if ( btn.dataset.action === "save" ) return;
-      btn.style.display = "none"
+      if (btn.dataset.action === "save") return;
+      btn.style.display = "none";
     });
   }
 };
@@ -63,7 +62,7 @@ export const displayChatActionButtons = function(message, html, data) {
  *
  * @return {Array}              The extended options Array including new context choices
  */
-export const addChatMessageContextOptions = function(html, options) {
+export const addChatMessageContextOptions = function (html, options) {
   let canApply = li => {
     const message = game.messages.get(li.data("messageId"));
     return message?.isRoll && message?.isContentVisible && canvas?.tokens.controlled.length;
@@ -110,10 +109,12 @@ export const addChatMessageContextOptions = function(html, options) {
 function applyChatCardDamage(li, multiplier) {
   const message = game.messages.get(li.data("messageId"));
   const roll = message.roll;
-  return Promise.all(canvas.tokens.controlled.map(t => {
-    const a = t.actor;
-    return a.applyDamage(roll.total, multiplier);
-  }));
+  return Promise.all(
+    canvas.tokens.controlled.map(t => {
+      const a = t.actor;
+      return a.applyDamage(roll.total, multiplier);
+    })
+  );
 }
 
 /* -------------------------------------------- */

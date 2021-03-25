@@ -7,13 +7,12 @@ import Actor5e from "../../entity.js";
  * @type {ActorSheet5e}
  */
 export default class ActorSheet5eCharacter extends ActorSheet5e {
-
   /**
    * Define default rendering options for the NPC sheet
    * @return {Object}
    */
-	static get defaultOptions() {
-	  return mergeObject(super.defaultOptions, {
+  static get defaultOptions() {
+    return mergeObject(super.defaultOptions, {
       classes: ["sw5e", "sheet", "actor", "character"],
       width: 720,
       height: 736
@@ -37,7 +36,7 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
     sheetData["resources"] = ["primary", "secondary", "tertiary"].reduce((arr, r) => {
       const res = sheetData.data.resources[r] || {};
       res.name = r;
-      res.placeholder = game.i18n.localize("SW5E.Resource"+r.titleCase());
+      res.placeholder = game.i18n.localize("SW5E.Resource" + r.titleCase());
       if (res && res.value === 0) delete res.value;
       if (res && res.max === 0) delete res.max;
       return arr.concat([res]);
@@ -46,9 +45,11 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
     // Experience Tracking
     sheetData["disableExperience"] = game.settings.get("sw5e", "disableExperienceTracking");
     sheetData["classLabels"] = this.actor.itemTypes.class.map(c => c.name).join(", ");
-    sheetData["multiclassLabels"] = this.actor.itemTypes.class.map(c => {
-      return [c.data.data.archetype, c.name, c.data.data.levels].filterJoin(' ')
-    }).join(', ');
+    sheetData["multiclassLabels"] = this.actor.itemTypes.class
+      .map(c => {
+        return [c.data.data.archetype, c.name, c.data.data.levels].filterJoin(" ");
+      })
+      .join(", ");
 
     // Return data for rendering
     return sheetData;
@@ -61,59 +62,72 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
    * @private
    */
   _prepareItems(data) {
-
     // Categorize items as inventory, powerbook, features, and classes
     const inventory = {
-      weapon: { label: "SW5E.ItemTypeWeaponPl", items: [], dataset: {type: "weapon"} },
-      equipment: { label: "SW5E.ItemTypeEquipmentPl", items: [], dataset: {type: "equipment"} },
-      consumable: { label: "SW5E.ItemTypeConsumablePl", items: [], dataset: {type: "consumable"} },
-      tool: { label: "SW5E.ItemTypeToolPl", items: [], dataset: {type: "tool"} },
-      backpack: { label: "SW5E.ItemTypeContainerPl", items: [], dataset: {type: "backpack"} },
-      loot: { label: "SW5E.ItemTypeLootPl", items: [], dataset: {type: "loot"} }
+      weapon: {label: "SW5E.ItemTypeWeaponPl", items: [], dataset: {type: "weapon"}},
+      equipment: {label: "SW5E.ItemTypeEquipmentPl", items: [], dataset: {type: "equipment"}},
+      consumable: {label: "SW5E.ItemTypeConsumablePl", items: [], dataset: {type: "consumable"}},
+      tool: {label: "SW5E.ItemTypeToolPl", items: [], dataset: {type: "tool"}},
+      backpack: {label: "SW5E.ItemTypeContainerPl", items: [], dataset: {type: "backpack"}},
+      loot: {label: "SW5E.ItemTypeLootPl", items: [], dataset: {type: "loot"}}
     };
 
     // Partition items by category
-    let [items, powers, feats, classes, species, archetypes, classfeatures, backgrounds, fightingstyles, fightingmasteries, lightsaberforms] = data.items.reduce((arr, item) => {
+    let [
+      items,
+      powers,
+      feats,
+      classes,
+      species,
+      archetypes,
+      classfeatures,
+      backgrounds,
+      fightingstyles,
+      fightingmasteries,
+      lightsaberforms
+    ] = data.items.reduce(
+      (arr, item) => {
+        // Item details
+        item.img = item.img || DEFAULT_TOKEN;
+        item.isStack = Number.isNumeric(item.data.quantity) && item.data.quantity !== 1;
+        item.attunement = {
+          [CONFIG.SW5E.attunementTypes.REQUIRED]: {
+            icon: "fa-sun",
+            cls: "not-attuned",
+            title: "SW5E.AttunementRequired"
+          },
+          [CONFIG.SW5E.attunementTypes.ATTUNED]: {
+            icon: "fa-sun",
+            cls: "attuned",
+            title: "SW5E.AttunementAttuned"
+          }
+        }[item.data.attunement];
 
-      // Item details
-      item.img = item.img || DEFAULT_TOKEN;
-      item.isStack = Number.isNumeric(item.data.quantity) && (item.data.quantity !== 1);
-      item.attunement = {
-        [CONFIG.SW5E.attunementTypes.REQUIRED]: {
-          icon: "fa-sun",
-          cls: "not-attuned",
-          title: "SW5E.AttunementRequired"
-        },
-        [CONFIG.SW5E.attunementTypes.ATTUNED]: {
-          icon: "fa-sun",
-          cls: "attuned",
-          title: "SW5E.AttunementAttuned"
-        }
-      }[item.data.attunement];
+        // Item usage
+        item.hasUses = item.data.uses && item.data.uses.max > 0;
+        item.isOnCooldown = item.data.recharge && !!item.data.recharge.value && item.data.recharge.charged === false;
+        item.isDepleted = item.isOnCooldown && item.data.uses.per && item.data.uses.value > 0;
+        item.hasTarget = !!item.data.target && !["none", ""].includes(item.data.target.type);
 
-      // Item usage
-      item.hasUses = item.data.uses && (item.data.uses.max > 0);
-      item.isOnCooldown = item.data.recharge && !!item.data.recharge.value && (item.data.recharge.charged === false);
-      item.isDepleted = item.isOnCooldown && (item.data.uses.per && (item.data.uses.value > 0));
-      item.hasTarget = !!item.data.target && !(["none",""].includes(item.data.target.type));
+        // Item toggle state
+        this._prepareItemToggleState(item);
 
-      // Item toggle state
-      this._prepareItemToggleState(item);
-
-      // Classify items into types
-      if ( item.type === "power" ) arr[1].push(item);
-      else if ( item.type === "feat" ) arr[2].push(item);
-      else if ( item.type === "class" ) arr[3].push(item);
-	  else if ( item.type === "species" ) arr[4].push(item);
-	  else if ( item.type === "archetype" ) arr[5].push(item);
-	  else if ( item.type === "classfeature" ) arr[6].push(item);
-	  else if ( item.type === "background" ) arr[7].push(item);
-	  else if ( item.type === "fightingstyle" ) arr[8].push(item);
-	  else if ( item.type === "fightingmastery" ) arr[9].push(item);
-	  else if ( item.type === "lightsaberform" ) arr[10].push(item);	  
-      else if ( Object.keys(inventory).includes(item.type ) ) arr[0].push(item);
-      return arr;
-    }, [[], [], [], [], [], [], [], [], [], [], []]);
+        // Classify items into types
+        if (item.type === "power") arr[1].push(item);
+        else if (item.type === "feat") arr[2].push(item);
+        else if (item.type === "class") arr[3].push(item);
+        else if (item.type === "species") arr[4].push(item);
+        else if (item.type === "archetype") arr[5].push(item);
+        else if (item.type === "classfeature") arr[6].push(item);
+        else if (item.type === "background") arr[7].push(item);
+        else if (item.type === "fightingstyle") arr[8].push(item);
+        else if (item.type === "fightingmastery") arr[9].push(item);
+        else if (item.type === "lightsaberform") arr[10].push(item);
+        else if (Object.keys(inventory).includes(item.type)) arr[0].push(item);
+        return arr;
+      },
+      [[], [], [], [], [], [], [], [], [], [], []]
+    );
 
     // Apply active item filters
     items = this._filterItems(items, this._filters.inventory);
@@ -121,7 +135,7 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
     feats = this._filterItems(feats, this._filters.features);
 
     // Organize items
-    for ( let i of items ) {
+    for (let i of items) {
       i.data.quantity = i.data.quantity || 0;
       i.data.weight = i.data.weight || 0;
       i.totalWeight = (i.data.quantity * i.data.weight).toNearest(0.1);
@@ -131,24 +145,71 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
     // Organize Powerbook and count the number of prepared powers (excluding always, at will, etc...)
     const powerbook = this._preparePowerbook(data, powers);
     const nPrepared = powers.filter(s => {
-      return (s.data.level > 0) && (s.data.preparation.mode === "prepared") && s.data.preparation.prepared;
+      return s.data.level > 0 && s.data.preparation.mode === "prepared" && s.data.preparation.prepared;
     }).length;
 
     // Organize Features
     const features = {
-      classes: { label: "SW5E.ItemTypeClassPl", items: [], hasActions: false, dataset: {type: "class"}, isClass: true },
-      classfeatures: { label: "SW5E.ItemTypeClassFeats", items: [], hasActions: true, dataset: {type: "classfeature"}, isClassfeature: true },
-      archetype: { label: "SW5E.ItemTypeArchetype", items: [], hasActions: false, dataset: {type: "archetype"}, isArchetype: true },
-      species: { label: "SW5E.ItemTypeSpecies", items: [], hasActions: false, dataset: {type: "species"}, isSpecies: true },
-      background: { label: "SW5E.ItemTypeBackground", items: [], hasActions: false, dataset: {type: "background"}, isBackground: true },
-      fightingstyles: { label: "SW5E.ItemTypeFightingStylePl", items: [], hasActions: false, dataset: {type: "fightingstyle"}, isFightingstyle: true },
-      fightingmasteries: { label: "SW5E.ItemTypeFightingMasteryPl", items: [], hasActions: false, dataset: {type: "fightingmastery"}, isFightingmastery: true },
-      lightsaberforms: { label: "SW5E.ItemTypeLightsaberFormPl", items: [], hasActions: false, dataset: {type: "lightsaberform"}, isLightsaberform: true },
-      active: { label: "SW5E.FeatureActive", items: [], hasActions: true, dataset: {type: "feat", "activation.type": "action"} },
-      passive: { label: "SW5E.FeaturePassive", items: [], hasActions: false, dataset: {type: "feat"} }
+      classes: {label: "SW5E.ItemTypeClassPl", items: [], hasActions: false, dataset: {type: "class"}, isClass: true},
+      classfeatures: {
+        label: "SW5E.ItemTypeClassFeats",
+        items: [],
+        hasActions: true,
+        dataset: {type: "classfeature"},
+        isClassfeature: true
+      },
+      archetype: {
+        label: "SW5E.ItemTypeArchetype",
+        items: [],
+        hasActions: false,
+        dataset: {type: "archetype"},
+        isArchetype: true
+      },
+      species: {
+        label: "SW5E.ItemTypeSpecies",
+        items: [],
+        hasActions: false,
+        dataset: {type: "species"},
+        isSpecies: true
+      },
+      background: {
+        label: "SW5E.ItemTypeBackground",
+        items: [],
+        hasActions: false,
+        dataset: {type: "background"},
+        isBackground: true
+      },
+      fightingstyles: {
+        label: "SW5E.ItemTypeFightingStylePl",
+        items: [],
+        hasActions: false,
+        dataset: {type: "fightingstyle"},
+        isFightingstyle: true
+      },
+      fightingmasteries: {
+        label: "SW5E.ItemTypeFightingMasteryPl",
+        items: [],
+        hasActions: false,
+        dataset: {type: "fightingmastery"},
+        isFightingmastery: true
+      },
+      lightsaberforms: {
+        label: "SW5E.ItemTypeLightsaberFormPl",
+        items: [],
+        hasActions: false,
+        dataset: {type: "lightsaberform"},
+        isLightsaberform: true
+      },
+      active: {
+        label: "SW5E.FeatureActive",
+        items: [],
+        hasActions: true,
+        dataset: {type: "feat", "activation.type": "action"}
+      },
+      passive: {label: "SW5E.FeaturePassive", items: [], hasActions: false, dataset: {type: "feat"}}
     };
-    for ( let f of feats ) {
-      if ( f.data.activation.type ) features.active.items.push(f);
+    for (let f of feats) {
+      if (f.data.activation.type) features.active.items.push(f);
       else features.passive.items.push(f);
     }
     classes.sort((a, b) => b.levels - a.levels);
@@ -178,14 +239,13 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
   _prepareItemToggleState(item) {
     if (item.type === "power") {
       const isAlways = getProperty(item.data, "preparation.mode") === "always";
-      const isPrepared =  getProperty(item.data, "preparation.prepared");
+      const isPrepared = getProperty(item.data, "preparation.prepared");
       item.toggleClass = isPrepared ? "active" : "";
-      if ( isAlways ) item.toggleClass = "fixed";
-      if ( isAlways ) item.toggleTitle = CONFIG.SW5E.powerPreparationModes.always;
-      else if ( isPrepared ) item.toggleTitle = CONFIG.SW5E.powerPreparationModes.prepared;
+      if (isAlways) item.toggleClass = "fixed";
+      if (isAlways) item.toggleTitle = CONFIG.SW5E.powerPreparationModes.always;
+      else if (isPrepared) item.toggleTitle = CONFIG.SW5E.powerPreparationModes.prepared;
       else item.toggleTitle = game.i18n.localize("SW5E.PowerUnprepared");
-    }
-    else {
+    } else {
       const isActive = getProperty(item.data, "equipped");
       item.toggleClass = isActive ? "active" : "";
       item.toggleTitle = game.i18n.localize(isActive ? "SW5E.Equipped" : "SW5E.Unequipped");
@@ -200,16 +260,16 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
    * Activate event listeners using the prepared sheet HTML
    * @param html {HTML}   The prepared HTML object ready to be rendered into the DOM
    */
-	activateListeners(html) {
+  activateListeners(html) {
     super.activateListeners(html);
-    if ( !this.options.editable ) return;
+    if (!this.options.editable) return;
 
     // Item State Toggling
-    html.find('.item-toggle').click(this._onToggleItem.bind(this));
+    html.find(".item-toggle").click(this._onToggleItem.bind(this));
 
     // Short and Long Rest
-    html.find('.short-rest').click(this._onShortRest.bind(this));
-    html.find('.long-rest').click(this._onLongRest.bind(this));
+    html.find(".short-rest").click(this._onShortRest.bind(this));
+    html.find(".long-rest").click(this._onLongRest.bind(this));
 
     // Rollable sheet actions
     html.find(".rollable[data-action]").click(this._onSheetAction.bind(this));
@@ -225,7 +285,7 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
   _onSheetAction(event) {
     event.preventDefault();
     const button = event.currentTarget;
-    switch( button.dataset.action ) {
+    switch (button.dataset.action) {
       case "rollDeathSave":
         return this.actor.rollDeathSave({event: event});
       case "rollInitiative":
@@ -278,14 +338,13 @@ export default class ActorSheet5eCharacter extends ActorSheet5e {
 
   /** @override */
   async _onDropItemCreate(itemData) {
-
     // Increment the number of class levels a character instead of creating a new item
-    if ( itemData.type === "class" ) {
+    if (itemData.type === "class") {
       const cls = this.actor.itemTypes.class.find(c => c.name === itemData.name);
       let priorLevel = cls?.data.data.levels ?? 0;
-      if ( !!cls ) {
+      if (!!cls) {
         const next = Math.min(priorLevel + 1, 20 + priorLevel - this.actor.data.data.details.level);
-        if ( next > priorLevel ) {
+        if (next > priorLevel) {
           itemData.levels = next;
           return cls.update({"data.levels": next});
         }

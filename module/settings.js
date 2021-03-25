@@ -1,5 +1,4 @@
-export const registerSystemSettings = function() {
-
+export const registerSystemSettings = function () {
   /**
    * Track the system version upon which point a migration was last applied
    */
@@ -22,9 +21,9 @@ export const registerSystemSettings = function() {
     default: "normal",
     type: String,
     choices: {
-      "normal": "SETTINGS.5eRestPHB",
-      "gritty": "SETTINGS.5eRestGritty",
-      "epic": "SETTINGS.5eRestEpic",
+      normal: "SETTINGS.5eRestPHB",
+      gritty: "SETTINGS.5eRestGritty",
+      epic: "SETTINGS.5eRestEpic"
     }
   });
 
@@ -39,11 +38,11 @@ export const registerSystemSettings = function() {
     default: "555",
     type: String,
     choices: {
-      "555": "SETTINGS.5eDiagPHB",
-      "5105": "SETTINGS.5eDiagDMG",
-      "EUCL": "SETTINGS.5eDiagEuclidean",
+      555: "SETTINGS.5eDiagPHB",
+      5105: "SETTINGS.5eDiagDMG",
+      EUCL: "SETTINGS.5eDiagEuclidean"
     },
-    onChange: rule => canvas.grid.diagonalRule = rule
+    onChange: rule => (canvas.grid.diagonalRule = rule)
   });
 
   /**
@@ -79,7 +78,7 @@ export const registerSystemSettings = function() {
     scope: "world",
     config: true,
     default: false,
-    type: Boolean,
+    type: Boolean
   });
 
   /**
@@ -100,10 +99,10 @@ export const registerSystemSettings = function() {
   /**
    * Option to allow GMs to restrict polymorphing to GMs only.
    */
-  game.settings.register('sw5e', 'allowPolymorphing', {
-    name: 'SETTINGS.5eAllowPolymorphingN',
-    hint: 'SETTINGS.5eAllowPolymorphingL',
-    scope: 'world',
+  game.settings.register("sw5e", "allowPolymorphing", {
+    name: "SETTINGS.5eAllowPolymorphingN",
+    hint: "SETTINGS.5eAllowPolymorphingL",
+    scope: "world",
     config: true,
     default: false,
     type: Boolean
@@ -112,8 +111,8 @@ export const registerSystemSettings = function() {
   /**
    * Remember last-used polymorph settings.
    */
-  game.settings.register('sw5e', 'polymorphSettings', {
-    scope: 'client',
+  game.settings.register("sw5e", "polymorphSettings", {
+    scope: "client",
     default: {
       keepPhysical: false,
       keepMental: false,
@@ -138,8 +137,8 @@ export const registerSystemSettings = function() {
     default: "light",
     type: String,
     choices: {
-      "light": "SETTINGS.SWColorLight",
-      "dark": "SETTINGS.SWColorDark"
+      light: "SETTINGS.SWColorLight",
+      dark: "SETTINGS.SWColorDark"
     }
   });
 };

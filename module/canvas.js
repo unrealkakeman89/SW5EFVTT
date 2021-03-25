@@ -1,6 +1,6 @@
 /** @override */
-export const measureDistances = function(segments, options={}) {
-  if ( !options.gridSpaces ) return BaseGrid.prototype.measureDistances.call(this, segments, options);
+export const measureDistances = function (segments, options = {}) {
+  if (!options.gridSpaces) return BaseGrid.prototype.measureDistances.call(this, segments, options);
 
   // Track the total number of diagonals
   let nDiagonal = 0;
@@ -23,7 +23,7 @@ export const measureDistances = function(segments, options={}) {
     // Alternative DMG Movement
     if (rule === "5105") {
       let nd10 = Math.floor(nDiagonal / 2) - Math.floor((nDiagonal - nd) / 2);
-      let spaces = (nd10 * 2) + (nd - nd10) + ns;
+      let spaces = nd10 * 2 + (nd - nd10) + ns;
       return spaces * canvas.dimensions.distance;
     }
 
@@ -44,9 +44,9 @@ export const measureDistances = function(segments, options={}) {
  * TODO: This should probably be replaced with a formal Token class extension
  */
 const _TokenGetBarAttribute = Token.prototype.getBarAttribute;
-export const getBarAttribute = function(...args) {
+export const getBarAttribute = function (...args) {
   const data = _TokenGetBarAttribute.bind(this)(...args);
-  if ( data && (data.attribute === "attributes.hp") ) {
+  if (data && data.attribute === "attributes.hp") {
     data.value += parseInt(getProperty(this.actor.data, "data.attributes.hp.temp") || 0);
     data.max += parseInt(getProperty(this.actor.data, "data.attributes.hp.tempmax") || 0);
   }

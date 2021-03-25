@@ -18,30 +18,36 @@ export function simplifyRollFormula(formula, data, {constantFirst = false} = {})
 
   const rollableTerms = []; // Terms that are non-constant, and their associated operators
   const constantTerms = []; // Terms that are constant, and their associated operators
-  let operators = [];       // Temporary storage for operators before they are moved to one of the above
+  let operators = []; // Temporary storage for operators before they are moved to one of the above
 
-  for (let term of terms) {                                // For each term
-    if (["+", "-"].includes(term)) operators.push(term);   // If the term is an addition/subtraction operator, push the term into the operators array
-    else {                                                 // Otherwise the term is not an operator
-      if (term instanceof DiceTerm) {                      // If the term is something rollable
-        rollableTerms.push(...operators);                  // Place all the operators into the rollableTerms array
-        rollableTerms.push(term);                          // Then place this rollable term into it as well
-      }                                                    //
-      else {                                               // Otherwise, this must be a constant
-        constantTerms.push(...operators);                  // Place the operators into the constantTerms array
-        constantTerms.push(term);                          // Then also add this constant term to that array.
-      }                                                    //
-      operators = [];                                      // Finally, the operators have now all been assigend to one of the arrays, so empty this before the next iteration.
+  for (let term of terms) {
+    // For each term
+    if (["+", "-"].includes(term)) operators.push(term);
+    // If the term is an addition/subtraction operator, push the term into the operators array
+    else {
+      // Otherwise the term is not an operator
+      if (term instanceof DiceTerm) {
+        // If the term is something rollable
+        rollableTerms.push(...operators); // Place all the operators into the rollableTerms array
+        rollableTerms.push(term); // Then place this rollable term into it as well
+      } //
+      else {
+        // Otherwise, this must be a constant
+        constantTerms.push(...operators); // Place the operators into the constantTerms array
+        constantTerms.push(term); // Then also add this constant term to that array.
+      } //
+      operators = []; // Finally, the operators have now all been assigend to one of the arrays, so empty this before the next iteration.
     }
   }
 
-  const constantFormula = Roll.cleanFormula(constantTerms);  // Cleans up the constant terms and produces a new formula string
-  const rollableFormula = Roll.cleanFormula(rollableTerms);  // Cleans up the non-constant terms and produces a new formula string
+  const constantFormula = Roll.cleanFormula(constantTerms); // Cleans up the constant terms and produces a new formula string
+  const rollableFormula = Roll.cleanFormula(rollableTerms); // Cleans up the non-constant terms and produces a new formula string
 
-  const constantPart = roll._safeEval(constantFormula);      // Mathematically evaluate the constant formula to produce a single constant term
+  const constantPart = roll._safeEval(constantFormula); // Mathematically evaluate the constant formula to produce a single constant term
 
-  const parts = constantFirst ? // Order the rollable and constant terms, either constant first or second depending on the optional argumen
-    [constantPart, rollableFormula] : [rollableFormula, constantPart];
+  const parts = constantFirst // Order the rollable and constant terms, either constant first or second depending on the optional argumen
+    ? [constantPart, rollableFormula]
+    : [rollableFormula, constantPart];
 
   // Join the parts with a + sign, pass them to `Roll` once again to clean up the formula
   return new Roll(parts.filterJoin(" + ")).formula;
@@ -55,11 +61,11 @@ export function simplifyRollFormula(formula, data, {constantFirst = false} = {})
  * @return {Boolean} True when unsupported, false if supported
  */
 function _isUnsupportedTerm(term) {
-	const diceTerm = term instanceof DiceTerm;
-	const operator = ["+", "-"].includes(term);
-	const number   = !isNaN(Number(term));
+  const diceTerm = term instanceof DiceTerm;
+  const operator = ["+", "-"].includes(term);
+  const number = !isNaN(Number(term));
 
-	return !(diceTerm || operator || number);
+  return !(diceTerm || operator || number);
 }
 
 /* -------------------------------------------- */
@@ -94,12 +100,28 @@ function _isUnsupportedTerm(term) {
  *
  * @return {Promise}                A Promise which resolves once the roll workflow has completed
  */
-export async function d20Roll({parts=[], data={}, event={}, rollMode=null, template=null, title=null, speaker=null,
-  flavor=null, fastForward=null, dialogOptions,
-  advantage=null, disadvantage=null, critical=20, fumble=1, targetValue=null,
-  elvenAccuracy=false, halflingLucky=false, reliableTalent=false,
-  chatMessage=true, messageData={}}={}) {
-
+export async function d20Roll({
+  parts = [],
+  data = {},
+  event = {},
+  rollMode = null,
+  template = null,
+  title = null,
+  speaker = null,
+  flavor = null,
+  fastForward = null,
+  dialogOptions,
+  advantage = null,
+  disadvantage = null,
+  critical = 20,
+  fumble = 1,
+  targetValue = null,
+  elvenAccuracy = false,
+  halflingLucky = false,
+  reliableTalent = false,
+  chatMessage = true,
+  messageData = {}
+} = {}) {
   // Prepare Message Data
   messageData.flavor = flavor || title;
   messageData.speaker = speaker || ChatMessage.getSpeaker();
@@ -110,13 +132,12 @@ export async function d20Roll({parts=[], data={}, event={}, rollMode=null, templ
   let adv = 0;
   fastForward = fastForward ?? (event && (event.shiftKey || event.altKey || event.ctrlKey || event.metaKey));
   if (fastForward) {
-    if ( advantage ?? event.altKey ) adv = 1;
-    else if ( disadvantage ?? (event.ctrlKey || event.metaKey) ) adv = -1;
+    if (advantage ?? event.altKey) adv = 1;
+    else if (disadvantage ?? (event.ctrlKey || event.metaKey)) adv = -1;
   }
 
   // Define the inner roll function
   const _roll = (parts, adv, form) => {
-
     // Determine the d20 roll and modifiers
     let nd = 1;
     let mods = halflingLucky ? "r1=1" : "";
@@ -125,7 +146,7 @@ export async function d20Roll({parts=[], data={}, event={}, rollMode=null, templ
     if (adv === 1) {
       nd = elvenAccuracy ? 3 : 2;
       messageData.flavor += ` (${game.i18n.localize("SW5E.Advantage")})`;
-      if ( "flags.sw5e.roll" in messageData ) messageData["flags.sw5e.roll"].advantage = true;
+      if ("flags.sw5e.roll" in messageData) messageData["flags.sw5e.roll"].advantage = true;
       mods += "kh";
     }
 
@@ -133,7 +154,7 @@ export async function d20Roll({parts=[], data={}, event={}, rollMode=null, templ
     else if (adv === -1) {
       nd = 2;
       messageData.flavor += ` (${game.i18n.localize("SW5E.Disadvantage")})`;
-      if ( "flags.sw5e.roll" in messageData ) messageData["flags.sw5e.roll"].disadvantage = true;
+      if ("flags.sw5e.roll" in messageData) messageData["flags.sw5e.roll"].disadvantage = true;
       mods += "kl";
     }
 
@@ -143,8 +164,8 @@ export async function d20Roll({parts=[], data={}, event={}, rollMode=null, templ
     parts.unshift(formula);
 
     // Optionally include a situational bonus
-    if ( form ) {
-      data['bonus'] = form.bonus.value;
+    if (form) {
+      data["bonus"] = form.bonus.value;
       messageOptions.rollMode = form.rollMode.value;
     }
     if (!data["bonus"]) parts.pop();
@@ -175,8 +196,8 @@ export async function d20Roll({parts=[], data={}, event={}, rollMode=null, templ
       if (d.faces === 20) {
         d.options.critical = critical;
         d.options.fumble = fumble;
-        if ( adv === 1 ) d.options.advantage = true;
-        else if ( adv === -1 ) d.options.disadvantage = true;
+        if (adv === 1) d.options.advantage = true;
+        else if (adv === -1) d.options.disadvantage = true;
         if (targetValue) d.options.target = targetValue;
       }
     }
@@ -189,11 +210,20 @@ export async function d20Roll({parts=[], data={}, event={}, rollMode=null, templ
   };
 
   // Create the Roll instance
-  const roll = fastForward ? _roll(parts, adv) :
-    await _d20RollDialog({template, title, parts, data, rollMode: messageOptions.rollMode, dialogOptions, roll: _roll});
+  const roll = fastForward
+    ? _roll(parts, adv)
+    : await _d20RollDialog({
+        template,
+        title,
+        parts,
+        data,
+        rollMode: messageOptions.rollMode,
+        dialogOptions,
+        roll: _roll
+      });
 
   // Create a Chat Message
-  if ( roll && chatMessage ) roll.toMessage(messageData, messageOptions);
+  if (roll && chatMessage) roll.toMessage(messageData, messageOptions);
   return roll;
 }
 
@@ -204,8 +234,7 @@ export async function d20Roll({parts=[], data={}, event={}, rollMode=null, templ
  * @return {Promise<Roll>}
  * @private
  */
-async function _d20RollDialog({template, title, parts, data, rollMode, dialogOptions, roll}={}) {
-
+async function _d20RollDialog({template, title, parts, data, rollMode, dialogOptions, roll} = {}) {
   // Render modal dialog
   template = template || "systems/sw5e/templates/chat/roll-dialog.html";
   let dialogData = {
@@ -219,26 +248,29 @@ async function _d20RollDialog({template, title, parts, data, rollMode, dialogOpt
 
   // Create the Dialog window
   return new Promise(resolve => {
-    new Dialog({
-      title: title,
-      content: html,
-      buttons: {
-        advantage: {
-          label: game.i18n.localize("SW5E.Advantage"),
-          callback: html => resolve(roll(parts, 1, html[0].querySelector("form")))
+    new Dialog(
+      {
+        title: title,
+        content: html,
+        buttons: {
+          advantage: {
+            label: game.i18n.localize("SW5E.Advantage"),
+            callback: html => resolve(roll(parts, 1, html[0].querySelector("form")))
+          },
+          normal: {
+            label: game.i18n.localize("SW5E.Normal"),
+            callback: html => resolve(roll(parts, 0, html[0].querySelector("form")))
+          },
+          disadvantage: {
+            label: game.i18n.localize("SW5E.Disadvantage"),
+            callback: html => resolve(roll(parts, -1, html[0].querySelector("form")))
+          }
         },
-        normal: {
-          label: game.i18n.localize("SW5E.Normal"),
-          callback: html => resolve(roll(parts, 0, html[0].querySelector("form")))
-        },
-        disadvantage: {
-          label: game.i18n.localize("SW5E.Disadvantage"),
-          callback: html => resolve(roll(parts, -1, html[0].querySelector("form")))
-        }
+        default: "normal",
+        close: () => resolve(null)
       },
-      default: "normal",
-      close: () => resolve(null)
-    }, dialogOptions).render(true);
+      dialogOptions
+    ).render(true);
   });
 }
 
@@ -271,10 +303,25 @@ async function _d20RollDialog({template, title, parts, data, rollMode, dialogOpt
  *
  * @return {Promise}              A Promise which resolves once the roll workflow has completed
  */
-export async function damageRoll({parts, actor, data, event={}, rollMode=null, template, title, speaker, flavor,
-  allowCritical=true, critical=false, criticalBonusDice=0, criticalMultiplier=2, fastForward=null,
-  dialogOptions={}, chatMessage=true, messageData={}}={}) {
-
+export async function damageRoll({
+  parts,
+  actor,
+  data,
+  event = {},
+  rollMode = null,
+  template,
+  title,
+  speaker,
+  flavor,
+  allowCritical = true,
+  critical = false,
+  criticalBonusDice = 0,
+  criticalMultiplier = 2,
+  fastForward = null,
+  dialogOptions = {},
+  chatMessage = true,
+  messageData = {}
+} = {}) {
   // Prepare Message Data
   messageData.flavor = flavor || title;
   messageData.speaker = speaker || ChatMessage.getSpeaker();
@@ -282,11 +329,10 @@ export async function damageRoll({parts, actor, data, event={}, rollMode=null, t
   parts = parts.concat(["@bonus"]);
 
   // Define inner roll function
-  const _roll = function(parts, crit, form) {
-
+  const _roll = function (parts, crit, form) {
     // Optionally include a situational bonus
-    if ( form ) {
-      data['bonus'] = form.bonus.value;
+    if (form) {
+      data["bonus"] = form.bonus.value;
       messageOptions.rollMode = form.rollMode.value;
     }
     if (!data["bonus"]) parts.pop();
@@ -295,22 +341,23 @@ export async function damageRoll({parts, actor, data, event={}, rollMode=null, t
     let roll = new Roll(parts.join("+"), data);
 
     // Modify the damage formula for critical hits
-    if ( crit === true ) {
-      roll.alter(criticalMultiplier, 0);      // Multiply all dice
-      if ( roll.terms[0] instanceof Die ) {   // Add bonus dice for only the main dice term
+    if (crit === true) {
+      roll.alter(criticalMultiplier, 0); // Multiply all dice
+      if (roll.terms[0] instanceof Die) {
+        // Add bonus dice for only the main dice term
         roll.terms[0].alter(1, criticalBonusDice);
         roll._formula = roll.formula;
       }
       messageData.flavor += ` (${game.i18n.localize("SW5E.Critical")})`;
-      if ( "flags.sw5e.roll" in messageData ) messageData["flags.sw5e.roll"].critical = true;
+      if ("flags.sw5e.roll" in messageData) messageData["flags.sw5e.roll"].critical = true;
     }
 
     // Execute the roll
     try {
-      roll.evaluate()
-      if ( crit ) roll.dice.forEach(d => d.options.critical = true); // TODO workaround core bug which wipes Roll#options on roll
+      roll.evaluate();
+      if (crit) roll.dice.forEach(d => (d.options.critical = true)); // TODO workaround core bug which wipes Roll#options on roll
       return roll;
-    } catch(err) {
+    } catch (err) {
       console.error(err);
       ui.notifications.error(`Dice roll evaluation failed: ${err.message}`);
       return null;
@@ -318,14 +365,22 @@ export async function damageRoll({parts, actor, data, event={}, rollMode=null, t
   };
 
   // Create the Roll instance
-  const roll = fastForward ? _roll(parts, critical) : await _damageRollDialog({
-    template, title, parts, data, allowCritical, rollMode: messageOptions.rollMode, dialogOptions, roll: _roll
-  });
+  const roll = fastForward
+    ? _roll(parts, critical)
+    : await _damageRollDialog({
+        template,
+        title,
+        parts,
+        data,
+        allowCritical,
+        rollMode: messageOptions.rollMode,
+        dialogOptions,
+        roll: _roll
+      });
 
   // Create a Chat Message
-  if ( roll && chatMessage ) roll.toMessage(messageData, messageOptions);
+  if (roll && chatMessage) roll.toMessage(messageData, messageOptions);
   return roll;
-
 }
 
 /* -------------------------------------------- */
@@ -335,8 +390,7 @@ export async function damageRoll({parts, actor, data, event={}, rollMode=null, t
  * @return {Promise<Roll>}
  * @private
  */
-async function _damageRollDialog({template, title, parts, data, allowCritical, rollMode, dialogOptions, roll}={}) {
-
+async function _damageRollDialog({template, title, parts, data, allowCritical, rollMode, dialogOptions, roll} = {}) {
   // Render modal dialog
   template = template || "systems/sw5e/templates/chat/roll-dialog.html";
   let dialogData = {
@@ -349,22 +403,25 @@ async function _damageRollDialog({template, title, parts, data, allowCritical, r
 
   // Create the Dialog window
   return new Promise(resolve => {
-    new Dialog({
-      title: title,
-      content: html,
-      buttons: {
-        critical: {
-          condition: allowCritical,
-          label: game.i18n.localize("SW5E.CriticalHit"),
-          callback: html => resolve(roll(parts, true, html[0].querySelector("form")))
+    new Dialog(
+      {
+        title: title,
+        content: html,
+        buttons: {
+          critical: {
+            condition: allowCritical,
+            label: game.i18n.localize("SW5E.CriticalHit"),
+            callback: html => resolve(roll(parts, true, html[0].querySelector("form")))
+          },
+          normal: {
+            label: game.i18n.localize(allowCritical ? "SW5E.Normal" : "SW5E.Roll"),
+            callback: html => resolve(roll(parts, false, html[0].querySelector("form")))
+          }
         },
-        normal: {
-          label: game.i18n.localize(allowCritical ? "SW5E.Normal" : "SW5E.Roll"),
-          callback: html => resolve(roll(parts, false, html[0].querySelector("form")))
-        },
+        default: "normal",
+        close: () => resolve(null)
       },
-      default: "normal",
-      close: () => resolve(null)
-    }, dialogOptions).render(true);
+      dialogOptions
+    ).render(true);
   });
 }

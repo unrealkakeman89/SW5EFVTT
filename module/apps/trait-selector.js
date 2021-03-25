@@ -3,11 +3,10 @@
  * @implements {FormApplication}
  */
 export default class TraitSelector extends FormApplication {
-
   /** @override */
-	static get defaultOptions() {
-	  return mergeObject(super.defaultOptions, {
-	    id: "trait-selector",
+  static get defaultOptions() {
+    return mergeObject(super.defaultOptions, {
+      id: "trait-selector",
       classes: ["sw5e"],
       title: "Actor Trait Selection",
       template: "systems/sw5e/templates/apps/trait-selector.html",
@@ -27,33 +26,32 @@ export default class TraitSelector extends FormApplication {
    * @type {String}
    */
   get attribute() {
-	  return this.options.name;
+    return this.options.name;
   }
 
   /* -------------------------------------------- */
 
   /** @override */
   getData() {
-
     // Get current values
     let attr = getProperty(this.object._data, this.attribute);
-    if ( getType(attr) !== "Object" ) attr = {value: [], custom: ""};
+    if (getType(attr) !== "Object") attr = {value: [], custom: ""};
 
-	  // Populate choices
+    // Populate choices
     const choices = duplicate(this.options.choices);
-    for ( let [k, v] of Object.entries(choices) ) {
+    for (let [k, v] of Object.entries(choices)) {
       choices[k] = {
         label: v,
         chosen: attr ? attr.value.includes(k) : false
-      }
+      };
     }
 
     // Return data
     return {
       allowCustom: this.options.allowCustom,
-	    choices: choices,
+      choices: choices,
       custom: attr ? attr.custom : ""
-    }
+    };
   }
 
   /* -------------------------------------------- */
@@ -64,21 +62,21 @@ export default class TraitSelector extends FormApplication {
 
     // Obtain choices
     const chosen = [];
-    for ( let [k, v] of Object.entries(formData) ) {
-      if ( (k !== "custom") && v ) chosen.push(k);
+    for (let [k, v] of Object.entries(formData)) {
+      if (k !== "custom" && v) chosen.push(k);
     }
     updateData[`${this.attribute}.value`] = chosen;
 
     // Validate the number chosen
-    if ( this.options.minimum && (chosen.length < this.options.minimum) ) {
+    if (this.options.minimum && chosen.length < this.options.minimum) {
       return ui.notifications.error(`You must choose at least ${this.options.minimum} options`);
     }
-    if ( this.options.maximum && (chosen.length > this.options.maximum) ) {
+    if (this.options.maximum && chosen.length > this.options.maximum) {
       return ui.notifications.error(`You may choose no more than ${this.options.maximum} options`);
     }
 
     // Include custom
-    if ( this.options.allowCustom ) {
+    if (this.options.allowCustom) {
       updateData[`${this.attribute}.custom`] = formData.custom;
     }
 

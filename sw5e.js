@@ -8,11 +8,11 @@
  */
 
 // Import Modules
-import { SW5E } from "./module/config.js";
-import { registerSystemSettings } from "./module/settings.js";
-import { preloadHandlebarsTemplates } from "./module/templates.js";
-import { _getInitiativeFormula } from "./module/combat.js";
-import { measureDistances, getBarAttribute } from "./module/canvas.js";
+import {SW5E} from "./module/config.js";
+import {registerSystemSettings} from "./module/settings.js";
+import {preloadHandlebarsTemplates} from "./module/templates.js";
+import {_getInitiativeFormula} from "./module/combat.js";
+import {measureDistances, getBarAttribute} from "./module/canvas.js";
 
 // Import Entities
 import Actor5e from "./module/actor/entity.js";
@@ -44,7 +44,7 @@ import * as migrations from "./module/migration.js";
 /*  Foundry VTT Initialization                  */
 /* -------------------------------------------- */
 
-Hooks.once("init", function() {
+Hooks.once("init", function () {
   console.log(`SW5e | Initializing SW5E System\n${SW5E.ASCII}`);
 
   // Create a SW5E namespace within the game global
@@ -69,7 +69,7 @@ Hooks.once("init", function() {
     dice: dice,
     entities: {
       Actor5e,
-      Item5e,
+      Item5e
     },
     macros: macros,
     migrations: migrations,
@@ -81,11 +81,7 @@ Hooks.once("init", function() {
   CONFIG.Actor.entityClass = Actor5e;
   CONFIG.Item.entityClass = Item5e;
   CONFIG.time.roundTime = 6;
-  CONFIG.fontFamilies = [
-    "Engli-Besh",
-    "Open Sans",
-    "Russo One"
-  ];
+  CONFIG.fontFamilies = ["Engli-Besh", "Open Sans", "Russo One"];
 
   // 5e cone RAW should be 53.13 degrees
   CONFIG.MeasuredTemplate.defaults.angle = 53.13;
@@ -107,12 +103,12 @@ Hooks.once("init", function() {
     types: ["character"],
     makeDefault: true,
     label: "SW5E.SheetClassCharacter"
-   });
+  });
   Actors.registerSheet("sw5e", ActorSheet5eCharacter, {
     types: ["character"],
     makeDefault: false,
     label: "SW5E.SheetClassCharacterOld"
-   });
+  });
   Actors.registerSheet("sw5e", ActorSheet5eNPCNew, {
     types: ["npc"],
     makeDefault: true,
@@ -123,14 +119,31 @@ Hooks.once("init", function() {
     makeDefault: false,
     label: "SW5E.SheetClassNPCOld"
   });
-  Actors.registerSheet('sw5e', ActorSheet5eVehicle, {
-    types: ['vehicle'],
+  Actors.registerSheet("sw5e", ActorSheet5eVehicle, {
+    types: ["vehicle"],
     makeDefault: true,
     label: "SW5E.SheetClassVehicle"
   });
   Items.unregisterSheet("core", ItemSheet);
   Items.registerSheet("sw5e", ItemSheet5e, {
-	types: ['weapon', 'equipment', 'consumable', 'tool', 'loot', 'class', 'power', 'feat', 'species', 'backpack', 'archetype', 'classfeature', 'background', 'fightingmastery', 'fightingstyle', 'lightsaberform'],
+    types: [
+      "weapon",
+      "equipment",
+      "consumable",
+      "tool",
+      "loot",
+      "class",
+      "power",
+      "feat",
+      "species",
+      "backpack",
+      "archetype",
+      "classfeature",
+      "background",
+      "fightingmastery",
+      "fightingstyle",
+      "lightsaberform"
+    ],
     makeDefault: true,
     label: "SW5E.SheetClassItem"
   });
@@ -139,7 +152,6 @@ Hooks.once("init", function() {
   preloadHandlebarsTemplates();
 });
 
-
 /* -------------------------------------------- */
 /*  Foundry VTT Setup                           */
 /* -------------------------------------------- */
@@ -147,30 +159,70 @@ Hooks.once("init", function() {
 /**
  * This function runs after game data has been requested and loaded from the servers, so entities exist
  */
-Hooks.once("setup", function() {
-
+Hooks.once("setup", function () {
   // Localize CONFIG objects once up-front
   const toLocalize = [
-    "abilities", "abilityAbbreviations", "abilityActivationTypes", "abilityConsumptionTypes", "actorSizes", "alignments",
-    "armorProficiencies", "armorPropertiesTypes", "conditionTypes", "consumableTypes", "cover", "currencies", "damageResistanceTypes",
-    "damageTypes", "distanceUnits", "equipmentTypes", "healingTypes", "itemActionTypes", "languages",
-    "limitedUsePeriods", "movementTypes", "movementUnits", "polymorphSettings", "proficiencyLevels", "senses", "skills",
-    "powerComponents", "powerLevels", "powerPreparationModes", "powerScalingModes", "powerSchools", "targetTypes",
-    "timePeriods", "toolProficiencies", "weaponProficiencies", "weaponProperties", "weaponTypes"
+    "abilities",
+    "abilityAbbreviations",
+    "abilityActivationTypes",
+    "abilityConsumptionTypes",
+    "actorSizes",
+    "alignments",
+    "armorProficiencies",
+    "armorPropertiesTypes",
+    "conditionTypes",
+    "consumableTypes",
+    "cover",
+    "currencies",
+    "damageResistanceTypes",
+    "damageTypes",
+    "distanceUnits",
+    "equipmentTypes",
+    "healingTypes",
+    "itemActionTypes",
+    "languages",
+    "limitedUsePeriods",
+    "movementTypes",
+    "movementUnits",
+    "polymorphSettings",
+    "proficiencyLevels",
+    "senses",
+    "skills",
+    "powerComponents",
+    "powerLevels",
+    "powerPreparationModes",
+    "powerScalingModes",
+    "powerSchools",
+    "targetTypes",
+    "timePeriods",
+    "toolProficiencies",
+    "weaponProficiencies",
+    "weaponProperties",
+    "weaponTypes"
   ];
 
   // Exclude some from sorting where the default order matters
   const noSort = [
-    "abilities", "alignments", "currencies", "distanceUnits", "movementUnits", "itemActionTypes", "proficiencyLevels",
-    "limitedUsePeriods", "powerComponents", "powerLevels", "powerPreparationModes", "weaponTypes"
+    "abilities",
+    "alignments",
+    "currencies",
+    "distanceUnits",
+    "movementUnits",
+    "itemActionTypes",
+    "proficiencyLevels",
+    "limitedUsePeriods",
+    "powerComponents",
+    "powerLevels",
+    "powerPreparationModes",
+    "weaponTypes"
   ];
 
   // Localize and sort CONFIG objects
-  for ( let o of toLocalize ) {
+  for (let o of toLocalize) {
     const localized = Object.entries(CONFIG.SW5E[o]).map(e => {
       return [e[0], game.i18n.localize(e[1])];
     });
-    if ( !noSort.includes(o) ) localized.sort((a, b) => a[1].localeCompare(b[1]));
+    if (!noSort.includes(o)) localized.sort((a, b) => a[1].localeCompare(b[1]));
     CONFIG.SW5E[o] = localized.reduce((obj, e) => {
       obj[e[0]] = e[1];
       return obj;
@@ -179,7 +231,7 @@ Hooks.once("setup", function() {
   // add DND5E translation for module compatability
   game.i18n.translations.DND5E = game.i18n.translations.SW5E;
   // console.log(game.settings.get("sw5e", "colorTheme"));
-  let theme = game.settings.get("sw5e", "colorTheme") + '-theme';
+  let theme = game.settings.get("sw5e", "colorTheme") + "-theme";
   document.body.classList.add(theme);
 });
 
@@ -188,23 +240,25 @@ Hooks.once("setup", function() {
 /**
  * Once the entire VTT framework is initialized, check to see if we should perform a data migration
  */
-Hooks.once("ready", function() {
-
+Hooks.once("ready", function () {
   // Wait to register hotbar drop hook on ready so that modules could register earlier if they want to
   Hooks.on("hotbarDrop", (bar, data, slot) => macros.create5eMacro(data, slot));
 
   // Determine whether a system migration is required and feasible
-  if ( !game.user.isGM ) return;
+  if (!game.user.isGM) return;
   const currentVersion = game.settings.get("sw5e", "systemMigrationVersion");
   const NEEDS_MIGRATION_VERSION = "1.2.4.R1-A5";
   // Check for R1 SW5E versions
   const SW5E_NEEDS_MIGRATION_VERSION = "R1-A5";
-  const COMPATIBLE_MIGRATION_VERSION = 0.80;
-  const needsMigration = currentVersion && (isNewerVersion(SW5E_NEEDS_MIGRATION_VERSION, currentVersion) || isNewerVersion(NEEDS_MIGRATION_VERSION, currentVersion));
-  if ( !needsMigration ) return;
+  const COMPATIBLE_MIGRATION_VERSION = 0.8;
+  const needsMigration =
+    currentVersion &&
+    (isNewerVersion(SW5E_NEEDS_MIGRATION_VERSION, currentVersion) ||
+      isNewerVersion(NEEDS_MIGRATION_VERSION, currentVersion));
+  if (!needsMigration) return;
 
   // Perform the migration
-  if ( currentVersion && isNewerVersion(COMPATIBLE_MIGRATION_VERSION, currentVersion) ) {
+  if (currentVersion && isNewerVersion(COMPATIBLE_MIGRATION_VERSION, currentVersion)) {
     const warning = `Your SW5e system data is from too old a Foundry version and cannot be reliably migrated to the latest version. The process will be attempted, but errors may occur.`;
     ui.notifications.error(warning, {permanent: true});
   }
@@ -215,8 +269,7 @@ Hooks.once("ready", function() {
 /*  Canvas Initialization                       */
 /* -------------------------------------------- */
 
-Hooks.on("canvasInit", function() {
-
+Hooks.on("canvasInit", function () {
   // Extend Diagonal Measurement
   canvas.grid.diagonalRule = game.settings.get("sw5e", "diagonalMovement");
   SquareGrid.prototype.measureDistances = measureDistances;
@@ -225,13 +278,11 @@ Hooks.on("canvasInit", function() {
   Token.prototype.getBarAttribute = getBarAttribute;
 });
 
-
 /* -------------------------------------------- */
 /*  Other Hooks                                 */
 /* -------------------------------------------- */
 
 Hooks.on("renderChatMessage", (app, html, data) => {
-
   // Display action buttons
   chat.displayChatActionButtons(app, html, data);
 
@@ -244,38 +295,36 @@ Hooks.on("renderChatMessage", (app, html, data) => {
 Hooks.on("getChatLogEntryContext", chat.addChatMessageContextOptions);
 Hooks.on("renderChatLog", (app, html, data) => Item5e.chatListeners(html));
 Hooks.on("renderChatPopout", (app, html, data) => Item5e.chatListeners(html));
-Hooks.on('getActorDirectoryEntryContext', Actor5e.addDirectoryContextOptions);
-Hooks.on("renderSceneDirectory", (app, html, data)=> {
+Hooks.on("getActorDirectoryEntryContext", Actor5e.addDirectoryContextOptions);
+Hooks.on("renderSceneDirectory", (app, html, data) => {
   //console.log(html.find("header.folder-header"));
   setFolderBackground(html);
 });
-Hooks.on("renderActorDirectory", (app, html, data)=> {
+Hooks.on("renderActorDirectory", (app, html, data) => {
   setFolderBackground(html);
   CharacterImporter.addImportButton(html);
 });
-Hooks.on("renderItemDirectory",  (app, html, data)=> {
+Hooks.on("renderItemDirectory", (app, html, data) => {
   setFolderBackground(html);
 });
-Hooks.on("renderJournalDirectory",  (app, html, data)=> {
+Hooks.on("renderJournalDirectory", (app, html, data) => {
   setFolderBackground(html);
 });
-Hooks.on("renderRollTableDirectory",  (app, html, data)=> {
+Hooks.on("renderRollTableDirectory", (app, html, data) => {
   setFolderBackground(html);
 });
 Hooks.on("ActorSheet5eCharacterNew", (app, html, data) => {
   console.log("renderSwaltSheet");
 });
 // TODO I should remove this
-Handlebars.registerHelper('getProperty', function (data, property) {
+Handlebars.registerHelper("getProperty", function (data, property) {
   return getProperty(data, property);
 });
 
-
 function setFolderBackground(html) {
-  html.find("header.folder-header").each(function() {
+  html.find("header.folder-header").each(function () {
     let bgColor = $(this).css("background-color");
-    if(bgColor == undefined)
-      bgColor = "rgb(255,255,255)";
-    $(this).closest('li').css("background-color", bgColor);
-   })
+    if (bgColor == undefined) bgColor = "rgb(255,255,255)";
+    $(this).closest("li").css("background-color", bgColor);
+  });
 }
