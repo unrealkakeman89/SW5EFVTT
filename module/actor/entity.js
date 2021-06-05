@@ -98,11 +98,17 @@ export default class Actor5e extends Actor {
       }
     }
 
+    // Class features
+    if (this.data.type === "character") this._prepareClassFeatures();
+
     // Ability modifiers and saves
     const dcBonus = Number.isNumeric(data.bonuses?.power?.dc) ? parseInt(data.bonuses.power.dc) : 0;
     const saveBonus = Number.isNumeric(bonuses.save) ? parseInt(bonuses.save) : 0;
     const checkBonus = Number.isNumeric(bonuses.check) ? parseInt(bonuses.check) : 0;
     for (let [id, abl] of Object.entries(data.abilities)) {
+      // Either proficient because the class says so, or the user has set it
+      abl.proficient = abl?.classProficient || abl.proficientOverride;
+
       abl.mod = Math.floor((abl.value - 10) / 2);
       abl.prof = (abl.proficient || 0) * data.attributes.prof;
       abl.saveBonus = saveBonus;
@@ -363,6 +369,49 @@ export default class Actor5e extends Actor {
   /* -------------------------------------------- */
 
   /**
+   * Prepares the derived data from the character's classes
+   * @private
+   */
+  _prepareClassFeatures() {
+    let data = this.data.data;
+    // Automatic class data
+    for (let theClass of Object.values(this.classes)) {
+      // Only the original class provides the saving throws, skills, and most item proficiencies
+      if (theClass.data._id === data.details.originalClass) {
+        // Saving throws
+        for (let save of theClass.data.data.saves) {
+          data.abilities[save].classProficient = 1;
+        }
+
+        // Skills
+        for (let skill of theClass.data.data.skills.value) {
+          data.skills[skill].classValue = 1
+        }
+
+        // OG Item Proficiencies
+        // Armour
+        for (let item of theClass.data.data.itemProficiencies.armour) {
+
+        }
+
+        // Weapons
+        for (let item of theClass.data.data.itemProficiencies.weapons) {
+
+        }
+
+        // Items
+        for (let item of theClass.data.data.itemProficiencies.tools) {
+
+        }
+      } else {
+        // Multiclass Item Proficiencies
+      }
+    }
+  }
+
+  /* -------------------------------------------- */
+
+  /**
    * Prepare skill checks.
    * @param actorData
    * @param bonuses Global bonus data.
@@ -383,6 +432,9 @@ export default class Actor5e extends Actor {
     const observant = flags.observantFeat;
     const skillBonus = Number.isNumeric(bonuses.skill) ? parseInt(bonuses.skill) :  0;
     for (let [id, skl] of Object.entries(data.skills)) {
+      // Use the highest out of the value provided by the class, and the value provided by the user
+      skl.value =  (skl?.classValue > skl.valueOverride ? skl?.classValue : skl.valueOverride);
+
       skl.value = Math.clamped(Number(skl.value).toNearest(0.5), 0, 2) ?? 0;
       let round = Math.floor;
 

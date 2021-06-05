@@ -538,22 +538,27 @@ export default class ActorSheet5e extends ActorSheet {
    */
   _onCycleSkillProficiency(event) {
     event.preventDefault();
-    const field = $(event.currentTarget).siblings('input[type="hidden"]');
+    // Like _onToggleAbilityProficiency
+    // const field = $(event.currentTarget).siblings('input[type="hidden"]');
+    const field = event.currentTarget.previousElementSibling;
 
     // Get the current level and the array of levels
-    const level = parseFloat(field.val());
-    const levels = [0, 1, 0.5, 2];
+    const level = parseFloat(field.value);
+    const levels = [0, 0.5, 1, 2];
     let idx = levels.indexOf(level);
 
     // Toggle next level - forward on click, backwards on right
     if ( event.type === "click" ) {
-      field.val(levels[(idx === levels.length - 1) ? 0 : idx + 1]);
+      field.value = (levels[(idx === levels.length - 1) ? 0 : idx + 1]);
     } else if ( event.type === "contextmenu" ) {
-      field.val(levels[(idx === 0) ? levels.length - 1 : idx - 1]);
+      field.value = (levels[(idx === 0) ? levels.length - 1 : idx - 1]);
     }
 
     // Update the field value and save the form
-    this._onSubmit(event);
+
+    // I've no idea why onsubmit was used, but it doesn't work if we want it to set a different value, thus we replace it with an actor update statement
+    // this._onSubmit(event);
+    return this.actor.update({[field.name + "Override"]: parseFloat(field.value)});
   }
 
   /* -------------------------------------------- */
@@ -922,7 +927,7 @@ _onItemCollapse(event) {
   _onToggleAbilityProficiency(event) {
     event.preventDefault();
     const field = event.currentTarget.previousElementSibling;
-    return this.actor.update({[field.name]: 1 - parseInt(field.value)});
+    return this.actor.update({[field.name + "Override"]: 1 - parseInt(field.value)});
   }
 
   /* -------------------------------------------- */

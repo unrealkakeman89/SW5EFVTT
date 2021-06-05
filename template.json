@@ -6,27 +6,33 @@
         "abilities": {
           "str": {
             "value": 10,
-            "proficient": 0
+            "proficient": 0,
+            "proficientOverride": 0
           },
           "dex": {
             "value": 10,
-            "proficient": 0
+            "proficient": 0,
+            "proficientOverride": 0
           },
           "con": {
             "value": 10,
-            "proficient": 0
+            "proficient": 0,
+            "proficientOverride": 0
           },
           "int": {
             "value": 10,
-            "proficient": 0
+            "proficient": 0,
+            "proficientOverride": 0
           },
           "wis": {
             "value": 10,
-            "proficient": 0
+            "proficient": 0,
+            "proficientOverride": 0
           },
           "cha": {
             "value": 10,
-            "proficient": 0
+            "proficient": 0,
+            "proficientOverride": 0
           }
         },
         "attributes": {
@@ -134,74 +140,92 @@
         "skills": {
           "acr": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "dex"
           },
           "ani": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "wis"
           },
           "ath": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "str"
           },
           "dec": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "cha"
           },
           "ins": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "wis"
           },
           "itm": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "cha"
           },
           "inv": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "int"
           },
           "lor": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "int"
           },
           "med": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "wis"
           },
           "nat": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "int"
           },
           "pil": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "int"
           },
           "prc": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "wis"
           },
           "prf": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "cha"
           },
           "per": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "cha"
           },
           "slt": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "dex"
           },
           "ste": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "dex"
           },
           "sur": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "wis"
           },
           "tec": {
             "value": 0,
+            "valueOverride": 0,
             "ability": "int"
           }
         },
@@ -882,7 +906,21 @@
     "class": {
       "templates": ["classDescription"],
       "className": "",
+      "classFeatures": {},
+      "itemProficiencies": {
+        "armour": [],
+        "weapons": [],
+        "tools": []
+      },
+      "multiclassProficiencies": {
+        "armour": [],
+        "weapons": [],
+        "tools": []
+      },
       "levels": 1,
+      "multiclassPrerequisite": [
+        []
+      ],
       "archetype": "",
       "hitDice": "d6",
       "hitDiceUsed": 0,
