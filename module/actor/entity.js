@@ -79,6 +79,30 @@ export default class Actor5e extends Actor {
     data.attributes.encumbrance = this._computeEncumbrance(actorData);
 	
     if (actorData.type === "starship") {
+      // Find Size info of Starship
+      const size = actorData.items.filter(i => i.type === "starship");
+      if (size.length === 0) return;
+      const sizeData = size[0].data;
+
+      // Prepare Hull Points
+      data.attributes.hp.max = sizeData.hullDiceRolled.reduce((a, b) => a + b, 0) + data.abilities.con.mod * data.attributes.hull.dicemax;
+      if (data.attributes.hp.value === null) data.attributes.hp.value = data.attributes.hp.max;
+
+      // Prepare Shield Points
+      data.attributes.hp.tempmax = sizeData.shldDiceRolled.reduce((a, b) => a + b, 0) + data.abilities.str.mod * data.attributes.shld.dicemax;
+      if (data.attributes.hp.temp === null) data.attributes.hp.temp = data.attributes.hp.tempmax;
+
+      // Prepare Speeds
+      data.attributes.movement.space = sizeData.baseSpaceSpeed + (50 * (data.abilities.str.mod - data.abilities.con.mod));
+      data.attributes.movement.turn = Math.max(50,(sizeData.baseTurnSpeed - (50 * (data.abilities.dex.mod - data.abilities.con.mod))));
+
+      // Prepare Max Suites
+      data.attributes.mods.suites.max = sizeData.modMaxSuitesBase + (sizeData.modMaxSuitesMult * data.abilities.con.mod);
+
+      // Prepare Hardpoints
+      data.attributes.mods.hardpoints.max = sizeData.hardpointMult * Math.max(0,data.abilities.str.mod);
+
+      //Prepare Fuel
       data.attributes.fuel = this._computeFuel(actorData);
     }
   
@@ -102,7 +126,7 @@ export default class Actor5e extends Actor {
     data.attributes.powerForceDarkDC = 8 + data.abilities.cha.mod + data.attributes.prof ?? 10;
     data.attributes.powerForceUnivDC = Math.max(data.attributes.powerForceLightDC,data.attributes.powerForceDarkDC) ?? 10;
     data.attributes.powerTechDC = 8 + data.abilities.int.mod + data.attributes.prof ?? 10;
-    this._computePowercastingProgression(this.data);
+    this._computeDerivedPowercasting(this.data);
 
     // Compute owned item attributes which depend on prepared Actor data
     this.items.forEach(item => {
@@ -277,6 +301,9 @@ export default class Actor5e extends Actor {
     const required = xp.max - prior;
     const pct = Math.round((xp.value - prior) * 100 / required);
     xp.pct = Math.clamped(pct, 0, 100);
+
+    // Add base Powercasting attributes
+    this._computeBasePowercasting(actorData);
   }
 
   /* -------------------------------------------- */
@@ -292,6 +319,8 @@ export default class Actor5e extends Actor {
 
     // Proficiency
     data.attributes.prof = Math.floor((Math.max(data.details.cr, 1) + 7) / 4);
+
+    this._computeBasePowercasting(actorData);
 
     // Powercaster Level
     if ( data.attributes.powercasting && !Number.isNumeric(data.details.powerLevel) ) {
@@ -334,15 +363,9 @@ export default class Actor5e extends Actor {
     data.attributes.hull.die = sizeData.hullDice;
     data.attributes.hull.dicemax = sizeData.hullDiceStart + tiers;
     data.attributes.hull.dice = sizeData.hullDiceStart + tiers - (parseInt(sizeData.hullDiceUsed) || 0);
-    // push to derived since based on attributes
-    // data.attributes.hp.max = sizeData.hullDiceRolled[].reduce((a, b) => a + b, 0) + con.mod * hull.diceMax;
-    // if (data.attributes.hp.value === null) data.attributes.hp.value = data.attributes.hp.max;
     data.attributes.shld.die = sizeData.shldDice;
     data.attributes.shld.dicemax = sizeData.shldDiceStart + tiers;
     data.attributes.shld.dice = sizeData.shldDiceStart + tiers - (parseInt(sizeData.shldDiceUsed) || 0);
-    // push to derived since based on attributes
-    // data.attributes.hp.tempmax = sizeData.shldDiceRolled[].reduce((a, b) => a + b, 0) + str.mod * shld.diceMax;
-    // if (data.attributes.hp.temp === null) data.attributes.hp.temp = data.attributes.hp.tempmax;
     sizeData.pwrDice = SW5E.powerDieTypes[tiers];
     data.attributes.power.die = sizeData.pwrDice;
     data.attributes.cost.baseBuild = sizeData.buildBaseCost;
@@ -351,19 +374,11 @@ export default class Actor5e extends Actor {
     data.attributes.cost.baseUpgrade = SW5E.baseUpgradeCost[tiers];
     data.attributes.cost.multUpgrade = sizeData.upgrdCostMult;
     data.attributes.workforce.minUpgrade = sizeData.upgrdMinWorkforce;
-    // push to derived since based on attributes
-    // data.attributes. = sizeData.baseSpaceSpeed;
-    // data.attributes. = sizeData.baseTurnSpeed;
     data.attributes.equip.crewMinWorkforce = (parseInt(sizeData.crewMinWorkforce) || 1);
     data.attributes.mods.capLimit = sizeData.modBaseCap;
-    // push to derived since based on attributes
-    // data.attributes. = sizeData.modMaxSuitesBase;
-    // data.attributes. = sizeData.modMaxSuitesMult;
     data.attributes.mods.suites.cap = sizeData.modMaxSuiteCap;
     data.attributes.cost.multModification = sizeData.modCostMult;
     data.attributes.workforce.minModification = sizeData.modMinWorkforce;
-    // push to derived since based on attributes
-    // data.attributes. = sizeData.hardpointMult;
     data.attributes.cost.multEquip = sizeData.equipCostMult;
     data.attributes.workforce.minEquip = sizeData.equipMinWorkforce;
     data.attributes.equip.cargoCap = sizeData.cargoCap;
@@ -440,7 +455,7 @@ export default class Actor5e extends Actor {
    * Prepare data related to the power-casting capabilities of the Actor
    * @private
    */
-  _computePowercastingProgression (actorData) {
+   _computeBasePowercasting (actorData) {
     if (actorData.type === 'vehicle' || actorData.type === 'starship') return;
     const powers = actorData.data.powers;
     const isNPC = actorData.type === 'npc';
@@ -619,12 +634,12 @@ export default class Actor5e extends Actor {
     // Set Force and tech power for PC Actors
     if (!isNPC && forceProgression.levels){
       actorData.data.attributes.force.known.max = forceProgression.powersKnown;
-      actorData.data.attributes.force.points.max = forceProgression.points + Math.max(actorData.data.abilities.wis.mod,actorData.data.abilities.cha.mod);
+      actorData.data.attributes.force.points.max = forceProgression.points; // + Math.max(actorData.data.abilities.wis.mod,actorData.data.abilities.cha.mod);
       actorData.data.attributes.force.level = forceProgression.levels;
     }
     if (!isNPC && techProgression.levels){
       actorData.data.attributes.tech.known.max = techProgression.powersKnown;
-      actorData.data.attributes.tech.points.max = techProgression.points + actorData.data.abilities.int.mod;
+      actorData.data.attributes.tech.points.max = techProgression.points; // + actorData.data.abilities.int.mod;
       actorData.data.attributes.tech.level = techProgression.levels;
     }
 
@@ -653,6 +668,25 @@ export default class Actor5e extends Actor {
       actorData.data.attributes.force.known.value = knownForcePowers;
       actorData.data.attributes.tech.known.value = knownTechPowers;
     }
+  }
+
+  /* -------------------------------------------- */
+
+  /**
+   * Prepare data related to the power-casting capabilities of the Actor
+   * @private
+   */
+  _computeDerivedPowercasting (actorData) {
+    if (actorData.type !== 'actor') return;
+
+    // Set Force and tech power for PC Actors
+    if (!!actorData.data.attributes.force.level){
+      actorData.data.attributes.force.points.max += Math.max(actorData.data.abilities.wis.mod,actorData.data.abilities.cha.mod);
+    }
+    if (!!actorData.data.attributes.tech.level){
+      actorData.data.attributes.tech.points.max += actorData.data.abilities.int.mod;
+    }
+
   }
 
   /* -------------------------------------------- */
