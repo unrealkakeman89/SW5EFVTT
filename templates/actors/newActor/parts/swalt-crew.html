@@ -8,6 +8,14 @@
         <li class="filter-item" data-filter="reaction">{{localize "SW5E.Reaction"}}</li>
     </ul>
 
+    <ol>
+        <li>Coordinator: {{data.attributes.deployment.coord.name}}</li>
+        <li>Gunner: {{data.attributes.deployment.gunner.name}}</li>
+        <li>Mechanic: {{data.attributes.deployment.mechanic.name}}</li>
+        <li>Operator: {{data.attributes.deployment.operator.name}}</li>
+        <li>Pilot: {{data.attributes.deployment.pilot.name}}</li>
+        <li>Technician: {{data.attributes.deployment.technician.name}}</li>
+    </ol>
 
     <ol class="group-list">
         {{#each sections as |section sid|}}
