@@ -1,0 +1,108 @@
+{
+    "name": "Companion",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are experienced in the arts of companionship, and you provide these services for people who can afford to pay it. This may mean adult favors of the sensual variety, but it just as frequently means conversation, comfort, and company."
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Acrobatics, Deception, Insight, and Performance"
+        },
+        "toolProficiencies": {
+            "value": "One instrument of your choice or a disguise kit"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of common clothes, an instrument or disguise kit, and a belt pouch containing 50 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "You enjoy people and you enjoy your work and you enjoy the money it brings. There is no shame in your profession and it is often highly regulated and regimented by factions or the local government. It requires outgoing and adventurous personalities to be a success, and often these traits lead them to adventures of a different sort."
+        },
+        "featureName": {
+            "value": "Sordid Knowledge"
+        },
+        "featureText": {
+            "value": "You have or can gain compromising information about people of importance. You may be able to leverage this information in order to acquire lodging, information, or even money.  You may also become a target for having this information. Your GM may rule that any particular individual is either above reproach or is too careful in covering their tracks to provide such leverage."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Acrobat</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Silver-Tongued</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Performer</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Force of Personality</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">People are often hurt and damaged. I try to heal them and leave them stronger than when I meet them.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I enjoy being in control and manipulating people. It's important that they like me so they do what I say.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I'm not a laser-brain, although I don't open my mouth to prove people wrong. I let them discover the truth after I have what I want.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm better than those who are more prim and proper, and I'm having more fun.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I don't really care what happens, it's an easy way to get money for my habit.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">There are so many different kinds of people, and I want to meet them all.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I never thought this was the life for me, perhaps some brave person will rescue me.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I like what I do and I resent those who want to rescue me.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Sacred. My body is a temple I am duty-bound to share. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Hedonism. I fill my urges when and where I wish. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Loving. Everyone needs attention and love. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Exploitation. I take pleasure in toying with people, and taking advantage of them. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Consent. I respect other's desires and wishes. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Freedom. I want to have the independence to enjoy life. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I have an incurable disease I acquired from a client.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am addicted to recreational drugs that dull the pain I feel.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I no longer practice my old profession, and I fear anyone discovering it.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I am suspicious of anyone who tries to be nice to me. They only want me to sleep with them.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Most people are naive children.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I pretend to be tough, but am broken inside.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I seek a relationship with the most powerful people in the land, desiring to be the power behind the throne.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">If I can only collect enough credits, I'll be able to pay off my debts and be free.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I have a sick parent to whom I send all my money.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">My independence is the most important thing in my world.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I bring happiness to the world one person at a time.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I have a young child who is my world.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Companion.webp",
+    "effects": [
+        {
+            "_id": "vkjxLXTTqcu51mT0",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Companion",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Companion",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "7VyUFwILv8RFAAby"
+}

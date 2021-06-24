@@ -1,0 +1,37 @@
+{
+    "_id": "2Clm8rTqRR7GqnBp",
+    "name": "Central Computer, Mark III",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Central Computer, Mark II"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "3"
+        },
+        "description": {
+            "value": "<p>You greatly improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 4. Additionally, your artificial intelligence gains proficiency in Piloting and can take pilot-only actions if deployed as the pilot.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "oQB0u4Zab08z5qtI",
+    "name": "Cloaking Device",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Active Camouflage"
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "5"
+        },
+        "description": {
+            "value": "<p>This system massively improves the stealth mode function on your ship, becoming a true cloaking device. While active, your ship is invisible. Additionally, when your ship makes a Dexterity (Hide) check while your cloaking device is active, it has advantage on the roll. If your ship already has advantage on the ability check, you can instead reroll one of the dice once.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

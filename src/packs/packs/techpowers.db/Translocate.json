@@ -1,0 +1,93 @@
+{
+    "_id": "CdQSEvQtfFsxMiCn",
+    "name": "Translocate",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>Your form shimmers in a holographic configuration, and then collapses. You teleport up to 30 feet to an unoccupied space that you can see.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "bonus",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": "self"
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 2,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/Translocate.webp"
+}

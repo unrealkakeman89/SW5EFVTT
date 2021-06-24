@@ -1,0 +1,87 @@
+{
+    "_id": "E8mrRhc4BQEgapcA",
+    "name": "Augmented Cyborg",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p>You've experimented with cybernetic augmentations, granting the following benefits:</p>\n<ul>\n<li>Increase an ability score of your choice by 1, to a maximum of 20.</li>\n<li>Choose one cybernetic augmentation of standard rarity from Appendix A. That augmentation is installed and doesn't count against the maximum cybernetic augmentations you can support, but it does count towards your total cybernetics augmentations as shown in the Cybernetic Augmentations Side Effects table in Chapter 7.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 1100000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Augmented%20Cyborg.webp",
+    "effects": []
+}

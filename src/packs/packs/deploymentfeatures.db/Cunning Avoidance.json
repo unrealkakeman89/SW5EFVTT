@@ -1,0 +1,31 @@
+{
+    "_id": "j38Mv9jlqn3528U4",
+    "name": "Cunning Avoidance",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Pilot"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "3rd Rank"
+        },
+        "description": {
+            "value": "<p>Also at 3rd rank, once per round, when your ship is hit with a ship attack or fails a saving throw, you can make a Dexterity (Maneuvering) check, and instead use that value for your AC or saving throw.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Pilot.webp",
+    "effects": []
+}

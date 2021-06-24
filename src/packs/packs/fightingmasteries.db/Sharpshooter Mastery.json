@@ -1,0 +1,20 @@
+{
+    "_id": "rA2qg1EsfHHJMii9",
+    "name": "Sharpshooter Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered blaster weapons and can easily make shots that others find impossible. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:</p><ul><li>Attacking at long range doesn't impose disadvantage on your ranged weapon attack rolls.</li><li>Your ranged weapon attacks ignore one-quarter and half cover against targets 30 feet or greater from you. If your ranged weapon attacks would already ignore one-quarter and half cover against targets 30 feet or greater from you, they now also ignore three-quarters cover.</li><li>Before you make an attack with a blaster weapon against a target 30 feet or greater from you, you can choose to forgo your proficiency bonus. If the attack hits, you add twice your proficiency bonus to the attack's damage.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Sharpshooter%20Mastery.webp",
+    "effects": []
+}

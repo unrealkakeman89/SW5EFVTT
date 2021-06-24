@@ -1,0 +1,99 @@
+{
+    "_id": "XizLBCti6XKTlkmM",
+    "name": "Dark Side Tendrils",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>Tendrils of dark energy erupt from you and batter all creatures within 10 feet of you. Each creature in that area must make a Strength saving throw. On a failed save, a target takes 2d6 necrotic damage and can\u2019t take reactions until its next turn. On a successful save, the creature takes half damage, but suffers no other effect.</p>\n<p><strong><em><strong>Force Potency.</strong></em></strong>&nbsp;When you cast this power using a power slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": 10,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "2d6",
+                    "necrotic"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "str",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 1,
+        "school": "drk",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d6"
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Dark%20Side%20Tendrils.webp",
+    "effects": []
+}

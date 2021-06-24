@@ -1,0 +1,76 @@
+{
+    "_id": "KXDSrYHAZQZcglVz",
+    "name": "Boundless Vitality",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Beginning at 10th level, when you take damage, you can use your reaction and expend a force point to regain health equal to 1d8 + your Wisdom or Charisma modifier (your choice, minimum of one) as long as the damage would not reduce your hit points to 0.</p>\n<p>This die increases when you reach certain levels in this class: to 1d10 at 14th level, and to 1d12 at 18th level.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "reaction",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "cha",
+        "actionType": "heal",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8+@mod",
+                    "healing"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

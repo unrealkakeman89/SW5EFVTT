@@ -1,0 +1,63 @@
+{
+    "name": "Devaronian: Two Livered",
+    "permission": {
+        "default": 0,
+        "5thIrpa58swdLRGE": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "Devaronians have two livers, which makes them adept at filtering toxins. You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "Devaronian",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "_id": "rhY2LLs73PuDyzC8"
+}

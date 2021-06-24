@@ -1,0 +1,23 @@
+{
+    "_id": "B21ZmA0ZJG5xYsDM",
+    "name": "Weapon Enhancement",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> The ability to cast 3rd level tech powers</em></p><p>An unenhanced ship weapon on your ship becomes an enhanced weapon. Choose one of these damage types: acid, cold, energy, fire, ion, kinetic, or lightning. For the duration, an unenhanced ship weapon you touch has a +1 to attack rolls and deals an extra 1d4 damage of the chosen type.</p>"
+        },
+        "prerequisites": [
+            "The ability to cast 3rd level tech powers"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

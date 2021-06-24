@@ -1,0 +1,71 @@
+{
+    "_id": "s9N0SbnOiNitLT5W",
+    "name": "Clarity of Vision",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Starting at 18th level, the visions in your dreams intensify and paint a more accurate picture in your mind of what is to come. You roll three d20s for your Force Visions feature, rather than two.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

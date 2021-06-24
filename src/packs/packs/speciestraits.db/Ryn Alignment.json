@@ -1,0 +1,63 @@
+{
+    "name": "Ryn: Alignment",
+    "permission": {
+        "default": 0,
+        "5thIrpa58swdLRGE": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "Ryn\u2019s superstitious and solitary nature causes them to tend toward balanced alignments, though there are exceptions.",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "Ryn",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "_id": "fyTp5ugEJ9WPzF9g"
+}

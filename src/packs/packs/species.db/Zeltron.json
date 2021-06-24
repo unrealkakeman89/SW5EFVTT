@@ -1,0 +1,222 @@
+{
+    "_id": "JxGOgqePQT2ztJ64",
+    "name": "Zeltron",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Zeltrons are one of the few near-human species that differentiated from the baseline stock enough to be considered a new species of the Human genus, rather than simply a subspecies. They possess two biological traits of note. The first is that they all produce potent pheromones, similar to the Falleen species, which enhanced their attractiveness and likeability. The second is a limited telepathic ability, used to project emotions onto others, as well as allowing them to read and even feel the emotions of others; some Zeltrons have been hired by the Exchange for this ability. Because of their telepathic ability, positive emotions such as happiness, love and pleasure are very important to them, while negative ones such as anger, fear, or depression are shunned.</p><h2>Society and Culture</h2><p>Zeltron culture is highly influenced by sexuality and the pursuit of pleasure in general. Most of their art and literature is devoted to the subject, producing some of the raciest pieces in the galaxy. Zeltrons are known to dress in wildly colorful or revealing attire. It's common to see Zeltrons wearing shockingly bright shades of neon colors in wildly designed bikinis, or nearly skin tight clothing of other sorts with bizarre color designs, patterns, and symbols. </p><h2>Names</h2><p>Zeltron names often have an air of mystique to them, to evoke sensuality. For a Zeltron, a beautiful face is nothing without an equally beautiful name. It's not uncommon for a Zeltron to forsake their familial surname in favor of a more attractive-sounding one.</p><strong>&nbsp;&nbsp;Male Names.</strong> Marruc, Bahb, Rahulh, Demagol </p><strong>&nbsp;&nbsp;Female Names.</strong> Lyshaa, Dani, Vianna, Chantique </p><strong>&nbsp;&nbsp;Surnames.</strong> D'Pow, Blue, Duare, Sapphire",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Constitution score increases by 1.</p><p><em><strong>Age.</strong></em> Zeltron reach adulthood in their late teens and live about 80 years.</p><p><em><strong>Alignment.</strong></em> Zeltron are a deeply sensual, hedonistic species, causing them to tend toward chaotic balanced or dark side alignments, though there are exceptions.</p><p><em><strong>Size.</strong></em> Zeltron tend to be slender and statuesque, typically standing between 5 and 6 feet tall and rarely weighing more than 150 lb. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Charismatic.</strong></em> You have proficiency with Deception or Persuasion (your choice).</p><p><em><strong>Enthralling Pheromones.</strong></em> You can use your pheromones to influence individuals of both sexes. Whenever you roll a 1 on a Charisma (Persuasion) check, you can reroll the die and must use the new roll. Additionally, once per short or long rest, you can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs.</p><p><em><strong>Natural Empathy.</strong></em> Zeltron's limited telepathy allow them to sense mood shifts in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.</p><p><em><strong>Two Livered.</strong></em> Zeltron have two livers, which makes them adept at filtering toxins. You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and one language of your choice.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Light pink to deep crimson"
+        },
+        "hairColorOptions": {
+            "value": "Blue, brown, pink, or red"
+        },
+        "eyeColorOptions": {
+            "value": "Hazel, silver, amber"
+        },
+        "distinctions": {
+            "value": "Capable of producing powerful pheromones"
+        },
+        "heightAverage": {
+            "value": "4'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "90 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Zeltros"
+        },
+        "slanguage": {
+            "value": "Galactic Basic"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Zeltron",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "TSnP7ODGs6vIPQNe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "TSnP7ODGs6vIPQNe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "TSnP7ODGs6vIPQNe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "TSnP7ODGs6vIPQNe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "TSnP7ODGs6vIPQNe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "TSnP7ODGs6vIPQNe",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "TSnP7ODGs6vIPQNe",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Zeltron.webp",
+    "effects": [
+        {
+            "_id": "67J2jENh3a5uydk3",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Zeltron",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.enthrallingPheromones",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Zeltron.webp",
+            "label": "Zeltron",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "H1wby8wQisTrmDFb",
+    "name": "Potent Fortifications",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p style=\"text-align: center;\"><em><strong>Construction Engineering:&nbsp;3rd level</strong></em></p>\n<p>When a friendly creature other than you that you can see is hit with a ranged attack while within 5 feet of your deployed portable structure, you can use your reaction and expend one use of your Potent Aptitude to have your structure take the damage instead. If your structure would normally have immunity or resistance to this damage, it loses that immunity or resistance for this attack. When you do so, the damage is reduced by an amount equal to 1 d10 + your Intelligence modifier + your engineer level.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "reaction",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

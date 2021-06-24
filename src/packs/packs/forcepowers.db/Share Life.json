@@ -1,0 +1,99 @@
+{
+    "_id": "ntUNXx3Uag6BjJJH",
+    "name": "Share Life",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Give Life</em></p>\n<p>You sacrifice some of your health to mend another creature&rsquo;s injuries. You take 4d8 necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take. This power has no effect on droids or constructs.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "4d8",
+                    "necrotic"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 3,
+        "school": "lgt",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d8"
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Share%20Life.webp",
+    "effects": []
+}

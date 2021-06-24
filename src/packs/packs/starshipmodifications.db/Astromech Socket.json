@@ -1,0 +1,37 @@
+{
+    "_id": "896UAKVKGxZnCnRq",
+    "name": "Astromech Socket",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This system adds space for an astromech crew member and allows a single deployed astromech crew member to take the Boost Engines, Boost Shields, and Boost Weapons action as a bonus action on their turn.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

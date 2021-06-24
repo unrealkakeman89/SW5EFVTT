@@ -1,0 +1,71 @@
+{
+    "_id": "YnM0Nxhfsvkr01Vh",
+    "name": "Enhanced Shot",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Beginning at 7th level, you gain the ability to enhance your shots. Whenever you fire an unenhanced shot from a blaster, you can make it enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

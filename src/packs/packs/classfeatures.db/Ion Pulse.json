@@ -1,0 +1,71 @@
+{
+    "_id": "D1da9OmAYYMq59gg",
+    "name": "Ion Pulse",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Starting at 13th level, as a bonus action on your turn, you can expend one or more of your tracker droid&rsquo;s Hit Dice to have it emit an pulse of ion energy. Each creature within 5 feet of your tracker droid must make a Constitution saving throw against your tech save DC. A creature takes 1d4 ion damage for each Hit Die expended in this way on a failed save, or half as much as on a successful one. Any electronics not being worn or carried within the blast radius are disabled until rebooted.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "bonus",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

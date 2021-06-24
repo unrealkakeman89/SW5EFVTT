@@ -1,0 +1,20 @@
+{
+    "_id": "R0igEbcc3bZ3mS0e",
+    "name": "Duelist Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered the art of fighting with a single weapon, making one weapon feel like many. While you are wielding a weapon in one hand with which you are proficient and no other weapons, you gain the following benefits:</p><ul><li>When you take the Attack action, you can choose to attack with haste at the expense of accuracy. Your weapon attack is made without the aid of your proficiency bonus, but you can use your reaction to make an additional weapon attack, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.</li><li>When a creature hits you with a melee attack, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.</li><li>You have advantage on ability checks and saving throws to avoid being disarmed.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Duelist%20Mastery.webp",
+    "effects": []
+}

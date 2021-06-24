@@ -1,0 +1,98 @@
+{
+    "_id": "HTozWic37W9iKQSD",
+    "name": "Homing Rockets",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You lock on to one or more targets within range and expel a series of three small explosives. Each explosive hits a creature of your choice that you can see within range. An explosive deals 1d4 + 1 fire damage to its target. The explosives all strike simultaneously, and you can direct them to hit one creature or several.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 2nd level or higher, the power creates one more explosive for each slot level above 1st.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 120,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4 + 1",
+                    "fire"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 1,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/HomingRockets.webp"
+}

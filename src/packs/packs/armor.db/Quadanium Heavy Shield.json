@@ -1,0 +1,120 @@
+{
+    "_id": "pXh1QKqdpswa9ONp",
+    "name": "Quadanium Heavy Shield",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "equipment",
+    "data": {
+        "description": {
+            "value": "<p>Charging 1, Strength 15</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 36,
+        "price": 2000,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "spell"
+        },
+        "armor": {
+            "type": "shield",
+            "value": 3,
+            "dex": null
+        },
+        "strength": 15,
+        "stealth": true,
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        },
+        "properties": {
+            "Absorptive": false,
+            "Agile": false,
+            "Anchor": false,
+            "Avoidant": false,
+            "Barbed": false,
+            "Bulky": false,
+            "Charging": true,
+            "Concealing": false,
+            "Cumbersome": true,
+            "Gauntleted": false,
+            "Imbalanced": false,
+            "Impermeable": false,
+            "Insulated": false,
+            "Interlocking": false,
+            "Lambent": false,
+            "Lightweight": false,
+            "Magnetic": false,
+            "Obscured": false,
+            "Obtrusive": true,
+            "Powered": false,
+            "Reactive": false,
+            "Regulated": false,
+            "Reinforced": false,
+            "Responsive": false,
+            "Rigid": false,
+            "Silent": false,
+            "Spiked": false,
+            "Steadfast": false,
+            "Strength": true,
+            "Versatile": false
+        },
+        "cptooltipmode": "hid"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "effects": [],
+    "img": "systems/sw5e/packs/Icons/Armor/WH/Quadanium%20Heavy%20Shield.webp"
+}

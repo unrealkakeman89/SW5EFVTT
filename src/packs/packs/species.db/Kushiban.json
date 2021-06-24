@@ -1,0 +1,273 @@
+{
+    "_id": "nVOqOtFPeaUDlp5I",
+    "name": "Kushiban",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Kushibans are four-limbed lagomorphs native to the planet Kushibah. They are diminutive, unimposing, and typically weaker than most humanoids, but they are also quite difficult to track due to their natural speed and stealth.\r\n\r\nWhile Kushibans are quadrupeds, their forepaws are as manipulative as traditional hands. While Kushibans can walk on two legs, they typically run around on four feet since they can move significantly faster that way. \r\n\r\nKushibans are inherently cute and fuzzy, and more nefarious species often attempt to take them as slaves. Kushibans are social and do not take well to slavery, and they typically don't live long in solitude or captivity. </p><h2>Society and Culture</h2><p>Kushibans live in a simple, peacful society on the non-industrialized, lush green planet of Kushibah in the Outer Rim. Kushibans are typically kind a generous, with a playful sense of humor and a penchant for practical jokes. However, if betrayed or angered, Kushibans can be cruel or vindictive, and they have little patience for bullies, simpletons, and misanthropes.</p><h2>Names</h2><p>Kushiban names are a single word combining both their first and familial names.</p><strong>&nbsp;&nbsp;Male Names.</strong> Cerlyk, Etyk, Mabbik, Tieko, Widdimur</p><strong>&nbsp;&nbsp;Female Names.</strong> Asani, Pritsi, Sibble, Mirax",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Kushibans reach adulthood at 13 and live less than a century.</p><p><em><strong>Alignment.</strong></em> Kushibans' playful nature causes them to tend toward chaotic light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Kushibans typically stand 3 and a half to 4 feet tall and weigh around 40 lbs. Regardless of your position in that range, your size is Small.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p><p><em><strong>Grovel, Cower, and Beg.</strong></em> As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.</p><p><em><strong>Hide.</strong></em> You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p><p><em><strong>Mask of the Wild.</strong></em> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p><p><em><strong>Nimble Agility.</strong></em> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the tum. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p><p><em><strong>Stealthy.</strong></em> You are proficient in the Stealth skill.</p><p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Kushiban. Kushiban has a bubbly, joyful tone to it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "White to light gray"
+        },
+        "hairColorOptions": {
+            "value": "Typically white but varies based on mood"
+        },
+        "eyeColorOptions": {
+            "value": "Typically blue, brown, or green"
+        },
+        "distinctions": {
+            "value": "Lagomorph, nimble, resilient"
+        },
+        "heightAverage": {
+            "value": "2'11\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "35 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Kushibah"
+        },
+        "slanguage": {
+            "value": "Kushiban"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Kushiban",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "sm",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "12",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.skills.ste.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "kushiban",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "23FrxvnBFq4x2wF6",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Kushiban.webp",
+    "effects": [
+        {
+            "_id": "rcIMsotffEEZpwXR",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Kushiban",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "12+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.skills.ste.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "kushiban",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.grovelCowerAndBeg",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.maskOfTheWild",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.nimbleAgility",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Kushiban.webp",
+            "label": "Kushiban",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

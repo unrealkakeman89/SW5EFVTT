@@ -1,0 +1,21 @@
+{
+    "_id": "TkdGlKE4PQJmJ5f9",
+    "name": "Counterslicer",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "When you are the target of the Interfere action and are forced to make a Wisdom (Scan) check, if you succeed on the contest, you have advantage on the next Charisma (Interfere) check you make before the end of your next turn.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

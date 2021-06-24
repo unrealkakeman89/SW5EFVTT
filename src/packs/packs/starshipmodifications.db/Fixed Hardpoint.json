@@ -1,0 +1,37 @@
+{
+    "_id": "gwH143Rt48TqS1Ps",
+    "name": "Fixed Hardpoint",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Weapon"
+        },
+        "basecost": {
+            "value": "3000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>A fixed hardpoint is used to mount a primary, secondary, tertiary, or quaternary weapon. A weapon mounted on a fixed hardpoint has a limited firing arc, as described in chapter 9 and can be fired from any crew station. </p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Weapon.webp",
+    "effects": []
+}

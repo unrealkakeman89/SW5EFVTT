@@ -1,0 +1,37 @@
+{
+    "_id": "LtlcZYsKPVOdBJwk",
+    "name": "Alternative Fuel Converter",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>Your ship is equipped with an alternative fuel converter which allows the conversion of materials to a potential fuel source. Over the course of 10 minutes, a crew member can make a constitution (Regulation) check (DC  = 10 or half the number of days since the ship's last refueling, whichever number is higher). On a success, the ship recovers one day's worth of fuel.</p><p>This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

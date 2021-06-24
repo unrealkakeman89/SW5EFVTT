@@ -1,0 +1,32 @@
+{
+    "name": "Wristpad",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A wristpad is a harness with an integrated datapad and holoprojector interface that fits on the forearm and includes self-charging battery packs.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 2,
+        "price": 600,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Data%20Recording%20and%20Storage/Wristpad.webp",
+    "_id": "mGiqI759C7te33Jw"
+}

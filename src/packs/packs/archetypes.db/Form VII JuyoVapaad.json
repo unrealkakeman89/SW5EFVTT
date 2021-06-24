@@ -1,0 +1,39 @@
+{
+    "_id": "3yOiMsM439IfwEBm",
+    "name": "Form VII: Juyo/Vapaad",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form VII: Juyo/Vapaad</h1>\n<p>Form VII, also known as Ferocity Form, revels in the satisfaction of battle and victory. Those guardians who focus on Juyo/Vapaad Form channel their emotions into their fighting, making heavy, sweeping strikes.</p>\n<h2>Bonus Proficiencies</h2>\n<p>You gain proficiency in heavy armor.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.ve7n3q7jNXUph8SD]{Juyo/Vapaad Lightsaber Form}, detailed in Chapter 6 of the Player&rsquo;s Handbook. If you already know this form, you can instead choose another lightsaber form. You can&rsquo;t take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Vornskr</h2>\n<p>Also at 3rd level, as a bonus action, you can take a savage stance, designating one creature you can see within 10 feet of you as your prey for 1 minute. You have advantage on attack rolls against the creature. If the target drops to 0 hit points, you can use a bonus action on a subsequent turn to mark a new creature.</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain one of the following Channel the Force options. Choose Snap Aggression for Juyo or Assertive Defense for Vapaad.</p>\n<h3>Snap Aggression</h3>\n<p>If you are surprised at the start of combat and aren't incapacitated, you can expend a use of your Channel the Force to act normally on your first turn.</p>\n<h3>Assertive Defense</h3>\n<p>When you reduce the damage dealt by a force power to 0 using the @Compendium[sw5e.forcepowers.CuAbwhIt3j2V30Ey]{Saber Reflect}<em> </em>power, and you're wielding a lightweapon or vibroweapon, you can expend a use of your Channel the Force to reflect the attack at a target within range, regardless of what type the damage is.</p>\n<h2>Fury</h2>\n<p>At 7th level, you gain one of the following features. Choose Relentless for Juyo or Punishing Charge for Vapaad.</p>\n<h3>Relentless</h3>\n<p>You have advantage on initiative checks, and gain a 10 foot bonus to your speed on your first turn of combat.</p>\n<h3>Punishing Charge</h3>\n<p>When a creature you can see or hear within 30 feet of you casts a force power, you can use your reaction to move up half your speed. You must end this move closer to the enemy than you started. If you end this movement within 5 feet of the creature, and the triggering force power required a ranged attack roll, they have disadvantage on the roll.</p>\n<h2>Vengeance</h2>\n<p>Starting at 15th level, you gain one of the following features. Choose Devastating Critical for Juyo or Their Power, My Strength for Vapaad.</p>\n<h3>Devastating Critical</h3>\n<p>When you score a critical hit with a melee weapon attack, you gain a bonus to that weapon's damage roll equal to your guardian level.</p>\n<h3>Their Power, My Strength</h3>\n<p>When you are dealt damage by a force power, you can reduce that damage by an amount equal to your guardian level (no action required).</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.</p>\n<h2>Master of Ferocity</h2>\n<p>At 20th level, you are a paragon of extraordinary martial prowess. Your Strength and Dexterity scores increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to all damage.</li>\n<li>When you take the Attack action on your turn, you can make one additional attack as part of that action.</li>\n<li>Your melee weapon attacks score a critical hit on a roll of 19 or 20 on the d20.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Juyo%20Vapaad%20Form.webp",
+    "effects": []
+}

@@ -1,0 +1,39 @@
+{
+    "_id": "X3FsoSbXFXkvJvZO",
+    "name": "Path of Shadows",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Sentinel",
+        "description": {
+            "value": "<h1>Path of Shadows</h1>\n<p>In darkness, there is protection. Those sentinels who follow the Path of Shadows utilize a calculated plan, becoming masters of stealth and ambush who forgo the head-on attack for the vulnerable flank.</p>\n<h2>Dead Silence</h2>\n<p>Starting when you choose this calling at 3rd level, you learn the @Compendium[sw5e.forcepowers.IXAl1U65YuhNBN4Q]{Psychic Charge} force power, which does not count against your total powers known. Additionally, you can use Wisdom or Charisma as your forcecasting ability for it, and you can use your Kinetic Combat feature when you cast it as your action. Finally, when you hit a creature with the <em>psychic charge</em> force power and the target tries to speak, their voice does not produce sound until the end of your next turn.</p>\n<h2>Cloak of Shadows</h2>\n<p>Also at 3rd level, you can take the Hide action as a bonus action on your turn. Additionally, you can try to hide when you are lightly obscured from the creature from which you are hiding.</p>\n<h2>Shadow Strike</h2>\n<p>At 7th level, you learn to strike from the shadows. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the roll.</p>\n<p>The extra damage increases to 2d6 at 11th level and 3d6 at 17th level.</p>\n<h2>Shadow Step</h2>\n<p>By 13th level, you gain the ability to step from one shadow into another. While you are in dim light or darkness, as a bonus action you can teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness. You then have advantage on the first melee attack you make before the end of the turn.</p>\n<h2>Shadow's Wrath</h2>\n<p>At 18th level, your training has taught you advanced techniques while you maneuver in the shadows. While you are hidden from your target, the first attack roll you make each round does not auto-matically reveal your presence. Make a Dexterity (Stealth) check against your target's Wisdom (Perception) check. On a success, you remain hidden. If you are also invisible, you remain invisible.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Path%20of%20Shadows.webp",
+    "effects": []
+}

@@ -1,0 +1,39 @@
+{
+    "_id": "xIgy4jaHPhmry1Ub",
+    "name": "Path of Focus",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Sentinel",
+        "description": {
+            "value": "<h1>Path of Focus</h1>\n<p>The ways of the Force can reveal themselves to a sentinel through intense concentration and, most importantly, focus. Those sentinels who follow the Path of Focus use debilitating bursts of lightsaber strikes and force powers to exhaust their foes, crushing any hopes they had of mounting an effective defense.</p>\n<h2>Focused Burst</h2>\n<p>Starting when you choose this calling at 3rd level, you learn the @Compendium[sw5e.forcepowers.vmzC47AY66cx1LwU]{Burst} force power, which does not count against your total powers known. Additionally, you can use your Kinetic Combat feature when you cast it as your action. Finally, you add your Wisdom or Charisma modifier (your choice, a minimum of +1) to damage rolls with it, and creatures that succeed on their saving throw take half damage, instead of none.</p>\n<h2>Blade Dance</h2>\n<p>Also at 3rd level, when you deal damage to a creature within 5 feet of you, you can move up to 10 feet without provoking opportunity attacks.</p>\n<h2>Blade Storm</h2>\n<p>At 7th level, your bursts become even more overwhelming. Once on your turn, when a creature takes damage from you twice, you can immediately make one additional attack against that creature (no action required). This attack uses your Kinetic Combat die instead of the weapon's damage die</p>\n<h2>Focused Flow</h2>\n<p>By 13th level, whenever you use a Force-Empowered Self feature, you may instead expend no force points and roll a d4 in place of your Kinetic Combat die.</p>\n<h2>Master Strike</h2>\n<p>At 18th level, your bursts can overpower even the fiercest of foes. Once on your turn, when a creature takes damage from you three times, you can force it to make a Constitution saving throw against your universal force save DC. On a failed save, it becomes stunned until the end of its next turn.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Path%20of%20Focus.webp",
+    "effects": []
+}

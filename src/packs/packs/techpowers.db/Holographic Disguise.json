@@ -1,0 +1,93 @@
+{
+    "_id": "mFW2RREnUTmbXX4C",
+    "name": "Holographic Disguise",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>Until the power ends or you use an action to dismiss it, you can disguise yourself through the use of a hologram emitter. You can appear to be shorter or taller by about a foot and change the appearance of your body weight, but you cannot change the basic structure of your body. The hologram can include your clothes, armor, weapons, and other belongings on your person.</p>\n<p>The illusion is only visual, so any sort of physical contact will only interact with the real size and shape of you. A creature can use its action to make an Intelligence (Investigation) check against your tech save DC, seeing through the hologram on a success.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "hour"
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "int",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 1,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/HolographicDisguise.webp"
+}

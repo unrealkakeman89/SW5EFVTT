@@ -1,0 +1,120 @@
+{
+    "_id": "8DDwbHeMi3q1BadC",
+    "name": "Duranium Battle Armor",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "equipment",
+    "data": {
+        "description": {
+            "value": "<p>Reactive 1, Strength 13</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 55,
+        "price": 6750,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "spell"
+        },
+        "armor": {
+            "type": "heavy",
+            "value": 16,
+            "dex": 0
+        },
+        "strength": 13,
+        "stealth": true,
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        },
+        "properties": {
+            "Absorptive": false,
+            "Agile": false,
+            "Anchor": false,
+            "Avoidant": false,
+            "Barbed": false,
+            "Bulky": true,
+            "Charging": false,
+            "Concealing": false,
+            "Cumbersome": true,
+            "Gauntleted": false,
+            "Imbalanced": false,
+            "Impermeable": false,
+            "Insulated": false,
+            "Interlocking": false,
+            "Lambent": false,
+            "Lightweight": false,
+            "Magnetic": false,
+            "Obscured": false,
+            "Obtrusive": false,
+            "Powered": false,
+            "Reactive": true,
+            "Regulated": false,
+            "Reinforced": false,
+            "Responsive": false,
+            "Rigid": false,
+            "Silent": false,
+            "Spiked": false,
+            "Steadfast": false,
+            "Strength": true,
+            "Versatile": false
+        },
+        "cptooltipmode": "hid"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "effects": [],
+    "img": "systems/sw5e/packs/Icons/Armor/WH/Duranium%20Battle%20Armor.webp"
+}

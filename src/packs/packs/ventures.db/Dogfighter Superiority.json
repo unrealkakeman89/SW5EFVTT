@@ -1,0 +1,23 @@
+{
+    "_id": "RQIMrS2H0LlwpYbR",
+    "name": "Dogfighter Superiority",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 2 levels in fighter</em></p><p>When you expend a die granted by your Deployment, roll the die as normal, but you can instead subtract it from your pool of superiority dice.</p>"
+        },
+        "prerequisites": [
+            "at least 2 levels in fighter"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

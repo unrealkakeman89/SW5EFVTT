@@ -1,0 +1,20 @@
+{
+    "_id": "4KNgKCUMxKu4j173",
+    "name": "Equilibrium Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered fighting without the confines of armor, treating combat as an elegant dance. While you are wearing light or no armor and not wielding a shield, you gain the following benefits:</p><ul><li>When a creature misses you with a weapon attack, you can use your reaction to make an unarmed strike or weapon attack against that creature without your proficiency bonus.</li><li>When a creature hits you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss.</li><li>If you are disarmed, you can use your reaction to immediately catch the weapon.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Equilibrium%20Mastery.webp",
+    "effects": []
+}

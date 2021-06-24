@@ -1,0 +1,98 @@
+{
+    "_id": "WOnLRapxYnS99uFT",
+    "name": "Corrosive Sphere",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You create a globule of acid and hurl it at a point within range, where it explodes in a 20-foot-radius sphere. Each creature in that area must make a Dexterity saving throw. On a failed save, a creature takes 10d4 acid damage and another 5d4 acid damage at the end of its next turn. On a successful save, a creature takes half the initial damage and no damage at the end of its next turn.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 5th level or higher, the initial damage increases by 2d4 for each slot level above 4th.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 20,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": 150,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "10d4",
+                    "acid"
+                ]
+            ],
+            "versatile": "5d4"
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 4,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "2d4"
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/CorrosiveSphere.webp"
+}

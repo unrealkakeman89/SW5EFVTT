@@ -1,0 +1,37 @@
+{
+    "_id": "lSTrb5mm1Cx0ZWsD",
+    "name": "Meditation Chamber",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite comes with a number of separate unique chambers equal to one-fourth the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table. When a forcecaster completes a long rest involving this suite, they gain temporary force points equal to their force power maximum power level + their Wisdom or Charisma modifier (their choice, minimum of one). When you would spend a force point while you have temporary force points, the temporary force points are spent first. All temporary force points are lost at the end of your next long rest.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

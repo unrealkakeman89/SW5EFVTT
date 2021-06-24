@@ -1,0 +1,112 @@
+{
+    "name": "(Un)Retired Adventurer",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>\"I'm getting too old for this stuff.\"</p>\n<p>You spent your life as an adventurer, learning the use of many skills and basic survival techniques, including how to stay alive in a hostile area. You might have been part of a famous adventuring party or a less renowned one.</p>\n<p>When you choose this background, work with your GM to determine the details of your previous adventuring party, and what kind of experiences you had in your adventuring career. How famous was your previous adventuring party and how well known are you? What did you learn? What was your group's specialty?</p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Athletics, Insight, Lore, and Survival"
+        },
+        "toolProficiencies": {
+            "value": "One type of artisan's implements"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A grappling hook, one tool with which you are proficient, a memento of an unsuccessful expedition (map to a never found treasure, lock of hair from a fallen companion, or another trinket),  and a pouch containing your last 50 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "The trials and triumphs of retired adventurers have left an impact, shaping their ideals, creating strong bonds, and often leaving them scarred and vulnerable to fear, shame, and hatred."
+        },
+        "featureName": {
+            "value": "Bridges Not Yet Burned"
+        },
+        "featureText": {
+            "value": "Throughout your adventures you have established a multitude of contacts from all walks of life, but the intervening years have seen those relationships strained. You may use any feature of any other background, but once a particular feature is used, that feature can't be used again until one year has passed."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Loremaster</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Survivalist</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Athlete</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Observant</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I'm always polite and respectful.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm haunted by memories of war. I can't get the images of violence out of my mind.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I've lost too many friends, and I'm slow to make new ones.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm full of inspiring and cautionary tales from my adventuring experience relevant to almost every combat situation.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I can stare down a rancor without flinching.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I enjoy being strong and like breaking things.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I have a crude sense of humor.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I face problems head-on. A simple, direct solution is the best path to success.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Greater Good. Our lot is to lay down our lives in defense of others. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Responsibility. I do what I must and obey just authority. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Might. In life as in war, the stronger force wins. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Nation. My city, nation, or people are all that matter. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">The monstrous enemy we faced in battle still leaves me quivering with fear.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I have little respect for anyone who is not a proven adventurer.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I made a terrible mistake in battle that cost many lives, and I would do anything to keep that mistake secret.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">My hatred of my enemies is blind and unreasoning.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I obey the law, even if the law causes misery.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I'd rather eat my armor than admit when I'm wrong.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I would still lay down my life for the people I adventured with.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Someone saved my life when they could have left me. To this day, I will never leave a friend behind.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">My honor is my life.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'll never forget the crushing defeat my party suffered or the enemies who dealt it.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Those who fight beside me are those worth dying for.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I fight for those who cannot fight for themselves.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/(Un)Retired%20Adventurer.webp",
+    "effects": [
+        {
+            "_id": "21y2muk4TLqvNhpR",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "(Un)Retired Adventurer",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "(Un)Retired Adventurer",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "CROQ3AnoxKsLoVQg"
+}

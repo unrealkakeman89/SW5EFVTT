@@ -1,0 +1,868 @@
+{
+    "_id": "z76OpgPAmZDhpsrm",
+    "name": "IG Series, Model 86",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 17,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 15,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 13,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 7,
+                "proficient": 1,
+                "min": 3,
+                "mod": -2,
+                "save": 0,
+                "prof": 2,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "16",
+                "min": 0,
+                "formula": "armor plating"
+            },
+            "hp": {
+                "value": 58,
+                "min": 0,
+                "max": 58,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "9d8+18"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 3,
+                "prof": 0,
+                "total": 3
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 58,
+                "min": 0,
+                "max": 58
+            },
+            "bar2": {
+                "value": 16,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "darkvision": 60
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"These must be the 'unique items' we were warned about. These assassin droids can be very unpredictable.\"</i></p><p><span style=\"font-size: 13px\"><i>\"They're switched off. They don't look so tough to me.\"</i></span></p><p><i>\"Nothing looks tough to you. Take my word for it\u2014they're deadly.\"</i></p><p>- Anakin Skywalker and Ahsoka Tano, encountering a pair of inactive IG-86s aboard the Vulture's Claw</p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Manufacturer</u></td><td style=\"line-height: 1.42857\">Holowan&nbsp;Mechanicals</td></tr><tr><td style=\"line-height: 1.42857\"><u>Class</u></td><td style=\"line-height: 1.42857\">Assassin droid</td></tr><tr><td style=\"line-height: 1.42857\"><u>Height</u></td><td style=\"line-height: 1.42857\">1,96 meters</td></tr><tr><td style=\"line-height: 1.42857\"><u>Gender</u></td><td style=\"line-height: 1.42857\">Masculine programming<br></td></tr><tr><td style=\"line-height: 1.42857\"><u>Sensor color</u></td><td style=\"line-height: 1.42857\">Red</td></tr><tr><td style=\"line-height: 1.42857\"><u>Plating color</u></td><td style=\"line-height: 1.42857\"><ul><li>Gray</li><li>Red</li></ul></td></tr></tbody></table><p>The IG-86 sentinel droid was a model of assassin droids manufactured by Holowan Mechanicals as a subsidiary of Holowan Laboratories, the same company that created the IG-88 assassin droid. It was designed to function as a bodyguard, or home security system for the wealthy, but was usually used for more sinister purposes.</p><h3>Characteristics</h3><blockquote><p><i>\"O Ziro the Hutt, Master of the Hutt Clan on seven systems, I am sorry, Your Highness. It will not happen again.\"</i></p><p><span style=\"font-size: 13px\"><i>\"I know. Take him away, and use him for spare parts!\"</i></span></p><p>- KRONOS-327 and Ziro the Hutt, after the droid's failure to complete a mission</p></blockquote><p>IG-86 sentinel droids were similar in appearance to the earlier IG-series droids such as the IG lancer combat droid and later models such as the IG-88 assassin droid. Considered to be some of the deadliest droids in the galaxy, they were more intelligent and agile than standard battle droids, able to think logically and creatively. They were capable assassins working individually or in groups.<br></p><h3>History</h3><blockquote><p><i>\"After all these years, my most trusted of assassins has finally failed.\"</i></p><p><span style=\"font-size: 13px\">- Ziro Desilijic Tiure, on KRONOS-327</span></p></blockquote><p>IG-86 units were owned by Ziro the Hutt and were adorned with a Black Sun marking, like their master. One of these was KRONOS-327, which was used as a sentry droid by Ziro.</p><p>When Anakin Skywalker and Ahsoka Tano were searching for R2-D2 on the freighter Vulture's Claw, owned by the Trandoshan scavenger Gha Nachkt, they were attacked by a pair of IG-86 droids. Though they demonstrated their exceptional agility and firepower, they were destroyed by the two Jedi.</p><p>Later on, three of these droids were used by Cad Bane during his capture of the Senate Building. They bore similar Black Sun markings as those employed by Ziro the Hutt, suggesting that they might have been the Hutt's personal property and not Bane's. Anakin Skywalker, who was not carrying his lightsaber at the time, destroyed one of the droids by clubbing it with its own blaster rifle.</p><p>Some of these droids were known to be used by the Confederacy of Independent Systems.</p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "droid",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 3,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 700
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [
+                    "necrotic",
+                    "poison",
+                    "psychic"
+                ],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": "Ion"
+            },
+            "ci": {
+                "value": [],
+                "custom": "Poison, Disease"
+            },
+            "languages": {
+                "value": [],
+                "custom": "Binary, Galactic Basic"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 13,
+                "prof": 2,
+                "total": 3
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ste": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "sur": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 13,
+                "prof": 2,
+                "total": 3
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/174_-_IG_Series_2C_Model_86/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "IG Series, Model 86",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/174_-_IG_Series_2C_Model_86/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "z76OpgPAmZDhpsrm",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "OGE3YTE4Y2E4MzJi",
+            "name": "Circuitry",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The droid has disadvantage on saving throws against effects that would deal ion or lightning damage.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/174_-_IG_Series_2C_Model_86/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YzI2MDMwOWE4ODE4",
+            "name": "Sneak Attack (1/Turn)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The assassin droid deals an extra 7 (2d6) damage when it hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the assassin droid that isn't incapacitated and the assassin doesn't have disadvantage on the roll.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/174_-_IG_Series_2C_Model_86/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ODQyZTRhNWM5MjM5",
+            "name": "Sniper Rifle",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+5, Range 150/600 ft., One target. <em>Hit : </em>9 (1d12+3) energy damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 150,
+                    "long": 600,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d12+3",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/174_-_IG_Series_2C_Model_86/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MzQ2MDk3ZGM1NWRj",
+            "name": "Stock Strike",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+2, Reach 5 ft., One target. <em>Hit : </em>4 (1d4+2) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4+2",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/174_-_IG_Series_2C_Model_86/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

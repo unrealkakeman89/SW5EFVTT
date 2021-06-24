@@ -1,0 +1,94 @@
+{
+    "_id": "1IFr14Wc4sA1833o",
+    "name": "Remove Curse",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>At your touch, all curses affecting one creature or object end. If the object is a cursed enhanced item, its curse remains, but the power breaks its owner\u2019s attunement to the object so it can be removed or discarded.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "object"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "touch"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 3,
+        "school": "lgt",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Remove%20Curse.webp",
+    "effects": []
+}

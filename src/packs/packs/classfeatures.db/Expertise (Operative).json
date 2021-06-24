@@ -1,0 +1,71 @@
+{
+    "_id": "UlaeWMHJ5WJ1BHbV",
+    "name": "Expertise (Operative)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Operative</strong>:&nbsp;1st and 6th level</em></p>\n<p>Choose two of your skill proficiencies, or one of skill proficiencies and one of your tool proficiencies, or two of your tool proficiencies. You gain expertise in those skills or tools.</p>\n<p>At 6th level, you can choose two more of your proficiencies (in skills or tools) to gain this benefit.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Test",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/OPRT-Passive.webp",
+    "effects": []
+}

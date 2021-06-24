@@ -1,0 +1,71 @@
+{
+    "_id": "OACrI8TxI9AYZ3v0",
+    "name": "Nimble Step",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn to fluidly strike and maneuver through combat. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to maneuver across the battlefield.</p>\n<p>Some of your fancy footworks require your target to make a saving throw to resist the debilitating strike&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<hr />\n<p><strong>Nimble Step save DC</strong>&nbsp;= 8 + your proficiency bonus + your Dexterity modifier.</p>\n<hr />\n<blockquote>\n<h4><strong>BLADE DEFENSE</strong></h4>\n<p>You attempt to determine your target&rsquo;s next strike. Roll two Sneak Attack dice, and the target must make a Charisma saving throw. On a failed save, your AC increases by the higher amount rolled on the dice against the first attack it makes against you before the start of your next turn. On a successful save, your AC instead increases by the lower amount.</p>\n<hr />\n<h4><strong>DISARMING STRIKE</strong></h4>\n<p>You attempt to disarm a creature with your attack. The target must succeed on a Strength saving throw or be forced to drop one item of your choice that it&rsquo;s holding. If you have a free hand, you can catch the item. Otherwise, it lands at your feet.</p>\n<hr />\n<h4><strong>FANCY FOOTWORK</strong></h4>\n<p>Roll two Sneak Attack dice. Your speed increases by 5 x the greater result of the two dice, and you ignore difficult terrain until the end of your current turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

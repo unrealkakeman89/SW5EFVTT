@@ -1,0 +1,94 @@
+{
+    "_id": "gpUbIaRtv1y7qinF",
+    "name": "Improved Revitalize",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Revitalize</em></p>\n<p>You return a dead creature you touch to life, provided that it has been dead no longer than 1 hour. If the creature&rsquo;s soul is both willing and at liberty to rejoin the body, the creature returns to life with all its hit points.</p>\n<p>This power also neutralizes any poisons and cures diseases that affected the creature at the time it died.</p>\n<p>This power closes all mortal wounds and restores any missing body parts.</p>\n<p>Coming back from the dead is an ordeal. The target takes a -4 penalty to all attack rolls, saving throws, and ability checks. Every time the target finishes a long rest, the penalty is reduced by 1 until it disappears.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "minute",
+            "cost": 10,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "touch"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 7,
+        "school": "lgt",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Improved%20Revitalize.webp",
+    "effects": []
+}

@@ -1,0 +1,250 @@
+{
+    "_id": "GcKoJwmJPHCG2Rjt",
+    "name": "Geonosian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Geonosians have a hard chitin exoskeleton that provided protection from physical impacts and bouts of radiation that occasionally shower their world. Geonosians are strong despite their thin builds, and are capable of constructing massive hives and factories in concert. The head of a Geonosian is elongated and large with their skulls ridged on the top and by the side where they have bulbous, thick-lidded eyes. Both are physically strong and covered with bony ridges which protected their arms, legs, and vital organs. </p><h2>Society and Culture</h2><p>Geonosian society is caste-based with little upward mobility, though some of the lower caste do develop ambition. Workers are conditioned to loathe even the concept of separation from their hive and the system of control. A low-ranking worker's normal life is one of endless toil and labor to satisfy the aristocracy, who are known to make spectacular demands. The warrior caste tend to be highly competitive and are eager to prove themselves. They are born with an abnormal level of intelligence, and one of their only hopes of escape from their rigid duty is entering voluntarily into gladiatorial combat. Should they survive, they are granted freedom. Ultimately, their society exist to benefit those few members that reside in the upper caste. Members of the aristocratic classes are known to be ambitious, domineering, and manipulative. They constantly move towards improving their standing and holdings while sumultaneously working to ruin their rivals.</p><h2>Names</h2><p>Geonosian names are usually harsh sounding. Lower castes don't get surnames. Upper caste surnames are familial.</p><strong>&nbsp;&nbsp;Male Names.</strong> Buck, Goshey, Nik, Sozz, Techtu</p><strong>&nbsp;&nbsp;Female Names.</strong> Datte, Kida, Miri, Nare, Tenessi</p><strong>&nbsp;&nbsp;Surnames.</strong> Chak, Hor, Lur, Marpes, Zol",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> You Dexterity score increases by 2, and your Constitution or Intelligence score increases by 1.</p><p><em><strong>Age.</strong></em> Geonosians reach adulthood at 10 and live less than a century.</p><p><em><strong>Alignment.</strong></em> Geonosians' greedy and self-serving nature causes them to tend toward the dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Geonosians typically stand from 5 to 6 feet tall and rarely weigh more than 80 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Crafter.</strong></em> Geonosian culture promotes artisanry. You have proficiency in one set of artisan's tools of your choice.</p><p><em><strong>Exoskeleton.</strong></em> You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.</p><p><em><strong>Flight.</strong></em> You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.</p><p><em><strong>Geonosian Weaponry.</strong></em> You have proficiency in simple blasters.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Geonosian. The Geonosian language consists of click consonants through use of a Geonosians' dual mandibles. This makes it difficult for other species to learn to speak it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Gray, green, or orange"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Hive-based, winged semi-insectoids"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "60 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Geonosis"
+        },
+        "slanguage": {
+            "value": "Geonosian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Geonosian",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "12",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.fly",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "simple blasters",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "geonosian",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "WBiaOzIzielpRhTw",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Geonosian.webp",
+    "effects": [
+        {
+            "_id": "pjSHHuM2UzrJ1wY8",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Geonosian",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "12+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.attributes.movement.fly",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "simple blasters",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "geonosian",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Geonosian.webp",
+            "label": "Geonosian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

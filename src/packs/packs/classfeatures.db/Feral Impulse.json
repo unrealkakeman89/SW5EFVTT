@@ -1,0 +1,83 @@
+{
+    "_id": "pMEmIt3NWThbee8k",
+    "name": "Feral Impulse",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Berserker</strong>:&nbsp;7th level</em><br />Your instincts are so honed that you have advantage on initiative rolls.</p>\n<p>Additionally, if you are surprised at the start of combat and aren&rsquo;t incapacitated, you can act normally on your first turn, but only if you enter your rage before doing anything else on that turn.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/BSKR-Passive.webp",
+    "effects": []
+}

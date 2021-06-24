@@ -1,0 +1,31 @@
+{
+    "_id": "TTg5J1WepZxAqkOS",
+    "name": "Payload Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": "Gunning Mastery"
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>You are the master of missiles, rockets, and other shipboard explosive weapons. While you are firing a tertiary or quaternary weapon, you can choose to reduce the DC by an amount equal to your proficiency bonus. If you do, and the target fails the saving throw, they take additional damage equal to twice your proficiency bonus.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

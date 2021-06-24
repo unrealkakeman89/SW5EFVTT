@@ -1,0 +1,269 @@
+{
+    "_id": "dhEFk1c3Q5DQ2ztn",
+    "name": "Ortolan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Ortolans are squat, heavily-built humanoid bipeds with long, trunklike noses and beady black eyes. They possess floppy ears, which are extremely sensitive to sound waves. They have two hands, each ending in four chubby fingers and a thumb, which is not opposable. A thick, baggy hide covered in fuzz resembling velvet hangs off of the Ortolan body. Ortolans have a keen sense of smell to help them forage for food. In fact, they are handicapped in their business affairs by their attachment to food, sometimes accepting otherwise unfavorable contracts when promised enough to eat. Their twin obsessions are food and music; offworld, many Ortolans find success as chefs or musicians.</p>\n<h2>Society and Culture</h2>\n<p>Ortolan society is reasonably industrialised, though not as technologically advanced as other species. Despite this, their economy is mostly based on barter, with credits primarily used to trade with offworlders. Education is the responsibility of their parents, though gifted youngsters are often traded to other families to get specialized education. While most Ortolans appear to have blue skin, Ortolans are actually covered in short velvety fur which they often dyed in bright colors, most often blue and pink. This tradition began when a Devaronian trader tried to sell Ortolans a shipment of food dyes\u2014they considered dyeing their food a waste of time, but found dyed fur to be quite stylish.</p>\n<h2>Names</h2>\n<p>Ortolan names are generally short with big sounds. Female names are typically softer. Surnames are familial.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Donmb, Hegh, Nax, Parm, Teeb<strong>&nbsp;&nbsp;</strong></p>\n<p><strong>&nbsp; Female Names.</strong> Bedla, Folfe, Nelni, Phoff, Sallo<strong>&nbsp;&nbsp;</strong></p>\n<p><strong>&nbsp; Surnames.</strong> Bigek, Lubum, Nad, Rojool, Somo</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Charisma score increases by 1.</p><p><em><strong>Age.</strong></em> Ortolans are considered adults at the age of seven and typically live less than a century.</p><p><em><strong>Alignment.</strong></em> Ortolans' love of food and music causes them to tend toward chaotic light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Ortolans stand around 3 to 4 feet tall and weigh about 55 lbs. Regardless of your position in that range, your size is Small.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p><p><em><strong>Foragers.</strong></em> Whenever you make a Wisdom (Survival) check to forage for food you are considered to have expertise in the Survival skill.</p><p><em><strong>Grovel, Cower, and Beg.</strong></em> As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.</p><p><em><strong>Hide.</strong></em> Your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p><p><em><strong>Keen Hearing and Smell.</strong></em> You have advantage on Wisdom (Perception) checks that involve hearing or smell.</p><p><em><strong>Musical.</strong></em> You have proficiency in Performance and one musical instrument of your choice.</p><p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Ortolan. Ortolan is characterized by its grunts and hoots.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Light colors"
+        },
+        "hairColorOptions": {
+            "value": "Light colors"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow"
+        },
+        "distinctions": {
+            "value": "Stocky builds, trunklike noses, floppy ears, small mouths, brightly dyed fur"
+        },
+        "heightAverage": {
+            "value": "2'10\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "50 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Orto"
+        },
+        "slanguage": {
+            "value": "Ortolan"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Ortolan",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "tKiqciNQn2NvdzcT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "tKiqciNQn2NvdzcT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "tKiqciNQn2NvdzcT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "sm",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "tKiqciNQn2NvdzcT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "tKiqciNQn2NvdzcT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.prf.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "tKiqciNQn2NvdzcT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Performance"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "tKiqciNQn2NvdzcT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "ortolan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "tKiqciNQn2NvdzcT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.toolProf.value",
+                    "value": "music",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "NcOqxyAmCCNgwMUS",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Ortolan.webp",
+    "effects": [
+        {
+            "_id": "Dh3FLNKo1HFJ7pqF",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Ortolan",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.prf.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "ortolan",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "music",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.grovelCowerAndBeg",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Ortolan.webp",
+            "label": "Ortolan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

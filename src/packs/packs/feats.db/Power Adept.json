@@ -1,0 +1,83 @@
+{
+    "_id": "BGgoW3Cwxj28VTwz",
+    "name": "Power Adept",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> The ability to cast force or tech powers</em><br />When you gain this feat, choose one of the following damage types: acid, cold, fire, force, lightning, or necrotic. Powers you cast ignore resistance to damage of the chosen type. In addition, when you roll damage for a power you cast that deals damage of that type, you can treat any 1 on a damage die as a 2.</p>\n<p>You can select this feat multiple times. Each time you do so, you must choose a different damage type.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "4th Level",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 6500000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Power%20Adept.webp",
+    "effects": []
+}

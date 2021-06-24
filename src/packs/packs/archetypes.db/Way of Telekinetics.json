@@ -1,0 +1,39 @@
+{
+    "_id": "r7BKY5yWig2vhW5i",
+    "name": "Way of Telekinetics",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Consular",
+        "description": {
+            "value": "<h1>Way of Telekinetics</h1>\n<p>The consular knows how to manipulate the essence of the surrounding elements with the power of the Force. Those consulars who follow the Way of Telekinetics create torrential gusts of telekinetic energy, forming a potent combination that can pummel even the toughest adversaries into submission.</p>\n<h2>Staggering Stratagem</h2>\n<p>When you choose this tradition at 3rd level, your potency with the telekinetic power of the Force heightens. You can manipulate creatures of Large size or smaller with your force powers and Way of Telekinetics features. Additionally, once per turn, when you deal force or kinetic damage to a Large or smaller creature with a force power or class feature, you can choose to either push it up to 10 feet away from you or pull it up to 10 feet closer to you.</p>\n<h2>Mighty Blast</h2>\n<p>At 6th level, your force powers batter and blast your enemies with the strength of a hurricane. When you cast a force power of 1st level or higher that deals force or kinetic damage, one creature of your choice damaged by that power must make a Strength saving throw against your universal force save DC or be knocked prone.</p>\n<p>This feature can affect additional creatures when you reach higher levels: two creatures at 11th level and three creatures at 17th level.</p>\n<h2>Size Matters Not</h2>\n<p>Beginning at 10th level, you can manipulate creatures of Huge size or smaller with your force powers and Way of Telekinetics features.</p>\n<p>Additionally, when you use your action to cast a force power, you can use a bonus action to fly up to 10 feet without provoking opportunity attacks.</p>\n<h2>Repulsing Wave</h2>\n<p>At 14th level, when you are dealt damage by a creature within 5 feet of you, you can use your reaction to deal force damage to the creature equal to your consular level + your Wisdom or Charisma modifier (your choice, minimum of +1). If the attacker is Huge or smaller, it must also make a Strength saving throw against your universal force save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.</p>\n<h2>My Ally is the Force</h2>\n<p>Starting at 18th level, you can manipulate creatures of Gargantuan size or smaller with your force powers and Way of Telekinetics features.</p>\n<p>Additionally, whenever a force power you cast pushes or pulls a creature, you can increase the distance of that push or pull by an additional 20 feet.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Way%20of%20Telekinetics.webp",
+    "effects": []
+}

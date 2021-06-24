@@ -1,0 +1,105 @@
+{
+    "name": "Role Mastery: Blockade Ship",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 4th tier, you master a particular style of design for your ship.</p>\n<h3>Blockade Ship</h3>\n<p>Your ship&rsquo;s shield regeneration rate doubles.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Gargantuan",
+        "tier": "4"
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Gargantuan.webp",
+    "effects": [
+        {
+            "_id": "qQTMHDrpIch61Q7C",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.role",
+                    "value": "Blockade Ship",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.regrateco.value",
+                    "value": "2",
+                    "mode": 1,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Starship%20Features/Small.webp",
+            "label": "Role Mastery: Blockade Ship",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "L2kFiXoAE2aTdnme"
+}

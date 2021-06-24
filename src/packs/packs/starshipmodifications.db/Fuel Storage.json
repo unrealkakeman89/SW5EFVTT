@@ -1,0 +1,37 @@
+{
+    "_id": "slKTOnbHt9rjfZVF",
+    "name": "Fuel Storage",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This large fuel tank is able to store additional fuel portions in your starship. The tank stores fuel units equal to 5 times your ship's normal fuel capacity. These units can be used to fuel your own starship, or they can be transfered to other ships.</p><p>Fuel can be transferred to ships of other size. A Gargantuan fuel unit takes up the space of 10 Huge units, which in turn takes up the space of 10 Large units, which takes the space of 10 Medium units. One Medium ship takes up the space of two Small units, which in turn takes up the space of two Tiny units.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

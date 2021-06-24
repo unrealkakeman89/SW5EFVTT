@@ -1,0 +1,134 @@
+{
+    "_id": "As8MEk6gS194cszO",
+    "name": "Lightsaber Pike",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>Dexterity 11</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 6,
+        "price": 400,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": 10,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d10 + @mod",
+                    "energy"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "martialLW",
+        "properties": {
+            "amm": false,
+            "aut": false,
+            "bur": false,
+            "def": false,
+            "dex": true,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "fin": false,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "ken": false,
+            "lgt": false,
+            "lum": true,
+            "mig": false,
+            "pic": false,
+            "rap": false,
+            "rch": true,
+            "rel": false,
+            "ret": false,
+            "shk": false,
+            "sil": false,
+            "spc": false,
+            "str": false,
+            "thr": false,
+            "two": true,
+            "ver": false,
+            "vic": false,
+            "mgc": false,
+            "nodam": false,
+            "faulldam": false
+        },
+        "proficient": false
+    },
+    "folder": "7rtfHBtXhhiRSS8u",
+    "sort": 3700001,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Martial%20Lightweapons/Lightsaber%20Pike.webp",
+    "effects": []
+}

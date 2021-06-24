@@ -1,0 +1,21 @@
+{
+    "_id": "XNhgOjpzpcETVVAx",
+    "name": "Natural Slicer",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "Whenever you make a Charisma (Interfere) check, you may instead make an Intelligence (Slicer Tools) check.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

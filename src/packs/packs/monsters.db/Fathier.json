@@ -1,0 +1,765 @@
+{
+    "_id": "6Zr186BuyUE6RUQO",
+    "name": "Fathier",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 18,
+                "proficient": 0,
+                "min": 3,
+                "mod": 4,
+                "save": 4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 13,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 3,
+                "proficient": 0,
+                "min": 3,
+                "mod": -4,
+                "save": -4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 8,
+                "proficient": 0,
+                "min": 3,
+                "mod": -1,
+                "save": -1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "11",
+                "min": 0,
+                "formula": ""
+            },
+            "hp": {
+                "value": 26,
+                "min": 0,
+                "max": 26,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "4d10+4"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 1,
+                "prof": 0,
+                "total": 1
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 60,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 26,
+                "min": 0,
+                "max": 26
+            },
+            "bar2": {
+                "value": 11,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 11"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i style=\"font-size: 13px\">\"If you told me I could only see one creature in the galaxy, it would be a fathier. Someday I want to see a fathier race! I wouldn't even bet \u2013 I'd just watch!\"</i></p><p><span style=\"font-size: 13px\">- Paige Tico</span><br></p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Designation</u></td><td style=\"line-height: 1.42857\">Non-sentient</td></tr><tr><td style=\"line-height: 1.42857\"><u>Average height</u></td><td style=\"line-height: 1.42857\">3 meters at the shoulder</td></tr><tr><td style=\"line-height: 1.42857\"><u>Hair color</u></td><td style=\"line-height: 1.42857\">Brown</td></tr><tr><td style=\"line-height: 1.42857\"><u>Eye color</u></td><td style=\"line-height: 1.42857\">Black</td></tr><tr><td style=\"line-height: 1.42857\"><u>Distinctions</u></td><td style=\"line-height: 1.42857\"><ul><li>Four long legs</li><li>Powerful forearm muscles</li></ul></td></tr></tbody></table><p>Fathiers were a species of non-sentient quadrupeds that resided in the galaxy. They were often used as mounts, and wealthy inhabitants of Kergans and Cantonica rode them in competition.</p><h3>Biology and appearance</h3><blockquote><p><i>\"Sounds like the feisty filly in the corner stall is having trouble sleeping. Did you do the endurance exercises with her in the double-gravity chamber today? You know fathiers need heavy exercise when they're cooped up on a ship like this.\"</i></p><p><i>\"Sorry. I had to clean the reflux combusters\u2014\"</i></p><p><i>\"No excuses. Each of these fathiers is worth more than three years of your wages.\"</i></p><p style=\"margin-bottom: 9px\">- Ulina and Teal</p></blockquote><p>A non-sentient quadruped species, fathiers were distinguished by their long legs, brown fur, and large ears, which dissipated body heat. Fathiers could run at great speeds (up to 75 kilometers per hour) across various terrains, including beaches, fields, and cliff faces. Their speed made them sought after by wealthy residents of the galaxy, and the creatures were viewed as graceful and majestic. On average, fathiers stood three meters high at the shoulder; people seeing one in person for the first time were often shocked by their size. When cooped up, fathiers required endurance exercises, so fathier transports were equipped with double-gravity chambers. They were known for their stinky, spicy smell.</p><h3>Behavior</h3><p>Fathiers could be domesticated, and they were used as mounts in competition. The inhabitants of the planet Cantonica exploited them in highly popular races on the Canto Bight racetracks, in which the animals suffered abuse.</p><h3>History</h3><p>Around 1 BBY, the Spectre and Jedi padawan Ezra Bridger, while exploring the world between worlds, came across a mysterious portal decorated with constellation-like images of fathiers. However, he did not examine or enter it.</p><p>During the Galactic Civil War, the Alliance to Restore the Republic used fathiers ridden by Tognath mercenaries in hit-and-run combat missions.</p><p>In 34 ABY,[12] Resistance operatives Finn and Rose Tico traveled to Cantonica in search of a Master Codebreaker. During their search, the two ran into trouble with the Canto Bight Police Department, and they hid in the fathier stables at the Canto Bight racetrack. With the help of stable boy Temiri Blagg, Finn and Tico let the fathiers loose, riding one to escape the police force.</p><h3>Fathiers in the galaxy</h3><blockquote><p style=\"margin-bottom: 9px\"><i>\"I learned to hunt with bassa hounds. I learned to ride fathiers in competition. I hated all of it.\"</i></p><p style=\"margin-bottom: 9px\">- Lorica Demaris</p></blockquote><p>At some point in his life, the Corellian Geb Teldar mucked the stall of a fathier for a living. Lorica Demaris, a Zeltron from the planet Kergans, learned to ride fathiers in competition, which she hated. Fathiers were found across the galaxy, but their homeworld was considered a mystery.<br></p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "beast",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 0.5,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 100
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "lg",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "\u2014"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ath": {
+                "value": 1,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 16,
+                "prof": 2,
+                "total": 6
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/058_-_Fathier/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Fathier",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/058_-_Fathier/token.webp",
+        "tint": null,
+        "width": 2,
+        "height": 2,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 10,
+        "brightSight": 10,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "6Zr186BuyUE6RUQO",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "Njg4N2IzMTZmOTMz",
+            "name": "Keen Hearing",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The fathier has advantage on Wisdom (Perception) checks that rely on hearing.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/058_-_Fathier/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NTU4MjY4NjFiYWZl",
+            "name": "Trampling Charge",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>If the fathier moves at least 20 feet straight toward a creature and then hits it with a hooves attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the fathier can make another attack with its hooves against it as a bonus action.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/058_-_Fathier/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NThkZGE4YmNjZjgz",
+            "name": "Hooves",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+6, Reach 5 ft., One target. <em>Hit : </em>11 (2d6+4) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "2d6+4",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/058_-_Fathier/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

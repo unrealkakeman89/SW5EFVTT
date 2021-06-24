@@ -1,0 +1,24 @@
+{
+    "_id": "BQEDghtJMBfhnnr6",
+    "name": "Ysannanite Form",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "lightsaberform",
+    "data": {
+        "description": {
+            "value": "<p>As a part of the bonus action to adopt this form, if you took the Attack action, you can engage in Double- or Two-Weapon Fighting.</p>\n<p>Additionally, until the end of your next turn, when making a ranged weapon attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll.</p>"
+        },
+        "source": {
+            "value": "Expanded Content"
+        }
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.QjBBl7KevWVvKDmy"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Lightsaber%20Forms/Ysannanite%20Form.webp",
+    "effects": []
+}

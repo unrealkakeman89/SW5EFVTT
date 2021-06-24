@@ -1,0 +1,127 @@
+{
+    "_id": "t8KzQluS5V5RSnI4",
+    "name": "Bo-rifle (Rifle)",
+    "permission": {
+        "default": 0,
+        "MmfWtlBdw3ij5wl9": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<div>\n<p>The bo-rifle is a lasat weapon most commonly carried by the Honor Guard of Lasan, which has the unique property of functioning as both a rifle and a staff. On your turn, you can use your object interaction to switch between modes, detailed below.</p>\n<p>Rifle.&nbsp;While in this mode, the weapon uses traditional power cells.</p>\n<p>Staff.&nbsp;While in this mode, the weapon gains the shocking 13 property.</p>\n</div>\n<div>Rifle:&nbsp;1d8 Energy, Ammunition (range 100/400), reload 6</div>\n<div>Staff:&nbsp;1d8 Kinetic, Double (1d8 kinetic), shocking 13</div>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 7,
+        "price": 2300,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 100,
+            "long": 400,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 40
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8 + @mod",
+                    "energy"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "martialVW",
+        "properties": {
+            "amm": true,
+            "aut": false,
+            "bur": false,
+            "def": false,
+            "dex": false,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "fin": false,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "ken": false,
+            "lgt": false,
+            "lum": false,
+            "mig": false,
+            "pic": false,
+            "rap": false,
+            "rch": false,
+            "rel": true,
+            "ret": false,
+            "shk": false,
+            "sil": false,
+            "spc": true,
+            "str": false,
+            "thr": false,
+            "two": true,
+            "ver": false,
+            "vic": false,
+            "nodam": false,
+            "fulldam": false
+        },
+        "proficient": true
+    },
+    "folder": "7rtfHBtXhhiRSS8u",
+    "sort": 6975001,
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Simple%20Blasters/Bo%20Rifle.webp",
+    "effects": []
+}

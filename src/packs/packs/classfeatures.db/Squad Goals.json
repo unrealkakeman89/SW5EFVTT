@@ -1,0 +1,70 @@
+{
+    "name": "Squad Goals",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Bolstering Practice</strong>:&nbsp;17th level</em></p>\n<p>By 17th level, you have such skill at maintaining the faith your allies have in you, that the very sight of you in danger can spur them into action. When seeing you take damage from an enemy's attack, a number of allies equal to your charisma modifier within 60 feet of you that can see you may immediately make a single attack of opportunity against the enemy, no action required. You may use this feature once, regaining the ability to do so when you finish a short or long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/OPRT-ARCH-Passive.webp",
+    "effects": [],
+    "_id": "aw4P3vsZCfNf5DKc"
+}

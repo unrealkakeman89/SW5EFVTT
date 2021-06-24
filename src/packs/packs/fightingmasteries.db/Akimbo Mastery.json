@@ -1,0 +1,20 @@
+{
+    "_id": "Nr7mzeFLEUrqVK7G",
+    "name": "Akimbo Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered fighting with two blasters, unleashing a volley of shots. While you are wielding separate weapons in each hand with which you are proficient, you gain the following benefits:</p><ul><li>When you roll the maximum on a weapon damage die against a creature, that creature suffers a -1 penalty on the first attack roll it makes before the start of your next turn.</li><li>You can engage in Two-Weapon Fighting even when the weapons you are wielding lack the light property.</li><li>You can reload two weapons when you would normally only be able to reload only one.</li><li>When you take the Attack action, you can choose to attack swiftly at the expense of accuracy. Your weapon attack is made without the aid of your proficiency bonus, but you can use your reaction to attack with a different weapon that you're holding in the other hand, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Akimbo%20Mastery.webp",
+    "effects": []
+}

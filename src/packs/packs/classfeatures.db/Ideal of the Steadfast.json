@@ -1,0 +1,109 @@
+{
+    "_id": "tFeYRpK4UKKtYJjK",
+    "name": "Ideal of the Steadfast",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you would make a melee weapon attack roll, you can instead force the target to make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, when a creature succeeds on the saving throw, they take half the normal weapon damage, and when a creature rolls a 1 on the saving throw, they treat the damage as if you had rolled the maximum.</p>\n<section class=\"secret\">\n<p>In the Details tab, set Resource Consumption to [Item Uses] [Sentinel Ideals] [1].</p>\n</section>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "bonus",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+    "effects": [
+        {
+            "_id": "Sm735wmrsKZ7HQPB",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": false
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": 60,
+                "rounds": 10,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+            "label": "Ideal of the Steadfast Manifestation",
+            "tint": "",
+            "transfer": false
+        }
+    ]
+}

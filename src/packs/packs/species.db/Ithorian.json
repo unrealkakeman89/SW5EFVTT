@@ -1,0 +1,233 @@
+{
+    "_id": "EdqGPstDdQBKi178",
+    "name": "Ithorian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Ithorians have two mouths and four throats, allowing them to speak in stereo. Female Ithorians have two humps on the back of their head, while males have only one. They have glossy, usually brown flesh. Their reflexes and coordination are somewhat slower than that of average humanoids.\r\n\r\nIn addition to allowing them to speak their unique stereophonic language, the Ithorians' four throats also have the ability to violently expel air, resulting in a deafening and potentially concussive scream. Despite this fact, most Ithorians go their entire lives without ever resorting to violence, and so the ability remained relatively ambiguous.</p><h2>Society and Culture</h2><p>Ithorians worship the \"Mother Jungle,\" a spiritual entity embodying the lush, tropical ecology of their world, Ithor. They are generally devoted environmentalists, staunch herbivores, and complete pacifists, devoting much time to contemplating their ecology, studying plants and their uses and the overall respecting of all living things. Most Ithorians never set foot on their own planet, instead living in floating cities above their world called herdships. Only three of their continents have been explored and harvested, the other two never having been touched by Ithorian hands. They demonstrate extreme belief in the protection and sustaining of their environment as dictated by their \"Law of Life.\"</p><h2>Names</h2><p>Ithorian names are quite varied in length but most names are soft and melodic. They are often difficult to prounounce by other species, so many Ithorians adopt nicknames.</p><strong>&nbsp;&nbsp;Male Names.</strong> Del, Gizorthej, Pexxocl, Steorthibs</p><strong>&nbsp;&nbsp;Female Names.</strong> Binshe, Dhu'sha, Mul, Slosh, Vlo</p><strong>&nbsp;&nbsp;Surnames.</strong> Afleehl, Crukid, Tondand, Wamunn",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Wisdom score increases by 1.</p><p><em><strong>Age.</strong></em> Ithorians reach adulthood in their late teens and live an average of 85 years.</p><p><em><strong>Alignment.</strong></em> Ithorians tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Shorter Ithorians stand around 6 feet while taller reach over 7 and a half. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Hold Breath.</strong></em> Ithorians have a great lung capacity and can hold their breath for up to 15 minutes at a time.</p><p><em><strong>Sonic Resistance.</strong></em> Ithorians have resistance to sonic damage.</p><p><em><strong>Sonic Scream.</strong></em> You can use your action to violently expell air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw. The DC for this saving throw equals 8 + your proficiency bonus + your Constitution modifier. A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs.</p><p><em><strong>Languages.</strong></em> You can speak, read, and Ithorese . You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Brown, dark red or green"
+        },
+        "hairColorOptions": {
+            "value": "Brown, gray, or white"
+        },
+        "eyeColorOptions": {
+            "value": "Black or blue"
+        },
+        "distinctions": {
+            "value": "Curved neck, two mouths, aural flaps, locomotion tubes, throat sack"
+        },
+        "heightAverage": {
+            "value": "5'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "135 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Ithor"
+        },
+        "slanguage": {
+            "value": "Ithorese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Ithorian",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "WGW34NsYMSPzzQiU",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "WGW34NsYMSPzzQiU",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "WGW34NsYMSPzzQiU",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "WGW34NsYMSPzzQiU",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "WGW34NsYMSPzzQiU",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.dr.value",
+                    "value": "Sonic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "WGW34NsYMSPzzQiU",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Damage Resistance"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "WGW34NsYMSPzzQiU",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "ithorese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "WGW34NsYMSPzzQiU",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Ithorian.webp",
+    "effects": [
+        {
+            "_id": "JaGRpRTJPdMx0P4C",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Ithorian",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "sonic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "ithorese",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Ithorian.webp",
+            "label": "Ithorian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

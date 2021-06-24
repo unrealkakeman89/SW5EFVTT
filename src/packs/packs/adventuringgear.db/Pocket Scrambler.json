@@ -1,0 +1,32 @@
+{
+    "name": "Pocket Scrambler",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A pocket scrambler is a simple add-on to any commlink that automatically encodes any messages sent out. The transmitted message can only be read by a device equipped with a matched scrambler.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 800,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Communications/Pocket%20Scrambler.webp",
+    "_id": "J13oK71qmUiWYym8"
+}

@@ -1,0 +1,39 @@
+{
+    "_id": "4afEpKVpPAUq3lMe",
+    "name": "Path of the Forceblade",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Sentinel",
+        "description": {
+            "value": "<h1>Path of the Forceblade</h1>\n<p>Some few master their weapon in ways that differ from their peers. Those sentinels who follow the Path of the Forceblade channel the Force into their weapon, forming a unique connection that grants you greater control over the weapon; it becomes an extension of their will.</p>\n<h2>Phasethrow</h2>\n<p>Starting when you choose this calling at 3rd level, you learn the @Compendium[sw5e.forcepowers.cCTaCxvsBcbEvbw2]{Saber Throw} force power. Additionally, you no longer have disadvantage on the attack roll with it if you are within 5 feet of a hostile creature, and you can use your Kinetic Combat feature when you cast it as your action. Finally, once per turn, when you hit a creature within 30 feet of you with the <em>saber throw</em> force power, you can spend 1 force point to teleport to an unoccupied space within 5 feet of the creature.</p>\n<h2>Forceblade Bond</h2>\n<p>Also at 3rd level, you learn how to bond with a lightweapon or vibroweapon through the Force, making it part of you.</p>\n<p>You perform the ritual over the course of 1 hour, which can be done during a short rest. The weapon must be within your reach throughout the ritual, at the conclusion of which you touch the weapon and forge the bond, gaining the following benefits:</p>\n<ul>\n<li>You can't be disarmed of that weapon unless you are incapacitated.</li>\n<li>If the weapon is within 60 feet of you and you can see it, you can summon that weapon as a bonus action on your turn, causing it to travel instantly to you. If you have a free hand, you catch the weapon. Otherwise, it lands at your feet.</li>\n<li>You can use Wisdom or Charisma instead of Strength or Dexterity for the attack and damage rolls.</li>\n</ul>\n<p>You can have two weapons bonded to you in this way at a time, and you can summon both of them to you with the same bonus action.</p>\n<h2>Twin Saber Throw</h2>\n<p>At 7th level, when you cast @Compendium[sw5e.forcepowers.cCTaCxvsBcbEvbw2]{Saber Throw} while wielding your forceblade, you add half your forcecasting ability modifier (rounded down) to the damage rolls, and you can att-ack the same target multiple times. Additionally, when you make your Kinetic Combat attack, if you spent a force point to teleport to within 5 feet of the target, you make the attack roll with advantage.</p>\n<h2>Disruptive Throw</h2>\n<p>By 13th level, when you are the target of a ranged attack, you can use your reaction to throw your forceblade at the source of the attack. Make a ranged force attack. On a hit, this attack deals damage equal to your Kinetic Combat Damage Die and you impose disadvantage on the triggering attack roll.</p>\n<h2>Forceblade Mastery</h2>\n<p>At 18th level, you've mastered controlling your forceblade with your mind, using it to keep your enemies at bay. As an action, you can telekinetically control your forceblade and have it strike any number of creatures within 10 feet of you, spending 1 force point per target. Each target must make a Dexterity saving throw (DC = 8 + your proficiency bonus + your Wisdom or Charisma modifier + any bonuses to the weapon's attack rolls). On a failed save, it takes damage equal to your Kinetic Combat Damage Die + half your sentinel level (rounded down), is pushed back 10 feet and knocked prone.</p>\n<p>Additionally, when you do so, you can use your Kinetic Combat feature.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Path%20of%20the%20Forceblade.webp",
+    "effects": []
+}

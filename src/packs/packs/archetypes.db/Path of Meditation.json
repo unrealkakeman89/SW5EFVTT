@@ -1,0 +1,24 @@
+{
+    "_id": "L6wU6YEYKHOJH9AX",
+    "name": "Path of Meditation",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "description": {
+            "value": "<h1>Path of Meditation</h1>\n<p>Throughout the Force, there is both symphonic harmony, and discordant chaos. Those sentinels who follow the Path of Meditation embody these concepts, empowering their allies and hindering their enemies through the use of the ancient Force technique of battle meditation.</p>\n<h2>Sage Counsel</h2>\n<p><em><strong>Path of Meditation:</strong> 3rd level</em></p>\n<p>You learn the guidance force power, which does not count against your total powers known. Additionally, you can use your Deflection and Slow Time Force-Empowered Self options when you cast it as your action. Finally, this power's die increases by one step (from d4 to d6, d6 to d8, d8 to d10, or d10 to d12).</p>\n<h2>Force-Empowered Allies</h2>\n<p><em><strong>Path of Meditation:</strong> 3rd level</em></p>\n<p>While you are concentrating on a power that benefits a friendly creature other than you, you gain new ways to utilize your Force-Empowered Self features. Each option costs 1 force point, and you can only target a creature that is benefiting from a power you cast.</p>\n<h3>Deflection</h3>\n<p>When an ally is hit with an attack roll, you can use your reaction and roll a Kinetic Combat die to add it to your ally's AC, potentially causing the attack to miss.</p>\n<h3>Double Strike</h3>\n<p>When an ally hits with an attack roll, you can use your reaction and roll a Kinetic Combat die to deal additional damage of the same type as the attack.</p>\n<h3>Slow Time</h3>\n<p>When an ally moves on their turn, you can use your reaction and roll a Kinetic Combat die to increase their speed by 5 x the amount rolled until the end of the turn.</p>\n<h2>Unbreakable Focus</h2>\n<p><em><strong>Path of Meditation:</strong> 7th level</em></p>\n<p>Once per long rest, you can cast the battle meditation force power at its base level without expending force points. While concentrating on battle meditation, at the start of each of your turns, the power's die increases by one step (from d4 to d6, d6 to d8, d8 to d10, or d10 to d12).</p>\n<p>Additionally, whenever you make a Constitution saving throw to maintain concentration on a force power, you can treat a d20 roll of 9 or lower as a 10.</p>\n<h2>Turbulent Presence</h2>\n<p><em><strong>Path of Meditation:</strong> 13th level</em></p>\n<p>Once per long rest, you can cast the improved battle meditation force power at its base level without expending force points. While concentrating on improved battle meditation, at the start of each of your turns, the power&rsquo;s die increases by one step (from d6 to d8, d8 to d10, or d10 to d12).</p>\n<p>Additionally, once per round, when a creature rolls a bonus or penalty die from an effect you control, you can have them roll the die with advantage or disadvantage (your choice).</p>\n<h2>Legendary Battle Meditation</h2>\n<p><em><strong>Path of Meditation:</strong> 18th level</em></p>\n<p>Once per long rest, you can cast the master battle meditation force power without expending force points. While concentrating on master battle meditation, at the start of each of your turns, the power&rsquo;s die increases by one step (from d8 to d10, or d10 to d12).</p>\n<p>Additionally, you gain a second reaction each round that you can only use for your Force-Empowered Allies feature. You can only take one reaction per turn.</p>"
+        },
+        "source": "EC",
+        "className": "Sentinel",
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.Qw1xjqT7zKK9ZlJq"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Path%20of%20Meditation.webp",
+    "effects": []
+}

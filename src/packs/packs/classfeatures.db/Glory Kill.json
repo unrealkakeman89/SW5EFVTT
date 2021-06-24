@@ -1,0 +1,71 @@
+{
+    "_id": "fpXGa9GzfcAfUs61",
+    "name": "Glory Kill",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Exhibition Specialist</strong>:&nbsp;7th level</em></p>\n<p>As you defeat your enemies in combat, you can weaken the morale of other foes or bolster the resolve of your allies alike. When you score a critical hit or reduce a creature to 0 hit points, you can choose one or more creatures that you can see within 30 feet of you. up to a number equal to your Charisma modifier (minimum of one creature). Each of the chosen creatures are affected by one of the following effects of your choice:</p>\n<ul>\n<li>The creature gains temporary hit points equal to 1d6 + your Charisma modifier (minimum of 1 temporary hit point).</li>\n<li>The creature must succeed on a Wisdom saving throw (DC = 8 + your proficiency bonus + your Charisma modifier) or be frightened of you until the start of your next turn.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/FGTR-ARCH-Passive.webp",
+    "effects": []
+}

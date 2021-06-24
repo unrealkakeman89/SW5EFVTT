@@ -1,0 +1,71 @@
+{
+    "_id": "GYtqJYgsY4nKIQdE",
+    "name": "Responder's Routine",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you roll initiative, you can choose to add your proficiency bonus to the initiative roll and have advantage on attack rolls against creatures that have not yet acted. Alternatively, you can choose to allow each creature within 5 feet of you, including you, to add half your proficiency bonus to the initiative roll and have advantage on the first attack roll they make against a creature that has not yet acted.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCT-Passive.webp",
+    "effects": []
+}

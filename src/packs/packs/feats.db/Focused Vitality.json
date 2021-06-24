@@ -1,0 +1,87 @@
+{
+    "_id": "YfISDL99fjJ9WYy3",
+    "name": "Focused Vitality",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 3 levels in Monk</em></p>\n<p>You've learned to harness your focus to restore yourself, granting the following benefits:</p>\n<ul>\n<li>Increase an ability score of your choice by 1, to a maximum of 20.</li>\n<li>As an action, you can spend 2 focus points and roll a Martial Arts die. You regain a number of hit points equal to the amount rolled + your Wisdom or Charisma modifier (your choice, a minimum of one).</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 7800000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Focused%20Vitality.webp",
+    "effects": []
+}

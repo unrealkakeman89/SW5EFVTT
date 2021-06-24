@@ -1,0 +1,71 @@
+{
+    "_id": "YfR2xFy4SDFa31MN",
+    "name": "Heroes's Feast",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Once you&rsquo;ve reached 17th level, you have developed a signature feast that is the purest distillation of your knowledge and talent as a chef.</p>\n<p>Over the course of a long rest, you can expend rare culinary supplies worth 1,000 cr to create your feast, which can feed a number of creatures equal to twice your Intelligence modifier. Any creature partaking in the feast gains the following benefits:</p>\n<ul>\n<li>It is cured of all poisons and disease, and becomes immune to poison and disease.</li>\n<li>It makes Wisdom saving throws to avoid being frightened with advantage.</li>\n<li>Its hit point maximum and current hit points increase by 2d10.</li>\n</ul>\n<p>These benefits last until the end of the creature&rsquo;s next long rest or 24 hours have passed. This feature has no effect on droids or constructs.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

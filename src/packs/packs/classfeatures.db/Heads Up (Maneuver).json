@@ -1,0 +1,80 @@
+{
+    "_id": "EEvY0sje0iabXRSa",
+    "name": "Heads Up (Maneuver)",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When a friendly creature who can see or hear you makes a saving throw, you can use your reaction and expend a superiority die, adding the number rolled to the result of the saving throw. You can use this maneuver before or after making the saving throw, but before any effects of the saving throw are determined.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "reaction",
+            "cost": null,
+            "condition": "a friendly creature who can see or hear you makes a saving throw"
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4",
+                    "midi-none"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {
+        "midi-qol": {
+            "onUseMacroName": ""
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-Reaction.webp",
+    "effects": []
+}

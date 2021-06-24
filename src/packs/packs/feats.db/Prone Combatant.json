@@ -1,0 +1,137 @@
+{
+    "_id": "tc0x7wRpNsW1O2Zz",
+    "name": "Prone Combatant",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p>You've practiced fighting while prone, gaining the following benefits:</p>\n<ul>\n<li>Increase your Dexterity score by 1, to a maximum of 20.</li>\n<li>You gain a crawling speed equal to your movement speed.</li>\n<li>You no longer have disadvantage on ranged attack rolls against targets within 30 feet.</li>\n<li>When you attempt to hide on your turn while prone, you can opt to not move on that turn. If you avoid moving, you are considered lightly obscured. You lose this benefit if you move or stand up, either voluntarily or because of some external effect. You are still automatically detected if any effect or action causes you to no longer be hidden. If you are still hidden on your next turn, you can continue to remain motionless and gain this benefit until you are detected.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 4700000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "tc0x7wRpNsW1O2Zz",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Prone%20Combatant.webp",
+    "effects": [
+        {
+            "_id": "voyn9mLe9ijrdBsQ",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.crawl",
+                    "value": "(@attributes.movement.walk)",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Feats/Prone%20Combatant.webp",
+            "label": "Prone Combatant",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

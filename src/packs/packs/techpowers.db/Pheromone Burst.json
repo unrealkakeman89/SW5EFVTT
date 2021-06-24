@@ -1,0 +1,98 @@
+{
+    "_id": "ef7RW6hQ93EeDCVb",
+    "name": "Pheromone Burst",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You expel a burst of mood-altering pheromones around you. Each creature within range other than you must succeed on a Charisma saving throw or take 1d4 poison damage and become frightened of you until the start of its next turn. A creature that is immune to the poisoned condition is not frightened.</p>\n<p>This power's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 5,
+            "units": "ft",
+            "type": "sphere"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4",
+                    "poison"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "cha",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 0,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "atwill",
+            "formula": "1d4"
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/PheromoneBurst.webp"
+}

@@ -1,0 +1,99 @@
+{
+    "_id": "F4Q7jJ2ssAKfNHw0",
+    "name": "Disintegrate",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>A blast of corrosive energy emits from you. Choose a target within range.</p>\n<p>A creature targeted by this power must make a Dexterity saving throw. On a failed save, the target takes 10d6 + 40 acid damage. If this damage reduces the target to 0 hit points, it is disintegrated.</p>\n<p>A disintegrated creature and everything it is wearing and carrying are reduced to a pile of fine gray dust. A creature destroyed in this way can not be revitalized.</p>\n<p>This power automatically disintegrates a Large or smaller object. If the target is a Huge or larger object, this power disintegrates a 10-foot-cube portion of it.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 60,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "10d6 + 40",
+                    "acid"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 6,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "3d6"
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/Disintegrate.webp",
+    "effects": []
+}

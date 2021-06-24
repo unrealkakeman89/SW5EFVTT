@@ -1,0 +1,16 @@
+{
+    "_id": "AgzA2uBZT6wm3xIY",
+    "name": "Petrified",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.rKuhg6DcmwogFTOw"
+        }
+    },
+    "content": "<h4 id=\"petrified\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">PETRIFIED</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">A petrified creature is transformed, along with any object it is wearing or carrying, into a solid inanimate substance (usually stone). Its weight increases by a factor of ten, and it ceases aging.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The creature is incapacitated (see the condition), can&rsquo;t move or speak, and is unaware of its surroundings.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">Attack rolls against the creature have advantage.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The creature automatically fails Strength and Dexterity saving throws.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The creature has resistance to all damage.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The creature is immune to poison and disease, although a poison or disease already in its system is suspended, not neutralized.</li>\n</ul>",
+    "img": "icons/svg/statue.svg"
+}

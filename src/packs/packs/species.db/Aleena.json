@@ -1,0 +1,253 @@
+{
+    "_id": "V5Gn8RwlAIIb6GK7",
+    "name": "Aleena",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Aleena are short, reptilian bipeds with large eyes and wide mouths full of small, sharp teeth. Aleena's bodies are long compared to their short arms and stubby legs. Warm-blooded reptiles, they possess exceptional reflexes as well as a fast metabolism which allow them to convert food into energy very rapidly in order to escape predators on their harsh home planet.</p>\n<h2>Society and Culture</h2>\n<p>Aleena are social and tend to thrive best in with close-knit teams if not with their own kind. They develop strong loyalties to friends and protect those they care about fiercely. Due to their inborn curiosity, the aleena are stereotypically galactic travelers, tourists in every sense. This, combined with their strong dedication to their relatives, results in aleena families traveling even to most unusual and dangerous locations just to see its sights. The appearance of aleena family walking through an intergalactic metropolis is a common sight on many planets. The aleena's love of sports and particularly, adventure and thrill sports, draw many into the galactic community. Most who enter professional classes are experts or diplomats.</p>\n<p>Aleena settlements are small, and most individuals are part of a single lineage, or tahiko. The chief of each tahiko leads the community and represents their wishes to the planetary advisory body. The advisory body elects a king to govern the planet. This indivisdual is generally revered as a religious figure tasked with officiating at all religious ceremonies.</p>\n<h2>Names</h2>\n<p>Aleena names are generally short and guttural, with longer names being saved for royalty. Surnames are based on their tahiko or tribal lineage.</p>\n<p><strong>&nbsp; Male Names.</strong> Batts, Gratz, Wakka, Zakan, Zetts</p>\n<p><strong>&nbsp; Female Names.</strong> Arkei, Harza, Sutci, Tsuon, Yenn</p>\n<p><strong>&nbsp; Surnames.</strong> Anares, Kylar, Ors, Practes, Targae</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Charisma score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Aleena reach adulthood in their late teens and live to be about 80.</p>\n<p><em><strong>Alignment.</strong></em> Aleena's benevolent yet curious nature causes them to tend toward chaotic light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Aleena typically stand 2 and a half to 3 feet tall and generally weigh about 35 lbs. Regardless of your position in that range, your size is Small.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p>\n<p><em><strong>Bite.</strong></em> Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d4 + your Strength modifier. Additionally, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack's normal effects, you gain temporary hit points equal to your Constitution modifier (minimum of 1), and you can't use this trait again until you finish a short or long rest.</p>\n<p><em><strong>Cosmopolitan.</strong></em> You have proficiency in Lore.</p>\n<p><em><strong>Nimble Escape.</strong></em> You can take the Disengage or Hide action as a bonus action on each of your turns.</p>\n<p><em><strong>Nimbleness.</strong></em> You can move through the space of any creature that is of a size larger than yours.</p>\n<p><em><strong>Racer's Reflexes.</strong></em> Whenever you make a Dexterity ability check, attack roll, or saving throw, you can choose to add 1d4 to the result. You can choose to do this after the check is rolled but before the GM determines if you have passed or failed the check. You cannot do so again until you complete a short or long rest.</p>\n<p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield large weapons. You cannot use heavy shields. Additionally, you cannot use martial weapons with the two-handed property unless it also has the light property, and, if a martial weapon has the versatile property, you can only wield it in two hands.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Aleena. Aleena is characterized by its use of short syllables and energetic movements to convey urgency and emotion.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, gray, purple, tan"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Blue"
+        },
+        "distinctions": {
+            "value": "Short stature, scaly skin, crested head"
+        },
+        "heightAverage": {
+            "value": "2'1\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "35 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Aleen"
+        },
+        "slanguage": {
+            "value": "Aleena"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Aleena",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "N5NXHGq5qTMu5TvX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "N5NXHGq5qTMu5TvX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "N5NXHGq5qTMu5TvX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "sm",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "N5NXHGq5qTMu5TvX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "N5NXHGq5qTMu5TvX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.lor.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "N5NXHGq5qTMu5TvX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Lore"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "N5NXHGq5qTMu5TvX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "aleena",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "N5NXHGq5qTMu5TvX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Aleena.webp",
+    "effects": [
+        {
+            "_id": "UCJDsDHBIg6vcQ2j",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Aleena",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 25,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.lor.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "aleena",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.nimbleEscape",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.nimbleness",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Aleena.webp",
+            "label": "Aleena",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

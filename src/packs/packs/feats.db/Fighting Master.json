@@ -1,0 +1,83 @@
+{
+    "_id": "W15mnFHa0xq3tXL1",
+    "name": "Fighting Master",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "You've mastered a particular style of fighting. Choose one of the Fighting Mastery options, detailed earlier in this chapter. You can select this feat multiple times. You can't take a Fighting Mastery option more than once, even if you later get to choose again.\r\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 6900000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Fighting%20Master.webp",
+    "effects": []
+}

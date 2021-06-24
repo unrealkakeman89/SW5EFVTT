@@ -1,0 +1,37 @@
+{
+    "_id": "CHUwghAkez6ETMyL",
+    "name": "Hydroponics Garden",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Large or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite grows plants for either consumption or commerce.</p>\n<p>If the Garden is configured for consumption, every day it produces common food in an amount capable of supporting a number of civilians, crew members, or troopers equal to one-tenth the ship's suite capacity, as shown in the @JournalEntry[FP3ZDd5KEXJIpqkZ]{Starship Size Food Capacity} table.</p>\n<p>If the Garden is configured for commerce, at the end of every month (7 weeks of 5 days) it produces plant goods with a market value in Credits of 10 times the ship's suite capacity, as shown in the @JournalEntry[FP3ZDd5KEXJIpqkZ]{Starship Size Food Capacity}&nbsp;table. In some cases, a GM may determine that this value could be increased if a particularly rare plant good is produced. In such cases, the players may need to procure rare starter material such as seeds or cuttings to start or continue production.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

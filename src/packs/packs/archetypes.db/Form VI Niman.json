@@ -1,0 +1,39 @@
+{
+    "_id": "w1XQ5LzJNpk6PT0F",
+    "name": "Form VI: Niman",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form VI: Niman</h1>\n<p>Form VI, also known as Moderation Form, strikes a balance between bladework and force powers. Those guardians who focus on Niman Form weave Force manipulation with their melee weapon strikes, pushing their opponents off-balance to create an opening.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.CJQwWFwTc98U4BpX]{Niman Lightsaber Form}, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can&rsquo;t take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Rancor</h2>\n<p>Also at 3rd level, as a bonus action, you can enter a balanced stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, when you use your action to cast a force power, you can make one melee weapon attack.</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<h3>Telekinetic Slash</h3>\n<p>When you deal damage with an at-will force power, you can expend a use of your Channel the Force and expend force points to deal additional damage to the target. The extra damage is 2d8 for a 1st-level force slot, plus 1d8 for each slot level higher than 1st, to a maximum of 5d8. The damage is the same type as the power's damage.</p>\n<h2>Enlightenment</h2>\n<p>Starting at 7th level, you can add half your Wisdom or Charisma modifier (your choice, rounded down, minimum of one) to any saving throw you make that doesn't already include that modifier.</p>\n<h2>Redirect</h2>\n<p>Starting at 15th level, when you would be affected by a force power that requires a Dexterity saving throw or attack roll and would effect only you, you may redirect that power to another target within 30 feet. If the power required an attack roll, make an appropriate attack roll against the new target. If it required a Dexterity saving throw, the new target must make a Dexterity saving throw against your force save DC.</p>\n<p>Once you've used this feature, you must complete a short or long rest before you can use it again.</p>\n<h2>Master of Moderation</h2>\n<p>At 20th level, the Force flows in perfect concert with your weapon attacks. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage from unenhanced weapons.</li>\n<li>You have advantage on saving throws against force powers. Additionally, you have resistance against the damage of force powers.</li>\n<li>When you use your action to cast an at-will force power that targets only one creature, you can target an additional creature within 5 feet of the original target and within the power's range.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Niman%20Form.webp",
+    "effects": []
+}

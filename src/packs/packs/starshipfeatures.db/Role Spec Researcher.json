@@ -1,0 +1,103 @@
+{
+    "name": "Role Spec: Researcher",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 2nd tier, you adopt a particular style of design for your ship.</p>\n<h3>Researcher</h3>\n<p>Your ship gains the Laboratory and Workshop modifications at no cost. Additionally, Intelligence (Lore) checks on your ship are made with advantage.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Gargantuan",
+        "tier": "2"
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.zHF2wD1iG1qM5gdl"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Gargantuan.webp",
+    "effects": [
+        {
+            "_id": "qQTMHDrpIch61Q7C",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.role",
+                    "value": "Researcher",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Starship%20Features/Small.webp",
+            "label": "Role Specialization: Researcher",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "ComTgRDyH4OKyzDK"
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "9BJmcwaGqhzCUUsz",
+    "name": "Vow of Precision",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite</strong>: 13th level</em></p>\n<p>Your critical hit range with unarmed strikes increases by 1.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Vow 13",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/MNK-Passive.webp",
+    "effects": []
+}

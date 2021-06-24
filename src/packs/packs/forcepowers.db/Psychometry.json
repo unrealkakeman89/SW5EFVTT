@@ -1,0 +1,88 @@
+{
+    "_id": "bU9gwhdaQKY5R99i",
+    "name": "Psychometry",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Telemetry</em></p>\n<p>For the duration, you gain the ability to &ldquo;communicate&rdquo; telepathically with inanimate objects you touch. You can ask up to five questions and receive answers from objects, usually in the form of a auditory or visual hallucination. For example, touching the rusted, broken remains of a lightsaber and asking how it got there may result in a brief vision of a disgruntled Jedi Knight casting it to the ground on that spot. An object &ldquo;questioned&rdquo; in this way can only provide information relating to its past. The DM has the final say on what objects can be questioned, and to what extent.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "minute",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 10,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "units": "any",
+            "type": "object"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 3,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Psychometry.webp",
+    "effects": []
+}

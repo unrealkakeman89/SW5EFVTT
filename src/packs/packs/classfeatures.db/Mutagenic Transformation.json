@@ -1,0 +1,71 @@
+{
+    "_id": "RU8Tb8fY6GOfyhIb",
+    "name": "Mutagenic Transformation",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Beginning at 6th level, when you target yourself with your Critical Analysis feature, you can choose to undergo a mutagenic transformation. Your form shifts, exaggerating and strengthening your geneticist discoveries for 1 hour. You gain the following benefits:</p>\n<ul>\n<li>You can attack twice, instead of once, whenever you take the Attack action on your turn.</li>\n<li>Your Strength score becomes equal to your Intelligence score.</li>\n<li>You gain a bonus to your AC equal to half your Intelligence modifier (rounded down, minimum of +1) if it doesn&rsquo;t already include that modifier.</li>\n</ul>\n<p>You can end this effect early on your turn as a bonus action. This effect ends early if you are incapacitated or die. You can use this feature twice. You regain all expended uses of it when you finish a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "special",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 2,
+            "max": 2,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

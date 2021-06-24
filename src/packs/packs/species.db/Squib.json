@@ -1,0 +1,234 @@
+{
+    "_id": "CZUVxgj9fFo6Gx2j",
+    "name": "Squib",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Squibs are small, sentient, humanoid mammals with both rodent and canine characteristics. Their pink skin is covered in fur that offers some protection from cold weather, but, more importantly, it serves as an olfactory organ, able to pick up scents at a distance and ascertain intrinsic details\u2014such as penetrating through a disguise or identifying a forgery\u2014when rubbed against. The species has both male and female sexes, although non-Squibs often have difficulty determining the sex of a Squib based on appearance alone. Their mouths are full of forbidding, sharp, white teeth, and their flexible cheeks were capable of storing items.</p>\n<h2>Society and Culture</h2>\n<p>Squibs are friendly and cheerful to such an extent that, over time, they are considered quite annoying. Squibs are inherently curious, handling items with literal regard to care. They are unabashed pack rats, and they wear clothing for the excess storage rather than necessity. The Squibs' overconfidence is a defining trait. The typical Squib response to a threat is not to fight or flee, but to bluff and bluster, especially when not face-to-face. In person, their sharp teeth are their favored means of intimidation. Squibs believe that bargaining is the highest form of communication, and they believe haggling is more important than the goods themselves. A deal is a binding oath to Squibs, and they are incredibly loyal to their business partners.</p>\n<h2>Names</h2>\n<p>Squibs combine their first and last names, which are familial, into one long, hyphenated name. They often go by nicknames derived from their full names. Male and female names do not significantly deviate.</p>\n<p>&nbsp;&nbsp;<strong>Full Names.</strong> Galaneever-marmalios, Meelawin-demort, Sleerinwilpher-remalior</p>\n<p>&nbsp;&nbsp;<strong>Nicknames.</strong> Galan, Meela, Wilpher</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Squibs reach adulthood at nine years of age and live an average of sixty-five years.</p><p><em><strong>Alignment.</strong></em> Squibs' cheerful nature causes them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Squibs typically stand 3 to 3 and a half feet tall and weigh around 50 lbs. Regardless of your position in that range, your size is Small.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p><p><em><strong>Bite.</strong></em> Your sharp teeth are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal kinetic damage equal to 1d4 + your Strength modifier.</p><p><em><strong>Business Savvy.</strong></em> A common trait of all Squibs is their desire and love of haggling. Squibs believe a deal is done when both sides believe they got the better of the other. Whenever you make a Charisma (Persuasion) check involving haggling you are considered to have expertise in the Persuasion skill.</p><p><em><strong>Flexible Cheeks.</strong></em> Squibs have flexible cheeks in which they can store small goods. You can store up to two items that weigh a combined total of no more than 2 lb. in your cheeks, and you have advantage on Dexterity (Sleight of Hand) checks made to conceal them.</p><p><em><strong>Hide.</strong></em> Your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p><p><em><strong>Keen Smell.</strong></em> You have advantage on Wisdom (Perception) checks that rely on smell.</p><p><em><strong>Sensitive Fur.</strong></em> Squibs' fur is exceptionally sensitive to physical details. You have advantage on Intelligence (Investigation) checks that rely on touch.</p><p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Squibbian. The Squibbian language originated as a secret form of communication for Squibs to convey information without being understood.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Pink"
+        },
+        "hairColorOptions": {
+            "value": "White, gray, black, brown, blue, violet, or red"
+        },
+        "eyeColorOptions": {
+            "value": "Blue, yellow, red, or brown"
+        },
+        "distinctions": {
+            "value": "Curious, overconfident, hagglers"
+        },
+        "heightAverage": {
+            "value": "2'11\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "45 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Skor II"
+        },
+        "slanguage": {
+            "value": "Squibbian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Squib",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "rEdpmBrVX96rCH12",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "rEdpmBrVX96rCH12",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "rEdpmBrVX96rCH12",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "sm",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "rEdpmBrVX96rCH12",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "rEdpmBrVX96rCH12",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "rEdpmBrVX96rCH12",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "squibbian",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "rEdpmBrVX96rCH12",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Squib.webp",
+    "effects": [
+        {
+            "_id": "JyXU6gNsxf6u3HUH",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Squib",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "squibbian",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.businessSavvy",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Squib.webp",
+            "label": "Squib",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

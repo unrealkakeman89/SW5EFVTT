@@ -1,0 +1,39 @@
+{
+    "_id": "6JrXY2jDqQiuuUGq",
+    "name": "Way of Negation",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Consular",
+        "description": {
+            "value": "<h1>Way of Negation</h1>\n<p>Some force users seek mastery over the fundamentals of energy manipulation, known as tutaminis. Those consulars who follow the Way of Negation harness this power to limit the havoc that other force-wielders might wreak.</p>\n<h2>Force Deflection</h2>\n<p>At 3rd level, when you fail a saving throw, you can use your reaction to gain a +4 bonus to that saving throw.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.</p>\n<h2>Power Surge</h2>\n<p>Starting at 6th level, you learn to simultaneously limit a creature's force powers and store that power within yourself to later strengthen your damaging force powers.</p>\n<p>You can store a maximum number of power surges equal to your Wisdom or Charisma modifier (your choice, minimum of one). Whenever you successfully end a force power with a power such as @Compendium[sw5e.forcepowers.XYHAKmU4gHSzRK3I]{Force Suppression} or @Compendium[sw5e.forcepowers.LhMmIUjsFrytp0wc]{Sever Force}, or use your Force Shield or Force Deflection features to successfully avoid an attack or succeed on a saving throw, you gain one power surge, as you redirect the flow of the Force into yourself.</p>\n<p>Once per turn, when you deal damage to a creature or object with a force power, you can spend one power surge to deal extra damage to that target. The extra damage is of the same type as the power's damage, and it equals half your consular level (rounded down).</p>\n<p>Whenever you finish a long rest, your number of power surges resets to one. If you end a short rest with no power surges, you gain one power surge.</p>\n<h2>Enduring Focus</h2>\n<p>At 10th level, you can casually deflect attacks while channeling your power. While you are concentrating on a Force power, you have a +2 bonus to your AC and all saving throws.</p>\n<p>Additionally, you can extend your Force Deflection to a creature within 5 feet of you when they fail a saving throw.</p>\n<h2>Conflux</h2>\n<p>At 14th level, when you use your Force Deflection feature, you can cause a ripple in the Force to expand from you. Up to three creatures of your choice that you can see within 60 feet of you each take force damage equal to half your consular level.</p>\n<h2>Tutaminis Mastery</h2>\n<p>At 18th level, when you use a Force-Empowered Casting option, you can spend a power surge to use it without spending additional force points.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Way%20of%20Negation.webp",
+    "effects": []
+}

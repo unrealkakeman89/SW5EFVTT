@@ -1,0 +1,233 @@
+{
+    "_id": "Pwk6VymX6vZQfwK3",
+    "name": "Umbaran",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Umbarans, called the \"Shadow People\" by some, are a near-human species characterized by their pale, bluish skin and colorless, sunken eyes. Their homeworld, Umbara, is situated deep within the Ghost Nebula, and receives almost no direct light from the planet's primary star. As a result, Umbaran eyes are well-adjusted to seeing in low light, and can see into the ultraviolet spectrum, but can be disoriented by bright light.</p>\n<h2>Society and Culture</h2>\n<p>Umbaran society is strictly divided into a leveled caste system, with most Umbarans constantly scheming to improve their social rank, using tactics such as blackmail, subterfuege, and even assassination if necessary. Only those within the ten highest caste tiers were given opportunities to leave their homeworld. Because of the cutthroat machinations required to get there, Umbarans in the wider galaxy are known as skilled, ruthless politicians. This reputation is enhanced by the Umbarans' talents for reading and influencing the emotions of others. Umbara developed its own technological advances separate from galactic society, and possessed technology that was in many fields far more advanced than the galactic standard.</p>\n<h2>Names</h2>\n<p>Umbaran names are typically no more than one or two syllables. Surnames are familial.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Mee, Pir, Nyss, Moshenu<br><strong>&nbsp; Female Names.</strong> Sly, Syll, Myn, Sata<br>&nbsp; <strong>Surnames.</strong> Deechi, Moore, Phobi, Nenn</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Charisma or Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Umbarans reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Umbarans' desire to improve their social standing at all costs causes them to tend towards chaos, though there are exceptions</p>\n<p><em><strong>Size.</strong></em> Umbarans typically stand 5 to 6 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Superior Darkvision.</strong></em> You've lived most of your life without direct sunlight. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Umbaran Specilization.</strong></em> You have proficiency in one of the following skills: Insight, Technology, Deception, or Perception.</p>\n<p><em><strong>Tech Dabbler.</strong></em> You know the <em>ward</em> at-will tech power. When you reach 3rd level, you can cast the <em>analyze</em> tech power once per day. When you reach 5th level, you can also cast the <em>infiltrate</em> tech power once per day. Intelligence is your techcasting ability for these powers. You do not require use of a wristpad for these powers.</p>\n<p><em><strong>Shadow People.</strong></em> You can attempt to hide even when you are only lightly obscured by dim light.</p>\n<p><em><strong>Sunlight Sensitivity.</strong></em> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Umbaran. Umbaran is characterized by its blending of technical jargon with informal language. It is rarely spoken off Umbara.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Pale grey or white"
+        },
+        "hairColorOptions": {
+            "value": "White"
+        },
+        "eyeColorOptions": {
+            "value": "White"
+        },
+        "distinctions": {
+            "value": "Blue tinted skin and sunken, colorless eyes"
+        },
+        "heightAverage": {
+            "value": "4'11\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "105 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Umbara"
+        },
+        "slanguage": {
+            "value": "Umbaran"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Umbaran",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "g2kRN5Ro27qAJUBE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "g2kRN5Ro27qAJUBE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "g2kRN5Ro27qAJUBE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "g2kRN5Ro27qAJUBE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "g2kRN5Ro27qAJUBE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (120 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "g2kRN5Ro27qAJUBE",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "g2kRN5Ro27qAJUBE",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "umbaran",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "g2kRN5Ro27qAJUBE",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Umbaran.webp",
+    "effects": [
+        {
+            "_id": "UYCnNjKYqbeNq6n8",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Umbaran",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 120,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "umbaran",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.sunlightSensitivity",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Umbaran.webp",
+            "label": "Umbaran",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

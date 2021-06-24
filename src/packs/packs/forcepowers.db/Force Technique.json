@@ -1,0 +1,99 @@
+{
+    "_id": "qykEFT52bywaQrNO",
+    "name": "Force Technique",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You imbue your weapon with the purifying light of the Force. As part of the action used to cast this power, you must make a melee attack with a weapon against one creature within your weapon\u2019s reach, otherwise the power fails. On a hit, the target suffers the attack\u2019s normal effects, and it becomes wreathed in a glowing barrier of force energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 force damage, and the power ends.</p>\n<p>This power\u2019s damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 force damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": "You must make a melee attack with a weapon against one creature within your weapon\u2019s reach"
+        },
+        "duration": {
+            "value": 1,
+            "units": "round"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8",
+                    ""
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 0,
+        "school": "lgt",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "atwill",
+            "formula": "1d8"
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Force%20Technique.webp",
+    "effects": []
+}

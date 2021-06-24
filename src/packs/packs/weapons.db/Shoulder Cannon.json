@@ -1,0 +1,160 @@
+{
+    "_id": "XF7LLzqx4ayiY8Gf",
+    "name": "Shoulder Cannon",
+    "permission": {
+        "default": 0,
+        "MmfWtlBdw3ij5wl9": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>Mounted by the shoulder slot, a shoulder cannon does not require a free hand to use. Additionally, you have advantage on Strength ability checks and saving throws to avoid being disarmed of this weapon.</p>\n<p>Ammunition (range 60/240), Autotarget (15, +2), Burst 4, Reload 4, Special</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 9,
+        "price": 3200,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 60,
+            "long": 240,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 60
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8 + 2",
+                    "energy"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": 12,
+            "scaling": "flat"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "martialB",
+        "properties": {
+            "amm": true,
+            "aut": false,
+            "bur": true,
+            "def": false,
+            "dex": false,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "fin": false,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "ken": false,
+            "lgt": false,
+            "lum": false,
+            "mig": false,
+            "pic": false,
+            "rap": false,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "shk": false,
+            "sil": false,
+            "spc": true,
+            "str": false,
+            "thr": false,
+            "two": false,
+            "ver": false,
+            "vic": false,
+            "nodam": false,
+            "fulldam": false
+        },
+        "proficient": true
+    },
+    "folder": "7rtfHBtXhhiRSS8u",
+    "sort": 6696876,
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": [
+        {
+            "_id": "KCrgDQZ4Fs0XYwyf",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "macroRepeat": "none",
+                    "transfer": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.bonuses.rwak.attack",
+                    "value": "0",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Autotarget",
+            "tint": "",
+            "transfer": false
+        }
+    ]
+}

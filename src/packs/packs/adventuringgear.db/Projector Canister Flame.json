@@ -1,0 +1,86 @@
+{
+    "name": "Projector Canister, Flame",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "consumable",
+    "data": {
+        "description": {
+            "value": "<p>When triggered, this wrist launcher ammunition produces a burst of flame in a line 15 feet long and 5 feet wide or a 15-foot cone. A single fuel canister holds enough fuel for three attacks in a line or a single attack in a cone. Each creature must make a DC 13 Dexterity saving throw, taking 1d8 fire damage or half as much on a successful one. The fire spreads around corners. It ignites flammable objects in the area that aren\u2019t being worn or carried.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 2,
+        "price": 350,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "none",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 15,
+            "units": "ft",
+            "type": "line"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 3,
+            "max": 3,
+            "per": "charges",
+            "autoDestroy": true
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8",
+                    "fire"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": 13,
+            "scaling": "flat"
+        },
+        "consumableType": "ammo",
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Ammunition/Projector%20Canister%2C%20Flame.webp",
+    "_id": "QKzanDFaJdhqdY0r"
+}

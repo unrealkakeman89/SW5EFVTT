@@ -1,0 +1,251 @@
+{
+    "_id": "AGTXEntyolPiGAZ5",
+    "name": "Lannik",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Lannik are short, bipedal humanoids with droopy, long ears. Males and females are equally tall, although the latter have a considerably less strong complexity. Their species is, however, much more vigorous and resistant than what its size could suggest. A Lannik's skin tends to be of colours similar to his or her eyes and hair. The species has evolved long pointy ears which allow them to hear better than human ears. </p><h2>Society and Culture</h2><p>The Lannik culture is apparently war loving, and Lanniks feel a great respect for warriors. At the same time, though, they follow a strict centuries-old code of honour. Lannik soldiers have the custom of tying all their hair in a single topknot over their head. Their species is one of fierce warriors, whose abilities have developed fighting against terrible predators and other Lanniks in a long history of wars. Although many regard the Lannik as hotheaded and temperamental, they are quite fearless and clear-headed even in combat, giving them the ability to think their way out of a dangerous situation.\n\nThe Lannik do not show their thoughts through their facial expressions, and seem always angry to other species. They are also very stubborn, and are not likely to change career once they chose it. Most males - and many females - serve in the planetary militia, celebrating the species' past as a warrior species. Some take on off-world mercenary work.</p><h2>Names</h2><p>Lannik names are generally short. Lanniks don't often give out their surnames.</p><strong>&nbsp;&nbsp;Male Names.</strong> Minch, Oteg, Vandar, Yaddle, Yoda<p></p><strong>&nbsp;&nbsp;Female Names.</strong> Giro, Lina, Penny, Vona, Zeya<p></p><strong>&nbsp;&nbsp;Surnames.</strong> Bek, Kaz, Mon, Var, Zin",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 2, and your Intelligence score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Lanniks reach adulthood in their 50's and can live up to 900 years.</p>\n<p><em><strong>Alignment.</strong></em> Despite the turbulence on their homeworld, Lanniks tend toward the light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Lanniks typically stand 3 to 4 feet tall and rarely weigh more than 50 lbs. Regardless of your position in that range, your size is Small.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p>\n<p><em><strong>Closed Mind.</strong></em> Lanniks have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Wisdom and Charisma saving throws against Force powers.</p>\n<p><em><strong>Force Sensitive.</strong></em> You know the <em>guidance</em> at-will Force power. When you reach 3rd level, you can cast the <em>valor</em> Force power once per day. When you reach 5th level, you can also cast the <em>Force enlightenment</em> Force power once per day. Wisdom is your forcecasting ability for these powers.</p>\n<p><em><strong>Keen Hearing.</strong></em> You have advantage on Wisdom (Perception) checks that rely on hearing.</p>\n<p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p>\n<p><em><strong>Wisdom of the Elders.</strong></em> You are proficient in the Lore skill.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Lannik. Due to their large ears, the Lannik language is spoken softly, and it is considered insulting to shout.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, brown, green, orange, red, purple, yellow, or gray"
+        },
+        "hairColorOptions": {
+            "value": "Brown, gray, or white"
+        },
+        "eyeColorOptions": {
+            "value": "Amber, blue, brown, gray, green, hazel, purple, or red"
+        },
+        "distinctions": {
+            "value": "Downward-sloping, large ears"
+        },
+        "heightAverage": {
+            "value": "3'0\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "40 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Lannik"
+        },
+        "slanguage": {
+            "value": "Lannik"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Lannik",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "G5G8i0dz61uGLSTY",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "G5G8i0dz61uGLSTY",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "G5G8i0dz61uGLSTY",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "sm",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "G5G8i0dz61uGLSTY",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "G5G8i0dz61uGLSTY",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.lor.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "G5G8i0dz61uGLSTY",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Lore"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "G5G8i0dz61uGLSTY",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "lannik",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "G5G8i0dz61uGLSTY",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Lannik.webp",
+    "effects": [
+        {
+            "_id": "cc9M6XfSr4Cq2XkG",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Lannik",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.lor.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "lannik",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.closedMind",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Lannik.webp",
+            "label": "Lannik",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

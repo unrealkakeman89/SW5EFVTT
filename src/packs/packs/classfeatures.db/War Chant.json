@@ -1,0 +1,71 @@
+{
+    "_id": "UYWFpXz6HKecYIC2",
+    "name": "War Chant",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>By 14th level you have memorized the litanies, songs, and chants of your people and their dedication to war. When you enter a rage you can take a commanding stance. If you do so, for the duration of your rage you have a special reaction you can take on a number of allies&rsquo; turns equal to your Charisma modifier (minimum of one). You can only use this special reaction to use your Commanding Rage feature.</p>\n<p>Additionally, during this rage, when an enemy within 10 feet of you makes an attack roll against an ally, you can use your reaction to reduce that roll by an amount equal to your Charisma modifier.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "special",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

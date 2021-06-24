@@ -1,0 +1,88 @@
+{
+    "_id": "3QrdXcE2XdKoBoxf",
+    "name": "Mandalorian Beskar'gam",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "equipment",
+    "data": {
+        "description": {
+            "value": "<p>This armor comes equipped with 24 slots that can each hold a single item that weighs less than 2 lb. Additionally, it grants a +1 bonus to AC.</p>\n<p>Mandalorian Vestments.&nbsp;While wearing and attuned to this armor and Mandalorian Helmet, you are able to survive and operate in zero gravity space and other dangerous conditions. Additionally, this armor now grants a +2 bonus to AC, instead of +1. While wearing and attuned to this armor, Mandalorian Helmet, and Mandalorian Shuk\u2019orok, this armor now grants a +3 bonus to AC, instead of +2.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Prototype",
+        "identified": true,
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "spell"
+        },
+        "armor": {
+            "type": "bonus",
+            "value": 0,
+            "dex": null
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        },
+        "cptooltipmode": "hid"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Enhanced%20Items/Mandalorian%20Beskar_gam.webp"
+}

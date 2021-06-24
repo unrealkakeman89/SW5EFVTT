@@ -1,0 +1,120 @@
+{
+    "_id": "iJVBKkpeNgldcZzf",
+    "name": "Combat Suit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "equipment",
+    "data": {
+        "description": {
+            "value": "<p>Combat suits are seen all over the galaxy, and can be found for sale by almost any merchant who dealt in weapons and armor. Many such suits are used by military organizations, such as the Galactic Republic's military, as well as by mercenaries, criminals, bounty hunters and even some Jedi.\r\n\r\nThe suit itself offers decent protection from most types of attacks while maintaining maximum flexibility and minimum weight. However this armor is only recommended for light skirmishes.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 10,
+        "price": 100,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "spell"
+        },
+        "armor": {
+            "type": "light",
+            "value": 11,
+            "dex": null
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        },
+        "properties": {
+            "Absorptive": false,
+            "Agile": false,
+            "Anchor": false,
+            "Avoidant": false,
+            "Barbed": false,
+            "Bulky": false,
+            "Charging": false,
+            "Concealing": false,
+            "Cumbersome": false,
+            "Gauntleted": false,
+            "Imbalanced": false,
+            "Impermeable": false,
+            "Insulated": false,
+            "Interlocking": false,
+            "Lambent": false,
+            "Lightweight": false,
+            "Magnetic": false,
+            "Obscured": false,
+            "Obtrusive": false,
+            "Powered": false,
+            "Reactive": false,
+            "Regulated": false,
+            "Reinforced": false,
+            "Responsive": false,
+            "Rigid": false,
+            "Silent": false,
+            "Spiked": false,
+            "Steadfast": false,
+            "Strength": false,
+            "Versatile": false
+        },
+        "cptooltipmode": "hid"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "effects": [],
+    "img": "systems/sw5e/packs/Icons/Armor/PHB/Combat%20Suit.webp"
+}

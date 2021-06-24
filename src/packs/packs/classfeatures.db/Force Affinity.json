@@ -1,0 +1,71 @@
+{
+    "_id": "clqWkMqYU6AWbbz9",
+    "name": "Force Affinity",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Consular</strong>:&nbsp;3rd level</em><br />You&rsquo;ve developed an affinity for one of the three aspects of the Force: the Ashla, the Bendu, or the Bogan. Choose one from the following:</p>\n<hr />\n<blockquote>\n<h4><strong>ASHLA</strong></h4>\n<p>When you successfully cast a light side power, either your or the target&rsquo;s (your choice) hit point maximum and current hit points increase by an amount equal to the power&rsquo;s level. This effect lasts for 1 minute. You can only have one instance of this effect active at a time.</p>\n<hr />\n<h4><strong>BENDU</strong></h4>\n<p>You can add both your Wisdom and Charisma modifier to your maximum number of force points, instead of just one.</p>\n<hr />\n<h4><strong>BOGAN</strong></h4>\n<p>When you roll a 1 on a damage die for a dark side power, you can reroll the die and must use the new roll, even if the new roll is a 1.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/CSLR-Passive.webp",
+    "effects": []
+}

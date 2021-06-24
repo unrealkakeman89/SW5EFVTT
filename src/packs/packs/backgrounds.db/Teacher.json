@@ -1,0 +1,109 @@
+{
+    "name": "Teacher",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are an experienced teacher who knows how to best instruct others in an array of disciplines.  Although you have a vast amount of knowledge yourself, pedagogy is the most important tool in your toolbox because it allows the rest of your knowledge to spread most efficiently."
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Lore, Nature, Performance, and Technology"
+        },
+        "toolProficiencies": {
+            "value": "One instrument or set of artisan's implements of your choice"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of common clothes, an instrument or set of tools with which you are proficient, a token from a former student, and a belt pouch containing 50 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "As a teacher you are devoted to educating others, as well as learning new information for yourself. It is up to you whether you are preachy or wise, a bookworm or more kinesthetic, a note taker or visual learner.  In any case, you are most likely underappreciated."
+        },
+        "featureName": {
+            "value": "Knowledge"
+        },
+        "featureText": {
+            "value": "If you need information on something, you know if there is a book containing that information and where to find it. Further, when you hear a creature speaking or when you see language written down, you can identify exactly what language is being used even if you are not proficient in the language.  Finally, when you hear music, you know which instruments are being used in the performance, even if you are not proficient in their use. \r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Loremaster</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Naturalist</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Performer</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Techie</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Feigned Confidence</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Books are my everything.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Knowledge is the most important thing in the world.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I have quotes for every occasion.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">My vocabulary is vast enough I sometimes use words that are larger than necessary.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I love working with kids.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Because I understand why people can make mistakes, I am also patient with them.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Sometimes I start explaining things at a level much to basic for the audience.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I reward hard work and good manners.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Teach. I must spread what I have learned. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Insatiable. When I find something new I must learn everything about it, no matter the cost. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Discovery. Every single piece of information is waiting to be discovered. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Greed. Every piece of knowledge will be mine. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">People. I will teach anybody anything. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Power. Knowledge is power. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Someone showing bad manners does not exist to me. I will never talk to or acknowledge that person.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I overemphasize the importance of discipline.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I invest so much time into planning that I can't bring myself to deviate from the plan, even when it is needed.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I look down on uneducated adults.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'd give up my companions for a piece of secret information.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I can't stand not reading at least one page of a book a day.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I was picked on while growing up for being a bookworm.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">The world is such an open place, I feel like there is still so much to learn. I want to compile knowledge from different places.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I like reading books and writing, but I'm no poet yet. It is just a hobby I want to share with others, looking for exotic inspirations.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I will become the power behind the throne by controlling the information the throne receives.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Children are our future, and I will mold them.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I can't teach what I don't know. I will teach everything.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Teacher.webp",
+    "effects": [
+        {
+            "_id": "Z7oI1Zoo2YU4XNfI",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Teacher",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Teacher",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "TJrEEChVSB0wuvds"
+}

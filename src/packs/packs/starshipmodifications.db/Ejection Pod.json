@@ -1,0 +1,37 @@
+{
+    "_id": "JwMJdDd8fJEIjTyn",
+    "name": "Ejection Pod",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Small"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>You integrate an ejection pod in your ship's cockpit. When your ship is reduced to 0 hull points but not destroyed outright, you can use your reaction to eject the pod from the ship.</p>\n<p>The pod includes emergency rations and supplies that can support a number of creatures equal to your maximum crew capacity for 1 day, in both hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. The pod is Tiny size and has a flying speed of 150 feet, a turning speed of 50 feet, an AC of 10, and 5 hull points. The pod includes one unit of fuel.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

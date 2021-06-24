@@ -1,0 +1,50 @@
+{
+    "name": "Holster",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "backpack",
+    "data": {
+        "description": {
+            "value": "<p>A holster can be worn on the leg, hip, or back, and can be used to store a single weapon. You can draw a weapon stored in a holster without using an action. Once you\u2019ve done so, you can\u2019t do so again until you store a weapon in the holster as an action.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 2,
+        "price": 75,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+            "type": "items",
+            "value": 1,
+            "weightless": false
+        },
+        "currency": {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Weapon%20or%20Armor%20Accessory/Holster.webp",
+    "_id": "59Jkji0FuhY9CnkW"
+}

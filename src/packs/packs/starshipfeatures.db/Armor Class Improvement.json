@@ -1,0 +1,103 @@
+{
+    "name": "Armor Class Improvement",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>Beginning at second Tier, your ship's armor class improves, giving your ship a +1 to its AC. It gains an additional +1 bonus to AC at 3rd Tier (+2 total), 4th Tier (+3 total), and 5th Tier (+4 total).</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Gargantuan",
+        "tier": "2",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Gargantuan.webp",
+    "effects": [
+        {
+            "_id": "yFABWn5b0YvgXlks",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Starship%20Features/Tiny.webp",
+            "label": "Armor Class Improvement",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "wZ1zZstHedBTZ1zw"
+}

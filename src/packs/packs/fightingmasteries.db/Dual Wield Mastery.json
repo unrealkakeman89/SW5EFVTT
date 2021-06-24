@@ -1,0 +1,20 @@
+{
+    "_id": "mSsaGKEgKg1gaM4T",
+    "name": "Dual Wield Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered fighting with two weapons, becoming a flurry of motion. While you are wielding separate weapons in each hand with which you are proficient, you gain the following benefits:</p><ul><li>When you use your bonus action to engage in Two-Weapon Fighting, you can choose to forgo one or more attacks. For each attack you forgo, you gain a +1 bonus to AC until the start of your next turn.</li><li>You can engage in Two-Weapon Fighting even when the weapons you are wielding lack the light property.</li><li>You can draw or stow two weapons when you would normally be able to draw or stow only one.</li><li>When you use your bonus action to engage in Two-Weapon Fighting, you can choose to forgo your proficiency bonus. If you do so, you can make an additional attack with that weapon, also without your proficiency bonus. If you would normally make more than one attack with your bonus action, only one attack is made without your proficiency bonus.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Dual%20Wield%20Mastery.webp",
+    "effects": []
+}

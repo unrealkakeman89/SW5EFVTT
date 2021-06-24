@@ -1,0 +1,291 @@
+{
+    "_id": "VVteh0TEavwlfuRq",
+    "name": "Rakata",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>In appearance, rakata are smooth skinned amphibian-like humanoids that had tall craniums along with eyes that protruded from each side of their heads on short stalks. These bipedal beings have three digit hands that are tipped with claws for digging through packed dirt. As a species, they are uniformly lean and tall; while most rakata have a similar height and weight, females tend to be more slender than males, though just as tall. Rakata are primarily carnivorous, likely stemming from the fact that they are cannibalistic, often making a meal of other species. Long term abuse of the Force in their society, exacerbated by a plague, culled the rakata's ability to sense the Force.</p>\n<h2>Society and Culture</h2>\n<p>Rakatan technology and structures hold the unique property of blending with the Force, creating powerful and long-lasting monuments that are almost impossibly to replicate. Rakatan society is devoted to conquering and enslaving those they deem weak. At the height of its power, the Rakatan Infinite Empire had conquered and enslaved dozens of worlds. They would strip entire planets of their resources and then terraform them to fit their own needs. After a plague ravaged their civilization and caused the fall of the Infinite Empire, rakata broke off into smaller tribes rather than a unified organization. Despite their newfound tribal nature, rakata retained their ability to quickly adapt to and appropriate technology.</p>\n<h2>Names</h2>\n<p>Rakatan names do not distinguish by gender, and they do not use surnames.</p>\n<p>&nbsp;&nbsp;<strong>Names.</strong> Ceh'let, Orsaa, Skal'nas, Soa, Tul'kar</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Intelligence score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Rakata reach adulthoood by 20 and rarely live longer than 90 years.</p>\n<p><em><strong>Alignment.</strong></em> Rakata's propensity towards war and aggression cause them to tend toward lawful dark side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Rakata typically stand between 6 and 7 feet tall and weigh around 180 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Adaptive Resilience.</strong></em> Prolongued use of technology allows rakata to readily adapt to its effects. You have advantage on Strength and Constitution saving throws against tech powers.</p>\n<p><em><strong>Amphibious.</strong></em> You can breathe air and water.</p>\n<p><em><strong>Cannibalize.</strong></em> If you spend at least 1 minute devouring the corpse of a beast or humanoid, you gain temporary hit points equal to your Constitution modifier. Once you've used this feature, you must complete a short or long rest before you can use it again.</p>\n<p><em><strong>Claws.</strong></em> Rakata have savage claws. You are proficient with your claws, which deal 1d6 kinetic damage on a hit.</p>\n<p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Force Insensitive.</strong></em> While rakata can be manipulated by many force powers, they can not sense the Force. You cannot use force powers or take levels in forcecasting classes.</p>\n<p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p>\n<p><em><strong>Technician.</strong></em> You are proficient in the Technology skill.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Rakata. Rakata is characterized by its deep tones and simplistic nature, using mainly consonants and long vowels. It's script seems to be a very ancient form of Galactic Basic.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, green, grey, or red"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Blue, brown, gold, or yellow"
+        },
+        "distinctions": {
+            "value": "Horizontal eye stalks, vertical blade shaped head, tridactyl hands"
+        },
+        "heightAverage": {
+            "value": "5'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "125 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Lehon"
+        },
+        "slanguage": {
+            "value": "Rakata"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Rakata",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.skills.tec.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "rakata",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "w8V0nHFas8vMwNZR",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Rakata.webp",
+    "effects": [
+        {
+            "_id": "tukaXNn70Kp4AY5v",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Rakata",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.tec.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "rakata",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.adaptiveResilience",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.cannibalize",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.forceInsensitive",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Rakata.webp",
+            "label": "Rakata",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

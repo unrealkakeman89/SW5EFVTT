@@ -1,0 +1,1131 @@
+{
+    "_id": "4Mimxl9odpZ4Tp3M",
+    "name": "Mucous Salamander",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 17,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 13,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 3,
+                "proficient": 0,
+                "min": 3,
+                "mod": -4,
+                "save": -4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 5,
+                "proficient": 0,
+                "min": 3,
+                "mod": -3,
+                "save": -3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "13",
+                "min": 0,
+                "formula": "natural armor"
+            },
+            "hp": {
+                "value": 44,
+                "min": 0,
+                "max": 44,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "8d8+8"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 3,
+                "prof": 0,
+                "total": 3
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 30,
+                "fly": 0,
+                "swim": 50,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 44,
+                "min": 0,
+                "max": 44
+            },
+            "bar2": {
+                "value": 13,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 11"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<p>Mucous salamanders were amphibians native to the bogs of Yavin 4. They possessed the distinct ability to diffuse their molecular structures underwater, which allowed them to swim faster and pass through hunters' nets. When a mucous salamander entered dry areas, it could change its molecular structure into hardened scales for protection from predators, particularly the angler. Another name for the mucous salamander was the pinkish salamander</p><p>Within his first month at Luke Skywalker's Jedi Praxeum, Jacen Solo captured a number of the creatures.</p><table class=\"userscript-table userscript-table-bordered\"><tbody><tr><td><u>Homeworld</u></td><td>Yavin 4</td></tr></tbody></table><p><br></p><p><br></p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "beast",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 2,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 450
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": "Energy, Ion, And Kinetic From Unenhanced Weapons In Solid Form"
+            },
+            "dv": {
+                "value": [],
+                "custom": "Lightning In Liquid Form"
+            },
+            "ci": {
+                "value": [
+                    "prone",
+                    "grappled"
+                ],
+                "custom": "Restrained In Liquid Form"
+            },
+            "languages": {
+                "value": [],
+                "custom": "\u2014"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ath": {
+                "value": 1,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ste": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Mucous Salamander",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "4Mimxl9odpZ4Tp3M",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "NzA0N2Q0MjQ3NjU2",
+            "name": "Shifting Molecules",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>When the salamander enters or exits water, it changes the form of its molecular structure to mimic its surroundings. Other than its AC, its statistics are the same in each form. Any object it is wearing or carrying isn't transformed.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZDc1OTI0ZWFkNDIz",
+            "name": "Amphibious",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The salamander can breathe air and water.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NDI0MTIyNjc0OTIx",
+            "name": "Diffuse Body (Liquid Form Only)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The salamander can move through other creatures and objects no more than 10 feet in diameter as if they were difficult terrain. It takes 5 (1d10) kinetic damage if it ends its turn inside an object.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZDlmYmFjMzUyM2Zl",
+            "name": "Spider Climb (Solid Form Only)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The salamander can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "OGFkNGMwOTFhZjZh",
+            "name": "Spiked Hide (Solid Form Only)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>Any creature that grapples the salamander takes 3 (1d6) kinetic damage at the end of its turn.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YTFhODAxYWNlM2I1",
+            "name": "Watery Stealth (Liquid Form Only)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>While underwater, the salamander has advantage on Dexterity (Stealth) checks made to hide, and it can take the Hide action as a bonus action.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZTE4NDUyZTY5MmZl",
+            "name": "Bite",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+5, Reach 5 ft., One target. <em>Hit : </em>6 (1d8+2) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d8+2",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 70000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NmUwMjBmYjg2ZjY0",
+            "name": "Claw (Solid Form Only)",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+5, Reach 5 ft., One target. <em>Hit : </em>8 (1d10+3) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d10+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 80000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/095_-_Mucous_Salamander/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

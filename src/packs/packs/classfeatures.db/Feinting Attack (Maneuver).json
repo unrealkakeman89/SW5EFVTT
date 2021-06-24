@@ -1,0 +1,84 @@
+{
+    "_id": "OwrSfaxJDodGEZH1",
+    "name": "Feinting Attack (Maneuver)",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack&rsquo;s damage roll.</p>\n<p>&nbsp;</p>\n<section class=\"secret\">\n<p>This manuever's vague wording would require a complex macro to fully implement so it's left unfinished.</p>\n</section>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "bonus",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4",
+                    "midi-none"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        },
+        "midi-qol": {
+            "onUseMacroName": ""
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/FGTR-Bonus.webp",
+    "effects": []
+}

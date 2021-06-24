@@ -1,0 +1,145 @@
+{
+    "_id": "7v14PpoxBFYPx0sA",
+    "name": "Ryn",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Their homeworld long lost from memory and time, the ryn are a humanoid race of musicians, vagabonds and travelers. The ryn's bodies are covered in soft, short fur, with a head of white hair which is matched by a tuft of hair at the end of their long prehensile tails, excellent for grasping things. Very uniquely ryn in nature, are their beak-like noses that contain fluted holes. These holes allow the ryn to play their 'beaks' like flutes. This talent has been used to communicate between ryn and has uniquely been observed in communication with droids.</p>\n<h2>Society and Culture</h2>\n<p>Wanderlust consumes the ryn. The ryn are a nomadic species, their original homeworld forgotten, even to them. They cannot abide confinement and constraint, and they itch to move on shortly after they arrive in a new place. Due to their homelessness, musical talent, natural secrecy, and avoidance of written records, ryn developed a nomadic culture and a reputation for confidence games, leaving many species prejudiced against them. In some sectors it is legal to enslave or hunt ryn. Their language is outlawed in many locations, and a large number of ryn women are used as slave breeding stock. They claim that sabaac, the popular card game that took the place of Pazaak in terms of card game prominence, is derived from their use of it as a fortune telling tool in their auguries. These auguries are today favored by hutts, who have a superstitious belief in the card tellings. A peculiar habit is that a ryn cannot sleep in the same location twice.</p>\n<h2>Names</h2>\n<p>Ryn names have a very melodic tone, taking cues from many different languages from across the galaxy. Ryn do not use surnames.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Corfat, Dirygat, Garya, Nemagary</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Cogesama, Giani, Gypopha, Simeti</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><strong><em>Ability Score Increase.</em></strong> Your Intelligence or Charisma score increases by 2, and your Dexterity score increases by 1.</p>\n<p><strong><em>Age.</em></strong> Ryn reach adulthood in their early teens and live about 80 years.</p>\n<p><strong><em>Alignment.</em></strong> Ryn's superstitious and solitary nature causes them to tend toward balanced alignments, though there are exceptions.</p>\n<p><strong><em>Size.</em></strong> Ryn typically stand 4 and a half to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>\n<p><strong><em>Con Artist.</em></strong> You have proficiency in one gaming set of your choice.</p>\n<p><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><strong><em>Divination.</em></strong> Whether through mystical divination or sheer luck, you can turn failures into successes. When you roll a 1 on the d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>\n<p><strong><em>Eternal Nomads.</em></strong> You have proficiency in Lore or Survival (your choice).</p>\n<p><strong><em>Musical.</em></strong> You have proficiency in Performance and one musical instrument of your choice.</p>\n<p><strong><em>Prehensile Tail.</em></strong> You have supreme control over your tail and can use it to manipulate objects as well as your hands.</p>\n<p><strong><em>Languages.</em></strong> You can speak, read, and write Galactic Basic and Ryn. Ryn uses tones and inflections and is easily described as melodious by anyone who hears it. You can communicate with droids and other ryn without using words through the use of your beak.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, black, green, purple"
+        },
+        "hairColorOptions": {
+            "value": "Light brown to white"
+        },
+        "eyeColorOptions": {
+            "value": "Amber, blue, brown, or green"
+        },
+        "distinctions": {
+            "value": "Long tails, beak-like noses"
+        },
+        "heightAverage": {
+            "value": "4'4\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "75 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Unknown"
+        },
+        "slanguage": {
+            "value": "Ryn"
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Ryn.webp",
+    "effects": [
+        {
+            "_id": "XGMDXcDtlSfQQgFZ",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Ryn",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "game",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.prf.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "music",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "ryn",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Ryn.webp",
+            "label": "Ryn",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

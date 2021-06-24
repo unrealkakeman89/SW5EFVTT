@@ -1,0 +1,20 @@
+{
+    "_id": "GBccAWbpxgNPTz0D",
+    "name": "Makashi Form",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "lightsaberform",
+    "data": {
+        "description": {
+            "value": "<p>Until the start of your next turn, when a creature makes a melee weapon attack against you and misses, you can use your reaction to make one melee weapon attack against that creature.</p>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Lightsaber%20Forms/Makashi%20Form.webp",
+    "effects": []
+}

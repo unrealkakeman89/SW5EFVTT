@@ -1,0 +1,71 @@
+{
+    "_id": "WlSOL3kItS4UFnij",
+    "name": "Sage Advice",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Scholar</strong>:&nbsp;2nd level</em></p>\n<p>You can spend 1 minute spreading your knowledge and experience, advising those around you. When you do so, choose a skill or tool you are proficient with and a number of friendly creatures up to your Intelligence modifier within 30 feet of you who can hear you and who can understand you. Once within the next hour, the next time each creature would make an ability check with the chosen skill or tool, they may add their proficiency bonus to the roll if they are not already proficient. A creature may only benefit from this feature once. If a creature is targeted by this feature again before using it, they can choose to retain the first benefit or replace it with the new skill or tool instead.</p>\n<p>Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you finish a long rest. Starting at 13th level, you regain the ability to use it after you complete a short or long rest.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "minute",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": "ally"
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 1,
+            "max": "1",
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-Action.webp",
+    "effects": []
+}

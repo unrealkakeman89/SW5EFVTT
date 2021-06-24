@@ -1,0 +1,39 @@
+{
+    "_id": "OPVska67MO0Zauct",
+    "name": "Trickster Order",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Monk",
+        "description": {
+            "value": "<h1>Trickster Order</h1>\n<p>Monks of the Trickster Order embody the archetypal role of the \"trickster\"&mdash;one who seemingly bumbles their way into good fortune. They employ a unique fighting style composed of slips, trips, and falls to confuse and frustrate their enemies to no end. Whether your movements are actual foibles on your part or calculated strokes, they will surely leave others guessing long after your time is past.</p>\n<h2>Bumbling Technique</h2>\n<p>When you choose this order at 3rd level, your martial arts technique mixes combat training with the precision of a dancer and the antics of a jester. When you make a Charisma (Performance) check, you gain a bonus to the check equal to half your Wisdom modifier (rounded down, minimum of +1) if it doesn&rsquo;t already include that modifier.</p>\n<p>Additionally, you learn how to twist and turn quickly. Whenever you use your bonus action to make an unarmed strike, creatures you hit can&rsquo;t make opportunity attacks against you, and your speed increases by 10 feet until the end of your turn.</p>\n<h2>Clumsy Sway</h2>\n<p>At 6th level, you can move in sudden, swaying ways. You gain the following benefits.</p>\n<p><strong><em>Leap to Your Feet.</em></strong> When you're prone, you can stand up by spending 5 feet of movement, rather than half your speed.</p>\n<p><strong><em>Redirect Attack.</em></strong> When a creature misses you with a melee attack roll, you can spend 1 focus point as a reaction to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of you.</p>\n<h2>Luck of the Fool</h2>\n<p>Starting at 11th level, you always seem to get a lucky bounce at the right moment. When you make an ability check, an attack roll, or a saving throw and have disadvantage, you can spend 2 focus points to instead have advantage for that roll.</p>\n<h2>Comic Frenzy</h2>\n<p>At 17th level, you gain the ability to make an overwhelming number of attacks against a group of enemies. When you use your Flurry of Blows, you can make up to three additional attacks with it (up to a total of five Flurry of Blows attacks), provided that each Flurry of Blows attack targets a different creature this turn.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Trickster%20Order.webp",
+    "effects": []
+}

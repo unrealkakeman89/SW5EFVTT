@@ -1,0 +1,1364 @@
+{
+    "_id": "qaKgiaMuH4WK4Xr2",
+    "name": "Bor Gullet",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 8,
+                "proficient": 0,
+                "min": 3,
+                "mod": -1,
+                "save": -1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 18,
+                "proficient": 1,
+                "min": 3,
+                "mod": 4,
+                "save": 9,
+                "prof": 5,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 20,
+                "proficient": 1,
+                "min": 3,
+                "mod": 5,
+                "save": 10,
+                "prof": 5,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 18,
+                "proficient": 1,
+                "min": 3,
+                "mod": 4,
+                "save": 9,
+                "prof": 5,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 17,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "12",
+                "min": 0,
+                "formula": "natural armor"
+            },
+            "hp": {
+                "value": 180,
+                "min": 0,
+                "max": 180,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "19d10+76"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": -1,
+                "prof": 0,
+                "total": -1
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 10,
+                "walk": 10,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 5,
+            "powerdc": 13,
+            "bar1": {
+                "value": 180,
+                "min": 0,
+                "max": 180
+            },
+            "bar2": {
+                "value": 12,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "blindsight": 120
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p style=\"margin-bottom: 9px\"><i>\"Bor Gullet can feel your thoughts. No lie is safe. [\u2026] Bor Gullet will know the truth. The unfortunate side-effect is that one tends to lose one's mind.\"</i>&nbsp;</p><p style=\"margin-bottom: 9px\">- Saw Gerrera, to Bodhi Rook</p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Classification</u></td><td style=\"line-height: 1.42857\">Mairan</td></tr><tr><td style=\"line-height: 1.42857\"><u>Eye color</u></td><td style=\"line-height: 1.42857\">White</td></tr><tr><td style=\"line-height: 1.42857\"><u>Skin color</u></td><td style=\"line-height: 1.42857\">Purple</td></tr><tr><td style=\"line-height: 1.42857\"><u>Homeworld</u></td><td style=\"line-height: 1.42857\"><p>Maires</p></td></tr></tbody></table><p>Bor Gullet was a purple-skinned Mairan with the ability to read thoughts. Saw Gerrera used it to torture Bodhi Rook on Jedha to ascertain the truth behind his claim of being in contact with Galen Erso. Afterwards, Rook was for a time left a gibbering wreck, unable to speak a coherent thought and acting very panicky. Despite this, Rook showed some resilience, as he recovered upon hearing himself referred to as \"the pilot,\" and was able to recover enough of his senses to escape from Jedha when Jedha City was targeted by the superlaser of the Galactic Empire's Death Star superweapon.<br></p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "beast",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 13,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 10000
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "lg",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Understands Galactic Basic But Can't Speak, Telepathy 120 Ft."
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "ath": {
+                "value": 0.5,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "dec": {
+                "value": 1,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 18,
+                "prof": 5,
+                "total": 8
+            },
+            "ins": {
+                "value": 2,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 24,
+                "prof": 10,
+                "total": 14
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 15,
+                "prof": 0,
+                "total": 5
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 15,
+                "prof": 0,
+                "total": 5
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 19,
+                "prof": 5,
+                "total": 9
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "per": {
+                "value": 1,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 18,
+                "prof": 5,
+                "total": 8
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 3,
+                "max": 3
+            },
+            "legres": {
+                "value": 3,
+                "max": 3
+            },
+            "lair": {
+                "value": true,
+                "initiative": 20
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Bor Gullet",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/token.webp",
+        "tint": null,
+        "width": 2,
+        "height": 2,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 10,
+        "brightSight": 10,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "qaKgiaMuH4WK4Xr2",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "MzYzYzM4NjBkNWJh",
+            "name": "Creature Sense",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The bor gullet is aware of the presence of creatures within 1 mile of it that have an Intelligence score of 4 or higher. It knows the distance and direction to each such creature, as well as each such creature's intelligence score, but it can't sense anything else about it. Droids and creatures protected by a mind blank power or other similar power cannot be perceived in this manner.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "N2Y5OWFjOTczODQz",
+            "name": "Fortified Mind",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The bor gullet has advantage on saving throws against being charmed and frightened, and it can't be put to sleep.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZDFmYjVhMTZjMjg2",
+            "name": "Legendary Resistance (3/Day)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>If the bor gullet fails a saving throw, it can choose to succeed instead.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ODVjYjM3MmUxM2My",
+            "name": "Psychic Link",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The bor gullet can establish a psychic link with any creature that it successfully grapples with its tentacles. Until the psychic link ends, the bor gullet can perceive everything the target senses. The target is aware that its mind is linked, and the bor gullet can terminate the link at any time (no action required). The target can use an action on its turn to attempt to break the psychic link, doing so with a successful DC 18 Intelligence saving throw. On a successful save, the target takes 10 (3d6) psychic damage. The psychic link also ends if the target and the bor gullet are more than 1 mile apart, with no consequences to the target. The bor gullet can form psychic links with up to ten creatures at a time.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "N2M3YTkxMjNhM2Fm",
+            "name": "Multiattack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The bor gullet makes three tentacle attacks.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/skills/green_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "OTRlMjBmYzIzMDVj",
+            "name": "Tentacle",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+8, Reach 20 ft., One target. <em>Hit : </em>6 (1d6+3) kinetic damage.</p><p>The target is grappled (escape DC 16) if it is Large or smaller. Until the grapple ends, the target takes 9 (1d8 + 5) psychic damage at the start of each of its turns, and bor gullet can't use this tentacle on another target. The bor gullet has six tentacles.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 20,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NWVhN2Y3ZTRiNmU3",
+            "name": "Mind Blast (Recharge 5-6)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The bor gullet emits psychic energy. Creatures of the bor gullet's choice within 60 feet of it must succeed on a DC 18 Intelligence saving throw or take 32 (5d10 + 5) psychic damage and be stunned for 1 minute. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "int",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 70000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "Yzg5NGNlMTNhM2M1",
+            "name": "Sense Thoughts",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The bor gullet targets a creature with which it has a psychic link. The bor gullet gains insight into the target's emotional state and any thoughts that loom large in its mind (including worries, loves, and hates). The bor gullet can also make a Charisma (Deception) check with advantage to deceive the target's mind into thinking it believes one idea or feels a particular emotion. The target contests this attempt with a Wisdom (Insight) check. If the bor gullet succeeds, the mind believes the deception for 1 hour or until evidence of the lie is presented to the target.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 80000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YmQxYTc5NDhmMzI4",
+            "name": "Tentacle",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+8, Reach 20 ft., One target. <em>Hit : </em>6 (1d6+3) kinetic damage.</p><p>The target is grappled (escape DC 16) if it is Large or smaller. Until the grapple ends, the target takes 9 (1d8 + 5) psychic damage at the start of each of its turns, and bor gullet can't use this tentacle on another target. The bor gullet has six tentacles.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 20,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 90000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YjA4MTY4Y2ZhYzI2",
+            "name": "Break Concentration",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet breaks the creature's concentration on a power it is using. The creature also takes 1d4 psychic damage per level of the power.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 100000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZjczZWNjOTMwMDYy",
+            "name": "Psychic Pulse",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The bor gullet targets a creature within 120 feet of it with which it has a psychic link. Enemies of the bor gullet within 10 feet of that creature take 10 (3d6) psychic damage.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 110000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZGE0OWUxYzRiNDNi",
+            "name": "Sever Psychic Link",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The bor gullet targets a creature within 120 feet of it with which it has a psychic link. The bor gullet ends the link, causing the creature to have disadvantage on all ability checks, attack rolls, and saving throws until the end of the creature's next turn.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 120000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/025_-_Bor_Gullet/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

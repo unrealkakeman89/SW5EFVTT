@@ -1,0 +1,31 @@
+{
+    "_id": "vkjxkQWUsfX5ekjI",
+    "name": "Efficient Reroute",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Mechanic"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>Also at 4th rank, when you reroute power you only halve power to one other system of your choice.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Mechanic.webp",
+    "effects": []
+}

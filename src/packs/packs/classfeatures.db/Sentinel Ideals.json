@@ -1,0 +1,71 @@
+{
+    "_id": "xFgXRg2qF3SlvNfF",
+    "name": "Sentinel Ideals",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Sentinel</strong>: 2nd, 6th, 9th, 11th, and 17th level</em></p>\n<p>You adopt ideals that exemplify your bond with the Force. You adopt two ideals of your choice, as detailed at the end of the class description. You adopt an additional ideal at 6th and 11th level.</p>\n<p>You can manifest your ideals a combined total of twice. You gain an additional use at 9th and 17th level. You regain all expended uses when you finish a long rest.</p>\n<hr />\n<h2>SENTINEL IDEALS</h2>\n<p>The ideals are presented in alphabetical order. You can&rsquo;t benefit from a Sentinel Ideal option more than once, even if you later get to choose again.</p>\n<hr />\n<blockquote>\n<h4><strong>IDEAL OF THE AGILE</strong></h4>\n<p>You gain a swimming speed and a climbing speed equal to your walking speed. When you make a long jump, you can cover a number of feet up to twice your Wisdom or Charisma score (your choice). When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Wisdom or Charisma modifier (your choice).</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, opportunity attacks against you are made with disadvantage.</p>\n<hr />\n<h4><strong>IDEAL OF THE ARTISAN</strong></h4>\n<p>Choose one of your skill or tool proficiencies. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, minimum of one) to any check you make that doesn&rsquo;t already include that modifier.</p>\n<p>Additionally, as an action, you can manifest this ideal in a brief surge of energy. For the next 10 minutes, the bonus increases to your Wisdom or Charisma modifier, and you can choose a second skill or tool to extend this feature to.</p>\n<hr />\n<h4><strong>IDEAL OF THE CONTENDER</strong></h4>\n<p>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes, and your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8).</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, your unarmed strikes count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage, and you can use your Wisdom or Charisma modifier (your choice) instead of Strength for checks made to grapple a target or escape a grapple.</p>\n<hr />\n<h4><strong>IDEAL OF THE FIGHTER</strong></h4>\n<p>You adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6. You can&rsquo;t take a fighting style option more than once, even if you later get to choose again.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you know the fighting mastery that corresponds with the fighting style you chose with this feature. If you already know that fighting mastery, you instead learn another of your choice for the duration.</p>\n<hr />\n<h4><strong>IDEAL OF THE HUNTER</strong></h4>\n<p>You gain darkvision out to a range of 60 feet. If you already have darkvision, this ideal increases its range by 30 feet.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you can see normally in enhanced darkness, and you gain blindsight to 10 feet.</p>\n<hr />\n<h4><strong>IDEAL OF THE STEADFAST</strong></h4>\n<p>When you would make a melee weapon attack roll, you can instead force the target to make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, when a creature succeeds on the saving throw, they take half the normal weapon damage, and when a creature rolls a 1 on the saving throw, they treat the damage as if you had rolled the maximum.</p>\n<hr />\n<h4><strong>IDEAL OF THE TITAN</strong></h4>\n<p>You gain proficiency in medium armor.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you have advantage on ability checks and attack rolls that would forcefully move another creature, and the distance they would be moved increases by 5 feet.</p>\n<hr />\n<h4><strong>IDEAL OF THE TRANQUIL</strong></h4>\n<p>When you finish a short or long rest, you gain a number of temporary force points equal to half your Wisdom or Charisma modifier (rounded up, your choice, minimum of one). When you would spend a force point while you have temporary force points, the temporary force points are spent first. All temporary force points are lost at the end of your next short or long rest.</p>\n<p>Additionally, as an action, you can manifest this ideal in a brief surge of energy. You regain a number of force points equal to half your Wisdom or Charisma modifier (rounded up, your choice, minimum of one).</p>\n<hr />\n<h4><strong>IDEAL OF THE VIGOROUS</strong></h4>\n<p>When you roll a Hit Die to regain hit points, you may use your Wisdom or Charisma modifier in place of your Constitution modifier when determining the number of hit points you regain.</p>\n<p>Additionally, as an action, you can manifest this ideal in a brief surge of energy. You gain a number of temporary hit points equal to half your sentinel level (rounded down) + your Wisdom or Charisma modifier (your choice, minimum of one).</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "none",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 2,
+            "max": "2",
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Passive.webp",
+    "effects": []
+}

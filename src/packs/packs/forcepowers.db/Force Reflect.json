@@ -1,0 +1,88 @@
+{
+    "_id": "Hgn1yHJsMzp5qKr5",
+    "name": "Force Reflect",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Saber Reflect</em></p>\n<p>In response to being attacked, you attempt to deflect the attack with the Force. When you use this power, the damage you take from the attack is reduced by 1d10. If you reduce the damage to 0 and the damage is energy, force, ion, kinetic, lightning, necrotic, or sonic, you can reflect the attack at a target within range as part of the same reaction. Make a ranged force attack at a target you can see. The attack has a normal range of 30 feet and a long range of 90 feet. On a hit, the target takes the triggering attack&rsquo;s normal damage.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 2nd level or higher, the damage reduction increases by 1d10 for each slot level above 1st.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "reaction",
+            "cost": 1,
+            "condition": "which you take in response to being hit by a ranged attack"
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "rpak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "1d10",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 1,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d10"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Force%20Reflect.webp",
+    "effects": []
+}

@@ -1,0 +1,211 @@
+{
+    "_id": "9e323NFs2vzi3PWP",
+    "name": "Clawdite",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>In their natural form, clawdites resemble reptilian humanoids, having evolved from reptomammals. They have sunken cheeks with a narrow nose, a small mouth, large eyes with slit-like pupils, and a thin line that runs down their foreheads, creasing their nose. Clawdites possess an extremely rare ability to change their appearance. They can change the color and texture of their skin and eyes, and even grow hair, to mimic other species, though they cannot add significant physical mass to their bodies.</p><h2>Society and Culture</h2><p>By nature, clawdites are quiet and solitary beings, often shunning the company of others unless it benefits them. Due to their nature as shapeshifters, they are often mistrusted by strangers. Consequently, they view the galaxy pragmatically, and are often harsh realists.</p><p>Not all clawdites use their shapeshifting abilities due to the pain the transformation causes. These clawdites are often inclined to remain on their homeworld of Zolan, avoiding the company of other species.</p><p>On Zolan, clawdites are feared and shunned by the zolanders, who are a deeply religious people, believing that clawdites are impure and sinful. Zolanders force clawdites to live in slums scattered across the planet.</p><p>Those clawdites who leave their homeworld tend to gravitate toward professions that celebrate their shapeshifting, such as smuggling, bounty hunting, or espionage.</p><h2>Names</h2><p>Clawdite names often have a rolling or hissing quality to them. Surnames are familial, though clawdites rarely use them.</p><p>&nbsp;&nbsp;<strong>Male Names.</strong> Nuri, Pol, Renneyn, Rosat, Turman</p><p>&nbsp;&nbsp;<strong>Female Names.</strong> Bargu, Cato, Murna, Sora, Zam</p><p>&nbsp;&nbsp;<strong>Surnames.</strong> Durra, Noviee, Parasitti, Virten, Wesell</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and one other ability score of your choice increases by 1.</p>\n<p><em><strong>Age.</strong></em> Clawdites reach adulthood in their early teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Clawdites' pragmatism cause them to tend towards neutral balanced, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Clawdites typically stand 5 to 7 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Changeling Instincts.</strong></em> You gain proficiency with two of the following skills of your choice: Deception, Intimidation, Insight, and Persuasion</p>\n<p><em><strong>Shapechanger.</strong></em> As an action, you can change your appearance and your voice. You determine the specifics of the changes, including your coloration, hair length, and sex. You can also adjust your height and weight, but not so much that your size changes. You can make yourself appear as a member of another species, though none of your game statistics change. You can't duplicate the appearance of a creature you've never seen, and you must adopt a form that has the same basic arrangement of limbs that you have. Your clothing and equipment aren't changed by this trait. You stay in the new form until you use an action to revert to your true form or until you die.</p>\n<p><em><strong>Unsettling Visage.</strong></em> When a creature you can see makes an attack roll against you, you can use your reaction to impose disadvantage on the roll. You must use this feature before knowing whether the attack hits or misses. Using this trait reveals your shapeshifting nature to any creature within 30 feet that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic, Clawdite, and one more language of your choice. Clawdite is characterized by its rolling sounds paired with hissing sibilants.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green to yellow"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow, gold, or blue"
+        },
+        "distinctions": {
+            "value": "Shapechanging capabilities"
+        },
+        "heightAverage": {
+            "value": "4'11\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "95 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Zolan"
+        },
+        "slanguage": {
+            "value": "Clawdite"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Clawdite",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "J0MrNxK0lQbMVSIT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "J0MrNxK0lQbMVSIT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "J0MrNxK0lQbMVSIT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "J0MrNxK0lQbMVSIT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "J0MrNxK0lQbMVSIT",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "clawdite",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "J0MrNxK0lQbMVSIT",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Clawdite.webp",
+    "effects": [
+        {
+            "_id": "hd9gJJ4PBwD8kWf5",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Clawdite",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "clawdite",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.shapechanger",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.unsettlingVisage",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Clawdite.webp",
+            "label": "Clawdite",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

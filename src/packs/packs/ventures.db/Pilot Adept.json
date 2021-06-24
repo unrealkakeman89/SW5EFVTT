@@ -1,0 +1,23 @@
+{
+    "_id": "N9WaiwtgA6nRulAw",
+    "name": "Pilot Adept",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> 2nd rank</em></p><p>You have pilot training that allows you to perform special combat tactics. You learn two tactics of your choice from among those available to the pilot deployment. </p>"
+        },
+        "prerequisites": [
+            "2nd rank"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

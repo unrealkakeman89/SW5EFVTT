@@ -1,0 +1,247 @@
+{
+    "_id": "i5ms7ftfdnGUb58M",
+    "name": "Anomid",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Anomids are a species of humanoids with translucent, purple-hued skin that is smooth but wrinkles with age. They have large, slender hands with six fingers on each: two end fingers, two center fingers and two thumbs, with a sharp claw on each. The fingers are paired in twos and slightly spaced apart from the others. The eyes of the anomids are solid, with no visible irises or pupils and have been seen in varying shades of yellow or blue. The anomids have pointed, fin-like ears that protrude from the sides of their heads. Anomid hair is often long and well kept, and is always found in shades of black, gray or white.</p>\n<h2>Society and Culture</h2>\n<p>Anomids almost always wear elaborate masks which cover most of their faces. These are not breath masks, but vocalizer units. Since anomids have no vocal cords, they rely on these vocalizer masks to communicate with other species. These masks are often elaborately customized to reflect an anomid's social status, family origin, or profession. Among themselves, anomids communicate using an elaborate sign language. Anomid sign language requires six-fingered hands, which makes it difficult for Humans or Human-programmed protocol droids to use.</p>\n<p>Anomid civilization has a long history of pacifism and technical achievement. In fact, most Anomids are pacifists&mdash;historians believe that no major wars have ever been fought in the Yablari system.</p>\n<h2>Names</h2>\n<p>Anomid names are usually one or two syllables long, featuring hard consonants. Female names are often softer, with a greater flow to them. Surnames are familial.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Arkis, Jarak, Magris, Vell</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Apharis, Eralie, Siphanie, Ulaniye</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Dekan, Krest, Narroc, Quill, Wode</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Anomids reach adulthood in their late teens and live a little under a century.</p>\n<p><strong><em>Alignment.</em></strong> Anomids' pacifistic culture causes them to tend toward light alignments, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Anomids typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Agricultural Exports.</strong></em> Whenever you make an Intelligence (Nature) or Intelligence (Technology) check related to food, agriculture, or agricultural technology, you are considered to have expertise in the skill.</p>\n<p><em><strong>Tech Dabbler.</strong></em> You know the <em>minor hologram</em> at-will tech power. When you reach 3rd level, you learn and can cast the <em>repair droid</em> tech power once per long rest. When you reach 5th level, you learn and can cast the <em>hold droid</em> tech power once per long rest. Your techcasting ability is Intelligence. You do not require use of a wristpad for these powers.</p>\n<p><em><strong>Tech Resistance.</strong></em> Growing up around technology leaves an impact on anomids. You have advantage on Dexterity and Intelligence saving throws against tech powers.</p>\n<p><em><strong>Tech Savant.</strong></em> You have proficiency in the Technology skill.</p>\n<p><em><strong>Vocalizer.</strong></em> Anomids have no vocal cords and rely on a vocalizer to communicate with other species. If your vocalizer is removed or destroyed, you cannot speak.</p>\n<p><em><strong>Wealthy.</strong></em> During character creation, you start with additional credits equal to your level x your proficiency bonus x 1,000 cr.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic through the use of your vocalizer. You can also use Anomid Sign Language, which is an elaborate language requiring six-fingered hands.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Translucent violet to light purple"
+        },
+        "hairColorOptions": {
+            "value": "Black, gray, or white"
+        },
+        "eyeColorOptions": {
+            "value": "Opalescent; yellow or blue"
+        },
+        "distinctions": {
+            "value": "No vocal cords, six-fingered hands"
+        },
+        "heightAverage": {
+            "value": "4'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Yablari"
+        },
+        "slanguage": {
+            "value": "Anomid Sign Language"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "planguage": {
+            "value": ""
+        },
+        "droidDistinctions": {
+            "value": ""
+        },
+        "droidLanguage": {
+            "value": ""
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Anomid",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "YPAc26UE2fe8HTdS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "YPAc26UE2fe8HTdS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "YPAc26UE2fe8HTdS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "YPAc26UE2fe8HTdS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.speed.value",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "YPAc26UE2fe8HTdS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.tec.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "YPAc26UE2fe8HTdS",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "YPAc26UE2fe8HTdS",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.custom",
+                    "value": "Anomid Sign Language",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "YPAc26UE2fe8HTdS",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "core": {
+            "sourceId": "Item.ZIgo0jnj2jRQuMZx"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Anomid.webp",
+    "effects": [
+        {
+            "_id": "r8Bt9PJq9d3VlL46",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Anomid",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.techResistance",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.tec.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "Anomid Sign Language",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Anomid.webp",
+            "label": "Anomid",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

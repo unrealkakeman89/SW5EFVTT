@@ -1,0 +1,37 @@
+{
+    "_id": "IoYVzcgMuyJ8JI45",
+    "name": "Hidden Storage",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite comes equipped with hidden storage compartments, which have a capacity equal to half your ship's base cargo capacity, as shown in the @JournalEntry[pMX6ND1g3oNyo09c]{Starship Size Cargo Capacity} table on page 55. Finding the hidden storage compartments requires a successful DC 20 Intelligence (Investigation) or Wisdom (Perception) check, which is made with disadvantage.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

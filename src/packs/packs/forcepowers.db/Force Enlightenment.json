@@ -1,0 +1,94 @@
+{
+    "_id": "di7rHBW59w6cS1WM",
+    "name": "Force Enlightenment",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Guidance</em></p>\n<p>You touch a creature and enhance it with the Force. Choose one of the following effects; the target gains that effect until the power ends.</p>\n<ul>\n<li>Endurance.&nbsp;The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the power ends.</li>\n<li>Strength.&nbsp;The target has advantage on Strength checks, and his or her carrying capacity doubles.</li>\n<li>Dexterity.&nbsp;The target has advantage on Dexterity checks. It also doesn&rsquo;t take damage from falling 20 feet or less if it isn&rsquo;t incapacitated.</li>\n<li>Splendor.&nbsp;The target has advantage on Charisma checks.</li>\n<li>Cunning.&nbsp;The target has advantage on Intelligence checks.</li>\n<li>Wisdom.&nbsp;The target has advantage on Wisdom checks.</li>\n</ul>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "hour"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "touch"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 2,
+        "school": "lgt",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": true
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1 additional creature"
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Force%20Enlightenment.webp",
+    "effects": []
+}

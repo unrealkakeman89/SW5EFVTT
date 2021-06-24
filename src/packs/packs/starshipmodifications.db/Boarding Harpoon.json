@@ -1,0 +1,37 @@
+{
+    "_id": "j9KSLPXEb3Htpddi",
+    "name": "Boarding Harpoon",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Hardened Prow"
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "2"
+        },
+        "description": {
+            "value": "<p>Your ship has been further modified with a massive grappling harpoon, through which creatures can pass. Your ship is expertly equipped for Strength (Ram) checks.</p><p>Additionally, when a deployed pilot takes the Ram action, on a hit, they become harpooned. While harpooned, the target ship's flying speed is reduced to 0, and your ship's flying speed is reduced by half. Your ship's pilot can release the harpooned ship at any time (no action required). The harpooned ship is automatically released if your ship becomes disabled, or if it is forcefully moved more than 100 feet away from your ship.</p><p><em><strong>Removing the Harpoon.</strong></em> A harpooned ship's pilot can use its action to make a contested Strength (Boost) check, ending the effect on a success.</p><p><em><strong>Moving a Harpooned Ship.</strong></em> When your ship moves, it can drag the harpooned ship with it, unless the ship is larger than your ship.</p><p><em><strong>Boarding a Harpooned Ship.</strong></em> While the ship is harpooned, up to six creatures of Medium size or smaller can move through the gap onto the harpooned ship each round.</p><p><em><strong>Recovering the Harpoon.</strong></em> Recovering and reinstalling the harpoon takes 1 minute.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

@@ -1,0 +1,83 @@
+{
+    "_id": "BjWUsjBQzq4w1Q3s",
+    "name": "Specialist",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p>You have focused training with a specific tool. Select one type of specialist's kit. You gain the following benefits:</p>\n<ul>\n<li>Increase an ability score of your choice by 1, to a maximum of 20.</li>\n<li>You gain proficiency with the chosen kit. If you are already proficient with it, you instead gain expertise with it.</li>\n<li>You can attempt ability checks with the chosen kit without the kit present, but you have disadvantage on the check when you do so.</li>\n<li>Whenever you make an ability check with the chosen kit and you don't have disadvantage on the check, you can treat a d20 roll of 9 or lower as a 10, as long as you spend at least 1 minute on the check. You can select this feat multiple times. Each time you do so, you must choose a different specialist's kit.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 4875000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Specialist.webp",
+    "effects": []
+}

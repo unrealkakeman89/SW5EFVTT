@@ -1,0 +1,37 @@
+{
+    "_id": "PDqitTZ4C5dgB9Rr",
+    "name": "Explosive Payload",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Tertiary or Quaternary Weapon"
+        },
+        "system": {
+            "value": "Weapon"
+        },
+        "basecost": {
+            "value": "3000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>When a ship fails a saving throw against the chosen weapon and another ship is within 50 feet of it, the second ship must also make the saving throw. On a failed save, the second ship takes damage equal to your ship's Strength modifier. The damage is of the same type dealt by the original attack.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Weapon.webp",
+    "effects": []
+}

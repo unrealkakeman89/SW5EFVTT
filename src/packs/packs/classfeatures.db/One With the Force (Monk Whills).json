@@ -1,0 +1,71 @@
+{
+    "_id": "8d2b9T3Zxw49RGmR",
+    "name": "One With the Force (Monk: Whills)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 11th level, you learn how to enter a trance, preparing to unleash yourself upon your enemy. While in this trance, you can still talk and move. If you stay in the trance for at least one minute, when you roll initiative, you can make a ranged weapon attack on a number of creatures up to your Wisdom or Charisma modifier (your choice, a minimum of one) within 30 feet of you when you were in this trance.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "minute",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": "1",
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

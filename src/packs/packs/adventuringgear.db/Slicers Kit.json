@@ -1,0 +1,41 @@
+{
+    "name": "Slicer's Kit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>Slicers used specialized computers and scramble keys, many built by the slicers themselves, to eke out a living in the digital world. These computers were carefully guarded and constantly modified and upgraded by the slicer, who rarely discussed its specs except with like-minded individuals. Complex access codes and even self-destruct mechanisms were often used to prevent a slicer\u2019s computer from falling into the wrong hands. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to hack into computers or bypass security.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 6,
+        "price": 800,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Kit/Slicer_s%20Kit.webp",
+    "_id": "16V3E2zNGzP77JdU"
+}

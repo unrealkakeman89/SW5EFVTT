@@ -1,0 +1,71 @@
+{
+    "_id": "c5gqtKDUKlaW0IFw",
+    "name": "Indomitable (Sentinel: Tenacity)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>By 13th level, the Force flowing through you makes it harder for movement to be forced upon you. You have advantage on ability checks and saving throws to avoid being grappled or moved. If you fail the saving throw or ability check, you can spend 1 force point to reroll one of the dice once. You must use the new roll.</p>\n<p>Additionally, if allies within 5 feet of you are gaining the benefit of your&nbsp;saber ward&nbsp;force power, they also gain the benefit of this feature.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

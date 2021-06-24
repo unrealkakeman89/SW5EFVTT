@@ -1,0 +1,39 @@
+{
+    "_id": "Wdi8eckrcxpxQL3p",
+    "name": "Way of Suggestion",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Consular",
+        "description": {
+            "value": "<h1>Way of Suggestion</h1>\n<p>There is power in a light touch, and no one knows this better than the consular. Those consulars who follow the Way of Suggestion have honed their attunement to the Force, allowing them to disappear, despite being in plain sight.</p>\n<h2>Subtle Control</h2>\n<p>At 3rd level, you can befuddle a creature's mind with nothing but a gesture. As an action, you can cause a creature you can see within 30 feet to make a Wisdom saving throw against your universal force save DC. On a failed save, you can force the creature to believe or forget a single aspect of a conversation, observation or encounter it had that you were present for in the past 10 minutes. Whether the creature succeeds or fails its saving throw, you can't use this feature on it again until you finish a long rest.</p>\n<p>Additionally, creatures who attempt to detect your use of the Force have disadvantage on ability checks to do so, and if a creature has the <em>sense Force</em> or <em>Force sight</em> power active, it must succeed on a universal forcecasting ability check against your universal force save DC in order to notice your usage of the Force, your alignment within the Force, or how strong your connection to the Force is.</p>\n<h2>Out of Mind</h2>\n<p>At 6th level, you can erase yourself from a single creature's sight momentarily. As a bonus action, choose a creature within 60 feet of you. That creature must make a Wisdom saving throw against your univesal force save DC. On a failed save, you become invisible to that creature for 1 minute, or until you deal damage to it with an attack or a Force power.</p>\n<p>Once you use this feature, you can't use it again until you finish a short or long rest.</p>\n<h2>Delicate Potency</h2>\n<p>Beginning at 10th level, your mind-affecting powers are particularly potent. When you cast @Compendium[sw5e.forcepowers.BJDl4AQjFfR1RTxc]{Cloud Mind}, @Compendium[sw5e.forcepowers.YguQH8fuWTnHMPcK]{Dominate Mind}, @Compendium[sw5e.forcepowers.jmFTPxWQXJENvQtQ]{Mass Coerce Mind} or @Compendium[sw5e.forcepowers.AnqVVfHnV36f7OnA]{Dominate Monster}, you can choose to treat the power as if cast at your Max Power Level.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.</p>\n<h2>Delayed Effect</h2>\n<p>At 14th level, when you cast a Force power, you can delay the effects of the Force power for up to a number of rounds equal to half your consular level. If you do so, the power immediately takes effect at the start of your turn, after the specified number of round have passed.</p>\n<p>Once you've used this feature, you can't use it again until you complete a long rest.</p>\n<h2>Subtle Presence</h2>\n<p>At 18th level, you've learned to weave the Force around you in a cloak of your choice. As an action, you can focus the Force for 10 minutes. For the duration, you gain your choice of one of the following effects.</p>\n<p>You can use each feature once. You regain all expended uses when you complete a long rest.</p>\n<h3>Cloak of Fright</h3>\n<p>Each creature of your choice that is within 60 feet must succeed on a Wisdom saving throw against your universal force save DC or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n<h3>Cloak of Invisibility</h3>\n<p>You and everything you are wearing or carrying become invisible to creatures of your choice. If you damage a creature or affect it with a Force power, it can make a Wisdom saving throw against your universal force save DC. On a success, you are no longer invisible to that creature.</p>\n<h3>Cloak of Memory</h3>\n<p>Creatures that see you or any allies within 30 feet of you during this time cannot recall your physical appearance, your mannerisms, or any other identifying features.</p>\n<p>Creatures that interact with you must make a Wisdom saving throw against your universal force save DC once the interaction ends. You can choose to exclude a creature from this effect. On a failed save, the creature forgets all details of the interaction, rationalizing any of its outcomes.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Way%20of%20Suggestion.webp",
+    "effects": []
+}

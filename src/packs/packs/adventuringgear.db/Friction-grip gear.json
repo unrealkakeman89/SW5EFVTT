@@ -1,0 +1,32 @@
+{
+    "name": "Friction-grip gear",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A special set of gloves and boots that allow the wearer to stick to and climb surfaces. While wearing these items, you gain the ability to move along vertical surfaces and ceilings while leaving your hands free. You also gain a climbing speed equal your walking speed.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 12,
+        "price": 2000,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Weapon%20or%20Armor%20Accessory/Friction-grip%20Gear.webp",
+    "_id": "8sX023Ca4gIn1gbU"
+}

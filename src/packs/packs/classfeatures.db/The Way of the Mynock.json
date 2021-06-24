@@ -1,0 +1,71 @@
+{
+    "_id": "GqrLoLcbeHSTnGaD",
+    "name": "The Way of the Mynock",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, as a bonus action, you can enter a defensive stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, you can cast the&nbsp;saber ward&nbsp;power. When you do so, you have a number of special reactions equal to your proficiency bonus that you can only use to cast the&nbsp;saber reflect&nbsp;force power. You can only take one reaction per turn.</p>\n<p>This effect ends early if you are incapacitated or die. Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you finish a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "bonus",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

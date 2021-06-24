@@ -1,0 +1,71 @@
+{
+    "_id": "G9NlcRAQ2yP8Dkmc",
+    "name": "Assuming Direct Control",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 18th level, when a creature fails its saving throw against your Invasive Presence feature, the target becomes charmed by you for as long as Invasive Presence is active.</p>\n<p>While the target is charmed, you and your spirit have a telepathic link with it as long as you are within 100 feet of it. You and your spirit can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as &ldquo;Attack that creature,&rdquo; &ldquo;Run over there,&rdquo; or &ldquo;Fetch that object.&rdquo; If the creature completes the order and doesn&rsquo;t receive further direction from you, it defends and preserves itself to the best of its ability.</p>\n<p>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn&rsquo;t do anything that you don&rsquo;t allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

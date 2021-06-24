@@ -1,0 +1,37 @@
+{
+    "_id": "Zz8oodhXvn7l9XMu",
+    "name": "Communications Suppressor, Protoype",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Communications Suppressor, Premium"
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "3"
+        },
+        "description": {
+            "value": "<p>This modification improves the communications suppressor by adding a decrypter. Your crew has advantage on Intelligence checks to decrypt messages. </p><p>Additionally, your ship is expertly equipped for Charisma (Interfere) checks.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

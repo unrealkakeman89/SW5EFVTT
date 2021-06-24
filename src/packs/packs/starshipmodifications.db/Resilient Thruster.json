@@ -1,0 +1,37 @@
+{
+    "_id": "M0o3LpNXhnL8SEsm",
+    "name": "Resilient Thruster",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "3"
+        },
+        "description": {
+            "value": "<p>You overhaul your ship's thruster to make it more adaptive. Your ship is proficiently equipped for Dexterity saving throws.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

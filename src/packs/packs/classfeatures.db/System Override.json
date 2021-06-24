@@ -1,0 +1,71 @@
+{
+    "_id": "ws4yTZAFTaHvuYht",
+    "name": "System Override",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Once you&rsquo;ve reached 17th level, you know how to quickly activate anti-tech subroutines you have encoded into your wristpad. You can cast the&nbsp;<em>diminish tech</em>&nbsp;and&nbsp;<em>tech override&nbsp;</em>powers at 3rd level without expending tech points. If the target is the target of your Critical Analysis, you have advantage on the techcasting ability check for these powers.</p>\n<p>You can use this feature a number of time equal to half your Intelligence modifier (rounded down, a minimum of once). You regain all expended uses when you finish a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "special",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

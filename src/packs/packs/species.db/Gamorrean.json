@@ -1,0 +1,279 @@
+{
+    "_id": "yHCdATnn5pSG26OG",
+    "name": "Gamorrean",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Although a typical Gamorrean is squat, green, and heavily built not all shared these characteristics. Most Gamorreans have a dark greenish coloration over a large portion of their bodies; however skin coloration does vary, particularly among females, with light skinned and two-toned pigmentation not uncommon. Black, brown, pinkish yellow, and even a rare white pigmentation are possible. Males tended to have less skin variation and had a greater tendency towards dark green skin perhaps because of their higher exposure to the radiation of the Gamorr Star. Eye coloration varied evenly between gold-yellow, blue, black and brown. The Gamorreans generally put no importance on skin or eye coloration although there were some superstitions linked to certain markings.</p><h2>Society and Culture</h2><p>Gamorreans are organized into clans ruled by a male warlord and his wife, who was the most powerful of the clan matrons. While the warlord and his boars are solely concerned with preparing and participating in battle with rival clans, the matrons of the clan performed all the productive work including farming, hunting, manufacturing, and running businesses. Since the amount of available arable land on Gamorr is scarce, clans often lay claim to the same piece of land, and they spend their time fighting over possession. </p><h2>Names</h2><p>Gamorrean names are very gutteral and rough. Male names are typically one syllable while females are two. Surnames are based on clan affiliation rather than family. </p><strong>&nbsp;&nbsp;Male Names.</strong> Ark, Blarrp, Blubrak, Cuab, Shos</p><strong>&nbsp;&nbsp;Female Names.</strong> Dabrisz, Mernoos, Ogreb, Tagorq</p><strong>&nbsp;&nbsp;Surnames.</strong> Doofnarq, Griks, Lurc, Poogmokk",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Constitution score increases by 1.</p><p><em><strong>Age.</strong></em> Gamorreans reach adulthood in their early teens and live no more than 70 years.</p><p><em><strong>Alignment.</strong></em> Gamorrean culture causes them to tend toward chaos, though there are exceptions.</p><p><em><strong>Size.</strong></em> Gamorreans typically stand between 5 and 6 feet tall and weigh up to 200 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Gamorrean Toughness.</strong></em> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level. Additionally, you have advantage on Constitution saving throws.</p><p><em><strong>Gamorrean Weaponry.</strong></em> You have proficiency with the vibroaxe, vibromace, and vibrosword.</p><p><em><strong>Savage Attacks.</strong></em> When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Gamorrese. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. Gamorrese is characterized by its grunts and squeals, and its writing is a crude, pictographic style.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black, brown, green, pink, or yellow"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Blue, black, brown, or gold"
+        },
+        "distinctions": {
+            "value": "Porcine humanoids with tusks and horns"
+        },
+        "heightAverage": {
+            "value": "4'10\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "150 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d6) lb."
+        },
+        "homeworld": {
+            "value": "Gamorr"
+        },
+        "slanguage": {
+            "value": "Gamorrese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Gamorrean",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibroaxe",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibromace",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibrosword",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "gamorrese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "87QccMKAhEf21q3z",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Gamorrean.webp",
+    "effects": [
+        {
+            "_id": "teRJPynVl1RXWsN8",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Gamorrean",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibroaxe",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibromace",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibrosword",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "gamorrese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.toughness",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.savageAttacks",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Gamorrean.webp",
+            "label": "Gamorrean",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

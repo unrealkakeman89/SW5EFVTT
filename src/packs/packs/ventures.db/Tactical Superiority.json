@@ -1,0 +1,23 @@
+{
+    "_id": "g3nhoUfyGnuFstUg",
+    "name": "Tactical Superiority",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 2 levels in scholar</em></p><p>When you expend a power die, roll the die as normal, but you can instead subtract it from your pool of superiority dice.</p>"
+        },
+        "prerequisites": [
+            "at least 2 levels in scholar"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

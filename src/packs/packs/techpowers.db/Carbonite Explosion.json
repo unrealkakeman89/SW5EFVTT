@@ -1,0 +1,98 @@
+{
+    "_id": "YMMEHilPkH2NTrFI",
+    "name": "Carbonite Explosion",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You generate an explosion of cryogenic energy in a 60-foot-radius sphere centered on a point you can see within range. Each creature in the affected area must make a Constitution saving throw. On a failed save, the creature takes 8d6 + 20 cold damage and is restrained for 1 minute as it is encased in carbonite. On a successful save, the creature takes half damage and is restrained until the end of its next turn.</p>\n<p>As an action, a restrained creature can make a Strength check against your tech save DC, ending this effect on itself on a success.</p>\n<p>A creature reduced to 0 hit points by this power dies instantly, as its body shatters into frozen chunks.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 60,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": 250,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "8d6 + 20",
+                    "cold"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "con",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 9,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/CarboniteExplosion.webp"
+}

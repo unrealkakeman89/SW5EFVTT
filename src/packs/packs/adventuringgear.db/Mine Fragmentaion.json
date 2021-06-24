@@ -1,0 +1,102 @@
+{
+    "name": "Mine, Fragmentaion",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>When you use your action to set it, this mine sets an imperceptible laser line extending up to 15 feet. When the laser is tripped, the mine explodes, and each creature within 15 feet of it must make a DC 13 Dexterity saving throw. On a failed save, a creature takes 3d6 kinetic damage, or half as much on a successful one.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB ",
+        "quantity": 1,
+        "weight": 2,
+        "price": 500,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 15,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": 15,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "charges"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "3d6",
+                    "bludgeoning"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": 13,
+            "scaling": "flat"
+        },
+        "weaponType": "improv",
+        "properties": {
+            "amm": false,
+            "fin": false,
+            "fir": false,
+            "foc": false,
+            "hvy": false,
+            "lgt": false,
+            "lod": false,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "spc": false,
+            "thr": false,
+            "two": false,
+            "ver": false
+        },
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Explosive/Mine%2C%20Fragmentation.webp",
+    "_id": "QdofeL9gjEkKdn0F"
+}

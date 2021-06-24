@@ -1,0 +1,71 @@
+{
+    "_id": "5PS62OPmM18ws0x9",
+    "name": "Channel the Force (Niman)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<blockquote>\n<h4>TELEKINETIC SLASH</h4>\n<p>When you deal damage with an at-will force power that requires a force attack or a saving throw, you can expend a use of your Channel the Force and expend force points to deal additional damage to the target, which is the same type as the power&rsquo;s damage. The additional damage is 1d8 for each point spent in this way.</p>\n<p>You can&rsquo;t deal more additional damage than the amount shown in the Focused Strikes column of the guardian table.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

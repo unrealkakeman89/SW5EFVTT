@@ -1,0 +1,172 @@
+{
+    "_id": "xihw2po0D2nm8kJm",
+    "name": "Human",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Humans are an intelligent species that originated on Coruscant but can be found on many other planets across the galaxy, including Naboo, Tatooine, and Alderaan. They come in two sexes, male and female, and give birth to live young. They are bipedal beings with a bilateral symmetry, having a front and a back end, as well as an upside and downside. Their bodies are comprised of a torso with a head and four limbs attached to it. The upper limbs, or arms, end in hands which have five fingers each; the lower ones, called legs, end in feet. The human fingers have multiple points of articulation, and one of them is an opposable thumb that allows for fine manipulation. Finally, they have one head perched atop their torso. Many other species, including twi'leks, mon calamari, or zabraks, are referred to as \"humanoids\" because of their structural resemblance to humans.</p><h2>Society and Culture</h2><p>Humans can occupy a variety of employs, from politicians to bounty hunters, swoop racers, smugglers, or even a farmer. There exist many planetary groups of humans with their own cultures, such as the Alderaanians or the Pamarthens. Humans are the most populous species in the Galaxy.</p><h2>Names</h2><p>Humans are the most populous species in the Galaxy, and thus their names vary drastically based on the planet or culture with whom they reside.</p><p>&nbsp;&nbsp;<strong>Male Names.</strong> Koth, Liorz, Satapak, Tin, Vuc</p><p>&nbsp;&nbsp;<strong>Female Names.</strong> Dhetia, Jhilk, Risha, Thinnih, Tonu</p><p>&nbsp;&nbsp;<strong>Surnames.</strong> Jauli, Kudi, Melmi, Windu, Wobec</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> One ability score of your choice increases by 2, and two other ability scores of your choice increase by 1. Alternatively, four ability scores of of your choice each increase by 1.</p><p><em><strong>Age.</strong></em> Humans reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Humans tend toward no particular alignment. The best and worst are found among them.</p><p><em><strong>Size.</strong></em> Humans vary widely in height and build, from barely 5 feet to well over 6 feet tall. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Defiant.</strong></em> Humans are known to be stubborn and often refuse to give up, even against the worst odds. When you or a creature you can see that can see and understand you makes an ability check, attack roll, or saving throw, you can roll a d4 and add it to their roll (no action required). You can use this before or after the roll, but before the GM determines the roll's outcome. Once you've used this feature, you must complete a short or long rest before you can use it again.</p><p><em><strong>Proficiency.</strong></em> You gain proficiency in one skill, one tool, and one weapon of your choice.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: trandoshan curses, twi'lek musical expressions, chiss military phrases, and so on.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Light to dark tones"
+        },
+        "hairColorOptions": {
+            "value": "Black, blond, orange, brown, gray to white (usually with age)"
+        },
+        "eyeColorOptions": {
+            "value": "Amber, blue, brown, gray, green, hazel, purple, or red"
+        },
+        "distinctions": {
+            "value": "Biped with bilateral symmetry, opposable thumbs"
+        },
+        "heightAverage": {
+            "value": "4'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "110 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Coruscant"
+        },
+        "slanguage": {
+            "value": "Galactic Basic"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Human",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "w0cdUATy9TZBzZPP",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "w0cdUATy9TZBzZPP",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "w0cdUATy9TZBzZPP",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "w0cdUATy9TZBzZPP",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Human.webp",
+    "effects": [
+        {
+            "_id": "Qsqg856LCqJHnAta",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Human",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.defiant",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Human.webp",
+            "label": "Human",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

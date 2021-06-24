@@ -1,0 +1,230 @@
+{
+    "_id": "jpHZszvc0kX4toUz",
+    "name": "Pa'lowick",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The pa'lowick are a species of humanoid amphibians who live in the coastal salt marshes of Lowick. They have compact but rotund midsections that top a pair of long, spindly legs ending in anisodactylic feet\u2014three toes pointing forward, one back. This configuration, combined with their powerful lungs, enabled them to swim. The most prominent feature of pa'lowick physiology is their prehensile snout, which ends in a pair of pouty, human-like lips. Pa'lowick are also born with sharp tusks, which some lose by middle age.</p>\n<h2>Society and Culture</h2>\n<p>Pa'lowick live in large, independent communities with a feudal system of government. Many pa'lowick become fishers or hunters, as their biology allows. Songs and stories are the most treasured aspect of pa'lowick culture. Pa'lowick music runs the gamut of genres and subjects, although religious music is particularly common. Cultural heritage, such as history, genealogy, and parables, is largely passed down orally. Every Pa'lowick community has a dedicated storyteller; the esteem afforded this individual makes the position a coveted one. Large lungs make the Pa'lowick hearty singers and affords at least some members of the species the ability to scream loudly and disarm opponents in combat.</p>\n<h2>Names</h2>\n<p>Pa'lowick names tend to grow longer as the family tree grows older, with each generation adding a few syllables they are fond of.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Loran, Jelanto, Neeamesh, Samoos</p>\n<p><strong>&nbsp;&nbsp;Female Names.</strong> Larisselle, Rensilla, Sy, Tripika</p>\n<p><strong>&nbsp;&nbsp;Surnames.</strong> Chatrunis, Dym, Geeci, Snootles</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Charisma score increases by 1.</p><p><em><strong>Age.</strong></em> Pa'lowick reach adulthood in their late teens and live about 75 years.</p><p><em><strong>Alignment.</strong></em> Pa'lowick enjoy a raucous good time, causing them to tend toward chaotic light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Pa'lowick stand about 5 feet tall, and weigh approximately 100 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Hold Breath.</strong></em> Pa'lowick have a great lung capacity and can hold their breath for up to 15 minutes at a time.</p><p><em><strong>Proud Performer.</strong></em> Pa'lowick are best known for the energy they can bring to a singing performance. Whenever you make a Charisma (Performance) check involving singing, you are considered to have expertise in the Performance skill.</p><p><em><strong>Snout.</strong></em> You have supreme control over your snout and can use it to manipulate objects as well as your hands. Additionally, your snout is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d4 + your Strength modifier kinetic damage.</p><p><em><strong>Sonic Scream.</strong></em> You can use your action to violently expel air in a 15-foot cone. When you do so, each creature in the area of the exhalation must make a Wisdom saving throw. The DC for this saving throw equals 8 + your proficiency bonus + your Constitution modifier. A creature takes 2d6 sonic damage on a failed save, and half as much damage on a successful one. The damage increases to 4d6 at 5th level, 6d6 at 11th level, and 8d6 at 17th level. This ability has no effect on constructs. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain one use of this feature when you finish a long rest.</p><p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Lowickese. Lowickese requires the user to purse their lips and blow air, and is considered amusing by other species.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Generally tan and greenish hues"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Green, blue, gray, red-orange"
+        },
+        "distinctions": {
+            "value": "Long snout, bulbous body on thin legs"
+        },
+        "heightAverage": {
+            "value": "4'6\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "65 lbs."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Lowick"
+        },
+        "slanguage": {
+            "value": "Lowickese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Pa'lowick",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "sW49GVw2YC3LATdF",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "sW49GVw2YC3LATdF",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "sW49GVw2YC3LATdF",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "sW49GVw2YC3LATdF",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "sW49GVw2YC3LATdF",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "sW49GVw2YC3LATdF",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "sW49GVw2YC3LATdF",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "lowickese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "sW49GVw2YC3LATdF",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Pa%27lowick.webp",
+    "effects": [
+        {
+            "_id": "DOEcD2uiPDNcMRRg",
+            "flags": {
+                "dae": {
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Pa'lowick",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "lowickese",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Pa%27lowick.webp",
+            "label": "Pa'lowick",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

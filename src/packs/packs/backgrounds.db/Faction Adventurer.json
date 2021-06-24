@@ -1,0 +1,106 @@
+{
+    "name": "Faction Adventurer",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "Adventuring is nothing new to you. Due to the circumstances of how you were raised, you have been involved with wandering heroes for most of your life. Maybe you were part of an adventuring band previously, but split with them after a disagreement or tragedy. Or, perhaps you worked around heroes in a lesser role for most of your young life, and you are now ready to graduate to the front lines."
+        },
+        "flavorName": {
+            "value": "Adventuring Origin"
+        },
+        "flavorDescription": {
+            "value": "You have either been adventuring or assisting other in adventuring since a very young age. Perhaps your parents were famous adventurers, or a group of adventurers found and raised you as their own. Perhaps you were trained to be a professional monster hunter, or maybe another faction member saved your life so you swore loyalty to them. Work with your GM to determine the nature of your adventuring."
+        },
+        "flavorOptions": null,
+        "skillProficiencies": {
+            "value": "Choose two from Athletics, Investigation, Nature, and Survival"
+        },
+        "toolProficiencies": {
+            "value": "Your choice demolitions kit, security kit, or slicer's kit"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "50 feet of rope, a small knife, a trophy, a set of traveler's clothes, and a belt pouch containing 100 cr."
+        },
+        "suggestedCharacteristics": {
+            "value": "Adventurers are well adjusted to life on the road. They are often comfortable doing dangerous things like dungeoneering and fighting and can stay level-headed in the face of danger, but they may not be so well adapted to other parts of life."
+        },
+        "featureName": {
+            "value": "Faction Membership"
+        },
+        "featureText": {
+            "value": "<p>You are an established and respected member of an adventurer's faction, allowing you to rely on certain benefits that membership provides. If you are in a town with a headquarters for your adventurer's faction and you are in good standing with the faction, you will be allowed to look at the job postings and find adventuring work to earn money.</p><p>Factions often wield tremendous political power. If you are accused of a crime, your faction will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the faction, if you are a member in good standing. You must pay dues of 50 cr per month to the faction. Your dues must be current to remain in the faction's good graces.</p>"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Naturalist</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Survivalist</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Alert</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Athlete</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I can't bring myself to ignore a cry for help.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I hold onto every mildly interesting item I find, in case it comes in handy someday.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">After all the weirdness I've seen on my travels, nothing can surprise me.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I spit and laugh in the face of danger.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Giving up is never an option for me.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I feel more at home in monster-infested dungeons than in civilized society.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I fill silence with wacky stories about my past misadventures, which may or may not be exaggerated.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">My sense of humor is as dark and grim as the dungeons I explore.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Adventure. All I want is to travel the world and see amazing things. (Any)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Heroism. I am dedicated to helping people in need. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Order. I use my power to save the world from the forces of destruction and chaos. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Excitement. An ordinary life is boring, I'd rather travel around and find trouble. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Power. The more powerful enemies I defeat, the stronger I become. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I want to go down in history as a brave, powerful hero. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I default to solving problems with violence even when it's unwise or immoral.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I expect to be lavished with praise whenever I do my job, and I get mad when no one acknowledges me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">All members of \"Dark\" species must be Dark, so I will never trust them.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Waiting around makes me antsy. I'd rather do something stupid than do nothing at all.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">My habit of looting dungeons makes me swipe things I shouldn't.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">A monstrous enemy I faced in the past still leaves me quivering with fear.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I carry with me a strange artifact that I found in a dungeon, but I don't know what it's for.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">My adventuring party means the world to me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I have sworn to hunt down the monster or villain who killed my former adventuring party.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I adventure in order to bring honor (or money) to my family.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">There is a faraway place I've always wanted to visit, and I won't stop until I make it there.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">All I want is to make the ones who trained me in the way of adventuring proud.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Faction%20Adventurer.webp",
+    "effects": [
+        {
+            "_id": "7OyIWtpW5O5MsJyt",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Faction Adventurer",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Faction Adventurer",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "Dfreyiggdsm6LTB4"
+}

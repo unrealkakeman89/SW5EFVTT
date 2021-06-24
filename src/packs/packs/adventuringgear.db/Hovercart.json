@@ -1,0 +1,50 @@
+{
+    "name": "Hovercart",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "backpack",
+    "data": {
+        "description": {
+            "value": "<p>This repulsorcraft is designed to efficiently move large amounts of goods. It has a speed of 30 feet and can hold up to 2,000 lb., not exceeding a volume of 120 cubic feet.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 150,
+        "price": 2000,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+            "type": "weight",
+            "value": 2000,
+            "weightless": false
+        },
+        "currency": {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Storage/Hovercart.webp",
+    "_id": "csq3Gy4uUjMMjGMo"
+}

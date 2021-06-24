@@ -1,0 +1,37 @@
+{
+    "_id": "7lmBjM4Lol73UE6x",
+    "name": "Docking Bay",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite comes equipped with an integrated mechanic's kit and has space for all of the necessary equipment to launch, receive, repair, rearm, and house another starship. The size it can house varies depending on the ship's size.</p><ul><li><strong>Medium:</strong> A Medium docking bay can house one Tiny ship.</li><li><strong>Large:</strong> A Large docking bay can house two Medium ships.</li><li><strong>Huge:</strong> A Huge docking bay can house one Large ship.</li><li><strong>Gargantuan:</strong> A Gargantuan docking bay can house one Huge ship.</li></ul><p>Alternatively, this suite can house multiple ships of smaller size. A Huge ship takes up the space of 10 Large ships, which in turn takes up the place of 10 Medium ships. One Medium ship takes up the space of five Small ships, which in turn takes up the space of two Tiny ships. You can also replace a ship with a droid or construct of four size categories larger.  Up to two docking bays can be combined to combine their storage capacity.</p><p>Over the course of 1 minute, a pilot can launch or dock in the docking bay.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

@@ -1,0 +1,119 @@
+{
+    "_id": "aYJ1fbkRcvsXqw89",
+    "name": "Riposte (Maneuver)",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack&rsquo;s damage roll.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "reaction",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4",
+                    "midi-none"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        },
+        "midi-qol": {
+            "onUseMacroName": ""
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/FGTR-Reaction.webp",
+    "effects": [
+        {
+            "_id": "gYYZjf3dOHSCHNHb",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [
+                        "1Attack"
+                    ],
+                    "transfer": false,
+                    "macroRepeat": "none"
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.bonuses.mwak.damage",
+                    "value": "+@damage",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": 1,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/FGTR-Reaction.webp",
+            "label": "Riposte",
+            "tint": "",
+            "transfer": false
+        }
+    ]
+}

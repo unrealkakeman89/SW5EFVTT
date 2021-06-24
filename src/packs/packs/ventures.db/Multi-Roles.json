@@ -1,0 +1,23 @@
+{
+    "_id": "6AtbJ4PKePAUc4M0",
+    "name": "Multi-Roles",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Dual Roles venture</em></p><p>When you advance a rank in your primary deployment, you may select a maneuver from any deployment instead of your primary deployment.</p>"
+        },
+        "prerequisites": [
+            " Dual Roles venture "
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

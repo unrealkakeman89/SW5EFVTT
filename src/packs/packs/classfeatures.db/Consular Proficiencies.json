@@ -1,0 +1,123 @@
+{
+    "name": "Consular Proficiencies",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<h1>Class Proficiencies</h1>\n<p>As a Consular, you gain the following proficiencies.</p>\n<p><strong>Armor:</strong>&nbsp;None</p>\n<p><strong>Weapons:</strong>&nbsp;Simple lightweapons, simple vibroweapons</p>\n<p class=\"mb-2\"><strong>Tools:</strong>&nbsp;None</p>\n<p><strong>Saving Throws:</strong>&nbsp;Wisdom, Charisma</p>\n<p class=\"mb-2\"><strong>Skills:</strong>&nbsp;Choose two from Deception, Insight, Intimidation, Investigation, Lore, Medicine, and Persuasion.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "requirements": "Consular 1",
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": "0",
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.vjtWmNyT5vJQZRJf"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/CSLR-ARCH-Passive.webp",
+    "effects": [
+        {
+            "_id": "ajl2HjApW53QvtU7",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.traits.weaponProf.value",
+                    "value": "slw",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.value",
+                    "value": "svb",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.proficient",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.proficient",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/CSLR-ARCH-Passive.webp",
+            "label": "Consular Proficiencies",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "qR3ltr92HO8A6WWa"
+}

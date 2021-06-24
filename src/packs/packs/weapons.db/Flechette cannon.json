@@ -1,0 +1,122 @@
+{
+    "_id": "z7LJqf8bjWnzqEw8",
+    "name": "Flechette cannon",
+    "permission": {
+        "default": 0,
+        "MmfWtlBdw3ij5wl9": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>The flechette cannon does not make attack rolls. Rather than traditional power cells, the flechette cannon uses specialized cannon tanks, which, when fired, spray an area with the contents of the tank. Projector tanks require your target to make a saving throw to resist the tank&rsquo;s effects. It can have different ammunition types loaded simultaneously, and you can choose which ammunition you&rsquo;re using as you fire it (no action required). If you don&rsquo;t meet the flechette cannon&rsquo;s strength requirement, creatures have advantage on their saving throws. If you lack proficiency in the flechette cannon, you must roll the damage dice twice and take the lesser total.</p>\n<p>Ammunition (range special), Reload 5, Special, Strength 11, Two-handed</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 16,
+        "price": 1800,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": false,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "martialB",
+        "properties": {
+            "amm": true,
+            "aut": false,
+            "bur": false,
+            "def": false,
+            "dex": false,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "fin": false,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "ken": false,
+            "lgt": false,
+            "lum": false,
+            "mig": false,
+            "pic": false,
+            "rap": false,
+            "rch": false,
+            "rel": true,
+            "ret": false,
+            "shk": false,
+            "sil": false,
+            "spc": true,
+            "str": true,
+            "thr": false,
+            "two": true,
+            "ver": false,
+            "vic": false,
+            "nodam": false,
+            "fulldam": false
+        },
+        "proficient": true
+    },
+    "folder": "7rtfHBtXhhiRSS8u",
+    "sort": 6793751,
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Martial%20Blasters/Flechette%20Cannon.webp",
+    "effects": []
+}

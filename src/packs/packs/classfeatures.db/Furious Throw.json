@@ -1,0 +1,76 @@
+{
+    "_id": "eVSjRR9ibtm6kDfT",
+    "name": "Furious Throw",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you choose this approach at 3rd level, your throwing techniques have become a perfect extension of your melee prowess. You may count your thrown weapon attacks as if they were melee weapon attacks for the purposes of your class features and feats, such as your Berserker Rage and Reckless Attack abilities.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

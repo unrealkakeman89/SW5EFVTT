@@ -1,0 +1,108 @@
+{
+    "_id": "6KfPYuS5IiWyeq3v",
+    "name": "Distracting Strike",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack&rsquo;s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4",
+                    ""
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": "Maneuver"
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/FGTR-Passive.webp",
+    "effects": [
+        {
+            "_id": "jQiKudRHpZIjEMp2",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [
+                        "isAttacked"
+                    ],
+                    "transfer": false
+                }
+            },
+            "changes": [],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": 1,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/FGTR-Passive.webp",
+            "label": "Distracted",
+            "tint": "",
+            "transfer": false
+        }
+    ]
+}

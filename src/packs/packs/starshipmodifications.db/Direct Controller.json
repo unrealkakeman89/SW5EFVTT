@@ -1,0 +1,37 @@
+{
+    "_id": "zwMwgi8Ea13EY0uB",
+    "name": "Direct Controller",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Primary or Secondary Weapon"
+        },
+        "system": {
+            "value": "Weapon"
+        },
+        "basecost": {
+            "value": "3000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>You have installed a dedicated gunner station at or about the hardpoint.  A crew member deployed at this station can use their Dexterity modifier instead of the ship's Wisdom modifier for the attack rolls or save DCs of the chosen weapon.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Weapon.webp",
+    "effects": []
+}

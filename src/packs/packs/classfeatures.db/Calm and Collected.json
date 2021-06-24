@@ -1,0 +1,71 @@
+{
+    "_id": "ZtPzMR1E5kqylmVY",
+    "name": "Calm and Collected",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Scholar</strong>:&nbsp;14th level</em></p>\n<p>When you make a saving throw caused by an effect you can see, you may gain a bonus to the saving throw equal to your Intelligence modifier.</p>\n<p>You can use this feature a number of times equal to your proficiency bonus, as shown in the scholar table. You regain all expended uses when you complete a long rest.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": "1",
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-Passive.webp",
+    "effects": []
+}

@@ -1,0 +1,109 @@
+{
+    "name": "Lawyer",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>Your duty is to uphold the law. Before becoming an adventurer you resided over a court or tribunal, managing proceedings and sentencing criminals to punishments fit for their crimes. Your job required a deep understanding of the law which you used to resolve conflicts both clear-cut and morally grey.</p><p>The legal system on the planet where you worked has a large effect on how you view the law. Was it a court system with a jury making the final verdict, or did you have absolute authority over determining guilt and sentencing? Was it a fair legal system with plenty of integrity, or was it rife with abuse and corruption? Did you work on criminal cases, civil law, or something even more specific? Perhaps instead of working for a government you were a judge in an internal tribunal for a temple or military organization.</p><p>Consider what compelled you to leave your old occupation behind and begin adventuring. Perhaps you seek to bring someone beyond the scope of law to justice, or maybe you have lost faith in the legal system altogether and have turned to a vigilante approach.</p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Investigation, Performance, and Persuasion"
+        },
+        "toolProficiencies": {
+            "value": null
+        },
+        "languages": {
+            "value": "Two of your choice"
+        },
+        "equipment": {
+            "value": "Documentation of your station, a book of law, a formal uniform you wear to court, a set of common clothes, and a belt pouch containing 100 cr."
+        },
+        "suggestedCharacteristics": {
+            "value": "A lawyer's career is centered on issues of right, wrong, and punishment, so they will approach adventuring through a similar lens. They are used to being respected and in control, leading many of them to struggle with wild, Any situations."
+        },
+        "featureName": {
+            "value": "Legal Authority"
+        },
+        "featureText": {
+            "value": "<p>You are familiar with the letter of the law and workings of courts, at least on the planet that you were a judge in. If you are in a foreign place where you are not familiar with their exact laws, you often will be able to track down the resources you need to learn them.</p><p>If you or your party gets into legal trouble, your experience may help you get out of it. If you can prove your credentials, you might be able to represent your party in a court of law without admonishment. You may know of legal loopholes that will help your case. If you are in the region where you originally worked, you might have past connections with many legal professionals there.</p>"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Performer</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Charmer</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Actor</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Observant</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Keen Mind</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I quote the law like a religious fanatic quotes scripture.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I bang my weapon like a gavel whenever I want a rowdy group's attention.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I remain impartial when making decisions, even when I should have biases and loyalties.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Evidence is necessary to back up any claim.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I insist on settling all party disagreements through fake court proceedings.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I have to hear all sides of a story, but I secretly hate listening to people whine about how unfairly they're treated.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I am happy to make sacrifices for the sake of fairness.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I will not attack a person unless someone can prove they are doing something wrong.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Law. I will follow the letter of the law always, no matter what I believe. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Justice. My duty is to fight for the disenfranchised underdog. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Reform. Laws can be corrupt, and I strive to free people from the bad ones. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Punishment. I will punish all those who have committed great Darks. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Control. I enforce the law only where it benefits myself. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Stability. The purpose of the law is to keep civilization from collapsing. That spirit of that goal is more important than the letter of the law. (Neutral)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Mercy is a foreign concept to me.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am unwilling to admit when I am wrong.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I become unreasonably enraged at even the slightest injustice.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I expect others to adhere to the law, but I act like i am above it.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">If there isn't a law in the books to handle a moral dilemma, I can't make a decision.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">The punishments I deal are cruel and unusual.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">A dangerous criminal is on the loose, and I plan to hunt them down.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">All those who strive to uphold the law are my allies.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I have sentenced an innocent man to a horrible punishment, and the guilt still haunts me.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">There is an ethical cause that I would give my life for.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I dream of memorizing the laws of every civilization.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I am enamored with the legal system of my own culture, and want to spread its tenets everywhere.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Lawyer.webp",
+    "effects": [
+        {
+            "_id": "DSwb2coYtzmub2Zz",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Lawyer",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Lawyer",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "7f7IYfbB3gSNKCQ2"
+}

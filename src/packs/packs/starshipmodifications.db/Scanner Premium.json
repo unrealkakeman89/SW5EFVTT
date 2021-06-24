@@ -1,0 +1,37 @@
+{
+    "_id": "JP7bwXHUbOx4IyY6",
+    "name": "Scanner, Premium",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This system augments the native radar scanner on your ship. Your ship gains blindsight out to 1,000 feet.</p><p>Additionally, your ship is proficiently equipped for Intelligence (Probe) and Wisdom (Scan) checks.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

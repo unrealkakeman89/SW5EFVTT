@@ -1,0 +1,83 @@
+{
+    "_id": "SRvdjRxU3cpcEdcw",
+    "name": "One With the Force (Consular)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Consular</strong>:&nbsp;20th level</em><br />Your attunement to the Force is absolute. Your Wisdom or Charisma score increases by 4, and your maximum for this score increases by 4.</p>\n<p>Additionally, you gain mastery over a single force power, and can cast it with little effort. Choose one 3rd-level force power that you know as your signature power. You can cast it once at 3rd level without expending force points. When you do so, you can&rsquo;t do so again until you finish a short or long rest.</p>\n<p>If you want to cast it at a higher level, you must expend force points as normal.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/CSLR-Passive.webp",
+    "effects": []
+}

@@ -1,0 +1,164 @@
+{
+    "_id": "TUQODGgQkLbqDR8G",
+    "name": "Ho'Din",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Ho'Din are tall humanoids with multi-colored skin, naturally webbed and suction cup-tipped fingers and toes, and temperature-sensing red-violet \"snake hair\". Ho'Din are, on average, over 9 feet tall&mdash;nearly a full head taller than Wookiees. Renowned throughout the galaxy as botanists and healers, the ho'din claimed an ancestry derived from the plants of their home planet, Moltok&mdash;in fact, \"ho'din\" translates as \"walking flower\" in Galactic Basic. They are, in fact, reptilian, as their natural climbing skills and cold-bloodedness seem to indicate, and boast a second heart to enhance their survival. Their \"snake hair\" is temperature-sensitive, allowing ho'din to sense changes in ambient temperature.</p>\n<h2>Society and Culture</h2>\n<p>Ho'dins are known to be self-conscious and vain, particularly when it comes to their looks and their work, and do not take criticism or insults well. Their religion, Dinante Fli'R, is centered around worshipping and communing with nature, a trait that has sent many ho'din out into the galaxy to rejuvenate damaged planets. The ho'din have an aversion for technology and avoid surface mining and manufacturing, opting for treedwelling where they have learned to make incredibly advanced pharmaceuticals and gardens, using their botanical skills to concoct natural medicines, some of which have cured plagues on distant worlds. The title of \"Master Gardener\" is one of high esteem and great respect in ho'din society.</p>\n<h2>Names</h2>\n<p>Ho'din names are quite diverse. Some names look complicated and difficult to pronounce, while others are quite simple. Surnames are familial.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Baji, Gra'tau, Iwo, Oojoh, Thrung, Vala</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Chela, Kutu, Lohje, Paftah, Sirta, Tai</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Alewune, Kulko, Oolos, Plett, Ustu, Wen</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Ho&rsquo;din reach adulthood in their early 30s and live up to 120 years.</p>\n<p><em><strong>Alignment.</strong></em> Ho&rsquo;dins' benevolent nature causes them to tend toward the light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Ho&rsquo;din are taller than most species, typically standing 8 to 10 feet tall and generally weighing about 275 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Biological Specialists.</strong></em> You have proficiency with Medicine or Survival (your choice).</p>\n<p><em><strong>Cold Sensitivity.</strong></em> You have disadvantage on Constitution saving throws made to avoid exhaustion due to extreme cold.</p>\n<p><em><strong>Crafters.</strong></em> You have proficiency with with one artisan's implements of your choice.</p>\n<p><em><strong>Naturalist.</strong></em> You have proficiency in the Nature skill.</p>\n<p><em><strong>Rain Forest Dweller.</strong></em> Growing up in the rain forests of Moltok has left an impact You don&rsquo;t treat forest terrain as difficult terrain.</p>\n<p><em><strong>Reptilian Senses.</strong></em> Whenever you make a Wisdom (Perception) check related to sensing heat, you are considered to have expertise in the Perception skill.</p>\n<p><em><strong>Second Heart.</strong></em> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>\n<p><em><strong>Treeclimber.</strong></em> You have a climbing speed of 30 feet You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic, and Ho&rsquo;Din. Ho&rsquo;Din consists of croaks and hisses. Its written form includes characters derived from the shapes of Moltok flora. The Ho'Din lexicon includes a great amount of plant-based idioms and metaphors.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, yellow, blue, orange"
+        },
+        "hairColorOptions": {
+            "value": "Red-violet"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Snake-like hair, suction-cupped fingers"
+        },
+        "heightAverage": {
+            "value": "7'10\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "150 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d6) lb."
+        },
+        "homeworld": {
+            "value": "Moltok"
+        },
+        "slanguage": {
+            "value": "Ho'Din"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "droidDistinctions": {
+            "value": ""
+        },
+        "droidLanguage": {
+            "value": ""
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Ho%27Din.webp",
+    "effects": [
+        {
+            "_id": "BtKp61FR6tISnPzc",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.nat.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.climb",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.multipleHearts",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "Ho'Din",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.details.species",
+                    "value": "Ho'Din",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Ho%27Din.webp",
+            "label": "Ho'Din",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

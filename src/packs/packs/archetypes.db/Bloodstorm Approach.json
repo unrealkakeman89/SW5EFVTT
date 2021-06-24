@@ -1,0 +1,39 @@
+{
+    "_id": "cjI8o9tAfKsuSGAP",
+    "name": "Bloodstorm Approach",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Berserker",
+        "description": {
+            "value": "<h1>Bloodstorm Approach</h1>\n<p>The Bloodstorm Approach is said to have originated from the ancient wookiee Hroufrasnooohn clan (which loosely translates to Bloodstorm in Galactic Basic), whose warriors performed gravity-defying feats with their flying vibroaxes through a combination of unorthodox techniques and a mystical belief in their own abilities. A berserker who follows this approach can hurl their devastating weapons at enemies with such power and skill that it completely blurs the line between melee and ranged combat.</p>\n<h2>Furious Throw</h2>\n<p>When you choose this approach at 3rd level, your throwing techniques have become a perfect extension of your melee prowess. You may count your thrown weapon attacks as if they were melee weapon attacks for the purposes of your class abilities and feats, such as your Berserker Rage and Reckless Attack abilities.</p>\n<h2>Returning Attacks</h2>\n<p>Also at 3rd level, any weapon you throw can ricochet back to you at your command. When you make a thrown weapon attack, you may have the weapon fly back to your hand immediately after the attack.</p>\n<h2>Throw Anything</h2>\n<p>At 6th level, your strength and mastery of throwing techniques has allowed you to throw vibroaxes as easily as others hurl vibrodaggers. When you are wielding a melee weapon that you have proficiency with, it gains the thrown property (range 20/60).</p>\n<h2>Fling People</h2>\n<p>Starting at 10th level, you learn to throw creatures as easily as you throw your weapons. When you successfully grapple a creature, you may immediately throw the creature:</p>\n<h3>Throw Friend</h3>\n<p>If the creature is a willing ally and volunteers to be grappled, you throw the target into any unoccupied space within 60 feet. That creature may immediately use its reaction to make one melee weapon attack, adding your Strength modifier to the attack\u2019s damage roll.</p>\n<h3>Throw Foe</h3>\n<p>If the creature is an opponent, you throw the target into any unoccupied space within 30 feet, where it takes damage equal to your Strength modifier and falls prone.</p>\n<h2>Raging Whirlwind</h2>\n<p>At 14th level, you can send your weapon spinning into a gravity-defying whirlwind of pain. Once per rage as an action, you may throw a weapon with the thrown property to a point you choose within 60 feet. The weapon fills the air as a cyclone in a 10 foot radius sphere centered on that point. A creature takes damage equal to the thrown weapon\u2019s damage + your Strength modifier + your Rage Damage when it enter\u2019s the whirlwind\u2019s area for the first time on a turn or starts its turn there. This effect ends when you command the weapon to return to you as a free action or your rage ends.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Bloodstorm%20Approach.webp",
+    "effects": []
+}

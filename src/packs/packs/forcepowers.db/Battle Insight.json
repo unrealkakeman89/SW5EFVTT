@@ -1,0 +1,94 @@
+{
+    "_id": "LWQ6tKJckB4JYbbJ",
+    "name": "Battle Insight",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You center your focus on a target within range. Through the Force, you gain a brief insight into the target\u2019s defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this power hasn\u2019t ended.</p>\n<p>This power benefits additional attacks at higher levels: two attacks at 5th level, three attacks at 11th level, and four attacks at 17th level.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "round"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 0,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Battle%20Insight.webp",
+    "effects": []
+}

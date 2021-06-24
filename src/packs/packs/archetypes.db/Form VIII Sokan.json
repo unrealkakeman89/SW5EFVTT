@@ -1,0 +1,39 @@
+{
+    "_id": "t5LS6epj3270S38n",
+    "name": "Form VIII: Sokan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form VIII: Sokan</h1>\n<p>Form VIII, also known as Persistence Form, uses determined movements followed by swift strokes to keep their opponents' footing unsteady. Those guardians who focus on Persistence Form make use of the terrain, trying to maneuver their opponents into vulnerable areas before dispatching them.</p>\n<h2>Bonus Proficiencies</h2>\n<p>You gain proficiency in heavy armor.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.Xg7qB6sQLw3V6V4p]{Sokan Lightsaber Form}, detailed in Chapter 6 of the Player&rsquo;s Handbook. If you already know this form, you can instead choose another lightsaber form. You can&rsquo;t take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Varactyl</h2>\n<p>Also at 3rd level, as a bonus action, you can enter an unyielding stance for one minute. While in this stance, you have advantage on ability checks and saving throws to shove or to avoid being moved, and you ignore difficult terrain. Additionally, once per turn, when you hit with a melee weapon attack, you can attempt to shove the target up to 10 feet away from you (no action required).</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you complete a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<h3>High Ground Defense</h3>\n<p>When an opponent within 5 feet of you makes a melee attack against you, you can use your reaction and expend a use of your Channel the Force to move to another space within 5 feet of that opponent without provoking opportunity attacks, imposing disadvantage on the roll. If the attack misses, you can attempt to shove the creature up to 10 feet away from you as a part of that same reaction.</p>\n<h2>Unwavering Self</h2>\n<p>Beginning at 7th level, if you fail a Strength, Dexterity, or Constitution saving throw, you can reroll the die. You must use the new roll.</p>\n<p>Once you've used this feature, you must complete a long rest before you can use it again. At 15th level you can use this feature twice between long rests.</p>\n<h2>Unhindered Charge</h2>\n<p>Starting at 15th level, when you move at least 10 feet before making a melee weapon attack, you deal additional damage equal to your Strength modifier.</p>\n<h2>Master of Persistence</h2>\n<p>At 20th level, you are an unrelenting force on the field of battle. Your Strength and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage from unenhanced weapons.</li>\n<li>You ignore effects that would reduce your speed.</li>\n<li>Once per turn, when you push a creature, you can move up to 10 feet as a part of this push without provoking opportunity attacks. If you end this movement within 5 feet of that creature, you can make one melee weapon attack (no action required).</li>\n</ul>\n<p>This effect ends early if you are incap-acitated or die. Once you've used this feature, you can't use it again until you complete a long rest.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Sokan%20Form.webp",
+    "effects": []
+}

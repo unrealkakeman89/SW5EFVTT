@@ -1,0 +1,99 @@
+{
+    "_id": "99X7GzLrrdVppgT9",
+    "name": "Siphon Life",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Drain Life</em></p>\n<p>A tendril of inky darkness reaches out from you, touching a creature you can see within range to drain life from it. The target must make a Dexterity saving throw. On a successful save, the target takes 2d8 necrotic damage, and the power ends. On a failed save, the target takes 4d8 necrotic damage, and until the power ends, you can use your action on each of your turns to automatically deal 4d8 necrotic damage to the target. The power ends if you use your action to do anything else, if the target is ever outside the power&rsquo;s range, or if the target has total cover from you.</p>\n<p>Whenever the power deals damage to a target, you regain hit points equal to half the amount of necrotic damage the target takes.</p>\n<p><strong><em><strong>Force Potency.</strong></em>&nbsp;</strong>When you cast this power using a force slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": "Have Drain Life Power"
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 60,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "4d8",
+                    "necrotic"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 5,
+        "school": "drk",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": true
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d8"
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Siphon%20Life.webp",
+    "effects": []
+}

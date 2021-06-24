@@ -1,0 +1,41 @@
+{
+    "name": "Mechanic's Kit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>This kit contains all of the commonly required tools to make repairs on constructs, such as ships, speeders, and turrets. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to perform repairs or install ship upgrades.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 25,
+        "price": 650,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Kit/Mechanic_s%20Kit.webp",
+    "_id": "kxtdNQ3crFH9UCuw"
+}

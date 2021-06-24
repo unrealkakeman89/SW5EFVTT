@@ -1,0 +1,106 @@
+{
+    "name": "Breaching Charge",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>A device used to blow holes in larger constructs, a breaching charge creates a devastating explosion. Installing a breaching charge takes 1 minute. The charge can be set with a 6-second timer, or detonated remotely using a remote detonator.</p>\n<p>Once detonated, the breaching charge destroys an unenhanced section of wall up to 10 feet wide, 10 feet tall, and 5 feet deep. Additionally, each creature within 20 feet of the charge must make a DC 13 Dexterity saving throw. A creature takes 3d6 fire damage and 3d6 kinetic damage on a failed save, or half as much on a successful one. A construct makes this save with disadvantage. If the breaching charge is installed on the construct, it automatically fails the saving throw.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 4,
+        "price": 750,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 20,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "charges"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "3d6",
+                    "fire"
+                ],
+                [
+                    "3d6",
+                    "bludgeoning"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": 13,
+            "scaling": "flat"
+        },
+        "weaponType": "improv",
+        "properties": {
+            "amm": false,
+            "fin": false,
+            "fir": false,
+            "foc": false,
+            "hvy": false,
+            "lgt": false,
+            "lod": false,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "spc": false,
+            "thr": false,
+            "two": false,
+            "ver": false
+        },
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Explosive/Breaching%20Charge.webp",
+    "_id": "g1Xig6pkFygVTs01"
+}

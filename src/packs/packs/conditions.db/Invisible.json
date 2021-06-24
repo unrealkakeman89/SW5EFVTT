@@ -1,0 +1,16 @@
+{
+    "_id": "hnigIBLIkBPKAEXT",
+    "name": "Invisible",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.VYOyccqWTEnlr3wE"
+        }
+    },
+    "content": "<h4 id=\"invisible\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">INVISIBLE</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">An invisible creature is impossible to see without the aid of powers or a special sense. For the purpose of hiding, the creature is heavily obscured. The creature&rsquo;s location can be detected by any noise it makes or any tracks it leaves.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">Attack rolls against the creature have disadvantage, and the creature&rsquo;s attack rolls have advantage.</li>\n</ul>",
+    "img": "icons/svg/eye.svg"
+}

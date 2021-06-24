@@ -1,0 +1,94 @@
+{
+    "_id": "BJDl4AQjFfR1RTxc",
+    "name": "Cloud Mind",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>Roll 5d8; the total is how many hit points of creatures this power can affect. Creatures within 20 feet of a point you choose are affected in order of their current hit points.</p>\n<p>Starting with the creature that has the lowest current hit points, each creature affected by this power falls unconscious. If the power ends, the sleeper takes damage, or someone uses an action wake the sleeper, they will be awoken.</p>\n<p>Subtract each creature\u2019s hit points from the total before moving on to the creature with the next lowest hit points. A creature\u2019s hit points must be equal to or less than the remaining total for that creature to be affected.</p>\n<p>This power has no effect on droids or constructs.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 2nd level or higher, you can roll an additional 2d8 for each slot level above 1st.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 20,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": 90,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "5d8",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 1,
+        "school": "lgt",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "2d8"
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Cloud%20Mind.webp",
+    "effects": []
+}

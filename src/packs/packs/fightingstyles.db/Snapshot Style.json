@@ -1,0 +1,20 @@
+{
+    "_id": "q8ymdcuJnvOjVpRu",
+    "name": "Snapshot Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at getting up close and personal with blaster weapons. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:</p><ul><li>When making a ranged weapon attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll.</li><li>Your ranged weapon attacks ignore one-quarter and half cover against targets within 30 feet of you.</li><li>When you roll a 1 on a blaster weapon damage die against a creature within 30 feet, you can reroll the die and must use the new roll, even if the new roll is a 1.</li><li>Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Snapshot%20Style.webp",
+    "effects": []
+}

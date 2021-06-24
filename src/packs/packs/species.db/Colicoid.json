@@ -1,0 +1,252 @@
+{
+    "_id": "aiI0l8VZupMmi00f",
+    "name": "Colicoid",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Colicoids are tall insectoids that held multiple appendages. Their bodies are chitinous and include a powerful stinging tail. A colicoid's physiology allows them to curl up into a protective ball and unfurl suddenly which allow them to catch their prey unaware. This rolling method of locomotion is second nature to the colicoids. Their insectoid minds provide them a natural defense against mind tricks.</p>\n<p>Some members are colicoid queens that are different as they are more than twice the size of even the largest warrior breeds. This makes them extremely dangerous and are the only colicoids that possess a unique poisonous stinger. This combined with their strength and size makes them deadly combatants, especially when within their nests. However, a queen tends to only fight when her young are being threatened.</p>\n<h2>Society and Culture</h2>\n<p>Though highly intelligent, colicoids are emotionless and cannibalistic in nature. Their ruthless cunning serves them well on the battlefield as it does on the negotiating table. It is known that long ago that they transferred these ruthless characteristics to their commerce activities. As a result, they are known to be brutally efficient in their business practices. They are noted for being vicious and calculating creatures that are driven by greed whilst showing little regard for others. The colicoids have numerous successful commercial ventures and hold strict business protocols.</p>\n<h2>Names</h2>\n<p>Colicoid names are typically very short and gender neutral, with surnames being based on the queen from which they spawned.</p>\n<p>&nbsp;&nbsp;<strong>First Names.</strong> Gal, Het, Kaf, Lyp, Nok, Yin</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Bek, Dor, Set, Tel, Wim, Zal</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Strength or Constitution score increases by 1.</p><p><em><strong>Age.</strong></em> Colicoids reach adulthood by 8 and live to be about 65.</p><p><em><strong>Alignment.</strong></em> Colicoid's emotionless nature causes them to tend towards balanced alignments, though there are exceptions.</p><p><em><strong>Size.</strong></em> Colicoids typically stand 6 to 6 and a half feet tall and generally weigh about 170 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p><p><em><strong>Acute Senses.</strong></em> You have proficiency in the Perception skill.</p><p><em><strong>Cannibalize.</strong></em> If you spend at least 1 minute devouring the corpse of a beast or humanoid, you gain temporary hit points equal to your Constitution modifier. Once you've used this feature, you must complete a short or long rest before you can use it again.</p><p><em><strong>Closed Mind.</strong></em> Colicoid brains have an unusual composition which gives them a natural defense against the Force. You have advantage on Wisdom and Charisma saving throws against force powers.</p><p><em><strong>Defensive Ball.</strong></em> You are able to curl into a rolling ball for extra protection. When you take the Dash action while you aren't wielding a shield, you gain a bonus to AC equal to half your proficiency bonus (rounded up) until the start of your next turn.</p><p><em><strong>Natural Armor.</strong></em> Due to your carapace and the shape of your body, you are ill-suited to wearing armor. Your carapace provides ample protection, however; it gives you a base AC of 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.</p><p><em><strong>Stinger.</strong></em> Your stinger is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal kinetic damage equal to 1d4 + your Strength modifier.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Colicoid. The Colicoid language uses sounds produced by the antennae and jointed legs of the colicoids, including humming sounds and clicks, which makes it difficult for other species to speak.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Brown, green, or purple"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Orange, purple, red, or yellow"
+        },
+        "distinctions": {
+            "value": "Carnivorous insectoids, four legs, defensive \"ball mode\""
+        },
+        "heightAverage": {
+            "value": "5'2\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "120 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Colla IV"
+        },
+        "slanguage": {
+            "value": "Colicoid"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Colicoid",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "RtHXk9SkonTC4Z8L",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "RtHXk9SkonTC4Z8L",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "RtHXk9SkonTC4Z8L",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "RtHXk9SkonTC4Z8L",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.prc.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "RtHXk9SkonTC4Z8L",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Perception"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "17",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "RtHXk9SkonTC4Z8L",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "RtHXk9SkonTC4Z8L",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "colicoid",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "RtHXk9SkonTC4Z8L",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Colicoid.webp",
+    "effects": [
+        {
+            "_id": "lNQzl0PRPGz1LnkR",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": "None"
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Colicoid",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 25,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.prc.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "17+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "colicoid",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.closedMind",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.cannibalize",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "macro.execute",
+                    "value": "\"Ability Score Increase\" @actor \"Colicoid\"",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Colicoid.webp",
+            "label": "Colicoid",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

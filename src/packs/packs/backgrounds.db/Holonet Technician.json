@@ -1,0 +1,108 @@
+{
+    "name": "Holonet Technician",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You worked to keep the holonet up and running, whether being employed directly by an institution or indirectly by people across the galaxy. Your work has allowed you to uncover secrets most would never know existed."
+        },
+        "flavorName": {
+            "value": "Employment Type"
+        },
+        "flavorDescription": {
+            "value": "<p>There are many people who service parts of the holonet, and many more who want to control the flow of information. Choose which best suits your character or roll on the table below.</p>"
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Employment Type</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Inter-world Government</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Inter-world Corporation</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">World Government</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Crime Syndicate</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Independent Contractor</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Broadcasting Service</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Small Corporation</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Darknet Broadcasting</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Investigation, Stealth, and Technology"
+        },
+        "toolProficiencies": {
+            "value": "Choose two from Mechanic's Kit, Security Kit, and Slicer's Kit"
+        },
+        "languages": {
+            "value": null
+        },
+        "equipment": {
+            "value": "A set of common clothes, an old transceiver antennae, two tools of your choice, and a belt pouch containing 50 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Holonets technicians vary from boring officer worker to criminal information broker.   "
+        },
+        "featureName": {
+            "value": "Holonet Access"
+        },
+        "featureText": {
+            "value": "You have the codes to a distributor station which gives you access to all information sent through it. This information comes in the form of useful (and sometimes sensitive) information on a topic you choose each day to tune into; this information isn't always reliable or interesting. Regardless of the quality of the information, it's relevance most likely pertains to your locale.\r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Stealthy</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Techie</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Keen Mind</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Practiced</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Tech Dabbler</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I watch and record people secretly then review it later.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I talk like I'm on a game show or am a holonet broadcaster at all times.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I prefer to be left to my own devices.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I like to record people dying and upload it to the holonet.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">There's no such thing as 'real news'.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Information is a weapon that I've mastered.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I am always interested in learning new things.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I prefer interacting indirectly.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Duty. It is my duty to keep all people in contact so that everything will continue working as intended. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Autonomy. Information is meant to confuse and overwhelm. I choose to control my own mind by controlling what information I have access to. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Happiness. The more hope and joy I spread, the more laughs I bring; that is why I do what I do. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Popularity. I want to become the most renown being in all the galaxy, and I'll destroy the competition. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Knowledge. I don't care who's ideology is right, I care who's ideology will let me learn and document information. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Self-Fulfillment. I'm just here for the fun of it, no matter what happens it'll make a great story one day. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I tend to think any broadcaster is a fraud immediately unless they prove otherwise.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I tend to repeat the same mistake unless it is pointed out to me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I will ramble endlessly about a random holonet broadcast that I saw which I think was the best ever.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I think everyone who works a normal job is a drone without the ability to think freely.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I describe everything using references to obscure holonet recordings.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I've become completely desensitized to violence and graphic imagery, to the point where I laugh in an off putting way whenever I see it.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I will do anything to free people from censorship.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I can't let anyone know I work for a crime lord.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I see truth in an ideology, and I must spread that ideal to all.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I got a man killed by giving him a platform to speak, I can't let that happen again.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm on the run from a government organization that I spread propaganda against and who's propaganda I destroy.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I have a famous person's private logs, and I don't know what to do with them.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Holonet%20Technician.webp",
+    "effects": [
+        {
+            "_id": "39CFIfrRCO58Z3zM",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Holonet Technician",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Holonet Technician",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "23BZjLPc6dRjhG0i"
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "w7Hb4Rru8t27O2uL",
+    "name": "Additional Maneuvers (Scholar: Explorer)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new maneuvers which reflect your studies in maps and hidden routes. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>EFFECTIVE FLANKING</strong></h4>\n<p>Whenever you use your Critical Analysis ability, you can expend a superiority die to make all creatures of your choice affected by Critical Analysis to make a Wisdom saving throw. If at least one creature fails the save, roll a superiority die.</p>\n<p>On a failed save, the number rolled is added to both the attack and damage roll for the first attack against the creature before the start of your next turn.</p>\n<hr />\n<h4><strong>ENCOURAGING PACE</strong></h4>\n<p>You can use a bonus action to expend a superiority die. When you do so, a number of friendly creatures equal to your Intelligence modifier can immediately use their reaction to move a number of feet equal to 5 times the number rolled on the superiority die.</p>\n<hr />\n<h4><strong>NO ESCAPE</strong></h4>\n<p>Whenever you or a creature you can see makes an opportunity attack, you can expend a superiority die. If the attack hits, roll the superiority die and add the result to the damage roll. Additionally, the affected creature&rsquo;s movement speed becomes 0 until the start of its next turn.</p>\n<hr />\n<h4><strong>PRECISE MOVEMENTS</strong></h4>\n<p>When you or a friendly creature you can see that can see or hear you moves, you can expend a superiority die to give them verbal guidance and encouragement. Roll a superiority die. The creature&rsquo;s speed increases by 5 times the number rolled, and they can move through the space of hostile creatures as if it were difficult terrain.</p>\n<hr />\n<h4><strong>SNARE TRAPS</strong></h4>\n<p>You can use an action and expend a superiority die to trigger painful snare traps. When you do, one creature within 60 feet of you or all creatures that are targeted by your Critical Analysis has to make a Dexterity (Acrobatics) check against your maneuver save DC.</p>\n<p>On a failure, they take damage equal to the roll and their movement speed becomes 0 until the end of your next turn.</p>\n<hr />\n<h4><strong>SUPERIOR COUNTERATTACK</strong></h4>\n<p>Whenever an opportunity attack targets a friendly creature other than you that is in an area targeted by your Critical Analysis feature, you can expend a superiority die. The creature can use its reaction to make a single weapon attack, adding the superiority die roll to the attack roll.</p>\n<hr />\n<h4><strong>WRESTLE AND DRAG</strong></h4>\n<p>When you or a creature that is the target of your Critical Analysis makes an Strength (Athletics) check to grapple or shove a creature, you can expend a superiority die and add it to the roll. Until the end of your turn, you can drag the grappled creature with you without your speed being halved. Additionally, if you move at least 5 feet, the creature takes damage for each foot moved up to an amount equal to half your Scholar level + your Intelligence modifier.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

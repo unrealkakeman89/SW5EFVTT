@@ -1,0 +1,71 @@
+{
+    "_id": "H00QpZIVvyleKRdW",
+    "name": "Unstoppable Force (Berserker: Juggernaut)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, your momentum makes you nigh unstoppable. While raging, you can move through a hostile creature&rsquo;s space regardless of that creature&rsquo;s size. When you do so, you must make a Strength (Athletics) check contested by the target&rsquo;s Strength (Athletics) check. If you move at least 10 feet before moving through a hostile creature&rsquo;s space, and that creature is your size or smaller, they have disadvantage on the check. If you succeed, you don&rsquo;t treat the movement as difficult terrain, the creature is pushed 5 feet in a direction of your choice, and you don&rsquo;t provoke opportunity attacks from that creature until the end of your turn.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

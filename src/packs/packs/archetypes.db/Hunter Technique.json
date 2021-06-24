@@ -1,0 +1,39 @@
+{
+    "_id": "Ls55Gc4qha7Muacz",
+    "name": "Hunter Technique",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Scout",
+        "description": {
+            "value": "<h1>Hunter Technique</h1>\n<p>Some scouts seek to master weapons to better protect civilization from the terrors of their enemies. Followers of the Hunter Technique learn specialized fighting techniques for use against the most dire threats, from an onslaught of soldiers to towering walkers.</p>\n<h2>Hunter's Prey</h2>\n<p>When you choose this technique at 3rd level, you gain one of the following features of your choice.</p>\n<h3>Colossus Slayer</h3>\n<p>Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it's below its hit point maximum. You can deal this extra damage only once per turn, and this damage is the same type as the weapon's damage.</p>\n<h3>Giant Killer</h3>\n<p>When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</p>\n<h3>Horde Breaker</h3>\n<p>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon, no action required.</p>\n<h2>Mark of the Hunter</h2>\n<p>Also at 3rd level, when you use your Ranger's Quarry feature, the first time you make a tech or weapon attack against the target of your Ranger's Quarry each round, roll your Ranger's Quarry Damage Die and add it to the roll.</p>\n<h2>Defensive Tactics</h2>\n<p>Beginning at 7th level, you gain one of the following features of your choice.</p>\n<h3>Escape the Horde</h3>\n<p>Opportunity attacks against you are made with disadvantage.</p>\n<h3>Multiattack Defense</h3>\n<p>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</p>\n<h3>Steel Will</h3>\n<p>You have advantage on saving throws against being frightened.</p>\n<h2>Multiattack</h2>\n<p>Starting at 11th level, you gain one of the following features of your choice.</p>\n<h3>Volley</h3>\n<p>You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon's range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</p>\n<h3>Whirlwind Attack</h3>\n<p>You can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target.</p>\n<h2>Superior Hunter's Defense</h2>\n<p>At 15th level, you gain one of the following features of your choice.</p>\n<h3>Evasion</h3>\n<p>When you are subjected to an effect, such as a consular's @Compendium[sw5e.forcepowers.16N8bYdqJ8bvDPQX]{Force Storm} or an engineer's @Compendium[sw5e.techpowers.NWjxsCnJIzNxIUzH]{Explosion}, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on a saving throw, and only half damage if you fail.</p>\n<h3>Stand Against the Tide</h3>\n<p>When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attac against another creature (other than itself) of your choice.</p>\n<h3>Uncanny Dodge</h3>\n<p>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Techcaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Hunter%20Technique.webp",
+    "effects": []
+}

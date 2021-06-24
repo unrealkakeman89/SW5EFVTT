@@ -1,0 +1,231 @@
+{
+    "_id": "WqN3AGl9GleyIUUj",
+    "name": "Vintian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Vintians have flinty, flaky surfaces. To some species, vintians resemble rocks or boulders. Despite tending to stand still for long periods of time, Vintians are capable of independent movement. Vintians rest by recrystalyzing.</p>\n<p>Vintians have an incredibly strong grip, which limits their manual dexterity. Additionally, due to their home planet's proximity to its sun, causing perpetual daylight, vintians have a preternatural fear of the dark.</p>\n<p>While vintians have no need for armor, they like to decorate themselves, be it with clothing, paint, or even moss.</p>\n<h2>Society and Culture</h2>\n<p>Vintians participate in commercial spaceflight operations and some are capable navigators. At least one vintian was known to frequent bars and clubs and was considered to have a \"wild-man\" personality. However vintians can also be quite stoic.</p>\n<p>Despite their appearance, vintians are actually quite malleable, personality-wise. They differ greatly from each other, though most vintians share a great appreciation for humor.</p>\n<p>Vintian society has a rotational governing body. Each vintian is obligated to spend a century serving in public office, beginning no sooner than their hundredth birthday, and they can't leave their home planet until they&rsquo;ve completed their service.</p>\n<h2>Names</h2>\n<p>Vintian names vary drastically, though they do not differentiate by gender. Vintians don't use surnames, as they believe they are one family.</p>\n<p><strong>&nbsp; Names.</strong> Anerohl, Bahlbhoa, Geode, Gorge, Dwaagn, Eerohde, Hahrde, Peht, Peeturh, Stixn, Stoahne</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</p>\n<p><em><strong>Age.</strong></em> Vintians reach adulthood at age 10 and can live for millennia.</p>\n<p><em><strong>Alignment.</strong></em> Vintians' stoic and solid nature causes them to tend toward lawful alignments, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Vintians typically stand 5 to 6 feet tall and generally weigh about 1,400 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed. </strong></em>Your base walking speed is 30 feet.</p>\n<p><em><strong>Type.</strong></em> Your creature type is both object and humanoid.</p>\n<p><em><strong>Camouflage.</strong></em> Due to your rock-like appearance, while not moving, you have advantage on Dexterity (Stealth) checks.</p>\n<p><em><strong>Heavy.</strong></em> You have resistance to damage caused by falling. Additionally, if you land on a creature after falling from greater than 10 feet, you are instead immune to the damage caused by falling.</p>\n<p><em><strong>Geologist.</strong></em> You have proficiency in your choice of archaeologist kit or scavenging kit. Additionally, while outdoors, you can accurately tell the current weather.</p>\n<p><em><strong>Naturally Charismatic.</strong></em> You are proficient in the Persuasion and Deception skills.</p>\n<p><em><strong>Solid.</strong></em> You have disadvantage on ability checks and saving throws that would grapple or restrain you, and you have advantage on ability checks and saving throws that would forcefully move you.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Vintesh. Vintesh is a complex language that can only by spoken by those without a mouth.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black, blue, gray"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "None"
+        },
+        "colorScheme": {
+            "value": ""
+        },
+        "distinctions": {
+            "value": "Indistinguishable appendages and facial features, rock-like appearance"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "1000 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d50) lb."
+        },
+        "homeworld": {
+            "value": "Vint"
+        },
+        "slanguage": {
+            "value": "Vintesh"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "AFD"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Abyssin",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.custom",
+                    "value": "Abyssin",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language Custom"
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        },
+        "core": {
+            "sourceId": "Item.bLLcshN8uclCQ9dC"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Vintian.webp",
+    "effects": [
+        {
+            "_id": "8q5Jxe9HgYLaFKMI",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Vintian",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.per.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.dec.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "Vintesh",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Vintian.webp",
+            "label": "Vintian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

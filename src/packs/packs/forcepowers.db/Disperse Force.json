@@ -1,0 +1,94 @@
+{
+    "_id": "ebWGew0oR2CG7S43",
+    "name": "Disperse Force",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Saber Ward</em></p>\n<p>This power absorbs damage from incoming energy attacks, lessening its effect on you and distributing it throughout your body. You have resistance to the triggering damage type until the start of your next turn. Also, you gain 5 temporary hit points to potentially absorb the attack. These temporary hit points last until the start of your next turn.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 2nd level or higher, the temporary hit points increases by 5 for each slot level above 1st.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "reaction",
+            "cost": 1,
+            "condition": "which you take when you take cold, energy, fire, ion, lightning, or sonic damage"
+        },
+        "duration": {
+            "value": 1,
+            "units": "round"
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 1,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "5 additional Temp HP"
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Disperse%20Force.webp",
+    "effects": []
+}

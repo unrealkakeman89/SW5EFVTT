@@ -1,0 +1,633 @@
+{
+    "_id": "ZoMhbhAjtTMGMxGA",
+    "name": "Tauntaun",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 8,
+                "proficient": 0,
+                "min": 3,
+                "mod": -1,
+                "save": -1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 2,
+                "proficient": 0,
+                "min": 3,
+                "mod": -4,
+                "save": -4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 8,
+                "proficient": 0,
+                "min": 3,
+                "mod": -1,
+                "save": -1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 5,
+                "proficient": 0,
+                "min": 3,
+                "mod": -3,
+                "save": -3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "9",
+                "min": 0,
+                "formula": ""
+            },
+            "hp": {
+                "value": 15,
+                "min": 0,
+                "max": 15,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "2d10+4"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": -1,
+                "prof": 0,
+                "total": -1
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 50,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 15,
+                "min": 0,
+                "max": 15
+            },
+            "bar2": {
+                "value": 9,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 9"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"I thought they smelled bad on the outside!\"</i></p><p><span style=\"font-size: 13px\">- Han Solo</span></p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Designation</u></td><td style=\"line-height: 1.42857\">Non-sentient</td></tr><tr><td style=\"line-height: 1.42857\"><u>Classification</u></td><td style=\"line-height: 1.42857\">Lizard</td></tr><tr><td style=\"line-height: 1.42857\"><u>Races</u></td><td style=\"line-height: 1.42857\"><ul><li>Climbing tauntaun</li><li>Giant tauntaun</li><li>Glacier tauntaun</li><li>Scaly tauntaun</li></ul></td></tr><tr><td style=\"line-height: 1.42857\"><u>Average height</u></td><td style=\"line-height: 1.42857\">1,3 - 2 meters at the shoulder</td></tr><tr><td style=\"line-height: 1.42857\"><u>Hair color</u></td><td style=\"line-height: 1.42857\">White</td></tr><tr><td style=\"line-height: 1.42857\"><u>Homeworld</u><br></td><td style=\"line-height: 1.42857\"><ul><li>Hoth</li><li>Umbara</li></ul></td></tr><tr><td style=\"line-height: 1.42857\"><u>Habitat</u><br></td><td style=\"line-height: 1.42857\">Snowy plains<br></td></tr><tr><td style=\"line-height: 1.42857\"><u>Diet</u></td><td style=\"line-height: 1.42857\">Omnivorous</td></tr></tbody></table><p>Tauntauns (pronounced /t\u00e4n'-t\u00e4n/) were a species of omnivorous reptomammals who were indigenous to the icy planet of Hoth. Tauntauns were commonly used as pack animals during the Rebel Alliance's stay at Hoth. Tauntauns were also used as patrol mounts when it was learned that the Rebel Alliance's own vehicles could not cope with the very cold weather.</p><h3>Anatomy</h3><p>Tauntauns shared similar characteristics with kybucks, however were genetically different. They featured a mix of traditionally reptilian features, such as a lack of mammary glands and scaly skin. They had a layer of blubber under fur which ranged from gray to white and covered their bodies. They also have mammalian characteristics, as were also warm-blooded, and gave birth to live young; and in other ways, they can be also considered to be marsupials due to their appearance and mating process. Known subspecies included the glacier tauntaun, scaly tauntaun, climbing tauntaun, and the giant tauntaun (also referred to as the common tauntaun).<br></p><p>Tauntauns possessed numerous evolutionary adaptations to the bitter, cold environments of Hoth. Those adaptations included wide feet for running across icy surfaces, swiveling ears, thick blubber, chambered lungs, two pairs of nostrils, and a digestive system that excreted wastes as oils through skin pores, producing a distinctive odor. Their four nostrils served to warm inhaled air. Their larger pair were used to bring oxygen into the blood stream during physical exertion. When lying down to sleep, the larger pair sealed to keep snow out, and the second pair took over. A well-muscled tail extended a meter from their bodies to help maintain balance. They had clawed feet and hands to gain purchase on the ice. Their feet were also tridactyl, with splayed toes to act as natural snowshoes. The most important feature of tauntaun physiology was their unique blood mixture that was resistant to the tundra winds and kept their organs from freezing.</p><p>Despite these adaptations, tauntauns sought shelter at night to avoid the extreme nighttime temperatures of Hoth. When shelter was unavailable, they used their evolved ability to hibernate during low nighttime temperatures, maintaining a lukewarm internal temperature. Some tauntaun breeds actually froze to death if awakened after sundown. When not eating the fungus that grew beneath the frost layer or lichens found in glacial caves or valleys the omnivorous tauntauns were also known to eat ice scrabblers and Hoth hogs.</p><p>Tauntauns were matriarchal animals and lived in herds of twenty to thirty individuals. Horn-butting matches were common among both males and females who hoped to establish dominance. Tauntauns were able to give birth to two young at a time, which would occur twice within one Hoth year. Though they lacked mammary glands, tauntauns could regurgitate a form of \"milk\" produced in their crops.</p><p>They tended to be ill-tempered, a natural result of evolving in such an inhospitable environment. A peculiar form of \"attack\" among the females, and some of the males, during mating season was their spitting ability. Tauntauns would spit at each other's eyes, with surprising accuracy. While their smelly saliva was by no means deadly, it was quite inconvenient to have any liquid freeze near their eyes in Hoth's blizzards.</p><h3>Predators</h3><p>Tauntauns were the primary prey of the wampas. Besides their horns, natural camouflage, and their safety in numbers, tauntauns also relied on their ability to run 90 kilometers-per-hour to survive. The wampas got around this by ambushing their prey -- attempting to kill them before they could escape. The wampas would then drag the tauntauns to their caves and either eat them or hang their corpses upside down.</p><h3>Domestication</h3><p>If domesticated, tauntauns would require a grooming parlor to breed. Such a place would stink like the dirtiest imaginable kitchen to a sentient.</p><p>Although they were stubborn creatures, tauntauns made ideal patrol mounts for the Rebel Alliance's Echo Base in the absence of repulsorcraft, which were unreliable in Hoth's extremely cold climate. Personnel such as Corporal Vyn Rolado were responsible for taming the alpha female of a tauntaun pack, which allowed the Alliance to easily train the remainder of the pack. It was discovered that the ultrasonic frequencies given off by certain droid models irritated the mounts, and they would use their tail to swat any of those droids who happened to wander too close. Tauntauns were occasionally attacked by wampas in the ice caves of the rebel base.</p><p>The Hutt gangster Jabba Desilijic Tiure kept the head of a tauntaun as a trophy hanging on a wall in his throne room. Captain Ozzik Sturn also had a head of a tauntaun in his private quarters on Kashyyyk.</p><p>Some years after the Galactic Civil War had ended, tauntauns were exported from Hoth to the cold-climate regions of other worlds such as Coruscant. They were used as mounts, beasts of burden and tourist attractions. However, they longed for their old home and became surly and stubborn because of this homesickness.</p><p>Also by the time of the Second Galactic Civil War, small stuffed tauntauns were available as children's toys. The smooth, silky fur of the plush made it pleasant for young children to snuggle with. Jacen Solo had given one to his daughter Allana as a gift to make sure that she and her mother Tenel Ka were not the sacrifice he had to make to become a Sith Lord. The toy inspired her to want a real one from the Coruscant Livestock Exchange and Exhibition, but her grandfather Han Solo denied her due to his experience on Hoth, stating the creature's unpleasant smell.</p><p>The droid L9-G8 once made tauntaun chowder for the Prince of Tamboon.</p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "beast",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 0.125,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 25
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "lg",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "\u2014"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/127_-_Tauntaun/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Tauntaun",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/127_-_Tauntaun/token.webp",
+        "tint": null,
+        "width": 2,
+        "height": 2,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 10,
+        "brightSight": 10,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "ZoMhbhAjtTMGMxGA",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "ZmM4NmJlMjk1MjRl",
+            "name": "Bite",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+5, Reach 5 ft., One target. <em>Hit : </em>5 (1d4+3) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/127_-_Tauntaun/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

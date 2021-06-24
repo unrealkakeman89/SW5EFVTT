@@ -1,0 +1,245 @@
+{
+    "_id": "nik0YqAo2FAHFejK",
+    "name": "Shistavanen",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Shistavanen have pronounced muzzles, sharp claws, long pointed teeth, and pointed ears set on top of their heads. Shistavanen also possess large glowing eyes, and can also run at high speeds for long periods without getting tired, alternately using two or four limbs. As predators, they possess keen hearing and smell and excellent night vision.</p><h2>Society and Culture</h2><p>As a species, the Shistavanen are isolationists. The species colonized all the unpopulated worlds in the Uvena system to prevent them from being settled by non-Shistavanen, and their restrictive trade laws (which are unapologetic in how they favor their own kind over off-world traders).  Most of their society uses technology similar to the rest of the galaxy, though some parts of Uvena Prime use slightly less sophisticated technology.\r\n\r\nA minority of Shistavanen are more outgoing, and travel the galaxy's hyperlanes. Even these Shistavanen usually remain by themselves or with other Shistavanen. Due to their natural predatory instincts, Shistavanen commonly find employment as scouts, mercenaries and bounty hunters. Many other species react badly to Shistavanen, since their isolationist culture makes them an unfamiliar sight, and their predatory appearance put other species on edge.</p><h2>Names</h2><p>Shistavanen first names typically sound graceful, while their surnames are more gutteral. Surnames are familial.</p><strong>&nbsp;&nbsp;Male Names.</strong> Bustuc, Hulvav, Kembol, Nemdav, Sirul</p><strong>&nbsp;&nbsp;Female Names.</strong> Gaeft, Laer, Recloz, Shaalir, Thovnim</p><strong>&nbsp;&nbsp;Surnames.</strong> Ghirat, Lakrevl, Meq, Nukroft, Rosk",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Constitution score increases by 1.</p><p><em><strong>Age.</strong></em> Shistavanen reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Shistavanen are private and tend toward no particular alignment. The best and worst are found among them.</p><p><em><strong>Size.</strong></em> Shistavanen typically stand around 6 feet tall and weigh between 140 and 190 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Fang and Claw.</strong></em> You are proficient with your fangs and claws, which deal 1d4 kinetic damage on a hit.</p><p><em><strong>Forced March.</strong></em> Shistavanen are able to maintain a fast pace longer than other species. Shistavanen have advantage on Constitution saving throws made to avoid Exhaustion due to prolongued travel, as described in Chapter 8.</p><p><em><strong>Keen Hearing and Smell.</strong></em> You have advantage on Wisdom (Perception) checks that involve hearing or smell.</p><p><em><strong>Regenerative.</strong></em> When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Shistavanen. The Shistavanen language is characterized by its barks and growls.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black or light to dark brown"
+        },
+        "hairColorOptions": {
+            "value": "Black, light to dark brown, grey (usually with age)"
+        },
+        "eyeColorOptions": {
+            "value": "Black or gray"
+        },
+        "distinctions": {
+            "value": "Lupine appearance, enhanced senses, increased speed, increased strength, healing ability"
+        },
+        "heightAverage": {
+            "value": "5'7\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "140 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Uvena Prime"
+        },
+        "slanguage": {
+            "value": "Shistavanen"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Shistavanen",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "NFnjQJd20k0SzLj2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "NFnjQJd20k0SzLj2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "NFnjQJd20k0SzLj2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "NFnjQJd20k0SzLj2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "NFnjQJd20k0SzLj2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "NFnjQJd20k0SzLj2",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "NFnjQJd20k0SzLj2",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "shistavanen",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "NFnjQJd20k0SzLj2",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Shistavanen.webp",
+    "effects": [
+        {
+            "_id": "uIcJ7M92lT53GK8n",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Shistavanen",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "shistavanen",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.regenerative",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Shistavanen.webp",
+            "label": "Shistavanen",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

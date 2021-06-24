@@ -1,0 +1,71 @@
+{
+    "_id": "2orm91vcgAPZOZHE",
+    "name": "Additional Maneuvers (Scholar: Slicer)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain access to new maneuvers which reflect your understanding of tech casting. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>AUTOMATIC STARTUP SEQUENCE</strong></h4>\n<p>When a creature makes a saving throw against a tech power you cast, you may expend a superiority die, subtracting the number rolled from their total. You can use this maneuver before or after the creature makes saving throw, but before the GM determines whether or not the creature fails.</p>\n<hr />\n<h4><strong>FAST ACCESS PROGRAMS</strong></h4>\n<p>When you cast a tech power of 1st-level or higher that has a casting time of 1 action, you can expend a superiority die to change the casting time to 1 bonus action for this casting.</p>\n<hr />\n<h4><strong>FIREWALL</strong></h4>\n<p>When you or an ally you can see within 60 feet make a saving throw against a tech power, you can use your reaction to expend a superiority die, adding the number rolled to the result of that saving throw.</p>\n<hr />\n<h4><strong>HACKED COMMUNICATIONS</strong></h4>\n<p>As an action, you may expend a superiority die, and choose any number of creatures that you can see within 60 feet of you that have commlinks, headcomms, or other such communications devices. Each creature must succeed on a Constitution saving throw or take sonic damage equal to the number rolled on the dice + your Intelligence modifier (minimum of one). Additionally, on a failed save, their communication devices are disabled until rebooted.</p>\n<hr />\n<h4><strong>OVERCAPACITY POWERS</strong></h4>\n<p>When you cast a tech power of 1st-level or higher, you may expend a superiority die to cast the power at a higher level, provided is does not exceed your Maximum Power Level. Roll the superiority die, and add it to the level at which you are casting the power. You can choose to cast it at this new power level or lower.</p>\n<hr />\n<h4><strong>RUNTIME EXTENSION</strong></h4>\n<p>When a tech power you cast with a duration of 1 minute or longer reaches the end of its duration, you may expend a superiority die to extend the duration of the power a number of rounds equal to the number rolled on your superiority die.</p>\n<hr />\n<h4><strong>SUBTLE EXECUTION</strong></h4>\n<p>When you cast a tech power, you may expend a superiority die to cast the power without any visual or auditory cues. Creatures have disadvantage on any Intelligence (Investigation) or Wisdom (Perception) checks made to determine if you were the caster.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

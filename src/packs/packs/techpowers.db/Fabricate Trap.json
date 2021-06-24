@@ -1,0 +1,93 @@
+{
+    "_id": "1IaNYJjpFj6tGXpD",
+    "name": "Fabricate Trap",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>When you cast this power, you create a trap that will later trigger in response to a certain condition. You must attach it either to a surface (such as a table or a section of floor or wall) or within an object that can be closed or turned on (such as a book, door, or computer terminal) to conceal the trap. The trap can cover an area no larger than 10 feet in diameter. At the GM's discretion, certain actions may cause the trap to break or be rendered inoperative.</p>\n<p>The trap is well disguised, and generally and requires a successful Intelligence (Investigation) check against your tech save DC to be found.</p>\n<p>You decide what triggers the trap when you cast the power, such as entering a certain area or powering on the object. You can further refine the trigger so the trap activates only under certain circumstances or according to physical characteristics (such as height or weight) or creature kind (for example, the trap could be set to go off only droids or gungans). You can also set conditions for creatures that don't trigger the trap, such as those who say a certain password.</p>\n<p>You may only have one instance of this trap active at a time. If you cast another trap before the previous one is triggered, the other trap becomes inert.</p>\n<p>When you create the trap, choose an explosive trap or a power trap:</p>\n<p><em><strong>Explosive Trap.</strong></em> When triggered, the trap erupts in a 20-foot-radius sphere centered on the trap. The explosion spreads around corners. Each creature in the area must make a Dexterity saving throw. A creature takes 5d8 acid, cold, fire, lightning, or sonic damage on a failed saving throw (your choice when you create the trap), or half as much damage on a successful one.</p>\n<p><em><strong>Power Trap.</strong></em> You can store a prepared tech power of 3rd level or lower in the trap by casting it as part of creating the trap. The trap must target a single creature or an area. The power being stored has no immediate effect when cast in this way. When the trap is triggered, the stored power is cast. If the trap has a target, it targets the creature that triggered the trap. If the power affects an area, the area is centered on that creature. If the power requires concentration, it lasts until the end of its full duration.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 4th level or higher, the damage of an explosive trap increases by 1d8 for each slot level above 3rd. If you create a power trap, you can store any power of up to the same level as the slot you use for this power.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "hour",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "spec"
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "touch"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "int",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 3,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d8"
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/FabricateTrap.webp"
+}

@@ -1,0 +1,864 @@
+{
+    "_id": "amVQEIm6xctro76O",
+    "name": "Katarn",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 16,
+                "proficient": 1,
+                "min": 3,
+                "mod": 3,
+                "save": 5,
+                "prof": 2,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 2,
+                "proficient": 0,
+                "min": 3,
+                "mod": -4,
+                "save": -4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 6,
+                "proficient": 1,
+                "min": 3,
+                "mod": -2,
+                "save": 0,
+                "prof": 2,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "13",
+                "min": 0,
+                "formula": ""
+            },
+            "hp": {
+                "value": 37,
+                "min": 0,
+                "max": 37,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "5d10+10"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 3,
+                "prof": 0,
+                "total": 3
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 50,
+                "fly": 0,
+                "swim": 0,
+                "walk": 50,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 37,
+                "min": 0,
+                "max": 37
+            },
+            "bar2": {
+                "value": 13,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 13"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"Once the katarn hunted us, and the highlands of the forest was theirs for a thousand generations. But their hunting did not destroy us. Nothing of this world is to be squandered, my son. The katarn gave the Wookiees its strength and courage, and allowed the Wookiees to find the rrakktorr. Now we repay them by returning the gift. Someday it will be their turn again.\"</i></p><p><span style=\"font-size: 13px\">- Chewbacca to Lumpawarrump</span></p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Homeworld</u><br></td><td style=\"line-height: 1.42857\">Kashyyyk<br></td></tr><tr><td style=\"line-height: 1.42857\"><u>Diet</u><br></td><td style=\"line-height: 1.42857\"><p>Carnivore</p></td></tr></tbody></table><p>A katarn was a predatory quadruped reptomammal native to the planet Kashyyyk.</p><h3>Overview</h3><p>Katarns had slender bodies with rodent-like tails, and narrow faces leading back to a cartilaginous ridge protecting their neck and shoulders. Their paws had opposable digits, and their lower limbs were covered with sharp spurs, both of which allowed them to climb and hang from the branches of the giant wroshyr trees and feed on tree-burrowers.</p><p>Katarns were creatures of great importance in the Wookiees' culture. The Wookiees, who called the katarn the \"Old Prince\", hunted them in their hrrtayyk ceremony. Wookiees said the katarns were born by a wound to Kashyyyk that fell from the sky ages ago and made a home for the katarn. The katarns then hunted the Wookiees, thus unlocking the Wookiees' \"inner fire\". To thank the katarn, the Wookiees hunted them. They believed that someday it would be the katarn's turn to hunt the Wookiees again.</p><p>Katarns were ferocious and merciless predators which would track their prey for long periods before choosing an opportune moment to strike. They had been described as \"silent, shadowy, and deadly,\" qualities which made them the mascot of Judder Page's Katarn Commandos.</p><p>Some katarns were domesticated as the war-mounts of Wookiee dragon troopers. On another note, there was a small subspecies of katarn that populated the Shadowlands. These katarns had no climbing abilities, as evidenced by their four large trunk-like legs. They also had two small dangling manipulator arms. They had more rounded out edges than the main katarn species and two large tusks. The reformed Revan battled several of these in his second trip to find the Kashyyyk star map.</p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "beast",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 2,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 450
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "lg",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "\u2014"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 13,
+                "prof": 2,
+                "total": 3
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ste": {
+                "value": 2,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 17,
+                "prof": 4,
+                "total": 7
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/083_-_Katarn/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Katarn",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/083_-_Katarn/token.webp",
+        "tint": null,
+        "width": 2,
+        "height": 2,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 10,
+        "brightSight": 10,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "amVQEIm6xctro76O",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "YmZkZjFjMWVkMmY3",
+            "name": "Diving Ambush",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>If the katarn drops on a target from above and then hits it with a bite attack on the same turn, the target takes an extra 3 (1d6) kinetic damage per 10 feet fallen, up to 21 (6d6). If the target is a creature, it must succeed on a DC 15 Strength saving throw or be knocked prone. If the katarn misses, it takes half normal falling damage.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/083_-_Katarn/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "OTZlYTk3ZGU3Y2Rh",
+            "name": "Keen Sight and Smell",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The katarn has advantage on Wisdom (Perception) checks that rely on sight and smell.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/083_-_Katarn/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YzE4MDZlN2FhNWRh",
+            "name": "Bite",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+5, Reach 10 ft., One target. <em>Hit : </em>11 (2d8+2) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 10,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "2d8+2",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/083_-_Katarn/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NjM1Mjc1MzlkMGVl",
+            "name": "Claws",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+5, Reach 15 ft., One target. <em>Hit : </em>6 (1d8+2) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 15,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d8+2",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/083_-_Katarn/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

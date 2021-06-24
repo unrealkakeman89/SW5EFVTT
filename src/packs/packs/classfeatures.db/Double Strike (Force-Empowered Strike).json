@@ -1,0 +1,80 @@
+{
+    "_id": "W2okaVdBI8rtdf8u",
+    "name": "Double Strike (Force-Empowered Strike)",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you hit a target with a melee weapon attack, you can spend 1 force point to roll a Kinetic Combat die and deal additional damage equal to the amount rolled.</p>\n<section class=\"secret\">\n<p>After adding this to a player, the GM must go into the Details tab and set the damage formula to match the player's proper kinetic combat die, damage type to mirror their weapon's and also set the Resource Consumption to [attributes.force.points.value].</p>\n</section>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "attribute",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4",
+                    "energy"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {
+        "midi-qol": {
+            "onUseMacroName": ""
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Passive.webp",
+    "effects": []
+}

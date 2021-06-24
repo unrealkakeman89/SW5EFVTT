@@ -1,0 +1,32 @@
+{
+    "name": "Respirator",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A respirator, or breath mask, is a portable device that allowed an oxygen-breather to survive in low-oxygen atmospheres. Although not suitable for use in outer-space, these hands-free masks were essential equipment for deep-space travel that might require activity outside of a starship.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 200,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Life%20Support/Respirator.webp",
+    "_id": "EDuNz0jxDB750uB1"
+}

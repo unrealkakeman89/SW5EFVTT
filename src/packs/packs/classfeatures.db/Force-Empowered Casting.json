@@ -1,0 +1,71 @@
+{
+    "_id": "vqxJzX2jON1LZuAS",
+    "name": "Force-Empowered Casting",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Consular</strong>: 2nd, 9th, and 17th level</em></p>\n<p>You gain the ability to twist your powers to suit your needs. When you cast a force power, you can expend additional force points to modify the power. You gain two of the following Empowerment options of your choice. You gain another one at 9thand 17th level.</p>\n<p>You can use only one Empowerment option on a power when you cast it, unless otherwise noted.</p>\n<hr />\n<blockquote>\n<h4><strong>CAREFUL POWER</strong></h4>\n<p>When you cast a power that forces other creatures to make a saving throw, you can protect some of those creatures from the power&rsquo;s full force. To do so, you spend 1 additional force point and choose a number of those creatures up to your Wisdom or Charisma modifier (your choice, minimum of one). A chosen creature automatically succeeds on its saving throw against the power.</p>\n<hr />\n<h4><strong>DISTANT POWER</strong></h4>\n<p>When you cast a power that has a range of 5 feet or greater, you can spend 1 additional force point to double the range of the power.</p>\n<p>When you cast a power that has a range of touch, you can spend 1 additional force point to make the range of the power 30 feet.</p>\n<hr />\n<h4><strong>EXTENDED POWER</strong></h4>\n<p>When you cast a power that has a duration of 1 minute or longer, you can spend 1 additional force point to double its duration, to a maximum duration of 24 hours.</p>\n<hr />\n<h4><strong>HEIGHTENED POWER</strong></h4>\n<p>When you cast a power that forces a creature to make a saving throw to resist its effects, you can spend 3 additional force points to give one target of the power disadvantage on its first saving throw made against the power.</p>\n<hr />\n<h4><strong>IMPROVED POWER</strong></h4>\n<p>When you roll damage for a power, you can spend 1 additional force point to reroll a number of the damage dice up to your Wisdom or Charisma modifier (your choice, minimum of one). You must use the new rolls.</p>\n<p>You can use Improved Power even if you have already used a different Empowerment option during the casting of the power.</p>\n<hr />\n<h4><strong>LINGERING POWER</strong></h4>\n<p>When you cast a power that requires concentration to maintain you can choose to spend 3 additional force points. If you do, when you lose concentration on the power, the power will not end until the end of your next turn.</p>\n<hr />\n<h4><strong>PINPOINT POWER</strong></h4>\n<p>When you cast a power that allows you to force creatures in an area to make a saving throw you can instead spend 1 force point and make a ranged force attack against a single target that would be in the range. On a hit the target suffers the effects as though they failed their saving throw.</p>\n<hr />\n<h4><strong>QUICKENED POWER</strong></h4>\n<p>When you cast a power that has a casting time of 1 action, you can spend 2 additional force points to change the casting time to 1 bonus action for this casting.</p>\n<hr />\n<h4><strong>REFOCUSED POWER</strong></h4>\n<p>When you are forced to make a Constitution saving throw to maintain concentration on a power you can use your reaction and spend 2 force points to automatically succeed on the saving throw.</p>\n<p>You can use Refocused Power even if you have already used a different Force-Empowered Casting option during the casting of the power.</p>\n<hr />\n<h4><strong>SEEKING POWER</strong></h4>\n<p>If you miss with a force power that calls for an attack roll, you can spend 2 force points to reroll the attack. You must use the new roll.</p>\n<p>You can use Seeking Power even if you have already used a different Force-Empowered Casting option during the casting of the power.</p>\n<hr />\n<h4><strong>TWINNED POWER</strong></h4>\n<p>When you cast a power that targets only one creature and doesn&rsquo;t have a range of self, you can spend a number of additional force points equal to the power&rsquo;s level to target a second creature in range with the same power (1 force point if the power is at-will).</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/CSLR-Passive.webp",
+    "effects": []
+}

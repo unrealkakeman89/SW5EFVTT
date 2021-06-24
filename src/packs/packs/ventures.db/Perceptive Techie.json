@@ -1,0 +1,21 @@
+{
+    "_id": "68gm4jJt2g2an572",
+    "name": "Perceptive Techie",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "When you make a Wisdom (Scan) or Intelligence (Probe) check while aboard your ship, you may use your Wisdom modifier instead of your ship's Ability modifier.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "squXPxLSakcrSOBA",
+    "name": "Discoveries (Archaeologist)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect your studies in historical civilizations. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ARCHIVE RESEARCH&nbsp;</strong></h4>\n<p>Your expeditions have turned up a bevy of knowledge on the force. You learn three at-will powers of your choice, which don't count against your number of force powers known.</p>\n<hr />\n<h4><strong>FORCE COMBAT KNOWLEDGE&nbsp;</strong></h4>\n<p>Your research into Jedi and Sith combat techniques has allowed you to gain proficiency in simple lightweapons. When you are the target of your Critical Analysis, you use your choice of your Intelligence or Strength modifier for the attack and damage rolls with simple lightweapons. You must tuse the same modifier for both rolls.</p>\n<p>Additionally, you gain knowledge of one lightsaber form of your choice.</p>\n<hr />\n<h4><strong>IT BELONGS IN A MUSEUM&nbsp;</strong></h4>\n<p>Your knowledge of antquities is unparalleled. When you make an Intelligence (Lore) check or an ability check with your archaeologist kit, you may treat any roll of a 9 or lower as a 10.</p>\n<hr />\n<h4><strong>LOCALIZED SURVEY&nbsp;</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>: 13th level</span></p>\n<p>Your affinity for the force allows you to key in to the recent past of an area you enter. When you would expend a use of your Psychometric Analysis, you can instead choose to target your immediated vicinity (up to a 50-foot cube) and investigate for at least 1 minute. For each minute you investigate, you see visions of recent events in the area going back a number of days equal to your scholar level, you learn about one signifiant event, beginning with the most recent.</p>\n<p>You can investigate in this way for a number minutes equal to your scholar level and must maintain concentration during that time, as if you were concentrating on a power.</p>\n<p>Once you've used this feature, you can't use it again until you complete a short or long rest.</p>\n<hr />\n<h4><strong>MAKING THIS UP AS YOU GO&nbsp;</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>: 17th level</span></p>\n<p>You may now cast force powers at 4th-level twice between rests.</p>\n<hr />\n<h4><strong>TELEKINETIC MINISTRATIONS&nbsp;</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>: 9th level</span></p>\n<p>You can cast the&nbsp;<span style=\"font-style: normal;\">telekineses</span>&nbsp;force power at 5th level without spending force points.</p>\n<p>Once you've used this feature, you must complete a long rest before you can use it again.</p>\n<hr />\n<h4><strong>THE YEARS AND THE MILEAGE&nbsp;</strong></h4>\n<p>Your archaeological studies have taken you all across the galaxy. While you are the target of your Critical Analysis feature, you can use your universal forcecasting ability instead of Wisdom when making Insight or Survivial checks.</p>\n<hr />\n<h4><strong>TOMB OF THE ANCIENTS&nbsp;</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>: 5th level</span></p>\n<p>As a reaction when you take damage, you can entomb yourself in the Force until the end of your next turn. For the duration, you have resistance to the triggering damage, you gain temporary hit points equal to 1d10 + your universal forcecasting ability modifier + your scholar level to potentially absorb the attack, and your speed is reduced to 0.</p>\n<p>Once you use this feature, you can't use it again until you complete a short or long rest.</p>\n</blockquote>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

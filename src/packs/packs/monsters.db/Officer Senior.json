@@ -1,0 +1,897 @@
+{
+    "_id": "6o69sWfpOmxGccS9",
+    "name": "Officer, Senior",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 11,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 13,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "15",
+                "min": 0,
+                "formula": "battle armor"
+            },
+            "hp": {
+                "value": 38,
+                "min": 0,
+                "max": 38,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "7d8+7"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 1,
+                "prof": 0,
+                "total": 1
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 38,
+                "min": 0,
+                "max": 38
+            },
+            "bar2": {
+                "value": 15,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 12"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"Clear the bridge. Escort the officers down to the hangar.\"</i></p><p>- Poe Dameron</p></blockquote><p>Officer was a commissioned military class. Generally they were above the enlisted soldiers in positions of authority and command. Officers could be divided between junior officers of lower rank, and senior officers of a higher rank. Republic officers were command military personnel who served the Galactic Republic during the Clone Wars, while Separatist officers were command military personnel who served the Confederacy of Independent Systems armed forces. Imperial officers were command military personnel of the Imperial Military.</p><p>All military organizations depended on officers to effectively function. Non-commissioned officers would work with line infantry, while generals would create strategies and tactics.</p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "humanoid",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 3,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 700
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Galactic Basic"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "itm": {
+                "value": 1,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 13,
+                "prof": 2,
+                "total": 3
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 12,
+                "prof": 2,
+                "total": 2
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/228_-_Officer_2C_Senior/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Officer, Senior",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/228_-_Officer_2C_Senior/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "6o69sWfpOmxGccS9",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "NzQ0YjNjZTJhMjUy",
+            "name": "Superior Aura of Command",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>Friendly creatures that it can see and hear the officer within 30 feet of it add a +2 bonus to their attack and damage rolls. This effect ends if the officer is incapacitated.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/228_-_Officer_2C_Senior/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MGVhZjAyZjg0MmU0",
+            "name": "Human Shield",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>When the officer is targeted by a ranged attack while an ally is within 5 ft of it, the officer can use its reaction to cause that ally to be targeted by the attack instead.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/228_-_Officer_2C_Senior/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NmI3YTM3ODc1NDAy",
+            "name": "Blaster Carbine",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+3, Range 60/240 ft., One target. <em>Hit : </em>4 (1d6+1) energy damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 60,
+                    "long": 240,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+1",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/228_-_Officer_2C_Senior/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "Zjg3MGJlMDQ5MjNj",
+            "name": "Call to Attack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>Up to three allies within 120 feet of this officer that can hear it can each use their reaction to make one weapon attack.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/228_-_Officer_2C_Senior/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MzVmMzU4OWFmNzc5",
+            "name": "Rally Allies",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The officer targets up to three allies within 120 feet that can hear it and are currently suffering from a fear or charm effect. The fear or charm effect is removed.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/228_-_Officer_2C_Senior/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

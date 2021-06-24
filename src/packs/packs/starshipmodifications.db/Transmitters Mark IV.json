@@ -1,0 +1,37 @@
+{
+    "_id": "VObTH7byKqPYLlrj",
+    "name": "Transmitters, Mark IV",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Transmitters, Mark III"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "4"
+        },
+        "description": {
+            "value": "<p>You massively improve your ship's Transmitters. Your ship's Charisma score increases by 1. As normal, you can't increase your ship's Charisma score above the maximum for your size with this system.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

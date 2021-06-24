@@ -1,0 +1,275 @@
+{
+    "_id": "mvwsQmcKyovWx7PA",
+    "name": "Duros",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>The duros are humanoids with smooth blue-green skin, red eyes, lipless mouths, long thin noseless faces and green blood. Olfactory organs beneath their eyes are responsible for their sense of smell. Both females and males are bald, though both genders are easily distinguished. Their large red goggle-like eyes have slit pupils. Duros females lay eggs as they are descended from ancient reptiles, and they are born in a larval grub stage. Unlike similar species, the duros take care of their offspring from birth.<p></p><h2>Society and Culture</h2><p>Their home planet Duro is primarily uninhabited due to massive pollution on the world over time. Instead, it is covered with automated farms for food production. The duros live in twenty orbital space cities above the planet.</p><p>The duros also established a vast, grand starship construction industry in the Duro system. The duros set up their government around a consortium of starship construction corporations, with all important political decisions made by the stockholders of the corporations. This meant that any duros that held stock in a company could participate in the administration of the system.</p><p>With their strong memories, some duros also choose to become extraordinary storytellers, renowned galaxy-wide for their ability to learn a wide range of narratives by heart, and perform them all with stunning accuracy.</p><h2>Names</h2><p>Duros names are generally melodic, with female names having softer intonations. Surnames are familial.</p><p>&nbsp;&nbsp;<strong>Male Names.</strong> Cir, Fod, Mom, Rur, Zim</p><p>&nbsp;&nbsp;<strong>Female Names.</strong> Chochi, Fumsu, Kaleshef, Raada</p><p>&nbsp;&nbsp;<strong>Surnames.</strong> Dektuks, Jimoks, Silt, Tuzig, Zhoks</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Intelligence score increases by 1.</p><p><em><strong>Age.</strong></em> Duros reach adulthood in their 20s and live an average of 150 years.</p><p><em><strong>Alignment.</strong></em> Duros tend toward no particular alignment. The best and worst are found among them.</p><p><em><strong>Size.</strong></em> Duros stand around 6 feet tall and weigh around 160 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Galactic Traveler.</strong></em> You have proficiency in Lore.</p><p><em><strong>Pilot.</strong></em> You have proficiency in Piloting.</p><p><em><strong>Tech Resistance.</strong></em> Growing up around technology leaves an impact on duros. You have advantage on Dexterity and Intelligence saving throws against tech powers.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Durese. Durese is a common interstellar tongue used by prominent spacers and traders.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, green"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Red"
+        },
+        "distinctions": {
+            "value": "Noseless, large red eyes, affinity for space travel"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "115 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Duro"
+        },
+        "slanguage": {
+            "value": "Durese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Duros",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.lor.value",
+                    "value": "1",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Lore"
+                },
+                {
+                    "modSpecKey": "data.skills.pil.value",
+                    "value": "1",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Piloting"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "durese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "gMVVHc3sU9JU4i5I",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Duros.webp",
+    "effects": [
+        {
+            "_id": "sz5oR4T4w3PXpQR9",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Duros",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.lor.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.pil.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "durese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "flags.sw5e.techResistance",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Duros.webp",
+            "label": "Duros",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

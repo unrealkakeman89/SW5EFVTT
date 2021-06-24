@@ -1,0 +1,31 @@
+{
+    "_id": "ztIE2ALy6aPI9lAg",
+    "name": "Improved Interference",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>Also at 2nd rank, when you use take the Interfere action, you have advantage on the Charisma (Interfere) check. If you already have advantage, you can instead reroll one of the dice once.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

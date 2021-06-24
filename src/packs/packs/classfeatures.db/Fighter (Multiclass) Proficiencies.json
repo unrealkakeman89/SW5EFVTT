@@ -1,0 +1,135 @@
+{
+    "name": "Fighter (Multiclass) Proficiencies",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<h1>Multiclass Proficiencies</h1>\n<p>As a multiclassed Fighter, you gain the following proficiencies.</p>\n<p><strong>Armor:</strong> Light armor, medium armor</p>\n<p><strong>Weapons:</strong>&nbsp;All blasters, all vibroweapons</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "requirements": "Str or Dex 13",
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": "0",
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.DnF6RF97H35Q9qTQ"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/FGTR-ARCH-Passive.webp",
+    "effects": [
+        {
+            "_id": "ajl2HjApW53QvtU7",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.traits.weaponProf.value",
+                    "value": "smb",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.value",
+                    "value": "svb",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.armorProf.value",
+                    "value": "lgt",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.armorProf.value",
+                    "value": "med",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.value",
+                    "value": "mrb",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.value",
+                    "value": "mvb",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/FGTR-ARCH-Passive.webp",
+            "label": "Fighter (Multiclass) Proficiencies",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "gJBvxSZ5WeDMm3nG"
+}

@@ -1,0 +1,331 @@
+{
+    "_id": "UNbSuAveHKiODPYp",
+    "name": "Gungan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Starting life as tadpoles, Gungans develop into tall beings with extremely flexible cartilaginous skeletons. Strong leg muscles allow for powerful and quick frog-kick style swimming through water as well as a remarkable jumping ability while on land. Fin-like ears (called haillu) also aid them in swimming, as well as expressing emotions like aggression, friendship, and fear. They have partially retractable eyestalks with nictitating membranes when underwater. Green eyes are unusual amongst Gungans.</p><h2>Society and Culture</h2><p>Gungans are generally a generous and peaceful species. They truly love to have visitors and warmly welcome them; however, they would remain suspicious until the visitors have earned their respect. Gungans are not tolerant of anyone who threatens their peaceful culture. They have very strict laws, and will go to the extremes to punish anyone who has committed a minor crime. Vandals, for example, can be given a sentence of exile, caning, or even stoning.\r\n\r\nIf a Gungan is cast out of society, it is very difficult for them to return. If they do manage to return legally, they are often subjected to heavy discrimination. This can make life very difficult for them and can go on for months or years, until their past offenses disappear from memory. Returning back to the settlement they were exiled from illegally will sometimes result in the death penalty, especially if they brought along outsiders. </p><h2>Names</h2><p>Gungan names are often repeated syllables hyphenated.</p><strong>&nbsp;&nbsp;Male Names.</strong> Crinn-Crinn, Gic, Noc-Noc, Wal</p><strong>&nbsp;&nbsp;Female Names.</strong> Hew, Khi, La-La, Phro-Phro, Yuss</p><strong>&nbsp;&nbsp;Surnames.</strong> Baud, Gos, Jalles, Mag, Wub",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Strength score increases by 1.</p><p><em><strong>Age.</strong></em> Gungans reach adulthood in their early teens and live about 70 years.</p><p><em><strong>Alignment.</strong></em> Gungans tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Gungans typically stand 6 to 7 feet tall and weigh about 170 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Amphibious.</strong></em> You can breathe air and water.</p><p><em><strong>Martial Proficiency.</strong></em> You have proficiency with light and medium armor as well as the vibrospear and vibropike.</p><p><em><strong>Darkvision.</strong></em> Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Strong-Legged.</strong></em> When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.</p><p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Gungan. When speaking Galactic Basic, you often have trouble with word tenses and infinitives; this usually has a comical effect.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, brown, or green"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Light colors"
+        },
+        "distinctions": {
+            "value": "Extendable tongues, long ears, eye stalks, three toes, aquatic species"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "115 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Naboo"
+        },
+        "slanguage": {
+            "value": "Gungan"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Gungan",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.armorProf.value",
+                    "value": "lgt",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Armor Prof"
+                },
+                {
+                    "modSpecKey": "data.traits.armorProf.value",
+                    "value": "med",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Armor Prof"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibrospear",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibropike",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 12,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "gungan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 13,
+                    "itemId": "bFOu7PzSYkMdoCYN",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Gungan.webp",
+    "effects": [
+        {
+            "_id": "kgqVkH4CH10efNNT",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Gungan",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.armorProf.value",
+                    "value": "lgt",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.armorProf.value",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibrospear",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibropike",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "gungan",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.strongLegged",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Gungan.webp",
+            "label": "Gungan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

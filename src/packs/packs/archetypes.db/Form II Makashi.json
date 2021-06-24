@@ -1,0 +1,39 @@
+{
+    "_id": "rW7zqxiNXePBLnui",
+    "name": "Form II: Makashi",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form II: Makashi</h1>\n<p>Form II, also known as Contention Form, encourages precision and efficiency over power, using jabs, parries and light cuts over slashes, blocks and chops. Those guardians who focus on Makashi Form utilize calculated blade manipulation, intense focus, and expert timing to confuse and trap their opponents.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.GBccAWbpxgNPTz0D]{Makashi Lightsaber Form}, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can&rsquo;t take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Ysalamiri</h2>\n<p>Also at 3rd level, as a bonus action, you can enter an offensive stance for one minute. While in this stance, you add your Wisdom or Charisma modifier (your choice) to the first melee weapon attack and damage rolls you make each turn.</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<h3>Makashi Riposte</h3>\n<p>When another creature damages you with a melee attack, you can expend a use of your Channel the Force and use your reaction to attempt to deflect the attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your guardian level.</p>\n<p>If you reduce the damage to 0, you can immediately make a single melee weapon attack against that creature as a part of the reaction.</p>\n<h2>Shatterpoint</h2>\n<p>Starting at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can use your connection to the Force to sense their strengths and weak-nesses, and learn certain informat-ion about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:</p>\n<ul>\n<li>Strength score</li>\n<li>Dexterity score</li>\n<li>Wisdom score</li>\n<li>Charisma score</li>\n<li>Armor Class</li>\n<li>Current hit points</li>\n<li>Total class levels (if any)</li>\n<li>Total Forcecaster levels (if any)</li>\n</ul>\n<h2>Glancing Blow</h2>\n<p>Starting at 15th level, when an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.</p>\n<h2>Master of Contention</h2>\n<p>At 20th level, you are a duelist of the highest caliber. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage, and you ignore resistance to kinetic and energy damage.</li>\n<li>All melee attacks have disadvantage against you.</li>\n<li>Your melee weapon attacks inflict an additional damage die.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Makashi%20Form.webp",
+    "effects": []
+}

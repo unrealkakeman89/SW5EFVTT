@@ -1,0 +1,32 @@
+{
+    "name": "Datapad",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A datapad is a small electronic device used for the input, storage and displaying of inform-ation. It features a holoprojective surface for 3D viewing.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 100,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Data%20Recording%20and%20Storage/Datapad.webp",
+    "_id": "At8RCEDvMZ94O6QC"
+}

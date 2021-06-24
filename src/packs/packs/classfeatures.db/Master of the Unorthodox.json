@@ -1,0 +1,71 @@
+{
+    "_id": "fJOMvX0p6D3Uklrr",
+    "name": "Master of the Unorthodox",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 20th level, you&rsquo;ve mastered the unity between blaster and blade. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2.</p>\n<hr />\n<p>Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic, energy, and ion damage from weapons.</li>\n<li>When you hit a creature with a ranged weapon attack, you have advantage on the next melee weapon attack you make against that creature. When you hit a creature with a melee weapon attack, you have advantage on the next ranged weapon attack you make against that creature.</li>\n<li>When you roll below half the maximum on a damage die, you can treat the roll as if you&rsquo;d rolled half the maximum on the damage die. You can only affect a number of dice up to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of one) in this way.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you use this feature, you can&rsquo;t use it again until you finish a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "action",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

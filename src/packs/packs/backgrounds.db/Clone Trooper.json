@@ -1,0 +1,108 @@
+{
+    "name": "Clone Trooper",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are one of millions: genetically engineered, identical specimens designed to be the perfect soldier. Created from a template provided by the legendary bounty hunter Jango Fett, you represent the latest and greatest evolution in galactic warfare."
+        },
+        "flavorName": {
+            "value": "Clone Specialization"
+        },
+        "flavorDescription": {
+            "value": "While most clones serve as simple soldiers, there are many specialized units. Roll a d8 or choose from the options in the table below to determine your specialization:"
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Clone Specialization</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Trooper</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Commando</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Jet Trooper</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Medic</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Spec Ops</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Ordnance</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Officer</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Scout</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Athletics, Medicine, Perception, and Piloting"
+        },
+        "toolProficiencies": {
+            "value": "Your choice of demolitions kit, security kit, or slicer's kit"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "Badge or emblem of your rank, your chosen tools, a set of common clothes, and a pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Clones are trained from birth to be the perfect soldier; over time, they also develop their own personalities. They are universally loyal to the Republic. While clones share genetic coding, no two are completely identical."
+        },
+        "featureName": {
+            "value": "Republic Rank"
+        },
+        "featureText": {
+            "value": "You are a soldier of the Republic. Those loyal to the Republic will respect your status and defer to you if they don't outrank you. You can invoke your position to exert influence over other soldiers, requisition simple equipment, and gain access to military compounds affiliated with the Republic."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Medic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Perceptive</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Ace Pilot</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Alert</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Athlete</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Forceful Vigor</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I always respect my commander.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I can stare down a krayt dragon without flinching.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I face problems head-on. A simple, direct solution is the best path to success.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I have a sense of humor. This is rare among my brothers.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I judge people by their actions, not their words.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I've lost too many friends, and I'm slow to make new ones.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I ask a lot of questions.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I'll settle for nothing less than perfection.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Responsibility. I do what I must and obey just authority. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Might. Strength, not compassion, wins battles. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Republic. My brothers, the Republic, or people are all that matter. (Any)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Greater Light. We fight not for ourselves, but for countless of others that can't fight for themselves. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Live and Let Live. Ideals aren't worth killing or going to war over. (Neutral)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I have little respect for anyone who is of a lesser rank.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I obey the orders without, even if the orders cause misery.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I'd rather eat my armor than admit when I'm wrong.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I judge others harshly, and myself even more severely.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I am inflexible in my thinking.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I can't tell a lie for the life of me.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">My honor is my life.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Someone saved my life on the battlefield. To this day, I will never leave a friend behind.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Those who fight beside me are those worth dying for.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I fight for those who cannot fight for themselves.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I would still lay down my life for the people I serve with.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">A proud commander once gave me a horrible beating, and I will take my revenge on any bully I encounter.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Clone%20Trooper.webp",
+    "effects": [
+        {
+            "_id": "db9s1qhtskgWjc2Z",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Clone Trooper",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Clone Trooper",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "b3XIGUWX3n7Meg9m"
+}

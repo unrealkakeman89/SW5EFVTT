@@ -1,0 +1,50 @@
+{
+    "name": "Chest",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "backpack",
+    "data": {
+        "description": {
+            "value": "",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 25,
+        "price": 50,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+            "type": "weight",
+            "value": 300,
+            "weightless": false
+        },
+        "currency": {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Storage/Case.webp",
+    "_id": "Np1QPOCE9EMfTTTY"
+}

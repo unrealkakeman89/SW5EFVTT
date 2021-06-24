@@ -1,0 +1,131 @@
+{
+    "_id": "D02rvwCBbp6mIwlH",
+    "name": "Galvanizing Presence",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p>Your presence on the battlefield is a source of inspiration. You gain the following benefits:</p>\n<ul>\n<li>Increase your Charisma score by 1, to a maximum of 20.</li>\n<li>As a bonus action, you let out a rallying war cry, ending the frightened or charmed condition on yourself and a number of allies that can hear you equal to your Charisma modifier (minimum of one). Once you've used this ability, you must complete a short or long rest before you can use it again.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 2900000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "D02rvwCBbp6mIwlH",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Galvanizing%20Presence.webp",
+    "effects": [
+        {
+            "_id": "oqsKJpSvNVvb4brh",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.attributes.str.mod",
+                    "value": "1",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Feats/Galvanizing%20Presence.webp",
+            "label": "Galvanizing Presence",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "_id": "lzk3w9JSFTccDwQc",
+    "name": "Blanket",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 3,
+        "price": 5,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "damage": {
+            "parts": []
+        },
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Utility/Blanket.webp"
+}

@@ -1,0 +1,39 @@
+{
+    "_id": "q4cqalPyT4rkroVr",
+    "name": "Precision Approach",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Berserker",
+        "description": {
+            "value": "<h1>Precision Approach</h1>\n<p>Some berserkers have learned to channel their rage into a method of increasing their focus and precision to supernatural levels. Those berserkers who choose the Precision Approach hone their rage to a fine point, becoming agile warriors who ruthlessly dispatch their foes.</p>\n<h2>Careful Steps</h2>\n<p>When you choose this approach at 3rd level, you gain skills that represent your precise movement. You gain proficiency your choice of Acrobatics or Stealth. While raging, you have advantage on checks you make with the chosen skill.</p>\n<h2>Focused Rage</h2>\n<p>Also at 3rd level, you hone your rage to a razor sharp focus. When you make a melee weapon attack using Dexterity, you add your rage damage to the damage roll. Additionally, you can use your Reckless Attack feature to give you advantage on melee weapon attacks using Dexterity during your turn.</p>\n<h2>Battle Anticipation</h2>\n<p>At 6th level, while raging, your critical hit range with melee weapon attacks using Dexterity increases by 1.</p>\n<h2>Improved Danger Sense</h2>\n<p>Starting at 10th level, while raging, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage against effects that you can see, such as traps and powers, you are treated as proficient in the save, and you instead take no damage if you succeed on a saving throw, and only half damage if you fail.</p>\n<h2>Calm Within the Storm</h2>\n<p>At 14th level, the precision with which you act during your rage causes you to become a storm of reactive lethality. When you use your Reckless Attack feature, you can make a number of opportunity attacks equal to your proficiency bonus without using your reaction, and when a creature within 5 feet of you misses you with an attack, you can use your reaction to make a melee weapon attack using Dexterity against that creature. You can only take one reaction per turn.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Precision%20Approach.webp",
+    "effects": []
+}

@@ -1,0 +1,31 @@
+{
+    "_id": "8LGucgZjtdXIl6b0",
+    "name": "Masterful Interference",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>At 4th rank, when you take the Interfere action, you can choose to forgo your proficiency bonus. If you succeed on the check, the target has disadvantage on all ability checks or attack rolls it makes before the start of your next turn, instead of one.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

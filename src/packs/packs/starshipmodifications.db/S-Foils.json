@@ -1,0 +1,37 @@
+{
+    "_id": "letwasbz0VTIpY0Q",
+    "name": "S-Foils",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or smaller; Primary Weapon"
+        },
+        "system": {
+            "value": "Weapon"
+        },
+        "basecost": {
+            "value": "3000"
+        },
+        "grade": {
+            "value": "1"
+        },
+        "description": {
+            "value": "<p>Your primary weapons are mounted to Strike Foils giving your ship variable operational capacities.  As a bonus action, a crew member can switch between two modes:</p><p><ul><li><strong>Locked:</strong> Your ship's speed increases by 50 feet and your primary weapons suffer a -2 penalty to attack rolls.</li><li><strong>Unlocked:</strong> Your ship's primary weapons gain a +1 bonus to attack rolls.</li></ul>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Weapon.webp",
+    "effects": []
+}

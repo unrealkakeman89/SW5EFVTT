@@ -1,0 +1,75 @@
+{
+    "_id": "pd9SrIEnZ04Ihwtw",
+    "name": "Force-Empowered Strikes",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend force points to deal additional damage to the target, which is the same type as the weapon&rsquo;s damage. The additional damage is 1d8 for each point spent in this way. You can&rsquo;t deal more additional damage than the amount shown in the Focused Strikes column of the guardian table.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": "Hit a creature with a melee weapon attack."
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Guardian 2",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {
+        "midi-qol": {
+            "onUseMacroName": "Force-Empowered Strike"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/GRDN-ARCH-Passive.webp",
+    "effects": []
+}

@@ -1,0 +1,255 @@
+{
+    "_id": "ex7UUaePJhPpUy0U",
+    "name": "Chevin",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Chevin have long snouts which hang down nearly to their ankles. Combined with their intellect, this makes them skilled hunters of animals such as backshin, because they can smell out their prey or feed while keeping their eyes on the horizon. It is also their hunting prowess which allowed them to dominate their homeworld and conquer the Chevs. Chevin have thick legs, massive wide bodies, thin rope-like tails, and arms so long their three-fingered hands often brushed the ground.</p>\n<h2>Society and Culture</h2>\n<p>Chevin live in small, mobile communities, with homes mounted on great wheeled carts. Even after they gained access to galactic technology, they continued to live as nomads (though more affluent Chevin mounted their lodges on large repulsorlift vehicles instead.) Their Chev slaves are usually forced to follow on foot. Nomadic groups of Chevin keep in touch via comlinks, and often converge on a single location to deal with danger.</p>\n<p>The only Chevin settlements that stay in place for more than one standard month are the Government Villages, where Chevin dictators live with their hand-picked advisors. Even these settlements are movable when necessary. Each of the roughly two dozen Government Villages rules a Chevin nation.</p>\n<h2>Names</h2>\n<p>Chevin names do not vary significantly based on gender. Surnames are based on community.</p>\n<p>&nbsp;&nbsp;<strong>First Names.</strong> Buula, Ephant, Perre, Phylus, Reseros</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Meh, Mon, Nen, Needmo, Phrusaani</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Wisdom score increases by 1.</p><p><em><strong>Age.</strong></em> Chevin reach adulthood in their thirties and live up to 200 years.</p><p><em><strong>Alignment.</strong></em> Chevin warmongering and slavetrading cause them to tend toward the dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Chevin stand between 6 and 8 feet tall and weigh up to 300 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Hide.</strong></em> You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to both hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p><p><em><strong>Keen Hearing.</strong></em> You have advantage on Wisdom (Perception) checks that rely on hearing.</p><p><em><strong>Nomadic.</strong></em> You are proficient in Survival.</p><p><em><strong>Thick Skull.</strong></em> Your skull is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d6 + your Strength modifier kinetic damage.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Chevin. The Chevin language is characterized by grunts and low-pitched rumblings. Chevin typically have deep voices, even when speaking Basic.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Grey"
+        },
+        "hairColorOptions": {
+            "value": "Black, brown, blond, grey, or white (usually with age)"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Stocky build, large heads, long snouts, long arms, three-fingered hands, four-toed feet"
+        },
+        "heightAverage": {
+            "value": "5'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "170 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d6) lb."
+        },
+        "homeworld": {
+            "value": "Vinsoth"
+        },
+        "slanguage": {
+            "value": "Chevin"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Chevin",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "13",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.skills.sur.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "chevin",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "3SeMWMEHYM8A74qG",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Chevin.webp",
+    "effects": [
+        {
+            "_id": "xyKlxEBAGLcMBv2n",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Chevin",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "13+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.skills.sur.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "chevin",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Chevin.webp",
+            "label": "Chevin",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

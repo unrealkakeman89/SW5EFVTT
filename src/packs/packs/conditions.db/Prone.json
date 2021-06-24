@@ -1,0 +1,16 @@
+{
+    "_id": "cHEmUrSy7mBt71yb",
+    "name": "Prone",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.5d7Wf6BEYnGIDdXG"
+        }
+    },
+    "content": "<h4 id=\"prone\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">PRONE</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">A prone creature&rsquo;s only movement option is to crawl, unless it stands up and thereby ends the condition.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The creature has disadvantage on melee attack rolls.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The creature has disadvantage on ranged attack rolls against targets within 30 feet.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">An attack roll against the creature has advantage if the attacker is within 5 feet of the creature. Otherwise, the attack roll has disadvantage.</li>\n</ul>",
+    "img": "icons/svg/falling.svg"
+}

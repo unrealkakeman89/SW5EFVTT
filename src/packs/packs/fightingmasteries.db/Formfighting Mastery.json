@@ -1,0 +1,20 @@
+{
+    "_id": "B52IB7C0OLhpAjBS",
+    "name": "Formfighting Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong></em> The ability to cast force powers</p><p>You've mastered the basics of the known forms of lightsaber combat, wielding your weapon with grace. You gain the following benefits:</p><ul><li>You learn three lightsaber forms, detailed later in this chapter. If you already know at least three lightsaber forms, you instead learn the remaining forms.</li><li>Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, you can engage in one of your lightsaber forms without using your bonus action. If that form lets you make an attack, that attack is also made without your proficiency bonus.</li><li>Once on each of your turns, before you make a melee weapon attack, you can choose to forgo your proficiency bonus. If you do so, and the attack hits, you can choose another creature within 5 feet of it. If the original attack roll would hit the second creature, it takes damage equal to twice your proficiency bonus.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Formfighting%20Mastery.webp",
+    "effects": []
+}

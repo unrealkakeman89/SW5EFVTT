@@ -1,0 +1,71 @@
+{
+    "_id": "Iv5MsHSDXerTQQ89",
+    "name": "Power Surge",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Starting at 6th level, you learn to simultaneously limit a creature&rsquo;s force powers and store that power within yourself to later strengthen your damaging force powers.</p>\n<p>You can store a maximum number of power surges equal to your Wisdom or Charisma modifier (your choice, minimum of one). Whenever you successfully end a force power with a power such as&nbsp;force suppression&nbsp;or&nbsp;sever force, or use your Force Shield or Force Deflection features to successfully avoid an attack or succeed on a saving throw, you gain one power surge, as you redirect the flow of the Force into yourself.</p>\n<p>Once per turn, when you deal damage to a creature or object with a force power, you can spend one power surge to deal extra damage to that target. The extra damage is of the same type as the power&rsquo;s damage, and it equals half your consular level (rounded down).</p>\n<p>Whenever you finish a long rest, your number of power surges resets to one. If you end a short rest with no power surges, you gain one power surge.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

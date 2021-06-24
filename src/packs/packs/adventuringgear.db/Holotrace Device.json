@@ -1,0 +1,32 @@
+{
+    "name": "Holotrace Device",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A holotrace device is a wrist-worn gadget that can be used to trace a holographic transmission back to its source.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 5,
+        "price": 1000,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Communications/Holotrace%20Device.webp",
+    "_id": "kaV6ehRv2KaHOj5n"
+}

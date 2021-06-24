@@ -1,0 +1,32 @@
+{
+    "name": "Commlink",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>Commlinks are standard handheld communication devices, fitted with microphones and receivers. A standard, personal commlinks have a range of up to 30 miles, but are reduced in dense, urban areas or areas of high level interference.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 0.5,
+        "price": 50,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Communications/Commlink.webp",
+    "_id": "KNtbo1StdsDm135s"
+}

@@ -1,0 +1,31 @@
+{
+    "_id": "izw9rhXgoBbRRjQK",
+    "name": "Pilot Extraordinaire",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Pilot"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "5th Rank"
+        },
+        "description": {
+            "value": "<p>Also at 5th rank, you are a master at the helm. As a bonus action, you can harness your experience in a brief but awe-inspiring burst. Until the end of your next turn, you have advantage on Dexterity (Maneuvering) checks, your ship has advantage on Strength and Dexterity saving throws, and attack rolls against your ship have disadvantage.</p><p>Once you\u2019ve used this feature, you can\u2019t use it again until you finish a short or long rest.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Pilot.webp",
+    "effects": []
+}

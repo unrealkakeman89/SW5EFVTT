@@ -1,0 +1,252 @@
+{
+    "_id": "qKxsBy26EzxarfWW",
+    "name": "Kyuzo",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>A lanky, bipedal humanoid species, the Kyuzo originate on the gravity-heavy Outer Rim world of Phatrong. Kyuzo are tall and slender, though their appearance belies their strength and quickness. Due to the uncommon makeup of their homeworld's atmosphere, Kyuzo frequently wear corrective lenses and a highly pressurized filter mask over their faces to protect their sensitive respiratory systems and assist them in coping with uncomfortable climates like galactic standard habitable environments. As well as causing respiratory and vision problems, exposure to such conditions causes a Kyuzo to become ill within in a short period of time, interfering with their ability to concentrate and slowing them down.</p><h2>Society and Culture</h2><p>A species known for its strong sense of justice and honor, most Kyuzo regard oaths and contracts as unbreakable and many species seek them as mercenaries, law-enforcement personnel and bounty hunters. A highly political species, the Kyuzo developed societies that span considerable geographical areas, and most identify as members of a particular country or region. Most major islands and continents on Phatrong are their own political units, though they do form a loose confederacy.</p><h2>Names</h2><p>Male names typically end in vowels, while female names end in consonants. Surnames are based on region.</p><strong>&nbsp;&nbsp;Male Names.</strong> Drego, Embo, Khalu, Mhali, Zuvio</p><strong>&nbsp;&nbsp;Female Names.</strong> Catras, Garing, Streehn, Turung</p><strong>&nbsp;&nbsp;Surnames.</strong> Brihney, Ghall, Khambey, Maway, Vori",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Intelligence score increases by 1.</p><p><em><strong>Age.</strong></em> Kyuzo reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Kyuzos' belief in justice and honor cause them to tend toward lawful balanced, though there are exceptions.</p><p><em><strong>Size.</strong></em> Kyuzo typically stand between 6 and 7 feet tall and weigh around 170 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> Your natural evolution allows you to see what others do not in dim and dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Foreign Biology.</strong></em> Kyuzo struggle in atmospheres other than those of Phatrong. You wear a filter mask, and if your mask is removed while you are in such an environment, you lose consciousness.</p><p><em><strong>Long-Limbed.</strong></em> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p><p><em><strong>Strong-Legged.</strong></em> When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Kyuzo. Kyuzo is characterized by short words and quick phrases. Kyuzo struggle with Galactic Basic as it is grammatically dissimilar to Kyuzo.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, ranging from lighter olive shades to deep blue-green colors"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow"
+        },
+        "distinctions": {
+            "value": "Compound or slit-pupiled eyes, dense musculature, suffer from respiratory and vision problems in standard gravity environments"
+        },
+        "heightAverage": {
+            "value": "5'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "140 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Phatrong"
+        },
+        "slanguage": {
+            "value": "Kyuzo"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Kyuzo",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "u19DPceolkseGqzk",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "u19DPceolkseGqzk",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "u19DPceolkseGqzk",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "u19DPceolkseGqzk",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "u19DPceolkseGqzk",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "u19DPceolkseGqzk",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "u19DPceolkseGqzk",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "kyuzo",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "u19DPceolkseGqzk",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Kyuzo.webp",
+    "effects": [
+        {
+            "_id": "l6mvsrEqudRi4cVt",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Kyuzo",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "kyuzo",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.longlimbed",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.strongLegged",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.foreignBiology",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Kyuzo.webp",
+            "label": "Kyuzo",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

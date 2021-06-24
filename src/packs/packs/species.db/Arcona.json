@@ -1,0 +1,157 @@
+{
+    "_id": "ULTvy2UARSKDhCFp",
+    "name": "Arcona",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Arcona have anvil-shaped heads, claws, marble-like eyes, and protective skin. Cona is always hot, and has very little water, but the atmosphere is filled with ammonia vapor. Arcona adapted to this environment by eating the ammonia-converting roots of flora as a source of water. Arcona depended on the ammonia to live and, as a result, arcona living offworld have to take ammonia supplements. Despite their large eyes, arcona have very poor eyesight. Their eyes, made up of thousands of photoreceptors, can not detect fine shapes, only seeing blurry objects. To aid this, they have a small sensory organ between their eyes. Often mistaken for their nose, this organ detects heat patterns from living beings. Thus, arcona can recognize things by its heat pattern.</p>\n<p>Arcona are highly susceptible to addiction to spice and common salt, which serves as a hallucinogen with effects resembling that of intoxication. Their eyes shift to gold after prolonged addiction.</p>\n<h2>Society and Culture</h2>\n<p>Arcona normally think of themselves not as individuals but as a collective whole. Largely forsaking individuality, they often refer to themselves as &ldquo;we&rdquo; even when alone. The arcona live in loose, family-based communities called nests, which are ruled by a Grand Nest. Because arcona are born in nests underground, they obtain a close sense of family living in close quarters with siblings. Males raise the young, since females are typically impulsive thrill-seekers.</p>\n<h2>Names</h2>\n<p>Arcona names are quite diverse, named by their fathers in the nest. Surnames are either familial or nest-based.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Bijrik, El, Jat, Kazat, Onalol, Shle</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Ak, Cimam, Cuten, He, Madan, Omik</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Cheen, -drell, -faxel, Shran, Takonak, -voll</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Constitution score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Arcona reach adulthood in their late teens and live for more than a century.</p>\n<p><em><strong>Alignment.</strong></em> Arcona tend toward no particular alignment. They can vary from the chaotic thrillseekers to the orderly lawkeepers. The best and worst are found among them.</p>\n<p><em><strong>Size.</strong></em> Arcona typically stand 5 and a half to 6 and a half feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Claws.</strong></em> Your sharp talons are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d4 + your Strength modifier.</p>\n<p><em><strong>Clever.</strong></em> You have proficiency in one Intelligence skill of your choice.</p>\n<p><em><strong>Easily Addicted.</strong></em> Arcona are susceptible to spice addiction, and as a result you are taught to identify it from an early age. Additionally, consuming salt can cause them to hallucinate, potentially replicating the effects of spice. Whenever you make an ability check related to identifying salt or spice or seeing whether something contains salt or spice, you have advantage.</p>\n<p><em><strong>Hide.</strong></em> You have a thick hide. When you aren&rsquo;t wearing armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master&rsquo;s Guide.</p>\n<p><em><strong>Keen Smell.</strong></em> You have advantage on Wisdom (Perception) checks that involve smell.</p>\n<p><em><strong>Reptilian Senses.</strong></em> Whenever you make a Wisdom (Perception) check related to sensing heat, you are considered to have expertise in the Perception skill.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Arconese. Arconese is spoken through complex, guttural squeaks from the back of the throat. However, arcona born and raised in colonies outside of Cona often did not learn Arconese, but the local language instead.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Ebony to mahogany"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Green, blue, pink, gold when addicted"
+        },
+        "distinctions": {
+            "value": "Flat heads, easily addicted"
+        },
+        "heightAverage": {
+            "value": "5'0\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "95 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Cona"
+        },
+        "slanguage": {
+            "value": "Arconese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "flags": {
+            "dynamiceffects": {
+                "equipActive": false,
+                "alwaysActive": false
+            }
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Arcona.webp",
+    "effects": [
+        {
+            "_id": "NGgLg9M06MvvWwAh",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Arcona",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "13+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "arconese",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Arcona.webp",
+            "label": "Arcona",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

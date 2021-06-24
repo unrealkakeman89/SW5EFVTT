@@ -1,0 +1,166 @@
+{
+    "_id": "nuFQtxutzyHQkMCp",
+    "name": "Ideal of the Artisan",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Choose one of your skill or tool proficiencies. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, minimum of one) to any check you make that doesn&rsquo;t already include that modifier.</p>\n<p>Additionally, as an action, you can manifest this ideal in a brief surge of energy. For the next 10 minutes, the bonus increases to your Wisdom or Charisma modifier, and you can choose a second skill or tool to extend this feature to.</p>\n<p>&nbsp;</p>\n<section class=\"secret\">\n<p>Edit the effects to change the skill(s) this feature applies to. The bonus will not show on the character sheet but will show when the chosen skill(s) are rolled.<br />In the Details tab, set Resource Consumption to [Item Uses] [Sentinel Ideals] [1].</p>\n</section>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": 10,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Action.webp",
+    "effects": [
+        {
+            "_id": "1x38iIN0ZkZTgpTD",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": false
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.skills.acr.mod",
+                    "value": "(ceil(max(@abilities.cha.mod,@abilities.wis.mod)/2))",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.ani.mod",
+                    "value": "(ceil(max(@abilities.cha.mod,@abilities.wis.mod)/2))",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": 600,
+                "rounds": 100,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+            "label": "Ideal of the Artisan Manifestation",
+            "tint": "",
+            "transfer": false
+        },
+        {
+            "_id": "EWbuKV1vVRnWFLJR",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.skills.acr.mod",
+                    "value": "(floor(max(@abilities.cha.mod,@abilities.wis.mod)/2))",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+            "label": "Ideal of the Artisan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

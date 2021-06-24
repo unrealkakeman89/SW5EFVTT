@@ -1,0 +1,1427 @@
+{
+    "_id": "XBZeSQ58zb2ELYlL",
+    "name": "Yuuzahn Vong Warlord",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 13,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 15,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "18",
+                "min": 0,
+                "formula": "vonduun plate armor"
+            },
+            "hp": {
+                "value": 98,
+                "min": 0,
+                "max": 98,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "13d8+39"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 2,
+                "prof": 0,
+                "total": 2
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 4,
+            "powerdc": 12,
+            "bar1": {
+                "value": 98,
+                "min": 0,
+                "max": 98
+            },
+            "bar2": {
+                "value": 18,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "darkvision": 60
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<h2 style=\"font-family: &#34;helvetica neue&#34; , &#34;helvetica&#34; , &#34;arial&#34; , sans-serif\">Yuuzhan Vong</h2><p>The Yuuzhan Vong\u2014\"Children of Yun-Yuuzhan\", also called the Chosen Race, known to the Chiss and Ferroans as the Far Outsiders, and sometimes incorrectly abbreviated to Vong (which implied that one was disowned by their family and their gods)\u2014were a sentient species that nearly destroyed the New Republic, and were responsible for the deaths of nearly 365 trillion sentient beings during their invasion of the galaxy.</p><p><b><i>Biology &amp; Appearance.</i></b>&nbsp;The Yuuzhan Vong are humanoids that are taller and of heavier build than the average Human. Yuuzhan Vong also have a life span generally around three times that of a Human's. Yuuzhan Vong have sloping, almost ridge-like foreheads. Some have pointed ears, while some do not. This disparity could be due to ritual mutilations, or a genetic variation; there is no conclusive evidence as to what the species' norm is. Yuuzhan Vong also have short, stub-like noses, making their faces appear skull-like. They usually have black hair, though in lesser amounts on both the head and body than Humans, but often wear it much longer than them, unless completely bald. Small blue sacks can be found under the eyes of the Yuuzhan Vong, and they are often considered a mark of beauty. These eyesacks expand and contract to reflect a Yuuzhan Vong's mood. The most common skin tones among the Yuuzhan Vong are gray and yellow, and their blood is jet black. The Yuuzhan Vong nervous system is very conductive, as if it was made specifically for feeling pain.</p><p><i><b>The Force.</b></i>&nbsp;Perhaps the most notable and most objectionable trait of the Yuuzhan Vong is that they are outside of the Force: they have no Force presence that can be sensed, and are unaffected by most Force powers that are targeted directly at them. Any attempt to sense their motivation or truthfulness or to determine their next course of action is futile. Although it is not possible to affect the Yuuzhan Vong directly through the use of the Force, it is possible to use indirect means to accomplish such a task, such as manipulating an object through telekinesis and throwing it at a Yuuzhan Vong, which would injure them, or by controlling the air in an attempt to increase the pressure, thus allowing a Jedi to, in effect, crush the Yuuzhan Vong.</p><p><b><i>Culture.&nbsp;</i></b>Yuuzhan Vong culture is centered on sacrifice, their gods, and the philosophy of pain. They glorify pain; not as a motive for action, but as a state of living. They believe that, just like their gods had sacrificed their bodies to create the galaxy, the Yuuzhan Vong themselves were to sacrifice parts of their body for a greater purpose. By remaking their own bodies, they are becoming closer to their deities. However, they never maim their bodies in a manner that would permanently hinder their ability to function. Individual Yuuzhan Vong have mottling or scarring, and sweeping tattoos. The more elite individuals are even known to graft organs from other creatures into their bodies. Devotional practices to the gods call for bloodletting at prayer times.</p><p>The Yuuzhan Vong employ a caste system including warriors, shapers, priests, intendants and workers. Love affairs between two different castes is considered forbidden. They also greatly believe in honor: even under interrogations, the word of a Yuuzhan Vong is high, and, if they promise respite to their victims for revealing information, they typically keep their word. There also exists a similar concept to the Wookiee Life debt, which is known as Us-hrok.</p><p><b><i>Technology.&nbsp;</i></b>The Yuuzhan Vong have a fanatical hatred of machines, believing them to be abominations and an aront to their gods. Machines do not die, meaning that they are capable of replacing organic life\u2014which is something the Yuuzhan Vong would never allow.</p><div class=\"userscript-page\" title=\"Page 190\"><div class=\"userscript-layoutArea\"><div class=\"userscript-column\"><h4>Warrior Caste</h4><p></p><div class=\"userscript-page\" title=\"Page 190\"><div class=\"userscript-layoutArea\"><div class=\"userscript-column\"><p>The warrior caste served as the armies of the Yuuzhan Vong and was one of the largest castes who essentially served as the military branch of their race. Members of the caste were trained from an early age to excel in combat. Warriors were also more aggressive than other Yuuzhan Vong. Their chief weapon was the amphista, which resembled a deadly serpent capable of spitting venom or coiling around foes. The warriors were devotees of the Slayer, Yun-Yammka, and sought honor in combat. They wore the living vonduun crab armor which was capable of resisting blaster re or lightsabers. This armor did have weak points, such as points at the armpit and areas of the inner hip where the shell's segments joined.</p><p>Ranks of the warrior caste included the Warmaster, Supreme Commander, Commander, Subaltern and Warrior.</p></div></div></div></div></div></div><table class=\"userscript-table userscript-table-bordered\"><tbody><tr><td><p><b>Vongsense</b></p><p>Vongsense is a power which enables a being to sense Yuuzhan Vong telepathically. This ability was discovered by Anakin Solo after he attuned a lambent crystal to him and then repaired his lightsaber using it. In some ways, this ability worked similarly to the Force, but only relating to the Yuuzhan Vong and their biots. This ability was fairly rare, although it was also possessed by Tahiri Veila, Finn Galfridian and by Anakin's brother Jacen. This was because forming it required a physical or mental connection of sorts to Yuuzhan Vong biotechnology. In Anakin's case, this was the lambent crystal; in Tahiri's, the vivisection she had suered as the captive of Mezhan Kwaad; and in Jacen's, the similar ordeal he had undergone at the hands of Vergere. Jedi practitioners have to temporarily abandon their connection with theForce in order to use Vongsense.</p></td></tr></tbody></table>",
+                "public": ""
+            },
+            "alignment": "Chaotic Neutral",
+            "species": "",
+            "type": {
+                "value": "humanoid",
+                "subtype": "Yuuzhan Vong",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 11,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 7200
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": "Energy While In Vonduun Armor"
+            },
+            "dr": {
+                "value": [
+                    "force"
+                ],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Yuuzhan Vong"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Yuuzhan Vong Warlord",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "XBZeSQ58zb2ELYlL",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "ZTJmNGJkODZkM2Jk",
+            "name": "Limited Force Immunity",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The warlord can't be a\u0000ffected or detected by force powers of 5th level or lower. It has advantage on saving throws against all other force powers and e\u0000ffects.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YWJkMWRhZjYwZTA3",
+            "name": "Martial Advantage",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>Once per turn, the warlord can deal an extra 14 (4d6) damage to a creature it hits with a weapon attack if that creature is within 5 ft. of an ally of the warlord that isn't incapacitated.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MTYzOTk0MjQ2MGEw",
+            "name": "Transform Amphistaff",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>As a bonus action, the warlord can change the form of its amphistaff\u0000.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "Mzg1ZTVhNWM1YWJh",
+            "name": "Parry",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The warlord adds 3 to its AC against one melee attack that would hit it. To do so, the warlord must see the attacker and be wielding a melee weapon.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MzRmZjcyOTM1NDQy",
+            "name": "Multiattack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The warlord can make three melee weapon attacks.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/skills/green_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "NGEwMWE0YjllNDdj",
+            "name": "Amphistaff (Spear Form - Melee)",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+6, Reach 5 ft., One target. <em>Hit : </em>6 (1d6+3) kinetic damage.</p><p>The target must make a DC 13 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZTEzODJkYWU4OGEz",
+            "name": "Amphistaff (Spear Form - Ranged)",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+6, Range 20/60 ft., One target. <em>Hit : </em>6 (1d6+3) kinetic damage.</p><p>The target must make a DC 13 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 20,
+                    "long": 60,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 70000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "OGQ0Yzg5N2EwMDNj",
+            "name": "Amphistaff (Staff Form - one handed)",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+6, Reach 5 ft., One target. <em>Hit : </em>6 (1d6+3) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 80000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NzBlZDc2MDJjMDFh",
+            "name": "Amphistaff (Staff Form - two handed)",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+6, Reach 5 ft., One target. <em>Hit : </em>8 (2d4+3) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "2d4+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 90000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZjJhZmZkODMwYjFj",
+            "name": "Amphistaff (Whip Form).",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+6, Reach 10 ft., One target. <em>Hit : </em>5 (1d4+3) kinetic damage.</p><p>The target must make a DC 13 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 10,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 100000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZDdmZGU2ZmNiMjIx",
+            "name": "Leadership (Recharges after a Short or Long Rest)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>For 1 minute, the warlord can utter a special command or warning whenever a nonhostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d4 to its roll provided it can hear and understand the warlord. A creature can bene\u0000t from only one Leadership die at a time. This e\u0000ffect ends if the warlord is incapacitated.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 110000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/446_-_Yuuzahn_Vong_Warlord/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

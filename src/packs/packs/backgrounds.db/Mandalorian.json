@@ -1,0 +1,115 @@
+{
+    "name": "Mandalorian",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are a child of Mandalore. As a member of the most renowned warrior culture in history, your people are known for being strong and hardy. Mandalorian culture is built around the honor and glory that come from victory in battle."
+        },
+        "flavorName": {
+            "value": "Mandalorian Clan"
+        },
+        "flavorDescription": {
+            "value": "Mandalorian culture is built on the backbone of various clans. The clan you are a part of has it's own history, allegiances, and fueds which shape your persepctive. Choose an option or roll on the table below to determine your clan."
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Mandalorian Clan</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Vizsla</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Fett</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Kryze</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Ordo</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Wren</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Lok</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Cadera</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Clanless</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Athletics, Intimidation, Piloting, and Survival"
+        },
+        "toolProficiencies": {
+            "value": "One set of artisan's implements"
+        },
+        "languages": {
+            "value": "Mando'a"
+        },
+        "equipment": {
+            "value": "A set of traveler's clothes, a trophy from a previous victory, and a pouch containing 200 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Mandalorians are a meritocracy where birthplace, rank, status, and citizenship mean nothing. You are what you do. Mandalorians live by the Resol'nare (the \"Six Actions\"). As a true Mandalorian you should strive to live by this code as much as possible by remaining honorable. Your flaw(s) might consist of any dishonor you've committed, or even being too honorable."
+        },
+        "featureName": {
+            "value": "Child of Mandalore"
+        },
+        "featureText": {
+            "value": "Other Mandalorians know, and will look out for you. If you're ever in need of a place to stay, or a meal to eat, other Mandalorians  will help you as long as your clans aren't feuding. This could be in the form of shelters, meals, even healing. If the Mandalorians are of your clan or a clan friendly to you, they may be willing to help you even at cost to themselves."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Threatening</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Ace Pilot</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Survivalist</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Durable</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Weapon Expert</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Athlete</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I try and bring my culture to outsiders.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I always put my clan first.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I follow the Resol'nare to the letter.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I love a good spar.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I enjoy traveling the galaxy.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I keep a small trophy on me to remind me of a past victory.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I view the force as dishonorable in combat.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I've seen the horrors of battle and try to prevent it.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Tradition. I live by my clan's ways, and will continue to do so. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Power. I strive to be the best warrior, no matter who stands in my way. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Respect. I have earned the respect of many, and I intend to keep it. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Freedom. I enjoy having the ability to do whatever I want. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Comradery. I'll put everything on the line for those dear to me. (Any)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I'll succeed in my goals, it just takes time and effort. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I look down on outsiders.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I have no respect for anyone who flees. Cowardice is unacceptable.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I don't see much use in talking, a blaster is all I need to make my point.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I stick to my traditions no matter what, even at the cost of others.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I retreated once, and I've regretted it ever since.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I value a victory regardless of the ethics behind the victory.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I lost someone dear to me in battle, I will always honor them.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Honor is everything to me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I will lay down my life for those beside me.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I must keep the traditions of my ancestors alive.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">No matter where I go, Mandalore is my home.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">In death, I will find glory.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Mandalorian.webp",
+    "effects": [
+        {
+            "_id": "Ak1vZkXH57KiTblz",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Mandalorian",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "mandoa",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Mandalorian",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "ZQfd3DpGpyREBndX"
+}

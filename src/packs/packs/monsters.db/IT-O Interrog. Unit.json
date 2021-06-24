@@ -1,0 +1,708 @@
+{
+    "_id": "Xv3QGVPKVfIHLn3C",
+    "name": "IT-O Interrog. Unit",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 3,
+                "proficient": 0,
+                "min": 3,
+                "mod": -4,
+                "save": -4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 8,
+                "proficient": 0,
+                "min": 3,
+                "mod": -1,
+                "save": -1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 6,
+                "proficient": 1,
+                "min": 3,
+                "mod": -2,
+                "save": 0,
+                "prof": 2,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "11",
+                "min": 0,
+                "formula": "armor plating"
+            },
+            "hp": {
+                "value": 6,
+                "min": 0,
+                "max": 6,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "4d4-4"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 0,
+                "prof": 0,
+                "total": 0
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 40,
+                "swim": 0,
+                "walk": 0,
+                "units": "ft",
+                "hover": true
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 6,
+                "min": 0,
+                "max": 6
+            },
+            "bar2": {
+                "value": 11,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 10, passive Insight 14"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"The IT-O's greatest tool is its reputation. Tell the suspect you have one, and show it waiting in the wings. This alone will often elicit a confession.\"</i></p><p><span style=\"font-size: 13px\">- Grand Inquisitor Torbin</span></p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Manufacturer</u></td><td style=\"line-height: 1.42857\"><ul><li>Imperial Department of Military Research</li><li>Imperial Security Bureau</li></ul></td></tr><tr><td style=\"line-height: 1.42857\"><u>Class</u></td><td style=\"line-height: 1.42857\">Interrogator droid (aka Torture droid)</td></tr><tr><td style=\"line-height: 1.42857\"><u>Width</u></td><td style=\"line-height: 1.42857\">0,3 meters</td></tr><tr><td style=\"line-height: 1.42857\"><u>Mass</u></td><td style=\"line-height: 1.42857\">10 kg</td></tr><tr><td style=\"line-height: 1.42857\"><u>Sensor color</u></td><td style=\"line-height: 1.42857\">Red</td></tr><tr><td style=\"line-height: 1.42857\"><u>Plating color</u></td><td style=\"line-height: 1.42857\">Black</td></tr></tbody></table><p>The IT-O was an interrogation droid designed by Imperial Security Bureau and employed by the Galactic Empire. Use of the IT-O was carefully controlled by ISB, though some models found their way into the hands of senior Moffs, military intelligence and even CompForce. They were also employed by Imperial Inquisitors and Stormtrooper garrison commanders.</p><h3>Characteristics</h3><blockquote><p><i>\"I've heard whispers about these droids \u2014 torture devices invented by twisted Imperial minds. It is said that they can deliver unimaginable pain. Pain so intense that it has never been experienced before \u2014 worse than pain from any disease or wound known in the universe.\"</i></p><p><span style=\"font-size: 13px\">- Princess Leia Organa, prior to her first encounter with an IT-O Interrogator</span></p></blockquote><p>It was a hovering droid similar in appearance to a remote, perhaps a third of a meter in diameter, with various attachments, deliberately frightening in appearance, used in torture. The droid was generally successful in getting information from prisoners using elaborate and scientific torture methods. First, it would inject the prisoner with a mentally disabling chemical that would decrease the pain threshold, while also forcing the subject to remain conscious. IT-O would do a read on the body, detecting the most sensitive areas like the genitals, joints, neck and many other less obvious body parts. Occasionally, the prisoner's vision may be obscured. A single torture session would usually last well over an hour. The droid had onboard systems to record the entire process, in case any information was lost in the screams of the prisoner. Its reputation was so feared that many prisoners began reciting their sins as soon as they saw an IT-O floating into their cell.<br></p><p>The IT-O's injection reservoirs could be filled with the latest drugs engineered by Imperial experts, such as Bavo Six and OV600. The droid could perform interrogation by itself or in conjunction with living questioners. It was designed with an emotionless personality to ask questions in flat monotone. When working with a living assistant the IT-O would often say nothing at all, thus making the prisoner fear and hate the droid, while viewing the living interrogator as a source of potential mercy.<br></p><p>Many Imperial Officers realized that the droid's fearsome reputation was so great that they would make good guard droids and so posted them at access points to sensitive areas of their bases and starships. This worked for all but the most determined opponent, as the droid would often cause the infiltrator to panic and run, usually straight into the arms of a stormtrooper.</p><h3>History</h3><blockquote><p><i>\"And now, your highness, we will discuss the location of your hidden Rebel base.\"</i></p><p><span style=\"font-size: 13px\">- Darth Vader</span></p></blockquote><p>One such droid was used by Darth Vader in his interrogation of Princess Leia Organa in 0 BBY. When Leia Organa underwent her mind probe, she was injected with a powerful mind-altering hallucinogen that made her very susceptible to suggestion. With mere words from Darth Vader, Leia imagined herself in unbearable pain, though she was not undergoing any physical harm whatsoever. Her uncanny fortitude prevented her from divulging any Alliance secrets during this torment. IT-O models also did guard duty within Detention Block AA-23, with Luke Skywalker encountering such a model while trying to rescue Leia.</p><p>IT-O models, along with Remotes and Arakyd Viper probe droids, were used heavily as guard droids in Moff Rebus's underground sewer lair, as well as the Imperial Detention Facility on Orinackra, the ISO Building on Imperial Center, the Executor, and the Arc Hammer.<br></p><p>Eventually, the IT-O model would be succeeded by the IT-3 Interrogator.<br></p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "droid",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 0.25,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 50
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "tiny",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [
+                    "lightning"
+                ],
+                "custom": "Ion"
+            },
+            "ci": {
+                "value": [
+                    "poisoned",
+                    "diseased"
+                ],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Binary, Knows Basic But Can't Speak It"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": -4,
+                "passive": 6,
+                "prof": 0,
+                "total": -4
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ins": {
+                "value": 2,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 14,
+                "prof": 4,
+                "total": 4
+            },
+            "itm": {
+                "value": 2,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 15,
+                "prof": 4,
+                "total": 5
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/176_-_IT-O_Interrog._Unit/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "IT-O Interrog. Unit",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/176_-_IT-O_Interrog._Unit/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "Xv3QGVPKVfIHLn3C",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "YTU3MDA3YmFkYWMz",
+            "name": "Flyby",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The IT-O Unit doesn't provoke opportunity attacks when it flies out of an enemy's reach.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/176_-_IT-O_Interrog._Unit/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MzJlZDdiZmFlNjhi",
+            "name": "Dart Launcher",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+3, Range 15/60 ft., One target. <em>Hit : </em>1 (1) kinetic damage plus 7 (2d6) poison damage.</p><p>On a hit, the target must succeed on a Con. saving throw (DC 12) or become stunned for one round.</p><p></p><p></p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 15,
+                    "long": 60,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "cha",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1",
+                            "kinetic"
+                        ],
+                        [
+                            "2d6",
+                            "poison"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/176_-_IT-O_Interrog._Unit/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

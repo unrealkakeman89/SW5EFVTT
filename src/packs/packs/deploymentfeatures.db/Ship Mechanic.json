@@ -1,0 +1,31 @@
+{
+    "_id": "NuRAuSavRUTntle8",
+    "name": "Ship Mechanic",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Mechanic"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>Also at 2nd rank, when installing new equipment or upgrades, you count as two members of a workforce, instead of one.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Mechanic.webp",
+    "effects": []
+}

@@ -1,0 +1,31 @@
+{
+    "_id": "048AtEOXxrKPAAVi",
+    "name": "Evasion",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Pilot"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>Also at 4th rank, your instinctive agility lets you dodge out of the way of certain area effects. When your ship is subjected to an effect, such as a proton torpedo or a seismic charge, that allows your ship to make a Dexterity saving throw to take only half damage, it instead takes no damage if it succeeds on a saving throw, and only half damage if it fails.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Pilot.webp",
+    "effects": []
+}

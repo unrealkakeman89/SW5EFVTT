@@ -1,0 +1,37 @@
+{
+    "_id": "dg2Jxd2PMPr37HKc",
+    "name": "Nano-Droid Distributor",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>Your ship is equipped with a nano-droid distributor that allows it to repair other ships. When a crew member takes the Patch action, they can instead repair another ship within 100 feet. You spend and roll one of your ship's Hull Dice, and the target ship regains that many hull points.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

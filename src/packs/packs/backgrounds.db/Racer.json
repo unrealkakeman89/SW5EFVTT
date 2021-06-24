@@ -1,0 +1,109 @@
+{
+    "name": "Racer",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You have a need for speed.  You live off of the adrenaline rush of piloting your craft or steering your beast through the dangers of a race.  You love the thrill of a photo-finish and relish the sweet taste of victory."
+        },
+        "flavorName": {
+            "value": "Racing Specialty"
+        },
+        "flavorDescription": {
+            "value": "<p>There are many places to race and many things to race with.  Maybe you dabble in all things fast.  Even still, all professional racers have a type of racing they prefer above all else; a race in which they are masters. Choose your vehicular or beastly specialty, or roll on the table below.</p>"
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Racing Specialty</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Air Speeders</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Boonta Speeders</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Pod Racers</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Speeder Bikes</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Starships</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Swoop Bikes</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Fathiers</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Varactyls</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Animal Handling, Nature, Piloting, and Technology"
+        },
+        "toolProficiencies": {
+            "value": "One type of gaming set or mechanic's kit"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of common clothes, a trophy or ribbon from your first-ever win, a gaming set (one of your choice), and a belt pouch containing 150 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Racers are usually competitive and often fearless. They can lead a whirlwind of a life, and sometimes the adrenaline of the race is no longer enough for them. "
+        },
+        "featureName": {
+            "value": "Terrain Mastery"
+        },
+        "featureText": {
+            "value": "You have a preternatural instinct for understanding the terrain, interpreting maps, and planning routes.  You and your party can move at three-fourths your speed over difficult terrain during long-distance travel.  Because of these skills, if you know your destination and the intervening terrain--either by reputation, by sight, or by maps you have seen--you are able to identify an effective short-cut, trimming your travel time by up to half.  Your GM may rule that your short-cut entails significant danger or may be temporarily impassable.\r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Animal Handler</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Naturalist</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Ace Pilot</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Techie</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Observant</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Win or lose.There is no try.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Giving up is never an option for me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I spit and laugh in the face of danger.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Why do something if there is not the possibility of death?</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I am always calm, no matter what the situation. I never raise my voice or let my emotions control me.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I don't pay attention to the risks in a situation. Never tell me the odds.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">The best way to get me to do something is to tell me I can't do it.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I blow up at the slightest insult.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Victory. It's not a victory if you don't follow the rules. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Win. A win is a win, no matter how it's done. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Charity. I share my winnings with the less fortunate. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Pride. I will do whatever it takes to be recognized as the best. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Excitement. Life is a race worth entering, because you never know how the ships will fly. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Victory. Nothing worth doing is ever a sure thing. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I think most people in life are content with a participation trophy. They disgust me.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I classify everyone I meet as a winner or a loser.There's only ever one winner.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">There is not a drug I won't try.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Once I start drinking, it's hard for me to stop.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Once someone questions my courage, I never back down no matter how dangerous the situation.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Waiting around makes me antsy. I'd rather do something stupid than do nothing at all.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">There is nothing more important to me than my vehicle.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I will win the Coruscant Invitational one day.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I'm trying to pay off the debt on my vehicle.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I owe a lot of money to the wrong kind of people.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I do what feels good.Let's see the authorities catch me.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Someone I loved died because they were too slow.That will never happen to me.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Racer.webp",
+    "effects": [
+        {
+            "_id": "DEgaT0vZNnQAfYnp",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Racer",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Racer",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "f6YNofyiN2kX4ZCz"
+}

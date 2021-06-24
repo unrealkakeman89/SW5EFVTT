@@ -1,0 +1,31 @@
+{
+    "_id": "0BYJ96ps3bjlHgxt",
+    "name": "Targeted Strike",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": "Disruption"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Sensors</em><br>When a friendly ship makes an attack against a target, you can use your reaction to expend a power die. You add the power die to the attack roll, and the damage roll if it hits. You can use this maneuver before or after the attack roll, but before the GM determines whether or not the attack hits.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

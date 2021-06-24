@@ -1,0 +1,31 @@
+{
+    "_id": "OzcohUskPdHG9wId",
+    "name": "Battle Stations",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Coordinator"
+        },
+        "featureType": {
+            "value": "Collaboration"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Comms</em><br>If you are surprised at the start of combat and aren\u2019t incapacitated, you can expend one power die to act normally. Additionally, on your first turn in combat, as a bonus action you can choose a number of creatures equal to the amount rolled on the power die who can see or hear you to act normally on their first turn.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Coordinator.webp",
+    "effects": []
+}

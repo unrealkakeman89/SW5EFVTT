@@ -1,0 +1,93 @@
+{
+    "_id": "YP3RHcb3X5tj6tIS",
+    "name": "Enhance Droid",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You touch a droid or construct and upgrade one of its aspects. Choose one of the following effects; the target gains that effect until the power ends.</p>\n<ul>\n<li><em><strong>Servomotor.</strong></em> The target has advantage on Strength checks, and its carrying capacity doubles.</li>\n<li><em><strong>Motivator.</strong></em> The target has advantage on Dexterity checks. It also doesn't take damage from falling 20 feet or less if it isn't incapacitated.</li>\n<li><em><strong>Power Core.</strong></em> The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the power ends.</li>\n<li><em><strong>Databanks.</strong></em> The target has advantage on Intelligence checks.</li>\n<li><em><strong>Sensors.</strong></em> The target has advantage on Wisdom checks.</li>\n<li><em><strong>Relations Protocols.</strong></em> The target has advantage on Charisma checks.</li>\n</ul>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 3rd level or higher, you can target one additional droid or construct for each slot level above 2nd.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "hour"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "touch"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 2,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/EnhanceDroid.webp"
+}

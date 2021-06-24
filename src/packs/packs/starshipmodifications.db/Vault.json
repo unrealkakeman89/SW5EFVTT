@@ -1,0 +1,37 @@
+{
+    "_id": "NhFPpQ8PHyA7d5Bf",
+    "name": "Vault",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite comes equipped with a vault, which has a capacity equal to half your ship's base cargo capacity, as shown in the @JournalEntry[pMX6ND1g3oNyo09c]{Starship Size Cargo Capacity}&nbsp;table on page 55. The vault is equipped with both a key and a code lock, and is magnetically sealed to prevent it opening in the event of power failure. The vault can be accessed with a DC 25 Intelligence (Security Kit) check. When the vault is accessed, an alarm sounds in the Bridge and Security Suite (if it exists). If a player rolls a 30 or higher on the Intelligence (Security Kit) check to unlock the vault, or has the key or code, the alarm can be bypassed.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "pWu7ql7UFckNjgmK",
+    "name": "Subtle Presence",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 18th level, you&rsquo;ve learned how to weave the Force around you in a cloak of your choice. As an action, you can focus the Force for 10 minutes. For the duration, you gain your choice of one of the following effects.</p>\n<p>You can use each feature once. You regain all expended uses when you complete a long rest.</p>\n<hr />\n<h4><strong>CLOAK OF FRIGHT</strong></h4>\n<p>Each creature of your choice that is within 60 feet must succeed on a Wisdom saving throw against your universal force save DC or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.</p>\n<hr />\n<h4><strong>CLOAK OF INVISIBILITY</strong></h4>\n<p>You and everything you are wearing or carrying become invisible to creatures of your choice. If you damage a creature or affect it with a force power, it can make a Wisdom saving throw against your universal force save DC. On a success, you are no longer invisible to that creature.</p>\n<hr />\n<h4><strong>CLOAK OF MEMORY</strong></h4>\n<p>Creatures that see you or any allies within 30 feet of you during this time cannot recall your physical appearances, your mannerisms, or any other identifying features.</p>\n<p>Creatures that interact with you must make a Wisdom saving throw against your universal force save DC once the interaction ends. You can choose to exclude a creature from this effect. On a failed save, the creature forgets all details of the interaction, rationalizing any of its outcomes.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 10,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": null,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "EPhvB41gDEI8Yww4",
+    "name": "In the Spotlight",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Exhibition Specialist</strong>:&nbsp;3rd level</em></p>\n<p>You can overwhelm an opponent with your unique blend of skill and style. As a bonus action, you can choose one creature you can see within 30 feet of you. The target is marked for 1 minute. While the target is marked, you gain the following benefits:</p>\n<ul>\n<li>You can add half your Charisma modifier (minimum of one) to any weapon damage roll you make against the marked target that doesn't already include that modifier.</li>\n<li>Your critical hit range against the marked target increases by 1.</li>\nIf the marked target is reduced to 0 hit points, you regain hit points equal to your fighter level + your Charisma modifier (minimum of 1).</ul>\n<p>This effect ends early if you're incapacitated or die. Once you've used this feature, you can't use it again until you finish a short or long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "bonus",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 1,
+            "max": "1",
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/FGTR-ARCH-Bonus.webp",
+    "effects": []
+}

@@ -1,0 +1,39 @@
+{
+    "_id": "A3MyNIRoyvE9fP64",
+    "name": "Ruffian Practice",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Operative",
+        "description": {
+            "value": "<h1>Ruffian Practice</h1>\n<p>Those operatives who choose the Ruffian Practice use rough-and-tumble tactics to handle any fight, big or small. They incite chaos and make devious moves that keep their enemies reeling.</p>\n<h2>Rakish Audacity</h2>\n<p>When you choose this practice at 3rd level, your unmistakable confidence propels you into battle. You can add your Charisma modifier to your initiative rolls.</p>\n<p>Additionally, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you, as long as the target of the attack is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you.</p>\n<p>Finally, during your turn, if you make a melee attack against a creature, that creature can't make opportunity attacks against you for the rest of your turn.</p>\n<h2>Nimble Step</h2>\n<p>Also at 3rd level, you learn to fluidly strike and maneuver through combat. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to maneuver across the battlefield.</p>\n<p>Some of your fancy footworks require your target to make a saving throw to resist the debilitating strike's effects. The saving throw DC is calculated as follows:</p>\n<p><strong>Nimble Step save DC</strong> = 8 + your proficiency bonus + your Dexterity modifier.</p>\n<h3>Blade Defense</h3>\n<p>You attempt to determine your target's next strike. Roll two Sneak Attack dice, and the target must make a Charisma saving throw. On a failed save, your AC increases by the higher amount rolled on the dice against the first attack it makes against you before the start of your next turn. On a successful save, your AC instead increases by the lower amount.</p>\n<h3>Disarming Strike</h3>\n<p>You attempt to disarm a creature with your attack. The target must succeed on a Strength saving throw or be forced to drop one item of your choice that it's holding. If you have a free hand, you can catch the item. Otherwise, it lands at your feet.</p>\n<h3>Fancy Footwork</h3>\n<p>Roll two Sneak Attack dice. Your speed increases by 5 x the greater result of the two dice, and you ignore difficult terrain until the end of your current turn.</p>\n<h2>Panache</h2>\n<p>Beginning at 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.</p>\n<p>If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a power, or until you and the target are more than 60 feet apart.</p>\n<p>If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance. This effect ends immediately if you or your companions do anything harmful to it.</p>\n<h2>Elegant Maneuver</h2>\n<p>Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn.</p>\n<h2>Master Duelist</h2>\n<p>At 17th level, your mastery of the blade lets you turn failure into success in combat. If you miss with an attack roll, you can roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Ruffian%20Practice.webp",
+    "effects": []
+}

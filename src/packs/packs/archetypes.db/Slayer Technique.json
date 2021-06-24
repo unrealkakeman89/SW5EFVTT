@@ -1,0 +1,39 @@
+{
+    "_id": "EEBl6B5YPcztiGRm",
+    "name": "Slayer Technique",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Scout",
+        "description": {
+            "value": "<h1>Slayer Technique</h1>\n<p>Some scouts seek to learn the most about their foes and to capitalize on that knowledge. Follower of the Slayer Technique focus on identifying the strengths and weaknesses of their prey, taking advantage of that knowledge to vanquish their foes.</p>\n<h2>Bonus Proficiencies</h2>\n<p>You gain proficiency in heavy armor.</p>\n<h2>Slayer's Pride</h2>\n<p>When you choose this technique at 3rd level, you have advantage on saving throws against being frightened.</p>\n<h2>Mark of the Slayer</h2>\n<p>Also at 3rd level, you immediately learn if the target of your Ranger's Quarry feature has any damage immunities, resistances, or vulnerabilities and what they are. Additionally, the first time you hit the target of your Ranger's Quarry feature with a weapon attack each turn, it takes extra damage equal to your Ranger's Quarry Damage Die. The damage is of the same type as the weapon's damage.</p>\n<h2>Supernatural Defense</h2>\n<p>Beginning at 7th level, whenever the target of your Ranger's Quarry forces you to make a saving throw, or whenever you make an ability check to escape that targets grapple, you can use your reaction and roll your Ranger's Quarry Damage Die, adding it to the roll.</p>\n<h2>Nemesis</h2>\n<p>Starting at 11th level, when you score a critical hit or reduce a creature to 0 hit points on your turn, you can use your bonus action to force one creature of your choice that you can see within 30 feet of you to make a Wisdom saving throw against your tech save DC. On a failed save, a creature becomes frightened of you for 1 minute. At the end of each of the creature's turns it repeats this saving throw, ending the effect on a success.</p>\n<h2>Slayer's Counter</h2>\n<p>At 15th level, if the target of your Ranger's Quarry feature forces you to make a saving throw, you can use your reaction to make one weapon attack against it. You make this attack immediately before making the saving throw. If your attack hits, you automatically succeed on the saving throw, in addition to the attack's normal effects.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Techcaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Slayer%20Technique.webp",
+    "effects": []
+}

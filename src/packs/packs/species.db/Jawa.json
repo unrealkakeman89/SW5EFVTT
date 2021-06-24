@@ -1,0 +1,276 @@
+{
+    "_id": "jMh5K7Xk1YYOn2GZ",
+    "name": "Jawa",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Jawas are easily identifiable by their traditional brown hooded robes, though it is not unheard of for them to wear other colors. Other notable features included their glowing yellow eyes, small stature and high pitched, quickly spoken language called Jawaese. Underneath their robes, jawas appear to be gaunt, rodent-like creatures, with shrunken faces and yellow eyes.</p><h2>Society and Culture</h2><p>Jawas are a communal, compulsive scavenger species who spend most of their life devoted to scavenging the deserts of Tatooine in search of any scrap metal, droid or mechanical part left behind from millennia of star travel and technological advancement. Most non-jawas regard the jawas as scavengers and thieves, a description that most jawas actually find pleasing.</p><p>The jawa's unofficial motto is <em>not to look for uses in a salvaged item, but rather to imagine someone else who might find a use for it</em>. This is evidenced in their endless search for wares with which to trade with almost any being jawas encounter. They have an instinctive feel for machinery and electronics, notorious for knowing how to get a piece of equipment functioning just well enough to sell.</p><h2>Names</h2><p>Jawa names are quickly spoken, complex, and often misunderstood. Jawas who spend the majority of their time around other species respond well to nicknames. Male and female names do not significantly deviate. Surnames are clan based.</p><p>&nbsp;&nbsp;<strong>Male Names.</strong> Bilvu, Mnak, Penk, Plin, Vih</p><p>&nbsp;&nbsp;<strong>Female Names.</strong> Bahimos, Kola, Levu, Rhovi, Uvet</p><p>&nbsp;&nbsp;<strong>Surnames.</strong> Kkejenem, M'avoe, Tjoteelt, Wiamoel</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Intelligence score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Jawas are considered adults when they make their first sale and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Jawas tendency to steal and swindle causes them to tend towards the dark side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Jawas stand around 3 to 4 feet tall and weigh about 40 lbs. Regardless of your position in that range, your size is Small.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p>\n<p><em><strong>Darkvision.</strong></em> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Grovel, Cower, and Beg.</strong></em> As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.</p>\n<p><em><strong>Tech Dabbler.</strong></em> You know the <em>ion blast</em> at-will tech power. When you reach 3rd level, you can cast the <em>repair droid</em> tech power once per day. When you reach 5th level, you can also cast the <em>hold droid</em> tech power once per day. Intelligence is your techcasting ability for these powers. You do not require use of a wristpad for these powers.</p>\n<p><em><strong>Thieves.</strong></em> You have proficiency in Sleight of Hand.</p>\n<p><em><strong>Tinker.</strong></em> You have proficiency with tinker's tools. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the Use an Object action to have your device cause one of the following effects: create a small explosion, create a repeating loud noise for 1 minute, create smoke for 1 minute, cause a small electrical fire. You can maintain a number of these devices up to your proficiency bonus at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it.</p>\n<p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Jawaese. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. Jawaese blends quickly spoken, semi-meaningless syllables with scents to be understood.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black"
+        },
+        "hairColorOptions": {
+            "value": "Black"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow"
+        },
+        "distinctions": {
+            "value": "Diminutive stature, mechanical aptitude, thieving nature"
+        },
+        "heightAverage": {
+            "value": "2'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "35 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Tatooine"
+        },
+        "slanguage": {
+            "value": "Jawaese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Jawa",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "sm",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.slt.value",
+                    "value": "1",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Sleight of Hand"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "jawaese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "vcONUajhg6OJXHkK",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Jawa.webp",
+    "effects": [
+        {
+            "_id": "7xmo1x6YCPktrmG7",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Jawa",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 25,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.slt.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "jawaese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.grovelCowerAndBeg",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.tinker",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "tin",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Jawa.webp",
+            "label": "Jawa",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

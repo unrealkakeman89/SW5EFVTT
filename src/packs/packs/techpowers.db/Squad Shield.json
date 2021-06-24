@@ -1,0 +1,93 @@
+{
+    "_id": "nGsHnixLynhIYIOP",
+    "name": "Squad Shield",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>In the face of danger, you create a barrier that protects you and those around you. A faintly glowing sphere of protection with a radius of 10 feet appears. The sphere lasts for the duration.</p>\n<p>Any tech power (or force power that deals energy or lightning damage) of 7th level or lower cast from outside the barrier can't affect creatures or objects within it, even if the power is cast using a higher level tech slot. Such a power can target creatures and objects within the barrier, but the power has no effect on them. Similarly, the area within the barrier is excluded from the areas affected by such powers.</p>\n<p>Furthermore, hazards of the following types cannot physically pass through the barrier or affect anything within it</p>\n<ul>\n<li>Physical or energy projectiles.</li>\n<li>A specific effect such as a thermal detonator's explosion.</li>\n<li>An environmental danger, such as falling rocks or a lava flow.</li>\n</ul>\n<p><strong><em>Overcharge Tech.</em></strong> When you cast this power using a tech slot of 8th level or higher, the maximum radius increases by 10 feet for each slot level above 7th. In addition, the barrier blocks powers of one level higher for each slot level above 7th.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "reaction",
+            "cost": 1,
+            "condition": "which you take in response to an incoming attack"
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 10,
+            "width": null,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 7,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": true
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "10 feet (radius)"
+        }
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.Z8XeuHvbE5I21GtD"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/Squad Shield.webp",
+    "effects": []
+}

@@ -1,0 +1,31 @@
+{
+    "_id": "NcdJUlCVRxJHiYmZ",
+    "name": "Gunning Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>At 4th rank, you master a particular style of gunning. Choose one of the Gunning Mastery options, detailed in Chapter 6. You can\u2019t take a Gunning Mastery option more than once, even if you later get to choose again.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

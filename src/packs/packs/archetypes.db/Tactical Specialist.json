@@ -1,0 +1,39 @@
+{
+    "_id": "SKluJRGJzsX03qlx",
+    "name": "Tactical Specialist",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Fighter",
+        "description": {
+            "value": "<h1>Tactical Specialist</h1>\n<p>Those fighters who choose to become Tactical Specialists employ martial techniques passed down through generations. To a Tactical Specialist, combat is an academic field, sometimes including subjects beyond battle such as armstech or armormech. Not every fighter absorbs the lessons of history, theory, and artistry that are reflected in the Tactical Specialty, but those who do are well-rounded fighters of great skill and knowledge.</p>\n<h2>Improved Combat Superiority</h2>\n<p>When you choose this specialty at 3rd level, your tactical skill in combat improves, granting bonuses to your Combat Superiority.</p>\n<h3>Additional Maneuvers</h3>\n<p>You learn two additional maneuvers of your choice, and you earn more at higher levels, as shown in the Maneuvers Known column of the Tactical Specialist Combat Superiority table.</p>\n<h3>Additional Superiority Dice</h3>\n<p>You have two additional superiority dice, and you earn more at higher levels, as shown in the Superiority Dice column of the Tactical Specialist Combat Superiority table.</p>\n<p>Additionally, your superiority dice become d6s. This die changes as you gain fighter levels, as shown in the Combat Superiority column of the Tactical Specialist Combat Superiority table.</p>\n<h2>Student of War</h2>\n<p>Also at 3rd level, you gain proficiency with one type of artisan's tools of your choice.</p>\n<h2>Know Your Enemy</h2>\n<p>Beginning at 7th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The GM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:</p>\n<ul>\n<li>Strength score</li>\n<li>Dexterity score</li>\n<li>Constitution score</li>\n<li>Armor Class</li>\n<li>Current hit points</li>\n<li>Total class levels (if any)</li>\n<li>Fighter class levels (if any)</li>\n</ul>\n<div class=\"classtable\">\n<blockquote>\n<table>\n<thead>\n<tr>\n<td style=\"color: #000000; text-transform: uppercase; font-family: 'Russo One'; background-color: #bdc8cc; font-size: 16px;\" colspan=\"5\"><em>Tactical Specialist Combat Superiority</em></td>\n</tr>\n<tr>\n<th align=\"center\">Level</th>\n<th align=\"center\">Superiority Dice</th>\n<th align=\"center\">Maneuvers Known</th>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n</thead>\n<tbody>\n<tr class=\"rows\">\n<td align=\"center\">3rd</td>\n<td align=\"center\">4</td>\n<td align=\"center\">4</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">4th</td>\n<td align=\"center\">4</td>\n<td align=\"center\">4</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">5th</td>\n<td align=\"center\">4</td>\n<td align=\"center\">4</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">6th</td>\n<td align=\"center\">4</td>\n<td align=\"center\">4</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">7th</td>\n<td align=\"center\">6</td>\n<td align=\"center\">6</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">8th</td>\n<td align=\"center\">6</td>\n<td align=\"center\">6</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">9th</td>\n<td align=\"center\">6</td>\n<td align=\"center\">6</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">10th</td>\n<td align=\"center\">6</td>\n<td align=\"center\">6</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">11th</td>\n<td align=\"center\">8</td>\n<td align=\"center\">8</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">12th</td>\n<td align=\"center\">8</td>\n<td align=\"center\">8</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">13th</td>\n<td align=\"center\">8</td>\n<td align=\"center\">8</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">14th</td>\n<td align=\"center\">8</td>\n<td align=\"center\">8</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">15th</td>\n<td align=\"center\">10</td>\n<td align=\"center\">10</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">16th</td>\n<td align=\"center\">10</td>\n<td align=\"center\">10</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">17th</td>\n<td align=\"center\">10</td>\n<td align=\"center\">10</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">18th</td>\n<td align=\"center\">10</td>\n<td align=\"center\">10</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">19th</td>\n<td align=\"center\">10</td>\n<td align=\"center\">10</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">20th</td>\n<td align=\"center\">10</td>\n<td align=\"center\">10</td>\n<td>&nbsp;</td>\n<td>&nbsp;</td>\n</tr>\n</tbody>\n</table>\n</blockquote>\n</div>\n<h2>Signature Maneuver</h2>\n<p>At 10th level, you choose a maneuver as your signature maneuver. Whenever you use that maneuver, you can roll a d4 and use it instead of expending a Superiority Dice. You may only use this feature once per turn.</p>\n<h2>Relentless</h2>\n<p>Starting at 15th level, when you roll initiative and have no superiority dice remaining, you regain 1 superiority die.</p>\n<h2>Greater Signature Maneuver</h2>\n<p>At 18th level, you can choose a second signature maneuver. Additionally, when you use your signature maneuver, you can roll a d6 instead of a d4.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Tactical%20Specialist.webp",
+    "effects": []
+}

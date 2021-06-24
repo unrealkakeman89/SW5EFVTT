@@ -1,0 +1,114 @@
+{
+    "name": "Jedi",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>You are a devout follower of the Jedi Order: an ancient, monastic peacekeeping organization united in its observance of the light side of the Force. A noble order of protectors noted for their ability to tap into the power of the Force, the Jedi serve as guardians of peace and justice in the Galactic Republic. You follow the Jedi Code:</p><p><em>\"There is no emotion, there is peace.<br>There is no ignorance, there is knowledge.<br>There is no passion, there is serenity.<br>There is no chaos, there is harmony.<br>There is no death, there is the Force.\"</em></p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Investigation, Lore, and Persuasion"
+        },
+        "toolProficiencies": {
+            "value": "Artificer's tools"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A copy of the Jedi code, a set of common clothes including a robe, and a belt pouch containing 150 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Jedi are shaped by their experience in their temple. Their study of the history and tenets of the Jedi Order and their relationships to temples, shrines, or hierarchies affect their mannerisms and ideals. Their flaws might be some hidden hypocrisy or heretical idea, or an ideal or bond taken to an extreme."
+        },
+        "featureName": {
+            "value": "Shelter of the Faithful"
+        },
+        "featureText": {
+            "value": "<p>As a Jedi, you command the respect of those who are loyal to the Jedi Order. You and your adventuring companions can expect to receive free healing and care at any Jedi temple, and those who support your religion will support you (but only you) at a modest lifestyle.</p><p>You might also have ties to a specific Jedi temple and have a residence there. This could be the temple where you trained, or a temple where you have found a new home. While near your temple, you can call upon the Jedi for assistance, provided the assistance you ask for is not hazardous and you remain in good standing with your temple.</p>"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Loremaster</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Charmer</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Healer</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Force-Sensitive</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I idolize a particular Jedi, and constantly refer to that person's deeds and example.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I can find common ground between the fiercest enemies, empathizing with them and always working towards peace.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I see omens in every event and action. The Force tries to speak to us, we just need to listen</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Nothing can shake my optimistic attitude.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I quote (or misquote) sacred Jedi texts and proverbs in almost every situation.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I am tolerant (or intolerant) of those who don't support the Jedi.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I've enjoyed fine food, drink, and high society. Rough living grates on me.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I've spent so long in the Jedi temple that I have little practical experience dealing with people in theworld.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Charity. I always try to help those in need, no matter what the personal cost. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Change. We must help bring about the changes the Force is constantly working in the world. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Power. I hope to one day rise to the rank of Jedi Master. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Faith. I trust that the Force will guide my actions; I have faith that if I work hard, things will go well. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I seek to prove myself worthy of the Force by matching my actions against the Jedi teachings. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I judge others harshly, and myself even more severely.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I put too much trust in those who wield power within my temple's hierarchy.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">My piety sometimes leads me to blindly trust those that profess faith in the Force.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I am inflexible in my thinking.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I am suspicious of strangers and expect the worst of them.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I would die to recover an ancient Jedi relic that was lost long ago.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I will someday get revenge on those who razed my temple.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I owe my life to the Jedi who took me in when my parents died.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Everything I do is for the common people.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I will do anything to protect the temple where I served.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I seek to preserve a sacred text that my enemies seek to destroy.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Jedi.webp",
+    "effects": [
+        {
+            "_id": "0LDgG6pA8ETk7nfy",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Jedi",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "arti",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Jedi",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "ACu6DUeLnWULwjNU"
+}

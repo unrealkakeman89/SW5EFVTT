@@ -1,0 +1,39 @@
+{
+    "_id": "7OqolLOiiu5K59rD",
+    "name": "Blademaster Specialist",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Fighter",
+        "description": {
+            "value": "<h1>Blademaster Specialist</h1>\n<p>Those fighters who choose to become Blademaster Specialists hone their focus to a blade's edge, becoming so in tune with their arsenal that it becomes both their weapon and their armor.</p>\n<h2>Unarmored Defense</h2>\n<p>When you choose this specialty at 3rd level, while you are wearing no armor and not wielding a shield, your AC equals 10 + your Dexterity modifier + your Strength modifier.</p>\n<h2>Adaptive Fighting</h2>\n<p>Also at 3rd level, you've learned to make adaptations to your fighting style on the fly. You have three such effects: Change Up, Draw, and Stow. When you use your Adaptive Fighting, you choose which effect to create.</p>\n<p>You can use this features a number of times equal to your Strength or Dexterity modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.</p>\n<h3>Change Up</h3>\n<p>You can use your object interaction and expend a use of your Adaptive Fighting to change the Fighting Style option granted to you by your fighter class feature. You can't take a Fighting Style option more than once.</p>\n<h3>Draw</h3>\n<p>When you use your object interaction to draw one or more weapons, you can expend a use of your Adaptive Fighting (no action required) to make your weapon attacks with the weapon(s) score a critical hit on a roll of 19 or 20 until the start of your next turn.</p>\n<h3>Stow</h3>\n<p>When you use your object interaction to stow a weapon, you can expend a use of your Adaptive Fighting (no action required) to take the Disengage action.</p>\n<h2>Dervish</h2>\n<p>Beginning at 7th level, when you score a critical hit with a melee weapon attack, you regain a use of your Adaptive Fighting, to a maximum of your Strength or Dexterity modifier (your choice, minimum of one).</p>\n<h2>Resilient Fighting</h2>\n<p>At 10th level, when you expend a use of your Adaptive Fighting, you gain resistance to energy and kinetic damage dealt by weapons until the start of your next turn.</p>\n<h2>Adrenaline Rush</h2>\n<p>Starting at 15th level, when you use your Action Surge feature, you can take an extra bonus action on top of the additional action.</p>\n<h2>Bladestorm</h2>\n<p>At 18th level, you can use your action to make a single melee weapon attack against each creature within your reach. Make a separate attack roll against each target. The first attack gains a +1 bonus to its attack roll, and each attack after the first gains an additional +1 bonus to its attack roll, cumulatively, to a maximum bonus of +6. If you are wielding two light- or vibro-weapons, or a weapon with the double property, you also add this bonus to your damage rolls, and you can use your bonus action to engage in Two-Weapon Fighting.</p>\n<p>Once you've used this feature, you must complete a short or long rest before you can use it again.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Blademaster%20Specialist.webp",
+    "effects": []
+}

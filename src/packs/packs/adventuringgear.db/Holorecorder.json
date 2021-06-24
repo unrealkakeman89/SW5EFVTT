@@ -1,0 +1,32 @@
+{
+    "name": "Holorecorder",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A holorecorder is a device used to record and project holograms. Some droid models are equipped with internal holorecorders.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 100,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Data%20Recording%20and%20Storage/Holorecorder.webp",
+    "_id": "n8VDbaI6MzaxWSkO"
+}

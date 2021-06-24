@@ -1,0 +1,31 @@
+{
+    "_id": "7ETJnTSCSBz1Uxne",
+    "name": "Payload Delivery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": "Gunning Style"
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>You are skilled with mines, missiles, rockets, and other explosive weapons. When you roll a 1 or 2 on a damage die for a tertiary or quaternary weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

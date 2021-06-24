@@ -1,0 +1,71 @@
+{
+    "_id": "TE8Ntdf1x7zULfHU",
+    "name": "Guardian Aura",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Guardian</strong>:&nbsp;3rd, 9th, 10th, 17th, and 18th level</em></p>\n<p>When you reach 3rd level, you gain an aura of your choice, as detailed at the end of the class description. The range of your auras increases to 15 feet at 9th level and 30 feet at 17th level, and you gain an additional aura at 10th and 18th level.</p>\n<p>&nbsp;</p>\n<h2>GUARDIAN AURAS</h2>\n<p>The auras are presented in alphabetical order. If multiple guardians grant the same aura, affected creatures can only benefit from it once. You must be conscious to grant the benefits of your auras.</p>\n<p>At 9th level, the range of these auras increases to 15 feet, and at 17th level, the range of these auras increases to 30 feet.</p>\n<hr />\n<blockquote>\n<h4><strong>AURA OF CONQUEST</strong></h4>\n<p>Whenever a creature who is frightened of you starts its turn within 5 feet of you, its speed is reduced to 0 and that creature takes psychic damage equal to half your guardian level.</p>\n<hr />\n<h4><strong>AURA OF CONVICTION</strong></h4>\n<p>You and friendly creatures within 5 feet of you have advantage on saving throws against effects that would cause you to be charmed or frightened.</p>\n<hr />\n<h4><strong>AURA OF HATRED</strong></h4>\n<p>You and friendly creatures within 5 feet of you gain a bonus to the first melee weapon damage rolls you make each round equal to your Charisma modifier (minimum of +1).</p>\n<hr />\n<h4><strong>AURA OF PRESENCE</strong></h4>\n<p>Whenever you or a friendly creature within 5 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Wisdom modifier (minimum of +1).</p>\n<hr />\n<h4><strong>AURA OF PROTECTION</strong></h4>\n<p>Whenever a creature within 5 feet of you takes damage, you can use your reaction to take that damage instead of that creature taking it. This feature doesn&rsquo;t transfer any other effects that might accompany the damage, and this damage can&rsquo;t be reduced in any way.</p>\n<hr />\n<h4><strong>AURA OF VIGOR</strong></h4>\n<p>Whenever a friendly creature starts its turn within 5 feet of you, that creature gains temporary hit points equal to your Wisdom or Charisma modifier (your choice, minimum of one).</p>\n<hr />\n<h4><strong>AURA OF WARDING</strong></h4>\n<p>You and friendly creatures within 5 feet of you have resistance to damage from force powers.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Guardian 3",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/GRDN-Passive.webp",
+    "effects": []
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Pouch",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "backpack",
+    "data": {
+        "description": {
+            "value": "",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 5,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+            "type": "weight",
+            "value": 6,
+            "weightless": false
+        },
+        "currency": {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Storage/Pouch.webp",
+    "_id": "ms32a7hpt43RJUeV"
+}

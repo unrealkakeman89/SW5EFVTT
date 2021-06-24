@@ -1,0 +1,20 @@
+{
+    "_id": "TUtKuAc5Ub1AT7oH",
+    "name": "Explosives Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered fighting with explosives, causing untold destruction. You gain the following benefits:</p><ul><li>When determining the save DC of an ammunition or explosive you control, you can use 8 + your proficiency bonus + your Intelligence modifier, if it would be higher than the item's DC.</li><li>When using an ammunition or explosive that requires a saving throw and deals damage, you can take a penalty to the save DC equal to your proficiency bonus. If you do so, the item's damage increases by an amount equal to your proficiency bonus.</li><li>You have advantage on saving throws against ammunition and explosive you control.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Explosives%20Mastery.webp",
+    "effects": []
+}

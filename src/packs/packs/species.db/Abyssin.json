@@ -1,0 +1,248 @@
+{
+    "_id": "fIDn0SRZcKtbQAsI",
+    "name": "Abyssin",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The hulking abyssin have long limbs and a single large eye chat dominates their foreheads. Typically wellmuscled, the abyssin&rsquo;s stooping gait results in a slightly hunched appearance.</p>\n<p>A distinctive trait of the abyssin is their ability to heal quickly; their fast regeneration is believed to have been an adaptation to prevent fluid loss via bleeding on their desert homeworld. All cells in the abyssin body are replaced every 80 hours, and organs which typically were paired in other species appear singularly.</p>\n<h2>Society and Culture</h2>\n<p>A primitive tribal society, the abyssin of Byss are known as violent and brutish, and their planet is avoided by most beings in the civilized galaxy. Unstable resources on Byss do not allow for mass population growth or for the stabilization of a central government, economy or trade system.</p>\n<p>Existing simply in nomadic tribes, abyssin groups can interact peacefully with one another, though only if both groups have plentiful water and food supplies. Otherwise, they began a 'Blooding', a brawl that ends only when one tribe's warriors are all killed, captured, or incapacitated. Warriors who survive a Blooding are usually allowed to join the winning tribe once they finish their regeneration. This tradition led to some violent incidents when spacers tried to make first contact and trade with Abyssin tribes with scarce water resources, especially since the abyssin assumed the alien traders could regenerate as quickly as they did.</p>\n<h2>Names</h2>\n<p>There does not appear to be any distinction between male and female names for abyssin. Abyssin don't use surnames.</p>\n<p><strong>&nbsp; Names.</strong> Anami, Easym, Myo, Qawohl, Seh-run, Sidie</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Strength score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Abyssin reach adulthood at age 30 and can live up to 300 years thanks to their regenerative abilities.</p>\n<p><em><strong>Alignment.</strong></em> Abyssin's violent and anarchic upbringing cause them to tend toward the dark side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Abyssin stand around 6 feet tall and weigh between 200 and 400 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed. </strong></em>Your base walking speed is 30 feet.</p>\n<p><em><strong>Rapidly Regenerative.</strong></em> You heal quickly, both at will and in response to danger. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points. Additionally, when you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0.</p>\n<p><em><strong>Rugged Survivalist.</strong></em> You are proficient in the Survival skill. Additionally, you are naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.</p>\n<p><em><strong>Tech-Impaired.</strong></em> While abyssin can figure out basic technology, they experience difficulty using more complex equipment like wristpads. You cannot use tech powers or take levels in techcasting classes.</p>\n<p><em><strong>Savage Attacks.</strong></em> When you score a critical hit with a melee weapon attack, you can roll one of the weapon's damage dice one additional time and add it to the extra damage of the critical hit</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Abyssin. Abyssin uses mainly growls and grunts that many species consider primitive. The written form of language uses only a small number of simple hieroglyphs.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, tan"
+        },
+        "hairColorOptions": {
+            "value": "Black, turning white with age"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow, white"
+        },
+        "colorScheme": {
+            "value": ""
+        },
+        "distinctions": {
+            "value": "Single eye, regenerative abilities"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "2d10\""
+        },
+        "weightAverage": {
+            "value": "150 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Byss"
+        },
+        "slanguage": {
+            "value": "Abyssin"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Abyssin",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.custom",
+                    "value": "Abyssin",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language Custom"
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Abyssin.webp",
+    "effects": [
+        {
+            "_id": "JhHAOQyteRjEJhyC",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": [
+                        "None"
+                    ]
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.details.species",
+                    "value": "Abyssin",
+                    "mode": 5,
+                    "priority": 50
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 50
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 50
+                },
+                {
+                    "key": "data.skills.sur.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 40
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "abyssin",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.techImpaired",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 50
+                },
+                {
+                    "key": "flags.sw5e.savageAttacks",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 50
+                },
+                {
+                    "key": "flags.sw5e.rapidlyRegenerative",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 50
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Abyssin.webp",
+            "label": "Abyssin",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

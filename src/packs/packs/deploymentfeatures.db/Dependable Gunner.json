@@ -1,0 +1,31 @@
+{
+    "_id": "DzQgoRfhN5BBRaft",
+    "name": "Dependable Gunner",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "3rd Rank"
+        },
+        "description": {
+            "value": "<p>Starting at 3rd rank, when you roll for damage with a ship weapon, you can reroll one of the dice, but you must use the new result.  You may use this feature a number of times equal to your ranks in gunner.  You regain all expended uses when you complete a long rest.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

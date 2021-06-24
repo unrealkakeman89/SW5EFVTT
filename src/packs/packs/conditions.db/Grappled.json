@@ -1,0 +1,16 @@
+{
+    "_id": "4P3Bqv1A4gl4nmjT",
+    "name": "Grappled",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.P6qwaMJpP29U6R0V"
+        }
+    },
+    "content": "<h4 id=\"grappled\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">GRAPPLED</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">A grappled creature has 4 slowed levels.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The condition ends if the grappler is incapacitated (see the condition).</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The condition also ends if an effect removes the grappled creature from the reach of the grappler or grappling effect.</li>\n</ul>",
+    "img": "icons/svg/anchor.svg"
+}

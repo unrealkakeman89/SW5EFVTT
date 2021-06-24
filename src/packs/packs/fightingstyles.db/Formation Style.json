@@ -1,0 +1,20 @@
+{
+    "_id": "f1XFzeNryW5zSXa1",
+    "name": "Formation Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at fighting with a partner. While an ally is within 5 feet of you, you gain the following benefits:</p><ul><li>You can take the Guard action as a bonus action. If you could already take the Guard action as a bonus action, you can instead take it as a reaction on your turn.</li><li>When you move on your turn, you can use a bonus action to allow a willing ally within 5 feet of you to move with you (no action required by the ally). The ally must end this movement within 5 feet of you, and this movement can't exceed the ally's speed.</li><li>When you choose to let an attack that would hit a guarded ally hit you instead, the creature rolls the damage as normal instead of choosing the maximum.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Formation%20Style.webp",
+    "effects": []
+}

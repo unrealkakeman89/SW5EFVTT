@@ -1,0 +1,23 @@
+{
+    "_id": "q9BXIUW2jbMIoDvU",
+    "name": "Resourceful Tactics",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 1 rank in pilot</em></p><p>Once per round, when you roll a power die as part of a pilot's tactic, you can roll the die twice and take either result.</p>"
+        },
+        "prerequisites": [
+            "at least 1 rank in pilot"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

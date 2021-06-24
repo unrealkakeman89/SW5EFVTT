@@ -1,0 +1,31 @@
+{
+    "_id": "nBl18Fr4ATBb43hQ",
+    "name": "System Disruption",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>At 2nd rank, as a bonus action while deployed as an operator, you can choose a ship that you can see within 1,000 feet and target its systems for disruption. For the next minute, or until you disrupt another target, you have advantage on any Wisdom (Scan) or Intelligence (Probe) check you make to find it.</p><p>Additionally, when the ship makes an ability check, attack roll, or saving throw, you can use your reaction to disrupt the ship\u2019s functions. Roll a System Disruption die, which is a d6, and subtract it from the ability check, attack roll, or saving throw. You can choose to use this feature after the ship makes its roll, but before the GM says whether the roll succeeds or fails. You can use this feature twice. You gain another use of this feature at 3rd, 4th, and 5th rank in this deployment. You regain any expended uses when you finish a long rest.</p><p>Your System Disruption die changes when you reach certain ranks in this deployment. The die becomes a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

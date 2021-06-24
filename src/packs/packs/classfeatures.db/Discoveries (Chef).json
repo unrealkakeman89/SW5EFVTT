@@ -1,0 +1,71 @@
+{
+    "_id": "1XEpeh0EPWD74pBp",
+    "name": "Discoveries (Chef)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect the progress of your studies into the culinary arts. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ALTERNATIVE FUEL</strong></h4>\n<p>Any of your chef features, maneuvers, or discoveries can now affect droids and constructs.</p>\n<hr />\n<h4><strong>BANQUET</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;17th level, Full Course</span><br />Over the course of a long or short rest, you may utilize an additional maneuver from this archetype (total of four).</p>\n<hr />\n<h4><strong>FILLING MEAL</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;7th level</span><br />Over the course of a long or short rest, you may utilize up to two different maneuvers from this archetype, rather than one.</p>\n<hr />\n<h4><strong>FULL COURSE</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;12th level, Filling Meal</span><br />Over the course of a long or short rest, you may utilize an additional maneuver from this archetype (total of three).</p>\n<hr />\n<h4><strong>ON THE ROCKS</strong></h4>\n<p>Any food you prepare over a short or long rest carries with it an additional cooling effect. Creatures that consume it are considered adapted to hot climates, as described in chapter 5 of the Dungeon Master&rsquo;s Guide, until the end of the creature&rsquo;s next long rest or 24 hours have passed. Additionally, the first time a creature who eats your food takes fire damage before the end of their next short or long rest, they are considered resistant to the damage.</p>\n<hr />\n<h4><strong>SECRET INGREDIENT</strong></h4>\n<p>If you or any friendly creature that has consumed food made by you during their last short or long rest gains temporary hit points, the number of temporary hit points they gain increases by an amount equal to your Intelligence modifier.</p>\n<hr />\n<h4><strong>SPICE OF LIFE</strong></h4>\n<p>Any food you prepare over a short or long rest carries with it an additional warming effect. Creatures that consume it are considered adapted to cold climates, as described in chapter 5 of the Dungeon Master&rsquo;s Guide, until the end of the creature&rsquo;s next long rest or 24 hours have passed. Additionally, the first time a creature who eats your food takes cold damage before the end of their next short or long rest, they are considered resistant to the damage.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

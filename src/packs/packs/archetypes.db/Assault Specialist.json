@@ -1,0 +1,39 @@
+{
+    "_id": "vWCA4gae11g8s1xq",
+    "name": "Assault Specialist",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Fighter",
+        "description": {
+            "value": "<h1>Assault Specialist</h1>\n<p>Those fighters who choose to become Assault Specialists focus on the development of raw physical power honed to deadly perfection. Assault Specialists combine rigorous training with physical excellence to deal devastating blows.</p>\n<h2>Brute Force</h2>\n<p>When you choose this specialty at 3rd level, once per turn, when you deal damage with a weapon, you can deal an additional 1d4 damage of the same type as the weapon&rsquo;s damage. If this damage would affect multiple creatures, you can only apply this damage bonus to one of them.</p>\n<p>This damage increases to 1d6 at 5th level, 1d8 at 9th level, 1d10 and 13th level, and 1d12 at 17th level.</p>\n<h2>Remarkable Athlete</h2>\n<p>Also at 3rd level, you can add half your proficiency bonus (rounded up) to any Strength, Dexterity, or Constitution check you make that doesn&rsquo;t already use your proficiency bonus.</p>\n<h2>Brutish Durability</h2>\n<p>Beginning at 7th level, once per round, roll 1d6 and add the die to your saving throw total. If applying this bonus to a death saving throw increases the total to 20 or higher, you gain the benefits of rolling a 20 on the d20. You can choose to use this feature before or after you make a saving throw, but you must decide before the GM says whether the save succeeds or fails.</p>\n<h2>Additional Fighting Style</h2>\n<p>At 10th level, you can choose a second Fighting Style option.</p>\n<h2>Devastating Critical</h2>\n<p>Starting at 15th level, when you score a critical hit with a weapon attack, you gain a bonus to that weapon's damage roll equal to your fighter level.</p>\n<h2>Survivor</h2>\n<p>At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Assault%20Specialist.webp",
+    "effects": []
+}

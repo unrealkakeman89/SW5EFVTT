@@ -1,0 +1,71 @@
+{
+    "_id": "Y78JOUdUxUJXEfa5",
+    "name": "Borrowed Luck",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Once you&rsquo;ve reached 17th level, you have gained the ability to unnaturally alter luck in your favor. Once per round, after an attack roll, saving throw, or ability check is rolled by you or a creature that you can see, you can replace the number on the d20 with a 7. Note the number on the d20 of the roll that you replaced. That number becomes your borrowed luck roll.</p>\n<p>While you have a borrowed luck roll, you can expend it and replace any ability check, attack roll, or saving throw made by you or a creature that you can see with the value of the borrowed luck roll. You can only have one borrowed luck roll at a time, and you lose any unused borrowed luck rolls when you complete a short or long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

@@ -1,0 +1,252 @@
+{
+    "_id": "kCLCHYzGmdJVJpXU",
+    "name": "Bith",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Bith are craniopods with pale pink, yellow, or green skin, large heads, large lidless eyes, toeless feet, and long fingers. Their thumb and small finger were both fully opposable. The bith's internal systems are different from most humanoids, as the bith have only one lung, and exhale through their skin. Bith also lack a proper nose, instead having highly sensitive olfactory organs hidden in the skin-flaps of their cheeks. The other bith senses are also acute. Bith can sense the tonal qualities of sound as well as other species sensed colors. Their eyes, as big as a Menahuun's, can see microscopic details of nearby objects, but are extremely nearsighted as a result. An interesting side effect of their incredible sensors is the effect of sonic grenades, or screamers, on them. It is described as causing their heads to explode. Similarly, bith have high manual dexterity which helps them manipulate fine tools, though their physical prowess with gross motor skills was only average.</p>\n<h2>Society and Culture</h2>\n<p>Bith are one of the galaxy's most ancient civilizations, with a history going back millions of years. This antiquity garners respect in certain quarters, such as among the Gree, who gave them more respect than other, \"younger\" species. Their society is highly regimented, with everything from mate selection to political leadership controlled by sophisticated computer programs.</p>\n<h2>Names</h2>\n<p>Bith names are quite diverse. Some names look complicated and difficult to pronounce, while others are quite simple.</p>\n<p><strong>Male Names.</strong> Fedu, Jenkiss, Kabadons, Ph'teumkiass</p>\n<p><strong>Female Names.</strong> Duhia, F'hubama, R'hothal, Thidus</p>\n<p><strong>Surnames.</strong> D'intes, Hern, K'sarorn, Nimum, Rumo</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Dexterity score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Bith reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Biths' benevolent nature causes them to tend toward the light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Bith typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Detail Oriented.</strong></em> You are practiced at scouring for details. You have advantage on Intelligence (Investigation) checks within 5 feet.</p>\n<p><em><strong>Keen Hearing and Smell.</strong></em> You have advantage on Wisdom (Perception) checks that involve hearing or smell.</p>\n<p><em><strong>Musician.</strong></em> You are proficient in one musical instrument of your choice.</p>\n<p><em><strong>Programmer.</strong></em> Whenever you make an Intelligence (Technology) check related to computers, you are considered to have expertise in the Technology skill.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic, Bith, and one more language of your choice.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, pink, white, or yellow"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Large cranium, acute senses of smell and hearing"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Clak'dor VII"
+        },
+        "slanguage": {
+            "value": "Bith"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "RBFh9qTjK9KGTxQS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "RBFh9qTjK9KGTxQS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "RBFh9qTjK9KGTxQS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "RBFh9qTjK9KGTxQS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Bith",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "RBFh9qTjK9KGTxQS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "Basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "RBFh9qTjK9KGTxQS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "Bith",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "RBFh9qTjK9KGTxQS",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.toolProf.value",
+                    "value": "music",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "ELH8899fqDlpo706",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Bith.webp",
+    "effects": [
+        {
+            "_id": "064LQEqCktTG9phA",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.details.species",
+                    "value": "Bith",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "bith",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "music",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.detailOriented",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.programmer",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Bith.webp",
+            "label": "Bith",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "_id": "vlLsGoFKFHBKyVue",
+    "name": "Way of Tutelage",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Consular",
+        "description": {
+            "value": "<h1>Way of Tutelage</h1>\n<p>With the Force, knowledge is most often passed from a master to an apprentice. Those consulars who follow the Way of Tutelage know the strength of working together exceeds that of working alone.</p>\n<h2>Bonus Proficiencies</h2>\n<p>You gan proficiency in your choice of Intimidation or Persuasion.</p>\n<h2>Humanoid Companion</h2>\n<p>When you choose this tradition at 3rd level, you've taken an apprentice, gaining the services of your own humanoid companion.</p>\n<p>Create your humanoid companion as detailed in the Companions section of the Customization Options document for Expanded Content.</p>\n<p>If your companion dies, or you want to bond with a different one, you must first break the bond with your current companion. Bonding with a new companion takes 8 hours spent in an appropriate location. You may only have one companion at a time.</p>\n<p>In addition to its traits and features, your companion gains additional benefits while it is bonded to you:</p>\n<ul>\n<li>Your companion gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each trait in excess of your proficiency bonus, your force point maximum is reduced by 2.</li>\n</ul>\n<p>Lastly, while bonded and within 10 feet of you, when your companion is hit by an attack, you can use your reaction and expend a use of your Force Shield feature to shroud it in Force energy. if you do so, until the start of your next turn, both you and your companion gain the benefit of your Force Shield. This includes the triggering attack.</p>\n<p>At 11th level, your companion must be with n 30 feet of you to benefit from this feature. At 17th level, your companion must be within 60 feet.</p>\n<h2>Strength Flows from the Force</h2>\n<p>At 6th level, when you cast a power that affects only your companion, you can choose to treat the power as if cast at your Max Power Level.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.</p>\n<h2>You Have That Power Too</h2>\n<p>Beginning at 10th level, the bond between you and your companion has strengthened. When your companion is within 10 feet of you, and either you or your companion casts a force power that would affect only one of you, you can, instead, have it affect both.</p>\n<p>At 11th level, your companion must be within 30 feet of you to benefit from this feature. At 17th level, your companion must be within 60 feet.</p>\n<h2>Got Your Back</h2>\n<p>At 14th level, once per turn, when your companion is within 10 feet of you, and both you and your companion have to make a saving throw to resist the same effect, either you or your companion can choose to have disadvantage on the save. If either of you does so, the other of the two of you gains advantage on the save. You can use this feature before or after you both make the saving throw, but you must do so before the GM says whether the save succeeds or fails.</p>\n<p>At 17th level, your companion must be within 60 feet of you to benefit from this feature.</p>\n<h2>Now I Am the Master</h2>\n<p>Starting at 18th level, your companion has learned almost all that it can from you. As an action on its turn, your companion can take the lead, gaining the following benefits for 1 minute:</p>\n<ul>\n<li>It gains temporary hit points equal to twice its level.</li>\n<li>Once per turn, when it deals damage or restores hit points, it can roll an additional die.</li>\n<li>It gains resistance to kinetic and energy damage.</li>\n</ul>\n<p>This effect ends early if your companion is incapacitated or dies. Once your companion has used this feature, it can't use it again until it finishes a long rest.</p>"
+        },
+        "source": "EC",
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.wts5RY6yaPP6greA"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Way%20of%20Tutelage.webp",
+    "effects": []
+}

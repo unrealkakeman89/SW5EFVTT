@@ -1,0 +1,71 @@
+{
+    "_id": "z5s3mctvvQbG2Yh4",
+    "name": "Vengeance",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>By 15th level, you gain one of the following features.</p>\n<p>Choose Devastating Critical for Juyo or Their Power, My Strength for Vapaad.</p>\n<blockquote>\n<h4><strong>DEVASTATING CRITICAL</strong></h4>\n<p>When you score a critical hit with a melee weapon attack, you gain a bonus to that weapon&rsquo;s damage roll equal to your guardian level.</p>\n<hr />\n<h4><strong>THEIR POWER, MY STRENGTH</strong></h4>\n<p>When you are dealt damage by a force power, you can reduce that damage by an amount equal to your guardian level (no action required).</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you complete a short or long rest.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

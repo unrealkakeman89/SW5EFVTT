@@ -1,0 +1,37 @@
+{
+    "_id": "W4CCvtAAmx4OC21B",
+    "name": "Shock Absorbers",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger"
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>Your ship has been modified to withstand sudden impacts, and to be more effective at ramming. Your ship has resistance to kinetic damage caused by ramming.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

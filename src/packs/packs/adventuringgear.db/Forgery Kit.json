@@ -1,0 +1,41 @@
+{
+    "name": "Forgery Kit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 5,
+        "price": 150,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Kit/Forgery%20Kit.webp",
+    "_id": "uoNaJRSb7ocwldUu"
+}

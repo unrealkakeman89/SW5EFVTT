@@ -1,0 +1,71 @@
+{
+    "_id": "8m0voKhTkgLeitkp",
+    "name": "Debilitating Strike",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn to apply your anatomical knowledge in direct combat, in order to hinder your targets. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to hinder the creature, provided they have the appropiate physiology.</p>\n<p>Some of your debilitating strikes require your target to make a saving throw to resist the debilitating strike&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<hr />\n<p><strong>Debilitating Strike save DC</strong>&nbsp;= 8 + your proficiency bonus + your Intelligence modifier.</p>\n<hr />\n<blockquote>\n<h4><strong>BLEEDING WOUND</strong></h4>\n<p>You attempt to create a lingering wound in the target for one minute. The target must make a Constitution saving throw. On a failed save, at the start of each of the target&rsquo;s turns, it loses 1d6 hit points and repeats this saving throw, ending the effect on a success. This damage can&rsquo;t be reduced in any way.</p>\n<hr />\n<h4><strong>CRIPPLING PAIN</strong></h4>\n<p>You attempt to cause cause distracting pain in the target. The target must make a Constitution saving throw. On a failed save, it has disadvantage on attack rolls until the end of your next turn.</p>\n<hr />\n<h4><strong>HAMPERING SHOT</strong></h4>\n<p>You attempt to hamper the target&rsquo;s movement. The target must make a Constitution saving throw. On a failed save, it gains 1 slowed level and it makes Dexterity saving throws with disadvantage until the end of its next turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

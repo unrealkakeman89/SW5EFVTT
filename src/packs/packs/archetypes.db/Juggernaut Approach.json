@@ -1,0 +1,39 @@
+{
+    "_id": "QRwypM2cIYxW0NVN",
+    "name": "Juggernaut Approach",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Berserker",
+        "description": {
+            "value": "<h1>Juggernaut Approach</h1>\n<p>Certain berserkers find that the strongest offense is a good defense. Berserkers of the Juggernaut Approach wear the heaviest of armor not because they fear injury, but to strike fear in their hapless attackers.</p>\n<h2>Armored Brute</h2>\n<p>When you choose this approach at 3rd level, you\u2019ve learned to fight in the heaviest of armors, using your weight to your advantage. You gain proficiency in heavy armor, and you can gain the benefits of your Rage feature while wearing heavy armor.</p>\n<p>When you reach 5th level, you can gain the benefits of your Fast Movement feature while wearing heavy armor.</p>\n<h2>Unstoppable Force</h2>\n<p>Also at 3rd level, your momentum makes you nigh unstoppable. While raging, you can move through a hostile creature\u2019s space regardless of that creature\u2019s size. When you do so, you must make a Strength (Athletics) check contested by the target\u2019s Strength (Athletics) check. If you move at least 10 feet before moving through a hostile creature\u2019s space, and that creature is your size or smaller, they have disadvantage on the check. If you succeed, you don\u2019t treat the movement as difficult terrain, the creature is pushed 5 feet in a direction of your choice, and you don\u2019t provoke opportunity attacks from that creature until the end of your turn.</p>\n<h2>Raging Bulwark</h2>\n<p>At 6th level, your imposing form acts as a shield for your allies. When a friendly creature you can see is the target of a ranged attack, or forced to make a Dexterity saving throw, and you can see the source of the effect, you can use your reaction to move up to half your speed towards the friendly creature. You must end this move closer to the ally than you started. If you end this movement between your ally and the source of the effect, you provide cover for the attack.</p>\n<p>Additionally, you provide three-quarters cover, instead of half-cover, to creatures your size, and you provide full cover to creatures smaller than you.</p>\n<h2>Overwhelming Cleave</h2>\n<p>Starting at 10th level, when you successfully push a creature into a surface or another creature while raging, the pushed creature takes kinetic damage equal to your Rage Damage. Additionally, the first time you hit with a melee weapon attack using Strength each turn, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.</p>\n<h2>Relentless Assault</h2>\n<p>At 14th level, you\u2019re able to charge in unerring bursts. As an action, you can charge up to twice your speed in a straight line without provoking opportunity attacks. Each creature within 5 feet of your path must make a Strength or Dexterity saving throw (DC = 8 + your proficiency bonus + your Strength modifier, the target chooses the ability they use use). On a failed save, a creature takes damage equal to your Strength modifier + your Rage Bonus and is pushed back 5 feet in a direction of your choice. Creatures smaller than you make this save with disadvantage. When you end this movement, if a creature is within 5 feet of you, you can make one melee weapon attack (no action required). On a hit, the creature takes additional damage equal to your berserker level.</p>\n<p>Once you\u2019ve used this feature, you must complete a short or long rest before you can use it again.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Juggernaut%20Approach.webp",
+    "effects": []
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "Nr2aqIzrnxbTAq5O",
+    "name": "Explosive Gambits",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 3 ranks in gunner</em></p><p>Once per turn, when you roll the maximum on a gambit die, you can roll an additional die and add it to the roll.</p>"
+        },
+        "prerequisites": [
+            "at least 3 ranks in gunner"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

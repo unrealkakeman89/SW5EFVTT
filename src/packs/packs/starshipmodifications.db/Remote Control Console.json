@@ -1,0 +1,37 @@
+{
+    "_id": "bjjdkfw6xZwD4A8V",
+    "name": "Remote Control Console",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite includes the proper equipment necessary for a crew member to take remote control of another ship from the safety of their own ship. A number of crew members can be deployed at a time in remote ships from this suite equal to one quarter of the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table. The distance at which this suite can connect to remote ships is limited by the communications of the ship this suite is installed in.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

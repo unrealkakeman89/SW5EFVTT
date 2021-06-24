@@ -1,0 +1,71 @@
+{
+    "_id": "Fgf59MnnITFoccIZ",
+    "name": "Additional Maneuvers (Scholar: Geneticist)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain access to new maneuvers which reflect the changes your body has undergone. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ACID BURST</strong></h4>\n<p>When you take the Attack action on your turn, you can replace one of your attacks with a sudden and violent expulsion of acidic fluid. You expend a superiority die, and cause all creatures within a 15-foot cone to make a Dexterity saving throw. On a failed save, they take damage equal to the number rolled on your superiority die plus your Intelligence modifier.</p>\n<hr />\n<h4><strong>CHARGING ATTACK</strong></h4>\n<p>If you move at least 10 feet towards your target before successfully hitting them with a melee attack, you may expend a superiority die, causing the target to take additional damage equal to the result, and forcing it to make a Strength saving throw. On a failed save the creature is knocked prone.</p>\n<hr />\n<h4><strong>ELECTRICAL DISCHARGE</strong></h4>\n<p>When you succeed on a check to initiate or maintain a grapple, you can expend a superiority die. The creature takes lightning damage equal to the amount rolled on the die.</p>\n<hr />\n<h4><strong>RAMPAGE</strong></h4>\n<p>When you reduce a creature to 0 hit points, you can use your bonus action to expend a superiority die and move up to half your speed. If you end this movement within 5 feet of a creature, you can make a single melee attack against that creature, adding the result of the superiority die to the attack roll.</p>\n<hr />\n<h4><strong>UNRELENTING GRASP</strong></h4>\n<p>When you hit a creature within 5 feet of you with an opportunity attack, you may expend a superiority die. The creature takes additional damage equal to your superiority die, and you may attempt to grapple the target as part of the same reaction.</p>\n<hr />\n<h4><strong>VENOMOUS SLASH</strong></h4>\n<p>When you hit a creature with a melee attack, you may expend a superiority die to force it to make a Constitution saving throw. On a failed save, it takes poison damage equal to the result of the die and is poisoned until the start of your next turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

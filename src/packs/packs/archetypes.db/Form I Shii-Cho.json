@@ -1,0 +1,39 @@
+{
+    "_id": "cROcc25Zj1MT6Yf6",
+    "name": "Form I: Shii-Cho",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form I: Shii-Cho</h1>\n<p>Form I, also known as Determination Form, uses wild, unpredictable attacks designed to distract and disarm their foes. Those guardians who focus on Shii-Cho Form make seemingly random, yet deliberate, attacks to knock their opponents off-balance.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.rUL9jO0rPLWqOliO]{Shii-Cho Lightsaber Form}, detailed in Chapter 6 of the Player&rsquo;s Handbook. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Sarlaac</h2>\n<p>Also at 3rd level, as a bonus action, you can enter a frenetic stance for one minute. While in this stance, the first time you hit a creature with a melee weapon attack on your turn, it has disadvantage on the next melee attack roll it makes against you before the start of your next turn. Additionally, if that creature is within 5 feet of you, it must make a Strength saving throw (DC = 8 + your proficiency bonus + your Strength or Dexterity modifier). On a failed save, it is pushed back 5 feet, and you can immediately move into the space it just vacated without provoking opportunity attacks.</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<h3>Disarming Slash</h3>\n<p>When you hit a creature with a melee weapon attack, you can expend a use of your Channel the Force (no action required) to attempt to disarm the target, forcing it to drop one item of your choice that it's holding. The creature must make a Strength saving throw. On a failed save, it drops the object you choose. If you are within 5 feet of the target, and you have a free hand, you can catch the item. Otherwise, the object lands at its feet.</p>\n<h2>Unpredictable Motion</h2>\n<p>Beginning at 7th level, while you are wielding a melee weapon, opportunity attacks against you are made at disadvantage.</p>\n<h2>Sarlaac Sweep</h2>\n<p>Starting at 15th level, when a creature moves to within 5 feet of you, you can use your reaction to make a melee weapon attack against that creature. If the attack hits, you can attempt to damage another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength or Dexterity modifier (your choice). The damage is of the same type dealt by the original attack.</p>\n<h2>Master of Determination</h2>\n<p>At 20th level, the erratic fluidity of your movement confounds even the most determined of foes. Your Strength or Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage from unenhanced weapons.</li>\n<li>Attack rolls made against you can't have advantage.</li>\n<li>When more than one creature is within 5 feet of you, you gain a bonus to your Armor Class equal to the number of creatures within 5 feet of you, up to your Wisdom or Charisma modifier (your choice, minimum of one).</li>\n<li>When you use your Sarlaac Sweep feature, you have advantage on the attack roll, and you can apply the bonus damage to every creature within 5 feet of you.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Shii-Cho%20Form.webp",
+    "effects": []
+}

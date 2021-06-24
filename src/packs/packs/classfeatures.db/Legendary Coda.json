@@ -1,0 +1,71 @@
+{
+    "_id": "Kmzg1HQwVzvwiVqP",
+    "name": "Legendary Coda",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Starting at 18th level, you&rsquo;ve gained mastery over your modified instrument. As an action, you can end your enhanced song in a triumphant blast of power with an effect determined by the song you are playing.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>\n<hr />\n<h4><strong>BATTLE CRESCENDO</strong></h4>\n<p>Choose up to 10 creatures of your choice that you can see and that can hear your song. Each must make a Constitution saving throw. On a failed save, a target takes 14d6 sonic damage and is stunned for 1d4+1 turns. On a success, it takes half damage and isn&rsquo;t stunned. If a creature is killed by this power, its head explodes.</p>\n<hr />\n<h4><strong>SUPPORT CRESCENDO</strong></h4>\n<p>Choose up to 10 creatures of your choice that you can see and that can hear your song. Once in the next minute, each creature can, as a free action in response to taking damage, choose to halve that damage. Additionally, if the damage would reduce them to 0 hit points, they are instead reduced to 1.</p>\n<hr />\n<h4><strong>DISRUPTION CRESCENDO</strong></h4>\n<p>Choose up to 10 creatures of your choice that you can see and that can hear your song. Each creature must succeed on a Constitution saving throw or be paralyzed for 1d4+1 turns. If a creature affected by this feature is damaged in any way, the effect ends for that creature.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "special",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

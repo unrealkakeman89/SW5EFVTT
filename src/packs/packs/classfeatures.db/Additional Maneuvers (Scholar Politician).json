@@ -1,0 +1,71 @@
+{
+    "_id": "1Bo0I3J0R9yjjQIc",
+    "name": "Additional Maneuvers (Scholar: Politician)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain access to new maneuvers which reflect the progress of your studies into the political world. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>CALL TO ARMS</strong></h4>\n<p>If you are surprised at the start of combat and aren&rsquo;t incapacitated, you can expend one superiority die to act normally. Additionally, on your first turn in combat, as a bonus action you can make a call to arms. When you do so, a number of creatures equal to the amount rolled on the superiority die that you choose within 30 feet who can see or hear you may act normally on their first turn.</p>\n<hr />\n<h4><strong>CALL THE GUARDS</strong></h4>\n<p>When a creature makes an attack roll against you, you can use your reaction and expend a superiority die and command a willing ally within 5 feet of that creature to use their reaction to intercede. The creature is then forced to make an attack on the ally instead. If the attack misses, the ally can immediately make a weapon attack against that creature as a part of that same reaction. Roll the superiority die, and add the result to the ally&rsquo;s attack roll.</p>\n<hr />\n<h4><strong>CHARGE</strong></h4>\n<p>As a bonus action on your turn, you can expend one superiority die to spurn your allies to move. Until the start of your next turn, creatures you choose within 10 feet of you who can see or hear you can move an additional distance equal to 5 times the superiority die rolled on their turn and ignore unenhanced difficult terrain.</p>\n<hr />\n<h4><strong>ENCOURAGING SPEECH</strong></h4>\n<p>You can expend a superiority die to give an encouraging speech, spending the next minute rallying your allies. You grant a number of creature up to your Intelligence modifier temporary hit points equal to the amount rolled on the superiority die + your Intelligence modifier.</p>\n<hr />\n<h4><strong>INCITE</strong></h4>\n<p>On your turn, you can use an action and expend one superiority die to bolster the resolve of one of an ally. When you do so, choose an ally who can see or hear you within 30 feet of you. The ally can add your Intelligence modifier to every damage roll they make until the start of your next turn.</p>\n<hr />\n<h4><strong>OVERWHELMING PRESENCE</strong></h4>\n<p>As an action, you can make a Charisma (Persuasion) or Charisma (Intimidation) skill check and expend one superiority die to attempt to charm or frighten a humanoid creature who can see or hear you within 60 feet. Add the superiority die to the roll. The target makes a contested Wisdom (Insight) check. If your check succeeds, the target is charmed by you if you used Persuasion, or frightened of you if you used Intimidation, until the end of your next turn.</p>\n<hr />\n<h4><strong>SELF-PRESERVATION</strong></h4>\n<p>As a reaction when you make a saving throw against an effect you can see, you can expend a superiority die and add the result. You can use this maneuver before or after making the saving throw, but before any effects of the saving throw are det-ermined.</p>\n<hr />\n<h4><strong>STEADY THE NERVES</strong></h4>\n<p>As an action, you can expend one superiority die to strengthen your allies&rsquo; defences. Roll a superiority die. Until the end of your next turn, you and all allies within 5 feet of you when you use this action has a bonus to any saving throws they make equal to amount rolled.</p>\n<hr />\n<h4><strong>TYRANNICAL STRIKE</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die and use your reaction to issue a one-word command to a creature who can see or hear you. You add the superiority die to the attack&rsquo;s damage roll, and the target must succeed on a Wisdom saving throw. On a failed save, the target must follow the command on its next turn.</p>\n<p>The target automatically succeeds if it is immune to charm, it doesn&rsquo;t understand your language, or if your command is directly harmful to it.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

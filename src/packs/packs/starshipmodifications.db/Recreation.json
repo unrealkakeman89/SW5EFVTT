@@ -1,0 +1,37 @@
+{
+    "_id": "Hx3L4ZThqS3uYW6t",
+    "name": "Recreation",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite comes with a bar and lounge area, as well as multiples of each gaming set and musical instrument, and can accommodate a number of civilians, crew members, or troopers equal to twice the twice the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table. While utilizing any of these tools, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.</p>\n<p>Additionally, while utilizing any of these tools, you gain a benefit based on which tools you are using.</p>\n<ul>\n<li><strong>Gaming set or musical instrument:</strong> While playing one of the gaming sets or musical instruments, you can always readily read the emotions of those paying attention to you. During this time, and for up to one minute after completing, you have advantage on Wisdom (Insight) checks to read the emotions of those you performed for or competed against.</li>\n</ul>\n<p>Lastly, when a creature completes a long rest involving this suite, they gain advantage on the first ability check or attack roll they make before the start of their next long rest.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "cKIMaA2tK6a2eWRT",
+    "name": "Kennel",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite comes with all of the proper equipment to house beasts. When making Animal Handling checks on your ship, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.</p>\n<p>Additionally, this suite can house a number of medium beasts equal to half of the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table.</p>\n<p>Alternatively, this suite can house beasts of other sizes. A Huge beast takes up the space of two Large beasts, which in turn takes up the place of two Medium beasts, and so on.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

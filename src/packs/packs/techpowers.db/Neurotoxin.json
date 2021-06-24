@@ -1,0 +1,93 @@
+{
+    "_id": "0p4YthIRvLrxE1qx",
+    "name": "Neurotoxin",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You release a series of darts filled with neurotoxin. Choose any number of creatures you can see within range. Each creature  must make a Constitution saving throw. On a failed save, a creature suffers an effect based on its current hit points:</p>\n<ul>\n<li>60 hit points or fewer: poisoned for 1 minute</li>\n<li>50 hit points or fewer: poisoned and deafened for 1 minute</li>\n<li>40 hit points or fewer: poisoned, deafened, and blinded for 10 minutes</li>\n<li>30 hit points or fewer: poisoned, blinded, deafened, and stunned for 1 hour</li>\n<li>20 hit points or fewer: killed instantly</li>\n</ul>\n<p>This power has no effect on droids or constructs.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "bonus",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "con",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 7,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/Neurotoxin.webp"
+}

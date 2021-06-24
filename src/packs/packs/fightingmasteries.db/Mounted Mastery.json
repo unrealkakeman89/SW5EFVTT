@@ -1,0 +1,20 @@
+{
+    "_id": "QfJRUgmKCNsxPQ2x",
+    "name": "Mounted Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered the art of fighting while mounted, moving seamlessly with your companion. While you are mounted on a vehicle or controlled beast, you gain the following benefits:</p><ul><li>Once per turn, you can choose to have advantage on a melee weapon attack roll against an unmounted creature that is smaller than your mount. If the attack hits, you deal additional damage equal to your proficiency bonus.</li><li>If your mount is subjected to an effect that allows it to make a Dexterity saving throw to take only half damage, you can use your reaction to have it instead take no damage if it succeeds on the saving throw, and only half damage if it fails.</li><li>While mounted on a vehicle, you can use your bonus action instead of your action to take one of the vehicle's actions available to you. You can't take the same action twice in one turn.</li><li>While mounted on a controlled beast, you can use your bonus action to have your mount make a single attack against a creature within its range.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Mounted%20Mastery.webp",
+    "effects": []
+}

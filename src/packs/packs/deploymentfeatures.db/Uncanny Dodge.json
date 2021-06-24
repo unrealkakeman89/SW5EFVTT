@@ -1,0 +1,31 @@
+{
+    "_id": "GIW5yAeEha7epKqY",
+    "name": "Uncanny Dodge",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Pilot"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>Also at 2nd rank, when an attacker that you can see hits your ship with an attack, you can use your reaction to halve the attack\u2019s damage against your ship.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Pilot.webp",
+    "effects": []
+}

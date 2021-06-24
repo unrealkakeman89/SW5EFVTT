@@ -1,0 +1,76 @@
+{
+    "_id": "OwFJ3XWTg2ECPPqS",
+    "name": "Forcecasting (Consular)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Consular</strong>:&nbsp;1st level</em></p>\n<p>In your meditations on the force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.</p>\n<h4><strong>FORCE POWERS KNOWN</strong></h4>\n<p>You learn 9 force powers of your choice, and you learn more at higher levels, as shown in the Force Powers Known column of the consular table. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite.</p>\n<h4><strong>FORCE POINTS</strong></h4>\n<p>You have a number of force points equal to your consular level x 4, as shown in the Force Points column of the consular table, + your Wisdom or Charisma modifier (your choice). You use these force points to cast force powers. You regain all expended force points when you finish a long rest.</p>\n<h4><strong>MAX POWER LEVEL</strong></h4>\n<p>Many force powers can be overpowered, consuming more force points to create a greater effect. You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the consular table.</p>\n<p>You may only cast force powers at 6th, 7th, 8th, and 9th-level once. You regain the ability to do so after a long rest.</p>\n<h4><strong>FORCECASTING ABILITY</strong></h4>\n<p>Your forcecasting ability varies based on the alignment of the powers you cast. You use Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. Additionally, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.</p>\n<hr />\n<p><strong>Force save DC&nbsp;</strong>= 8 + your proficiency bonus + your forcecasting ability modifier</p>\n<hr />\n<p><strong>Force attack modifier</strong>&nbsp;= your proficiency bonus + your forcecasting ability modifier</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/CSLR-Passive.webp",
+    "effects": []
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "NmeTEWrdUDF7RVJx",
+    "name": "Turret Hardpoint",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Fixed Hardpoint"
+        },
+        "system": {
+            "value": "Weapon"
+        },
+        "basecost": {
+            "value": "3000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>The Turret Hardpoint is a modification to a Fixed Hardpoint that grants an improved firing arc. The weapon attached to the chosen fixed hardpoint now has an unlimited firing arc in addition to its limited arc, as described in chapter 9.  This hardpoint also installs a dedicated gunner station at or about the hardpoint.  Attacks made utilizing the unlimited firing arc can only be made by a crew member deployed at the dedicated gunner station of the weapon.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Weapon.webp",
+    "effects": []
+}

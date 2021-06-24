@@ -1,0 +1,72 @@
+{
+    "_id": "mNHz5us4zXnegeR5",
+    "name": "Companion Keeper",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p>You gain the services of a companion. Choose one of the companion nature options, detailed later in this chapter.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "4th Level",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 5200000,
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Feats/Companion%20Keeper.webp",
+    "effects": []
+}

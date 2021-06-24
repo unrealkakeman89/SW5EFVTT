@@ -1,0 +1,71 @@
+{
+    "_id": "ZM7V1WpNbiY9XbzE",
+    "name": "Kinetic Ward",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you can use your reaction to deflect a strike when you are dealt damage by a melee weapon attack. When you do so, the damage you take from the attack is reduced by 1d10 + your Dexterity modifier + your sentinel level. If you reduce the damage to 0, you can redirect it at another target if you have a weapon capable of doing so. You can spend 1 force point to make a melee weapon attack at a target within 5 feet of you with the weapon, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and if the attack hits it uses your Kinetic Combat die for its damage roll. If&nbsp;saber ward&nbsp;is active, you have advantage on the attack roll.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "reaction",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

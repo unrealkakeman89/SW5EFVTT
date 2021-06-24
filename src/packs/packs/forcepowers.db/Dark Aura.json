@@ -1,0 +1,95 @@
+{
+    "_id": "cM4TP2daTOU7tUv3",
+    "name": "Dark Aura",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Hex</em></p>\n<p>You manifest a mantle of malevolent dark side energy to a radius of 15 feet. Each creature who enters this aura or starts its turn there must make a Wisdom saving throw. On a failed save, a creature takes 3d8 necrotic damage and has its speed reduced by half. On a succesful save, a creatures takes half as much damage and isn&rsquo;t slowed.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 15,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "3d8",
+                    "necrotic"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "wis",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 3,
+        "school": "drk",
+        "components": {
+            "value": "",
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d8"
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Dark%20Aura.webp",
+    "effects": []
+}

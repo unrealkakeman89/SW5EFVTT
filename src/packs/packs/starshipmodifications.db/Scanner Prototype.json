@@ -1,0 +1,37 @@
+{
+    "_id": "MCf4UdMxbP4S4t0o",
+    "name": "Scanner, Prototype",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Scanner, Premium"
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "2"
+        },
+        "description": {
+            "value": "<p>This modification improves the radar scanner on your ship.</p><p>Your ship is expertly equipped for Intelligence (Probe) and Wisdom (Scan) checks.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

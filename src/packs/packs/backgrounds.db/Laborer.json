@@ -1,0 +1,115 @@
+{
+    "name": "Laborer",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are an experienced laborer and come from a humble social rank.  You work with your hands, and anything worth doing is worth doing well.  Your life is full of hard work and too little respect for your efforts, but you share a deep camaraderie with your fellow workers."
+        },
+        "flavorName": {
+            "value": "Labor Specialty"
+        },
+        "flavorDescription": {
+            "value": "<p>There are many kinds of manual laborors, skilled and unskilled. Choose your field or specialty or roll on the table below.</p>"
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Labor Specialty</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Construction</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Droid Repair</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Electrician</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Facilities Maintenance</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Logistics/Shipping</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Manufacturing</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Mechanic</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Plumbing/HVAC</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Animal Handling, Athletics, Survival, and Technology"
+        },
+        "toolProficiencies": {
+            "value": "One type of gaming set and one set of artisan's implements"
+        },
+        "languages": {
+            "value": null
+        },
+        "equipment": {
+            "value": "A set of common clothes, a sturdy knife, a gaming set (one of your choice), and a belt pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Laborers run the gamut from independent operator and owners to lazy and incompetent employees.   "
+        },
+        "featureName": {
+            "value": "Working Class"
+        },
+        "featureText": {
+            "value": "You have a contact that acts as your liaison to a union or faction. You know how to reach your contact at all times. Your contact can provide you with the means to requisition equipment used in manufacturing or shipping.\r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Animal Handler</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Survivalist</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Techie</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Athlete</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Durable</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I am quiet and reserved. I rarely raise my voice or object.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I take pride in what my hands create or fix.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I have little respect for people who call others to fix their problems.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I am fiercely independent.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I look down on book learning and take pride in my street-smarts.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I may be quite calm and polite around those of higher power than I; but I'm harsh towards all my underlings, flexing the little power I have.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I work to live.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I live to work.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Prestige. I hope to one day rise to the top of my field and command the respect of those who work for me. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Superiority. Rules are meant to control the sheep.I'm no sheep. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Community. It is the duty of all people to strengthen the bonds of community and thereby improve civilization. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Greed. I will do whatever it takes to climb to the top. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">People. I'm loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Faith. I trust that my leader will guide my actions, I have faith that if I work hard, things will go well. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I put too much trust in those who wield power within my employer's hierarchy.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am inflexible in my thinking.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I like things more than people.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I do anything I can to avoid real work.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I am not an independent thinker.I need detailed instructions and close supervision.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I gossip about others to hide my inadequacies.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I will someday get revenge on the corrupt boss who fired me.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Everything I do is for the common people.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I will do anything to protect my co-workers.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">No one must ever learn that I once stole from my employer.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm guilty of a terrible crime. I hope I can redeem myself for it.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I am committed to my group's goals over my own.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Laborer.webp",
+    "effects": [
+        {
+            "_id": "1sqFA4OkQBHSy1mI",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Laborer",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "game",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Laborer",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "DTwaWVhJOtoffF3T"
+}

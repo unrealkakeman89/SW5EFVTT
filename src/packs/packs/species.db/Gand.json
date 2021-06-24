@@ -1,0 +1,256 @@
+{
+    "_id": "PdCbLZ4P5FLi3EAB",
+    "name": "Gand",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Gand are sentient, stocky humanoids whose insectoid bodies are covered in a chitinous exoskeleton. The natural armor allow the Gand to shrug off injuries that would cripple most other species. The exoskeleton provides extra protection in the clavicle region, which prevented most nerve or pressure-point strikes to the neck and shoulders. In addition, Gands have the remarkable ability to regrow lost limbs. If a Gand is dismembered, it can regrow a lost limb in a few days.</p>\n<h2>Society and Culture</h2>\n<p>Gand society places heavy importance on the achievements of an individual and holds that an individual has no name, and thus no worth, until he or she proves otherwise. The speech patterns of Gands utilize third-person self-reference within each level of identity earned. Young or unproven Gands are all called \"Gand,\" as they are considered merely aspects of the same whole. Major accomplishments earn the use of a family surname. Mastering a skill, such as becoming a findsman, allows for the use of the given name, all with third-person self-reference. This manner of speaking is common within the spoken and written Gand language but is more predominant when a Gand speaks Basic; it is often a source of amusement to outsiders.</p>\n<h2>Names</h2>\n<p>Until a Gand has earned the use of a name, they go simply by the term \"Gand.\" Gand speak in the third person and refer to themselves by name. Often, when a Gand feels shamed, they will stop referring to themselves by their name and revert to calling themselves \"Gand\" until they prove themselves again. Male and female names are not distinct.</p>\n<p><strong>&nbsp;&nbsp;First Names.</strong> C'nyir, Dash, Iglid, Kyuffax, T'rix</p>\n<p>&nbsp;&nbsp;<strong>Surname.</strong> Diqlu, Krakee, Praafri, Quudya, Zooq</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Intelligence score increases by 1.</p><p><em><strong>Age.</strong></em> Gand reach adulthood when they earn their name, which is usually in their teens, and live to be about 70 on average.</p><p><em><strong>Alignment.</strong></em> Gand tend toward no particular alignment. The best and worst are found among them.</p><p><em><strong>Size.</strong></em> Gand stand 4 to 6 feet tall and weigh around 100 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Exoskeleton.</strong></em> You have a thick exoskeleton. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.</p><p><em><strong>Gand Resilience.</strong></em> You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).</p><p><em><strong>Lungless.</strong></em> Gand do not have lungs, and therefore do not need to breathe.</p><p><em><strong>Regenerative.</strong></em> When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Gand. The Gand language does not use pronouns as Gand refer to themselves in the third person, so often Gand who speak Galactic Basic are difficult to understand.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Varying shades of brown, green, and purple"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Brown, black, green, or silver"
+        },
+        "distinctions": {
+            "value": "Exoskeletons, three-fingered hands"
+        },
+        "heightAverage": {
+            "value": "4'1\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "75 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Gand"
+        },
+        "slanguage": {
+            "value": "Gand"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Gand",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "12",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Damage Resistance"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "gand",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "8K1ukONfKYTqLYj4",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Gand.webp",
+    "effects": [
+        {
+            "_id": "sfGWShWGtQCdHlHC",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Gand",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "12+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "gand",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.regenerative",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Gand.webp",
+            "label": "Gand",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

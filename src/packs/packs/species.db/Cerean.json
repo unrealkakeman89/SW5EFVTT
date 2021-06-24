@@ -1,0 +1,251 @@
+{
+    "_id": "605IstMCxeNCLGmh",
+    "name": "Cerean",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The Cereans' enlarged skulls, extending above their foreheads, house complex binary brains, provided with sufficient blood by an extra heart in their heads. The binary structure of Cerean thinking helps them to ponder two sides of an issue at once. It also enables them to process information and solve problems rapidly and provides a highly advanced capacity for concentration and meditation. Because of their thoughtful nature, they tend to be calm, rational and analytical, preferring peaceful philosophies and a lifestyle which works in harmony with nature. Though the quick-thinking Cereans have equally quick reflexes, they are commonly not as well coordinated as humans.</p>\n<h2>Society and Culture</h2>\n<p>Cereans developed a low-tech society on their homeworld and prefer to live in isolation from the wider galaxy. Preserving the natural beauty of Cerea, the planet is home to many Outsider Citadels where it is permissible to use offworld technology, though it could not be removed from the Citadel. Meditation is a core part of a Cerean's daily rituals, with many employing specially-forged kasha crystals as a focusing tool. By focusing one's thoughts while in contact with such crystals, distractions are eliminated, creating an exceptional meditation environment. Cerean Jedi sometimes incorporate these crystals into their lightsabers, providing great focus, even during intense physical combat.</p>\n<h2>Names</h2>\n<p>Cerean male first names are often hyphenated, while females are not. Surnames are familial.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Ji-Cheelia, Ki-Adi, Pick-toh, Sauli-Fanz</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Dreash, Kilniavy, Melm, Rharoth</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Codux, Emkom, Kyureft, Lonnik, Mundi</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Wisdom score increases by 1.</p><p><em><strong>Age.</strong></em> Cereans reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Cereans' altruistic nature causes them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Cereans typically stand between 6 and 7 feet tall and weigh about 150 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Intuitive Initiative.</strong></em> You can choose to reroll Initiative checks, but you must use the new roll.</p><p><em><strong>Closed Mind.</strong></em> Cereans have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Wisdom and Charisma saving throws against force powers.</p><p><em><strong>Perceptive.</strong></em> You have proficiency in Perception.</p><p><em><strong>Strong-Legged.</strong></em> When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.</p><p><em><strong>Trance.</strong></em> Cereans don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day.  While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Cerean.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Light tones"
+        },
+        "hairColorOptions": {
+            "value": "Blond, brown, or white (usually with age)"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow"
+        },
+        "distinctions": {
+            "value": "Cone-like skull, binary brain"
+        },
+        "heightAverage": {
+            "value": "5'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "120 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Cerea"
+        },
+        "slanguage": {
+            "value": "Cerean"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Cerean",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "o0xFuy1f4GP9YGHo",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "o0xFuy1f4GP9YGHo",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "o0xFuy1f4GP9YGHo",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "o0xFuy1f4GP9YGHo",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "o0xFuy1f4GP9YGHo",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.prc.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "o0xFuy1f4GP9YGHo",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Perception"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "o0xFuy1f4GP9YGHo",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "cerean",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "o0xFuy1f4GP9YGHo",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Cerean.webp",
+    "effects": [
+        {
+            "_id": "BhqpYkxEEUvVs0Z2",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Cerean",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.prc.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "cerean",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.closedMind",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.strongLegged",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.trance",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Cerean.webp",
+            "label": "Cerean",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "rPzGmFEFzwxKLmyh",
+    "name": "Discoveries (Occultist)",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect your research on the occult. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h3><strong>Arcane Membrane</strong></h3>\n<p>You can add half your Wisdom or Charisma modifier (your choice, rounded up, minimum of+1) to any Intelligence (Lore) or Intelligence (Nature) checks you make.</p>\n<hr />\n<h3><strong>Evil Eye</strong></h3>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em></p>\n<p>You can cast the&nbsp;bestow curse&nbsp;and&nbsp;remove curse&nbsp;force powers without spending force points. Wisdom or Charisma (your choice) is your forcecasting modifier for these powers.</p>\n<p>Once you've cast a power using this feature, you must complete a long rest before you can cast it again.</p>\n<hr />\n<h3><strong>Exsanguination</strong></h3>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em></p>\n<p>When a creature marked by your Curse of Objurgation is reduced to 0 hit points, you can use a reaction and expend a Hit Die to immediately regain a use of your Curse of Objurgation.</p>\n<hr />\n<h3><strong>Hexes and Superstitions</strong></h3>\n<p>When you roll a 13 on an ability check, you treat it as if you rolled a 20.</p>\n<hr />\n<h3><strong>Natural Karma</strong></h3>\n<p>Before you use a maneuver or power to set a curse on a target you can see, you can make a contested Dexterity (Sleight of Hand) check against the target's Wisdom (Insight) check. On a success, the target is unaware you set the curse on them.</p>\n<hr />\n<h3><strong>Savage Sortilege</strong></h3>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em></p>\n<p>You ignore resistance to psychic damage, and you have resistance to psychic damage.</p>\n<hr />\n<h3><strong>Supernatural Vigor</strong></h3>\n<p>At the end of a long rest, you can choose one creature you can see within 30 feet (this includes you) to imbue with unnatural power. The creature's hit point maximum and current hit points increase by an amount equal to your scholar level, and it has advantage on Constitution saving throws made to avoid exhaustion. Both effects end after 8 hours.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Occultist 3",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-ARCH-Passive.webp",
+    "effects": []
+}

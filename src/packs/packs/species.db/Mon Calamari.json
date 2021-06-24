@@ -1,0 +1,275 @@
+{
+    "_id": "jJRFIwQIMpPX8b2D",
+    "name": "Mon Calamari",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>The mon calamari are a bipedal, amphibious species with high-domed heads, webbed hands and large, goggle-like eyes. In addition to being webbed, the mon calamari hand presents three suction-cup like holes on its palm, and featured five claw-tipped fingers: one opposable thumb, two long middle fingers, and two very short outer fingers. Although they are shaped like flippers, their feet can nevertheless fit into boots designed for human-like feet. The females are distinguished from the males by their more prominent chest areas.</p><h2>Society and Culture</h2><p>The mon calamari have developed a very advanced and civilized culture. Their art, music, literature, and science show a creativity surpassed by few in the galaxy. Mon calamari literature depicts stars as islands in a galactic sea, showing a passionate longing to explore space and discover other civilizations. Mon Calamari are both soft-spoken and gentle, slow to anger, and have the remarkable ability to maintain their concentration without being distracted by emotional responses. They are both inquisitive and creative, and have a near-legendary quality of being both determined and dedicated; once a mon calamari decides on a course of action, they are not easily swayed from that decision. They often fixate themselves on \"lost causes.\"</p><h2>Names</h2><p>Mon calamari names generally have a melodic feel.</p><p>&nbsp;&nbsp;<strong>Male Names.</strong> Creaz, Fior, Hurneerth, Nurrins, Sielpa</p><p>&nbsp;&nbsp;<strong>Female Names.</strong> Afwa, Lel, Mhirim, Ri, Theya</p><p>&nbsp;&nbsp;<strong>Surnames.</strong> Dualda, Gradi, Tua, Valec, Winab</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Intelligence or Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Mon calamari reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Mon calamaris' love of the arts cause them to tend toward the light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Mon calamari stand between 5 and 6 feet tall and rarely weigh more than 150 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Amphibious.</strong></em> You can breathe air and water.</p>\n<p><em><strong>Darkvision.</strong></em> Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Mon Calamari Resistance.</strong></em> You have advantage on saving throws against effects that grant the slowed condition and you have resistance against cold damage (explained in chapter 9).</p>\n<p><em><strong>Musical.</strong></em> You have proficiency in one musical instrument of your choice.</p>\n<p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic, Mon Cal, and one language of your choice.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Reddish brown, brown, red, cyan, mottle, salmon, gold, blue, grey, or white"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow, orange, blue, or gray"
+        },
+        "distinctions": {
+            "value": "Large, goggle-like eyes, high-domed heads, webbed hands"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Mon Cala"
+        },
+        "slanguage": {
+            "value": "Mon Cal"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Mon Calamari",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.traits.dr.value",
+                    "value": "cold",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Damage Resistance"
+                },
+                {
+                    "modSpecKey": "data.traits.toolProf.value",
+                    "value": "music",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Tool Prof"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "moncal",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "ct5x6lNWNOOAH9c0",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Mon%20Calamari.webp",
+    "effects": [
+        {
+            "_id": "N9qNmjh0vP0dzWIA",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Mon Calamari",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "cold",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "music",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "moncal",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Mon%20Calamari.webp",
+            "label": "Mon Calamari",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

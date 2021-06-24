@@ -1,0 +1,50 @@
+{
+    "name": "Camtono",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "backpack",
+    "data": {
+        "description": {
+            "value": "<p>A camtono is a secured, handle container used for transporting valuable goods. The camtono features a keyed lock, which requires a DC 20 security kit to force open. It can hold up to 5 lb., not exceeding a volume of 1/4 cubic foot.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 3,
+        "price": 750,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+            "type": "weight",
+            "value": 5,
+            "weightless": false
+        },
+        "currency": {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Storage/Camtono.webp",
+    "_id": "A6aTeaijnzz3I4xQ"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "ETdddqryZ0EBUiKk",
+    "name": "Ship Slicer, Mk III",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship Slicer, Mk II"
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "3"
+        },
+        "description": {
+            "value": "<p>As an action, a crew member can dictate a one-word command to a ship you can see within 600 feet. The target must succeed on an Intelligence saving throw (DC = 8 + prof. bonus + ship's charisma modifier) or follow the command on its next turn. If the ship is directly piloted by a humanoid that is not incapacitated, it gains a bonus to the saving throw equal to the pilot's Intelligence modifier. Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the GM determines how the target behaves. If the target can't follow your command, the ability ends.</p><p>Approach. The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p>Deactivate. The target becomes disabled and then ends its turn.</p><p>Flee. The target spends its turn moving away from you by the fastest available means.</p><p>Halt. The target doesn't move and takes no actions. </p><p>This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

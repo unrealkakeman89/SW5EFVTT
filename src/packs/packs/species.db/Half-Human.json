@@ -1,0 +1,137 @@
+{
+    "_id": "utEW7d7iBsVm3SI3",
+    "name": "Half-Human",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The appearance and biological features of half-humans vary drastically by each species, but tend to fall somewhere in the middle. A common side-effect of a species interbreeding with humans is the loss of darkvision and tails.</p>\n<h2>Society and Culture</h2>\n<p>Half-humans are subjects of two separate cultures, but belong in neither. A half-human might be raised amongst humans or their other half, or might be fully ostracized, instead growing up in a remote, isolated place, removed from both species.</p>\n<table>\n<tbody>\n<tr>\n<td>\n<h3>Traits</h3>\nHalf-humans gain the <em><strong>Defiant</strong></em> special trait from their human half. They also gain the special traits from their non-human half, except for those trait(s) mentioned in the Half-Human table above.</td>\n</tr>\n</tbody>\n</table>\n<h2>Names</h2>\n<p>Half-human names might follow human conventions, or that of the other half. Often, they blend the two in some fashion, perhaps taking a human surname, with a special name.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Half-humans gain the ability score increases of their non-human half, but they can choose any ability score for one of the options, instead of the given option.</p>\n<p><em><strong>Age.</strong></em> Half-humans live around the average of the two species' lifespans.</p>\n<p><em><strong>Alignment.</strong></em> Half-humans tend towards their non-human half's alignment.</p>\n<p><em><strong>Size.</strong></em> Half-humans stand and weigh around the average of the two species' height and weight. Regardless of your position in that range, your size is the size of your non-human half.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is that of your non-human half.</p>\n<p><em><strong>Defiant.</strong></em> Half-humans are known to be stubborn and often refuse to give up, even against the worst odds. When you or a creature you can see that can see and understand you makes an ability check, attack roll, or saving throw, you can roll a d4 and add it to their roll (no action required). You can use this before or after the roll, but before the GM determines the roll's outcome. Once you've used this feature, you must complete a short or long rest before you can use it again.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic, regardless of whether or not the non-human half can speak it, and the language(s) associated with your non-human half.</p>\n<div class=\"block\">\n<h2>Inherited Traits</h2>\n<div class=\"d-flex text-center\">\n<table style=\"border: none; width: 500px;\">\n<tbody>\n<tr>\n<td>Abyssin</td>\n<td>Savage Attacks</td>\n</tr>\n<tr>\n<td>Advosze</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Aing-Tii</td>\n<td>Armored Plates</td>\n</tr>\n<tr>\n<td>Aleena</td>\n<td>Racer's Reflexes</td>\n</tr>\n<tr>\n<td>Anomid</td>\n<td>Tech Resistance</td>\n</tr>\n<tr>\n<td>Aqualish</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Arcona</td>\n<td>Keen Smell</td>\n</tr>\n<tr>\n<td>Ardennian</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Arkanian</td>\n<td>Darkvision, Infrared Sight, Sunlight Sensitivity</td>\n</tr>\n<tr>\n<td>Barabel</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Baragwin</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Besalisk</td>\n<td>Powerful Build</td>\n</tr>\n<tr>\n<td>Bith</td>\n<td>Detail Oriented</td>\n</tr>\n<tr>\n<td>Bothan</td>\n<td>Naturally Stealthy</td>\n</tr>\n<tr>\n<td>Cathar</td>\n<td>Feline Agility</td>\n</tr>\n<tr>\n<td>Cerean</td>\n<td>Keen Mind</td>\n</tr>\n<tr>\n<td>Chadra-Fan</td>\n<td>Second Heart</td>\n</tr>\n<tr>\n<td>Chagrian</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Chevin</td>\n<td>Keen Hearing</td>\n</tr>\n<tr>\n<td>Chiss</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Clawdite</td>\n<td>Unsettling Visage</td>\n</tr>\n<tr>\n<td>Codru-Ji</td>\n<td>Keen Hearing</td>\n</tr>\n<tr>\n<td>Dashade</td>\n<td>Force Contention</td>\n</tr>\n<tr>\n<td>Defel</td>\n<td>Hidden Step</td>\n</tr>\n<tr>\n<td>Devaronian</td>\n<td>Two Livered</td>\n</tr>\n<tr>\n<td>Draethos</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Dug</td>\n<td>Fury of the Small</td>\n</tr>\n<tr>\n<td>Duros</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Echani</td>\n<td>Combative Culture</td>\n</tr>\n<tr>\n<td>Esh-Kha</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Ewok</td>\n<td>Mask of the Wild</td>\n</tr>\n<tr>\n<td>Falleen</td>\n<td>Closed Mind</td>\n</tr>\n<tr>\n<td>Flesh Raider</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Gamorrean</td>\n<td>Savage Attacks</td>\n</tr>\n<tr>\n<td>Gand</td>\n<td>Lungless</td>\n</tr>\n<tr>\n<td>Geonosian</td>\n<td>Geonosian Weaponry</td>\n</tr>\n<tr>\n<td>Givin</td>\n<td>Vacuum Sealed</td>\n</tr>\n<tr>\n<td>Gotal</td>\n<td>Natural Empathy</td>\n</tr>\n<tr>\n<td>Gran</td>\n<td>Keen Sight</td>\n</tr>\n<tr>\n<td>Gungan</td>\n<td>Martial Proficiency</td>\n</tr>\n<tr>\n<td>Harch</td>\n<td>Venomous Fangs</td>\n</tr>\n<tr>\n<td>Herglic</td>\n<td>Toughness</td>\n</tr>\n<tr>\n<td>Ho'Din</td>\n<td>Second Heart</td>\n</tr>\n<tr>\n<td>Iktotchi</td>\n<td>Precognition</td>\n</tr>\n<tr>\n<td>Ithorian</td>\n<td>Hold Breath</td>\n</tr>\n<tr>\n<td>Jawa</td>\n<td>Grovel, Cower, and Beg</td>\n</tr>\n<tr>\n<td>Kage</td>\n<td>Superior Darkvision</td>\n</tr>\n<tr>\n<td>Kaleesh</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Kaminoan</td>\n<td>Geneticist, Ultraviolet Sight</td>\n</tr>\n<tr>\n<td>Karkarodon</td>\n<td>Aggressive</td>\n</tr>\n<tr>\n<td>Kel Dor</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Killik</td>\n<td>Carapace</td>\n</tr>\n<tr>\n<td>Klatooinian</td>\n<td>Wisdom of the Elders</td>\n</tr>\n<tr>\n<td>Kubaz</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Kushiban</td>\n<td>Grovel, Cower, and Beg</td>\n</tr>\n<tr>\n<td>Kyuzo</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Lannik</td>\n<td>Force Attunement</td>\n</tr>\n<tr>\n<td>Lasat</td>\n<td>Powerful Build</td>\n</tr>\n<tr>\n<td>Lurmen</td>\n<td>Rolling Agility</td>\n</tr>\n<tr>\n<td>Mikkian</td>\n<td>Keen Hearing</td>\n</tr>\n<tr>\n<td>Miraluka</td>\n<td>Force Sight</td>\n</tr>\n<tr>\n<td>Mirialan</td>\n<td>Spiritual</td>\n</tr>\n<tr>\n<td>Mon Calamari</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Mustafarian</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Muun</td>\n<td>Second Heart</td>\n</tr>\n<tr>\n<td>Nautolan</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Neimoidian</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Nikto</td>\n<td>Adaptation</td>\n</tr>\n<tr>\n<td>Noghri</td>\n<td>Keen Smell</td>\n</tr>\n<tr>\n<td>Nothoiin</td>\n<td>Heightened Reflexes</td>\n</tr>\n<tr>\n<td>Ortolan</td>\n<td>Grovel, Cower, and Beg</td>\n</tr>\n<tr>\n<td>Quarren</td>\n<td>Keen Hearing</td>\n</tr>\n<tr>\n<td>Pa'lowick</td>\n<td>Hold Breath, Snout</td>\n</tr>\n<tr>\n<td>Pau'an</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Pyke</td>\n<td>Mercantile, Notorious Slavers</td>\n</tr>\n<tr>\n<td>Rattataki</td>\n<td>Surprise Attack</td>\n</tr>\n<tr>\n<td>Rishii</td>\n<td>Keen Hearing and Sight</td>\n</tr>\n<tr>\n<td>Rodian</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Ryn</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Selkath</td>\n<td>Venomous Claws</td>\n</tr>\n<tr>\n<td>Shistavanen</td>\n<td>Darkvision, Forced March</td>\n</tr>\n<tr>\n<td>Ssi Ruu</td>\n<td>Keen Smell, Sunlight Sensitivity, Tooth and Nail</td>\n</tr>\n<tr>\n<td>Sith</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Squib</td>\n<td>Keen Smell</td>\n</tr>\n<tr>\n<td>Sullustan</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Talz</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Tarasin</td>\n<td>Sa'tosin Sense</td>\n</tr>\n<tr>\n<td>Thisspiasian</td>\n<td>Prehensile Tail</td>\n</tr>\n<tr>\n<td>Togorian</td>\n<td>Toughness</td>\n</tr>\n<tr>\n<td>Togruta</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Toydarian</td>\n<td>Closed Mind</td>\n</tr>\n<tr>\n<td>Trandoshan</td>\n<td>Saving Face</td>\n</tr>\n<tr>\n<td>Tusken</td>\n<td>Aggressive</td>\n</tr>\n<tr>\n<td>Twi'lek</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Ugnaught</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Umbaran</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Verpine</td>\n<td>Hardened Carapace</td>\n</tr>\n<tr>\n<td>Voss</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Vurk</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Weequay</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Wookiee</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Yevetha</td>\n<td>Aggressive</td>\n</tr>\n<tr>\n<td>Zabrak</td>\n<td>Darkvision</td>\n</tr>\n<tr>\n<td>Zeltron</td>\n<td>Two Livered</td>\n</tr>\n<tr>\n<td>Zygerrian</td>\n<td>Darkvision</td>\n</tr>\n</tbody>\n</table>\n</div>\n</div>"
+        },
+        "skinColorOptions": {
+            "value": "Varies"
+        },
+        "hairColorOptions": {
+            "value": "Varies"
+        },
+        "eyeColorOptions": {
+            "value": "Varies"
+        },
+        "distinctions": {
+            "value": "Varies"
+        },
+        "heightAverage": {
+            "value": "Varies"
+        },
+        "heightRollMod": {
+            "value": "Varies"
+        },
+        "weightAverage": {
+            "value": "Varies"
+        },
+        "weightRollMod": {
+            "value": "Varies"
+        },
+        "homeworld": {
+            "value": "Varies"
+        },
+        "slanguage": {
+            "value": "Galactic Basic"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Half-Human",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "7v1QY9ZeAn1zRk7K",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "7v1QY9ZeAn1zRk7K",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Half-Human.webp",
+    "effects": [
+        {
+            "_id": "ijcI8bBJYOzbQxAH",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Half-Human",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.defiant",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Half-Human.webp",
+            "label": "Half-Human",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

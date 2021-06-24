@@ -1,0 +1,41 @@
+{
+    "name": "Poisoner's Kit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>A poisoner\u2019s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 2,
+        "price": 500,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Kit/Poisoner_s%20Kit.webp",
+    "_id": "zaLzNlsfzRf71Xpl"
+}

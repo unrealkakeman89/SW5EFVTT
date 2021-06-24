@@ -1,0 +1,71 @@
+{
+    "_id": "58xYGURGvkKad7it",
+    "name": "Additional Maneuvers (Scholar: Chef)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain access to new maneuvers which reflect the progress of your studies into the culinary arts. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<p>You may only perform one maneuver that is used during a long or short rest at a time.</p>\n<hr />\n<blockquote>\n<h4><strong>ALLERGENS</strong></h4>\n<p>As a bonus action while preparing or touching food, you may expend a superiority die and add to it an irritating allergen. At the start of each of its turns, a creature that consumes this food must make a Constitution saving throw. On a failed save, it subtracts half the result of your superiority die (rounded down, minimum of one) from the first ability check, attack roll, or saving throws it makes before the start of its next turn. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.</p>\n<hr />\n<h4><strong>BRAIN FOOD</strong></h4>\n<p>At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature gains a number of temporary force or tech points (their choice) equal to the number you roll on the superiority die. When an affected creature casts a force or tech power, the temporary force or tech points are spent first. An affected target can only benefit from one source of temporary force or tech points at a time, and they last until they&rsquo;re depleted or until the affected target completes their next short or long rest. This maneuver has no effect on droids or constructs.</p>\n<hr />\n<h4><strong>DEBILITANTS</strong></h4>\n<p>As a bonus action when preparing or touching food, you may expend a superiority die and add to it a subtle poison. Any creature that consumes this food must make a Constitution saving throw. On a failed save, their hit point maximum is reduced by an amount equal to twice the number rolled on your superiority die + your Intelligence modifier. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.</p>\n<hr />\n<h4><strong>ENERGIZERS</strong></h4>\n<p>At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature has their walking speed increased by 10 until the end of their next short or long rest. This maneuver has no effect on droids or constructs.</p>\n<hr />\n<h4><strong>ENHANCERS</strong></h4>\n<p>At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Once before the end of their next short or long rest, affected targets may add the result of the superiority die to a damage roll that would affect only one target. This maneuver has no effect on droids or constructs.</p>\n<hr />\n<h4><strong>HEALTH FOOD</strong></h4>\n<p>At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature gains a number of temporary hit points equal to twice the number you roll on the superiority die. This maneuver has no effect on droids or constructs.</p>\n<hr />\n<h4><strong>MUSCLE RELAXANTS</strong></h4>\n<p>As a bonus action while preparing or touching food, you may expend a superiority die and add to it a fast acting muscle relaxant. At the start of each of its turns, a creature that consumes this food must make a Constitution saving throw. On a failed save, it subtracts the result of your superiority die from the first damage roll it makes before the start of its next turn. The effect of this maneuver ends when the creature completes its next long rest or 24 hours have passed. This maneuver has no effect on droids or constructs.</p>\n<hr />\n<h4><strong>SUPPLEMENTS</strong></h4>\n<p>At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Once before the end of their next short or long rest, affected targets may add the result of the superiority die to one ability check, attack roll, or saving throw. The creature can wait until after it rolls the d20 before deciding to use this feature, but must decide before the DM says whether the roll succeeds or fails. This maneuver has no effect on droids or constructs.</p>\n<hr />\n<h4><strong>VITAMINS</strong></h4>\n<p>At the end of a short or long rest you may expend a superiority die and choose a number of friendly creatures up to your Intelligence modifier (minimum of one), if they ate food you prepared. Each creature gains proficiency in Constitution saving throws until the end of their next short or long rest. If a creature was already proficient in Constitution saving throws, they instead become proficient in a saving throw of your choice. This maneuver has no effect on droids or constructs.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

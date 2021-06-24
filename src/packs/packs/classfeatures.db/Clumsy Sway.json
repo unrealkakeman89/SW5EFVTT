@@ -1,0 +1,71 @@
+{
+    "_id": "CX7c2sq6wfgEYhpV",
+    "name": "Clumsy Sway",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 6th level, you can move in sudden, swaying ways. You gain the following benefits.</p>\n<blockquote>\n<h4><strong>Leap to Your Feet</strong></h4>\n<p>When you&rsquo;re prone, you can stand up by spending 5 feet of movement, rather than half your speed.</p>\n<hr />\n<h4><strong>Redirect Attack</strong></h4>\n<p>When a creature misses you with a melee attack roll, you can spend 1 focus point as a reaction to cause that attack to hit one creature of your choice, other than the attacker, that you can see within 5 feet of you.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

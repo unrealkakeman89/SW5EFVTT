@@ -1,0 +1,93 @@
+{
+    "_id": "LKTlPR7noRV7VzLN",
+    "name": "Autonomous Servant",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You touch one Tiny, unenhanced object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and gains little arms and legs, becoming a creature under your control until the power ends or the creature drops to 0 hit points. See the stat block for its statistics.</p>\n<p>As a bonus action, you can nonverbally command the creature if it is within 120 feet of you. (If you control multiple creatures with this power, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a code cylinder, stand watch, or stack some small objects. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.</p>\n<p>When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.</p>\n<p>The creature is considered a valid target for the <em>tracker droid interface</em> power.</p>\n<hr>\n<blockquote>\n<h2>Servant</h2>\n<p><em>Tiny construct, unaligned</em></p>\n<hr>\n<ul>\n<li><strong>Armor Class</strong> 15 (natural armor)</li>\n<li><strong>Hit Points</strong> 10 (4d4)</li>\n<li><strong>Speed</strong> 30 feet, climb 30 feet</li>\n</ul>\n<hr>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:center\">STR</th>\n<th style=\"text-align:center\">DEX</th>\n<th style=\"text-align:center\">CON</th>\n<th style=\"text-align:center\">INT</th>\n<th style=\"text-align:center\">WIS</th>\n<th style=\"text-align:center\">CHA</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:center\">4 (-3)</td>\n<td style=\"text-align:center\">16 (+3)</td>\n<td style=\"text-align:center\">10 (+0)</td>\n<td style=\"text-align:center\">2 (-4)</td>\n<td style=\"text-align:center\">10 (+0)</td>\n<td style=\"text-align:center\">1 (-5)</td>\n</tr>\n</tbody>\n</table>\n<hr>\n<ul>\n<li><strong>Damage Vulnerabilities</strong> ion</li>\n<li><strong>Damage Resistances</strong> necrotic, poison, psychic</li>\n<li><strong>Condition Immunities</strong> charmed, deafened, exhaustion, poisoned</li>\n<li><strong>Senses</strong> blindsight 60 feet (blind beyond this radius), passive Perception 10</li>\n<li><strong>Languages</strong> \ufffd</li>\n</ul>\n<hr>\n<p><strong>Circuitry.</strong> The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.</p>\n<h3>Actions</h3>\n<p><em><strong>Slam.</strong></em> <em>Melee Weapon Attack:</em> +4 to hit, reach 5 feet, one target. <em>Hit</em> 5 (1d4 + 3) kinetic damage.</p>\n</blockquote>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "minute",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "spec"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "touch"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "abil",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 3,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/AutonomousServant.webp"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "MnhP8lE7GpYN93TA",
+    "name": "Tractor Beam",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This modification adds a tractor beam to a ship, which can be used to grasp and guide vessels and debris. </p><p>As an action, you can activate the tractor beam, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. Each ship within the firing arc must make a Strength saving throw (DC = 8 + ship tier + the ship's Strength modifier). On a failed save, a ship is tractored.  As a bonus action, a player can move a tractored ship 100 feet in any direction. As an action, a pilot of a tractored ship can repeat the saving throw, ending the effect on a success.</p><p>The saving throws are made with advantage if the target is larger than you, and with disadvantage if smaller.</p><p>If you are attempting to tractor a ship larger than you, fail or success, you can choose to gain the tractored condition and move yourself instead.</p><p>You can end the tractor beam at any time (no action required).</p><p>This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

@@ -1,0 +1,20 @@
+{
+    "_id": "pVYkXLQwn732LwKK",
+    "name": "Soresu Form",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "lightsaberform",
+    "data": {
+        "description": {
+            "value": "<p>The first time you take kinetic, energy, or ion damage from a weapon before the start of your next turn, that damage is reduced by half.</p>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Lightsaber%20Forms/Soresu%20Form.webp",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "WpVq5WXzlDOAQxKu",
+    "name": "Poisoner",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Beginning at 9th level, you are a master of poisons. You can apply a poison as a bonus action, and you have advantage on Dexterity (Sleight of Hand) checks made to conceal the application of poisons.</p>\n<p>Additionally, you can improve the capability of one dose of poison. To use this benefit, you must have a poisoner&rsquo;s kit, and the poison must be within reach. If the poison is applied before the end of your next short or long rest, the target has disadvantage on the saving throw made to resist your poison. Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

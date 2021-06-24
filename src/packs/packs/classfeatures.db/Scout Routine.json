@@ -1,0 +1,71 @@
+{
+    "_id": "YfL8MY3JOPJ1Gf1O",
+    "name": "Scout Routine",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Scout</strong>:&nbsp;3rd, 7th, 9th, 15th, and 17th level</em></p>\n<p>You&rsquo;ve developed one routine, as detailed at the end of the class description. You develop an additional routine at 7th and 15th level.</p>\n<p>At 9th level, the range of your routines increases to 15 feet, and at 17th level, the range of these routines increases to 30 feet</p>\n<h2><strong>SCOUT ROUTINES</strong></h2>\n<p>The routines are presented in alphabetical order. If multiple scouts grant the same routine, affected creatures can only benefit from it once. You must be conscious to grant the benefit of your routines.</p>\n<hr />\n<blockquote>\n<h4><strong>ADAPTABILITY ROUTINE</strong></h4>\n<p>At the start of each of your turns, you can choose an ability score with a saving throw in which you are not proficient. Until the start of your next turn, you add half your proficiency bonus, rounded down, to saving throws you make with the chosen ability. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.</p>\n<hr />\n<h4><strong>MAVEN&rsquo;S ROUTINE</strong></h4>\n<p>At the start of each of your turns, you can choose to gain resistance to damage from tech powers until the start of your next turn. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.</p>\n<hr />\n<h4><strong>MESMER&rsquo;S ROUTINE</strong></h4>\n<p>At the start of each of your turns, you can choose to have advantage on saving throws against effects that would incapacitate you or put you to sleep until the start of your next turn. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.</p>\n<hr />\n<h4><strong>NOMAD&rsquo;S ROUTINE</strong></h4>\n<p>At the start of each of your turns, you can choose to gain advantage on Constitution saving throws to avoid exhaustion from unenhanced sources, as well as being naturally adapted to both hot and cold climates. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.</p>\n<hr />\n<h4><strong>RESPONDER&rsquo;S ROUTINE</strong></h4>\n<p>When you roll initiative, you can choose to add your proficiency bonus to the initiative roll and have advantage on attack rolls against creatures that have not yet acted. Alternatively, you can choose to allow each creature within 5 feet of you, including you, to add half your proficiency bonus to the initiative roll and have advantage on the first attack roll they make against a creature that has not yet acted.</p>\n<hr />\n<h4><strong>SHARPSHOOTER&rsquo;S ROUTINE</strong></h4>\n<p>At the start of each of your turns, you can choose to gain a bonus to the first weapon attack roll you make before the start of your next turn equal to your Intelligence modifier. Alternatively, you can choose to allow each creature within 5 feet of you, including you, to add half your Intelligence modifier to the first weapon attack roll they make before the start of your next turn.</p>\n<hr />\n<h4><strong>STRIDER&rsquo;S ROUTINE</strong></h4>\n<p>At the start of each of your turns, you can choose to have each slowed level only reduce your speed by 5 feet, unless it would reduce your speed to 0 until the start of your next turn. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.</p>\n<hr />\n<h4><strong>WARDEN&rsquo;S ROUTINE</strong></h4>\n<p>At the start of each of your turns, you can choose to gain a climbing and swimming speed equal to your walking speed. Alternatively, you can choose to extend this benefit to friendly creatures within 5 feet of you, except for you.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCT-Passive.webp",
+    "effects": []
+}

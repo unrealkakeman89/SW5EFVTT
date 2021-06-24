@@ -1,0 +1,80 @@
+{
+    "_id": "RsmGXKSS6EKQ4cTu",
+    "name": "Crippling Strike (Maneuver)",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you hit a creature with a weapon attack, you can expend one superiority die to cripple the creature. You add the superiority die to the attack&rsquo;s damage roll and the creature&rsquo;s gains 1 slowed level until the end of their next turn.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": "When you hit a creature with a weapon attack"
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4",
+                    ""
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {
+        "midi-qol": {
+            "onUseMacroName": ""
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-Passive.webp",
+    "effects": []
+}

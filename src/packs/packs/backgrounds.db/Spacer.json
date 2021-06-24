@@ -1,0 +1,109 @@
+{
+    "name": "Spacer",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "Aboard a star ship in the cold vacuum of space is where you feel most at home. You've spent the majority of your life travelling the stars. Life aboard ships has given you a good understanding of their inner workings. You might be especially skilled as a ship mechanic, a pilot, or support staff."
+        },
+        "flavorName": {
+            "value": "Specialty"
+        },
+        "flavorDescription": {
+            "value": "During your time as a spacer, you had a specific role to play aboard the ship. Roll a d8 or choose from the options in the table below to determine your role:"
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Specialty</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Pilot</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Mechanic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Support Staff</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Guard</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Ship Medic</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Captain</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Communications Officer</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Ship Cook</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Investigation, Piloting, and Technology"
+        },
+        "toolProficiencies": {
+            "value": "Your choice of chef's kit, mechanic's kit, or one type of gaming set"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of tools or a gaming set (one of your choice), a set of common clothes, a small souvenir from your travels, and a belt pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Spacers come from all walks of life, and the responsibilities of life aboard a ship make them generally reliable as well. Spending so much time on their ship shapes their outlook and forms their most important attachments."
+        },
+        "featureName": {
+            "value": "Well-Traveled"
+        },
+        "featureText": {
+            "value": "As a spacer, you've been from one end of the galaxy to the other. You've traveled along many of the trade routes, and know the safest routes. You have expert knowledge of the various hyperlanes. In addition to this, you know a large number of the models and designs of common space ships that are found in the galaxy."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Ace Pilot</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Techie</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Galvanizing Presence</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Inspiring Leader</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">My crewmates know they can rely on me, no matter what.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I work hard so that I can play hard when the work is done.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I enjoy traveling into new systems and making new friends over a drink.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I stretch the truth for the sake of a good story.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">To me, a bar brawl is a nice way to get to know a new city.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I never pass up a friendly wager.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">The best way to get me to do something is to tell me I can't do it.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I like a job well done, especially if I can convince someone else to do it.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Respect. The thing that keeps a ship together is mutual respect between captain and crew. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Fairness. We all do the work, so we all share in the rewards. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Freedom. Space is freedom&mdash;the freedom to go anywhere and do anything. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Mastery. I'm a predator, and the other ships we come across are my prey. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">People. I'm committed to my crewmates, not to ideals. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. Someday, I'll own my own ship and chart my own destiny. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I follow orders, even if I think they're wrong.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'll say anything to avoid having to do extra work.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Once someone questions my courage, I never back down no matter how dangerous the situation.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Once I start drinking, it's hard for me to stop.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I can't help but pocket loose coins and other trinkets I come across.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">My pride will probably lead to my destruction.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I'm loyal to my captain first, everything else second.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">The ship is most important&mdash;crewmates and captains come and go.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I'll always remember my first ship.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I will become the greatest captain that ever lived.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I was cheated out of my fair share of the profits, and I want to get my due.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Ruthless space pirates murdered my captain and crewmates, stole all we owned, and left me lo die. Vengeance will be mine.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Spacer.webp",
+    "effects": [
+        {
+            "_id": "P2R1BJSV5j400pV3",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Spacer",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Spacer",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "uUKAjuxSOgU4OvRH"
+}

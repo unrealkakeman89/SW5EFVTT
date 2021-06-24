@@ -1,0 +1,71 @@
+{
+    "_id": "uVj65irpjyXXnU6M",
+    "name": "Special Ammunition",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn ammunition enhancements that are fueled by amplified shots to unleash special enhanced effects.</p>\n<h4><strong>AMMUNITION ENHANCEMENTS</strong></h4>\n<p>You know two ammunition enhancements of your choice, which are detailed under &ldquo;Ammunition Enhancements&rdquo; below, and you earn more at higher levels. Many ammunition enhancements boost an attack in some way. Once per turn when you fire a shot from a blaster as part of the Attack action, you can apply one of your Ammunition Enhancement options to that shot,</p>\n<p>You gain an additional Ammunition Enhancement option of your choice when you reach certain levels in this class: 7th, 10th, 15th, and 18th level. Each option also improves when you become an 18th-level fighter.</p>\n<p>Each time you learn new ammunition enhancements, you can also replace one ammunition enhancement you know with a different one.</p>\n<h4><strong>AMPLIFIED SHOTS</strong></h4>\n<p>You have two amplified shots, which you use to activate your ammunition enhancements. An amplified shot is expended when you use it. When you fire an amplified shot, your weapon is treated as enhanced for overcoming resistance and immunity to unenhanced attacks and damage. You decide to use the option when the shot hits a creature, unless the option doesn&rsquo;t involve an attack roll. You regain all of your amplified shots when you finish a short or long rest.</p>\n<h4><strong>SAVING THROWS</strong></h4>\n<p>Some of your ammunition enhancements require your target to make a saving throw to resist the maneuver&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<hr />\n<p><strong>Ammunition save DC&nbsp;</strong>= 8 + your proficiency bonus + your Dexterity modifier</p>\n<hr />\n<h2>AMMUNITION ENHANCEMENTS</h2>\n<p>The ammunition enhancements are presented in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>CARBONITE SHOT</strong></h4>\n<p>When this shot strikes its target, shards of carbonite wrap around the target. The creature hit by the shot takes an extra 2d6 cold damage, it gains 1 slowed level, and it takes 2d6 kinetic damage the first time on each turn it moves 1 foot or more without teleporting. The target or any creature that can reach it can use its action to remove the carbonite with a successful Strength (Athletics) check against your Special Ammunition save DC. Otherwise, the carbonite lasts for 1 minute or until you use this option again.</p>\n<p>The cold damage and kinetic damage both increase to 4d6 when you reach 18th level in this class.</p>\n<hr />\n<h4><strong>COERCING SHOT</strong></h4>\n<p>You enhance your shot with chemicals that confuse the target. The creature hit by the shot takes an extra 2d6 poison damage, and choose one of your allies within 30 feet of the target. The target must succeed on a Wisdom saving throw, or it is charmed by the chosen ally until the start of your next turn. This effect ends early if the chosen ally attacks the charmed target, deals damage to it, or forces it to make a saving throw.</p>\n<p>The poison damage increases to 4d6 when you reach 18th level in this class.</p>\n<hr />\n<h4><strong>EXPLOSIVE SHOT</strong></h4>\n<p>You fire a shot set to explode on impact. The shot detonates after your attack. Immediately after the shot hits the creature, the target and all other creatures within 10 feet of it take 2d6 fire damage each.</p>\n<p>The fire damage increases to 4d6 when you reach 18th level in this class.</p>\n<hr />\n<h4><strong>HALLUCINOGEN SHOT</strong></h4>\n<p>You enhance your shot with hallucinogenic chemicals. The creature hit by the shot takes an extra 2d6 psychic damage, and it must succeed on a Wisdom saving throw or be unable to see anything farther than 5 feet away until the start of your next turn.</p>\n<p>The psychic damage increases to 4d6 when you reach 18th level in this class.</p>\n<hr />\n<h4><strong>PIERCING SHOT</strong></h4>\n<p>You enhance your shot with armor-piercing properties. When you use this option, you don&rsquo;t make an attack roll for the attack. Instead, the shot shoots forward in a line, which is 1 foot wide and 30 feet long, before disappearing. The shot passes through objects, ignoring cover. Each creature in that line must make a Dexterity saving throw. On a failed save, a creature takes damage as if it were hit by the shot, plus an extra 1d6 damage of the weapon&rsquo;s type. On a successful save, a target takes half as much damage.</p>\n<p>The extra damage increases to 2d6 when you reach 18th level in this class.</p>\n<hr />\n<h4><strong>QUELL SHOT</strong></h4>\n<p>You fire a shot enhanced with a debilitating poison. The creature hit by the shot takes an extra 2d6 poison damage. The target must also succeed on a Constitution saving throw, or the damage dealt by its weapon attacks is halved until the start of your next turn.</p>\n<p>The poison damage increases to 4d6 when you reach 18th level in this class.</p>\n<hr />\n<h4><strong>SEEKING SHOT</strong></h4>\n<p>You apply a tracing signal to your shot. When you use this option, you don&rsquo;t make an attack roll for the attack. Instead, choose one creature you have seen in the past minute. The shot flies toward that creature, moving around corners if necessary and ignoring three-quarters cover and half cover. If the target is within the weapon&rsquo;s range and there is a path large enough for the shot to travel to the target, the target must make a Dexterity saving throw. Otherwise, the shot disappears after traveling as far as it can. On a failed save, the target takes damage as if it were hit by the shot, plus an extra 1d6 kinetic damage, and you learn the target&rsquo;s current location. On a successful save, the target takes half as much damage, and you don&rsquo;t learn its location.</p>\n<p>The kinetic damage increases to 2d6 when you reach 18th level in this class.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

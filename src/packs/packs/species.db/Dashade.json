@@ -1,0 +1,257 @@
+{
+    "_id": "xUWex26hdDUxsIVi",
+    "name": "Dashade",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Dashade are a hulking reptillian species known for their strength and aggression. They have three fingers on each hand, each tipped with a long, curving claw. Their most notable feature is their natural resistance to the power of the Force. Along with their resistance to the Force, Dashade possess a high tolerance for radioactive energy, able to withstand contact with radioactive materials much longer than other species. Despite the thick skin Dashade possess, they have the uncanny ability to control the rate that heat dissipates from their skin. This allows them to regulate their body temperature at will.</p>\n<h2>Society and Culture</h2>\n<p>Dashade's brute strength and Force resistance makes them prime candidates for mercenary and assassin work. Dashade society is clan-based. Theses clan's often feud over honor and reputation, a trait that the dashade as a species exhibit.</p>\n<h2>Names</h2>\n<p>Many dashade names are short, dominated by harsher sounds, while others are longer and seperated by an apostrophe. Dashade names are gender neutral. Surnames are clan-based, but most dashade don't share or use them.</p>\n<p><strong>&nbsp; First Names.</strong> Anarin, Rak'vhul, Set, Vattix, Vos</p>\n<p><strong>&nbsp; Surnames.</strong> Ferrex, Gusar, Kruyel, Orath, Xeng, Zath</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Charisma score increases by 1.</p><p><em><strong>Age.</strong></em> Dashade reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Dashade's aggressive yet loyal nature causes them to tend toward lawful dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Dashade typically stand 5 and a half to 6 and a half feet tall and generally weigh around 200 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Claws.</strong></em> Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.</p><p><em><strong>Force Contention.</strong></em> Due to their unique physiology, dashade hardiness allows them to overcome use of the Force. You have advantage on Strength and Constitution saving throws against force powers.</p><p><em><strong>Heat Dissipation.</strong></em> Whenever you make a Dexterity (Stealth) check to avoid detection by electronic sensors and cameras, you are considered to have expertise in the Stealth skill.</p><p><em><strong>Menacing.</strong></em> You gain proficiency in the Intimidation skill.</p><p><em><strong>Radiation Resistant.</strong></em> Dashade are naturally able to resist radiation. You have resistance to necrotic damage.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Dashadi. Dashadi is characterized by its low pitch and elongated growls.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black, dark gray, or Olive green"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black, orange, or red"
+        },
+        "distinctions": {
+            "value": "Heat dissipation, Force-resistance, radiation resistance"
+        },
+        "heightAverage": {
+            "value": "5'1\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "145 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Urkupp"
+        },
+        "slanguage": {
+            "value": "Dashadi"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Dashade",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.itm.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Intimidation"
+                },
+                {
+                    "modSpecKey": "data.traits.dr.value",
+                    "value": "necrotic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Damage Resistance"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "dashadi",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "mQcKkOrpgH0eTK1k",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Dashade.webp",
+    "effects": [
+        {
+            "_id": "G99sEwcJAyta31Wz",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Dashade",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.itm.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "necrotic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "dashadi",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.forceContention",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Dashade.webp",
+            "label": "Dashade",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

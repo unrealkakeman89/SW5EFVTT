@@ -1,0 +1,153 @@
+{
+    "_id": "QL4kNoKCHClr5jFP",
+    "name": "Ideal of the Titan",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>You gain proficiency in medium armor.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you have advantage on ability checks and attack rolls that would forcefully move another creature, and the distance they would be moved increases by 5 feet.</p>\n<section class=\"secret\">\n<p>In the Details tab, set Resource Consumption to [Item Uses] [Sentinel Ideals] [1].</p>\n</section>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "bonus",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+    "effects": [
+        {
+            "_id": "dR4ipB2mMlCk1jHy",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.traits.armorProf.value",
+                    "value": "med",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+            "label": "Ideal of the Titan",
+            "tint": "",
+            "transfer": true
+        },
+        {
+            "_id": "mvSs3VXA4rSkpT8b",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": false
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": 60,
+                "rounds": 10,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+            "label": "Ideal of the Titan Manifestation",
+            "tint": "",
+            "transfer": false
+        }
+    ]
+}

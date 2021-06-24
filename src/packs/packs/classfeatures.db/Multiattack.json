@@ -1,0 +1,71 @@
+{
+    "_id": "kk16fzUU7IFma2Vj",
+    "name": "Multiattack",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Starting at 11th level, you gain one of the following features of your choice.</p>\n<hr />\n<blockquote>\n<h4><strong>VOLLEY</strong></h4>\n<p>You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon&rsquo;s range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</p>\n<hr />\n<h4><strong>WHIRLWIND ATTACK</strong></h4>\n<p>You can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

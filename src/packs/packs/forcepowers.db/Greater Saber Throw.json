@@ -1,0 +1,93 @@
+{
+    "_id": "CkwLRMWRdXp1ZOIh",
+    "name": "Greater Saber Throw",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Improved Saber Throw</em></p>\n<p>As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon or vibroweapon against one target within the power&rsquo;s range, otherwise the power fails. On a hit, the target takes 6d8 damage of the same type as the weapon&rsquo;s damage and must make a Constitution saving throw against an additional effect depending on your choice of casting ability:</p>\n<p>Wisdom.&nbsp;The target takes an additional 4d6 force damage and it gains four levels of slowed until the end of its next turn. On a success, the target takes half as much damage and its speed isn&rsquo;t reduced.</p>\n<p>Charisma.&nbsp;The target takes an additional 4d6 necrotic damage and cannot regain hit points until the end of its next turn. On a success, the target takes half as much damage and its healing capability is unaffected.</p>\n<p>The weapon then immediately returns to your hand.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 6th level or higher, the force or necrotic damage increases by 1d6 for each slot above 5th.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "rpak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "6d8",
+                    ""
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "4d6",
+        "save": {
+            "ability": "con",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 5,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Greater%20Saber%20Throw.webp",
+    "effects": []
+}

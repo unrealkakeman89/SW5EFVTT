@@ -1,0 +1,37 @@
+{
+    "_id": "bXKJ23YuPt7XJwZO",
+    "name": "Weapon Slave Array",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger; Fixed Hardpoint"
+        },
+        "system": {
+            "value": "Weapon"
+        },
+        "basecost": {
+            "value": "3000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>A weapon slave array is attached to a hardpoint and used to fire the weapon from the cockpit or other crew station rather than from a dedicated gunner station at the hardpoint.  A crew member deployed remote from a dedicated gunner station can now fire this weapon and utilize the additional limited or unlimited arc at disadvantage.  </p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Weapon.webp",
+    "effects": []
+}

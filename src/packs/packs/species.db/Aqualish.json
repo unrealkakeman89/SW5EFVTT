@@ -1,0 +1,275 @@
+{
+    "_id": "t1aMJMaz8tdOAVkE",
+    "name": "Aqualish",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>An amphibious species native to the planet Ando, the Aqualish people have two facial tusks which curve down over their mouths; a trait which added to their appearance as arachnids. These facial tusks are highly sensitive to heat and cold and are used for cracking open the hard shells of shellfish or burrowing through the swampy loam of their homeworld. Having finned hands and two bulbous black eyes, Aqualish are unable to manipulate most machinery or equipment developed by the galaxy's many species which designed these tools for beings with digits. As a result, Aqualish tend to remain on their homeworld. Aqualish are well known for their hair-trigger tempers that flare without reason. While Force-sensitive Aqualish are rare, members of the species have trained as both Sith and Jedi, though they typically gravitate toward the former.</p>\n<h2>Society and Culture</h2>\n<p>The Aqualish hate the image they have in the galaxy as thugs, regardless of its veracity, and blame it on any- and everyone else. Because of this, the species are considered pariahs on Ando, which has a lower population of Aqualish than the galaxy itself. All Aqualish speak mutually intelligible dialects of the same language. Quarrelsome and thug-like, the Aqualish culture revolved around aggression and toughness, with diplomacy being one of their weakest attributes.</p>\n<h2>Names</h2>\n<p>Aqualish names are intended to sound strong. Surnames are not familial, but are chosen by each individual Aqualish.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Bung, Gu, Opege, Soni, Tubop</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Cestirki, Duni, Iftu, Sifre, Umi</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Dogomurra, Julo, Kronem, Nidoal, Utix</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Charisma score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Aqualish reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Aqualish's aggressive personalities cause them to tend toward the dark side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Aqualish stand between 6 and 7 feet tall and weigh around 190 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Arms Dealers.</strong></em> Whenever you make a Charisma (Persuasion) check related to buying or selling weapons, you are considered to have expertise in the Persuasion skill.</p>\n<p><em><strong>Aggressive.</strong></em> As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>\n<p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Menacing.</strong></em> You have proficiency in the Intimidation skill.</p>\n<p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Aqualish. Aqualish is a harsh, guttural language. It's rare that other species bother to learn it unless they regularly interact with Aqualish.</p>",
+            "source": "Expanded Content"
+        },
+        "skinColorOptions": {
+            "value": "Black, blue, green, or red"
+        },
+        "hairColorOptions": {
+            "value": "Black, brown, or gray"
+        },
+        "eyeColorOptions": {
+            "value": "Black, blue, red, or brown"
+        },
+        "distinctions": {
+            "value": "Tusks, belligerent personalities, brawny stature"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "140 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Ando"
+        },
+        "slanguage": {
+            "value": "Aqualish"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Aqualish",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.itm.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Intimidation"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "aqualish",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "CY6pZnKGXLueLZK0",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Aqualish.webp",
+    "effects": [
+        {
+            "_id": "dNaQxsBLhXGxw47t",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Aqualish",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.itm.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "aqualish",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.aggressive",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Aqualish.webp",
+            "label": "Aqualish",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

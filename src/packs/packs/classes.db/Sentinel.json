@@ -1,0 +1,242 @@
+{
+    "_id": "1KSGcLL9HvLEkanx",
+    "name": "Sentinel",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "class",
+    "data": {
+        "description": {
+            "value": "<p><img style=\"float: right; margin: 5px; border: 0px; height: 400px;\" src=\"systems/sw5e/packs/Icons/Classes/sentinel_01.webp\" /></p>\n<p><span style=\"float: left; width: 0.8em; font-size: 300%; line-height: 80%;\">C</span>lad in black robes, the rattataki pulls his hood forward and steps into the shadowy alcove, only to reappear further down the hall. As his quarry walks past, he presses the hilt of his lightsaber to the back of their head, quickly toggling it on-and-off. He is gone before the corpse hits the ground.</p>\n<p>The togruta dashes across the battlefield, doublesaber deflecting blaster shots to the ground. She pulls her wounded padawan to her feet, and guides her away from the warzone.</p>\n<p>Green-bladed lightsaber a blur, the cathar ferociously presses the attack. With each strike, she guides her opponent closer to the ravine&rsquo;s edge. A flurry of blows followed by a quick <em>force push</em> and her foe tumbles over the edge.</p>\n<p>Sentinels are the masters of blending force powers with weapon attacks. They weave the two together so expertly that their foes have trouble predicting them.</p>\n<h2>The Middle of the Road</h2>\n<p>The sentinel uses stealth and subterfuge to accomplish the will of the Force. Where the consular focuses on mastery of the Force and the guardian focuses on the mastery of the lightsaber, the sentinel focuses on merging the two.</p>\n<h2>Solitary Action</h2>\n<p>Sentinels are notoriously independent, most comfortable acting alone and without backup; where some use a team to make up for their weaknesses, the sentinel uses the Force to overcome theirs. While some take this independent streak to the extreme, they are usually accepting of authority, as long as they are allowed to carry out directions using their preferred methods.</p>\n<p>While creating your sentinel, consider your personal philosophy in regards to the Force and its most famous practitioners - the Jedi and the Sith. Are you a member of one of the two orders, or do you walk a different path? Are you an operative tapping into a latent Force-sensitivity? Were you trained in the force from a young age, or did you discover it as an adult? How do you treat those weaker than you? What was your family like? Do you see the Force as light and dark, or an impartial river of gray?</p>\n<h3>Quick Build</h3>\n<p>You can make a sentinel quickly by following these suggestions. First, make Dexterity your highest ability score, followed by Wisdom or Charisma. Second, choose the @Compendium[sw5e.backgrounds.8WMQJLQ6JqRcTZUc]{Jedi} or @Compendium[sw5e.backgrounds.eOpE0XX7z0jx8lwI]{Sith} background.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "levels": 1,
+        "archetype": "",
+        "hitDice": "d8",
+        "hitDiceUsed": 0,
+        "skills": {
+            "number": 3,
+            "choices": [],
+            "value": []
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        },
+        "archetypes": {
+            "value": ""
+        },
+        "powercasting": {
+            "progression": "sentinel",
+            "ability": ""
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "levelsTable": {
+            "value": "<p>Test</p>"
+        },
+        "classFeatures": {
+            "value": "<div class=\"classtable\">\n<blockquote>\n<table style=\"width: 100%;\">\n<thead>\n<tr style=\"height: 18px;\">\n<td style=\"color: #000000; text-transform: uppercase; font-family: 'Russo One'; background-color: #bdc8cc; text-shadow: none; font-size: 16px; height: 18px; width: 99.8425%;\" colspan=\"7\" align=\"left\">The Sentinel</td>\n</tr>\n<tr>\n<th style=\"width: 6.29921%;\" align=\"center\">Level</th>\n<th style=\"width: 13.0709%;\" align=\"center\">Proficiency Bonus</th>\n<th style=\"width: 29.2913%;\" align=\"center\">Features</th>\n<th style=\"width: 16.063%;\" align=\"center\">Force Powers Known</th>\n<th style=\"width: 9.76378%;\" align=\"center\">Force Points</th>\n<th style=\"width: 13.2283%;\" align=\"center\">Max Power Level</th>\n<th style=\"width: 12.126%;\" align=\"center\">Kinetic Combat</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">1st</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+2</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Forcecasting, Led by the Force</td>\n<td style=\"width: 16.063%;\" align=\"center\">7</td>\n<td style=\"width: 9.76378%;\" align=\"center\">3</td>\n<td style=\"width: 13.2283%;\" align=\"center\">1st</td>\n<td style=\"width: 12.126%;\" align=\"center\">-</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">2nd</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+2</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Force-Empowered Self, Sentinel Ideals</td>\n<td style=\"width: 16.063%;\" align=\"center\">9</td>\n<td style=\"width: 9.76378%;\" align=\"center\">6</td>\n<td style=\"width: 13.2283%;\" align=\"center\">1st</td>\n<td style=\"width: 12.126%;\" align=\"center\">d4</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">3rd</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+2</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Sentinel Calling</td>\n<td style=\"width: 16.063%;\" align=\"center\">11</td>\n<td style=\"width: 9.76378%;\" align=\"center\">9</td>\n<td style=\"width: 13.2283%;\" align=\"center\">2nd</td>\n<td style=\"width: 12.126%;\" align=\"center\">d4</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">4th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+2</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 16.063%;\" align=\"center\">13</td>\n<td style=\"width: 9.76378%;\" align=\"center\">12</td>\n<td style=\"width: 13.2283%;\" align=\"center\">2nd</td>\n<td style=\"width: 12.126%;\" align=\"center\">d4</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">5th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+3</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Extra Attack</td>\n<td style=\"width: 16.063%;\" align=\"center\">15</td>\n<td style=\"width: 9.76378%;\" align=\"center\">15</td>\n<td style=\"width: 13.2283%;\" align=\"center\">2nd</td>\n<td style=\"width: 12.126%;\" align=\"center\">d6</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">6th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+3</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Sentinel Ideals (three ideals)</td>\n<td style=\"width: 16.063%;\" align=\"center\">17</td>\n<td style=\"width: 9.76378%;\" align=\"center\">18</td>\n<td style=\"width: 13.2283%;\" align=\"center\">3rd</td>\n<td style=\"width: 12.126%;\" align=\"center\">d6</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">7th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+3</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Calling feature</td>\n<td style=\"width: 16.063%;\" align=\"center\">18</td>\n<td style=\"width: 9.76378%;\" align=\"center\">21</td>\n<td style=\"width: 13.2283%;\" align=\"center\">3rd</td>\n<td style=\"width: 12.126%;\" align=\"center\">d6</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">8th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+3</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 16.063%;\" align=\"center\">19</td>\n<td style=\"width: 9.76378%;\" align=\"center\">24</td>\n<td style=\"width: 13.2283%;\" align=\"center\">3rd</td>\n<td style=\"width: 12.126%;\" align=\"center\">d6</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">9th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+4</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Sentinel Ideals (three manifestations)</td>\n<td style=\"width: 16.063%;\" align=\"center\">21</td>\n<td style=\"width: 9.76378%;\" align=\"center\">27</td>\n<td style=\"width: 13.2283%;\" align=\"center\">4th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d8</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">10th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+4</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Battle Readiness</td>\n<td style=\"width: 16.063%;\" align=\"center\">22</td>\n<td style=\"width: 9.76378%;\" align=\"center\">30</td>\n<td style=\"width: 13.2283%;\" align=\"center\">4th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d8</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">11th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+4</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Sentinel Ideals (four ideals)</td>\n<td style=\"width: 16.063%;\" align=\"center\">24</td>\n<td style=\"width: 9.76378%;\" align=\"center\">33</td>\n<td style=\"width: 13.2283%;\" align=\"center\">5th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d8</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">12th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+4</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 16.063%;\" align=\"center\">25</td>\n<td style=\"width: 9.76378%;\" align=\"center\">36</td>\n<td style=\"width: 13.2283%;\" align=\"center\">5th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d8</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">13th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+5</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Calling feature</td>\n<td style=\"width: 16.063%;\" align=\"center\">26</td>\n<td style=\"width: 9.76378%;\" align=\"center\">39</td>\n<td style=\"width: 13.2283%;\" align=\"center\">5th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d10</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">14th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+5</td>\n<td style=\"width: 29.2913%;\" align=\"center\">-</td>\n<td style=\"width: 16.063%;\" align=\"center\">28</td>\n<td style=\"width: 9.76378%;\" align=\"center\">42</td>\n<td style=\"width: 13.2283%;\" align=\"center\">6th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d10</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">15th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+5</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Enlightened Evasion</td>\n<td style=\"width: 16.063%;\" align=\"center\">29</td>\n<td style=\"width: 9.76378%;\" align=\"center\">45</td>\n<td style=\"width: 13.2283%;\" align=\"center\">6th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d10</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">16th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+5</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 16.063%;\" align=\"center\">30</td>\n<td style=\"width: 9.76378%;\" align=\"center\">48</td>\n<td style=\"width: 13.2283%;\" align=\"center\">6th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d10</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">17th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+6</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Sentinel Ideals (four manifestations)</td>\n<td style=\"width: 16.063%;\" align=\"center\">32</td>\n<td style=\"width: 9.76378%;\" align=\"center\">51</td>\n<td style=\"width: 13.2283%;\" align=\"center\">7th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d12</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">18th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+6</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Calling feature</td>\n<td style=\"width: 16.063%;\" align=\"center\">33</td>\n<td style=\"width: 9.76378%;\" align=\"center\">54</td>\n<td style=\"width: 13.2283%;\" align=\"center\">7th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d12</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">19th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+6</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 16.063%;\" align=\"center\">34</td>\n<td style=\"width: 9.76378%;\" align=\"center\">57</td>\n<td style=\"width: 13.2283%;\" align=\"center\">7th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d12</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.29921%;\" align=\"center\">20th</td>\n<td style=\"width: 13.0709%;\" align=\"center\">+6</td>\n<td style=\"width: 29.2913%;\" align=\"center\">Center of the Force</td>\n<td style=\"width: 16.063%;\" align=\"center\">35</td>\n<td style=\"width: 9.76378%;\" align=\"center\">60</td>\n<td style=\"width: 13.2283%;\" align=\"center\">7th</td>\n<td style=\"width: 12.126%;\" align=\"center\">d12</td>\n</tr>\n</tbody>\n</table>\n</blockquote>\n</div>\n<h1>Class Features</h1>\n<p>As a Sentinel, you gain the following class features.</p>\n<h3>Hit Points</h3>\n<p><strong>Hit Dice:</strong> 1d8 per Sentinel level</p>\n<p><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</p>\n<p><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per sentinel level after 1st</p>\n<h3>Proficiencies</h3>\n<p><strong>Armor:</strong> Light armor</p>\n<p><strong>Weapons:</strong> Simple vibroweapons, simple lightweapons, chakram, doubleblade, doublesaber, doubleshoto, doublesword, hidden blade, lightfoil, light ring, saberwhip, vibrorapier, vibrowhip</p>\n<p><strong>Tools:</strong> One specialist's kit of your choice</p>\n<p><strong>Saving Throws:</strong> Dexterity, Charisma</p>\n<p><strong>Skills:</strong> Choose three from Acrobatics, Animal Handling, Insight, Intimidation, Perception, Persuasion, Piloting, Stealth, and Technology</p>\n<h3>Equipment</h3>\n<p>You start with the following equipment, in addition to the equipment granted by your background</p>\n<ul>\n<li><em>(a)</em> two simple lightweapons or vibroweapons or <em>(b)</em> one martial lightweapon or vibroweapon with which you are proficient</li>\n<li><em>(a)</em> a dungeoneer&rsquo;s pack or <em>(b)</em> an explorer&rsquo;s pack</li>\n<li><em>(a)</em> a demolitions kit, <em>(b)</em> a security kit, or <em>(c)</em> a slicer&rsquo;s kit</li>\n<li>a combat suit and a light physical shield</li>\n</ul>\n<h3 class=\"mt-2\">Variant: Starting Wealth</h3>\n<p>In lieu of the equipment granted by your class and background, you can elect to purchase your starting gear. If you do so, you receive no equipment from your class and background, and instead roll for your starting wealth using the criteria below:</p>\n<table style=\"border: 0px; width: 300px;\">\n<tbody>\n<tr>\n<td style=\"width: 150px;\"><strong>Class</strong></td>\n<td style=\"width: 150px;\"><strong>Funds</strong></td>\n</tr>\n<tr>\n<td style=\"width: 150px;\">Sentinel</td>\n<td style=\"width: 150px;\">1,000 + 3d4 x 100 cr</td>\n</tr>\n</tbody>\n</table>\n<h2>Forcecasting</h2>\n<p>Beginning at 1st level, In your meditations on the force, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.</p>\n<h3>Force Powers Known</h3>\n<p>You learn 7 force powers of your choice, and you learn more at higher levels, as shown in the Force Powers Known column of the sentinel class table. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite.</p>\n<h3>Force Points</h3>\n<p>You have a number of force points equal to your sentinel level x 3, as shown in the Force Points column of the sentinel class table, + your Wisdom or Charisma modifier (your choice). You use these force points to cast force powers. You regain all expended force points when you finish a long rest.</p>\n<h3>Max Power Level</h3>\n<p>Many force powers can be overpowered, consuming more force points to create a greater effect. You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the sentinel class table.</p>\n<p>You may only cast force powers at 5th, 6th, and 7th-level once. You regain the ability to do so after a long rest.</p>\n<h3>Forcecasting Ability</h3>\n<p>Your forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. In addition, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.</p>\n<p><strong>Force save DC</strong> = 8 + your proficiency bonus + your forcecasting ability modifier</p>\n<p><strong>Force attack modifier</strong> = your proficiency bonus + your forcecasting ability modifier</p>\n<h2>Led by the Force</h2>\n<p>Also at 1st level, you can add half your proficiency bonus, rounded down, to any ability check you make that doesn&rsquo;t already include your proficiency bonus.</p>\n<h2>Force-Empowered Self</h2>\n<p>Starting at 2nd level, your training allows you to harness the mystical energy of the Force throughout your body. When you hit a creature with a melee weapon attack, you can spend 1 force point to use a Force-Empowered Self effect. Each effect uses a d4, which changes as you gain sentinel levels, as shown in the Kinetic Combat column of the sentinel table. You have three such effects: Deflection, Double Strike, and Slow Time. You can only use each effect once per turn, and you can only use one effect per hit.</p>\n<h3>Deflection</h3>\n<p>You can roll a Kinetic Combat die and add it to your AC against one attack before the start of your next turn.</p>\n<h3>Double Strike</h3>\n<p>You can roll a Kinetic Combat die and deal additional damage equal to the amount rolled.</p>\n<h3>Slow Time</h3>\n<p>You can roll a Kinetic Combat die to increase your speed by 5 x the amount rolled until the end of your turn.</p>\n<h2>Sentinel Ideals</h2>\n<p>Also at 2nd level, you adopt ideals that exemplify your bond with the Force. You adopt two ideals of your choice, as detailed at the end of the class description. You adopt an additional ideal at 6th and 11th level. When you manifest your Sentinel Ideals, you choose which effect to create.</p>\n<p>You can manifest your ideals twice. You gain an additional use at 9th and 17th level. You regain all expended uses when you finish a long rest.</p>\n<h2>Sentinel Calling</h2>\n<p>When you reach 3rd level, you choose a sentinel calling, which is detailed at the end of the class description. Your calling grants you features at 3rd level and again at 7th, 13th, and 18th level.</p>\n<h2>Ability Score Improvement</h2>\n<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using this feature. Alternatively, you can choose a feat (see Chapter 6 for a list of feats).</p>\n<h2>Extra Attack</h2>\n<p>At 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>\n<h2>Battle Readiness</h2>\n<p>Starting at 10th level, you have fully learned how to meld your physical self with the Force. When you take the Dodge or Disengage actions, or use your action to cast a force power, you can make one melee weapon attack as a bonus action.</p>\n<h2>Enlightened Evasion</h2>\n<p>When you reach 15th level, when you are subjected to a damage-dealing effect that forces you to make a saving throw, you can spend 2 force points to add your Wisdom or Charisma modifier (your choice, minimum of one) to the saving throw if doesn&rsquo;t already include that modifier. If you do so, you instead take no damage if you succeed on the saving throw, and only half damage if you fail. You can wait until after you roll the d20 to use this feature, but you must decide before the GM says whether the roll succeeds or fails.</p>\n<h2>Center of the Force</h2>\n<p>At 20th level, you are perfectly centered with the Force. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2.</p>\n<p>Additionally, once per turn, when you would roll a Kinetic Combat die, you can instead choose the maximum.</p>\n<h2>Sentinel Ideals</h2>\n<p>The ideals are presented in alphabetical order. You can&rsquo;t benefit from a Sentinel Ideal option more than once, even if you later get to choose again.</p>\n<h3>Ideal of the Agile</h3>\n<p>You gain a swimming speed and a climbing speed equal to your walking speed. When you make a long jump, you can cover a number of feet up to twice your Wisdom or Charisma score (your choice). When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Wisdom or Charisma modifier (your choice).</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, opportunity attacks against you are made with disadvantage.</p>\n<h3>Ideal of the Artisan</h3>\n<p>Choose one of your skill or tool proficiencies. When you make an ability check with the chosen skill or tool, you can add half your Wisdom or Charisma modifier (your choice, minimum of one) to any check you make that doesn&rsquo;t already include that modifier.</p>\n<p>Additionally, as an action, you can manifest this ideal in a brief surge of energy. For the next 10 minutes, the bonus increases to your Wisdom or Charisma modifier, and you can choose a second skill or tool to extend this feature to.</p>\n<h3>Ideal of the Contender</h3>\n<p>You can use Dexterity instead of Strength for the attack and damage rolls of your unarmed strikes, and your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8).</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, your unarmed strikes count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage, and you can use your Wisdom or Charisma modifier (your choice) instead of Strength for checks made to grapple a target or escape a grapple.</p>\n<h3>Ideal of the Fighter</h3>\n<p>You adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6. You can&rsquo;t take a fighting style option more than once, even if you later get to choose again.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you know the fighting mastery that corresponds with the fighting style you chose with this feature. If you already know that fighting mastery, you instead learn another of your choice for the duration.</p>\n<h3>Ideal of the Hunter</h3>\n<p>You gain darkvision out to a range of 60 feet. If you already have darkvision, this ideal increases its range by 30 feet.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you can see normally in enhanced darkness, and you gain blindsight to 10 feet.</p>\n<h3>Ideal of the Steadfast</h3>\n<p>When you would make a melee weapon attack roll, you can instead force the target to make a Dexterity saving throw (DC = 8 + your bonus to attacks with the weapon). If you would have advantage on your attack roll, the creature instead has disadvantage on their saving throw, and if you would have disadvantage on your attack roll, the creature instead has advantage on their saving throw. On a failed save, the target takes normal weapon damage and is subjected to any additional effects that would occur on a hit.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, when a creature succeeds on the saving throw, they take half the normal weapon damage, and when a creature rolls a 1 on the saving throw, they treat the damage as if you had rolled the maximum.</p>\n<h3>Ideal of the Titan</h3>\n<p>You gain proficiency in medium armor.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you have advantage on ability checks and attack rolls that would forcefully move another creature, and the distance they would be moved increases by 5 feet.</p>\n<h3>Ideal of the Tranquil</h3>\n<p>When you finish a short or long rest, you gain a number of temporary force points equal to half your Wisdom or Charisma modifier (rounded up, your choice, minimum of one). When you would spend a force point while you have temporary force points, the temporary force points are spent first. All temporary force points are lost at the end of your next short or long rest.</p>\n<p>Additionally, as an action, you can manifest this ideal in a brief surge of energy. You regain a number of force points equal to half your Wisdom or Charisma modifier (rounded up, your choice, minimum of one).</p>\n<h3>Ideal of the Vigorous</h3>\n<p>When you roll a Hit Die to regain hit points, you may use your Wisdom or Charisma modifier in place of your Constitution modifier when determining the number of hit points you regain.</p>\n<p>Additionally, as an action, you can manifest this ideal in a brief surge of energy. You gain a number of temporary hit points equal to half your sentinel level (rounded down) + your Wisdom or Charisma modifier (your choice, minimum of one).</p>"
+        },
+        "className": {
+            "value": "Sentinel"
+        },
+        "atFlavorText": {
+            "value": "<h1>Sentinel Callings</h1>\n<p>Different sentinels select different callings, called Paths, to follow as they hone their powers. Your calling grants you features at 3rd, 7th, 13th, and 18th level.</p>\n<p>@Compendium[sw5e.archetypes.3GmBJl9h0FpyIKFg]{Path of Aggression}</p>\n<p>@Compendium[sw5e.archetypes.qlg4myujDRxt6FXB]{Path of Communion}</p>\n<p>@Compendium[sw5e.archetypes.9AQImD6JBpd9c1UK]{Path of the Corsair}</p>\n<p>@Compendium[sw5e.archetypes.pnWaHtbho4xgFpIU]{Path of Etherealness}</p>\n<p>@Compendium[sw5e.archetypes.xIgy4jaHPhmry1Ub]{Path of Focus}</p>\n<p>@Compendium[sw5e.archetypes.4afEpKVpPAUq3lMe]{Path of the Forceblade}</p>\n<p>@Compendium[sw5e.archetypes.L6wU6YEYKHOJH9AX]{Path of Meditation}</p>\n<p>@Compendium[sw5e.archetypes.X3FsoSbXFXkvJvZO]{Path of Shadows}</p>\n<p>@Compendium[sw5e.archetypes.tND6Q1akd5unb3jf]{Path of Synthesis}</p>\n<p>@Compendium[sw5e.archetypes.BtUr8K0noVfAE11J]{Path of Tenacity}</p>\n<p>@Compendium[sw5e.archetypes.VRfBQKAhumWExGiy]{Path of Witchcraft}</p>"
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.traits.armorProf.value",
+                    "value": "lgt",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Armor Prof"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "simple vibroweapons",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.proficient",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma Proficiency"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.proficient",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity Proficiency"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "simple lightweapons",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "chakram",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "doubleblade",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "doublesaber",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "doubleshoto",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "doublesword",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "hidden blade",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "lightfoil",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 12,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "light ring",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 13,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "saberwhip",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 14,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibrorapier",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 15,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibrowhip",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 16,
+                    "itemId": "1KSGcLL9HvLEkanx",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Classes/Sentinel.webp",
+    "effects": []
+}

@@ -1,0 +1,127 @@
+{
+    "_id": "LYOgciOEThVXogkW",
+    "name": "Guard shoto",
+    "permission": {
+        "default": 0,
+        "MmfWtlBdw3ij5wl9": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>Defensive 1, Finesse, Light, Luminous</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 3,
+        "price": 1350,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 5,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "mwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4 + @mod",
+                    "energy"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "martialLW",
+        "properties": {
+            "amm": false,
+            "aut": false,
+            "bur": false,
+            "def": true,
+            "dex": false,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "fin": true,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "ken": false,
+            "lgt": true,
+            "lum": true,
+            "mig": false,
+            "pic": false,
+            "rap": false,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "shk": false,
+            "sil": false,
+            "spc": false,
+            "str": false,
+            "thr": false,
+            "two": false,
+            "ver": false,
+            "vic": false,
+            "nodam": false,
+            "fulldam": false
+        },
+        "proficient": true
+    },
+    "folder": "7rtfHBtXhhiRSS8u",
+    "sort": 6450001,
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Martial%20Lightweapons/Guard%20Shoto.webp",
+    "effects": []
+}

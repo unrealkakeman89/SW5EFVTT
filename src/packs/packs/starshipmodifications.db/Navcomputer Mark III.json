@@ -1,0 +1,37 @@
+{
+    "_id": "oUbIRZMJ8bh9BRcz",
+    "name": "Navcomputer, Mark III",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Navcomputer, Mark II"
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "3"
+        },
+        "description": {
+            "value": "<p>This modification further improves the navcomputer on your ship.  You have a +1 bonus on Intelligence (Astrogation) checks.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

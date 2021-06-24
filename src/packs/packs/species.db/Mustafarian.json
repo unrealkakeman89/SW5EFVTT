@@ -1,0 +1,251 @@
+{
+    "_id": "q4VjPPogVGgGH2OW",
+    "name": "Mustafarian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Mustafarians are an insectoid species of sentients native to the volcanic planet of Mustafar. They are divided into two subspecies: the lanky northern mustafarians, and the stocky southern mustafarians. The southern mustafarians were notable for their greater strength, making them more suited to manual labor. Both subspecies shared many traits, particularly their hardened exoskeletons and leathery skin, which acclimated them to the extreme heat of their volcanic environment.</p><h2>Society and Culture</h2><p>Mustafarians evolved from arthropods living in the slightly cooler hollows within dormant volcanoes on the surface of Mustafar. As a result of such close living, mustafarian culture is isolationist by nature, though they tolerate trade with other systems. Mustafar hosts scarce minerals and rare metals, making mustafarians an invaluable trade partner.\n\nNative mustafarians rarely take sides when galactic conflicts rage, instead preferring to keep to themselves and control their own planet. They are daunting enemies when provoked, however.</p><h2>Names</h2><p>Mustafarian names are often inspired by displays of competency or bravery, such as recovering large quantities of rare minerals, or successfully taming a lava flea. Their surnames are familial.</p><strong>&nbsp;&nbsp;Male Names.</strong> Aumstrogh, Chivos, Ikt, Ulon<p></p><strong>&nbsp;&nbsp;Female Names.</strong> Altoa, Hailith, Saonji, Yura<p></p><strong>&nbsp;&nbsp;Surnames.</strong> Fal'co, Glost, Mensix, Nek'dem",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Strength or Dexterity score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Mustafarians reach adulthood in their late teens and live about 80 years.</p>\n<p><em><strong>Alignment.</strong></em> Mustafarians are usually judicious and value good work above all else, causing them to be lawful balanced, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Mustafarians stand between 5 and 7 feet tall and weigh around 165 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet. Your speed is not reduced by heavy armor.</p>\n<p><em><strong>Darkvision.</strong></em> As an originally cave-dwelling species, your eyes are adapted to the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Hide.</strong></em> You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.</p>\n<p><em><strong>Lava Dweller.</strong></em> Your body is well accustomed to extreme heat, giving you resistance to fire damage. Additionally, your thick hide is naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.</p>\n<p><em><strong>Refinery Specialist.</strong></em> You have proficiency in your choice of constructor's tools, scavenging kit, or surveyor's tools. Additionally, whenever you make an Intelligence (Nature) check to identify a metal or mineral, you are considered to have expertise in the Nature skill.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Mustafarian. Mustafarian consists of choppy clicks and emphatic groans.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Gray"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Extremophiles"
+        },
+        "heightAverage": {
+            "value": "4'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Mustafar"
+        },
+        "slanguage": {
+            "value": "Mustafarian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Mustafarian",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "12",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.traits.dr.value",
+                    "value": "fire",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Damage Resistance"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "mustafarian",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "hHQcpqMiVpK1ovvu",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Mustafarian.webp",
+    "effects": [
+        {
+            "_id": "4l39OCAp9Bu8kztj",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Mustafarian",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "12+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "fire",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "mustafarian",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Mustafarian.webp",
+            "label": "Mustafarian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

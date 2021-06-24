@@ -1,0 +1,152 @@
+{
+    "_id": "1SkoL2Eo6oPd5Wrd",
+    "name": "Arkanian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Arkanians are a robust near-human species with solid white eyes and clawed, four-fingered hands.</p>\n<p>Arkanians are capable of seeing into the infrared spectrum, and their eyes are sensitive to sources of extreme heat. This proved helpful on their dark and frigid homeworld, but when traveling offworld, many must wear blinders on planets with hotter, younger suns. It is not unheard of for arkanians to undergo genetic or cybernetic manipulation of their own bodies, enhancing themselves so as to be better than \"lesser\" species.</p>\n<h2>Society and Culture</h2>\n<p>Arkanians are notoriously arrogant, a trait which came from generations of producing some of the galaxy's greatest advancements in genetics. Their homeworld, Arkania, has vast quantities of precious gems; thus, the Arkanians have never wanted for much in trade. This wealth went into funding their ambitious scientific projects, the most elaborate of which take generations to be completed.</p>\n<p>Many Arkanians have come to see their species as the pinnacle of evolution, and amongst the most&mdash;if not the most&mdash;intelligent beings in the galaxy. Those species that are not already put off by their aloof nature often fear them, as tales of \"mad scientists\" and horrific experiments tend to surround them.</p>\n<h2>Names</h2>\n<p>Arkanian names are simultaneously dignified and succinct. Surnames are familial.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Arkoh, Hyrim, Zeta, Suprin</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Shenna, Elizie, Cratala, Hanna</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Focela, Barzane, Nasdra, Athacorr</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Arkanians reach adulthood in their late teens and live about 100 years.</p>\n<p><em><strong>Alignment.</strong></em> Due to their arrogance and unscrupulous experimentation, arkanians tend towards lawful dark side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Arkanians typically stand 5 to 6 feet tall and generally weigh about 140 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Arkanian Brilliance.</strong></em> Whenever you make an Intelligence ability check, attack roll, or saving throw, you can choose to add 1d4 to the result. You can choose to do this after the check is rolled, but before the DM determines if you&rsquo;ve passed or failed the check. You cannot do so again until you complete a short or long rest.</p>\n<p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can&rsquo;t discern color in darkness, only shades of gray.</p>\n<p><em><strong>Honed Mind.</strong></em> You have advantage on Intelligence, Wisdom, and Charisma saving throws.</p>\n<p><em><strong>Infrared Sight.</strong></em> Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill.</p>\n<p><em><strong>Sunlight Sensitivity.</strong></em> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Arkanian. Arkanian, when spoken, has an airy tone, and is regarded as one of the most difficult written languages to learn.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Tan"
+        },
+        "hairColorOptions": {
+            "value": "White"
+        },
+        "eyeColorOptions": {
+            "value": "White"
+        },
+        "distinctions": {
+            "value": "Four clawed digits, extreme intelligence, infrared vision"
+        },
+        "heightAverage": {
+            "value": "5'0\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Arkania"
+        },
+        "slanguage": {
+            "value": "Arkanian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Arkanian.webp",
+    "effects": [
+        {
+            "_id": "s3slbKvtOar4zl7y",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "arkanian",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.details.species",
+                    "value": "Arkanian",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.sunlightSensitivity",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Arkanian.webp",
+            "label": "Arkanian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

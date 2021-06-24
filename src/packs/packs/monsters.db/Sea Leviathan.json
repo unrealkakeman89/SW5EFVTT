@@ -1,0 +1,1751 @@
+{
+    "_id": "SeCFoItENcUcJl9P",
+    "name": "Sea Leviathan",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 30,
+                "proficient": 1,
+                "min": 3,
+                "mod": 10,
+                "save": 18,
+                "prof": 8,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 27,
+                "proficient": 1,
+                "min": 3,
+                "mod": 8,
+                "save": 16,
+                "prof": 8,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 5,
+                "proficient": 0,
+                "min": 3,
+                "mod": -3,
+                "save": -3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 18,
+                "proficient": 0,
+                "min": 3,
+                "mod": 4,
+                "save": 4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 20,
+                "proficient": 0,
+                "min": 3,
+                "mod": 5,
+                "save": 5,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": 21,
+                "min": 0,
+                "formula": "natural armor"
+            },
+            "hp": {
+                "value": 475,
+                "min": 0,
+                "max": 475,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "25d20+200"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 2,
+                "prof": 0,
+                "total": 2
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 90,
+                "walk": 0,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 8,
+            "powerdc": 16,
+            "bar1": {
+                "value": 475,
+                "min": 0,
+                "max": 475
+            },
+            "bar2": {
+                "value": 21,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "blindsight": 60,
+                "truesight": 120
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<p style=\"margin-bottom: 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden\">The Sea Leviathan is an aquatic beast specially bred by the Givin Vul Isen, a scientist of Darth Krayt's One Sith Order, for life in the deep seas of the Outer Rim planet of Dac. It is a creature of considerable length and mass, having pectoral fins that were on either side near its chin, as well as a taloned caudal fin for propelling itself through the waters.</p><p style=\"margin-top: -0.8em ; margin-bottom: 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden\"><br></p><p style=\"margin-top: -0.8em ; margin-bottom: 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden\">The Sea Leviathan has a gaping maw filled with rows of long teeth. Like its terrestrial cousin, it has two sets of yellow eyes and four nostrils. The Sea Leviathan has a green hide. Cranial horns are situated on either side of its face and head, which give way to the rows of blister pods that begin at the creature's neck and continue down the length of its entire body. The pods serve as siphons of life-energy, as well as being the Sea Leviathan's primary means of attack.</p><p style=\"margin-top: -0.8em ; margin-bottom: 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden ; text-indent: 1em\"><div class=\"userscript-column-break\" style=\"text-indent: 0px\"></div></p><p style=\"margin: -0.8em 0px 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden\"><span><br></span></p><p style=\"margin: -0.8em 0px 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden\"><span><i><b>Behavior.</b></i></span><span>&nbsp;</span><span>Despite its considerable girth, the Sea Leviathan has incredible speed; it is often able to out-swim its prey and is even able to keep pace with underwater attack craft. The beast actively hunts its prey, and when in close proximity, the blister pods resonate with a sickly green aura as they began to drain the life of the intended target. Due to Vul Isen's special engineering, however, the Sea Leviathan only activated its blister pods when hunting Mon Calamari and did not use them when combating other sentient or non-sentient species. Should the beast be attacked by other creatures or beings, it relied only on its size, speed, and teeth as a means of defense.</span></p><p style=\"margin: -0.8em 0px 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden\"><span><br></span></p><p style=\"margin: -0.8em 0px 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden ; text-indent: 1em\"></p><p style=\"margin: -0.8em 0px 10.5px ; line-height: 1.2em ; z-index: 15 ; overflow: hidden\"><span><i><b>History.</b></i></span><span>&nbsp;</span><span>Sea Leviathans are not a natural occurrence, but are instead a variation of the terrestrial Leviathan that was created through alchemical practices millennia before by the exiled Dark Jedi of the Hundred-Year Darkness. In accordance with Darth Krayt's ordered extermination of the Mon Calamari species, Sith scientist Vul Isen engineered a semi-sentient beast that was not only indulgent upon the life energy of its victims but was also able to assimilate their sentience as well. Each absorbed life allowed the Sea Leviathan to think more like a Mon Calamari; it then instinctively located them in their dwellings and commenced massacring them in kind. The power of the Force was required to bring the beast to life. Through their mastery of the dark side, Vul Isen and his colleague, the Quarren Sith Lord Darth Azard, imprinted parts of their own consciousness onto the Sea Leviathan's mind to awaken it from its vegetative slumber.</span></p>",
+                "public": ""
+            },
+            "alignment": "Chaotic Evil",
+            "species": "",
+            "type": {
+                "value": "aberration",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 25,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 75000
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "grg",
+            "di": {
+                "value": [
+                    "acid"
+                ],
+                "custom": "Unenhanced Kinetic"
+            },
+            "dr": {
+                "value": [
+                    "necrotic",
+                    "fire"
+                ],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [
+                    "frightened",
+                    "paralyzed",
+                    "poisoned"
+                ],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Sith"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "ath": {
+                "value": 1,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 10,
+                "passive": 28,
+                "prof": 8,
+                "total": 18
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 15,
+                "prof": 0,
+                "total": 5
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "itm": {
+                "value": 1,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 23,
+                "prof": 8,
+                "total": 13
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -3,
+                "prof": 0,
+                "total": -3,
+                "passive": 7
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -3,
+                "passive": 7,
+                "prof": 0,
+                "total": -3
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -3,
+                "prof": 0,
+                "total": -3,
+                "passive": 7
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 15,
+                "prof": 0,
+                "total": 5
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 15,
+                "prof": 0,
+                "total": 5
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "sur": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 22,
+                "prof": 8,
+                "total": 12
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -3,
+                "prof": 0,
+                "total": -3,
+                "passive": 7
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 3,
+                "max": 3
+            },
+            "legres": {
+                "value": 3,
+                "max": 3
+            },
+            "lair": {
+                "value": true,
+                "initiative": 20
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Sea Leviathan",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/token.webp",
+        "tint": null,
+        "width": 4,
+        "height": 4,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 20,
+        "brightSight": 20,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "SeCFoItENcUcJl9P",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "YjNmODVmZDMwMWVi",
+            "name": "Blister Pods",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The leviathan regains hit points equal to any necrotic damage dealt by its attacks to living creatures. If this damage reduces a living creature to 0 hit points, the leviathan kills the creature by extracting and absorbing its life force, gaining all its knowledge and memories. Killing the leviathan frees all its captive life forces.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZDZiNGEyMWZlYTQx",
+            "name": "Gargantuan Strength",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The leviathan's melee weapon attacks are considered enhanced.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YzI3ODM1ZWRjZWEw",
+            "name": "Legendary Resistance (3/Day)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>If the leviathan fails a saving throw, it can choose to succeed instead.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MmE3NDJhNzc1NDI1",
+            "name": "Nightmare of the Force",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The leviathan is immune to any effect that would sense its emotions or read its thoughts, as well as all force powers and abilities that would determine its location. Any creature who would use the Force to sense the leviathan in any way must make a DC 18 Wisdom saving throw or take 14 (4d6) psychic damage and be deafened by the sound of phantom screams in their mind for the next minute. While deafened, the Force-user takes an additional 14 (4d6) psychic damage at the start of each of their turns, and they may remake the saving throw as an action in order to end the effect.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZTFhNmIzODhlYmJi",
+            "name": "Siege Monster",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The leviathan deals double damage to objects and structures.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "M2FiMThlNGQxZjNj",
+            "name": "Sith-born",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>Dark forcecasters and Sith (species) have advantage on Animal Handling checks against leviathans.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MTdkYmFmZjYxODFl",
+            "name": "Cortosis Gauntlet",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The Imperial Knight Master adds 3 to his AC against one lightweapon attack that would hit him. To do so, the Imperial Knight Master must see the attacker and be able to move his hand to intercept the blow. On a successful intercept the attackers lightweapon short circuits and is unusable until their next turn.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 70000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MTY0MmMyNThkN2Q0",
+            "name": "Praetoria Ishu",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>When a creature that the Imperial Knight Master can see attacks a target other than the Imperial Knight Master that is within 5 feet of the Imperial Knight Master, the Imperial Knight Master can use its reaction to impose disadvantage on the attack roll.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 80000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "N2MxN2VkYmY5ZWM0",
+            "name": "Multiattack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The leviathan can use its Frightful Presence. It then makes two attacks: one with its bite and one with its tail.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 90000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/skills/green_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "ZDE0ZTg2YWFjYjU3",
+            "name": "Tail",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+18, Reach 20 ft., One target. <em>Hit : </em>26 (3d10+10) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 20,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "3d10+10",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 100000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZGNmZGI1Nzg4Mzdm",
+            "name": "Bite",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+18, Reach 5 ft., One target. <em>Hit : </em>23 (3d8+10) kinetic damage plus 9 (2d8) necrotic damage.</p><p> If the target is a Huge or smaller creature, it is grappled (escape DC 18). Until this grapple ends, the target is restrained, and the leviathan can only bite the grappled target and has advantage on attack rolls to do so.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "3d8+10",
+                            "kinetic"
+                        ],
+                        [
+                            "2d8",
+                            "necrotic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 110000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZjRmYWZiMWViYWNi",
+            "name": "Frightful Presence",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>Each creature of the leviathan's choice that is within 120 feet of the leviathan and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the leviathan's Frightful Presence for the next 24 hours.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "wis",
+                    "dc": 16,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 120000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NGJmNTNiNDZjYTlj",
+            "name": "Lightning Storm",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The leviathan creates three bolts of lightning from its blister pods, each of which can strike a target the leviathan can see within 120 feet of it. A target must make a DC 23 Dexterity saving throw, taking 11 (2d10) lightning damage plus 11 (2d10) necrotic damage on a failed save, or half as much damage on a successful one. If a target would take 0 lightning damage from this attack, they do not take any necrotic damage from it either.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "dex",
+                    "dc": 16,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 130000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NTYyZGMwYWUzN2Ew",
+            "name": "Tidal Wave (Recharge 6)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>While submerged, the leviathan magically creates a wall of water centered on itself. The wall is up to 250 feet long, up to 250 feet high, and up to 50 feet thick. When the wall appears, all other creatures within its area must each make a DC 23 Strength saving throw. A creature takes 33 (6dl0) kinetic damage on failed save, or half as much damage on a successful one. At the start of each of the leviathan's turns after the wall appears, the wall, along with any other creatures in it, moves 50 feet away from the leviathan. Any Huge or smaller creature inside the wall or whose space the wall enters when it moves must succeed on a DC 23 Strength saving throw or take 27 (5d10) kinetic damage. A creature takes this damage no more than once on a turn. At the end of each turn the wall moves, the wall's height is reduced by 50 feet, and the damage creatures take from the wall on subsequent rounds is reduced by 1d10. When the wall reaches 0 feet in height, the effect ends. A creature caught in the wall can move by swimming. Because of the force of the wave, though, the creature must make a successful DC 23 Strength (Athletics) check to swim at all during that turn.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "str",
+                    "dc": 16,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 140000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MDc1Yzg1NzJhMWVj",
+            "name": "Bite",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The leviathan makes a bite attack.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 150000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "OWZhOThjMGUwY2My",
+            "name": "Tail",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The leviathan makes a tail attack.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 160000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZTMwNmY3OGMyMzFl",
+            "name": "Lightning Storm (Costs 2 Actions)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The leviathan uses Lightning Storm.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 170000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/354_-_Sea_Leviathan/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

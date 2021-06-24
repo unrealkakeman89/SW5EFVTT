@@ -1,0 +1,261 @@
+{
+    "_id": "fCvWgqDFYmo37G4p",
+    "name": "Herglic",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>The herglic are a massive race of creatures descended from aquatic mammals, breathing though a blowhole on top of their heads. They are tall and wide, and have smooth, hairless skin that ranged in color from pale blue to black, though some rare individuals may appear pink or have white markings on their sides. Their girth tends to leave them feeling out of place among smaller species; herglic tend to take up two chairs or fill the entire doorway of any establishment they enter that does not cater to beings their size.</p><h2>Society and Culture</h2><p>The herglics are very technologically advanced, developing space flight and hyperdrives and colonizing their sector of the galaxy prior to the formation of the Galactic Republic. Natural explorers and traders, they sailed the cosmos establishing crucial trade routes and gaining prestige. Despite their size, herglic are surprisingly dexterous while working with tools, and are some of the finest engineers in the galaxy. \r\n\r\nHerglics have an inquisitive but practical nature, enjoying travel and having exotic experiences. Their perpetually calm demeanor  helps them interact with most other species peacefully, though when dealing with smaller species, herglics tend to become nervous and self-conscious about their proportions. They also seem to have an innate predeliction for gambling and games of chance, which have gotten more than one herglic into trouble on several occasions.</p><h2>Names</h2><p>Male names are typically harsher sounding than female names. Herglics rarely use surnames.</p><strong>&nbsp;&nbsp;Male Names.</strong> Biglu, Melchi, Sehvorah</p><strong>&nbsp;&nbsp;Female Names.</strong> Mahg-Raet, Seese, Uddn",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Intelligence score increases by 1.</p><p><em><strong>Age.</strong></em> Herglic reach adulthood in their late teens and live up to 120 years.</p><p><em><strong>Alignment.</strong></em> Herglics' gentle nature causes them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Herglic stand between 6 and 8 feet tall and weigh up to 600 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Hold Breath.</strong></em> You can hold your breath for up to 1 hour at a time.</p><p><em><strong>Powerful Build.</strong></em> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p><p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p><p><em><strong>Technician.</strong></em> You are proficient in the Technology skill.</p><p><em><strong>Toughness.</strong></em> Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Herglese. Herglese has a clear and commanding cadence, drawing the attention of those who hear it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black, gray, pale blue, pale pink"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Aquatic organs, massive size"
+        },
+        "heightAverage": {
+            "value": "6'0\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "200 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d8) lb."
+        },
+        "homeworld": {
+            "value": "Giju"
+        },
+        "slanguage": {
+            "value": "Herglese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Herglic",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.skills.tec.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "herglese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "x7v8z6q9o5kv3GU3",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Herglic.webp",
+    "effects": [
+        {
+            "_id": "YD22dYhkmmoTaN4S",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Herglic",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.tec.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "herglese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.powerfulBuild",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.toughness",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Herglic.webp",
+            "label": "Herglic",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

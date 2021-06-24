@@ -1,0 +1,1510 @@
+{
+    "_id": "fHeFFnIr1asPW619",
+    "name": "AT-AT",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 27,
+                "proficient": 1,
+                "min": 3,
+                "mod": 8,
+                "save": 14,
+                "prof": 6,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 23,
+                "proficient": 1,
+                "min": 3,
+                "mod": 6,
+                "save": 12,
+                "prof": 6,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 7,
+                "proficient": 0,
+                "min": 3,
+                "mod": -2,
+                "save": -2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "20",
+                "min": 0,
+                "formula": "armor plating"
+            },
+            "hp": {
+                "value": 330,
+                "min": 0,
+                "max": 330,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "20d20+120"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 2,
+                "prof": 0,
+                "total": 2
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 40,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 6,
+            "powerdc": 14,
+            "bar1": {
+                "value": 330,
+                "min": 0,
+                "max": 330
+            },
+            "bar2": {
+                "value": 20,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "\u2014"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"They're the most heavily armored ground vehicles in the Imperial Army.\"</i></p><p><span style=\"font-size: 13px\"><i>\"...so what you're saying is that you have a thorough knowledge of just how screwed we are.\"</i></span></p><p>- Thane Kyrell and Yendor, just before the Battle of Hoth</p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Manufacturer</u></td><td style=\"line-height: 1.42857\"><ul><li>Kuat Drive Yards</li><li>Kuat-Entralla Drive Yards</li><li>Imperial Department of Military Research</li><li>Imperial Robotics Construction Facility Ice Station beta&nbsp;</li></ul></td></tr><tr><td style=\"line-height: 1.42857\"><u>Class</u></td><td style=\"line-height: 1.42857\">Combat walker</td></tr><tr><td style=\"line-height: 1.42857\"><u>Length</u></td><td style=\"line-height: 1.42857\">20 meters</td></tr><tr><td style=\"line-height: 1.42857\"><u>Height</u></td><td style=\"line-height: 1.42857\">22,5 meters</td></tr><tr><td style=\"line-height: 1.42857\"><u>Cargo capacity</u></td><td style=\"line-height: 1.42857\">1 ton</td></tr></tbody></table><p>The All Terrain Armored Transport (AT-AT) was a four-legged combat walker used by the ground forces of the Galactic Empire, and the First Order. With the Imperial-class Star Destroyer, stormtroopers and the TIE fighter, it was one of the most famous symbols of the Empire's military might.</p><h3>Models</h3><p><b>Early model</b></p><p>This model was used against the early rebellion.<br></p><p><b>Later model<br></b></p><p>This model was used during the Galactic Civil War.<br></p><p><b>Elite AT-AT<br></b></p><p>This was a more heavily armored variant with a darker color scheme.<br></p><p><b>First Order AT-AT<br></b></p><p>This was an updated version of the AT-AT used by the First Order.</p><h3>History</h3><p><b>Age of the Empire</b></p><blockquote><p><i>\"I heard of these. Imperial armored transports. Giant four-legged things that were used to keep the peace on conquered worlds.\"</i></p><p><span style=\"font-size: 13px\">- Scoggan, to Davjan Igo upon entering the ruins of an AT-AT</span></p></blockquote><p>The AT-AT walker was developed during the Clone Wars and used in the Imperial Army, the ground forces of the Galactic Empire. It was the successor of the All Terrain Tactical Enforcer that also saw use during the Clone Wars, although it constituted a far more imposing example of walker technology. Heavily armored and awe-inducing, the AT-AT positioned itself as the standard of Imperial firepower on the battlefield.</p><p>In 14 BBY, the Jedi Padawan Cal Kestis hijacked one AT-AT on the planet Kashyyyk.</p><p>In 4 BBY, the Imperial Security Bureau Agent Kallus led three early AT-AT walkers on an assault on the desert planet of Seelos against the Spectres and three retired clone officers aboard an AT-TE.</p><p>AT-ATs were used again in 3 BBY against the Spectres, when Princess Leia Organa arrived on the planet to give the Ghost's crew three Sphyrna-class corvettes. Two walkers were deployed to patrol the transports' landing platform, which were formally on Lothal to offer supplies to citizens impacted by the rebel efforts. When the rebels tried to steal the corvettes, the Ghost started firing on the AT-ATs. Four proton torpedos were not powerful enough to destroy one of the walkers, and it was necessary for Kanan Jarrus to use his lightsaber to cut its legs, toppling it. The second one was knocked down by the engines of the last Hammerhead, piloted by Ryder Azadi.<br></p><p>In 2 BBY, Lieutenant Yogar Lyste deployed two AT-AT walkers, Walker 271 and Walker 414, to combat an attack on the east gate of the Imperial Armory Complex by members of the Lothal resistance led by Ryzder Azadi. The rebels Kanan, Ezra Bridger, and Chopper escaped in the stolen AT-DP Walker 216. However, Grand Admiral Thrawn realized that the rebels had hijacked the AT-DP walker and ordered his AT-ATs to crush them. One of the AT-AT walkers proceeded to crush the AT-DP under its heavy body but the rebels managed to use their lightsabers to cut their way aboard. Morad Sumar also fired a rocket which hit one of the walker's legs. After knocking out the AT-AT pilots, the two climbed out and escaped with Ryder's cell into the wilderness.<br></p><p>Thrawn then deployed four of these during the battle on Atollon. Jedi survivor Kanan Jarrus then destroyed one with his lightsaber. The Bendu then destroyed two of the AT-AT walkers. However, the last one shot Bendu down from the sky.<br></p><p><b>Galactic Civil War<br></b></p><blockquote><p><i>\"That armor's too strong for blasters. Rogue group, use your harpoons and tow cables. Go for the legs; it might be our only chance of stopping them.\"</i></p><p><span style=\"font-size: 13px\">- Luke Skywalker, during the Battle of Hoth</span></p></blockquote><p>Around the time of the Battle of Yavin, a new AT-AT model was introduced. At this time, the Alliance to Restore the Republic stole a number of AT-ATs and provided them to Saponza's Gang.<br></p><p>During the Rebel assault on the Imperial weapons factory moon of Cymoon 1, a group of Rebels led by Han Solo and Leia Organa stole an AT-AT from Weapons Factory Alpha. They used the walker to escape from the factory after they sabotaged its main power core to explode. During their escape, Solo fired a shot that nearly killed the Sith Lord Darth Vader, using the AT-AT's powerful quad laser cannons. Soon after, Vader managed to overtake the Rebels in their escape and cut down the massive walker's back left leg. The AT-AT fell tremendously and its passengers barely escaped the wreckage before fleeing Cymoon 1 entirely for the safety of the Alliance Fleet.<br></p><p><b>Battle of Hoth<br></b></p><p>During the Battle of Hoth, General Maximillian Veers led a squadron of at least five AT-ATs on the icy fields of Hoth to knock out the shield generator that protected Echo Base, the Rebel headquarters. The triumph of Veers' squadron allowed the Imperials to invade Echo Base and rout the Rebels, striking a major blow in the war. However, the battle also revealed that the AT-ATs could be toppled by a cable wrapped around their legs. Although that weakness had been used effectively by the Alliance on Hoth, the Empire continued to use these mechanical behemoths in the later stages of the war, and at least 1 was present on Endor prior to the Battle of Endor.<br></p><p>Shortly after the battle of Endor, the rogue agents of Inferno Squad Iden Versio and Del Meeko used an AT-AT in order to escape Vardos, during Operation: Cinder. In 5 ABY, at least one AT-AT walker was stationed at Camp Sardo on the planet Kashyyyk. During the Liberation of Kashyyyk, several Wookiee guerrilla fighters, including Kirratha, hijacked the AT-AT walker and threw out the crew. Later, AT-ATs were deployed against New Republic forces during the Battle of Jakku.<br></p><p><b>Rise of the First Order<br></b></p><p>Decades after the war, a young scavenger named Rey used one of the downed AT-ATs, designated Hellhound Two, as her home on Jakku.</p><p>The First Order used an updated version of the AT-AT as an escort to its newer AT-M6s.<br></p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "construct",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 19,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 22000
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "grg",
+            "di": {
+                "value": [
+                    "poison",
+                    "necrotic"
+                ],
+                "custom": ""
+            },
+            "dr": {
+                "value": [
+                    "psychic"
+                ],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": "Ion"
+            },
+            "ci": {
+                "value": [
+                    "poisoned",
+                    "frightened",
+                    "petrified",
+                    "restrained",
+                    "stunned",
+                    "prone",
+                    "blinded",
+                    "charmed"
+                ],
+                "custom": "Incapacitated, Disease"
+            },
+            "languages": {
+                "value": [],
+                "custom": "\u2014"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 8,
+                "passive": 18,
+                "prof": 0,
+                "total": 8
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 3,
+                "max": 3
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": true,
+                "initiative": 20
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "AT-AT",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/token.webp",
+        "tint": null,
+        "width": 4,
+        "height": 4,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 20,
+        "brightSight": 20,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "fHeFFnIr1asPW619",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "Y2I4YmVmMDQ1ZjY0",
+            "name": "Circuitry",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YjMxZTQxYjgzZGM1",
+            "name": "Heavy Durasteel Armor",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The outer layer of the AT-AT is covered in heavy armor, making it difficult for smaller arms to damage it. Unless the damage from a single attack or effect exceeds 30 points, the AT-AT takes no damage from that attack. If the AT-AT takes an amount of damage from a single attack or effect equal to or greater than its damage threshold, it takes damage as normal.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "OTA0YzM3NjQwZWJk",
+            "name": "Piloted",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZWU3MTJlZWU1ZmVk",
+            "name": "Towering",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>Creatures of Large size or smaller can stand in the AT-AT's space.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZDAzMDBjNGM4YTI1",
+            "name": "Troop Transport",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The AT-AT can transport a maximum of 40 stormtroopers and five speeder bikes, which it can deploy using its Deploy Troops legendary action, or which can be fought by creatures inside of the AT-AT.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NWFlZjM2NTRkNmU1",
+            "name": "Vulnerable Interior",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The AT-AT's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "OGQxNjAwOWZjMTEw",
+            "name": "Multiattack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The AT-AT can use its Frightful Presence. It then makes three attacks: one with its laser cannon volley and two with its medium repeaters.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 70000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/skills/green_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "ZTYyMTc5NDFhYjRh",
+            "name": "Laser Cannon Volley",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The AT-AT chooses a point within 320 ft and lets loose a blast from each of its heavy laser cannons that explodes in a 15ft cube around that point. Each creature within the cube must succeed on a DC 16 Dexterity saving throw, taking 54 (12d8) energy damage on a failed save, or half as much damage on a successful one.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "dex",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 80000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZjE4NWVmYzc0Y2Iy",
+            "name": "Medium Repeaters",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+8, Range 240/360 ft., One target. <em>Hit : </em>22 (4d10) energy damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 240,
+                    "long": 360,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "4d10",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 90000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZmE1NmEwYmVmMTE4",
+            "name": "Stomp",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>All creatures standing within the AT-AT's space or within 5ft of it must make a DC 20 Dexterity saving throw, taking 78 (12d12) kinetic damage on a failed save, or half as much damage on a successful one.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "dex",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 100000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "OWM3OTMxNWRhYjRl",
+            "name": "Frightful Presence",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>Each creature of the AT-AT's choice within 240 feet of the AT-AT and aware of it must succeed on a DC 16 Wisdom saving throw or become Frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the AT-AT's Frightful Presence for 24 hours.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "wis",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 110000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NTEwNWUxMDNlODlj",
+            "name": "Stomp",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The AT-AT makes a stomp attack.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 120000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZjUxNmM0OGI2ZmNh",
+            "name": "Repeating Blasters",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+8, Range 240/360 ft., One target. <em>Hit : </em>22 (4d10) energy damage.</p><p>The AT-AT makes a single attack with its medium repeaters.</p><p></p><p></p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 240,
+                    "long": 360,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "4d10",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 130000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MTk3YjA4MmViNzkz",
+            "name": "Deploy Troops (Costs 2 Actions)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The AT-AT mobilizes some of the soldiers traveling within it. It deploys 1d4+2 Troopers and 1 74-Z speeder bike. These troops appear in any unoccupied spaces within 10 feet of the AT-AT.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 140000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/145_-_AT-AT/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

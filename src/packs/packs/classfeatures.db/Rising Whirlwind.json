@@ -1,0 +1,71 @@
+{
+    "_id": "rwlSmbnx9YtbWOI8",
+    "name": "Rising Whirlwind",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>By 15th level, as an action, you can rush forward up to 30 feet to an unoccupied space you can see without provoking opportunity attacks. Each creature within 5 feet of your path must make a Dexterity saving throw (DC = 8 + your bonus to attacks with your weapon). A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding separate two light- or vibro-weapons in each hand with which you are proficient, or a weapon with the double property, a creature makes this save with disadvantage, and takes additional damage equal to your Strength or Dexterity modifier (your choice, minimum of one) on a failed save if it doesn&rsquo;t already include that modifier.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "action",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

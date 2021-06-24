@@ -1,0 +1,23 @@
+{
+    "_id": "3Vmv4bRSE2q12dkQ",
+    "name": "Combustive Salvo",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> The ability to cast tech powers, at least 1 rank in gunner</em></p><p>Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to spend one tech point to cause the target to take fire damage equal to your techcasting ability modifier at the start of your next turn. </p>"
+        },
+        "prerequisites": [
+            "The ability to cast tech powers, at least 1 rank in gunner"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

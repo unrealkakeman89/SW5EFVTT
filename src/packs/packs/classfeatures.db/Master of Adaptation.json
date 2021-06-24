@@ -1,0 +1,71 @@
+{
+    "_id": "MCnskAoVOzPJIzSX",
+    "name": "Master of Adaptation",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Aqinos Form</strong>:&nbsp;20th level</em></p>\n<p>Your masteries of the Force and technology have achieved equilibrium. Your Constitution and Wisdom or Charisma (your choice) scores increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>\n<p>You have resistance to ion damage, and you can't have disadvantage on saving throws against ion or lightning damage.</p>\n</li>\n<li>\n<p>You can't have disadvantage on attack rolls you make as a part of a tech power, and enemies can't have advantage on saving throws against your tech powers.</p>\n</li>\n<li>\n<p>You add your governing ability modifier (minimum of +1) to any damage or healing you do with tech powers you cast that don't already include that modifier.</p>\n</li>\n</ul>\n<p>While you are conscious and your droid is within 60 feet of you and conscious, it also gains these benefits.</p>\n<p>This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "action",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": "1",
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/GRDN-ARCH-Action.webp",
+    "effects": []
+}

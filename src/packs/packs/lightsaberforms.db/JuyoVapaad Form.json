@@ -1,0 +1,20 @@
+{
+    "_id": "ve7n3q7jNXUph8SD",
+    "name": "Juyo/Vapaad Form",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "lightsaberform",
+    "data": {
+        "description": {
+            "value": "<p>Until the start of your next turn, your critical hit range with weapons increases by 1.</p>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Lightsaber%20Forms/Juyo-Vapaad%20Form.webp",
+    "effects": []
+}

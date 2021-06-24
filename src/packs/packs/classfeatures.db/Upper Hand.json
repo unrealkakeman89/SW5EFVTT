@@ -1,0 +1,71 @@
+{
+    "_id": "A01Ne3M1XizO3m49",
+    "name": "Upper Hand",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn to user underhanded tactics to gain the upper hand. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to perform an upper hand technique.</p>\n<p>Some of your upper hand techniques require your target to make a saving throw to resist the technique&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<hr />\n<p><strong>Upper Hand save DC&nbsp;</strong>= 8 + your proficiency bonus + your Charisma modifier</p>\n<hr />\n<blockquote>\n<h4><strong>BRUTAL HIT</strong></h4>\n<p>You attempt to knock the target prone while within 15 feet of it. The target must make a Strength saving throw or be knocked prone.</p>\n<hr />\n<h4><strong>LOW BLOW</strong></h4>\n<p>You attempt to stun the target while within 15 feet of it. The target must make a Constitution saving throw or be stunned until the start of its next turn.</p>\n<hr />\n<h4><strong>SHANK SHOT</strong></h4>\n<p>You attempt to hamper the target while within 15 feet of it. The target must make a Dexterity saving throw. If it fails, its movement speed is to 0 and it makes Dexterity saving throws with disadvantage until the end of its next turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

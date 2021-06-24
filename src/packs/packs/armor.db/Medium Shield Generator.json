@@ -1,0 +1,120 @@
+{
+    "_id": "Ru55E1R8PMA3GwaM",
+    "name": "Medium Shield Generator",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "equipment",
+    "data": {
+        "description": {
+            "value": "",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 6,
+        "price": 375,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "spell"
+        },
+        "armor": {
+            "type": "shield",
+            "value": 2,
+            "dex": null
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        },
+        "properties": {
+            "Absorptive": false,
+            "Agile": false,
+            "Anchor": false,
+            "Avoidant": false,
+            "Barbed": false,
+            "Bulky": false,
+            "Charging": false,
+            "Concealing": false,
+            "Cumbersome": false,
+            "Gauntleted": false,
+            "Imbalanced": false,
+            "Impermeable": false,
+            "Insulated": false,
+            "Interlocking": false,
+            "Lambent": false,
+            "Lightweight": false,
+            "Magnetic": false,
+            "Obscured": false,
+            "Obtrusive": false,
+            "Powered": false,
+            "Reactive": false,
+            "Regulated": false,
+            "Reinforced": false,
+            "Responsive": false,
+            "Rigid": false,
+            "Silent": false,
+            "Spiked": false,
+            "Steadfast": false,
+            "Strength": false,
+            "Versatile": false
+        },
+        "cptooltipmode": "hid"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "effects": [],
+    "img": "systems/sw5e/packs/Icons/Armor/PHB/Medium%20Shield%20Generator.webp"
+}

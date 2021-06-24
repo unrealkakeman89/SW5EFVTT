@@ -1,0 +1,71 @@
+{
+    "_id": "DOR6WSQLFSFTURno",
+    "name": "Sneak Attack",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Operative</strong>:&nbsp;1st level</em></p>\n<p>You know how to strike subtly and exploit a foe&rsquo;s distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with a weapon attack if you have advantage on the attack roll. This damage is the same as the weapon&rsquo;s damage, and the attack must use a finesse or a ranged weapon.</p>\n<p>You don&rsquo;t need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn&rsquo;t incapacitated, and you don&rsquo;t have disadvantage on the attack roll.</p>\n<p>The amount of the extra damage increases as you gain levels in this class, as shown in the table below.</p>\n<table class=\"table text-center LevelTable_levelTable_14CWn\">\n<thead style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px;\">\n<tr style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px;\">\n<th class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 101px;\">Level</th>\n<th style=\"width: 96px;\">Sneak Attack</th>\n</tr>\n</thead>\n<tbody style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px;\">\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">1st</td>\n<td style=\"width: 96px; text-align: center;\">1d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">2nd</td>\n<td style=\"width: 96px; text-align: center;\">1d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">3rd</td>\n<td style=\"width: 96px; text-align: center;\">2d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">4th</td>\n<td style=\"width: 96px; text-align: center;\">2d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">5th</td>\n<td style=\"width: 96px; text-align: center;\">3d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">6th</td>\n<td style=\"width: 96px; text-align: center;\">3d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">7th</td>\n<td style=\"width: 96px; text-align: center;\">4d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">8th</td>\n<td style=\"width: 96px; text-align: center;\">4d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">9th</td>\n<td style=\"width: 96px; text-align: center;\">5d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">10th</td>\n<td style=\"width: 96px; text-align: center;\">5d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">11th</td>\n<td style=\"width: 96px; text-align: center;\">6d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">12th</td>\n<td style=\"width: 96px; text-align: center;\">6d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">13th</td>\n<td style=\"width: 96px; text-align: center;\">7d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">14th</td>\n<td style=\"width: 96px; text-align: center;\">7d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">15th</td>\n<td style=\"width: 96px; text-align: center;\">8d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">16th</td>\n<td style=\"width: 96px; text-align: center;\">8d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">17th</td>\n<td style=\"width: 96px; text-align: center;\">9d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">18th</td>\n<td style=\"width: 96px; text-align: center;\">9d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">19th</td>\n<td style=\"width: 96px; text-align: center;\">10d6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; width: 99px; text-align: center;\">20th</td>\n<td style=\"width: 102px; text-align: center;\">10d6</td>\n</tr>\n</tbody>\n</table>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/OPRT-Passive.webp",
+    "effects": []
+}

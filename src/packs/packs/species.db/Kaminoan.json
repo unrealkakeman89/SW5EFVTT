@@ -1,0 +1,239 @@
+{
+    "_id": "McXHDKzwk3yHyscH",
+    "name": "Kaminoan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Kaminoans' evolution from aquatic creatures in the vast oceans of Kamino is reflected in their tall shape, glassy coated eyes, near luminescent skin, and long, thin necks. The almond-shaped eyes of kaminoans are also able to see color in the ultraviolet spectrum. While female kaminoans are bald, males possess headcrests and fin ridges along the rear of their small, bulbous skulls.</p><h2>Society and Culture</h2><p>The kaminoans see themselves as a superior form of life, but nevertheless remained polite to outsiders. To them any species seeking self-improvement is worthy of respect, but those who do not are obviously inferior; self-improvement has a central role in Kaminoan society. Through the development and mastery of selective breeding, genetics, and cloning, the kaminoans were able to overcome a cataclysm that pushed them to the brink of extinction. \n\nKaminoans live in a caste based society, determined by the color of the kaminoan's eyes. Gray eyed individuals handle administration and are considered of the highest-level caste; middle castes had yellow eyes and handle the skilled work; and lower castes had blue eyes and perform manual labor and other menial tasks. Although it is extremely rare, kaminoans are sometimes born with green eyes. Those are viewed as genetically inferior and as a threat to the kaminoans' well ordered society and as such are exterminated shortly after birth. </p><h2>Names</h2><p>Kaminoan names typically are composed by around two syllables and a brief surname.</p><strong>&nbsp;&nbsp;Male Names.</strong> Lama, Ni, Orun, Koa<p></p><strong>&nbsp;&nbsp;Female Names.</strong> Taun, Ko, Nala, Kina<p></p><strong>&nbsp;&nbsp;Surnames.</strong> Ha, Su, We, Sai, Wa",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2 and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Kaminoans reach adulthood at 11 years old and live around 100 years.</p>\n<p><em><strong>Alignment.</strong></em> Kaminoans highly organized society lead individuals to tend toward a lawful alignment, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Kaminoans typically stand 7 to 8 feet tall and weigh around 150 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Geneticist.</strong></em> You have proficiency in the Medicine skill.</p>\n<p><em><strong>Long-Limbed.</strong></em> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p>\n<p><em><strong>Tech Dabbler.</strong></em> You know the <em>temporary boost</em> at-will tech power. Intelligence is your techcasting ability for this power. You do not require use of a wristpad for this powers.</p>\n<p><em><strong>Ultraviolet Sight.</strong></em> Whenever you make a Wisdom (Perception) check related to sight, you are considered to have expertise in the Perception skill.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Kaminoan. Kaminoan is characterized by its flowing water-like sound.</p>"
+        },
+        "skinColorOptions": {
+            "value": "White"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Grey, yellow, blue, green"
+        },
+        "distinctions": {
+            "value": "Very tall, long limbs, long necks"
+        },
+        "heightAverage": {
+            "value": "6'4\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "150 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Kamino"
+        },
+        "slanguage": {
+            "value": "Kaminoan, Galactic Basic"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Kaminoan",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "PKrdvMip9Lfs98d5",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "PKrdvMip9Lfs98d5",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "PKrdvMip9Lfs98d5",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "PKrdvMip9Lfs98d5",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "PKrdvMip9Lfs98d5",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.med.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "PKrdvMip9Lfs98d5",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Medicine"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "PKrdvMip9Lfs98d5",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "kaminoan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "PKrdvMip9Lfs98d5",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Kaminoan.webp",
+    "effects": [
+        {
+            "_id": "bAvoarff91YbaQxe",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Kaminoan",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.med.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "kaminoan",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.longlimbed",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Kaminoan.webp",
+            "label": "Kaminoan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

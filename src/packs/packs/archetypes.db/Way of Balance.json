@@ -1,0 +1,39 @@
+{
+    "_id": "kqAxtz1x4ydhppPG",
+    "name": "Way of Balance",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Consular",
+        "description": {
+            "value": "<h1>Way of Balance</h1>\n<p>There is serenity in balance, and no one knows this better than the consular. Those consulars who follow the Way of Balance focus on utilizing the Force to equalize the battlefield. They bend the Force to shield their allies and expose their foes.</p>\n<h2>Force Barrier</h2>\n<p>When you choose this tradition at 3rd level, you can weave the Force around yourself for protection. When you cast a universal power of 1st level or higher, you can simultaneously manipulate the Force to create a barrier on yourself that lasts until you finish a long rest. The barrier has hit points equal to twice your consular level + your Wisdom or Charisma modifier (your choice). Your barrier can never have hit points greater than twice your consular level + your Wisdom or Charisma modifier (your choice).</p>\n<p>Whenever you take damage, the barrier takes the damage instead. If this damage reduces the barrier to 0 hit points, you take any remaining damage.</p>\n<p>While the barrier has 0 hit points, it can't absorb damage, but its power remains. Whenever you cast a universal power of 1st level or higher, the barrier regains a number of hit points equal to twice the level of the power.</p>\n<p>Once you create the barrier, you can't create it again until you finish a long rest.</p>\n<h2>Projected Barrier</h2>\n<p>At 6th level, when a creature that you can see within 30 feet of you takes damage, you can use your reaction to cause your Force Barrier to absorb that damage. If this damage reduces the barrier to 0 hit points, the warded creature takes any remaining damage.</p>\n<h2>At-Will Barrier</h2>\n<p>Beginning at 10th level, your at-will universal powers grant a small boost to your Force Barrier. When you cast an at-will universal power, the barrier regains 1 hit point.</p>\n<h2>Improved Suppression</h2>\n<p>At 14th level, when you cast a force power that requires you to make an ability check as a part of casting that power (as in @Compendium[sw5e.forcepowers.LhMmIUjsFrytp0wc]{Sever Force} and @Compendium[sw5e.forcepowers.XYHAKmU4gHSzRK3I]{Force Suppression}), you add your proficiency bonus to that ability check.</p>\n<h2>Force Resistance</h2>\n<p>Starting at 18th level, you have advantage on saving throws against force powers. Additionally, you have resistance against the damage of force powers.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Way%20of%20Balance.webp",
+    "effects": []
+}

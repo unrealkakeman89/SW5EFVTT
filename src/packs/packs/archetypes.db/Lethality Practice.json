@@ -1,0 +1,39 @@
+{
+    "_id": "G1F7NBAvLma5Aot4",
+    "name": "Lethality Practice",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Operative",
+        "description": {
+            "value": "<h1>Lethality Practice</h1>\n<p>Those operatives who choose the Lethality Practice use disguises to get close to their enemies, then leverage the toxic power of poisons to debilitate them and capitalize on their weaknesses.</p>\n<h2>Bonus Proficiencies</h2>\n<p>When you choose this practice at 3rd level, you gain proficiency with the disguise kit and the poisoner's kit.</p>\n<h2>Assassinate</h2>\n<p>Also at 3rd level, you are at your deadliest when you get the drop on your enemies. You have advantage on attack rolls against any creature that hasn't taken a turn in the combat yet. Additionally, any hit you score against a creature that is surprised is a critical hit.</p>\n<h2>Lethal Strikes</h2>\n<p>Lastly at 3rd level, you learn how to read your foes and strikes their weak points. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a lethal strike.</p>\n<p>Some of your lethal strikes require your target to mak ea saving throw to resist the lethal strike's effects. The saving throw DC is calculated as follows:</p>\n<p><strong>Lethal Strike save DC</strong> = 8 + your proficiency bonus + your Dexterity modifier</p>\n<h3>Priming Attack</h3>\n<p>You attempt to prime the target. The target must make a Dexterity, Constitution, or Wisdom saving throw (your choice). On a failed save, the next time you deal Sneak Attack damage against the target before the end of your next turn, you roll four additional Sneak Attack dice.</p>\n<h3>Target Assessment</h3>\n<p>You attempt to infer crucial details about your foe. The creature must make a Charisma saving throw. On a failed save, the GM tells you two of the following characteristics of your choice:</p>\n<ul>\n<li>Highest ability score</li>\n<li>Lowest ability score</li>\n<li>Strongest saving throw</li>\n<li>Weakest saving throw</li>\n</ul>\n<h3>Vulnerable Strike</h3>\n<p>You attempt to stagger the target. The target must make a Wisdom saving throw. On a failed save, the next time you would make an attack roll against the target before the end of your next turn, you can instead force the target to make a saving throw with the ability score of your choice. On a failed save, the creature takes normal weapon damage and you can apply your Sneak Attack dice to the roll.</p>\n<h2>Poisoner</h2>\n<p>Beginning at 9th level, you are a master of poisons. You can apply a poison as a bonus action, and you have advantage on Dexterity (Sleight of Hand) checks made to conceal the application of poisons.</p>\n<p>Additionally, you can improve the capability of one dose of poison. To use this benefit, you must have a poisoner's kit, and the poison must be within reach. If the poison is applied before the end of your next short or long rest, the target has disadvantage on the saving throw made to resist your poison. Once you've used this feature, you must complete a long rest before you can use it again.</p>\n<h2>Impostor</h2>\n<p>Starting at 13th level, you gain the ability to unerringly mimic another person's speech, writing, and behavior. You must spend at least 1 minute studying these three components of the person's behavior: listening to speech, examining handwriting, and observing mannerisms. If you can only study some of these aspects (such as only having writing samples, or only audio recordings), you can mimic that aspect of the person, but not other aspects you have not studied.</p>\n<p>Your ruse is indiscernible to the casual observer. If a wary creature suspects something is amiss, you have advantage on any Charisma (Deception) check you make to avoid detection.</p>\n<h2>Death Strike</h2>\n<p>At 17th level, you become a master of instant death. When you deal weapon damage to a creature that is surprised, it must make a Constitution saving throw against your lethal strike save DC. On a failed save, double the damage of your attack against the creature.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Lethality%20Practice.webp",
+    "effects": []
+}

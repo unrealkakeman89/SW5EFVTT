@@ -1,0 +1,71 @@
+{
+    "_id": "xdWQ4OuCVA0ZPS3U",
+    "name": "Discoveries (Explorer)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect your studies in maps and hidden routes. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>COVER ADEPT</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;12th level</span><br />You treat one-quarter cover as half cover, half cover as three-quarters cover, and three-quarters cover as full cover. Additionally, while you are in cover, Dexterity (Stealth) checks you make gain a bonus equal to your Intelligence modifier (minimum of +1).</p>\n<hr />\n<h4><strong>DUNGEON EXPLORER</strong></h4>\n<p>You have advantage on Wisdom (Perception) checks and Intelligence (Investigation) checks to locate any secret doors or traps, and you have resistance to damage dealt by traps.</p>\n<p>In addition, you can use your Sage Advice feature to teach friendly creatures about various types of traps, following the same rules of that feature. When you do so, the chosen creatures have resistance to damage dealt by traps.</p>\n<hr />\n<h4><strong>GALACTIC EXPLORER</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;9th level</span><br />When you make a Piloting (Intelligence) skill check and may add your proficiency bonus to the check, treat any roll of 9 or lower as if you had rolled a 10.</p>\n<hr />\n<h4><strong>GRAPPLING HUNTER</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;5th level</span><br />Attack rolls that you make against creatures that you are grappling have advantage.</p>\n<hr />\n<h4><strong>HIGH GROUND</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;5th level</span><br />Once per turn, when you or a friendly creature hits a creature that is a target of your Critical Analysis feature, it takes additional damage equal to your half Intelligence modifier (minimum of +1).</p>\n<hr />\n<h4><strong>NO STONE LEFT UNTURNED</strong></h4>\n<p>When you make a Wisdom (Perception) or Investigation (Intelligence) check to find a hidden creature that is inside the area that is targeted by your Critical Analysis feature, you do so with advantage.</p>\n<hr />\n<h4><strong>VERSATILE EXPLORER</strong></h4>\n<p>You can hold your breath twice as long as you are normally able to, and take half as much damage from fall damage.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

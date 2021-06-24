@@ -1,0 +1,32 @@
+{
+    "name": "Grappling Hook",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A grappling hook allows a user to climb or ascend large objects. It can be mounted to a blaster, belt, or elsewhere. It has a 50-foot length.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 4,
+        "price": 50,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Utility/Grappling%20Hook.webp",
+    "_id": "kQbAa9ljnbl6ZhYn"
+}

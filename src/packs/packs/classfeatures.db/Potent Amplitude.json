@@ -1,0 +1,71 @@
+{
+    "_id": "NrSFm2gkpzm3tMeD",
+    "name": "Potent Amplitude",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, as an action while wielding your modified instrument, you can begin performing an enhanced song, which lasts for 1 minute. While playing a song, you gain access to a new use for your Potent Aptitude, as determined by the song, listed below. You can end your song at any time, no action required.</p>\n<p>Whenever you take damage while playing your song, you must make a Constitution saving throw to continue playing. The DC equals 10 or half the damage you take, which number is higher. If you take damage from multiple sources, you must make a separate saving throw for each source of damage.</p>\n<p>When you cast a damage dealing tech power while playing your song that requires an attack roll or saving throw, you can cause that power to instead deal sonic damage. If you do so, instead of an attack roll or saving throw, the power instead requires a Constitution saving throw.</p>\n<p>Your song ends early if you are incapacitated or die, or if you are no longer holding your modified instrument.</p>\n<p>You can initiate playing an enhanced song twice. You regain all expended songs when you finish a short or long rest.</p>\n<hr />\n<h4><strong>SONG OF BATTLE</strong></h4>\n<p>When an ally within 60 feet of you that can hear you deals damage to a creature, you can use your reaction to expend one use of your Potent Aptitude, adding the result of the die to the damage dealt.</p>\n<hr />\n<h4><strong>SONG OF SUPPORT</strong></h4>\n<p>When an ally within 60 feet of you that can hear you makes a saving throw against a harmful effect, you can use your reaction to expend one use of your Potent Aptitude, adding the result of the die to their saving throw.</p>\n<hr />\n<h4><strong>SONG OF DISRUPTION</strong></h4>\n<p>When an enemy within 60 feet of you that can hear you makes a saving throw, you can use your reaction to expend one use of your Potent Aptitude, subtracting the result of the die from their saving throw.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

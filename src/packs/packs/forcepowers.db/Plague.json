@@ -1,0 +1,94 @@
+{
+    "_id": "PhJUX949F9xcbj3y",
+    "name": "Plague",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Affliction</em></p>\n<p>Choose up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a Constitution saving throw or be affected by this power for the duration.</p>\n<p>An affected target&rsquo;s speed is halved, it takes a -2 penalty to AC and Dexterity saving throws, and it can&rsquo;t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature&rsquo;s abilities or items, it can&rsquo;t make more than one melee or ranged attack during its turn.</p>\n<p>If the creature attempts to cast a power with a casting time of 1 action, roll a d20. On an 11 or higher, the power doesn&rsquo;t take effect until the creature&rsquo;s next turn, and the creature must use its action on that turn to complete the power. If it can&rsquo;t, the power is wasted.</p>\n<p>A creature affected by this power makes another Constitution saving throw at the end of its turn. On a successful save, the effect ends for it.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": "Have Affliction Power"
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 6,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "con",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 3,
+        "school": "drk",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": true
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Plague.webp",
+    "effects": []
+}

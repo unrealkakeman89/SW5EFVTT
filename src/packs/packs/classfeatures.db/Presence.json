@@ -1,0 +1,71 @@
+{
+    "_id": "cmlYUe6Bod6p8iOm",
+    "name": "Presence",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>By 15th level, you gain one of the following features.</p>\n<p>Choose Precise Reflection for Shien or Brutal Strikes for Djem So.</p>\n<blockquote>\n<h4><strong>PRECISE REFLECTION</strong></h4>\n<p>When you hit with an attack made by the&nbsp;saber reflect&nbsp;power, you can expend force points to deal additional damage to the target, which is the same type as the weapon&rsquo;s damage. The additional damage is 1d8 for each point spent in this way. You can&rsquo;t deal more additional damage than the amount shown in the Focused Strikes column of the guardian table.</p>\n<hr />\n<h4><strong>BRUTAL STRIKES</strong></h4>\n<p>The Force flowing through you grants you incredible strength. When you roll a 1 or 2 on a Force-Empowered Strikes or Improved Force-Empowered Strikes damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n<p>Additionally, when you spend force points to use your Force-Empowered Strikes feature, you gain temporary hit points equal to twice the number of points spent.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

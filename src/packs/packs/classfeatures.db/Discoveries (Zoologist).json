@@ -1,0 +1,71 @@
+{
+    "_id": "deJ8sUHUVQaOsVBM",
+    "name": "Discoveries (Zoologist)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect your studies in biology and behaviour of alien lifeforms. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ADVANTAGEOUS COMPANION</strong></h4>\n<p>When you make a Charisma (Intimidation) check against a creature that can see your beast companion, and your companion is size Medium or larger, you make the check with advantage.</p>\n<p>When you make a Charisma (Persuasion) check against a creature that can see your beast companion, and your companion is size Small or Tiny, you make the check with advantage.</p>\n<hr />\n<h4><strong>COLOSSAL COMPANION</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;15th level</em><br />You can attempt to temporarily take control of a Huge beast. With the use of 10,000 cr worth of herbs and food, you can make a DC 15 Animal Handling check. On a success, the creature becomes your companion for 1d4 hours and gains the benefits of your Beast Companion feature. You can attempt to extend the duration by one hour by making additional Animal Handling checks. The DC for the first check is 20, and increases by 5 on each subsequent check. On a failure, the creature becomes hostile to you if it wasn&rsquo;t already and becomes immune to this feature for 24 hours.</p>\n<hr />\n<h4><strong>HOLOCAM ATTACHMENT</strong></h4>\n<p>You have learned how to safely attach a holocam on the head of the companion. You learn the&nbsp;tracker droid interface&nbsp;tech power, and your beast becomes a valid target of this power.</p>\n<hr />\n<h4><strong>NEAT TRICKS</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />Your beast gains proficiency in one Strength or Dexterity skill of your choice. If your beast&rsquo;s size is Medium or larger and the chosen skill uses Strength, it has expertise in the chosen skill. If your beast&rsquo;s size is Small or smaller and the chosen skill uses Dexterity, it has expertise in the chosen skill.</p>\n<hr />\n<h4><strong>PROTECTIVE FRIEND</strong></h4>\n<p>If a creature makes a melee attack against you or your companion, and your companion is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll.</p>\n<hr />\n<h4><strong>THE MORE THE MERRIER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br />Whenever you attempt to call forth an animal as your companion, you can instead spend 1,000 cr worth of components and call forth a swarm of Tiny creatures. The swarm is composed of a number of creatures equal to your scholar level + your Intelligence modifier, and is size Medium. All of the creatures within the swarm act as a single creature.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

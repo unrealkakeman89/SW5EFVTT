@@ -1,0 +1,258 @@
+{
+    "_id": "x4Bj1rQIuPTHMuXu",
+    "name": "Sullustan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>A diminutive species of near-humans, Sullustans bear round, tapered skulls. Sullustans are distinguishable for their almond-shaped black eyes, facial jowls called dewflaps and large, round ears. Their wide earlobes provide excellent hearing, and their large eyes provide exceptional low-light vision. Due to their relative lack of exposure to natural light, Sullustans begin to suffer from corneal defects after 30 standard years. Many choose to wear special visors to prevent further damage. Some Sullustans tattoo their heads as a form of individual expression.</p>\n<h2>Society and Culture</h2>\n<p>Sullustans are outgoing and mercantile, friendly and pragmatic. As a species they are altogether lacking in xenophobia. Though fond of practical jokes and extremely shrewd in their business dealings, they are eager to explore and travel the galaxy. Inquisitive by nature, some have described Sullustans as reckless, especially for their preference to learn and discover whenever possible through personal experience. Sullustans organize themselves into familial units known as Warren-clans. Each clan consists of one polyandrous female, several husbands, and their young. Unmated females, known as \"Fems,\" are active members of their communities until they reach breeding status, called \"Ready,\" when they choose their mates.</p>\n<h2>Names</h2>\n<p>Male names are typically longer than female names. Surnames are based on Warren-clan.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Duedt, Oshror, Partheen, Throthinnitz<br><strong>&nbsp; Female Names.</strong> Asulu, Eldo, Tri, Vo, We<br><strong>&nbsp; Surnames.</strong> Frovarr, Jeard, Plonr, Tsah, Vhiibb</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Sullustan reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Sullustans' outgoing and friendly nature cause them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Sullustans typically stand 4 and a half to 5 feet tall and weigh around 120 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Keen Hearing.</strong></em> You have advantage on Wisdom (Perception) checks that rely on hearing.</p><p><em><strong>Mercantile.</strong></em> Whenever you make a Charisma (Persuasion) check related to conducting business, you are considered to have expertise in the Persuasion skill.</p><p><em><strong>Pilot.</strong></em> You have proficiency in Piloting.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic, Sullustese, and one more language of your choice. Sullustese is characterized as a robust language in business, and as such is commonly learned by professional merchants.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Gray, pink, or light green"
+        },
+        "hairColorOptions": {
+            "value": "Brown"
+        },
+        "eyeColorOptions": {
+            "value": "Black or brown"
+        },
+        "distinctions": {
+            "value": "Large ears, scarns, ultra-sensitive hearing, jet-black eyes, two flaps of jowls around their cheeks"
+        },
+        "heightAverage": {
+            "value": "3'11\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "60 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Sullust"
+        },
+        "slanguage": {
+            "value": "Sullustese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Sullustan",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.pil.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Piloting"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "sullustese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "CSKY84utdaJQqeWK",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Sullustan.webp",
+    "effects": [
+        {
+            "_id": "NSowTSCKpURLCCPz",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Sullustan",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.pil.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "sullustese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Sullustan.webp",
+            "label": "Sullustan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

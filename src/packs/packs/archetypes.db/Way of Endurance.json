@@ -1,0 +1,39 @@
+{
+    "_id": "Y1JjyA1CuOSRCjAb",
+    "name": "Way of Endurance",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Consular",
+        "description": {
+            "value": "<h1>Way of Endurance</h1>\n<p>The Force manifests in myriad ways; while some use the Force to manipulate the world around them, others use it to enhance themselves. Those consulars who follow the Way of Endurance channel the Force to allow them to overcome and reflect the most grievous of injuries.</p>\n<h2>Upheld by the Force</h2>\n<p>Starting when you choose this tradition at 3rd level, the Force flowing through your body strengthens you, granting the following benefits:</p>\n<ul>\n<li>Your hit point maximum increases by 3, and it increases by 1 again whenever you gain a level in this class.</li>\n<li>Your base AC becomes 13 + your Constitution modifier.</li>\n<li>When you make a melee weapon attack as a part of a force power you cast, you can use Wisdom or Charisma (your choice) instead of Strength for the attack and damage rolls.</li>\n</ul>\n<p>Additionally, as an action, you can gain resistance to kinetic and energy damage for 1 minute. This effect lasts until you end it as a bonus action, you are incapacitated, or you don armor other than a shield. You can use this feature twice. You regain all expended uses of it when you finish a short or long rest.</p>\n<h2>Retaliation Strike</h2>\n<p>At 6th level, you learn to turn an opponent's aggression back on them. When you deal damage with a force power or a melee weapon attack, if you took damage since the start of your last turn, you deal an extra 1d6 damage. The damage is the same type as the power or weapon's damage.</p>\n<p>This die increases when you reach certain levels in this class: to 1d8 at 10th level, to 1d10 at 14th level, and to 1d12 at 18th level.</p>\n<h2>Boundless Vitality</h2>\n<p>Beginning at 10th level, when you take damage, you can use your reaction and expend a force point to regain health equal to 1d8 + your Wisdom or Charisma modifier (your choice, minimum of one) as long as the damage would not reduce your hit points to 0.</p>\n<p>This die increases when you reach certain levels in this class: to 1d10 at 14th level, and to 1d12 at 18th level.</p>\n<h2>Unrelenting Resilience</h2>\n<p>At 14th level, when you use your Boundless Vitality feature while concentrating on a force power, you can add the result of the roll to the Constitution saving throw made to maintain concentration.</p>\n<p>Additionally, when you are reduced to 0 hit points but not killed outright while Upheld by the Force is active, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p>\n<h2>The Force Unleashed</h2>\n<p>Starting at 18th level, as an action, you can choose a point within 60 feet. Each creature of your choice within 30 feet of that point must make a Constitution saving throw against your universal force save DC. On a failed save, a creature takes 5d10 force damage and suffers 1 level of exhaustion. On a successful save, a creature takes half damage and does not suffer exhaustion.</p>\n<p>For each creature that fails this saving throw, a friendly creature within 30 feet of them can regain hit points equal to the amount of damage dealt. A friendly creature can only gain this benefit once per turn.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Way%20of%20Endurance.webp",
+    "effects": []
+}

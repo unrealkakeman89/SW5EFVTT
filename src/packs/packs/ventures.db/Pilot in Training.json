@@ -1,0 +1,21 @@
+{
+    "_id": "2Irn12psV0MHffd4",
+    "name": "Pilot in Training",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "When you make a Dexterity (Maneuver) check while deployed as a pilot, you can add your proficiency bonus to checks you make if you do not already do so.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

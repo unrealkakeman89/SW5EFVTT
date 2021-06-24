@@ -1,0 +1,37 @@
+{
+    "_id": "nIEXgLLWL2AfL1la",
+    "name": "Mess Hall",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite comes with a combined kitchen and dining area, complete with a chef's kit, that can accommodate a number of civilians, crew members, or troopers equal to twice the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table. While utilizing this tool, you can add your proficiency bonus to checks you make if you do not already do so. If you already add your proficiency bonus to checks you make, you instead add double your proficiency bonus. If you already double your proficiency bonus to checks you make, you instead add half of your governing ability modifier (rounded down, minimum of +1), in addition to your ability modifier.</p>\n<p>Additionally, when a creature completes a long rest involving this suite, they regain two additional Hit Dice and have advantage on Constitution saving throws against disease for the next 24 hours.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

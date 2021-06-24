@@ -1,0 +1,71 @@
+{
+    "_id": "RS5OG9YXnbEwkFqO",
+    "name": "The Way of the Monkey-Lizard",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, as a bonus action, you can enter a confusing stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, when you take the Dodge action, you can make one melee weapon attack against a creature within range. Additionally, when you make this melee weapon attack, you can flourish your weapon to attempt to distract your target. Make a Dexterity (Sleight of Hand) check contested by a Wisdom (Perception) check of the target of your attack. On a success, you make this attack roll with advantage.</p>\n<p>This effect ends early if you are incapacitated or die. Once you use this feature, you can&rsquo;t use it again until you finish a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "bonus",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

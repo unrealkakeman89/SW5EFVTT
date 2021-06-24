@@ -1,0 +1,71 @@
+{
+    "_id": "xLWuR3Z2WROW7Ggm",
+    "name": "Placed Shots",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you perfect the art of placing distant shots for maximum effectiveness in debilitating and controlling your enemies. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a placed shot.</p>\n<p>Some of your placed shots require your target to make a saving throw to resist the placed shot&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<hr />\n<p><strong>Placed Shot save DC</strong>&nbsp;= 8 + your proficiency bonus + your Dexterity modifier</p>\n<hr />\n<blockquote>\n<h4><strong>DISARMING SHOT</strong></h4>\n<p>You attempt to disarm a creature with your attack. The target must succeed on a Strength saving throw or be forced to drop one item of your choice that it&rsquo;s holding. The object lands at its feet.</p>\n<hr />\n<h4><strong>PENETRATING SHOT</strong></h4>\n<p>You attempt to damage another target with the same attack. Choose a second target within 15 feet of and directly behind your initial target. If the original attack roll would hit the second target, it takes two dice worth of Sneak Attack damage.</p>\n<p>The damage is of the same type dealt by the original attack.</p>\n<hr />\n<h4><strong>SUPPRESSIVE SHOT</strong></h4>\n<p>You attempt to pin the target to its location. The target must succeed on a Wisdom saving throw or be frightened of you until the end of its next turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

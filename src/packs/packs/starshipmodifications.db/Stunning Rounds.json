@@ -1,0 +1,37 @@
+{
+    "_id": "qDyDybnuwfGynFfm",
+    "name": "Stunning Rounds",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Weapon that deals ion damage"
+        },
+        "system": {
+            "value": "Weapon"
+        },
+        "basecost": {
+            "value": "3000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>When you score a critical hit with the chosen weapon, or when the target ship rolls a 1 on the saving throw to avoid the weapon's effects, you can force the target to make a Constitution saving throw (DC = 8 + your proficiency bonus + the ship's Strength modifier). On a failed save, the ship is stunned until the start of your next turn.</p><p>If the damaged ship is larger than your ship, it has advantage on the saving throw. If the damaged ship is smaller than your ship, it instead has disadvantage.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Weapon.webp",
+    "effects": []
+}

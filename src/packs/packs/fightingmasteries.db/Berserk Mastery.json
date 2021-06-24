@@ -1,0 +1,20 @@
+{
+    "_id": "tTvAn3HGUR7XfItH",
+    "name": "Berserk Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered returning pain to those who deliver it, becoming a scourge on the battlefield. You gain the following benefits:</p><ul><li>When a creature within 5 feet of you deals damage to you with a weapon or unarmed strike, you can use your reaction to make a melee weapon attack or unarmed strike against that creature. On a hit, you deal additional damage equal to your proficiency bonus.</li><li>When a creature scores a critical hit against you, you have advantage on the first attack you make against that creature before the end of your next turn. If you would already have advantage, you can instead reroll one of the dice once.</li><li>You have advantage on saving throws that would force you to act against your will, be frightened, or prevent you from attacking a creature.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Berserk%20Mastery.webp",
+    "effects": []
+}

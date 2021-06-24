@@ -1,0 +1,88 @@
+{
+    "_id": "XclIGWYxTC0rJ0Uk",
+    "name": "Control Pain",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Force Body</em></p>\n<p>You use the Force to push your body beyond its normal limits. You can&rsquo;t die from damage or from failed death saving throws while this power is in effect, but the effort taxes you. If you have 0 hit points while you are under the effect of this power, you do not fall unconscious, and continue acting and fighting normally. While you remain at 0 hit points, you must make a death saving throw at the start of each of your turns. Each time you fail a death saving throw, you suffer a cumulative -1 penalty to attack rolls, ability checks, and saving throws (including death saving throws). This penalty lasts until you regain hit points. Successful death saving throws have no effect, but a natural 20 restores 1 hit point as usual.</p>\n<p>If you have 0 hit points when this power ends, you die instantly.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": "Requires Force Body"
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 5,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Control%20Pain.webp",
+    "effects": []
+}

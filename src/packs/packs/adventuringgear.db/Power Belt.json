@@ -1,0 +1,50 @@
+{
+    "name": "Power Belt",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "backpack",
+    "data": {
+        "description": {
+            "value": "<p>This belt has slots to hold six power cells, and can be connected to directly power a single blaster weapon that uses power cells. Once per turn, if the powered weapon would be reloaded, it can be done without using an action. Connecting or disconnecting a weapon takes an action. Replacing an expended power cell takes an action.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 1,
+        "price": 400,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+            "type": "items",
+            "value": 6,
+            "weightless": true
+        },
+        "currency": {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Weapon%20or%20Armor%20Accessory/Power%20Belt.webp",
+    "_id": "dArOs86s3KFujI3A"
+}

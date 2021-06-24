@@ -1,0 +1,71 @@
+{
+    "_id": "3QWti3hBCcOHMenb",
+    "name": "Additional Maneuvers (Scholar: Doctor)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain access to new maneuvers which reflect the progress of your studies into the medical arts. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ADRENALINE HIT</strong></h4>\n<p>You can use an action and expend one superiority die to inject a creature with regenerative medication that temporarily enhances their agility. When you do so, a creature you can touch regains hit points equal to the superiority die roll. Additionally, until the start of your next turn, when that creature would take damage, the amount is reduced by an amount equal to your Intelligence modifier.</p>\n<hr />\n<h4><strong>EMERGENCY PRESCRIPTION</strong></h4>\n<p>As an action, you can expend one superiority die and touch a creature. That creature regains hit points equal to result of the die + your Intelligence modifier, and when that creature makes their first ability check, attack roll, or saving throw before the start of your next turn they roll the superiority die and add it to the roll.</p>\n<hr />\n<h4><strong>ENHANCEMENT INJECTION</strong></h4>\n<p>As an action, you can expend one superiority die to inject a creature you can touch with enhancements, granting them temporary hit points equal to the superiority die roll + your Intelligence modifier, which last for 1 minute. Additionally, when the target makes a Strength or Constitution check or saving throw while it has these temporary hit points, it gains a bonus equal to your Intelligence modifier.</p>\n<hr />\n<h4><strong>NEUROBLOCK</strong></h4>\n<p>When you make an attack roll, you can expend a superiority die and add it to the attack roll. On a hit, the creature&rsquo;s next attack has disadvantage and it cannot regain hit points until the start of your next turn.</p>\n<hr />\n<h4><strong>REASSURE</strong></h4>\n<p>As an action, you can expend a superiority die and call out to a creature within 60 feet that can see or hear you that is charmed, frightened, or stunned. When you do so, that creature immediately makes another saving throw, adding the amount rolled to the save.</p>\n<hr />\n<h4><strong>REMOVE TOXINS</strong></h4>\n<p>As an action, you can expend a superiority die to purge the toxins from a creature you can touch. The target regains hit points equal to the number rolled and, if it is poisoned or diseased, you neutralize the poison or disease. If more than one poison or disease afflicts the target, you neutralize one poison or disease that you know is present, or you neutralize one at random.</p>\n<hr />\n<h4><strong>SMELLING SALTS</strong></h4>\n<p>As a bonus action, you can expend a superiority die to heal a creature you can touch by a number of hit points equal to the number rolled.</p>\n<hr />\n<h4><strong>TRANSFUSION</strong></h4>\n<p>Once per turn when you hit a creature with a finesse melee weapon, you can expend a superiority to give you or an ally that is within 5 feet of the creature a transfusion. Add the superiority dice to the damage you deal. You or your ally gain hit points equivalent to the damage you deal to the creature.</p>\n<p>You can be the creature hit with the attack as long as there is an ally with 5 feet of you, in which you can let it hit without rolling an attack and must choose an ally to heal with the transfusion.</p>\n<hr />\n<h4><strong>WEAK POINT STRIKE</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend a superiority die to temporarily daze the creature. Add the number rolled to the damage of the weapon attack and the creature must succeed on a Constitution saving throw or be stunned until the end of its next turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

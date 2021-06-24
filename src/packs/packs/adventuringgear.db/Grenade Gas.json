@@ -1,0 +1,102 @@
+{
+    "name": "Grenade, Gas",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>Gas grenades are primarily used to flush enemies out of cover and other protected areas, though there are of course other uses. Grenades have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. The grenade explodes in a 15-foot-radius sphere of yellow-green fog centered on a point you choose within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for 1 minute or until a wind of at least 10 miles per hour disperses it.</p>\n<p>When a creature enters the fog\u2019s area for the first time on a turn or starts its turn there, that creature must make a DC 13 Constitution saving throw. The creature takes 1d8 poison damage on a failed save, or half as much damage on a successful one. Additionally, on a failed save, the creature is poisoned while it is in the cloud. Droids, constructs and humanoids wearing appropriate protective equipment are unaffected.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 300,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 15,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "charges"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8",
+                    "poison"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "con",
+            "dc": 13,
+            "scaling": "flat"
+        },
+        "weaponType": "improv",
+        "properties": {
+            "amm": false,
+            "fin": false,
+            "fir": false,
+            "foc": false,
+            "hvy": false,
+            "lgt": false,
+            "lod": false,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "spc": false,
+            "thr": false,
+            "two": false,
+            "ver": false
+        },
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Explosive/Grenade%2C%20Gas.webp",
+    "_id": "nrSoJ33rycJm1tYJ"
+}

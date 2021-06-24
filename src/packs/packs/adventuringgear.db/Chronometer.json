@@ -1,0 +1,32 @@
+{
+    "name": "Chronometer",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A chronometer is a device that measures and keeps linear time.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 1,
+        "price": 100,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Utility/Chronometer.webp",
+    "_id": "FxuQ56TR8mhY6RiB"
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Fibercord Cable, 50 ft",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>Rolled</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 2,
+        "price": 20,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "damage": {
+            "parts": []
+        },
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Utility/Fibercord.webp",
+    "_id": "cWfyILdqZ8m73wVt"
+}

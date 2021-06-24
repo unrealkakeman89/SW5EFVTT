@@ -1,0 +1,37 @@
+{
+    "_id": "aSXtsSxKtBbloWYx",
+    "name": "EMP Device",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This modification adds a reusable EMP device to disable nearby electronics.  As an action, a crew member can activate the device.  Each ship, within 100 feet must make a Constitution saving throw (DC = 8 + the crew member's proficiency bonus + the ship's Strength modifier). On a failed save, a ship is stunned for 1 minute. As an action on each of the ship's turns, a crew member can have the ship repeat the saving throw, ending the effect on a success.  You ship automatically fails the initial saving throw, but has advantage on subsequent saving throws against this effect.</p><p>This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

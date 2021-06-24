@@ -1,0 +1,31 @@
+{
+    "_id": "hbxNu6cTyA58N6hM",
+    "name": "Bring 'Em Back Up!",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Technician"
+        },
+        "featureType": {
+            "value": "Stratagem"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Shields</em><br>When you have no shields, as an action, you can expend one power die to use a shield die to bring your shields back online with a value equal to your ship\u2019s regeneration rate plus the amount rolled on the power die.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Technician.webp",
+    "effects": []
+}

@@ -1,0 +1,21 @@
+{
+    "_id": "ErMXwjzLHB7aWYVT",
+    "name": "Hot Wire",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "When you would make a Constitution (Patch) check while aboard your ship, you can instead make an Intelligence (Mechanic's Kit) check.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

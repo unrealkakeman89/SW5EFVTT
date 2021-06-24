@@ -1,0 +1,20 @@
+{
+    "_id": "GRI6cWxgLMXmv6xK",
+    "name": "Great Weapon Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at putting the weight of a weapon to your advantage. While you are wielding a melee weapon with the two-handed property with which you are proficient, you gain the following benefits:</p><ul><li>When you roll a 1 or 2 on a weapon damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or 2.</li><li>Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Great%20Weapon%20Style.webp",
+    "effects": []
+}

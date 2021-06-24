@@ -1,0 +1,37 @@
+{
+    "_id": "rgFrD37Cvf9tXTDQ",
+    "name": "Central Computer, Makeshift",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Small or larger"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>You install a central computer, complete with artificial intelligence, in your ship. Your ship gains the ability to take one action of its own on it's turn.  It can take any action granted by a modification. The artificial intelligence has a proficiency bonus of +2. </p><p>Additionally, your ship is proficiently equipped for Intelligence (Data) checks.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

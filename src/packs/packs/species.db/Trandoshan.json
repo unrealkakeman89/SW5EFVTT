@@ -1,0 +1,229 @@
+{
+    "_id": "aNfVgeDkuDkuGzAE",
+    "name": "Trandoshan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Trandoshans are a large, bipedal sentient species, with scaly skin which was shed roughly once every standard year and was thought to be very durable. Cold-blooded reptiles, trandoshans had two super-sensitive varied color eyes with horizontal black pupils, which could see far into the infrared range. Each of their four limbs ends in three razor sharp claws. These are perfect for combat, but did not grant them manual dexterity, making a trandoshan's finger movements somewhat clumsy and awkward.</p><p><h2>Society and Culture</h2><p>Trandoshans worship their goddess, the Scorekeeper, whom they would appease through acts which increased their Jagannath points. This is done by living a lifestyle which was, by non-trandoshan standards, overtly aggressive, leading many trandoshans to become bounty hunters, mercenaries, or slavers. Trandoshans especially prize wookiee pelts, which consequently play a large part in earning Jagannath points-capturing the pelts of particularly infamous wookiees would give the hunter a large increase in Jagganath points. To be shamed or captured during a hunt would zero one's Jagganath points-effectively making their life forfeit in the eyes of the Scorekeeper. They could, however, win all those points back by killing the one who zeroed their score.</p><h2>Names</h2><p>Trandoshan names are quite harsh and contain a lot of elongated sounds, as well as a lot of s's. Differences between male and female names are often very subtle, but there is a higher chance for female names to contain softer sounds.</p><p>&nbsp;&nbsp;<strong>Male Names.</strong> Bossk, Tshyrrng, Varrsk, Wuikkekss</p><p>&nbsp;&nbsp;<strong>Female Names.</strong> Aksa, Idwiks, Kluks, Mezuus, Shokss</p><p>&nbsp;&nbsp;<strong>Surnames.</strong> Dallosss, Druc, Groqisch, Hsac, Nausdot",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Wisdom score increases by 1.</p><p><em><strong>Age.</strong></em> Trandoshans reach adulthood in their early teens and rarely live to be older than 70.</p><p><em><strong>Alignment.</strong></em> Trandoshans tend toward the dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Trandoshans stand as tall as 7 and a half feet and can weigh over 300 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Hold Breath.</strong></em> You can hold your breath for up to 15 minutes at a time.</p><p><em><strong>Regenerative.</strong></em> When you take damage, you can use your reaction and expend a Hit Die to regain hit points as long as the damage would not reduce your hit points to 0.</p><p><em><strong>Saving Face.</strong></em> Trandoshans are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Dosh. Dosh is characterized by its harsh grunts, hisses and growls, and its written form that used alphabetic glyphs.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, yellow, brown, orange, red"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow, orange"
+        },
+        "distinctions": {
+            "value": "Reptilian, scaly skin, regenerative properties"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "130 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d6) lb."
+        },
+        "homeworld": {
+            "value": "Trandosha"
+        },
+        "slanguage": {
+            "value": "Dosh"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Trandoshan",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "jH3OrTNFYwwm7aqf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "jH3OrTNFYwwm7aqf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "jH3OrTNFYwwm7aqf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "jH3OrTNFYwwm7aqf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "jH3OrTNFYwwm7aqf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "jH3OrTNFYwwm7aqf",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "dosh",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "jH3OrTNFYwwm7aqf",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Trandoshan.webp",
+    "effects": [
+        {
+            "_id": "cGgWnQNhESjlOFmW",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Trandoshan",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "dosh",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.regenerative",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Trandoshan.webp",
+            "label": "Trandoshan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

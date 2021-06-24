@@ -1,0 +1,37 @@
+{
+    "_id": "MMrhnmG2blkL3e4M",
+    "name": "Cryogenic Capacitor, Premium",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Cryogenic Capacitor"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "1"
+        },
+        "description": {
+            "value": "<p>You improve your ship's reserve power cells.  Your ship is expertly equipped for Strength (Boost) checks.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

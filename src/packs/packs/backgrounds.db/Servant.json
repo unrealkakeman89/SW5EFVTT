@@ -1,0 +1,109 @@
+{
+    "name": "Servant",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>You have lived much of your life in the service of a lord, noble, merchant, or someone else with much wealth or power. You fetched their coats, drove their chariots, pressed their clothes; and generally did what they asked you to do.</p>\n<p>Were you a highly respected butler? A simple scullery maid? Were you born into service, or did you join later? Were you close to your master or masters, or were they distant and cold? Did they treat you well, or beat you at the drop of a hat?</p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Lore, Performance, and Persuasion"
+        },
+        "toolProficiencies": {
+            "value": "One of your choice"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A noble symbol representing your employer, a set of artisan's implements (one of your choice), a set of nice clothes, a set of common clothes, and a belt pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "A servant, for better or worse, will have their personality affected by their years of servitude. "
+        },
+        "featureName": {
+            "value": "Decorum"
+        },
+        "featureText": {
+            "value": "You know how to carry yourself around the elite and their servants. When in the presence of someone of power, or the servants of such a person, you can easily act as if you belong and, barring any extremely outlandish behavior, you can pass off your companions as belonging, too.  \r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Loremaster</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Performer</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Charmer</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Linguist</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I am compulsively neat, and clean; I feel uncomfortable if my companions and I are ever dirty orunpresentable.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am a bit of a snob, and look down on the common rabble.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I am extremely subservient; I rarely raise my voice or object.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I may be quite calm and polite around those of higher power than I; but I'm harsh towards all my underlings, flexing the little power I have.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I dote over my companions like a concerned mother bird, fixing their clothing and making sure they look nice.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I hated my time as a servant, and go out of my way to enjoy myself and let loose, rarely holding my tongue.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I rarely show any emotions, remaining calm and stoic even in the worst of situations.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I can-or think I can-diffuse the most tense and stressful of situations with the right word or phrase.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Service. Your wish is my desire. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Helpful. I just enjoy making myself useful. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Free. Noone should be bound in servitude. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Infiltrate. From the position of a servant, I can worm my way into places of power! (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Payment. I don't care what my masters do; as long as I get paid. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Live. I only wish to serve in peace. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I become incredibly nervous around people of power and importance.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Saying that I'm a little bossy is a bit of an understatement.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I can be a sycophant, constantly fawning and flattering others; which can come off as shallow.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I've lived a relatively pampered life; the world of commoners is dull and painful to me.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I never speak for myself, letting others walk all over me.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I often can seem stiff, old fashioned and generally a stick in the mud.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I am still loyal to my old master.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">The Lord I worked for is after my head, and will do anything to capture me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">My family still live as servants; I hope to earn a better life for them.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">An older servant taught me the ropes and looked out for me; and I owe them a great debt.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I will exact revenge on the bastards who ruined (or ended) my Master's life.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I have plenty of friends in high places; and they've come in useful from time to time.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Servant.webp",
+    "effects": [
+        {
+            "_id": "meA1PscX391ozjlU",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Servant",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Servant",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "YK8l8YK9G4Gim0WT"
+}

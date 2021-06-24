@@ -1,0 +1,108 @@
+{
+    "name": "Investigator",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "Rarer than watch or patrol members are a community's investigators, who are responsible for solving crimes after the fact. Though such folk are seldom found in rural areas, nearly every settlement of decent size has at least one or two watch members who have the skill to investigate crime scenes and track down criminals."
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Investigation, Perception, and Survival"
+        },
+        "toolProficiencies": {
+            "value": null
+        },
+        "languages": {
+            "value": "Two of your choice"
+        },
+        "equipment": {
+            "value": "A uniform in the style of your unit and indicative of your rank, a horn with which to summon help, a set of binders, and a pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Years of service in the City Watch have led to the rigid discipline most often seen in military service. Working with your comrades has created a strong family bond and pride in your community."
+        },
+        "featureName": {
+            "value": "Watcher's Eye"
+        },
+        "featureText": {
+            "value": "Your experience in enforcing the law, and dealing with lawbreakers, gives you a feel for local laws and criminals. You can easily find the local outpost of the watch or a similar organization, and just as easily pick out the dens of criminal activity in a community, although you're more likely to be welcome in the former locations rather than the latter.\r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Perceptive</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Survivalist</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Alert</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Observant</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Keen Mind</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I'm always polite and respectful.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm haunted by memories of war. I can't get the images of violence out of my mind.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I've lost too many friends, and I'm slow to make new ones.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm full of inspiring and cautionary tales from my guard service relevant to almost every combat situation.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I can stare down a hell hound without flinching.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I enjoy being strong and like breaking things.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I have a crude sense of humor.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I face problems head-on. A simple, direct solution is the best path to success.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Greater Good. Our lot is to lay down our lives in defense of others. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Responsibility. I do what I must and obey just authority. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Independence. When people follow orders blindly, they embrace a kind of tyranny. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Might. In life as in war, the stronger force wins. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Live and Let Live. Ideals aren't worth killing over or going to war for. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Nation. My city, nation, or people are all that matter. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">The monstrous enemy we faced in battle still leaves me quivering with fear.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I have little respect for anyone who is not a proven warrior.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I made a terrible mistake in battle that cost many lives, and I would do anything to keep that mistake secret.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">My hatred of my enemies is blind and unreasoning.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I obey the law, even if the law causes misery.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I'd rather eat my armor than admit when I'm wrong.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I would still lay down my life for the people I served with.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Someone saved my life on the battlefield. To this day, I will never leave a friend behind.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">My honor is my life.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'll never forget the crushing defeat my company suffered or the enemies who dealt it.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Those who fight beside me are those worth dying for.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I fight for those who cannot fight for themselves.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Investigator.webp",
+    "effects": [
+        {
+            "_id": "aKDNPThH7s8K5G8Y",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Investigator",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Investigator",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "7DV9dgGOyPoNTLm1"
+}

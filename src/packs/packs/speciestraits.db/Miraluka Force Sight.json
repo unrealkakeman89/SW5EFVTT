@@ -1,0 +1,63 @@
+{
+    "name": "Miraluka: Force Sight",
+    "permission": {
+        "default": 0,
+        "5thIrpa58swdLRGE": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "Miraluka perceive the environment around them through use of the Force. You are constantly under the effects of the force power force sight, though the power does not require concentration for you.",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "Miraluka",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "_id": "0Rukcdxt5JZ335mg"
+}

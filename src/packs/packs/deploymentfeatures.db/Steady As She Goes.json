@@ -1,0 +1,31 @@
+{
+    "_id": "FcEz9wGm9RTlQKVI",
+    "name": "Steady As She Goes",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Coordinator"
+        },
+        "featureType": {
+            "value": "Collaboration"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Comms</em><br>As an action, you can expend one power die to strengthen your allies\u2019 defenses. Roll a power die. Until the end of your next turn, your ship and all allied ships within 500 feet of you when you use this action have a bonus to any saving throws they make equal to the amount rolled.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Coordinator.webp",
+    "effects": []
+}

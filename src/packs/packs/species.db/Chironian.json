@@ -1,0 +1,233 @@
+{
+    "_id": "oldLxqGkVAfZW6DQ",
+    "name": "Chironian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The chironian lower body has four legs, similar to that of a horse, and each ends in a dainty, cloven hoof. A chironian can sit down by folding his or her horse-like legs underneath the body. Chironians can also kick backward with both hind legs; this strong kick is sufficient to knock over other beings. A chironian's pace can vary between a walk, a canter, and a gallop.</p>\n<p>Each year, chironian heads grows two horns above the temples. These horns start as small knobs covered by red-furred velvet: a vascular tissue. Once the knobs have grown sufficiently, they break through the velvet naturally, emerging as transparent horns, as bright as diamond, cool to the touch and with smooth ridges. However, if the velvet is cut artificially, chironians can die from the injury. Over time, the horns grow long and sharp enough that adolescent chironians can use them to gore opponents.</p>\n<h2>Society and Culture</h2>\n<p>Chironians express emotions through the mannerisms of their hooves: when impatient, they stamp them; when excited, they tap them in a quick dance, or canter in a spot. The centauriforms frequently shake their heads and manes, and when angry, their faces flush a deeper shade. Young chironians, when frightened, are known to rub or press their velvet-covered horns against the foreheads of other beings to whom they are emotionally close.</p>\n<h2>Names</h2>\n<p>Chironian names are soft and melodic, despite the thick nature of their native language. Important family names are passed down through generations. They don't use surnames.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Jefin, Slaturn, Cinall, Leathes</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Olachi, Luna, Sinall, Trespen</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Chironians reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Chironians tend toward no particular alignment. The best and worst are found among them.</p>\n<p><em><strong>Size.</strong></em> Chironians typically stand 6 to 8 feet tall and generally weigh about 600 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 40 feet.</p>\n<p><em><strong>Cultured.</strong></em> You have proficiency in the Lore skill.</p>\n<p><em><strong>Equine Build.</strong></em> You count as one size larger when determining your carrying capacity and the weight you can push or drag. Additionally, any climb that requires hands and feet is especially difficult for you because of your hooves. When you make such a climb, each foot of movement costs you 4 extra feet, instead of the normal 1 extra foot. Finally, a Medium or smaller creature can ride on your equine back if you allow it. In such a situation, you continue to act independently, not as a controlled mount.</p>\n<p><em><strong>Hooves and Horns.</strong></em> Your hooves (and depending on your age, horns) are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.</p>\n<p><em><strong>Powerful Charge.</strong></em> If you move at least 10 feet in a straight line before hitting with a melee weapon attack, you can attempt to shove the target prone as part of the same attack. Once you use this trait, you can't use it again until you finish a short or long rest.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Chironan. Chironan is characterized by its soft, melodic sounds.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Brown, gold, or red"
+        },
+        "hairColorOptions": {
+            "value": "Black, brown, gold, or red"
+        },
+        "eyeColorOptions": {
+            "value": "Red to gold"
+        },
+        "distinctions": {
+            "value": "Two transparent horns, centauriform"
+        },
+        "heightAverage": {
+            "value": "6'0\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "450 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d8) lb."
+        },
+        "homeworld": {
+            "value": "Chiron"
+        },
+        "slanguage": {
+            "value": "Chironan"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Chironian",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "xo2vDhI2cVyxlEgy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "xo2vDhI2cVyxlEgy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "xo2vDhI2cVyxlEgy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "xo2vDhI2cVyxlEgy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "40",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "xo2vDhI2cVyxlEgy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.lor.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "xo2vDhI2cVyxlEgy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Lore"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "xo2vDhI2cVyxlEgy",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "chironan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "xo2vDhI2cVyxlEgy",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Chironian.webp",
+    "effects": [
+        {
+            "_id": "uSpdcXpfTiwyupUD",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Chironian",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 40,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.lor.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "chironan",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Chironian.webp",
+            "label": "Chironian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

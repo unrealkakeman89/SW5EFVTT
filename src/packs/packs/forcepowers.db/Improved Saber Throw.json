@@ -1,0 +1,93 @@
+{
+    "_id": "KspYzz0UkKQzOAnw",
+    "name": "Improved Saber Throw",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Saber Throw</em></p>\n<p>As a part of the action used to cast this power, you must make a ranged force attack with a lightweapon or vibroweapon against one target within the power&rsquo;s range, otherwise the power fails.</p>\n<p>On a hit, the target takes 2d8 damage of the same type as the weapon&rsquo;s damage and must make a</p>\n<p>Constitution saving throw. On a failed save, the target gains 1 slowed level until the end of its next turn and the weapon then immediately returns to your hand. The next attack made against the target that hits it before the end of the target&rsquo;s next turn deals an additional 1d10 force damage. On a successful save, the target takes half as much additional force damage on the next attack that hits it, and suffers no additional effect.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 3rd level or higher, the force damage increases by 1d10 for each slot level above 2nd.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 60,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "rpak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "2d8",
+                    ""
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "con",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 2,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d10"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Improved%20Saber%20Throw.webp",
+    "effects": []
+}

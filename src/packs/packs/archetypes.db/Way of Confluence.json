@@ -1,0 +1,39 @@
+{
+    "_id": "Lz0gdQ5ou3k5E7Fo",
+    "name": "Way of Confluence",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Consular",
+        "description": {
+            "value": "<h1>Way of Confluence</h1>\n<p>The Force binds us, creating an intangible bridge connecting all living things. Those consulars who follow the Way of Confluence master this power, manipulating those connections to both sustain and torment.</p>\n<h2>Manipulate Life Force</h2>\n<p>Starting when you choose this tradition at 3rd level, when you reduce a hostile creature to 0 hit points with a force power, or restore hit points to a creature with 0 hit points with a force power, you gain temporary hit points equal to half your consular level (rounded down) + your Wisdom or Charisma modifier (your choice, minimum of one).</p>\n<h2>Empowered Connection</h2>\n<p>At 6th level, while you have temporary hit points, you can add half your Wisdom or Charisma modifier (your choice, rounded up, minimum of one) to any damage or healing you do with force powers that doesn't already include that modifier.</p>\n<h2>Life Eternal</h2>\n<p>Beginning at 10th level, you can use your powerful connection to the Force to keep fighting when others would fall. When you are reduced to 0 hit points but not killed outright, you can spend 5 force points to drop to 1 hit point instead.</p>\n<h2>Interconnectedness</h2>\n<p>At 14th level, when you cast a 5th level or lower force power that deals damage or restores hit points and targets only one creature, the power can instead target two creatures within range and within 5 feet of each other.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.</p>\n<h2>Dynamic Attachment</h2>\n<p>Starting at 18th level, while you have temporary hit points, you have resistance against the damage of force powers, and your force powers ignore resistances.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Way%20of%20Confluence.webp",
+    "effects": []
+}

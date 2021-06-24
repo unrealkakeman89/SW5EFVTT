@@ -1,0 +1,267 @@
+{
+    "_id": "f57DFxmVEnoZ8H9O",
+    "name": "Ssi-Ruu",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Ssi-ruuk are a predatory, warm-blooded saurian species gifted with ferocious strength, remarkable speed, and sharp fangs and claws, traits that serve them well in the volcanic jungles of their homeworld of Lwhekk. Their muscular forms combined with their powerful tails make them very agile hunters, and their colorfully-scaled hides have been proven to be resistant even to blaster bolts. From their nostrils, two scent-tongues protrude that grant them enhanced olfactory senses, compensating for the poor vision afforded them by their dark, three-lidded eyes. No Ssi-ruu has ever been known to be Force-sensitive.</p>\n<h2>Society and Culture</h2>\n<p>The citizens of the Ssi-ruuvi Imperium follow a rigid caste system in which their station in society is determined by the color of the scales they are born with. Among these, the brown-scaled outcasts are regarded as the lowest of the low, and have no place in the Imperium beyond menial labor or death at birth. Deeply xenophobic and religious, the Ssi-ruuk view the rest of the galaxy as populated by lesser beings whose worlds rightfully belong to the Imperium. Despite their fierce nature, most ssi-ruuk are afraid of dying on a world unconsecrated by their priest caste, as they believe their souls would be doomed, so they harvest and \"entech\" the life-energy of other species to power droids that fight for them. The entechment process is torturous and painful to its victims, and is the main power source of Ssi-ruuvi technology.</p>\n<h2>Names</h2>\n<p>Ssi-ruuvi names are difficult to pronounce and gender neutral. Many ssi-ruuk adopt nicknames to make the lives of their associates easier. Ssi-ruuk do not have surnames.</p>\n<p>&nbsp;&nbsp;<strong>Names.</strong> Firwirrung, Ivpikkis, Sh'tk'ith, Th'twirirl, Yifaii</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Ssi-ruuk reach adulthood in their early teens and live to between 100 and 120 years.</p><p><em><strong>Alignment.</strong></em> Ssi-ruuk's cultural drive to enslave and entech others cause them to tend toward the dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Ssi-ruuk typically stand between 6 or 7 feet tall and weigh over 300 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 35 feet.</p><p><em><strong>Type.</strong></em> Your creature type is both beast and humanoid.</p><p><em><strong>Force Insensitive.</strong></em> While Ssi-ruuk can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes.</p><p><em><strong>Hunter.</strong></em> You are proficient in Survival.</p><p><em><strong>Keen Smell.</strong></em> You have advantage on Wisdom (Perception) checks that rely on smell.</p><p><em><strong>Natural Empathy.</strong></em> Ssi-ruuk have scent-tongues that let them read the emotions of individuals. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.</p><p><em><strong>Sunlight Sensitivity.</strong></em> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p><p><em><strong>Thick Skin.</strong></em> You have tough, scaly skin and prefer not to wear clothes. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier.</p><p><em><strong>Tooth and Nail.</strong></em> Your fangs and claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal kinetic damage equal to 1d6 + your Strength modifier.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Ssi-ruuvi. Ssi-ruuvi is a language of musical whistles, honks and clicks, and is nigh impossible for humans and similar species to speak.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Brown, red, or tan scales"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Solid black"
+        },
+        "distinctions": {
+            "value": "Reptilian, tails, scent-tongues"
+        },
+        "heightAverage": {
+            "value": "5'7\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "200 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d6) lb."
+        },
+        "homeworld": {
+            "value": "Lwhekk"
+        },
+        "slanguage": {
+            "value": "Ssi-ruuvi"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Ssi-Ruu",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "35",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.sur.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Survival"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "13",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "ssi-ruuvi",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "MdjKV6fKK3ivqfsX",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Ssi-Ruu.webp",
+    "effects": [
+        {
+            "_id": "mHet1jKAIkSgtPbd",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Ssi-Ruu",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "35",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.sur.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "13+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "ssi-ruuvi",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.forceInsensitive",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.sunlightSensitivity",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Ssi-Ruu.webp",
+            "label": "Ssi-Ruu",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

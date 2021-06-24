@@ -1,0 +1,70 @@
+{
+    "name": "Articulate Authority",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Bolstering Practice</strong>:&nbsp;3rd level</em></p>\n<p>When you use of your Cunning Action feature to take the Dash. Disengage, or Hide actions, a number of friendly creatures up to your Charisma modifier within 30 feet of you who can hear you and who can understand you can use their reaction to gain an effect, determined by the action you took:</p>\n<ul>\n<li>Dash:&nbsp;The creature can move up to half their speed. They must end this movement within 30 feet of you.</li>\n<li>Disengage:&nbsp;The creature can move up to 5 feet. If this movement would provoke an opportunity attack, the opportunity attack is made with disadvantage.</li>\n<li>Hide:&nbsp;The creature has advantage on the first attack roll they make before the end of their next turn against a creature you successfully hide from.</li>\n</ul>\n<p>You can use this feature a number of times equal to your proficiency bonus, as shown in the operative table. You regain all expended uses when you finish a short or long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 2,
+            "max": 2,
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/OPRT-ARCH-Passive.webp",
+    "effects": [],
+    "_id": "nDdruNNTBKxSSXoa"
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "e9gE2Mr9Hu48qP2F",
+    "name": "Weapon Overheat",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> The ability to cast 2nd level tech powers</em></p><p>As a bonus action, you may spend three tech points to empower a ship weapon on your ship. For the duration, you can cool the weapon once per turn without using an action, and as a bonus action on each of your turns you can make one attack with the weapon.</p>"
+        },
+        "prerequisites": [
+            "The ability to cast 2nd level tech powers"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

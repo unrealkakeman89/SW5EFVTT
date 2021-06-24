@@ -1,0 +1,251 @@
+{
+    "_id": "ShbbWh2cgZtRDfbN",
+    "name": "Codru-Ji",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Codru-Ji are humanoids generally near-human in their adult appearances, save for their four arms. While their hair, eye, and skin pigmentations tend towards earthen hues, brighter colorations such as blonde hair or blue eyes, though uncommon, also exist. Rarer still, some adults maintain a light coat of fur or elongated, pointed ears. These eccentric attributes result from their unusual childhood forms.</p>\n<p>Codru-Ji children are actually sapient, six-legged canid creatures that cannot speak. Codru-Ji in this stage of their lives are called Wyrwulves: they mature to their more recognizable figures after reaching puberty. At that point, a blue, rubbery substance cocoons a Wyrwulf for several weeks before it emerges as a humanoid adolescent. They do, however, retain both the natural resilience and the enhanced hearing of their previous selves.</p>\n<h2>Society and Culture</h2>\n<p>The Codru-Ji are proud and protective of their ancient customs, and they carefully manage their homeworld's economy to keep a degree of anonymity from the galaxy at large. They fear the tainting of their long-held practices by outside influence as well as prejudice against them for the almost barbaric level of callousness they will display towards one another in pursuit of personal gain. The kidnapping of a political rival's children or the ransoming of off-worlders back to their people are both common practices.</p>\n<h2>Names</h2>\n<p>Codru-Ji names are often kept to two syllables. Clan names are appended to the given name as a hyphenated affix.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Kossok, Tirrit, Uttar, Yunnan</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Davvi, Kella, Russa, Zollu</p>\n<p>&nbsp;&nbsp;<strong>Clan Names.</strong> -Fa, -Mu, Ro-, -Sy, Yi-</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Constitution score increases by 1.</p><p><em><strong>Age.</strong></em> Codru-Ji reach adulthood in their early teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Steeped in selfish tradition, Codru-Ji tend towards the dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Codru-Ji stand 5 to 6 feet tall and weigh around 160 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Four-Armed.</strong></em> Codru-Ji have four arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).</p><p><em><strong>Hide.</strong></em> You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.</p><p><em><strong>Keen Hearing.</strong></em> You have advantage on Wisdom (Perception) checks that rely on hearing.</p><p><em><strong>Natural Grappler.</strong></em> Whenever you make a Strength (Athletics) check to grapple you are considered to have expertise in the Athletics skill.</p><p><em><strong>Trance.</strong></em> Codru-Ji sleep lightly, standing and semiconscious, for 4 hours a day. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Codruese, which has a solemn and stately cadence to it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Light to dark tones"
+        },
+        "hairColorOptions": {
+            "value": "Black, brown, gray, or white (usually with age)"
+        },
+        "eyeColorOptions": {
+            "value": "Black, slate, gray, or brown"
+        },
+        "distinctions": {
+            "value": "Four arms"
+        },
+        "heightAverage": {
+            "value": "4'6\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "90 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d6) lb."
+        },
+        "homeworld": {
+            "value": "Munto Codru"
+        },
+        "slanguage": {
+            "value": "Codruese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Codru-Ji",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "8xTU4oIz92PnxEmc",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "8xTU4oIz92PnxEmc",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "8xTU4oIz92PnxEmc",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "8xTU4oIz92PnxEmc",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "8xTU4oIz92PnxEmc",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "12",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "8xTU4oIz92PnxEmc",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "8xTU4oIz92PnxEmc",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "codruese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "8xTU4oIz92PnxEmc",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Codru-Ji.webp",
+    "effects": [
+        {
+            "_id": "cF7ScwvPgQ03tTqh",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Codru-Ji",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "12+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "codruese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.trance",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.extraArms",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Codru-Ji.webp",
+            "label": "Codru-Ji",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

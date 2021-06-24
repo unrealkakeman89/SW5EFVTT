@@ -1,0 +1,94 @@
+{
+    "_id": "wqMkp6WYkBCFVVA8",
+    "name": "Mass Animation",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Animate Weapon</em></p>\n<p>You snag several objects using the Force and whip them into the air around you, controlling them to attack at your command. Choose up to ten unenhanced objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can&rsquo;t control any object larger than Huge. Each object animates and hovers near you, remaining within 100 feet of you for the duration. An animated object behaves as though it is was a construct, with AC, hit points, and attacks determined by its size, and a flying speed of 30 feet.</p>\n<p>As a bonus action, you can mentally direct any object controlled by this power. If you control multiple objects, you can command any or all of them at the same time. You decide what action the object will take and where it will move. The objects act at the end of your turn. If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and kinetic damage determined by its size.</p>\n<table style=\"border: 0;\">\n<tbody>\n<tr>\n<th align=\"left\">Size</th>\n<th align=\"left\">HP</th>\n<th align=\"left\">AC</th>\n<th align=\"left\">Attack</th>\n</tr>\n<tr>\n<td>Tiny</td>\n<td>20</td>\n<td>16</td>\n<td>+6 to hit, 1d4 + 3 damage</td>\n</tr>\n<tr>\n<td>Small</td>\n<td>25</td>\n<td>15</td>\n<td>+6 to hit, 1d8 + 2 damage</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>40</td>\n<td>13</td>\n<td>+5 to hit, 2d6 + 1 damage</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>50</td>\n<td>10</td>\n<td>+6 to hit, 2d10 + 2 damage</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>80</td>\n<td>10</td>\n<td>+8 to hit, 2d12 + 4 damage</td>\n</tr>\n</tbody>\n</table>\n<p><em><strong>Force Potency.</strong></em>&nbsp;If you cast this power using a force slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 10,
+            "units": "",
+            "type": "object"
+        },
+        "range": {
+            "value": 120,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 5,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": true
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Mass%20Animation.webp",
+    "effects": []
+}

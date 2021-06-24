@@ -1,0 +1,37 @@
+{
+    "_id": "NsPNIyPJB6vNW4hi",
+    "name": "Threat Tracker",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>You equip your ship with a specialized defensive computer system.  When you would make a Dexterity saving throw, you</p><p>can instead make a Wisdom saving throw. You can use this feature a number of times equal to your ship's</p><p>Wisdom modifier.  All expended uses are regained when the ship recharges.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

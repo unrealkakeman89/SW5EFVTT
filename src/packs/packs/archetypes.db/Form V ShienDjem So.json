@@ -1,0 +1,39 @@
+{
+    "_id": "i0AaMWBnSREQdQsg",
+    "name": "Form V: Shien/Djem So",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form V: Shien/Djem So</h1>\n<p>Form V, also known as Perseverance Form, utilizes a force-enhanced strength to overwhelm opponents. Those guardians who focus on Shien/Djem So Form actively attempt to force an opening rather than waiting for the opportunity to present itself.</p>\n<h2>Bonus Proficiencies</h2>\n<p>You gain proficiency in heavy armor.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.m9nBfNVSNb6baCA1]{Shien/Djem So Lightsaber Form}, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can&rsquo;t take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Krayt Dragon</h2>\n<p>Also at 3rd level, as a bonus action, you can take a threatening stance for one minute. While in this stance, the first time you hit with a melee weapon attack using Strength each turn, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to your Strength modifier. The damage is of the same type dealt by the original attack.</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain one of the following Channel the Force options. Choose Blade Barrier for Shien or Falling Avalanche for Djem So.</p>\n<h3>Blade Barrier</h3>\n<p>On your turn, when you deal melee weapon damage that includes your Strength modifier, you can forgo your Strength modifier to the damage roll, expend a use of your Channel the Force (no action required), and reduce your speed by half. If you do so, energy and kinetic damage you take from weapons before the end of your next turn is reduced by an amount equal to your Strength modifier. You can not use this feature if you have moved more than half your speed this turn.</p>\n<h3>Falling Avalanche</h3>\n<p>On your turn, you can expend a use of your Channel the Force (no action required) and reduce your speed by half to gain advantage on the next ability check or attack roll you make using Strength before the end of your next turn. You can not use this feature if you have moved more than half your speed this turn.</p>\n<h2>Determination</h2>\n<p>At 7th level, you gain one of the following features. Choose Aggressive Negotiations for Shien or Reliable Vigor for Djem So.</p>\n<h3>Aggressive Negotiations</h3>\n<p>When you make a Charisma (Intimidation) or Charisma (Persuasion) check, you gain a bonus to the check equal to half your Strength modifier (rounded down) if it doesn't already include that modifier.</p>\n<h3>Reliable Vigor</h3>\n<p>If your total for a Strength check or saving throw is less than your Guardian level, you can use that value in place of the total.</p>\n<h2>Presence</h2>\n<p>Starting at 15th level, you gain one of the following features. Choose Precise Reflection for Shien or Brutal Strikes for Djem So.</p>\n<h3>Precise Reflection</h3>\n<p>When you hit with an attack made by the @Compendium[sw5e.forcepowers.CuAbwhIt3j2V30Ey]{Saber Reflect power}, you can expend force points to deal additional damage to the target. The extra damage is 2d8 for a 1st-level force slot, plus 1d8 for each slot level higher than 1st, to a maximum of 5d8. The damage is the same type as the power's damage.</p>\n<h3>Brutal Strikes</h3>\n<p>The Force flowing through you grants you incredible strength. When you roll a 1 or 2 on a Force-Empowered Strikes or Improved Force-Empowered Strikes damage die, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n<p>Additionally, when you spend force points to use your Force-Empowered Strikes feature, you gain temporary hit points equal to twice the number of points spent.</p>\n<h2>Master of Perseverance</h2>\n<p>At 20th level, your might overwhelms even the most implacable of foes. Your Strength and Constitution scores increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage from unenhanced weapons.</li>\n<li>Once per turn, when you hit with a melee weapon attack using Strength, you can use your Force-Empowered Strikes feature at 1st-level without expending force points. You gain temporary hit points equal to the extra damage dealt.</li>\n<li>When a creature within 5 feet of you makes an attack roll against you, you can use your reaction to make a single weapon attack with advantage against that creature. If the attack hits, you impose disadvantage on the triggering attack roll.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Shien%20Djem%20So%20Form.webp",
+    "effects": []
+}

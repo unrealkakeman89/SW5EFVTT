@@ -1,0 +1,31 @@
+{
+    "_id": "kQ9Pc3QNb4deJLrM",
+    "name": "Hacked Communications",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": "Disruption"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Comms</em><br>As an action, you may expend a power die, and choose any number of ships that you can see within 600 feet of you. Each ship must succeed on a Wisdom saving throw or take ionic damage equal to the number rolled on the die + your ship\u2019s Charisma modifier (minimum of one). Additionally, on a failed save, the ship\u2019s communication devices are disabled until rebooted.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

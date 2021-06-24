@@ -1,0 +1,81 @@
+{
+    "name": "Giggledust",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "consumable",
+    "data": {
+        "description": {
+            "value": "<p>This sandy-brown powder causes everything to appear slightly humorous while enhancing a creature\u2019s nimbleness. As an action, you can apply this substance to a creature within 5 feet. For the next minute, the creature experiences a high that allows them to roll an additional d4 when making an ability check, attack roll, or saving throw using Dexterity. At the end of the high, the creature must succeed on a DC 13 Wisdom saving throw or experience a low that lasts 10 minutes, during which they must roll a d4 and subtract the result when making an ability check, attack roll, or saving throw using Dexterity. At the end of the low, the creature must make a DC 13 Constitution saving throw to resist addiction.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 0.16,
+        "price": 80,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 5,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "charges",
+            "autoDestroy": true
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "Add to ability check, attack roll, or saving throw using Dexterity.",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "d4",
+        "save": {
+            "ability": "wis",
+            "dc": 13,
+            "scaling": "flat"
+        },
+        "consumableType": "potion",
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Spice/Giggledust.webp",
+    "_id": "J1KpCMSHmimri4iW"
+}

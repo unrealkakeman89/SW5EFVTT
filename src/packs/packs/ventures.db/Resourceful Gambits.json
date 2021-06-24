@@ -1,0 +1,23 @@
+{
+    "_id": "UOxpXRC2MCCx8DYP",
+    "name": "Resourceful Gambits",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 1 rank in gunner</em></p><p>Once per round, when you roll a power die used for a gunner's gambit, you can roll the die twice and take either result.</p>"
+        },
+        "prerequisites": [
+            "at least 1 rank in gunner"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

@@ -1,0 +1,31 @@
+{
+    "_id": "L4rvUVp9SLw7EQSB",
+    "name": "Haywire",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>Also at 4th rank, when you target a ship with your System Disruption feature, it must make a Constitution saving throw (DC = 8 + your bonus to Interfere checks). On a failed save, while it is the target of your System Disruption feature, the first time it makes an attack roll or a saving throw each round, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

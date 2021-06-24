@@ -1,0 +1,39 @@
+{
+    "_id": "uKs4nEUZxYJ6iAd7",
+    "name": "Acquisitions Practice",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Operative",
+        "description": {
+            "value": "<h1>Acquisitions Practice</h1>\n<p>Many operatives are hired for the procurement of valuable artifacts, but only the true masters of the art can slip through the tightest security and make off with untold riches, whether they do it for a profit, or for sport. Those operatives who choose the Acquisitions Practice apply a mixture of stealth and impressive acrobatics to surpass any kind of defenses they are met with.</p>\n<h2>Fast and Agile</h2>\n<p>When you use choose this practice at 3rd level, you can use the bonus action granted by your Cunning Action to make a Dexterity (Sleight of Hand) check, use your demolitions kit or security kit to disarm a trap or open a lock, or take the Use an Object action.</p>\n<p>Additionally, climbing no longer costs you extra movement, and you gain the ability to move in flying leaps with incredible speed, precision, and power. When you move, instead of using your walking speed, you may take two short movements by flying. Each movement is at half your speed, and you must end each one on a solid object, a surface, or on the ground. If you do not, you fall and your movement ends. If you Dash, your bonus movement is applied to your normal speed, not this movement.</p>\n<h2>Deft Hands</h2>\n<p>Also at 3rd level, you learn a number of techniques to distract and confuse your opponents. When you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to perform a deft hand maneuver.</p>\n<p>Some of your aerial maneuvers require your target to make a saving throw to resist the deft hand maneuver's effects. The saving throw DC is as follows:</p>\n<p><strong>Deft Hands save DC</strong> = 8 + your proficiency bonus + your Dexterity modifier</p>\n<h3>Hinder</h3>\n<p>You attempt to distract your target in order to hinder their movement. The target must make a Constitution saving throw. On a failed save, its movement speed is reduced by half and it makes the first Dexterity saving throw before the end of its next turn with disadvantage.</p>\n<h3>Pilfer</h3>\n<p>You attempt to pick your target's pockets. The target must make a Wisdom saving throw. On a failed save, you have advantage on the first Dexterity (Sleight of Hand) check you make against the target before the end of your next turn.</p>\n<h3>Tumble</h3>\n<p>You attempt to nimbly roll away. You immediately move 10 feet in a direction of your choice, and the target must make a Dexterity saving throw. On a failed save, this movement does not provoke opportunity attacks from the creature.</p>\n<h2>Supreme Sneak</h2>\n<p>Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn. Additionally, as long as you aren't incapacitated, you no longer take damage from falling less than 100 feet, and have resistance to falling damage.</p>\n<h2>Improved Aerial Agility</h2>\n<p>Starting at 13th level, your Aerial Agility feature improves and you gain the following benefits:</p>\n<ul>\n<li>When you move, you can instead take 3 short movements by flying.</li>\n<li>Whenever you end your flying movement and you are within 5 feet of a climbable surface, you can grab onto that surface as though you were climbing upon it.</li>\n</ul>\n<h2>Thief's Reflexes</h2>\n<p>When you reach 17th level, you can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.</p>\n<p>Additionally, you learn to utilize the momentum of your fall to make deadly vertical strikes. Whenever you fall at least 50 feet and land within 5 feet of an enemy creature you can use your reaction to make one weapon attack against that creature. If the attack is a Sneak Attack, you can deal three additional weapon dice worth of damage and the creature must make a Dexterity saving throw or be knocked prone.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Acquisitions%20Practice.webp",
+    "effects": []
+}

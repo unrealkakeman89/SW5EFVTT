@@ -1,0 +1,31 @@
+{
+    "_id": "2GMuH7TIypF8O3bB",
+    "name": "Overload Systems",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "5th Rank"
+        },
+        "description": {
+            "value": "<p>Also at 5th rank, you learn how to overload the systems of a ship remotely. As an action, you can attempt to breach the systems of the target of your System Disruption. The ship must make a Constitution saving throw (DC = 8 + your bonus to Interfere checks). On a failed save, the target\u2019s flying speed reduced by half, it\u2019s turning speed is doubled, it takes a -2 penalty to AC and Dexterity saving throws, it\u2019s shields no longer regenerate, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the ship\u2019s abilities, crew, or equipment, it can\u2019t make more than one attack during its turn.</p><p>The ship\u2019s pilot makes another Constitution saving throw at the end of its turns. On a successful save, the effect ends.</p><p>Once you\u2019ve use this feature, you must finish a short or long rest before you can use it again.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

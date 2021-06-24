@@ -1,0 +1,70 @@
+{
+    "name": "Fire Team Commander",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Bolstering Practice</strong>:&nbsp;3rd level</em></p>\n<p>Also at 3rd level, you learn a number of squad maneuvers you can use to assist allies or exploit enemies. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a squad maneuver.</p>\n<hr />\n<blockquote>\n<h3><strong>Fortifying Strike</strong></h3>\n<p>You inspire a friendly creature within 60 feet of you who can see or hear you and roll two Sneak Attack dice. That ally immediately gains temporary hit points equal to the amount of rolled.</p>\n<hr />\n<h3><strong>Reaffirming Strike</strong></h3>\n<p>You use the authority your attacks carry to help your ally focus on the task at hand. Choose a creature within 60 feet of you who can see or hear you and that is currently charmed or frightened by the creature you would deal Sneak Attack damage to. The condition immediately ends on that creature.</p>\n<hr />\n<h3><strong>Bolstering Strike</strong></h3>\n<p>You choose a friendly creature within 60 feet of you who can see or hear you. If that creature hits the creature against which you forwent two Sneak Attack damage dice before the start of your next turn, they deal additional damage to the target equal to the maximum of the two Sneak Attack dice.</p>\n</blockquote>\n<hr />\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": null,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/OPRT-ARCH-Passive.webp",
+    "effects": [],
+    "_id": "Fckg4HuvucWJi9Jc"
+}

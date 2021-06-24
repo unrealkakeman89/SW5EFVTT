@@ -1,0 +1,70 @@
+{
+    "name": "Ambush Tactics",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Bolstering Practice</strong>:&nbsp;13th level</em></p>\n<p>When attempting to move stealthily as a group, you may choose a number of creatures equal to your Charisma modifier. Those creatures may add their proficiency to any Dexterity (Stealth) checks they make as long as they remain within 60 feet of you and they do not already add their proficiency bonus.</p>\n<p>Additionally, each ally other than you that surprises a creature and hits it with an attack on their first turn in combat rolls two dice equal to the size of your Sneak Attack dice, dealing additional damage of the same type to the creature.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": null,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/OPRT-ARCH-Passive.webp",
+    "effects": [],
+    "_id": "XZA0JnN2LX9b5w7R"
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "BYohq8gy1rcc3SiB",
+    "name": "SLAM",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "2"
+        },
+        "description": {
+            "value": "<p>Your ship gains a SubLight Acceleration Motor (SLAM).  As an action, a pilot can activate the SLAM to gain extra Movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 300 feet, for example, your ship can move up to 600 feet on its turn if you SLAM. Any increase or decrease to your speed changes this additional Movement by the same amount. If your ship's speed of 300 feet is reduced to 150 feet, for instance, your ship can move up to 300 feet this turn if you SLAM.</p><p>This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

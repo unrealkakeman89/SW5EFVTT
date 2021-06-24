@@ -1,0 +1,100 @@
+{
+    "_id": "8Ca7UULvxg0CJg0n",
+    "name": "Voodoo Doll: Burn",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Additionally, as an action while the doll is in your possession, you can expend a Hit Die to torment the target, choosing an effect from the following options:</p>\n<p><strong>Burn</strong>:&nbsp;The target must succeed on a Wisdom saving throw. On a failed save, the target believes it is burning. While burning in this way, the target has has disadvantage on attack rolls made with Strength or Dexterity. This effect lasts for 1 hour.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "action",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "hour"
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "wis",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "wis",
+            "dc": null,
+            "scaling": "int"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": "Occultist 9"
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-ARCH-Action.webp",
+    "effects": [
+        {
+            "_id": "Ht6ABxFjQXwVvgrf",
+            "flags": {
+                "core": {
+                    "statusId": "curse"
+                },
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "macroRepeat": "none",
+                    "transfer": false
+                }
+            },
+            "changes": [],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": 3600,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/sun.svg",
+            "label": "Cursed: Voodoo Burn",
+            "tint": "",
+            "transfer": false
+        }
+    ]
+}

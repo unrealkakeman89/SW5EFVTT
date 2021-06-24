@@ -1,0 +1,39 @@
+{
+    "_id": "xAObT0H9SNxYOQh2",
+    "name": "Predator Technique",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Scout",
+        "description": {
+            "value": "<h1>Predator Technique</h1>\n<p>Some scouts work in solitude, while others prefer the strength of a group. Followers of the Predator Technique find power lies with the pack; they distract their prey, while their allies go for the kill.</p>\n<h2>Bonus Proficiencies</h2>\n<p>You gain proficiency in heavy armor.</p>\n<h2>Hunting Party</h2>\n<p>When you choose this technique at 3rd level, when you take the Attack action on your turn, you can use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you. That creature can immediately use its reaction to make one weapon attack.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (minimum of once). You regain all expended uses of it when you finish a long rest.</p>\n<h2>Mark of the Predator</h2>\n<p>Also at 3rd level, if the target of your Ranger's Quarry feature can see you, a number of friendly creatures you choose up to your Intelligence modifier have advantage on Dexterity (Stealth) checks made to hide from it.</p>\n<h2>Predator's Resolve</h2>\n<p>Beginning at 7th level, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have advantage on Constitution saving throws.</li>\n<li>At the start of each of your turns, you gain temporary hit points equal to your Constitution modifier (minimum of one).</li>\n<li>When you use your Hunting Party feature and the target of the attack is your Ranger's Quarry, your ally gains a bonus to damage on the attack equal to your Ranger's Quarry Damage Die.</li>\n</ul>\n<p>Once you've used this feature, you can't use it again until you finish a short or long rest.</p>\n<h2>Prey on the Weak</h2>\n<p>Starting at 11th level, when you hit a creature with a weapon attack, and the creature is below its hit point maximum, the next attack roll made against that creature before the end of your next turn by someone other than you has advantage.</p>\n<h2>On the Hunt</h2>\n<p>At 15th level, when you use your Predator's Resolve feature, a number of friendly creatures you choose up to your Intelligence modifier that you can see within 30 feet of you also gain the benefits of the feature.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Techcaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Predator%20Technique.webp",
+    "effects": []
+}

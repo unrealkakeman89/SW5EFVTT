@@ -1,0 +1,71 @@
+{
+    "_id": "u6LYZxy7ZKsD0LY5",
+    "name": "Modified Tinkercannon",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn to enhance your tinker&rsquo;s implements with unstable science, modifying them into a harness with a cannon. Over the course of a long rest, you can modify your tinker&rsquo;s implements to create a tinkercannon. You must have tinker&rsquo;s implements in order to perform this modification.</p>\n<p>Whenever you cast a tech power of 1st level or higher while wielding your tinkercannon, you risk unexpected complications. Your GM can have you roll a d20. If you roll a 1, roll on the Unstable Engineering Surge table to create a random effect.</p>\n<p>Additionally, your tinkercannon come equipped with 4 overrides, and they gain more at higher levels, as shown in the Modification Slots column of the engineer table. Each time you trigger an Unstable Engineering Surge, you can use an override to reroll the percentile dice. You must use the new result, you can only do this once per surge, and each time you do so in excess of your proficiency bonus (resetting on a long rest) your maximum tech points is reduced by 1 until you complete a long rest. You regain all expended overrides when you complete a long rest.</p>\n<h5>Unstable Engineering Surge</h5>\n<table>\n<thead>\n<tr>\n<th>d100</th>\n<th>Result</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">01-02</td>\n<td style=\"text-align: center;\">Roll on this table at the start of each of your turns for 1 minute, ignoring this result on subsequent rolls.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>03-04</td>\n<td>For the next minute, you can see any invisible creature if you have line of sight to it.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>05-06</td>\n<td>A DRK-1 tracker droid appears with 5 feet of you, then disappears 1 minute later.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>07-08</td>\n<td>You cast&nbsp;explosion&nbsp;at 3rd-level centered on yourself without expending tech points.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>09-10</td>\n<td>You cast&nbsp;homing rockets&nbsp;at 5th-level without expending tech points.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>11-12</td>\n<td>Roll a d10. Your height changes by a number of inches equal to the roll: if odd, you shrink; if even, you grow.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>13-14</td>\n<td>You fall asleep standing for 1 minute or until you take damage.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>15-16</td>\n<td>For the next minute, you regain 5 hit points at the start of each of your turns</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>17-18</td>\n<td>You grow a long beard made of feathers that remains until you sneeze.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>19-20</td>\n<td>You cast&nbsp;oil slick&nbsp;centered on yourself without expending tech points.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>21-22</td>\n<td>Creatures have disadvantage on the first saving throw they make against you in the next minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>23-24</td>\n<td>Your skin turns a vibrant shade of blue. Any effect that ends a curse ends this.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>25-26</td>\n<td>You grow an extra eye, granting advantage on Wisdom (Perception) checks that rely on sight for 1 minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>27-28</td>\n<td>For the next minute, all your tech powers with a casting time of 1 action have a casting time of 1 bonus action.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>29-30</td>\n<td>You teleport up to 60 feet to an unoccupied space of your choice that you can see.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>31-32</td>\n<td>You take 2d10 lightning damage and are shocked for 1 minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>33-34</td>\n<td>Maximize the damage of the next damaging tech power you cast within the next minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>35-36</td>\n<td>Roll a d10. Your age changes by a number of years equal to the roll: if odd, younger; if even, older.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>37-38</td>\n<td>You start running uncontrollably for 1 minute, moving your entire speed each turn.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>39-40</td>\n<td>You regain 2d10 hit points.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>41-42</td>\n<td>Each creature within 30 feet of you is subjected to the&nbsp;gleaming outline&nbsp;tech power for 1 minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>43-44</td>\n<td>For the next minute, you can teleport up to 20 feet as a bonus action on each of your turns.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>45-46</td>\n<td>You are blinded and deafened for 1 minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>47-48</td>\n<td>You have disadvantage on the first ability check, attack roll, or saving throw you make each turn for 1 minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>49-50</td>\n<td>You can&rsquo;t speak for the next minute. Whenever you try, pink bubbles float out of your mouth.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>51-52</td>\n<td>A shimmering energy barrier grants you a +2 bonus to AC for 1 minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>53-54</td>\n<td>You are immune to being intoxicated by alcohol for the next 5d6 days.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>55-56</td>\n<td>Your hair falls out but grows back within 24 hours. If you don&rsquo;t have hair, you instead grow it for 24 hours.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>57-58</td>\n<td>For 1 minute, any flammable object not worn or carried you touch bursts into flame.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>59-60</td>\n<td>You regain tech points equal to your Intelligence modifier (minimum of one).</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>61-62</td>\n<td>For the next minute, you shout whenever you speak.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>63-64</td>\n<td>You cast&nbsp;smoke cloud&nbsp;centered on yourself without expending tech points.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>65-66</td>\n<td>Up to three creatures you choose within 30 feet of you take 4d10 lightning damage.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>67-68</td>\n<td>You are frightened by the nearest creature until the end of your next turn.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>69-70</td>\n<td>Each creature within 30 feet of you becomes invisible for 1 minute, or until it attacks or casts a power.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>71-72</td>\n<td>You gain resistance to all damage for the next minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>73-74</td>\n<td>A random creature within 60 feet of you becomes poisoned for 1d4 hours.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>75-76</td>\n<td>You emit bright light in a 30-foot radius for 1 minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>77-78</td>\n<td>Each creature within 30 feet of you except you gains the benefits of&nbsp;mirror image&nbsp;for 1 minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>79-80</td>\n<td>Illusory butterflies and flower petals flutter in the air within 10 feet of you for the next minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>81-82</td>\n<td>You can take one additional action immediately.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>83-84</td>\n<td>Each creature within 30 feet of you takes 1d10 necrotic damage and you gain hit points equal to the damage.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>85-86</td>\n<td>You cast&nbsp;mirror image&nbsp;without expending tech points.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>87-88</td>\n<td>You are frozen in carbonite and paralyzed for 1 minute or until you take damage.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>89-90</td>\n<td>You turn invisible and can&rsquo;t make sound for 1 minute, or until you attack or cast a power.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>91-92</td>\n<td>If you die within the next minute, you immediately come back to life as if by the&nbsp;defibrillate&nbsp;power.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>93-94</td>\n<td>Your size increases by one size category for the next minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>95-96</td>\n<td>You and all creatures within 30 feet of you gain vulnerability to energy damage for the next minute.</td>\n</tr>\n<tr style=\"text-align: center;\">\n<td>97-98</td>\n<td>You are surrounded by faint, ethereal music for the next minute.</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">99-100</td>\n<td style=\"text-align: center;\">You regain half your expended tech points.</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

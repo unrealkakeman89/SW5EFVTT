@@ -1,0 +1,23 @@
+{
+    "_id": "JREOCyLjoDkCyCoX",
+    "name": "Furious Gunner",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 1 level in berserker</em></p><p>While raging and firing a primary wapon, you can take a penalty to your attack roll up to your rage damage bonus, adding twice the amount to the damage roll on a hit.</p>"
+        },
+        "prerequisites": [
+            "at least 1 level in berserker"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

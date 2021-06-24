@@ -1,0 +1,1109 @@
+{
+    "_id": "6RPcEZqbFBWSVDh1",
+    "name": "AT-ST",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 23,
+                "proficient": 1,
+                "min": 3,
+                "mod": 6,
+                "save": 10,
+                "prof": 4,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 19,
+                "proficient": 1,
+                "min": 3,
+                "mod": 4,
+                "save": 8,
+                "prof": 4,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 7,
+                "proficient": 0,
+                "min": 3,
+                "mod": -2,
+                "save": -2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "17",
+                "min": 0,
+                "formula": "armor plating"
+            },
+            "hp": {
+                "value": 168,
+                "min": 0,
+                "max": 168,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "16d12+64"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 3,
+                "prof": 0,
+                "total": 3
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 40,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 4,
+            "powerdc": 12,
+            "bar1": {
+                "value": 168,
+                "min": 0,
+                "max": 168
+            },
+            "bar2": {
+                "value": 17,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "\u2014"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"Affirmative, AT-ST support is on the way.\"</i></p><p><span style=\"font-size: 13px\">- An Imperial technician</span></p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Manufacturer</u></td><td style=\"line-height: 1.42857\"><ul><li>Kuat Drive Yards</li><li>Imperial Department of Military Research</li></ul></td></tr><tr><td style=\"line-height: 1.42857\"><u>Class</u></td><td style=\"line-height: 1.42857\">Combat walker</td></tr><tr><td style=\"line-height: 1.42857\"><u>Cost</u></td><td style=\"line-height: 1.42857\"><p>Not available for sale</p></td></tr><tr><td style=\"line-height: 1.42857\"><u>Length</u></td><td style=\"line-height: 1.42857\">4,5 meters</td></tr><tr><td style=\"line-height: 1.42857\"><u>Height</u></td><td style=\"line-height: 1.42857\">9 meters</td></tr><tr><td style=\"line-height: 1.42857\"><u>Mass</u></td><td style=\"line-height: 1.42857\">12.100 kilograms</td></tr><tr><td style=\"line-height: 1.42857\"><u>Cargo capacity</u></td><td style=\"line-height: 1.42857\">200 kg</td></tr></tbody></table><p>The All Terrain Scout Transport (AT-ST), also known as a Scout Transport, Scout Walker, or derisively as a chicken walker, was a lightweight, bipedal walker used by the ground forces of the Galactic Empire. Later, the First Order used an updated variant of the AT-ST within their military.</p><h3>Characteristics</h3><blockquote><p><i>\"The AT-ST kept spitting lasers at us, and we kept sinking lower and lower into the snow. Each blast took another bite out of the lip of the trench.\"</i></p><p><span style=\"font-size: 13px\">- Chanda Bethari describes an AT-ST firing on Hoth</span></p></blockquote><p>AT-STs were commonly used to screen the flanks of larger assault walkers for major ground operations. The Empire used them for swift reconnaissance and troop support. As such, they were essential for cleaning up minor resistance along the path of a planned invasion route, and could quickly eliminate any small threats that evaded an AT-AT's barrage. The walker was commonly used on anti-personnel hunting missions, and was piloted by two AT-ST drivers with superior skills of balance and agility.</p><p>AT-STs were equipped with two chin-mounted MS-4 twin blaster cannons capable of firing at a range of two kilometers. It also featured one cheek-mounted 88i twin light blaster cannon and one cheek-mounted DW-3 concussion grenade launcher capable of doing massive damage to enemy vehicles and ground troops at close range. They were excellent at dealing with large amounts of infantry as well as mounted turrets that were too risky to be taken out with rocket launchers. Its clawed feet could slash apart wires and fences at ground level.</p><p>Reinforced armor plates enveloped the control cabin, protecting the two-person crew. Its two armored viewports were deliberately set to give any viewer the unsettling sensation of staring into the face of a soulless beast or oversized combat droid. Inside the control cabin, the command module featured a holographic 360-degree view of the combat zone. The \"head\" itself was capable of rotating 240 degrees side to side, greatly benefiting the gunner's target-acquisition abilities and capabilities for destruction. The walker's deceptively rickety gait belied a potent patrol vehicle. Gyros, flexible joints, footpad sensors, and shock absorbers formed a sophisticated system that controlled balance and stabilized the walker across a variety of terrains.</p><p>Despite its speed and agility, an AT-ST walker's offensive and defensive power were significantly compromised. Offensively, its weapons systems were only good against lightly armored targets at close range. Defensively, its lighter armor could repel attacks from small-arms fire, but not laser cannons, missiles, or other heavy ordnance. Its armor did not cover its entire frame, lest the walker lose its agility. Striking the walker's unprotected gyros underneath the command module could destabilize the walker and cause it to fall. Additionally, deep trenches or cable lines leveled at the height of the AT-ST's ankles and knees could cause it to trip and topple the vehicle.</p><p>The modular design of the All Terrain Scout Transport allowed for ease in customizing the walker with armaments and tools for specific mission parameters. Mortar launchers were one such weapon that could be attached to the command pod of the AT-ST.</p><p>The Ewoks of Endor discovered that the AT-STs were vulnerable to anti-Gorax traps. Ramming logs could smash through the walker's head, destroying the cockpit. One of its other weaknesses was its susceptibility to hijacking, despite the height of the vehicle seemingly making hijacking an impossibility. A sufficiently strong force could rip the entrance hatch off the top of the walker. If commandeered, the walker's cannons could easily penetrate other AT-STs' armor.</p><h3>Variant models</h3><p><b>AT-ST Mark III</b></p><p>The AT-ST Mark IIIs were equipped with experimental armor that provided more speed and durability than that of the standard AT-ST. Mounted with twin heavy laser cannons and piloted by veteran crews, they excelled against most targets.</p><p><b>AT-ST Raider</b></p><p>A variant used by a Klatooinian tribe.</p><p><b>Cold weather AT-ST Mark III</b></p><p>A variant of the AT-ST Mark III. This variant had its internal systems retrofitted to allow for optimal performance in sub-zero temperatures.</p><p><b>Enhanced AT-ST Walker</b></p><p>The enhanced AT-ST Walkers boasted enhanced power couplings and sub-systems, allowing their weapons to fire high-powered blasts at a faster rate than average. They also had dark armor plates.</p><p><b>First Order AT-ST</b></p><p>The First Order utilized an updated version of the AT-ST that featured upgraded armor and gyroscopic systems.</p><p><b>All Terrain Heavy Scout</b></p><p>The All Terrain Heavy Scout was variant of the highly evolved First Order AT-ST, which saw service in the First Order army during the intergalactic First Order\u2013Resistance war.</p><h3>History</h3><blockquote><p><i>\"The big AT-AT's mostly advanced up the middle, so out on the edge of the battlefield we'd been pinned down by a little scout walker. I guess it wanted to keep us from flanking it's big cousins.\"</i></p><p><span style=\"font-size: 13px\">- Chanda Bethari's account of fighting an AT-ST on Hoth</span></p></blockquote><p>Part of the All-Terrain walker family, the AT-ST's role in supporting Imperial ground operations earned it the moniker \"scout walker\" owing to its ability in ferreting out enemy positions and inspecting locations in advance of larger walkers. It was better equipped than the Republic AT-RT.</p><p>The Imperial Military commonly used the AT-ST in a variety of environments. At least one AT-ST was deployed on Jedha in 0 BBY in a battle during the planet's insurgency. The walkers were also used in the Galactic Civil War, and between the Battle of Yavin and Battle of Hoth, the Alliance to Restore the Republic operated stolen AT-STs, and provided them to Saponza's Gang, who often fought against the walkers. Several fought alongside AT-ATs at the Battle of Hoth. They also notably participated in the Battle of Endor, where they were defeated by the Ewoks and their traps. The walkers were also used by the Empire in the final battle of the Galactic Civil War, the Battle of Jakku, which ended up being an overwhelming victory for the New Republic.</p><p>Thirty years after the close of the Galactic Civil War, a splinter military group of the New Republic called the Resistance utilized old Imperial AT-STs in combat against the reorganized remnants of the Galactic Empire, the First Order. They possessed an orange repaint and were crested with the Resistance starbird.</p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "construct",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 11,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 7200
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "huge",
+            "di": {
+                "value": [
+                    "poison",
+                    "necrotic"
+                ],
+                "custom": ""
+            },
+            "dr": {
+                "value": [
+                    "psychic"
+                ],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": "Ion"
+            },
+            "ci": {
+                "value": [
+                    "poisoned",
+                    "frightened",
+                    "petrified",
+                    "restrained",
+                    "stunned",
+                    "prone",
+                    "blinded",
+                    "charmed"
+                ],
+                "custom": "Incapacitated, Disease"
+            },
+            "languages": {
+                "value": [],
+                "custom": "\u2014"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 6,
+                "passive": 16,
+                "prof": 0,
+                "total": 6
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "AT-ST",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/token.webp",
+        "tint": null,
+        "width": 3,
+        "height": 3,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 15,
+        "brightSight": 15,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "6RPcEZqbFBWSVDh1",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "NzczNDYyZmQzOGU0",
+            "name": "Towering",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>Creatures of Medium size or smaller can stand in the AT-ST's space.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NTNlMjUzOWY0ZWZk",
+            "name": "Piloted",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The construct requires an active pilot to take any actions, and if the pilot is subjected to any conditions that the construct is not immune to, the construct is also subjected to those conditions. The pilot may take their own action or one of the actions granted by the construct.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NmY4MDM5ZTMzNGZm",
+            "name": "Circuitry",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The construct has disadvantage on saving throws against effects that would deal ion or lightning damage.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YmI2N2EyMjc2OTBk",
+            "name": "Vulnerable Interior",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The AT-ST's interior is vulnerable to damage done by grenades, mines and charges, unless it is immune to that damage. It also automatically fails all Dexterity saving throws from such effects that occur in its interior.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MTk0MmE2ZmFiZDA4",
+            "name": "Multiattack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The AT-ST can use its Frightful Presence. It then makes two attacks with its medium repeating blasters or takes the Stomp action.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/skills/green_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "MzY3M2UwNWUzMWQ5",
+            "name": "Medium Repeating Blasters",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+7, Range 12/240 ft., One target. <em>Hit : </em>25 (4d10+3) energy damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 12,
+                    "long": 240,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "4d10+3",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ODZjMDI2NzZkNjlh",
+            "name": "Stomp",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>All creatures standing within the AT-ST's space or within 5 feet of it must make a DC 18 Dexterity saving throw, taking 39 (6d12) kinetic damage on a failed save, or half as much damage on a successful one.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "dex",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 70000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MzU5OTUzMGZkMGFk",
+            "name": "Frightful Presence",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>Each creature of the AT-ST's choice that is within 80 feet of the AT-ST and aware of it must succeed on a DC 15 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature's saving throw is successful or the effect ends for it, the creature is immune to the AT-ST's Frightful Presence for the next 24 hours.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "wis",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 80000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/147_-_AT-ST/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

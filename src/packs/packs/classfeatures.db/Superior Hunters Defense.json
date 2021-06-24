@@ -1,0 +1,71 @@
+{
+    "_id": "LLSeCmTx42FanV5K",
+    "name": "Superior Hunter's Defense",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 15th level, you gain one of the following features of your choice.</p>\n<hr />\n<blockquote>\n<h4><strong>EVASION</strong></h4>\n<p>When you are subjected to an effect, such as a consular&rsquo;s&nbsp;force storm&nbsp;or an engineer&rsquo;s&nbsp;explosion, that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on a saving throw, and only half damage if you fail.</p>\n<hr />\n<h4><strong>STAND AGAINST THE TIDE</strong></h4>\n<p>When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attac against another creature (other than itself) of your choice.</p>\n<hr />\n<h4><strong>UNCANNY DODGE</strong></h4>\n<p>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack&rsquo;s damage against you.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

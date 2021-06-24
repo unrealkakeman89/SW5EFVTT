@@ -1,0 +1,71 @@
+{
+    "_id": "0S9V08vxNWCytOmw",
+    "name": "Ichor Lightning",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Beginning when you choose this order at 3rd level, you gain a new attack option that you can use with the Attack action. This special attack is a ranged focus attack with a range of 30 feet. You are proficient with it, and you add your focus ability modifier to its attack and damage rolls. Its damage is necrotic, and it uses your Martial Arts die for its damage die.</p>\n<p>When you would make an unarmed strike as part of your Martial Arts bonus action attack or your Flurry of Blows, you can replace the attack with this one.</p>\n<p>When you reduce a creature to 0 hit points with this attack, you gain temporary hit points equal to your Wisdom or Charisma modifier + your monk level (your choice, minimum of one).</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

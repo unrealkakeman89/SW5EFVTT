@@ -1,0 +1,71 @@
+{
+    "_id": "8siCD9NgvKURO3WW",
+    "name": "Firestorm",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you choose this approach at 3rd level, you gain proficiency in martial blasters with the burst or rapid property. Additionally, you&rsquo;ve learned to use ranged weapons with untold fury. While wielding a blaster with which you are proficient, you gain the following benefits:</p>\n<ul>\n<li>When making a ranged weapon attack while within 30 feet of your target, you use your choice of Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</li>\n<li>When you use a blaster as an improvised weapon, you are considered proficient with it.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

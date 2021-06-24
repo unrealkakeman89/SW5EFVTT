@@ -1,0 +1,32 @@
+{
+    "name": "Comm Jammer",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A comm jammer is a device used to scramble communications. A comm jammer can block transmissions from unenhanced communications devices in a 100 foot radius.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 3,
+        "price": 450,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Communications/Comm%20Jammer.webp",
+    "_id": "fGHNS8jAO97FoOj4"
+}

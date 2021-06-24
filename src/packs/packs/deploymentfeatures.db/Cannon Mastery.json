@@ -1,0 +1,31 @@
+{
+    "_id": "ySoRjQ6Fx6npb3yW",
+    "name": "Cannon Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": "Gunning Mastery"
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>You are the master of laser cannons. While you are firing a primary weapon, when you take the Attack action, you can choose to fire rapidly at the expense of accuracy. Your attacks are made without the aid of your proficiency bonus, but you use your bonus action to make an additional attack, also without your proficiency bonus.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

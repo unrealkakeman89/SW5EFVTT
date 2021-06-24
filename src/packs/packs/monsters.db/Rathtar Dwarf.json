@@ -1,0 +1,998 @@
+{
+    "_id": "3GYLdNERRbVGZwbt",
+    "name": "Rathtar, Dwarf",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 18,
+                "proficient": 0,
+                "min": 3,
+                "mod": 4,
+                "save": 4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 19,
+                "proficient": 1,
+                "min": 3,
+                "mod": 4,
+                "save": 7,
+                "prof": 3,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 6,
+                "proficient": 0,
+                "min": 3,
+                "mod": -2,
+                "save": -2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 6,
+                "proficient": 0,
+                "min": 3,
+                "mod": -2,
+                "save": -2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "15",
+                "min": 0,
+                "formula": "natural armor"
+            },
+            "hp": {
+                "value": 114,
+                "min": 0,
+                "max": 114,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "12d10+48"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 0,
+                "prof": 0,
+                "total": 0
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 3,
+            "powerdc": 11,
+            "bar1": {
+                "value": 114,
+                "min": 0,
+                "max": 114
+            },
+            "bar2": {
+                "value": 15,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "blindsight": 60
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"Ever heard of the Trillia Massacre?\"</i></p><p><i>\"No.\"</i></p><p><i>\"Good.\"</i></p><p style=\"margin-bottom: 9px\">- Finn and Rey</p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Designation</u></td><td style=\"line-height: 1.42857\">Non-sentient</td></tr><tr><td style=\"line-height: 1.42857\"><u>Average height</u></td><td style=\"line-height: 1.42857\">1,68 to 1,74 meters</td></tr><tr><td style=\"line-height: 1.42857\"><u>Average mass</u></td><td style=\"line-height: 1.42857\">650 kilograms</td></tr><tr><td style=\"line-height: 1.42857\"><u>Skin color</u></td><td style=\"line-height: 1.42857\"><p>Red</p></td></tr><tr><td style=\"line-height: 1.42857\"><u>Eye Color</u></td><td style=\"line-height: 1.42857\">Puce</td></tr><tr><td style=\"line-height: 1.42857\"><u>Distinctions</u></td><td style=\"line-height: 1.42857\"><ul><li>Green blood</li><li>Numerous eyes</li><li>Numerous tentacles</li></ul></td></tr><tr><td style=\"line-height: 1.42857\"><u>Homeworld</u><br></td><td style=\"line-height: 1.42857\"><p>Trillia</p></td></tr><tr><td style=\"line-height: 1.42857\"><u>Habitat</u><br></td><td style=\"line-height: 1.42857\">Swamps<br></td></tr><tr><td style=\"line-height: 1.42857\"><u>Diet</u><br></td><td style=\"line-height: 1.42857\"><p>Carnivorous</p></td></tr></tbody></table><p>Rathtars were large, carnivorous cephalopods that were native to the planet Twon Ketee. Regarded as one of the most dangerous beasts in the galaxy, rathtars were known for hunting in packs, and their subspecies, the dwarf rathtar, were involved in an incident known as the Trillia Massacre. They shared common ancestry with the sarlacc, blixus and vixus.</p><p>Dwarf rathtar was a subspecies of rathtar found on Trillia. They were involved in an incident known as the Trillia Massacre.</p><h3 style=\"font-family: &#34;helvetica neue&#34; , &#34;helvetica&#34; , &#34;arial&#34; , sans-serif\">Biology and appearance</h3><blockquote><p><i>\"Rathtars are among the most dangerous creatures in the galaxy. Hungry. Vicious. Relentless.\"</i></p><p>- Darth Maul's thoughts while battling a rathtar</p></blockquote><p>Although the study of rathtars was rare due to the danger posed by the beasts, it was believed that they shared common ancestry with other tentacled species such as the sarlaccs, the blixii, and the vixus of Umbara. Rathtars reproduced by fission, leading to rapidly increasing numbers if the species' population was not controlled.</p><p>Rathtars appeared physiologically primitive, endowed with only rudimentary senses and possessing small brains. Despite the appearance of a mindless eating machine, rathtars proved effective at working together, and displayed affinity for pack hunting. Individual rathtars appeared to become smarter when in proximity to others of its species, and rathtar packs utilized howls, at a frequency beyond humanoid hearing, to communicate among one another. They also vocalized deafening roars when attacking and devouring prey, and let out horrifying shrieks of fury when in pain. If in danger from a rathtar, one's best hope was to hide, as the creatures were largely blind.</p><p>Lacking a true skeleton, a rathtar had an enormous, round, slug-like body covered in light-reactive sensing orbs. They possessed multiple long, tentacle-like appendages; their principal feeding tentacles whipped out to capture and devour prey, which typically consisted of anything they perceived as non-rathtar. The creatures were ravenous and persistent eaters, capable of consuming virtually anything that they could fit into their robust, radial mouths, which were funnel-shaped and lined with rows of razor-sharp teeth. Their throat distended outward into a hollow tongue, useful for swallowing struggling prey. The bilious creatures typically tore their meals apart piece by piece.</p><p>Capable of locomotion, rathtars curled their ambulatory tentacles inward to form a ball and roll themselves forward in a whirl of whipping tentacles. They moved deceptively fast for their size, and had adhesive pads on their pointed tentacle tips\u2014known as a club\u2014which helped them attach to surfaces. Their tentacles had enormous strength, and were of a muscular hydrostat form. Their fleshy bodies were covered in a hard, rubbery exterior, giving the rathtars a heavy resistance to blaster bolts, small-arms fire, and even biting attacks.</p><p>A smaller subspecies of rathtar found on Trillia was known as the dwarf rathtar.</p><h3 style=\"font-family: &#34;helvetica neue&#34; , &#34;helvetica&#34; , &#34;arial&#34; , sans-serif\">Rathtars in the galaxy</h3><blockquote><p><i>\"You're not hauling rathtars on this freighter, are you?\"</i></p><p><i>\"I'm hauling rathtars.\"</i></p><p>- Finn and Han Solo</p></blockquote><p>The biological study of rathtars was extremely rare due to the beasts' dangerous nature.[8] Although capturing even one rathtar was considered a near impossibility, the creatures were targeted by hunters and collectors. More often than not, however, those who hunted rathtars typically ended up being the hunted. They were notably prized by those who amassed live biological specimens, such as King Prana and his rival, Regent Solculvis of the Mol'leaj system.</p><p>Rathtars were found on Twon Ketee, where they were hunted by a team employed by a big-game hunter during the last decades of the Galactic Republic. The group, led by an alien hunter, encountered a rathtar in the swamps, which used its tentacles to slam the hunters into hard surfaces before devouring them. The massacre was observed by the Sith Lord Darth Maul, who attacked the rathtar with an ax. He defeated the beast, only to recall the creatures were pack hunters, and faced off against two more of the monsters. Maul sated his bloodlust by killing both, dropping a tree on the last, and departed the planet to report back to his Sith Master, Darth Sidious.</p><p>Prior to his involvement with the Dragon Void Run, Han Solo attempted to steal a newly hatched rathtar belonging to the alien Dorae, who intended to use the creature to pay off important individuals. The beast attempted to eat Solo, causing his Wookiee First Mate Chewbacca to kill it. Dorae, unable to pay her debts, lost her protection and suffered greatly. She tracked down Solo and Chewbacca during the Galactic Civil War, hoping to exact revenge for her woes.</p><p>At some point before the Cold war, rathtars were involved in an unspeakably vile and depraved incident that came to be known as the Trillia Massacre, in which many beings were killed and eaten by the creatures. Thirty years after the Battle of Endor, Han Solo transported three rathtars aboard his Baleen-class heavy freighter, the Eravana, though getting the creatures aboard cost Solo most of his crew. Solo was transporting the creatures to a collector, King Prana, who he said was in competition with the regent of the Mol'leaj system. When Han, Chewbacca, and BB-8 were confronted by Kanjiklub and the Guavian Death Gang, Rey and Finn were below the deck, listening. When it seemed like Han was in trouble, Rey proposed they close the blast doors on either side of Han and Chewie by resetting the fuses. Rey unfortunately tinkered with the wrong set of fuses, unleashing the rathtars, whose horrible cries echoed throughout the freighter. Just as the combined gangsters of Kanjiklub and the Guavian Death Gang were about to kill Han and Chewie, both groups were suddenly attacked from behind by two of the rathtars, while the third chased Finn and Rey throughout the ship. Finn was grabbed by a rathtar and almost killed, but Rey saved him by closing a door on the tentacle holding Finn.</p><p>When Rey, Finn, and Solo boarded the Millennium Falcon to escape, a rathtar attached itself to the cockpit window, trying to bite through it. The Falcon entered hyperspace while the rathtar was still clinging to the ship, and was ripped apart by the extreme acceleration, leaving smears on the window. A number of rathtars survived aboard the Eravana, and King Prana ultimately learned of the incident, unhappy at being denied his prizes.</p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "beast",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 5,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 1800
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "lg",
+            "di": {
+                "value": [],
+                "custom": "Poisoned, Prone"
+            },
+            "dr": {
+                "value": [
+                    "poison"
+                ],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "\u2014"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ste": {
+                "value": 2,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 16,
+                "prof": 6,
+                "total": 6
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/108_-_Rathtar_2C_Dwarf/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Rathtar, Dwarf",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/108_-_Rathtar_2C_Dwarf/token.webp",
+        "tint": null,
+        "width": 2,
+        "height": 2,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 10,
+        "brightSight": 10,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "3GYLdNERRbVGZwbt",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "Y2I5MDJiNmI3NGFj",
+            "name": "Spider Climb",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The rathtar can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/108_-_Rathtar_2C_Dwarf/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YzI0ZWM0ZmViYjFj",
+            "name": "Grasping Arms",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The rathtar can have up to eight arms at a time. Each arm can be attacked (AC 20; 10 hit points; immunity to poison and psychic damage). Destroying an arm deals no damage to the rathtar, which can extrude a replacement arm on its next turn. An arm can also be broken if a creature takes an action and succeeds on a DC 15 Strength check against it.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/108_-_Rathtar_2C_Dwarf/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZWQyMmZmZTc0MTkw",
+            "name": "Multiattack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The rathtar makes four flailing arm attacks, uses Reel, and makes one attack with its bite.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/skills/green_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "YTgzZWJlZDQ4MDkx",
+            "name": "Flailing Arms",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+7, Reach 15 ft., One target. <em>Hit : </em>6 (1d4+4) kinetic damage.</p><p>The target is grappled (escape DC 15) if it is Medium or smaller. Until the grapple ends, the rathar can't use this arm on another target. The rathtar has eight arms and can have up to four creatures grappled at a time.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 15,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4+4",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/108_-_Rathtar_2C_Dwarf/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NmNlMDEyMWRmMTlk",
+            "name": "Bite",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+7, Reach 5 ft., One target. <em>Hit : </em>11 (2d6+4) kinetic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "str",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "2d6+4",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/108_-_Rathtar_2C_Dwarf/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NDQ3NGE0YjI1MDIx",
+            "name": "Reel",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The rathtar pulls each creature grapples by it up to 15 feet straight toward it.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/108_-_Rathtar_2C_Dwarf/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

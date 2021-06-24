@@ -1,0 +1,102 @@
+{
+    "name": "Shoulder Cannon",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>A shoulder cannon is a weapon mounted on a creature\u2019s shoulder with an integrated targeting interface that uses traditional power cells. When you would make a ranged weapon attack, you can fire this weapon instead. It has the ammunition (range 60/240), burst 4, and reload 4 properties, and deals 1d8 energy damage on a hit. The shoulder cannon has a proficiency bonus of +2 and a Dexterity score of 16, which are used instead of your proficiency bonus and Dexterity modifier when making attack and damage rolls with it.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 9,
+        "price": 3200,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": 60,
+            "long": 240,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "ammo",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": 5,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8 + 3",
+                    "radiant"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "spell"
+        },
+        "weaponType": "simpleR",
+        "properties": {
+            "amm": true,
+            "fin": false,
+            "fir": false,
+            "foc": false,
+            "hvy": false,
+            "lgt": false,
+            "lod": false,
+            "rch": false,
+            "rel": true,
+            "ret": false,
+            "spc": false,
+            "thr": false,
+            "two": false,
+            "ver": false
+        },
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Weapon%20or%20Armor%20Accessory/Shoulder%20Cannon.webp",
+    "_id": "m1xOrZbVJXy9jrQg"
+}

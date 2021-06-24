@@ -1,0 +1,71 @@
+{
+    "_id": "RMSdumXiAEfpyqyy",
+    "name": "Blitz Attack",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Pugnacity Practice</strong>:&nbsp;3rd level</em></p>\n<p>You've learned ways to use your martial ability to boost your combat performance. When you deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to make the attack a blitz attack.</p>\n<p>Some of your blitz attacks require your target to make a saving throw to resist the attack's effects. The saving throw DC is as follows:</p>\n<p><strong>Blitz Attack save DC</strong>&nbsp;= 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</p>\n<hr />\n<blockquote>\n<h3><strong>Demoralizing Attack</strong></h3>\n<p>The target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</p>\n<hr />\n<h3><strong>Diverting Attack</strong></h3>\n<p>Roll two of your Sneak Attack dice. The first time the target would deal damage before the start of your next turn, that damage is reduced by an amount equal to the resulting roll.</p>\n<hr />\n<h3><strong>Warmonger's Attack</strong></h3>\n<p>If the target makes an attack against you or an allied creature within 5 feet of you before the start of your next turn, you can use your reaction to make a melee weapon attack against it.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Pugnacity 3",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/OPRT-ARCH-Passive.webp",
+    "effects": []
+}

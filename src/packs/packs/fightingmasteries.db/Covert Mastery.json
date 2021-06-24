@@ -1,0 +1,20 @@
+{
+    "_id": "q5IQo4zZmggUHiv2",
+    "name": "Covert Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered fighting from unseen angles, gaining an advantage over your foes. You gain the following benefits:</p><ul><li>You can try to hide when you are lightly obscured from the creature from which you are hiding.</li><li>Dim light doesn't impose disadvantage on your Wisdom (Perception) checks that rely on sight.</li><li>When you are hidden from a creature and miss it with an unarmed strike or weapon attack, making the attack doesn't automatically reveal your position.</li><li>Once per turn, when you deal damage to a creature with an unarmed strike or weapon attack while hidden from it, you deal additional damage equal to your proficiency bonus.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Covert%20Mastery.webp",
+    "effects": []
+}

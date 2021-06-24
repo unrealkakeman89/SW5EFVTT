@@ -1,0 +1,71 @@
+{
+    "_id": "Wfc2dF25ZJ2TLNID",
+    "name": "Monastic Vows",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Monk</strong>:&nbsp;2nd, 7th, 13th, and 17th level</em></p>\n<p>You&rsquo;ve sworn two vows, as detailed at the end of the class description. You swear an additional vow at 7th, 13th, and 17th level.</p>\n<h2>MONASTIC VOWS</h2>\n<p>The vows are presented in alphabetical order. If a vow has prerequisites, you must meet them to learn it. You can learn a vow at the same time you meet its prerequisites.</p>\n<hr />\n<blockquote>\n<h4><strong>VOW OF DEFLECTION</strong></h4>\n<p>You can use your reaction to divert a strike when you are dealt damage by a melee weapon attack. When you do so, the damage taken by the attack is reduced by 1d10 + your Dexterity modifier + your monk level.</p>\n<hr />\n<h4><strong>VOW OF THE DEVOTED</strong></h4>\n<p>You gain a limited ability to manipulate the Force. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.</p>\n<ul>\n<li><strong>Force Powers Known</strong>.&nbsp;You learn 2 force powers of your choice. You learn an additional power at 3rd, 5th, 7th, 9th, 11th, 13th, 15th, and 17th level. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite. You may only learn universal powers in this way.</li>\n<li><strong>Force Points</strong>.&nbsp;Rather than force points, powers you learn through this vow are cast using your focus points, at 1 focus point per power level. You may only cast universal powers in this way.</li>\n<li><strong>Max Power Level</strong>.&nbsp;Many force powers can be overpowered, consuming more focus points to create a greater effect. You can overpower these abilities to a maximum level, which increases at higher levels. Your Max Power Level is 1st. It increases to 2nd at 7th level, 3rd at 13th level, and 4th at 17th level. You may only cast force powers at 4th-level once. You regain the ability to do so after a long rest.</li>\n<li><strong>Forcecasting Ability.</strong>&nbsp;You use your focus ability whenever a power refers to your forcecasting ability. If a power you cast with focus points calls for a saving throw, you use your focus save DC. If a power you cast with focus points calls for an attack roll, you use your focus attack modifier.</li>\n</ul>\n<hr />\n<h4><strong>VOW OF FATE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br />When you finish a short or long rest, roll a d20 and record the number rolled. Once before your next short or long rest, you can replace any attack roll, saving throw, or ability check made by you or a creature within 5 feet of you with this roll. You must choose to do so before the roll.</p>\n<hr />\n<h4><strong>VOW OF THE FIGHTER</strong></h4>\n<p>You adopt a particular style of fighting as your specialty. Choose one of the fighting Style options, detailed in Chapter 6. You can&rsquo;t take a fighting Style option more than once, even if you later get to choose again.</p>\n<hr />\n<h4><strong>VOW OF FORTITUDE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br />You can use your action or bonus action to end one effect on yourself that is causing you to be blinded or deafened.</p>\n<hr />\n<h4><strong>VOW OF FREEDOM</strong></h4>\n<p>You ignore unenhanced difficult terrain, and when you would use your action to break free of an effect that is grappling or restraining you, you can instead use your bonus action.</p>\n<hr />\n<h4><strong>VOW OF INTUITION</strong></h4>\n<p>You can no longer have disadvantage on attack rolls against creatures within 10 feet of you due to not being able to see them.</p>\n<hr />\n<h4><strong>VOW OF THE LIMBER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br />When you make your first unarmed strike on your turn, you can choose to spend 1 focus point. If you do so, your reach with your unarmed strikes increases by 5 feet until the end of your turn.</p>\n<hr />\n<h4><strong>VOW OF METTLE</strong></h4>\n<p>You can use Strength instead of Wisdom or Charisma when determining your Unarmored Defense.</p>\n<hr />\n<h4><strong>VOW OF THE MORTAL</strong></h4>\n<p>You can use Constitution instead of Wisdom or Charisma when determining your Unarmored Defense.</p>\n<hr />\n<h4><strong>VOW OF THE NEMESIS</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br />As a bonus action, you can choose one creature within 30 feet that you can see. The creature must make a Wisdom saving throw against your focus save DC. On a successful save, the creature becomes immune to this feature for 24 hours. On a failed save, for the next minute, the creature has disadvantage on attack rolls against creatures other than you, and it must make an additional Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you; if it succeeds on this saving throw, this feature doesn&rsquo;t restrict its movement for that turn.</p>\n<p>This feature ends early if you attack another creature, if you target another hostile creature with a power or class feature, if a friendly creature damages the target, if a friendly creature targets it with a power or class feature, or if you target another creature with this feature.</p>\n<hr />\n<h4><strong>VOW OF THE OPEN MIND</strong></h4>\n<p>You gain proficiency in a skill of your choice. Additionally, you can spend 1 focus point and 10 minutes meditating on a skill in which you are proficient. If you do so, when you make an ability check with the chosen skill, you can add your Wisdom or Charisma modifier to the check if it doesn&rsquo;t already include that modifier. You can only have one instance of this feature active at a time.</p>\n<hr />\n<h4><strong>VOW OF PRECISION</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br />Your critical hit range with unarmed strikes increases by 1.</p>\n<hr />\n<h4><strong>VOW OF REQUITAL</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br />When you take the Dodge action and an attack made by a creature within 5 feet of you misses you before the start of your next turn, you can use your reaction to make one melee weapon attack with a monk weapon or unarmed strike against that creature.</p>\n<hr />\n<h4><strong>VOW OF RESTORATION</strong></h4>\n<p>When you would make an unarmed strike, you can spend 1 focus point to instead touch a willing creature within your reach. Roll your Martial Arts die. The target gains hit points equal to the amount rolled + your Wisdom or Charisma modifier (your choice, minimum of +1).</p>\n<hr />\n<h4><strong>VOW OF THE SENTRY</strong></h4>\n<p>You gain proficiency in light and medium armor. Additionally, you can now gain the benefits of your Martial Arts and Unarmored Movement features while wearing light or medium armor as long as you are not wielding a shield.</p>\n<hr />\n<h4><strong>VOW OF SERENITY</strong></h4>\n<p>Your maximum focus increases by an amount equal to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of +1).</p>\n<hr />\n<h4><strong>VOW OF THE SHREWD</strong></h4>\n<p>You can use Intelligence instead of Wisdom or Charisma when determining your Unarmored Defense.</p>\n<hr />\n<h4><strong>VOW OF SPIRIT</strong></h4>\n<p>You can use your choice of Wisdom or Charisma instead of Strength or Dexterity for the attack and damage rolls of your unarmed strikes and monk weapons. You must use the same modifier for both rolls.</p>\n<hr />\n<h4><strong>VOW OF THE VERSATILE</strong></h4>\n<p>When you would make an unarmed strike as part of your Martial Arts bonus action attack or your Flurry of Blows, you can instead make a weapon attack with a monk weapon you are wielding.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Monk 2",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/MNK-Passive.webp",
+    "effects": []
+}

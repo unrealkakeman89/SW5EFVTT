@@ -1,0 +1,112 @@
+{
+    "name": "Crime Lord",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "Few societies manage to eradicate crime altogether. In the underworld, someone always rises to the top, either through vision, organisation, or sheer intimidation. The life of a crime lord isn't for the timid. After conquering an unseen empire, the crime lord wages a daily struggle not only to stay on top, but also to stay alive."
+        },
+        "flavorName": {
+            "value": "Criminal Motivation"
+        },
+        "flavorDescription": {
+            "value": "Not every crime lord is bent on corrupting society and making a profit. Some use their criminal connections to wage guerilla wars against tyrants and despots. Indeed, some historical heroes began as smugglers or pirates, rising through the ranks of their organization to provide a more noble direction for their group's activities. Although some did so to remove an obstacle to making more money, others recognized that ridding the galaxy of evil is a more important long-term goal. Choose the motivation behind your criminal enterprise, or roll on the table below."
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Criminal Motivation</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Desperation</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Freedom</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Infamy</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Love</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Malice</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Profit</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Respect</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Revenge</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Deception, Insight, Intimidation, and Persuasion"
+        },
+        "toolProficiencies": {
+            "value": "One type of gaming set"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A fine set of clothes, a gaming set (one of your choice), and a purse containing 250 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Crime lords might seem like villains on the surface, and many of them are villainous to the core. But some have an abundance of endearing, if not redeeming, characteristics. Unlike common thieves, some crime lords even have some respect for law and authority, with whom they play a cat-and-mouse type game."
+        },
+        "featureName": {
+            "value": "Criminal Network"
+        },
+        "featureText": {
+            "value": "You have access to an extensive network of organised crime. You know how to get messages to and from local contacts, even over great distances; you know the local messengers, corrupt caravan masters, and seedy sailors who can deliver messages for you."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Silver-Tongued</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Threatening</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Charmer</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Inspiring Leader</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Observant</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I always have a plan for what to do when things go wrong.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am always calm, no matter what the situation. I never raise my voice or let me emotions control me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">My eloquent flattery makes everyone I talk to feel like the most wonderful and important person in the world.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I would rather make a new friend than a new enemy.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I don't like to get my hands dirty, and I won't be caught dead in unsuitable accommodations.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">My favor, once lost, is lost forever.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">If you do me an injury, I will crush you, ruin your name, and salt your fields.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I blow up at the slightest insult.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Honor. I don't steal from others in the trade. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Freedom. Chains are meant to be broken, as are those who would forge them. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Charity. I steal from the wealthy so that I can help people in need. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Greed. I will do whatever it takes to become wealthy. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">People. I'm loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Redemption. There's a spark of good in everyone. (Light)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I secretly believe that everyone is beneath me.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">When faced with a choice between money and my friends, I usually choose the money.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I too often hear veiled insults and threats in every word addressed to me, and I'm quick to anger.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I have a \"tell\" that reveals when I'm lying.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I turn tail and run when things look bad.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">An innocent person is in prison for a crime that I committed. I'm okay with that.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I'm trying to pay off an old debt I owe to a generous benefactor.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">My ill-gotten gains go to support my family.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Something important was taken from me, and I aim to steal it back.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">The common folk must see me as a hero of the people.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm guilty of a terrible crime. I hope I can redeem myself for it.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Someone I loved died because of a mistake I made. That will never happen again.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Crime%20Lord.webp",
+    "effects": [
+        {
+            "_id": "LLE0jXL2Pxlkz1pH",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Crime Lord",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Crime Lord",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "u75yM3bIf2ajjwcK"
+}

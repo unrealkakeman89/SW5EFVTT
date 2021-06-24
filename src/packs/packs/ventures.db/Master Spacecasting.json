@@ -1,0 +1,23 @@
+{
+    "_id": "ks1XMj0qAeKZX3cr",
+    "name": "Master Spacecasting",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Greater Spacecasting venture</em></p><p>When casting a force or tech power while aboard your ship and in space, the power's range is instead multiplied by 1,000. You can not target a hostile creature with a power unless you are aware of their presence and location.</p>"
+        },
+        "prerequisites": [
+            "Greater Spacecasting venture"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

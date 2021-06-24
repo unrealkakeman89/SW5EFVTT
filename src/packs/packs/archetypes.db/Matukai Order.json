@@ -1,0 +1,39 @@
+{
+    "_id": "taNiZralaSUdH6a2",
+    "name": "Matukai Order",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Monk",
+        "description": {
+            "value": "<h1>Matukai Order</h1>\n<p>Monks of the Matukai Order center their philosophy around a balance and harmony between the spiritual Force and the physical body, using exercise as a form of meditation. They channel the Force through their bodies, turning themselves into exceptional warriors.</p>\n<h2>Force-Enhanced Strikes</h2>\n<p>Beginning when you choose this order at 3rd level, you learn to channel the Force into your unarmed strikes and monk weapons, further enhancing your melee strikes. When you hit a creature with an unarmed strike or monk weapon, you can spend 1 focus point to deal it an additional 1d6 force damage.</p>\n<p>The force damage increases to 2d6 when you reach 11th level in this class.</p>\n<h2>Instinctive Leap</h2>\n<p>At 6th level, when a hostile creatures moves to within 5 feet of you, you can use your reaction to disengage and leap up to half your speed. If you end this movement in the air, you immediately fall to the ground.</p>\n<h2>Absorb Damage</h2>\n<p>Starting at 11th level, you learn to channel the Force into your skin and bones, greatly enhancing your durability. You can use a bonus action to channel the Force throughout your body. Until the start of your next turn, you have resistance to kinetic and energy damage.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.</p>\n<h2>Control the Field</h2>\n<p>At 17th level, whenever you use your Instinctive Leap feature, you can leap your entire movement speed instead of only half. Additionally, when you land, you can make an unarmed strike with advantage against a creature within 5 feet of you as part of the same reaction. On a hit, this attack deals an additional 2d6 force damage.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Matukai%20Order.webp",
+    "effects": []
+}

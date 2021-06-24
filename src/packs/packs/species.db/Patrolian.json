@@ -1,0 +1,186 @@
+{
+    "name": "Patrolian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Patrolians are fish-like in appearance, being covered in pale, pastel-colored scales and possession numerous fins on their long limbs and face, as well as a notable dorsal fin which often required modified clothing to accommodate.</p>\n<p>Thanks to their gills, patrolians are perfectly comfortable breathing underwater as well as on land, and their physiology is also notoriously resistant to electric shocks&mdash;both likely throwbacks to evolution on their native homeworld of Patrolia.</p>\n<h2>Society and Culture</h2>\n<p>Patrolians are a notably innovative and resourceful species, and many of their number have found their way into roles of the construction, maintenance and sale of technology.</p>\n<p>Unfortunately, patrolians tend to pursue these businesses in a shady manner, and most tend to operate such ventures in the criminal underworld, working as bounty hunters, thieves, fences, slicers and other such technically-demanding criminal roles.</p>\n<p>This inclination towards crime stems from their homeworld, which is perpetually stalled in a state of economic decay due to wartime. With the advent of multiple wars fought in the system, different armies continuing to see the aquatic world as a strategic bulwark in the region. Because of this, patrolians have to find work not only off-world, but typically in fields not falling under governmental purview. Unfortunately, criminal activities being a common path.</p>\n<h2>Names</h2>\n<p>Patrolian names are usually multisyllabic and sing-songy with lots of open vowels and few fricatives. Patrolians are not known to use family names or other surnames.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Dalladu, Feddi, Nogagai, Teconica</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Kakeda, Machibido, Rinimma, Talla</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><strong><em>Ability Score Increase.</em></strong> Your Intelligence score increases by 2, and your Dexterity or Charisma score increases by 1.</p>\n<p><strong><em>Age.</em></strong> Patrolians reach adulthood in their late teens and live less than a century.</p>\n<p><strong><em>Alignment.</em></strong> Patrolians' greedy, scheming nature causes them to tend toward the dark side, though there are exceptions.</p>\n<p><strong><em>Size.</em></strong> Patrolians typically stand just over 3 feet tall and generally weigh about 40 lbs. Regardless of your position in that range, your size is Small.</p>\n<p><strong><em>Speed.</em></strong> Your base walking speed is 25 feet.</p>\n<p><strong><em>Amphibious.</em></strong> You can breathe air and water.</p>\n<p><strong><em>Conniving.</em></strong> You have proficiency in Deception or Stealth (your choice).</p>\n<p><strong><em>Darkvision.</em></strong> Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><strong><em>Electrical Resistance.</em></strong> Patrolians are notably capable of shrugging off electrocutions. You have resistance to lightning damage.</p>\n<p><strong><em>Specialist.</em></strong> You have proficiency in one specialist's kit of your choice.</p>\n<p><strong><em>Swim.</em></strong> You have a swimming speed of 25 feet.</p>\n<p><strong><em>Technician.</em></strong> You are proficient in the Technology skill.</p>\n<p><strong><em>Undersized.</em></strong> Your small stature makes it hard for you to wield bigger weapons. You can&rsquo;t use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p>\n<p><strong><em>Languages.</em></strong> You can speak, read, and write Galactic Basic and Patrolian. Patrolian is a high-energy language, consisting mostly of gurgles and skittish vocalizations. Patrolian, even when spoken on land, sounds like it's being spoken underwater.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue-purple to green"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Light to dark red"
+        },
+        "distinctions": {
+            "value": "Fin-like limbs, pastel-colored scales"
+        },
+        "heightAverage": {
+            "value": "2'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "35 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Patrolia"
+        },
+        "slanguage": {
+            "value": "Patrolian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "colorScheme": {
+            "value": ""
+        },
+        "planguage": {
+            "value": ""
+        },
+        "droidDistinctions": {
+            "value": ""
+        },
+        "droidLanguage": {
+            "value": ""
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        },
+        "core": {
+            "sourceId": "Item.KH43IZr4IqeUM3lL"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Patrolian.webp",
+    "effects": [
+        {
+            "_id": "6ONrHdnvLzAAXP1o",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [
+                        "None"
+                    ],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Patrolian",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 25,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 25,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "lightning",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.tec.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "Patrolian",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Patrolian.webp",
+            "label": "Patrolian",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "WnAnY4autRdFaf29"
+}

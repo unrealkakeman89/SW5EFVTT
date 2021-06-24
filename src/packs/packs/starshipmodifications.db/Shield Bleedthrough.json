@@ -1,0 +1,37 @@
+{
+    "_id": "S2ZaGImPmkWRa7N6",
+    "name": "Shield Bleedthrough",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "2"
+        },
+        "description": {
+            "value": "<p>Your ship's reactor is overhauled to give temporary boosts to your ship's weapon batteries. When your ship hits another ship with a primary or secondary weapon attack while it still has shield points, a crew member can use their reaction to cause some of the damage to bleed through. The damage the ship's shields take is reduced by an amount equal to your ship's Strength modifier. The ship's hull then takes this much damage. This damage is of the same type as the weapon's damage.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

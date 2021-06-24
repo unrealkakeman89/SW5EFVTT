@@ -1,0 +1,94 @@
+{
+    "_id": "M9Zs6JU0u3HlwrTv",
+    "name": "Master Saber Throw",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Greater Saber Throw</em></p>\n<p>When you cast this power, you must be wielding at least one lightweapon or vibroweapon, otherwise the power fails. When you cast this power, you can throw two weapons, striking creatures in two lines originating from yourself, both 90 feet long and 5 feet wide, or you can throw one weapon in a 90-foot long, 5-foot wide line of your choice originating from yourself and change its direction to move in a second identical line of your choice within range. Each creature in a line must make a Dexterity saving throw. A creature takes 5d8 damage of the same type as the weapon&rsquo;s damage and 5d8 force damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one line is affected only once. The weapons then immediately return to your hand.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 8th level or higher, the weapon damage and force damage each increase by 1d8 for each slot level above 7th.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": "inst"
+        },
+        "target": {
+            "value": 90,
+            "units": "ft",
+            "type": "line",
+            "width": null
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "5d8",
+                    ""
+                ]
+            ],
+            "versatile": "5d8"
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 7,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d8"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Master%20Saber%20Throw.webp",
+    "effects": []
+}

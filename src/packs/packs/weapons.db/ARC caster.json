@@ -1,0 +1,160 @@
+{
+    "_id": "MYRL4RqwpkvpGEF7",
+    "name": "ARC caster",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>Burst 4, Rapid 2, Reload 4, Special, Strength 11, Two-handed</p>\n<p>When you score a critical hit with this weapon, a creature becomes shocked until the end of its next turn.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 10,
+        "price": 2400,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 30,
+            "long": 120,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 60
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8 + @mod",
+                    "lightning"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "martialB",
+        "properties": {
+            "amm": true,
+            "aut": false,
+            "bur": true,
+            "def": false,
+            "dex": false,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "fin": false,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "ken": false,
+            "lgt": false,
+            "lum": false,
+            "mig": false,
+            "pic": false,
+            "rap": true,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "shk": false,
+            "sil": false,
+            "spc": true,
+            "str": true,
+            "thr": false,
+            "two": true,
+            "ver": false,
+            "vic": false,
+            "nodam": false,
+            "fulldam": false
+        },
+        "proficient": false
+    },
+    "folder": "7rtfHBtXhhiRSS8u",
+    "sort": 100001,
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Martial%20Blasters/ARC%20Caster.webp",
+    "effects": [
+        {
+            "_id": "xGXO5cLr25ibPpu5",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "macroRepeat": "none",
+                    "transfer": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "",
+                    "value": "0",
+                    "mode": 2,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Martial%20Blasters/ARC%20Caster.webp",
+            "label": "Brutal",
+            "tint": "",
+            "transfer": false
+        }
+    ]
+}

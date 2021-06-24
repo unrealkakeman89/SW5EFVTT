@@ -1,0 +1,31 @@
+{
+    "_id": "VmkxPzNndRFPwvdA",
+    "name": "I'll Try Spinning",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Pilot"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>At 2nd rank, when you use take the Evade action, you can choose to have all attacks against you from a single ship have disadvantage until the beginning of your ship\u2019s next turn.</p><p>Once you\u2019ve used this feature, you can\u2019t use it again until you finish a long rest.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Pilot.webp",
+    "effects": []
+}

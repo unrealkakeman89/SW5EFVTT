@@ -1,0 +1,204 @@
+{
+    "_id": "55HlvBsEXuAkHOXk",
+    "name": "Droid, Class II",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<blockquote style=\"width: 620px; font-style: normal;\">\n<h3>Players as Droids</h3>\n<p>Work with your GM to determine if playing as a droid is appropriate for your campaign. Droids are impervious to many effects and vulnerable to others. If your GM approves this choice of species, work with them to determine your droids designation, name, and appearance. If you want to play a different type of droid, work with your GM to find traits to realize your character.</p>\n</blockquote>\n<h2>Appearance</h2>\n<p>Class II droids are typically small, standing between two and four feet. Their form and color scheme vary based on tasks for which they are created, their affiliation, or quirks of their owner.</p>\n<p>They are noteworthy for their distinct, function-oriented form.</p>\n<h2>Utility</h2>\n<p>Class II droids are programmed for engineering and other technical sciences. They differ from class one droids because they apply the science to real-life situations. Class II droids are rarely equipped with Basic vocabulators, instead communicating through Binary. There are five subcategories of class II droids. Astromech, exploration, environmental, engineering, and maintenance droids are all class II droids.</p>\n<h2>Names</h2>\n<p>Droids are typically called by their designation, given to them when they are created, or some affectation given to them by their owner. Often this affectation is a play on their designation.</p>\n<p>Occasionally, noteworthy droids will earn monikers based on their accomplishments.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Dexterity or Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Droids don&rsquo;t age, though they require maintenance to retain functionality.</p>\n<p><em><strong>Alignment.</strong></em> Droids tend toward no particular alignment. The best and worst are found among them.</p>\n<p><em><strong>Size.</strong></em> Class II droids stand 2 to 4 feet tall and weigh about 70 lbs. Regardless of your position in that range, your size is Small.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p>\n<p><em><strong>Type.</strong></em> Your creature type is droid. Armor Integration. You can not wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech&rsquo;s implements. You must be proficient in armor in order to have it integrated.</p>\n<p><em><strong>Droid Resistances.</strong></em> You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.</p>\n<p><em><strong>Droid Systems.</strong></em> You do not need to eat or drink. Additionally, you no longer require a tech focus to cast tech powers.</p>\n<p><em><strong>Droid Vulnerabilities.</strong></em> You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage.</p>\n<p><em><strong>Force Insensitive.</strong></em> While droids can be manipulated by many force powers, they can not sense the Force. You can not use force powers or take levels in forcecasting classes.</p>\n<p><em><strong>Integrated Engineering.</strong></em> You have proficiency in one specialist&rsquo;s kit of your choice. The chosen kit is integrated into your chassis, and can not be removed while you are conscious.</p>\n<p><em><strong>Maintenance Mode.</strong></em> Rather than sleep, you enter an inactive state to perform routine maintenance for 4 hours each day. You have disadvantage on Wisdom (Perception) checks while performing maintenance.</p>\n<p><em><strong>Rapid Reconstruction.</strong></em> You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points.</p>\n<p><em><strong>Retractable Arms.</strong></em> You have two retractable arms: one grasper and one manipulator. The manipulator arm can only wield light shield generators and weapons with the light property.</p>\n<p><em><strong>Skill Protocol.</strong></em> You have proficiency in two skills of your choice.</p>\n<p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield bigger weapons. You can&rsquo;t use heavy shields. Additionally, you can&rsquo;t use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you can not speak it.</p>"
+        },
+        "skinColorOptions": {
+            "value": ""
+        },
+        "hairColorOptions": {
+            "value": ""
+        },
+        "eyeColorOptions": {
+            "value": ""
+        },
+        "distinctions": {
+            "value": ""
+        },
+        "colorScheme": {
+            "value": "Varies"
+        },
+        "droidDistinctions": {
+            "value": "Retractible arms, integrated tools, diminutive size"
+        },
+        "heightAverage": {
+            "value": "2'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "60 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": ""
+        },
+        "slanguage": {
+            "value": ""
+        },
+        "manufacturer": {
+            "value": "Aratech Repulsor Company, Industrial Automaton"
+        },
+        "droidLanguage": {
+            "value": "Binary"
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Droid%20Class%20II.webp",
+    "effects": [
+        {
+            "_id": "1QGm5ILFRToMUhLq",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "necrotic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "psychic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.ci.value",
+                    "value": "diseased",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.ci.value",
+                    "value": "poisoned",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dv.value",
+                    "value": "ion",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "binary",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.details.species",
+                    "value": "Droid, Class II",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.forceInsensitive",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.maintenanceMode",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.rapidReconstruction",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.armorIntegration",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Droid%20Class%20II.webp",
+            "label": "Droid, Class II",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

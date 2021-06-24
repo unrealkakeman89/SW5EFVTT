@@ -1,0 +1,16 @@
+{
+    "_id": "xCaURmZKRSmkWsWb",
+    "name": "Deafened",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.MCcM06SUijj3OIwn"
+        }
+    },
+    "content": "<h4 id=\"deafened\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">DEAFENED</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">A deafened creature can&rsquo;t hear and automatically fails any ability check that requires hearing.</li>\n</ul>",
+    "img": "icons/svg/deaf.svg"
+}

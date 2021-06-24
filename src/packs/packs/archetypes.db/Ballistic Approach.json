@@ -1,0 +1,39 @@
+{
+    "_id": "hlZPMF7NjGemaw66",
+    "name": "Ballistic Approach",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Berserker",
+        "description": {
+            "value": "<h1>Ballistic Approach</h1>\n<p>For many, rushing an opponent with guns blazing is a last resort. For Berserkers of the Ballistic Approach, this isn't a last resort: it's the primary plan. Leading with a blaster and pure, unbridled rage, the berserker never lets an empty gun diminish their fury.</p>\n<h2>Firestorm</h2>\n<p>When you choose this approach at 3rd level, you gain proficiency in martial blasters with the burst or rapid property. Additionally, you\u2019ve learned to use ranged weapons with untold fury. While wielding a blaster with which you are proficient, you gain the following benefits:</p>\n<ul>\n<li>When making a ranged weapon attack while within 30 feet of your target, you use your choice of Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</li>\n<li>When you use a blaster as an improvised weapon, you are considered proficient with it.</li>\n</ul>\n<h2>Explosive</h2>\n<p>Also at 3rd level, while raging, you gain the following benefits:</p>\n<ul>\n<li>When you roll a 1 or 2 on a damage die for an attack made with a blaster weapon, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</li>\n<li>You add your rage damage to damage rolls from ranged weapon attacks while within 30 feet of your target. You may only apply your rage damage to one target when you use the burst property.</li>\n</ul>\n<h2>Rampage</h2>\n<p>At 6th level, while raging, when you deal damage with a blaster with which you are proficient while within 30 feet of your target, you can use a bonus action to move up to half your speed towards your target. You must end this movement closer to your target than you started. If you end this movement within 5 feet of your target, you can make one melee weapon attack with your blaster as a part of this bonus action.</p>\n<h2>Down, Not Out</h2>\n<p>Starting at 10th level, when you are hit with an attack by a creature within 30 feet of you, you can use your reaction to make a single attack against that creature with a blaster with which you are proficient.</p>\n<h2>Brawn</h2>\n<p>At 14th level, when you use the burst property of a blaster with which are you proficient, you can apply your rage damage bonus to every target that takes damage. Additionally, when a creature fails the saving throw against your burst or rapid property, it is knocked prone.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Ballistic%20Approach.webp",
+    "effects": []
+}

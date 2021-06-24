@@ -1,0 +1,1479 @@
+{
+    "_id": "t2NFZ96BlGv8Kqg5",
+    "name": "Corporate Intern",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 11,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": 12,
+                "min": 0,
+                "formula": "combat suit"
+            },
+            "hp": {
+                "value": 9,
+                "min": 0,
+                "max": 9,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "2d8"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 1,
+                "prof": 0,
+                "total": 1
+            },
+            "powercasting": "engineer",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 4,
+                    "min": 0,
+                    "max": 4,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 9,
+                "min": 0,
+                "max": 9
+            },
+            "bar2": {
+                "value": 12,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 10"
+            },
+            "death": {
+                "success": null,
+                "failure": null
+            },
+            "exhaustion": null,
+            "inspiration": false
+        },
+        "details": {
+            "biography": {
+                "value": "<p>The Galaxy is full of private enterprises, both within and outside of the Republic. Employees of these companies, guilds, and clans can sometimes be dangerous.<br></p>",
+                "public": ""
+            },
+            "alignment": "Any Alignment",
+            "species": "",
+            "type": {
+                "value": "humanoid",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 0.25,
+            "powerForceLevel": 0,
+            "powerTechLevel": 1,
+            "xp": {
+                "value": 50
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Galactic Basic, One Other"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 1000,
+                "tmax": 1000,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/291_-_Corporate_Intern/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Corporate Intern",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/291_-_Corporate_Intern/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "t2NFZ96BlGv8Kqg5",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "NTM2YzFkNDVmN2Q1",
+            "name": "Techcasting",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The intern is a 1st-level techcaster. Its techcasting ability is Intelligence (power save DC 12, +4 to hit with tech attacks) and it has 4 tech points.</p><p>The</p><p>intern knows the following tech powers:</p><p>At will: electroshock, jet of flame, poison spray, ward</p><p>1st level: oil slick, smoke cloud</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/291_-_Corporate_Intern/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MjA5Y2NhZmQyNTFk",
+            "name": "Leadership (Recharges after a Short or Long Rest)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The ARC trooper can utter a special command or warning whenever a non-hostile creature that it can see within 30 feet of it makes an attack roll or a saving throw. The creature can add a d6 to its roll provided it can hear and understand the commando. A creature can benefit from only one Leadership die at a time.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/291_-_Corporate_Intern/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZmVlMGMzNzRiZjMz",
+            "name": "Electrobaton",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+3, Reach 5 ft., One target. <em>Hit : </em>3 (1d4+1) kinetic damage.</p><p>The target must make a DC 13 constitution saving throw or take 1d4 lightning damage and gain the shocked condition.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4+1",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/291_-_Corporate_Intern/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZTU5YzFmMWE3YWI1",
+            "name": "Light pistol",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+3, Range 40/160 ft., One target. <em>Hit : </em>3 (1d4+1) energy damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 40,
+                    "long": 160,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4+1",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/291_-_Corporate_Intern/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "eNENmfvPeRiq4nhX",
+            "name": "Electroshock",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>Lightning springs from you to deliver a shock to a creature you try to touch. Make a melee tech attack against the target. You have advantage on the attack roll if the target is made of metal or wearing armor made of metal. On a hit, the target takes 1d8 lightning damage and becomes shocked until the start of its next turn.</p>\n<p>This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": ""
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "touch"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "rpak",
+                "attackBonus": null,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "prepared",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 140000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.UACmTGjhcYjQyLj3"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Electroshock.webp",
+            "effects": []
+        },
+        {
+            "_id": "YAORdps5T2HM9iin",
+            "name": "Jet of Flame",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>A flickering flame appears in your hand. The flame remains there for the duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The power ends if you dismiss it as an action or if you cast it again.</p>\n<p>You can also attack with the flame, although doing so ends the power. When you cast this power, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a ranged tech attack. On a hit, the target takes 1d8 fire damage. The fire ignites any flammable objects in the area that aren't being worn or carried.</p>\n<p>This power's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 10,
+                    "units": "minute"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "rpak",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d8",
+                            "fire"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 240000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.HoshRCTHW8vntDCg"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Jetof%20Flame.webp",
+            "effects": []
+        },
+        {
+            "_id": "J9WhubxJ24Lm6ktS",
+            "name": "Poison Spray",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You extend your hand toward a creature you can see within range and project a puff of noxious gas. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.</p>\n<p>This power's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": ""
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 10,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "save",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d12",
+                            "poison"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 340000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.98p1OVwAvz2sbes5"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/PoisonSpray.webp",
+            "effects": []
+        },
+        {
+            "_id": "vdJgLIe7Y7YfFMla",
+            "name": "Ward",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You emit a powerful force field that deflects incoming attacks. Until the end of your next turn, you have resistance against kinetic, energy, and ion damage dealt by weapon attacks.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "round"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 440000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.tM8bhPs9ehJjv11n"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Ward.webp",
+            "effects": []
+        },
+        {
+            "_id": "JRDU9IC1wEtgi2TC",
+            "name": "Oil Slick",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You cover the ground in a 10-foot square within range in oil. For the duration, it is difficult terrain.</p>\n<p>When the oil appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw.</p>\n<p>The oil is flammable. Any 5 foot square of the oil exposed to fire burns away in one round. Each creature who enters the fire or starts it turn there must make a Dexterity saving throw, taking 3d6 fire damage on a failed save, or half as much on a successful one. The fire ignites any flammable objects in the area that aren't being worn or carried.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "minute"
+                },
+                "target": {
+                    "value": 10,
+                    "width": null,
+                    "units": "ft",
+                    "type": "square"
+                },
+                "range": {
+                    "value": 60,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "save",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "3d6",
+                            "fire"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "dex",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 540000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.bp55Q4R0gBpd0FiM"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/OilSlick.webp",
+            "effects": []
+        },
+        {
+            "_id": "sCsS7wghWCdoHFee",
+            "name": "Smoke Cloud",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You cause thick smoke to erupt from a point within range, filling a 20-foot-radius sphere. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 2nd level or higher, the radius of the smoke cloud increases by 20 feet for each slot level above 1st.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 20,
+                    "width": null,
+                    "units": "ft",
+                    "type": "radius"
+                },
+                "range": {
+                    "value": 120,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 640000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.K5f18kJ5V2eMqLH7"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/SmokeCloud.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

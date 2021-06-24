@@ -1,0 +1,20 @@
+{
+    "_id": "wbd2VYtJj8iJn5GK",
+    "name": "Guerrilla Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at maneuvering across the battlefield. You gain the following benefits:</p><ul><li>You can take the Disengage action as a bonus action. If you could already take the Disengage action as a bonus action, you can instead take it as a reaction on your turn.</li><li>When you take the Disengage action, you ignore unenhanced difficult terrain, and you have advantage on the first ability check or saving throw to avoid an effect that impairs your movement speed or forces you to move before the start of your next turn.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Guerrilla%20Style.webp",
+    "effects": []
+}

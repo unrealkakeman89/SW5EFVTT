@@ -1,0 +1,71 @@
+{
+    "_id": "7mWMErtBsiUGr4Mm",
+    "name": "Droid Companion (Aqinos)",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Aqinos Form</strong>:&nbsp;3rd, 11th, and 17th level</em></p>\n<p>You learn to employ all the knowledge you've accumulated to create, customise, and bond with your own droid companion.</p>\n<p>Create your droid companion as detailed in the Companions section of the Customisation Options document for Expanded Content. You must have astrotech's implements in order to create your droid.</p>\n<p>If your companion is irreparably destroyed, or you want a companion, you must first break the bond with your current companion. Bonding with a new companion takes 8 hours spent in an appropriate location. You may only have one companion at a time.</p>\n<p>In addition to its traits and features, your droid companion gains additional benefits while it is bonded to you:</p>\n<ul>\n<li>\n<p>Your companion is a valid target of the&nbsp;tracker droid interface&nbsp;tech power.</p>\n</li>\n<li>\n<p>Your companion gains two additional traits. It gains one more additional trait when you reach 11th level in this class. For each companion trait in excess of your proficiency bonus, your force point maximum is reduced by 2. Over the course of a long rest, you can replace or remove a number of companion traits equal to half your Intelligence modifier (rounded up, minimum of one).</p>\n</li>\n</ul>\n<p>Lastly, while bonded and within 10 feet of you, your companion can cast the tech powers you know without expending tech points. If your companion casts an at will power in this way, it does not scale normally at higher levels. Instead, if it would scale at 5th level, it instead scales at 11th level, and if it would scale at 11th level, it instead scales at 17th level. If your companion casts a power of 2nd level or higher, it consumes a number of uses of this feature equal to that power&rsquo;s level.</p>\n<p>At 11th level, your droid companion must be within 30 feet of you to benefit from this feature. At 17th level, your droid companion must be within 60 feet.</p>\n<p>You can use this feature a number of times equal to your proficiency bonus, as shown in the guardian table. You regain all expended uses when you finish a long rest.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/GRDN-ARCH-Passive.webp",
+    "effects": []
+}

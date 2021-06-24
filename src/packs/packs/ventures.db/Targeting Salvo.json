@@ -1,0 +1,23 @@
+{
+    "_id": "cdJIX7FymQXYn5TZ",
+    "name": "Targeting Salvo",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> The ability to cast tech powers,  at least 1 rank in gunner</em></p><p>Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to spend one tech point to mark the target only visible to you. The next attack roll you make against the ship before the end of your next turn can\u2019t suffer from disadvantage.</p>"
+        },
+        "prerequisites": [
+            "The ability to cast tech powers,  at least 1 rank in gunner"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

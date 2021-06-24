@@ -1,0 +1,31 @@
+{
+    "_id": "AbRJD4oCtbLlj34R",
+    "name": "Heavy Gunner",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": "Gunning Style"
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>You are skilled with railguns and turbolasers. While you are firing a secondary weapon, you gain a +2 bonus to attack rolls and save DCs.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

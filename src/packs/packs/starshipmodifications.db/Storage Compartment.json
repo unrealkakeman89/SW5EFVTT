@@ -1,0 +1,37 @@
+{
+    "_id": "P2gZumGzDl0eQ3fy",
+    "name": "Storage Compartment",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite increases the cargo capacity on your ship by its base cargo capacity, as shown in the @JournalEntry[pMX6ND1g3oNyo09c]{Starship Size Cargo Capacity}&nbsp;on page 55.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

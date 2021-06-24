@@ -1,0 +1,37 @@
+{
+    "_id": "2OMrHT03BxJMP7IW",
+    "name": "Carbonite Launcher, Mk III",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Carbonite Launcher, Mk II"
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "3"
+        },
+        "description": {
+            "value": "<p>A storm of cryogenic energy encompasses space in a 300-foot-radius sphere centered on a point within 1200 feet. Each ship in the cylinder must make a Dexterity saving throw (DC = 8 + prof. bonus + ship's wisdom modifier). A creature takes 2d8 kinetic damage and 4d6 cold damage on a failed save, or half as much damage on a successful one.</p><p>The storm's area of effect becomes difficult terrain until the end of your next turn.</p><p>This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship recharges.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

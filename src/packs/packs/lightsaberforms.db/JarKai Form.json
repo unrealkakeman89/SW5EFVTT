@@ -1,0 +1,20 @@
+{
+    "_id": "OmPlZtMXi2b3Vo64",
+    "name": "Jar'Kai Form",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "lightsaberform",
+    "data": {
+        "description": {
+            "value": "<p>As a part of the bonus action to adopt this form, if you took the Attack action, you can engage in Double- or Two-Weapon Fighting.</p><p>Each time you hit with an attack on this turn, you can move up to 5 feet without provoking opportunity attacks from the creature you hit.</p>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Lightsaber%20Forms/Jar%27Kai%20Form.webp",
+    "effects": []
+}

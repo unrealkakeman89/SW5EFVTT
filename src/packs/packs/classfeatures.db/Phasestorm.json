@@ -1,0 +1,71 @@
+{
+    "_id": "o8xQO9rBLDUXqoq3",
+    "name": "Phasestorm",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>By 15th level, you can use your action to dart across the battlefield, striking up to six such creatures that you can see within 30 feet. You immediately move to each creature in succession without provoking opportunity attacks, after which you return to the space in which you started. Each creature must make a Dexterity saving throw (DC = 8 + your bonus to attacks with your weapon). A creature takes normal weapon damage on a failed save, or half as much damage on a successful one. If you are wielding separate weapons in each hand with which you are proficient, a creature makes this save with disadvantage, and takes additional damage equal to your Wisdom or Charisma modifier (your choice, minimum of one) on a failed save if the damage doesn&rsquo;t already include that modifier.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "action",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 6,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": null,
+            "scaling": "flat"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

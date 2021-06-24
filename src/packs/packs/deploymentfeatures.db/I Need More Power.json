@@ -1,0 +1,31 @@
+{
+    "_id": "T4AijVDwLiIizBL0",
+    "name": "I Need More Power!",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Technician"
+        },
+        "featureType": {
+            "value": "Stratagem"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Shields</em><br>When you use your action to regenerate your ship\u2019s shields, you can use a bonus action to expend a power die and add its result to the amount regenerated.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Technician.webp",
+    "effects": []
+}

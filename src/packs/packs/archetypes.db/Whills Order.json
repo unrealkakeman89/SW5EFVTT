@@ -1,0 +1,39 @@
+{
+    "_id": "gbP89R34SpttnfPb",
+    "name": "Whills Order",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Monk",
+        "description": {
+            "value": "<h1>Whills Order</h1>\n<p>Monks of the Whills Order hold the secrets of the Force sacred, and dedicate their lives to defending ancient knowledge of the Force and its artifacts. They master the use of ranged weapons, often crafting their own weapons in respectful admiration of the Jedi tradition of crafting lightweapons.</p>\n<h2>Flurry of Light</h2>\n<p>At 3rd level, you gain proficiency in blaster pistols, blaster rifle, ion blaster, ion rifle, and the lightbow, which are your Whills weapons and are monk weapons for you. When you are wielding a Whills weapon, you gain the following benefits:</p>\n<ul>\n<li>Your Whills weapons count as melee weapons for you, and when you make a melee weapon attack with them, you deal kinetic damage equal to your Martial Arts Damage Die.</li>\n<li>When you take the Attack action on your turn and attack with a Whills weapon, you can make one additional attack with that weapon as a bonus action, or you can spend 1 focus point to make two attacks with that weapon as a bonus action. You roll a d4 in place of the normal damage of your Whills weapon when attacking as a bonus action. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table.</li>\n<li>When you would make a ranged weapon attack with a Whills weapon, you can instead reload the weapon.</li>\n</ul>\n<h2>The Force is With You</h2>\n<p>At 6th level, as you channel the Force through you, you gain the following benefits:</p>\n<ul>\n<li>You can use your Stunning Strike feature when you hit with a ranged weapon attack while you are wielding a Whills weapon.</li>\n<li>You can spend 1 focus point to ignore half cover with your Whills weapons. At 11th level, you can spend 2 focus points to ignore three quarters cover. At 17th level, you can spend 3 focus points to ignore total cover, as long as your target is not hidden from you.</li>\n<li>When you hit a creature with a Whills weapon, that creature has disadvantage on opportunity attacks against you until the start of your next turn.</li>\n</ul>\n<h2>One With the Force</h2>\n<p>At 11th level, you learn how to enter a trance, preparing to unleash yourself upon your enemy. While in this trance, you can still talk and move. If you stay in the trance for at least one minute, when you roll initiative, you can make a ranged weapon attack on a number of creatures up to your Wisdom or Charisma modifier (your choice, a minimum of one) within 30 feet of you when you were in this trance.</p>\n<p>Once you've used this feature, you must complete a short or long rest before you can use it again.</p>\n<h2>Guided Strikes</h2>\n<p>At 17th level, your first ranged weapon attack and your first melee weapon attack each turn deal additional damage equal to your Wisdom or Charisma modifier (your choice, a minimum of +1).</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Whills%20Order.webp",
+    "effects": []
+}

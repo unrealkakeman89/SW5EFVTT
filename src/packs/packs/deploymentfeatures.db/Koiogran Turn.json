@@ -1,0 +1,31 @@
+{
+    "_id": "5PaDhVwt5qs6DQob",
+    "name": "Koiogran Turn",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Pilot"
+        },
+        "featureType": {
+            "value": "Tactic"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Engines</em><br>When you are the target of an attack roll, you can expend a power die and attempt to maneuver out of the line of fire. Roll the die, take the result, and multiply it by 50. You immediately move that many feet in a direction of your choice. The orientation of your ship does not change.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Pilot.webp",
+    "effects": []
+}

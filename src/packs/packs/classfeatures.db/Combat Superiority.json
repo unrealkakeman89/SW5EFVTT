@@ -1,0 +1,76 @@
+{
+    "_id": "liI3fHP0qjCq0N5X",
+    "name": "Combat Superiority",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 2nd level, you learn maneuvers that are fueled by special dice called superiority dice.</p>\n<h4><strong>MANEUVERS</strong></h4>\n<p>You learn two maneuvers of your choice, which are detailed under &ldquo;Maneuvers&rdquo; below, and you earn more at higher levels, as shown in the Maneuvers Known column of the fighter table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.</p>\n<p>Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.</p>\n<h4><strong>SUPERIORITY DICE</strong></h4>\n<p>You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the fighter table. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</p>\n<h4><strong>SAVING THROWS</strong></h4>\n<p>Some of your maneuvers require your target to make a saving throw to resist the maneuver&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<hr />\n<p><strong>Maneuver save DC</strong>&nbsp;= 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</p>\n<hr />\n<section>\n<section class=\"secret\">\n<p>To ensure that manuevers consume dice properly, the number of dice are stored in this feature, (which is technically an item) and when the individual maneuvers are pulled into this character's sheet, the GM should do or instruct their players to do the following:</p>\n<ul>\n<li>\n<section>Go to the manuever's details tab</section>\n</li>\n<li>\n<section>set the manuever's Resource Consumption to:</section>\n<ul>\n<li>\n<section>Item Uses</section>\n</li>\n<li>\n<section>Combat Superiority (2 per sr)</section>\n</li>\n<li>\n<section>1</section>\n</li>\n</ul>\n</li>\n</ul>\n<p>As the character's Fighter levels increase someone will have to upgrade the die rolls in each individual maneuver's details tab.</p>\n</section>\n</section>\n<p>&nbsp;</p>\n<h2>MANEUVERS</h2>\n<p>The maneuvers are presented in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>COMMANDER&rsquo;S STRIKE</strong></h4>\n<p>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack&rsquo;s damage roll.</p>\n<hr />\n<h4><strong>DISARMING ATTACK</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it&rsquo;s holding. You add the superiority die to the attack&rsquo;s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</p>\n<hr />\n<h4><strong>DISTRACTING STRIKE</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack&rsquo;s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</p>\n<hr />\n<h4><strong>EVASIVE FOOTWORK</strong></h4>\n<p>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving.</p>\n<hr />\n<h4><strong>FEINTING ATTACK</strong></h4>\n<p>You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack&rsquo;s damage roll.</p>\n<hr />\n<h4><strong>GOADING ATTACK</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack&rsquo;s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</p>\n<hr />\n<h4><strong>LUNGING ATTACK</strong></h4>\n<p>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack&rsquo;s damage roll.</p>\n<hr />\n<h4><strong>MANEUVERING ATTACK</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack&rsquo;s damage roll, and you choose a friendly creature who can see or hear you.</p>\n<p>That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.</p>\n<hr />\n<h4><strong>MENACING ATTACK</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack&rsquo;s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</p>\n<hr />\n<h4><strong>PARRY</strong></h4>\n<p>When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier.</p>\n<hr />\n<h4><strong>PRECISION ATTACK</strong></h4>\n<p>When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.</p>\n<hr />\n<h4><strong>PUSHING ATTACK</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack&rsquo;s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.</p>\n<hr />\n<h4><strong>RALLY</strong></h4>\n<p>On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.</p>\n<hr />\n<h4><strong>RIPOSTE</strong></h4>\n<p>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack&rsquo;s damage roll.</p>\n<hr />\n<h4><strong>SWEEPING ATTACK</strong></h4>\n<p>When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.</p>\n<hr />\n<h4><strong>TRIP ATTACK</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack&rsquo;s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "none",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 2,
+            "max": "2",
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4",
+                    "midi-none"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/FGTR-Passive.webp",
+    "effects": []
+}

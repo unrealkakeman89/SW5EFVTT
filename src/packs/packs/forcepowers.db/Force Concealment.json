@@ -1,0 +1,88 @@
+{
+    "_id": "V0gdWJyrn2O8SleF",
+    "name": "Force Concealment",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You shroud or alter the aura of a creature or object you touch so that Force powers reveal false information about it. The target can be a willing creature or an object that isn&rsquo;t being carried or worn by another creature.</p>\n<p>When you cast the power, choose one or both of the following effects. The effect lasts for the duration. If you cast this power on the same creature or object every day for 30 days, placing the same effect on it each time, the effect lasts until it is dispelled.</p>\n<p><strong><em>False Aura.</em></strong>&nbsp;You change the way the target appears to powers and Force-based enhanced effects, such as&nbsp;sense force, that detects the presence of the Force. You can make a Force-based unenhanced object or creature appear enhanced and to radiate a Force aura, or a Force-based enhanced object or creature appear unenhanced and to radiate no Force aura. When you use this effect on an object, you can make the false aura apparent to any creature that handles the item.</p>\n<p><strong><em>Cloak.</em></strong>&nbsp;You can change the way the target&rsquo;s affinity in the Force appears to the&nbsp;force sight&nbsp;power. For example, a Sith Lord with great power in the dark side of the Force can appear instead to have very little strength in the Force, with an affinity towards the light side.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 24,
+            "units": "hour"
+        },
+        "target": {
+            "value": null,
+            "units": "spec",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "touch"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 2,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Force%20Concealment.webp",
+    "effects": []
+}

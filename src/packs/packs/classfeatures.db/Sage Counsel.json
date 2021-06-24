@@ -1,0 +1,71 @@
+{
+    "_id": "9R95Tc3bIZfUZ7Sk",
+    "name": "Sage Counsel",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>You learn the guidance force power, which does not count against your total powers known. Additionally, you can use your Deflection and Slow Time Force-Empowered Self options when you cast it as your action. Finally, this power's die increases by one step (from d4 to d6, d6 to d8, d8 to d10, or d10 to d12).</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "requirements": "Path of Meditation: 3",
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "recharge": {
+            "charged": false,
+            "value": null
+        },
+        "className": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-ARCH-Passive.webp",
+    "effects": []
+}

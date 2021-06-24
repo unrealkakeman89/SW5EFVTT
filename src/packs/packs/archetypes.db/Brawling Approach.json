@@ -1,0 +1,39 @@
+{
+    "_id": "XxG8t5Tr9agbjytr",
+    "name": "Brawling Approach",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Berserker",
+        "description": {
+            "value": "<h1>Brawling Approach</h1>\n<p>Most berserkers require weapons. For berserkers of the Brawling Approach, however, everything is their weapon.</p>\n<h2>Fists of Fury</h2>\n<p>When you choose this approach at 3rd level, you&rsquo;ve learned to hone your rage through your fists. You gain the following benefits:</p>\n<ul>\n<li>You are proficient with improvised weapons.</li>\n<li>Your unarmed strike damage increases by one step (from 1 to d4, d4 to d6, or d6 to d8).</li>\n<li>When you attempt to shove or grapple a creature, or make an attack against a creature with an unarmed strike or an improvised weapon wielded in one hand on your turn, you can use your bonus action to make an additional attack, grapple, or shove against the same creature.</li>\n</ul>\n<h2>Reckless Strikes</h2>\n<p>Also at 3rd level, while you are raging, not wearing heavy armor, and not wielding a shield, when you hit a creature with an unarmed strike or improvised weapon, you can choose to forgo your rage damage to make the attack a reckless strike.</p>\n<p>Some of your reckless strikes require your target to make a saving throw to resist the reckless strike&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<p><strong>Reckless Strike save DC</strong> = 8 + your proficiency bonus + your Strength modifier</p>\n<h3>Bracing Strike</h3>\n<p>You gain temporary hit points equal to your rage damage bonus. If the target is grappled by you, you instead gain temporary hit points equal to twice your rage damage bonus.</p>\n<h3>Punishing Strike</h3>\n<p>Your target must make a Constitution saving throw. On a failed save, the creature is deafened until the start of its next turn. If the target is grappled by you, it is instead incapacitated until the start of its next turn.</p>\n<h3>Staggering Strike</h3>\n<p>Your target must make a Strength or Dexterity saving throw (the target chooses the ability score to use). On a failed save, your target is pushed back 5 feet. If the target is grappled by you, it instead knocked prone.</p>\n<h2>Shattering Strikes</h2>\n<p>At 6th level, you rage causes your strikes to overcome the hardest of materials. While raging, you gain the following benefits:</p>\n<ul>\n<li>Your unarmed strikes and improved weapons count as enhanced for the purpose of overcoming resistance and immunity to unenhanced attacks and damage.</li>\n<li>Your unarmed strikes deal double damage against structures.</li>\n</ul>\n<h2>Stop Hitting Each Other</h2>\n<p>Starting at 10th level, you can grapple creatures two sizes larger than you, instead of one.</p>\n<p>Additionally, you can use creatures you have grappled that are at least one size smaller than you as improvised weapons. When you do so, when you hit with an attack using a creature as a weapon, it takes damage equal to your Strength modifier. While raging, you can instead use creatures your size or smaller as improvised weapons.</p>\n<h2>Enforcer</h2>\n<p>At 14th level, when you would make an unarmed strike or attack with an improvised weapon with advantage, you can choose to forgo the advantage. If you do so, you score a critical hit on a roll of 19 or 20. Additionally, on a hit, you deal the maximum instead of rolling.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Brawling%20Approach.webp",
+    "effects": []
+}

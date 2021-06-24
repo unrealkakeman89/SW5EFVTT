@@ -1,0 +1,41 @@
+{
+    "name": "Disguise Kit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance, in addition to a tool that lets them holographically mimic clothing. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 4,
+        "price": 400,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Kit/Disguise%20Kit.webp",
+    "_id": "fSb6sQtBYBvrKfon"
+}

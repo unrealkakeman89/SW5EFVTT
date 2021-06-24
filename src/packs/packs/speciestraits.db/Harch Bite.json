@@ -1,0 +1,63 @@
+{
+    "name": "Harch: Bite",
+    "permission": {
+        "default": 0,
+        "5thIrpa58swdLRGE": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "Your fangs are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d4 + your Strength modifier kinetic damage. Additionally, as a bonus action, you can perform a special bite attack. On a hit, the target suffers the attack\u2019s normal effects, and it must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is poisoned until the end of its next turn, and you can\u2019t use this feature again until you complete a short or long rest.",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "ability": null,
+        "actionType": null,
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "Harch",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "_id": "EJNXsi10V1825Z3V"
+}

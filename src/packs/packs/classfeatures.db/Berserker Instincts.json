@@ -1,0 +1,83 @@
+{
+    "_id": "hMiA075EKBBOL2cv",
+    "name": "Berserker Instincts",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Berserker</strong>:&nbsp;2nd level</em><br />You&rsquo;ve honed two instincts, as detailed at the end of the class description. You hone an additional instinct at 7th, 13th, and 17th level.</p>\n<hr />\n<h2>BERSERKER INSTINCTS</h2>\n<p>The instincts are presented in alphabetical order. If an instinct has prerequisites, you must meet them to learn it. You can learn an instinct at the same time you meet its prerequisites.</p>\n<hr />\n<blockquote>\n<h4><strong>ACKLAY&rsquo;S INSTINCT</strong></h4>\n<p>While raging, you have advantage on Constitution saving throws.</p>\n<hr />\n<h4><strong>BANTHA&rsquo;S INSTINCT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br />Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples. Additionally, you have advantage on Strength checks made to push, pull, lift, or break objects.</p>\n<hr />\n<h4><strong>BLURRG&rsquo;S INSTINCT</strong></h4>\n<p>Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they&rsquo;re within 60 feet of you and you&rsquo;re not incapacitated.</p>\n<hr />\n<h4><strong>BOGGDO&rsquo;S INSTINCT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br />While raging you have a flying speed equal to your current walking speed, though you fall if you end your turn in the air and nothing else is holding you aloft.</p>\n<hr />\n<h4><strong>CHIRODACTYL&rsquo;S INSTINCT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br />While raging, you have blindsight to a range of 30 feet, and you have advantage on Wisdom (Perception) checks that rely on sound, as long as you aren&rsquo;t deafened.</p>\n<hr />\n<h4><strong>DEWBACK&rsquo;S INSTINCT</strong></h4>\n<p>Choose three damage types. While raging, you have resistance to the chosen damage types.</p>\n<hr />\n<h4><strong>FIGHTER&rsquo;S INSTINCT</strong></h4>\n<p>You adopt a particular style of fighting as your specialty. Choose one of the Fighting Style options, detailed in Chapter 6. You can&rsquo;t take a Fighting Style option more than once, even if you later get to choose again.</p>\n<hr />\n<h4><strong>FYRNOCK&rsquo;S INSTINCT</strong></h4>\n<p>While raging, you can use your bonus action to leap up to 30 feet to an empty space you can see. When you land you deal kinetic damage equal to your Strength modifier to each creature within 5 feet of where you land. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain all expended uses when you complete a long rest.</p>\n<hr />\n<h4><strong>HAWK&rsquo;S INSTINCT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br />You can see up to 1 mile away with no difficulty. You are able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn&rsquo;t impose disadvantage on your Wisdom (Perception) checks.</p>\n<hr />\n<h4><strong>KATARN&rsquo;S INSTINCT</strong></h4>\n<p>You gain a climbing speed equal to your movement speed.</p>\n<hr />\n<h4><strong>LOTH-CAT&rsquo;S INSTINCT</strong></h4>\n<p>While you&rsquo;re raging, other creatures have disadvantage on opportunity attack rolls against you, and you can take the Dash action as a bonus action on your turn.</p>\n<hr />\n<h4><strong>PREDATOR&rsquo;S INSTINCT</strong></h4>\n<p>Your speed increases by 10 feet.</p>\n<hr />\n<h4><strong>RANCOR&rsquo;S INSTINCT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br />While you&rsquo;re raging any creature within 5 feet of you that&rsquo;s hostile to you has disadvantage on attack rolls against targets other than you or another character with this feature. An enemy is immune to this effect if it can&rsquo;t see or hear you or if it can&rsquo;t be frightened.</p>\n<hr />\n<h4><strong>TACTICIAN&rsquo;S INSTINCT</strong></h4>\n<p>When you use your Reckless Attack feature, you can choose to not have advantage on your attack rolls this turn. If you do so, friendly creatures within 5 feet of a hostile creature that is within 5 feet of you have advantage on attack rolls against that creature.</p>\n<hr />\n<h4><strong>TRACKER&rsquo;S INSTINCT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br />You can track other creatures while traveling at a fast pace, and you can move stealthily while traveling at a normal pace.</p>\n<hr />\n<h4><strong>TERENTATEK&rsquo;S INSTINCT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br />When you are forced to make a saving throw against a force power, you can immediately use your reaction to move up to half your speed towards the source power&rsquo;s caster. If you end this movement within 5 feet of the target, you can immediately make one melee weapon attack against the target as a part of that reaction.</p>\n<hr />\n<h4><strong>VARACTYL&rsquo;S INSTINCT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br />While raging, you have advantage Dexterity checks, your attack rolls can&rsquo;t suffer from disadvantage, and each slowed level only reduces your speed by 5 feet, unless it would reduce your speed to 0.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/BSKR-Passive.webp",
+    "effects": []
+}

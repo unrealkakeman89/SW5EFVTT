@@ -1,0 +1,43 @@
+{
+    "_id": "ECxUMB1p8nu6WAGL",
+    "name": "Form III: Soresu",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form III: Soresu</h1>\n<p>Form III, also known as Resilience Form, relies on tight bladework and subtle dodges to provide maximum defensive coverage, minimizing exposure to ranged weaponry. Those guardians who focus on Soresu Form use broad footwork to move around the playing field, making broad, short sweeping motions that protect the body.</p>\n<h2>Bonus Proficiencies</h2>\n<p>You gain proficiency in heavy armor.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.pVYkXLQwn732LwKK]{Soresu Lightsaber Form}, detailed in Chapter 6. If you already know this form, you can instead choose another lightsaber form. You can&rsquo;t take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Mynock</h2>\n<p>Also at 3rd level, as a bonus action, you can enter a defensive stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, you can cast the @Compendium[sw5e.forcepowers.RfhP3KotZcqIBmC9]{Saber Ward Force power}. When you do so, you have a number of special reactions equal to your proficiency bonus that you can only use to cast the @Compendium[sw5e.forcepowers.CuAbwhIt3j2V30Ey]{Saber Reflect Force power}. You can only take one reaction per turn.</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<h3>Advancing Defender</h3>\n<p>When you cast the @Compendium[sw5e.forcepowers.CuAbwhIt3j2V30Ey]{Saber Reflect Force power}, you can expend a use of your Channel the Force to move up to 10 feet as a part of that same reaction. This movement does not provoke opportunity attacks.</p>\n<h2>Circle of Shelter</h2>\n<p>At 7th level, you learn to fend off strikes directed at you, your mount, or other creatures nearby. If you or a creature you can see within 5 feet of you is hit by an attack, you can use your reaction to ward the creature if you're wielding a melee weapon or a shield. Roll 1d8 and add the number rolled to the target's AC against that attack. If the attack still hits, the target has resistance against the attack's damage.</p>\n<p>You can use this feature a number of times equal to your Constitution modifier (a minimum of once), and you regain all expended uses when you finish a long rest.</p>\n<h2>Stand Against the Tide</h2>\n<p>Beginning at 15th level, when a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.</p>\n<h2>Master of Resilience</h2>\n<p>At 20th level, your presence on the field of battle is an inspiration to your allies. Your Constitution and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage from unenhanced weapons.</li>\n<li>When you use the @Compendium[sw5e.forcepowers.CuAbwhIt3j2V30Ey]{Saber Reflect Force power}, you can make a single melee attack on an enemy within 5ft of you as a part of that same reaction.</li>\n<li>You have advantage on Dexterity saving throws, as do your allies within 30 feet of you.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Soresu%20Form.webp",
+    "effects": []
+}

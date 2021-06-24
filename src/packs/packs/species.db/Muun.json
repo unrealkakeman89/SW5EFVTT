@@ -1,0 +1,228 @@
+{
+    "_id": "VUAOVY8N7s8mz2lD",
+    "name": "Muun",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Muuns are tall, gaunt humanoids with thin bodies, long limbs, and elongated hairless heads. They typically have pale pink or white skin, most likely derived from their propensity for staying indoors. Muuns have tiny ears on the middle of the sides of their heads, flat noses, and slim mouths which leads to a commonly nasally voice.</p>\n<h2>Society and Culture</h2>\n<p>Muuns believe in tradition, with an established culture based on intelligence and merit. A class-based hierarchy, Muuns consider the the intellectual pursuits&mdash;financiers, lawyers, engineers, diplomats, scientists&mdash;as the highest levels of society. Muun culture, and life, revolves around economics and finance. Intense competition among coworkers encourages economic growth, increased productivity, and superior work ethic. Muuns also have a fundamental respect for justice, though they typically adhere to the letter of the law rather than the spirit. Since Muuns tend to shy away from fighting and physical pursuits, Muun society relies on alternative means for their planet's protection, using vast financial resources to purchase massive floating defense platforms to defend their civilization from attack.</p>\n<h2>Names</h2>\n<p>Muun names are typically clear and concise, rarely containing more than two syllables, with familial surnames.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Clu, Hego, Nix, Pors, San</p>\n<p><strong>&nbsp;&nbsp;Female Names.</strong> Dax, Efra, Gil, Rel, Ter</p>\n<p><strong>&nbsp;&nbsp;Surnames.</strong> Card, Damask, Hill, Lesser, Tonith</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Charisma score increases by 1.</p><p><em><strong>Age.</strong></em> Muuns reach adulthood in their late teens and live an average of a century.</p><p><em><strong>Alignment.</strong></em> Muuns' lawful culture nature causes them to tend toward lawful balanced, though there are exceptions.</p><p><em><strong>Size.</strong></em> Muuns typically stand 6 and a half to 7 feet tall and weigh around 200 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Finance Savvy.</strong></em> Muun share a keen business sense and an ability to find value where others don't. Whenever you make a Charisma (Persuasion) check involving finances you are considered to have expertise in the Persuasion skill.</p><p><em><strong>Long-Limbed.</strong></em> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p><p><em><strong>Three Hearts.</strong></em> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Muun. The Muuns' admiration of mathematics carries over into their language, which bares a striking resemblance to Binary.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Light pink or white"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black or grey"
+        },
+        "distinctions": {
+            "value": "Three hearts, long limbs, elongated heads"
+        },
+        "heightAverage": {
+            "value": "5'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "145 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Scipio"
+        },
+        "slanguage": {
+            "value": "Muun"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Muun",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "BtYRsEwkEvpcpGoj",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "BtYRsEwkEvpcpGoj",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "BtYRsEwkEvpcpGoj",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "BtYRsEwkEvpcpGoj",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "BtYRsEwkEvpcpGoj",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "BtYRsEwkEvpcpGoj",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "muun",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "BtYRsEwkEvpcpGoj",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Muun.webp",
+    "effects": [
+        {
+            "_id": "8gvuuKqgXs6QeD14",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Muun",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "muun",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.longlimbed",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.multipleHearts",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Muun.webp",
+            "label": "Muun",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

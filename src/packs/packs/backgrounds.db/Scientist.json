@@ -1,0 +1,109 @@
+{
+    "name": "Scientist",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>Nothing excites you more than pushing the boundaries of scientific knowledge. Most of your time is spent in a lab performing experiments to further your interests. Few people understand the work you do. You can solve complex problems most people can't begin to wrap their heads around, and can solve simple problems in unexpected ways that surprise most people.</p>\n<p>What is your scientific field of interest? Is it your insatiable curiousity, or a personal goal that drives you? Did you leave your lab voluntarily, or were you kicked out? One thing is for sure - there are too many interesting research ideas, and too little time.</p>"
+        },
+        "flavorName": {
+            "value": "Field of Research"
+        },
+        "flavorDescription": {
+            "value": "While scientists are widely knowledgeable, they also choose a focus for their studies. Choose an option or roll on the table below to define your field of research."
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Field of Research</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Biology</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Artificial Intelligence</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Chemistry</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Geology</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Physics</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">The Force</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Astrogation</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Medicine</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Lore, Medicine, Nature, and Technology"
+        },
+        "toolProficiencies": {
+            "value": "One of your choice"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of common clothes, a datapad, a book on your field of research, a pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Scientist are interested in things most don't care about. Their research is their life, and drives their personality traits. Their flaws, ideals, and bond are a result of their hours spent researching."
+        },
+        "featureName": {
+            "value": "Scientific Method"
+        },
+        "featureText": {
+            "value": "You are well acquainted with your field of research from having read numerous journals or having attended scientific conferences. Concepts that are complicated, involving technical jargon that usually goes over most people's heads, are simple to you. You fully understand concepts, can recall key information, and know how to use equipment related to your field, unless the research was hidden from the public, in which case you may only partially understand it. You also recognize well-known figures in your field."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Loremaster</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Medic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Naturalist</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Techie</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Tech Dabbler</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Keen Mind</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I look up to a renowned scientist in my field, and often talk about their work.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I constantly compare my current situation to my past experiments, many of which went terrifyingly wrong.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I believe scientific results always comes first.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I only speak in short incomplete and concise sentences, as they are optimized for efficient communication.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I often get lost in my own thoughts and contemplation, becoming oblivious to my surroundings.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I am unable to think logically under great stress, and begin to shout random scientific words.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I do not believe in etiquette and disregard social expectations.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I was, in fact, grown and raised in a laboratory.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Transparency. All discoveries should be open to everyone. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Logic. Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Greed. I'm only in it for the money and fame. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Free Thinking. Inquiry and curiosity are the pillars of progress. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Live and Let Live. Meddling in the affairs of others only causes trouble. (Balanced)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I work hard to be the best there is at my craft. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I believe only other scientists deserve my respect.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I fail to understand why people don't understand my technical jargon.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I experiment on myself without thinking about the long term consequences.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I am paranoid that people are out to steal my research.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I believe I work better when under the influence of intoxicants.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I work on my research to the point where I ignore my own bodily needs.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">My research is also my best companion.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I will get revenge on the criminals that stole my research.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">The school I studied at is the most important place in the world to me.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">One day I will return to my home planet and prove that I am the greatest scientist of them all.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I believe my research will be the key to saving the life of a loved one.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I owe my instructor a great debt for forging me into the person I am today.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Scientist.webp",
+    "effects": [
+        {
+            "_id": "K7ZiRe5yiOulgEIy",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Scientist",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Scientist",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "5gTuj3CRydddjFD1"
+}

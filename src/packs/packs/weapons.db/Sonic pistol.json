@@ -1,0 +1,127 @@
+{
+    "_id": "LyUddEATg6hhVzup",
+    "name": "Sonic pistol",
+    "permission": {
+        "default": 0,
+        "MmfWtlBdw3ij5wl9": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>Ammunition (range 40/160), Reload 12</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 2,
+        "price": 650,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "creature"
+        },
+        "range": {
+            "value": 40,
+            "long": 160,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 20
+        },
+        "ability": "",
+        "actionType": "rwak",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d6 + @mod",
+                    "sonic"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "martialB",
+        "properties": {
+            "amm": true,
+            "aut": false,
+            "bur": false,
+            "def": false,
+            "dex": false,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "fin": false,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "ken": false,
+            "lgt": false,
+            "lum": false,
+            "mig": false,
+            "pic": false,
+            "rap": false,
+            "rch": false,
+            "rel": true,
+            "ret": false,
+            "shk": false,
+            "sil": false,
+            "spc": false,
+            "str": false,
+            "thr": false,
+            "two": false,
+            "ver": false,
+            "vic": false,
+            "nodam": false,
+            "fulldam": false
+        },
+        "proficient": true
+    },
+    "folder": "7rtfHBtXhhiRSS8u",
+    "sort": 6698439,
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

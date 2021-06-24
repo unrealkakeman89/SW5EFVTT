@@ -1,0 +1,2243 @@
+{
+    "_id": "z9N69tHU7YdbYXxD",
+    "name": "Mistryl Prime",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 20,
+                "proficient": 1,
+                "min": 3,
+                "mod": 5,
+                "save": 8,
+                "prof": 3,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 14,
+                "proficient": 1,
+                "min": 3,
+                "mod": 2,
+                "save": 5,
+                "prof": 3,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 18,
+                "proficient": 0,
+                "min": 3,
+                "mod": 4,
+                "save": 4,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": 17,
+                "min": 0,
+                "formula": "heavy combat suit"
+            },
+            "hp": {
+                "value": 105,
+                "min": 0,
+                "max": 105,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "14d8+42"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 5,
+                "prof": 0,
+                "total": 5
+            },
+            "powercasting": "engineer",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 22,
+                    "min": 0,
+                    "max": 22,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 3,
+            "powerdc": 11,
+            "bar1": {
+                "value": 105,
+                "min": 0,
+                "max": 105
+            },
+            "bar2": {
+                "value": 17,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 17"
+            },
+            "death": {
+                "success": null,
+                "failure": null
+            },
+            "exhaustion": null,
+            "inspiration": false
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"The Mistryl are the warriors of a forgotten cause; and if we hire ourselves out as temporary security to people like you, it's because our world and our people require money to survive. We will not work with Imperial forces. Ever.\"</i></p><p>- Manda D'ulin, to Kellering</p></blockquote><table class=\"userscript-table userscript-table-bordered\" style=\"width: 615.455px\"><tbody><tr><td style=\"line-height: 1.42857\"><u>Organization type</u></td><td style=\"line-height: 1.42857\">Mercenary organization</td></tr><tr><td style=\"line-height: 1.42857\"><u>Leader(s)</u></td><td style=\"line-height: 1.42857\">Eleven Elders of the People</td></tr><tr><td style=\"line-height: 1.42857\"><u>Headquarters</u></td><td style=\"line-height: 1.42857\">Emberlene</td></tr><tr><td style=\"line-height: 1.42857\"><u>Formed from</u></td><td style=\"line-height: 1.42857\">Silent Hand</td></tr><tr><td style=\"line-height: 1.42857\"><u>Date founded</u></td><td style=\"line-height: 1.42857\">22 - 19 BBY</td></tr><tr><td style=\"line-height: 1.42857\"><u>Date reorganized</u></td><td style=\"line-height: 1.42857\">19 - 16 BBY (as a mercenary organization)</td></tr><tr><td style=\"line-height: 1.42857\"><u>Affiliation</u></td><td style=\"line-height: 1.42857\">Confederacy of Indipendent Systems</td></tr></tbody></table><p>The Mistryl Shadow Guards were an elite group of all-female Human mercenaries, sent from their home planet of Emberlene to earn money in support of the devastated communities of their world. The Shadow Guards history was a long and tragic one, full of deception, greed, anger, and destruction, beginning long ago, with the loss of Emberlene.</p><h3 style=\"font-family: &#34;helvetica neue&#34; , &#34;helvetica&#34; , &#34;arial&#34; , sans-serif\">History</h3><blockquote><p><i>\"The Mistryl that I joined twenty-two years ago was an honorable clan of warriors fighting to preserve what was left of our people. Honorable warriors don't knowingly deal in murder. I would hope at least some of the Eleven remember that.\"</i></p><p><i>\"Maybe the Eleven have changed. Maybe the Mistryl have changed.\"</i></p><p>- Shada D'ukal and Karoly D'ulin</p></blockquote><p>Three years before its destruction, Emberlene used its might and wealth to conquer its neighbors. They subjugated dozens of worlds in their sector, plundering their wealth, and destroyed anything of value that they couldn't take with them.</p><p>The remaining planets in the sector decided that they could not stand idly by and wait for the armies of Emberlene to crush them underfoot. Pooling their resources, the governments of these worlds hired a mercenary army to fight for them. The mercenaries struck hard and fast, devastating Emberlene's forces and reducing the planet's infrastructure to rubble. Ensuing firestorms and air strikes against populated areas effectively ended the Emberlene threat, reducing its people to abject poverty.</p><p>In the years after their destruction and partial reconstruction, the Eleven Elders decided to create a lie from this disaster. From a young age, the citizens of Emberlene were taught that many years ago, while the Galactic Empire was still young and early resistance had not been crushed, Emperor Palpatine ordered the destruction of Emberlene as an example to all. Emberlene had been a rich planet, full of splendor and beauty, and had made it apparent that they were ruled by no one but themselves. Fearing the planet's growing power and prestige, the Emperor sent his forces to destroy Emberlene as an example to those who thought they could escape the rule of the Empire. This lie was created to instill a sense of loyalty and pride in the people of Emberlene, as well as a false sense of duty amongst the Mistryl.</p><p>Since then, the Mistryl hired themselves out as mercenaries, to earn enough money to support the millions of refugees left after the planet's destruction, and loathing the Empire's role in the disaster.</p><p>At some point, Loruna Scathe left the Shadow Guard and formed a rival organization, the Azure Cabal, that competed with Mistryl Shadow Guard for contracts.</p><p>Shadow Guards were sometimes employed by the Smugglers' Alliance and in 11 ABY, two of them helped the Alliance to take control of the Spice Mines of Kessel.</p><h3 style=\"font-family: &#34;helvetica neue&#34; , &#34;helvetica&#34; , &#34;arial&#34; , sans-serif\">Organization</h3><blockquote><p><i>\"We're Mistryl. We're given orders and we follow them.\"</i></p><p>- Karoly D'ulin, to Shada D'ukal</p></blockquote><p>The Shadow Guard typically operated in small teams led by a commander known as the Team Prime. In 0 BBY, the team led by Manda D'ulin consisted of six warriors, including herself, Karoly D'ulin, Pav D'armon, Shada D'ukal, Sileen and Cai, together with two heavy starfighters, Skyclaw and Mirage.</p><p>If a larger force was required, several teams could be called in\u2014for example, Team Prime D'ulin planned to assemble a force of twelve ships to escort the Hammertong convoy. On the other hand, Mistryl sometimes traveled as master-and-apprentice pairs, and individual warriors could be contracted out long-term as bodyguards. After the breakup of Manda D'ulin's team, Shada D'ukal traveled the Galaxy with trainee Dunc T'racen aboard the freighter The Fury, before becoming Mazzic's bodyguard, a position she held from at least 9 ABY until she left the Shadow Guard to become Talon Karrde's lieutenant in 19 ABY.</p><p>True to their mythos that Emberlene had been ravaged by Imperial forces, the Mistryl claimed that they never worked for the New Order, although when that loathing got in the way of a job, they often forgot this animosity, either through convenience or necessity.</p><h3 style=\"font-family: &#34;helvetica neue&#34; , &#34;helvetica&#34; , &#34;arial&#34; , sans-serif\">Equipment and methods</h3><blockquote><p><i>\"The Mistryl shadow guards do not kill casually or without cause.\"</i></p><p>- Flim, to Grodin Tierce</p></blockquote><p>While the Guard were deadly at any time, the Shadow Guard were especially adept at close-quarters combat. They were well trained in martial arts, and also had a large amount of weapons training as well. They were trained to use hold-out blasters and vibroblades, and were also educated in the use of more exotic weapons such as hand claws, shock whips, and zenji needles.</p><p>The Mistryl were legendary for their stealth and ability to remain unnoticed at all times. They had access to a huge database of profiles of galactic citizens. When needed, a guard could quickly use one of these and assume that person's identity in order to either get close to a target or get away from an area.</p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "humanoid",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 8,
+            "powerForceLevel": 0,
+            "powerTechLevel": 5,
+            "xp": {
+                "value": 3900
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Galactic Basic"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 18,
+                "prof": 3,
+                "total": 8
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "ath": {
+                "value": 1,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 14,
+                "prof": 3,
+                "total": 4
+            },
+            "dec": {
+                "value": 1,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 16,
+                "prof": 3,
+                "total": 6
+            },
+            "ins": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 17,
+                "prof": 3,
+                "total": 7
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 17,
+                "prof": 3,
+                "total": 7
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "slt": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 18,
+                "prof": 3,
+                "total": 8
+            },
+            "ste": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 5,
+                "passive": 18,
+                "prof": 3,
+                "total": 8
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 4,
+                "passive": 14,
+                "prof": 0,
+                "total": 4
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 1000,
+                "tmax": 1000,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 1000,
+                "tmax": 1000,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 1000,
+                "tmax": 1000,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/268_-_Mistryl_Prime/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Mistryl Prime",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/268_-_Mistryl_Prime/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "z9N69tHU7YdbYXxD",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "NzVjZjg2NjkzOTM1",
+            "name": "Assassinate",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>During her first turn, the Mistryl has advantage on attack rolls against any creature that hasn't taken a turn. Any hit the Mistryl scores against a surprised creature is a critical hit.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/268_-_Mistryl_Prime/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "M2E1Y2Q3MzNhYWJj",
+            "name": "Cunning Action",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>On each of her turns, she can use a bon-us action to take the Dash, Disengage, or Hide action.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {
+                "_sheetTab": "description",
+                "entityorder": {
+                    "order": 149
+                }
+            },
+            "img": "systems/dnd5e/icons/skills/violet_10.jpg",
+            "effects": []
+        },
+        {
+            "_id": "ZWJlOGFlZTU2OGY3",
+            "name": "Sneak Attack (1/turn)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The Mistryl deals an extra 17 (5d6) damage when she hits a target with a weapon attack and has advantage on the attack roll, or when the target is within 5 feet of an ally of the Mistryl that isn't incapacitated and the Mistryl doesn't have disadvantage on the attack roll.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/268_-_Mistryl_Prime/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MDJmNzk2NDJkODU3",
+            "name": "Tech Casting",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The Mistryl is a 5th level tech caster (tech save DC 13, +5 to hit with power attacks, 22 tech points).</p><p>The Mistryl knows the following powers.</p><p>At Will: encrypted message, light, poison spray</p><p>1st Level: alarm, decryption program, holographic disguise</p><p>2nd Level: concealed caltrops, infiltrate, paralyze humanoid</p><p>3rd Level: invisibility to cameras, tactical advantage</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/268_-_Mistryl_Prime/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "NTQ2ODc5YTM5MmE1",
+            "name": "Uncanny Dodge",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The Mistryl halves the damage that she takes from an attack that hits her. The Mistryl must be able to see the attacker.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {
+                "_sheetTab": "description",
+                "entityorder": {
+                    "order": 139
+                }
+            },
+            "img": "systems/dnd5e/icons/skills/armor_01.jpg",
+            "effects": []
+        },
+        {
+            "_id": "NmI3YjUxYzhlMzMy",
+            "name": "Multiattack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The Mistryl makes two melee weapon attacks or two ranged weapon attacks.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/skills/green_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "ZjI5ZGI5NTU0Mzgz",
+            "name": "Techblade",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+8, Reach 5 ft., One target. <em>Hit : </em>8 (1d6+5) kinetic damage.</p><p>The target must make a DC 14 Constitution saving throw. On a failure, the target takes 24 (7d6) poison damage and is poisoned for 1 minute. On a success, the target takes half damage and isn't poisoned.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+5",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 70000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/268_-_Mistryl_Prime/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MGNhZWM2NmUzMzNi",
+            "name": "Holdout Blaster",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+7, Range 30/120 ft., One target. <em>Hit : </em>7 (1d4+5) energy damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 30,
+                    "long": 120,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "wis",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4+5",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 80000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/268_-_Mistryl_Prime/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "O6Jn3aQPMZ6hRaoX",
+            "name": "Encrypted Message",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You point your finger toward a creature within range that possesses a commlink and whisper a message. The target (and only the target) hears the message and can send an encrypted reply that only you can hear. These messages cannot be intercepted or decrypted by unenhanced means.</p>\n<p>You can cast this power through solid objects if you are familiar with the target and know it is beyond the barrier. 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the power. The power doesn't have to follow a straight line and can travel freely around corners or through openings.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "round"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 120,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": null,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 180000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.Jp3f51H4VaRiMLvb"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/EncryptedMessage.webp",
+            "effects": []
+        },
+        {
+            "_id": "BnQz8lw8rbJRujzH",
+            "name": "Light",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You touch one object that is no larger than 10 feet in any dimension. Until the power ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The power ends if you cast it again or dismiss it as an action.</p>\n<p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the power.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "object"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "touch"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 280000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.q15Watfzi4E5yzUm"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Light.webp",
+            "effects": []
+        },
+        {
+            "_id": "7TUPfHqtwNTtjVkR",
+            "name": "Poison Spray",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You extend your hand toward a creature you can see within range and project a puff of noxious gas. The creature must succeed on a Constitution saving throw or take 1d12 poison damage.</p>\n<p>This power's damage increases by 1d12 when you reach 5th level (2d12), 11th level (3d12), and 17th level (4d12).</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": ""
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 10,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "save",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d12",
+                            "poison"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 380000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.98p1OVwAvz2sbes5"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/PoisonSpray.webp",
+            "effects": []
+        },
+        {
+            "_id": "7ScvrfRMDTSBdjuf",
+            "name": "Alarm",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You set an alarm against unwanted intrusion. Choose a door, a window, or an area within range that is no larger than a 20-foot cube. Until the power ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the power, you can designate creatures that won't set off the alarm. You also choose whether the alarm is mental or audible.</p>\n<p>A silent alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.</p>\n<p>An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "minute",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 8,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 20,
+                    "width": null,
+                    "units": "ft",
+                    "type": "cube"
+                },
+                "range": {
+                    "value": 30,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": null,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 480000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.ZH0jkLKHJ54BmkYX"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Alarm.webp",
+            "effects": []
+        },
+        {
+            "_id": "ig9CdghpdyduoPON",
+            "name": "Decryption Program",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You gain insight into an encrypted message you are holding when you cast this power, granting you advantage on ability checks you make to decipher the document.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "object"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "touch"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": null,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 580000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.5jYdyvYl4yY7BwbX"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/DecryptionProgram.webp",
+            "effects": []
+        },
+        {
+            "_id": "MqmzuPe9NTZ198gB",
+            "name": "Holographic Disguise",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>Until the power ends or you use an action to dismiss it, you can disguise yourself through the use of a hologram emitter. You can appear to be shorter or taller by about a foot and change the appearance of your body weight, but you cannot change the basic structure of your body. The hologram can include your clothes, armor, weapons, and other belongings on your person.</p>\n<p>The illusion is only visual, so any sort of physical contact will only interact with the real size and shape of you. A creature can use its action to make an Intelligence (Investigation) check against your tech save DC, seeing through the hologram on a success.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "save",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "int",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 680000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.mFW2RREnUTmbXX4C"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/HolographicDisguise.webp",
+            "effects": []
+        },
+        {
+            "_id": "lDwCZzlRuCog1Wkh",
+            "name": "Concealed Caltrops",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You scatter a large number of caltrops across ground in a 20-foot radius centered on a point within range. These caltrops pierce deep into the feet and boots of anyone who walks upon them. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 kinetic damage for every 5 feet it travels.</p>\n<p>The caltrops are nearly invisible to the naked eye. Any creature that can't see the area at the time the power is cast must make a Wisdom (Perception) check against your tech save DC to notice the caltrops before entering the area.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 150,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "save",
+                "attackBonus": null,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "2d4",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "wis",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 2,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 780000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.JAKN9PXNLmCSL3Ag"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/ConcealedCaltrops.webp",
+            "effects": []
+        },
+        {
+            "_id": "0jVTWiVAI7OuC0UG",
+            "name": "Infiltrate",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>A creature you touch becomes invisible. Anything the target is carrying is invisible as long as it is on the target. The power ends if the target attacks or casts a power.</p>\n<p><em><strong>Overcharge Tech.</strong></em> You can target one additional creature for each slot level above 2nd.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "touch"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 2,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 880000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.Fb1sIhs7d6YWnF1J"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Infiltrate.webp",
+            "effects": []
+        },
+        {
+            "_id": "J0tXuYmlv6f0diOb",
+            "name": "Paralyze Humanoid",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You emit a paralyzing dart at a humanoid that you can see within range. The target must succeed on a Constitution saving throw or be poisoned for the duration. While poisoned in this way, the target is paralyzed. At the end of each of its turns, the target can make another Constitution saving throw. On a success, the power ends on the target.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 3rd level or higher, you can target one additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "minute"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 60,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "save",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 2,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 980000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.zXCnz8vBWC4fhvfw"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/ParalyzeHumanoid.webp",
+            "effects": []
+        },
+        {
+            "_id": "QCP19TBnjXMKGDSD",
+            "name": "Invisibility to Cameras",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>Up to four creatures of your choice become undetectable to electronic sensors and cameras. Anything the target is wearing or carrying is also undetectable, so long as it's on the target's person. The target is still visible to regular vision.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "minute"
+                },
+                "target": {
+                    "value": 4,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 10,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 3,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 1080000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.hyh01gHWyf5MVpdm"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Invisibilityto%20Cameras.webp",
+            "effects": []
+        },
+        {
+            "_id": "xmvMxMiFucuEzPjv",
+            "name": "Tactical Advantage",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>Choose a willing creature that you can see within range. Until the power ends, the target's speed is doubled, it gains a +2 bonus to AC, it has advantage on Dexterity saving throws, and it gains an additional action on each of its turns. That action can be used only to take the Attack (one weapon attack only), Dash, Disengage, Hide, or Use an Object action.</p>\n<p>When the power ends, the target can't move or take actions until after its next turn, as a wave of lethargy sweeps over it.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "minute"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 30,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 3,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 1180000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.4koE44WAkEHVTwET"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/TacticalAdvantage.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

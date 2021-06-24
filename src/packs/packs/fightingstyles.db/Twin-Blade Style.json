@@ -1,0 +1,20 @@
+{
+    "_id": "O8AKHO6F1tAUZbJ4",
+    "name": "Twin-Blade Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at fighting with double-bladed weapons. While you are wielding a weapon with the double property with which you are proficient, you gain the following benefits:</p><ul><li>When you engage in Double-Weapon Fighting, you can add your ability modifier to the attack roll of your Double-Weapon Fighting attack.</li><li>When you attempt to shove a creature, instead of making a Strength (Athletics) check, you can instead make an attack roll. If you are wielding your weapon in two hands, you make this attack roll with advantage.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Twin-Blade%20Style.webp",
+    "effects": []
+}

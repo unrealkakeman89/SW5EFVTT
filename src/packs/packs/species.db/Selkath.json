@@ -1,0 +1,238 @@
+{
+    "_id": "wIIapzhrv6g3m3OK",
+    "name": "Selkath",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The Selkath are an aquatic species, known for being skilled swimmers and diplomats. Their heads resemble sting rays and they have a blue, pink, or green skin naturally patterned as an underwater camouflage. Their mouths are bracketed by cephalic lobes. Female Selkath differed from males due to the presence of tendrils on the back of their heads.</p>\n<p>All members of the Selkath race have rectractable, venom-tipped claws. The use of these claws in any form of combat or attack was considered dishonorable and a sign of madness; to do this was to give in to animal instincts unbecoming of a sentient species. Because of the Selkath's water-dwelling nature, their chest armors were fitted with misting vents in order to keep their skin moist.</p>\n<h2>Society and Culture</h2>\n<p>Selkath are native to the planet Manaan, the only naturally occurring source of the medical liquid referred to as kolto. The Selkath have leveraged this monopoly on maintain their neutrality, peddling their invaluable healing supplies to all comers.</p>\n<p>Manaan is an ocean planet is home to only one above-surface settlement, the floating Ahto City, built directly above Hrakert Rift, the most abundant source of kolto on Manaan. As bacta began to replace the inferior kolto on the galactic stage, Manaan fell from their previously respected position, shirking away their previous prestige and causing many Selkath to disappear from the galactic eye into isolationism and tribalism.</p>\n<h2>Names</h2>\n<p>Selkath names tend to have a flowing quality to it, like a stream of water. They rarely use surnames.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Chata, Galas, Qual, Morgo, Shaelas</p>\n<p><strong>&nbsp;&nbsp;Female Names.</strong> Halsuna, Dolmas, Shasa, Ulsuru</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Charisma score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Selkath reach adulthood in their late teens and live up to 100 years.</p>\n<p><em><strong>Alignment.</strong></em> Selkath have been renowned for countless millenia for their careful preservation of neutrality. As such individuals tend towards the neutral balanced alignment, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Selkath typically stand between 4 and a half to 5 and a half feet tall and average 130 pounds. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Amphibious.</strong></em> You can breathe air and water.</p>\n<p><em><strong>Gift of the Progenitor.</strong></em> You know the <em>temporary boost</em> at-will tech power. When you reach 3rd level, you can cast the <em>kolto pack</em> tech power once per day. When you reach 5th level, you can also cast the <em>kolto cloud</em> tech power once per day. Intelligence is your techcasting ability for these powers. You do not require use of a wristpad for these powers.</p>\n<p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p>\n<p><em><strong>Venomous Claws.</strong></em> Selkath have a set of retractable, venom-tipped claws. These claws are a natural weapon which can be used to make unarmed strikes. They deal 1d4 poison damage. You can use your choice of Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Selkatha. Selkatha has a very moist and gurgling tone to it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, gray, green, pink"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black, blue, green"
+        },
+        "distinctions": {
+            "value": "Venom-tipped claws, artificial misting vents, cephalic lobes, three-digit hands, two-toed feet"
+        },
+        "heightAverage": {
+            "value": "4'0\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Manaan"
+        },
+        "slanguage": {
+            "value": "Selkatha"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Selkath",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "WfZiItaYQarl0Zn1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "WfZiItaYQarl0Zn1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "WfZiItaYQarl0Zn1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "WfZiItaYQarl0Zn1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "WfZiItaYQarl0Zn1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "WfZiItaYQarl0Zn1",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "WfZiItaYQarl0Zn1",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "selkatha",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "WfZiItaYQarl0Zn1",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Selkath.webp",
+    "effects": [
+        {
+            "_id": "fJnrLKeafCg903Bd",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Selkath",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "selkatha",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Selkath.webp",
+            "label": "Selkath",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

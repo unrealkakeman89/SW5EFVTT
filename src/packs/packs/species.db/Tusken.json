@@ -1,0 +1,284 @@
+{
+    "_id": "n2XpEBLlt24OcL4s",
+    "name": "Tusken",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>While Tuskens, also known as Tusken Raiders or Sand People, are easily recognizable by their full-body clothing, goggles, and mouth filters, little of their true physical appearance can be discerned. From birth, Tuskens are covered in wraps, and, barring very rare occasions, will not bare any part of their skin in sight of another person. This, combined with their hostility to outsiders and Tatooine's remote and arid nature, makes even study of Tusken corpses difficult.</p><h2>Society and Culture</h2><p>Tuskens are a primative, tribal race, mostly living in small clans scattered throughout Tatooine's deserts. Due to the harsh and unforgiving desert environment, Tusken clans are often xenophobic and territorial, but it is not unknown for them to adopt members of other species into the clan. They believe that all water is sacred and promised to them alone, and are infamous among the other residents of Tatooine for raiding and pillaging settlements and farms.\n\nTusken clans are usually very stratified, with males as hunters and warriors, while females and children maintain the camp. Tusken warriors hold their bond with their gaderffii weapons and Bantha mounts as sacred, and will choose death before relinquishing either.</p><h2>Names</h2><p>Tusken naming traditions vary between clans, but most are made up of harsh, guttural sounds. Tuskens do not use surnames.</p><strong>&nbsp;&nbsp;Male Names.</strong> Ur Ur, A'Koba, Qeruru'rr, Gr'Karr<p></p><strong>&nbsp;&nbsp;Female Names.</strong> K'Yark, Reirin, K'Orou, Ursarr'u",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Strength or Charisma score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Tuskens are considered adults when they turn 15. Because of the harsh and unforgiving climate of their home world, they rarely live longer than half a century.</p>\n<p><em><strong>Alignment.</strong></em> Tusken culture's violent focus and disregard of those outside the tribe causes them to tend towards chaotic dark side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Tusken stand between 5 and 6 feet tall and weigh around 155 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Aggressive.</strong></em> As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</p>\n<p><em><strong>Animal Handler.</strong></em> You are proficient in Animal Handling.</p>\n<p><em><strong>Intimidating Roar.</strong></em> Once per day, you can cast the <em>fear</em> Force power. Charisma is your forcecasting ability for this power.</p>\n<p><em><strong>Survivors of the Sands.</strong></em> You are proficient in Survival. Additionally, you don't treat desert terrain as difficult terrain. Lastly, you are naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.</p>\n<p><em><strong>Tusken Weaponry.</strong></em> You have proficiency with the slugthrower and vibromace.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Tusken. Tusken is a guttural language characterized by its barks, growls, and roars. While Tuskens typically understand Galactic Basic, it is rare to hear them speak anything but Tusken.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Brown, gray, or tan"
+        },
+        "hairColorOptions": {
+            "value": "Black"
+        },
+        "eyeColorOptions": {
+            "value": "Pale gray or black"
+        },
+        "distinctions": {
+            "value": "Full-body wrappings, goggles, mouth filter"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "110 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Tatooine"
+        },
+        "slanguage": {
+            "value": "Tusken"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Tusken",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.ani.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Animal Handling"
+                },
+                {
+                    "modSpecKey": "data.skills.sur.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Survival"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "slugthrower",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibromace",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "tusken",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "LuotAfzq9MwApi8u",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Tusken.webp",
+    "effects": [
+        {
+            "_id": "bwSDTAnMbEikuqSv",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Tusken",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.ani.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.sur.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "slugthrower",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibromace",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "tusken",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.aggressive",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Tusken.webp",
+            "label": "Tusken",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

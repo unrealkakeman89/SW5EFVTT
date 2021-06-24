@@ -1,0 +1,37 @@
+{
+    "_id": "jTvNNZNqdEmLekSq",
+    "name": "Escape Pods, Hyperspace Capable",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "2"
+        },
+        "description": {
+            "value": "<p>This suite adds escape pods to your ship. Each escape pod comes equipped with a Class 15 hyperdrive, emergency rations and supplies that can support four civilians, crew members, or troopers for 1 week, in both hot and cold climates, as described in chapter 5 of the Dungeon Master's Guide. The quantity of escape pods is equal to one-fourth the ship's suite capacity, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

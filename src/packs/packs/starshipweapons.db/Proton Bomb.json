@@ -1,0 +1,137 @@
+{
+    "_id": "jmaLFT987mRnFbjL",
+    "name": "Proton Bomb",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>32 (65) lb</p>\n<p>When a proton bomb detonates, each ship within 100 [200] feet must make a Dexterity saving throw (DC 15). A ship takes 4d10 [8d10] energy damage on a failed save, or half as much on a successful one.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "quantity": 1,
+        "weight": 32,
+        "price": 650,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "none",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 100,
+            "width": null,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "4d10",
+                    "energy"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": 15,
+            "scaling": "flat"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "ammo",
+        "properties": {
+            "amm": false,
+            "aut": false,
+            "bur": false,
+            "con": false,
+            "def": false,
+            "dex": false,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "exp": false,
+            "fin": false,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "hom": false,
+            "ion": false,
+            "ken": false,
+            "lgt": false,
+            "lum": false,
+            "mlt": false,
+            "mig": false,
+            "ovr": false,
+            "pic": false,
+            "pow": false,
+            "rap": false,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "sat": false,
+            "shk": false,
+            "sil": false,
+            "spc": false,
+            "str": false,
+            "thr": false,
+            "two": false,
+            "ver": false,
+            "vic": false,
+            "zon": false
+        },
+        "proficient": true
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.xD0LjncUVkeGUfBL"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Starship%20Weapons/starshipweapon.webp",
+    "effects": []
+}

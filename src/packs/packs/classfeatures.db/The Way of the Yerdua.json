@@ -1,0 +1,71 @@
+{
+    "_id": "WLkMLz9u8Hdy1Bt5",
+    "name": "The Way of the Yerdua",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, as a bonus action, you can take a meditative stance for 1 minute, granting you supreme accuracy as you guide your shots to their target through the Force. While in this stance, you add your Wisdom or Charisma modifier (your choice, minimum of +1) to one ranged weapon attack and damage roll you make each turn. Additionally, when making a ranged weapon attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll.</p>\n<p>This effect ends early if you are incapacitated or die. Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you finish a long rest.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "bonus",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

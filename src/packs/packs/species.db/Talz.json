@@ -1,0 +1,257 @@
+{
+    "_id": "pQ8RTQJbAGhBlX3y",
+    "name": "Talz",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Talz are large, bulky, bipedal creatures, that are covered head to toe in thick white fur, which provides exceptional insulation against their frozen world. Talz have four eyes, which are also adaptations to their native environment. The larger set of eyes are shut during the day, when sunlight reflects off the snow with dazzling brightness\u2014able to blind sensitive optical organs\u2014leaving the smaller set to navigate with. Alternatively, during the deep darkness of their homeworld's moonless night, the larger pair are utilized to provide the Talz with adequate vision. Talz use a small proboscis to eat and communicate, creating high-pitched chirps and buzzes.</p>\n<h2>Society and Culture</h2>\n<p>Talz are a hunter-gatherer, clan-based society. They work in unison, and treat the entire clan as one single familial entity. Resources on Ordo Plutonia are often scarce, which leads to warring among Talz tribes. However, the clans are adept at forming a unified front when they face a common enemy. Talz are large, brutal creatures and are often used as guards and enforcers. Sometimes they are taken as slaves, though it's rare; they are rebellious against authority and don't take well to slavery. There are rumors that Talz are captured for scientific experimentation.</p>\n<h2>Names</h2>\n<p>Talz names are fairly gutteral and are characterized by their harsh nature. Female names are typically longer than male names. Surnames are clan-based, though it's rare that a Talz shares them with non-Talz.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Drak, Fedirk, Imom, Ke, Twift</p>\n<p><strong>&nbsp;&nbsp;Female Names.</strong> Ilnuno, Ontuga, Utrukk, Zimtucc</p>\n<p><strong>&nbsp;&nbsp;Surnames.</strong> Dic, Noetoc, Suptat, Wume, Zapak</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Wisdom score increases by 1.</p><p><em><strong>Age.</strong></em> Talz reach adulthood at 10 and rarely live longer than 50 years.</p><p><em><strong>Alignment.</strong></em> Talz' peaceful and slow-to-anger nature cause them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Talz stand between 6 and 8 feet tall and weigh around 250 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Hide.</strong></em> You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p><p><em><strong>Long-Limbed.</strong></em> When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Talzzi. You can understand spoken and written Galactic Basic, but your vocal cords do not allow you to speak it. Talzzi is characterized by its high-pitched chirps and buzzes.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black or grey"
+        },
+        "hairColorOptions": {
+            "value": "Grey, pink, or white"
+        },
+        "eyeColorOptions": {
+            "value": "Black, dark blue, or dark red"
+        },
+        "distinctions": {
+            "value": "Covered in fur, four eyes, unable to speak Galactic Basic"
+        },
+        "heightAverage": {
+            "value": "6'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "180 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d6) lb."
+        },
+        "homeworld": {
+            "value": "Orto Plutonia"
+        },
+        "slanguage": {
+            "value": "Talzzi"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Talz",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "12",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "talzzi",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "MDx74jnFbJwmRihf",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Talz.webp",
+    "effects": [
+        {
+            "_id": "tJH1nruC0gpiDYG8",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Talz",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "12+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "talzzi",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.longlimbed",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Talz.webp",
+            "label": "Talz",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

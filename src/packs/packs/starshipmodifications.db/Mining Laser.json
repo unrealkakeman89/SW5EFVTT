@@ -1,0 +1,37 @@
+{
+    "_id": "BO95e8sDsYBXYp5R",
+    "name": "Mining Laser",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>Your ship is equipped with a laser used to extract ores and other minerals from objects such as asteroids.  Checks made while using the mining laser for determining outcomes of work (for example, using downtime rules from Wretched Hives) are made with advantage. If you already have advantage on the roll, you can instead reroll one of the dice once.</p><p>Additionally, a crew member can activate the mining laser as an action in order to make a Strength (Boost) check against a ship that is touching you (for example, a ship that is ramming or being rammed by your ship, or one you are landed on) (DC = the ship's AC).  On a success, the adjacent ship takes 1d8 + Strength modifier energy damage.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

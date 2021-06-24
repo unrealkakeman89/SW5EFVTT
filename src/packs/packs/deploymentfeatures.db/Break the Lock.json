@@ -1,0 +1,31 @@
+{
+    "_id": "aaJBvhIo9mFBaU4U",
+    "name": "Break the Lock",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Pilot"
+        },
+        "featureType": {
+            "value": "Tactic"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Engines</em><br>When the ship fails a Strength, Dexterity, or Constitution saving throw, as a reaction, you can expend a power die to attempt to recover. Roll the die and add the result to the saving throw.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Pilot.webp",
+    "effects": []
+}

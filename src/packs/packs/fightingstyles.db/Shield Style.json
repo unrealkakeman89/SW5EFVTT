@@ -1,0 +1,20 @@
+{
+    "_id": "jFQREn6vVhELtbB6",
+    "name": "Shield Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at using your shield to defend your allies as well as yourself. While you are wielding a shield with which you are proficient, you gain the following benefits:</p><ul><li>If you are wielding a heavy shield, you are no longer required to wield a weapon with the light property in the other hand.</li><li>You can use a bonus action to try to shove or trip a creature within 5 feet of you with your shield.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Shield%20Style.webp",
+    "effects": []
+}

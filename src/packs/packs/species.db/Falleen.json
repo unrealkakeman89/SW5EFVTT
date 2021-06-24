@@ -1,0 +1,234 @@
+{
+    "_id": "P2leghGAe1BGY5wb",
+    "name": "Falleen",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>The Falleen are distinguished by their mottled green or red skin, ridged skulls, and their long, black hair which they typically wear in ponytails. The sleek symmetry of their features, calculating and cold demeanors, their exotic looks, and their ability to alter their skin pigmentation make the Falleen often considered to be among the most aesthetically pleasing beings in the galaxy. In addition to their strikingly beautiful appearance, the Falleen exude pheromones which makes them all but irresistible to both sexes.\r\n\r\nThe Falleen are semi-aquatic, being able to hold their breath underwater for an extended period of time. Fallen are one of few species that are resistant to manipulation by the Force.</p><h2>Society and Culture</h2><p>Falleen society is of a feudal nature, with noble houses ruling over the lower classes. The upper echelons of Falleen aristocracy are rife with politics and intrigue, though they rarely spill blood over disputes or reduce themselves to open warfare.\r\n\r\nAs a cold-blooded species, the Falleen respect discipline and control, particularly self-control. They tend to shun public displays of emotion, and are very patient. As a result of this attitude, they tend to look down on the more openly passionate, whom they see as lacking self-control. Indeed, the Falleen as a species have a towering sense of superiority, reflecting on their view of Falleen as the civilized and cultural center of the galaxy, rather than Coruscant.</p><h2>Names</h2><p>Falleen favor names with Z and X sounds. They are usually accompanied by a surname, which is familial.</p><strong>&nbsp;&nbsp;Male Names.</strong> Xomit, Xizor, Xist, Zenex, Zurros</p><strong>&nbsp;&nbsp;Female Names.</strong> Xora, Trezza, Mylla, Zule, Annaz</p><strong>&nbsp;&nbsp;Surnames.</strong> Grunseit, Croom, Moz, Xiss, Mythric",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Falleen reach adulthood in their late teens and live up to 250 years.</p><p><em><strong>Alignment.</strong></em> Falleen societal structure causes them to tend to be lawful balanced, though there are exceptions.</p><p><em><strong>Size.</strong></em> Falleen typically stand between 5 and 6 feet tall and weigh around 165 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Closed Mind.</strong></em> Falleen brains have an unusual composition which make them resistant to influence from the Force. You have advantage on Wisdom and Charisma saving throws against force powers.</p><p><em><strong>Enthralling Pheromones.</strong></em> You can use your pheromones to influence individuals of both sexes. Whenever you roll a 1 on a Charisma (Persuasion) check, you can reroll the die and must use the new roll. Additionally, once per short or long rest, you can treat a d20 roll of 9 or lower on a Charisma check as a 10. This feature has no effect on droids or constructs.</p><p><em><strong>Hold Breath.</strong></em> You can hold your breath for up to 1 hour at a time.</p><p><em><strong>Mask of the Wild.</strong></em> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Falleen. Falleen is characterized by its common use of the Z and X sounds, of which the Falleen are fond.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, red"
+        },
+        "hairColorOptions": {
+            "value": "Black"
+        },
+        "eyeColorOptions": {
+            "value": "Black, brown"
+        },
+        "distinctions": {
+            "value": "Ridged skulls, dorsal spine"
+        },
+        "heightAverage": {
+            "value": "4'7\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "110 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Falleen"
+        },
+        "slanguage": {
+            "value": "Falleen"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Falleen",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "gZKFKS3Z6Hs8aoaT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "gZKFKS3Z6Hs8aoaT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "gZKFKS3Z6Hs8aoaT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "gZKFKS3Z6Hs8aoaT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "gZKFKS3Z6Hs8aoaT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "gZKFKS3Z6Hs8aoaT",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "falleen",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "gZKFKS3Z6Hs8aoaT",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Falleen.webp",
+    "effects": [
+        {
+            "_id": "MG89qb6cGFBKJaYv",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Falleen",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "falleen",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.closedMind",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.maskOfTheWild",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.enthrallingPheromones",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Falleen.webp",
+            "label": "Falleen",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,282 @@
+{
+    "_id": "4RztmQJm1WykEeqS",
+    "name": "Kubaz",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Kubaz are distinctive for their short, prehensile facial snouts which were used for reaching insects within their hives. They have adapted to their sun-scorched, vegetation-deprived world by learning to survive off their world's native insect population. Filled with two rows of teeth for gnashing their food, the Kubaz trunk also functions as a highly sensitive nose. Due to living on their homeworld of Kubindi\u2014a planet which orbits a blue star\u2014Kubaz are highly sensitive to red wavelengths; when traveling to planets with a red or yellow star, Kubaz are forced to don protective eyewear to avoid damaging their sensitive eyes.</p>\n<h2>Society and Culture</h2>\n<p>The Kubazi society is based on a clan structure which dwell in underground nests. Ruled by a queen, each clan takes the name of their queen they are descended from. Developing a non-verbal language of hand gestures which indicated their intentions, Kubaz are able to speak Galactic Basic, though with a strong nasally accent. When interacting with other species, some Kubaz will share certain hand signals with non-Kubaz in order to ease communications. Obsessed with tact and decorum, the Kubaz place a high emphasis on the family unit and proper courtesies, displaying truthfulness to a fault. Valuing art and literature with such vigor as to sometimes practice smuggling of great works, the Kubaz do not find such pursuits to be wrong or unlawful. Due to their diet on Kubindi, the Kubaz have poor relations with sentient insectile species.</p>\n<h2>Names</h2>\n<p>Kubaz names are usually dominated by harsher sounds, but some names lean more melodic. Surnames are clan-based.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Shaf, Rizor, Duldril, Kurn, Schnaldiz</p>\n<p><strong>&nbsp;&nbsp;Female Names.</strong> Zhanro, Dizi, Tavo, Agoz, Nuzrem</p>\n<p><strong>&nbsp;&nbsp;Surnames.</strong> Re, Eadzan, Hai, Khu'nar, Mairvuc, Va</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Intelligence score increases by 1.</p><p><em><strong>Age.</strong></em> Kubaz reach adulthood in their early teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Kubaz' courteous nature causes them to tend toward lawful alignments, though there are exceptions.</p><p><em><strong>Size.</strong></em> Kubaz typically stand 5 to 6 feet tall and weigh around 160 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Art Obsession.</strong></em> Whenever you make an ability check related to the acquisition or location of art or valuables, you are considered proficient in the check. If you would already be proficient, you instead have expertise.</p><p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Deft Hand.</strong></em> You have proficiency in one of the following skills: Deception, Sleight of Hand, or Stealth.</p><p><em><strong>Keen Smell.</strong></em> You have advantage on Wisdom (Perception) checks that rely on smell.</p><p><em><strong>Slicer.</strong></em> You have proficiency with the Technology skill and the slicer's kit.</p><p><em><strong>Sunlight Sensitivity.</strong></em> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Kubazian. Kubazian is comprised of a unique series of whirring, nasally syllables, causing Kubaz to have a high-pitched accent when speaking other languages.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black, dark grey, or dark green"
+        },
+        "hairColorOptions": {
+            "value": "Black"
+        },
+        "eyeColorOptions": {
+            "value": "Red"
+        },
+        "distinctions": {
+            "value": "Prehensile snouts, protective eyewear"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "105 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Kubindi"
+        },
+        "slanguage": {
+            "value": "Kubazian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Kubaz",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (120 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.tec.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Technology"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "kubazian",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "nMwP2J1jYHBnvzl2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.toolProf.value",
+                    "value": "slic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "CQynRq1eakOfEG2w",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Tool Prof"
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Kubaz.webp",
+    "effects": [
+        {
+            "_id": "KTMeZ69AIhp6lmIz",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Kubaz",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 120,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.tec.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "kubazian",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "slic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.sunlightSensitivity",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Kubaz.webp",
+            "label": "Kubaz",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

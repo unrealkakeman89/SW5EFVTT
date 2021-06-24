@@ -1,5 +1,7 @@
 const gulp = require("gulp");
 const less = require("gulp-less");
+const through = require('through2');
+const fs = require('fs');
 
 /* ----------------------------------------- */
 /*  Constants
@@ -41,6 +43,31 @@ function compileDarkLess() {
 const css = gulp.parallel(compileLESS, compileGlobalLess, compileLightLess, compileDarkLess);
 
 /* ----------------------------------------- */
+/*  Compile packs
+/* ----------------------------------------- */
+
+const SW5E_PACKS = [src + "packs/packs/**"]
+
+function jsonToDB() {
+  return through.obj(async (chunk, enc, cb) => {
+    let result = "";
+
+    const files = await fs.promises.readdir(chunk.path);
+
+    for( const file of files ) {
+      result += JSON.stringify(JSON.parse(fs.readFileSync(chunk.path + "/" + file, "utf-8"))) + "\n";
+    }
+
+    chunk.contents = new Buffer(result);
+    cb(null, chunk)
+  })
+}
+
+function compilePacks() {
+  return gulp.src(src + "packs/packs/*").pipe(jsonToDB()).pipe(gulp.dest(dest + "packs/packs"));
+}
+
+/* ----------------------------------------- */
 /*  Copy Files
 /* ----------------------------------------- */
 
@@ -55,7 +82,7 @@ async function copy() {
     gulp.src(src + "fonts/**").pipe(gulp.dest(dest + "fonts/"));
     gulp.src(src + "lang/**").pipe(gulp.dest(dest + "lang/"));
     gulp.src(src + "module/**").pipe(gulp.dest(dest + "module/"));
-    gulp.src(src + "packs/**").pipe(gulp.dest(dest + "packs/"));
+    gulp.src(src + "packs/icons/**").pipe(gulp.dest(dest + "packs/Icons"));
     gulp.src(src + "templates/**").pipe(gulp.dest(dest + "templates/"));
     gulp.src(src + "ui/**").pipe(gulp.dest(dest + "ui/"));
     resolve();
@@ -66,7 +93,7 @@ async function copy() {
 /*  build
 /* ----------------------------------------- */
 
-const build = gulp.parallel(css, copy)
+const build = gulp.parallel(css, compilePacks, copy)
 
 /* ----------------------------------------- */
 /*  Watch Updates

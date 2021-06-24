@@ -1,0 +1,357 @@
+{
+    "_id": "QepqOfruvo0bfFkK",
+    "name": "Aing-Tii",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2><span id=\"Features\">BIOLOGY AND APPEARANCE</span></h2>\n<p>The aing-tii are a species of sentient, toothless mammals who stand on two clawed feet with two spindly arms, each with three large digits. Their bodies are covered in jointed white, bony plates covered in unique painted motifs. The aing-tii head is small and juts out perpendicularly from their chest, featuring two large eyes and six long, thin, green tongues extending from their mouths. They have a long, prehensile tail. The species is incapable of producing sound and conveys information via tasting, smelling and touching each other with their tongues.</p>\n<h2><span id=\"Features\">SOCIETY AND CULTURE</span></h2>\n<p>The aing-tii are native to a planet whose location in the Kathol Rift is a closely guarded secret. Although in a dangerous area of space, the majority of Aing-Tii never leave their homeworld nor have any contact with the outside world. Those who do\u2014commonly called aing-tii warrior monks\u2014are often xenophobic and reclusive. The monks spend their entire lives performing errands for their gods, in the hope that they will receive \"an answer\" from them. The aing-tii hate slavery, and often attack slavers who roam the Kathol Outback.</p>\n<p>While the aing-tii are Force-sensitive, they avoid wielding the Force, which they see as sacred. The aing-tii believe that everything is somehow guided by the Force. They do not believe in the light or dark sides of the Force. Instead, they hold that there are many different aspects to the Force.</p>\n<h2><span id=\"Features\">NAMES</span></h2>\n<p>Aing-tii names are, in reality, non-verbal and only truly understandable via taste, smell, and touch. The few aing-tii who have been known to the outside world have used translators to convey an auditory identifier.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Ben'Sur, Looshen'Fel, Tadar'Ro</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Kulan'Pa, Laman'So, Te'Nuriel</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 2, and your Constitution score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Aing-tii reach adulthood in their late teens and live more than a century.</p>\n<p><em><strong>Alignment.</strong></em> Aing-tii's foreign nature causes them to be hard to understand. Most aing-tii tend toward neutral light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Aing-tii typically stand 6 to 7 feet tall and generally weigh about 200 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Armored Plates.</strong></em> You have thick armored plates. When you aren't wearing armor, your AC is 13 + your Dexterity modifier.</p>\n<p><em><strong>Closed Mind.</strong></em> Aing-tii have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Wisdom and Charisma saving throws against force powers.</p>\n<p><em><strong>Force-Sensitive.</strong></em> You know the <em>force push/pull</em> at-will force power. Wisdom or Charisma (your choice) is your forcecasting ability for this power.</p>\n<p><em><strong>Prehensile Tail.</strong></em> You have supreme control over your tail and can use it to manipulate objects as well as your hands.</p>\n<p><em><strong>Wisdom of the Elders.</strong></em> You are proficient in the Lore skill.</p>\n<p><em><strong>Languages.</strong></em> You can understand, read, and write Galactic Basic, and the non-verbal communication of the aing-tii. However, you cannot speak or make noise verbally.</p>"
+        },
+        "skinColorOptions": {
+            "value": "White"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Force-sensitivity, unique technology, six green tongues"
+        },
+        "heightAverage": {
+            "value": "5'7\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "145 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Aing-Tii homeworld in the Kathol Rift"
+        },
+        "slanguage": {
+            "value": "Non-verbal communication via taste, smell, and touch"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "Ability Score Increase": {
+            "value": "Ability Score Increase"
+        },
+        "Your Wisdom score increases by 2, and your Constitution score increases by 1": {
+            "": {
+                "value": "Your Wisdom score increases by 2, and your Constitution score increases by 1."
+            }
+        },
+        "Age": {
+            "value": "Age"
+        },
+        "Aing-tii reach adulthood in their late teens and live more than a century": {
+            "": {
+                "value": "Aing-tii reach adulthood in their late teens and live more than a century."
+            }
+        },
+        "Alignment": {
+            "value": "Alignment"
+        },
+        "Aing-tii's foreign nature causes them to be hard to understand": {
+            " Most aing-tii tend toward neutral light side, though there are exceptions": {
+                "": {
+                    "value": "Aing-tii's foreign nature causes them to be hard to understand. Most aing-tii tend toward neutral light side, though there are exceptions."
+                }
+            }
+        },
+        "Size": {
+            "value": "Size"
+        },
+        "Aing-tii typically stand 6 to 7 feet tall and generally weigh about 200 lbs": {
+            " Regardless of your position in that range, your size is Medium": {
+                "": {
+                    "value": "Aing-tii typically stand 6 to 7 feet tall and generally weigh about 200 lbs. Regardless of your position in that range, your size is Medium."
+                }
+            }
+        },
+        "Speed": {
+            "value": "Speed"
+        },
+        "Your base walking speed is 30 feet": {
+            "": {
+                "value": "Your base walking speed is 30 feet."
+            }
+        },
+        "Armored Plates": {
+            "value": "Armored Plates"
+        },
+        "You have thick armored plates": {
+            " When you aren't wearing armor, your AC is 13 + your Dexterity modifier": {
+                "": {
+                    "value": "You have thick armored plates. When you aren't wearing armor, your AC is 13 + your Dexterity modifier."
+                }
+            }
+        },
+        "Closed Mind": {
+            "value": "Closed Mind"
+        },
+        "Aing-tii have a natural attunement for the Force, which makes them resistant to its powers": {
+            " You have advantage on Wisdom and Charisma saving throws against force powers": {
+                "": {
+                    "value": "Aing-tii have a natural attunement for the Force, which makes them resistant to its powers. You have advantage on Wisdom and Charisma saving throws against force powers."
+                }
+            }
+        },
+        "Force-Sensitive": {
+            "value": "Force-Sensitive"
+        },
+        "You know the <em>force push/pull</em> at-will force power": {
+            " Wisdom or Charisma (your choice) is your forcecasting ability for this power": {
+                "": {
+                    "value": "You know the <em>force push/pull</em> at-will force power. Wisdom or Charisma (your choice) is your forcecasting ability for this power."
+                }
+            }
+        },
+        "Prehensile Tail": {
+            "value": "Prehensile Tail"
+        },
+        "You have supreme control over your tail and can use it to manipulate objects as well as your hands": {
+            "": {
+                "value": "You have supreme control over your tail and can use it to manipulate objects as well as your hands."
+            }
+        },
+        "Wisdom of the Elders": {
+            "value": "Wisdom of the Elders"
+        },
+        "You are proficient in the Lore skill": {
+            "": {
+                "value": "You are proficient in the Lore skill."
+            }
+        },
+        "Languages": {
+            "value": "Languages"
+        },
+        "You can understand, read, and write Galactic Basic, and the non-verbal communication of the aing-tii": {
+            " However, you cannot speak or make noise verbally": {
+                "": {
+                    "value": "You can understand, read, and write Galactic Basic, and the non-verbal communication of the aing-tii. However, you cannot speak or make noise verbally."
+                }
+            }
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "effects": [
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.lor.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.custom",
+                    "value": "the non-verbal communication of the Aing-Tii",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language Custom"
+                },
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Aing-Tii",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "13",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "BvV56gDIilVwLcFE",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                }
+            ],
+            "equipActive": true,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Aing-Tii.webp",
+    "effects": [
+        {
+            "_id": "3aUdsUbBSwi6cZH0",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.lor.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "the non-verbal communication of the Aing-Tii",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.details.species",
+                    "value": "Aing-Tii",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "13 + @abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "flags.sw5e.closedMind",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Aing-Tii.webp",
+            "label": "Aing-Tii",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

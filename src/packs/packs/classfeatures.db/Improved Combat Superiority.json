@@ -1,0 +1,71 @@
+{
+    "_id": "FgzDinvrDELxPNhc",
+    "name": "Improved Combat Superiority",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you choose this specialty at 3rd level, your tactical skill in combat improves, granting bonuses to your Combat Superiority.</p>\n<hr />\n<h4><strong>IMPROVED MANEUVERS</strong></h4>\n<p>You know four maneuvers of your choice, instead of two, and you earn more at higher levels, as shown in the Maneuvers Known column of the Tactical Specialist Combat Superiority table.</p>\n<hr />\n<h4><strong>IMPROVED SUPERIORITY DICE</strong></h4>\n<p>You have four superiority dice, instead of two, and you earn more at higher levels, as shown in the Superiority Dice column of the Tactical Specialist Combat Superiority table.</p>\n<hr />\n<h2 style=\"box-sizing: inherit; background-repeat: no-repeat; margin-bottom: 0px; font-family: 'Russo One', sans-serif; text-transform: uppercase; font-weight: bold; font-size: 0.5cm;\">THE TACTICAL SPECIALIST</h2>\n<table class=\"table text-center LevelTable_levelTable_14CWn\">\n<thead style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px;\">\n<tr style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px;\">\n<th class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; padding: 0px 8px !important 0px 8px !important;\">Level</th>\n<th class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; padding: 0px 8px !important 0px 8px !important;\">Superiority Dice</th>\n<th class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important;\">Maneuvers Known</th>\n</tr>\n</thead>\n<tbody style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px;\">\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">3rd</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">4</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">4</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">4th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">4</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">4</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">5th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">4</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">4</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">6th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">4</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">4</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">7th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">6</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">8th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">6</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">9th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">6</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">10th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">6</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">6</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">11th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">8</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">8</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">12th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">8</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">8</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">13th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">8</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">8</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">14th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">8</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">8</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">15th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">10</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">10</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">16th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">10</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">10</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">17th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">10</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">10</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">18th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">10</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">10</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #c9d6db;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">19th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">10</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">10</td>\n</tr>\n<tr class=\"rows\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding: 0px; margin: 0px; background-color: #bdc8cc;\">\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">20th</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; margin: 0px; text-align: center;\">10</td>\n<td class=\"px-2\" style=\"box-sizing: inherit; background-repeat: no-repeat; padding-top: 0px; padding-bottom: 0px; margin: 0px; padding-left: 8px !important; text-align: center;\">10</td>\n</tr>\n</tbody>\n</table>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

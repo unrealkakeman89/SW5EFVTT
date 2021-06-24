@@ -1,0 +1,31 @@
+{
+    "_id": "U7EWM1BOvgRDjo4k",
+    "name": "Heavy Gun Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": "Gunning Mastery"
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>You are the master of railguns and turbolasers. While you are firing a secondary weapon, before you make an attack, you can choose to double your proficiency bonus. If the attack hits, you reduce the damage dealt by an amount equal to your proficiency bonus.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

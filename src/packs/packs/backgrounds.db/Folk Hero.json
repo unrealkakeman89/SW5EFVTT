@@ -1,0 +1,108 @@
+{
+    "name": "Folk Hero",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You come from a humble social rank, but you are destined for so much more. Already the people of your home village regard you as their champion, and your destiny calls you to stand against the tyrants and monsters that threaten the common folk everywhere."
+        },
+        "flavorName": {
+            "value": "Defining Event"
+        },
+        "flavorDescription": {
+            "value": "<p>You previously pursued a simple profession among the peasantry, perhaps as a farmer or miner, servant or shepherd. But something happened that set you on a different path and marked you for greater things. Choose or randomly determine a defining event that marked you as a hero of the people.</p>"
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Defining Event</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I stood up to a tyrant's agents.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I saved people during a natural disaster.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I stood alone against a terrible monster.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I stole from a corrupt merchant to help the poor.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I led a militia to fight off an invading army.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I broke into a tyrant's castle and stole weapons to arm the people.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I trained the peasantry to use farm implements as weapons against a tyrant's soldiers.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">A lord rescinded an unpopular decree after I led a symbolic act of protect against it.</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Animal Handling, Athletics, Nature, and Performance"
+        },
+        "toolProficiencies": {
+            "value": "One type of artisan's implements, biochemist's kit, or chef's kit"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of tools (one of your choice), a set of common clothes, and a belt pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "A folk hero is one of the common people, for better or for worse. Most folk heroes look on their humble origins as a virtue, not a shortcoming, and their home communities remain very important to them."
+        },
+        "featureName": {
+            "value": "Rustic Hospitality"
+        },
+        "featureText": {
+            "value": "Since you are of the common folk, you fit in among them with ease. You can find a place to hide, rest, or recuperate among other commoners, unless you have shown yourself to be a danger to them. They will shield you from the law or anyone else searching for you, though they will not risk their lives for you.\r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Animal Handler</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Naturalist</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Performer</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Healer</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I judge people by their actions, not their words.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">If someone is in trouble, I'm always ready to lend help.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">When I set my mind to something, I follow through no matter what gets in my way.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I have a strong sense of fair play and always try to find the most equitable solution to arguments.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm confident in my own abilities and do what I can to instill confidence in others.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Thinking is for other people. I prefer action.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I misuse long words in an attempt to sound smarter.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I get bored easily. When am I going to get on with my destiny?</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Respect. People deserve to be treated with dignity and respect. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Fairness. No one should get preferential treatment before the law, and no one is above the law. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Freedom. Tyrants must not be allowed to oppress the people. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Might. If I become strong, I can take what I want&mdash;what I deserve. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Sincerity. There's no good in pretending to be something I'm not. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Destiny. Nothing and no one can steer me away from my higher calling. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">The tyrant who rules my land will stop at nothing to see me killed.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">The people who knew me when I was young know my shameful secret, so I can never go home again.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I have a weakness for the vices of the city, especially hard drink.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Secretly, I believe that things would be better if I were a tyrant lording over the land.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I have trouble trusting in my allies.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I have a family, but I have no idea where they are. One day, I hope to see them again.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I worked the land, I love the land, and I will protect the land.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">My tools are symbols of my past life, and I carry them so that I will never forget my roots.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I protect those who cannot protect themselves.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I wish my childhood sweetheart had come with me to pursue my destiny.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Folk%20Hero.webp",
+    "effects": [
+        {
+            "_id": "vT9EY11Z0B58gu83",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Folk Hero",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Folk Hero",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "3UP2XhdQbQcpnPdK"
+}

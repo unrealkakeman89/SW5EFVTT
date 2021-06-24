@@ -1,0 +1,109 @@
+{
+    "name": "Student",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>As a child, you were inquisitive when your playmates were possessive or raucous. In your formative years, you found your way to one of the galaxy's great institutes of learning, where you were apprenticed and taught that knowledge is a more valuable treasure than gold or gems. Now you are ready to leave your home\u2014not to abandon it, but to quest for new lore to add to its storehouse of knowledge.</p><p>The most well-known of the galaxy's fonts of knowledge is the Library of the Republic. The great library is always in need of workers and attendants, some of whom rise through the ranks to assume roles of greater responsibility and prominence. You might be one of Coruscant's own, dedicated to the curatorship of what is likely the most complete body of lore and history in all the world.</p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Lore, Investigation, and Nature"
+        },
+        "toolProficiencies": {
+            "value": null
+        },
+        "languages": {
+            "value": "Two of your choice"
+        },
+        "equipment": {
+            "value": "A set of common clothes, a datapad and 10 data cards, a book on the subject of your current study, and a pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Cloistered scholars are defined by their extensive studies, and their characteristics reflect this life of study. Devoted to scholarly pursuits, they value knowledge highly&mdash;as a worthy goal in itself, or as a means to a desirable end."
+        },
+        "featureName": {
+            "value": "Library Access"
+        },
+        "featureText": {
+            "value": "<p>Though others must often endure extensive interviews and significant fees to gain access to even the most common archives in your library, you have free and easy access to the majority of the library, though it might also have repositories of lore that are too valuable, powerful, or secret to permit anyone immediate access.</p><p>You have a working knowledge of your cloister's personnel and bureaucracy, and you know how to navigate those connections with some ease.</p><p>Additionally, you are likely to gain preferential treatment at other libraries across the galaxy, as professional courtesy shown to a fellow scholar.</p>"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Loremaster</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Naturalist</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Keen Mind</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Observant</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Healer</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I use polysyllabic words that convey the impression of great erudition.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I've read every book in the world's greatest libraries&mdash;or I like to boast that I have.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I'm used to helping out those who aren't as smart as I am, and I patiently explain anything and everything to others.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">There's nothing I like more than a good mystery.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm willing to listen to every side of an argument before I make my own judgment.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I... speak... slowly... when talking... to idiots,... which... almost... everyone... is... compared... to me.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I am horribly, horribly awkward in social situations.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I'm convinced that people are always trying to steal my secrets.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Knowledge. The path to power and self-improvement is through knowledge. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Beauty. What is beautiful points us beyond itself toward what is true. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Logic. Emotions must not cloud our logical thinking. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">No Limits. Nothing should fetter the infinite possibility inherent in all existence. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Power. Knowledge is the path to power and domination. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Self-Improvement. The goal of a life of study is the betterment of oneself. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I am easily distracted by the promise of information.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Most people scream and run when they see a monster. I stop and take notes on its anatomy.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Unlocking an ancient mystery is worth the price of a civilization.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I overlook obvious solutions in favor of complicated ones.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I speak without really thinking through my words, invariably insulting others.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I can't keep a secret to save my life, or anyone else's.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">It is my duty to protect my students.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I have an ancient text that holds terrible secrets that must not fall into the wrong hands.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I work to preserve a library, university, scriptorium, or monastery.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">My life's work is a series of tomes related to a specific field of lore.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I've been searching my whole life for the answer to a certain question.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I sold my soul for knowledge. I hope to do great deeds and win it back.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Student.webp",
+    "effects": [
+        {
+            "_id": "m9GimK5lM9wkGQl3",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Student",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Student",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "o5vXhA0t4zN2O2t5"
+}

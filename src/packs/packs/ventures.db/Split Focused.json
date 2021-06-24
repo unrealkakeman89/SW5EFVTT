@@ -1,0 +1,23 @@
+{
+    "_id": "f4x0mJvFucA7oyaP",
+    "name": "Split Focused",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Multitasker venture</em></p><p>When operating a ship, you gain a second bonus action you can take with the ship.</p>"
+        },
+        "prerequisites": [
+            "Multitasker venture"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

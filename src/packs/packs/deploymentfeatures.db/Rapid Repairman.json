@@ -1,0 +1,31 @@
+{
+    "_id": "RrKCi2wsalQrLNH9",
+    "name": "Rapid Repairman",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Mechanic"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "4th Rank"
+        },
+        "description": {
+            "value": "<p>At 4th rank, when you take the Patch action, you can choose to forgo your proficiently equipped bonus. If you succeed on the check, you can expend 2 Hull Dice, instead of one. For each Hull Die spent in this way, roll the die and add the ship\u2019s Constitution modifier to it.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Mechanic.webp",
+    "effects": []
+}

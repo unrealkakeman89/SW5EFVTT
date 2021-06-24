@@ -1,0 +1,291 @@
+{
+    "_id": "HyqiVZiyDKbiPHkM",
+    "name": "Cathar",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The Cathar have fur-covered bodies with thick manes as well as prominent, retractable claws that can deliver powerful killing attacks on foes and prey. Their bodies also possess rapid healing abilities. These traits make them the perfect hand-to-hand specialists. The Cathar species also has two subspecies, known as the Juhani and the Myr Rho. Both of these are notably less catlike than mainline Cathar. Cathar are born into a litter. The Cathar species is biologically similar to the Bothan species.</p>\n<h2>Society and Culture</h2>\n<p>On their homeworld, Cathar live in cities built into giant trees, and are organized into clans governed by elders. Stories of their great heroes were often carved into the trunks of these tree-homes for following generations to see. The Cathar mate for life, to the extent that when one mate dies, the survivor never has a relationship with another. Cathar clan society includes great pageants and celebrations, especially for their heroes. Their religion includes a ritual known as the \"Blood Hunt,\" in which Cathar warriors individually engaged in combat against entire nests of Kiltik in order to gain honor and purge themselves of inner darkness. The native language of the Cathar is Catharese, which included the emphasis of some spoken words with a growl.</p>\n<h2>Names</h2>\n<p>Cathar names can sound both melodic and fairly gutteral, but they almost always sound strong and fierce. Female names are typically longer than male names. Surnames are usually one syllable.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Crurbirr, Isyrr, Nynorr, Suro, Tukarr</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Cuwin, Jyvohr, Mulahr, Solyri</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Jin, Ki, Mak, Rhir, Ta</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Charisma score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Cathar reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Cathar tend toward no particular alignment. The best and worst are found among them.</p>\n<p><em><strong>Size.</strong></em> Cathar range from 5 to 7 feet tall, and can weigh up to 300 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Darkvision.</strong></em> You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Leonine Agility.</strong></em> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>\n<p><em><strong>Cat's Claws.</strong></em> You have a climbing speed of 20 feet. Additionally, your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p>\n<p><em><strong>Cat's Talent.</strong></em> You have proficiency in the Perception and Stealth skills.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Catharese.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Gold to yellow-brown with dark stripes"
+        },
+        "hairColorOptions": {
+            "value": "Brown, black, or grey"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow or brown"
+        },
+        "distinctions": {
+            "value": "Lion-like features"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "130 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Cathar"
+        },
+        "slanguage": {
+            "value": "Catharese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Cathar",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.climb",
+                    "value": "20",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.skills.prc.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Perception"
+                },
+                {
+                    "modSpecKey": "data.skills.ste.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Stealth"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "catharese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "Ku1ZIFLPqS4PTiFl",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Cathar.webp",
+    "effects": [
+        {
+            "_id": "6fYB2NZ236PqSl6p",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Cathar",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.climb",
+                    "value": 20,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.prc.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.ste.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "catharese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.nimbleAgility",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Cathar.webp",
+            "label": "Cathar",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "_id": "YQbpwkUPMTaSkhNq",
+    "name": "Center of the Force",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Sentinel</strong>:&nbsp;20th level</em></p>\n<p>You are perfectly centered with the Force. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2.</p>\n<p>Additionally, once per turn, when you would roll a Kinetic Combat die, you can instead choose the maximum.</p>\n<section class=\"secret\">\n<p>By default Dex and Wis are boosted when this feature is on a sheet, edit the effects before placing it on a sheet if the character would choose Cha instead of Wis</p>\n</section>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Sentinel 20",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Passive.webp",
+    "effects": [
+        {
+            "_id": "SxmhOmW1389OiJoa",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Passive.webp",
+            "label": "Center of the Force",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

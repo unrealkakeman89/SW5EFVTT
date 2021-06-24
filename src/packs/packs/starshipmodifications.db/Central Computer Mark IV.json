@@ -1,0 +1,37 @@
+{
+    "_id": "WrOIpd3HGfhSclSX",
+    "name": "Central Computer, Mark IV",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Central Computer, Mark III"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "4"
+        },
+        "description": {
+            "value": "<p>You massively improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 5. Additionally, when your artificial intelligence takes the Interfere action, it has advantage on the Intelligence (Interfere) check.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

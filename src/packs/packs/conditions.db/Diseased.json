@@ -1,0 +1,16 @@
+{
+    "_id": "ym1AmtadiULv8DrK",
+    "name": "Diseased",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.AeEM4G7EhVNJ62A8"
+        }
+    },
+    "content": "<h4 id=\"diseased\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">DISEASED</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">A diseased creature suffers effects that vary based on the disease.</li>\n</ul>",
+    "img": "icons/svg/biohazard.svg"
+}

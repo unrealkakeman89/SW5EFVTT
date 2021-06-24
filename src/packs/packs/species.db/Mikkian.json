@@ -1,0 +1,230 @@
+{
+    "_id": "CBKFpIWqMjl3Ai6m",
+    "name": "Mikkian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Mikkians are a species of brightly colored humanoids. The Mikkians' most distinctive feature are their motile head-tendrils, with the number, form, and pattern varying between individuals. These head-tendrils primarily serve as sensory organs, particularly detecting sound as a replacement for an ear common in other species. Mikkian head-tendrils also could detect other information, such as humidity, temperature, magnetic direction and radiation. This radiation can be detected to the extent that Mikkians can \"see\" light and dark, although their eyes are still their primary visual organs.</p>\n<h2>Society and Culture</h2>\n<p>Mikkians place kinship and integrity above all. In fact, their honesty can come across as blunt or even rude to other sentients. Conversely, Mikkians often have trouble adjusting to the more flexible views of other races. Their complex code of honor encompass all things in life, with a particular insistance on matters of warfare. Although they respect warrior traditions, the Mikkians nevertheless value discipline and honor over victory or physical might.</p>\n<p>Different religious traditions exist among the Mikkians, but belief in the Force plays a central role in all of them. In Mikkian society, their head-tendrils have important cultural significance, and, as such, tendril-reading is used by Mikkian mystics to predict their future. Every facet of the head-tendril contributes to that meaning.</p>\n<h2>Names</h2>\n<p>Mikkian names are often short and disyllabic with a melodic quality to them. Mikkians typically don't use surnames, though some may adopt them.</p>\n<p><strong>&nbsp; Male Names.</strong> Cage, Fedlas, Mekko, Sakas</p>\n<p><strong>&nbsp; Female Names.</strong> Beyra, Fenvar, Tiplee, Zelna</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "traits": {
+            "value": "<p><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 2, and one other ability score of your choice increases by 1.</p>\n<p><strong><em>Age.</em></strong> Mikkians reach adulthood in their late teens and live a little over a century.</p>\n<p><strong><em>Alignment.</em></strong> Mikkians' honor and integrity based culture causes them to tend toward lawful alignments, though there are exceptions.</p>\n<p><strong><em>Size.</em></strong> Mikkians typically stand 5 to 6 feet tall and generally weigh about 120 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>\n<p><strong><em>Blindsight.</em></strong> Mikkians can perceive the world around them through heat and radiation. You have blindsight out to 30 feet. If another trait would grant you blindsight, the range is increased by half as many feet.</p>\n<p><strong><em>Keen Hearing.</em></strong> Your head-tendrils provide a keen awareness of your surroundings. You have advantage on Wisdom (Perception) checks that involve hearing.</p>\n<p><strong><em>Bureaucratic.</em></strong> You have proficiency with Persuasion or Intimidation (your choice)</p>\n<p><strong><em>Languages.</em></strong> You can speak, read, and write Galactic Basic and Mikkian. Mikkian is a melodic, flowing tongue made up of several ancient dialects.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, pink, red, blue, or yellow"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Blue or black"
+        },
+        "colorScheme": {
+            "value": ""
+        },
+        "distinctions": {
+            "value": "Numerous head-tendrils, acute senses of sight and hearing"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Mikkia"
+        },
+        "slanguage": {
+            "value": "Mikkian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Abyssin",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.custom",
+                    "value": "Abyssin",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "tuTnGLudeHCJpQUq",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language Custom"
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        },
+        "core": {
+            "sourceId": "Item.NTJwsm4aSeAH9dVZ"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Mikkian.webp",
+    "effects": [
+        {
+            "_id": "2FSlkSzlsfoQSsQs",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Mikkian",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.blindsight",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "Mikkian",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Mikkian.webp",
+            "label": "Mikkian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

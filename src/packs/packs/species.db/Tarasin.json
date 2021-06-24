@@ -1,0 +1,258 @@
+{
+    "_id": "sObT8nqENrxcrl07",
+    "name": "Tarasin",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Tarasins are tall reptilians covered in translucent scales that allows the species' color-changing skin below to show through. Tarasins also have a colorful fan of flesh and scales\u2014known as a kampo\u2014that opens around their heads when they experience strong emotional distress, which can be a detriment to negotiations, as it is difficult for a tarasin to hide discomfort. This color-changing ability is useful for camouflage and communication, and the scales naturally repel heat. Some examples of colors they take on include being brown when calm and in a comfortable environment, or becoming red after extended exertion or when excited. Tarasins also have short spines that protrude from their forearms\u2014known as a sa'tosin\u2014which give the creatures the ability to sense the use of the Force. Tarasins are naturally curious and protective but also slow to anger. What they lack in sheer physical strength they make up for with a brilliant intellect.</p>\n<h2>Society and Culture</h2>\n<p>Tarasins live in a tribal system in the jungle underbrush of Cularin, grouping together in clans called irstat. The tarasin believe they have a symbiotic relationship with Cularin, and their religion is based around the appreciation of the natural world. This closeness with their homeworld is what makes the tarasin reluctant to leave it for an extended time. The tarasin have a strong connection with the Force, and their spiritual leaders are often able to call upon the Force in small ways. The tarasin believe that the ch'hala tree is sacred. This may have been influenced by the trees having a similar ability to shift their colors as the tarasin, but it is also the most unique tree on Cularin.</p>\n<h2>Names</h2>\n<p>Tarasin names are generally very soft and melodic. Names are agendered, and surnames are not used.</p>\n<p>&nbsp;&nbsp;<strong>Names.</strong> Feliosa, Misona, Nissira, Vylana, Ziransa</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Dexterity score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Tarasins reach adulthood at 10 and live less than 80 years.</p>\n<p><em><strong>Alignment.</strong></em> Tarasins' curious yet composed nature causes them to tend toward balanced alignments, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Tarasins typically stand 5 to 6 feet tall and generally weigh about 130 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Chameleon Skin.</strong></em> Your scales are translucent, allowing your color-shifting skin to help you blend into your surroundings. You have proficiency in the Stealth skill. Additionally, you can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>\n<p><em><strong>Jungle Dweller.</strong></em> Growing up in the jungles of Cularin has left an impact. You don't treat jungle terrain as difficult terrain.</p>\n<p><em><strong>Naturalist.</strong></em> You have proficiency in the Nature skill.</p>\n<p><em><strong>Sa'tosin Sense.</strong></em> Tarasins have short spines called sa'tosin that allow them to sense the use of the Force. You are constantly under the effects of the force power <em>sense force</em>, though the power does not require concentration for you.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Tarasinese. You can communicate non-verbally with other tarasins through use of a complex system of skin color changes.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Translucent; varies with emotion"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Red, orange, yellow, or black"
+        },
+        "distinctions": {
+            "value": "Reptillian, sa'tosin spines"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Cularin"
+        },
+        "slanguage": {
+            "value": "Tarasinese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Tarasin",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.ste.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Stealth"
+                },
+                {
+                    "modSpecKey": "data.skills.nat.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Nature"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.custom",
+                    "value": "Tarasinese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "1qlCRCYyNlP13wOz",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language Custom"
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Tarasin.webp",
+    "effects": [
+        {
+            "_id": "uKYIAfObGqCfU8TK",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Tarasin",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.ste.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.nat.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "Tarasinese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.maskOfTheWild",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Tarasin.webp",
+            "label": "Tarasin",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

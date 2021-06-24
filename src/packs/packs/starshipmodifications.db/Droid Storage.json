@@ -1,0 +1,37 @@
+{
+    "_id": "ykVyFNPfXA0BsOIM",
+    "name": "Droid Storage",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite offers a single room featuring tightly-packed racks suitable for storing and housing a number of Medium droids equal to four times the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table.</p>\n<p>Alternatively, this suite can house droids of other sizes. A Huge droid takes up the space of two Large droids, which in turn takes up the place of two Medium droids, and so on.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

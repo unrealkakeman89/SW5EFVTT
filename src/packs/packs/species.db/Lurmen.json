@@ -1,0 +1,181 @@
+{
+    "_id": "nUblPlFglCORgze6",
+    "name": "Lurmen",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Lurmen's bodies are covered entirely in fur, which range in color from a dark brown to a white-gray, though they do wear garments. They can walk either upright on their two legs, and can also use their arms and legs for faster movement Many lurmen have the ability to roll themselves into a wheeled shape; this allows them to cover distances at great speed. They may have learned this ability from the native amani on Maridun.</p>\n<h2>Society and Culture</h2>\n<p>The lurmen use fallen seedpods from the giant trees as shelter and home. Living near the trees proves too dangerous, as the falling pods can be deadly. Instead, the lurmen drag the pods into a clearing and use them as huts. They also extract essential oils from the pods for nutrition and healing medicines. Most lurmen are pacifistic by nature and refuse to fight or run even in the face of death. They often will hide instead of using violence. As pacifists, they carry no weapons but carry farming tools or ropes. The greatest native threat to the lurmen are the amani and the mastiff phalones, raptor-headed quadrupeds that hunted in groups. However, even in defeating these beasts the lurmen attempt to remain true to their pacifist ideals, and not inflict any injury to the creatures. Instead, when cornered by a mastiff phalone, an agile lurmen will try to unbalance the creature by tying a rope around its stout legs.</p>\n<h2>Names</h2>\n<p>Lurmen names are sharp and made up of a single syllable. Instead of surnames, lurmen are granted additional names based on their importance to the village. Common lurmen possess one name, with leaders having as many as four.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Fee, Gatt, Nub, Shoo, Yup</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Kal, Laa, Shal, Vook, Yiit</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Lurmen reach adulthood in their late teens and live less than 80 years.</p>\n<p><em><strong>Alignment.</strong></em> The pacifistic nature of the lurmen causes them to be neutral light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Lurmen typically stand around 3 feet tall and generally weigh about 45 lbs. Regardless of your position in that range, your size is Small.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p>\n<p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Natural Healer.</strong></em> You have proficiency in the Medicine and Nature skills, and the bioanalysis kit.</p>\n<p><em><strong>Prehensile Tail and Feet.</strong></em> You have supreme control over your tail and feet and can use them to manipulate objects as well as your hands.</p>\n<p><em><strong>Rolling Agility.</strong></em> As a lurmen, you can run on all fours, or curl into a ball, to move quickly along the ground. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</p>\n<p><em><strong>Treeclimber.</strong></em> You have a climbing speed of 25 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.</p>\n<p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield bigger weapons. You can\u2019t use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Lurmese. Lurmese is a name collectively given to the various tribal languages spoken by the lurmen people. While each language is distinct, shared phrases allow translation between dialects.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black or gray"
+        },
+        "hairColorOptions": {
+            "value": "Brown to gray"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow or orange"
+        },
+        "distinctions": {
+            "value": "Prehensile tail and feet, furred body"
+        },
+        "heightAverage": {
+            "value": "2'11\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "40 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Mygeeto, Maridun"
+        },
+        "slanguage": {
+            "value": "Lurmese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Lurmen.webp",
+    "effects": [
+        {
+            "_id": "gzV1BSf7YoTCOLpN",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 25,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.med.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.nat.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "bioa",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.climb",
+                    "value": 25,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "lurmese",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.details.species",
+                    "value": "Lurmen",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.nimbleAgility",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Lurmen.webp",
+            "label": "Lurmen",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

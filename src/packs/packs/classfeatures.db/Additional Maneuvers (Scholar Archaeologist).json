@@ -1,0 +1,71 @@
+{
+    "_id": "psCyhE5cHf06gu6A",
+    "name": "Additional Maneuvers (Scholar: Archaeologist)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain access to new maneuvers which reflect the progress of your studies into ancient civilizations. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>FORCE RESONANCE</strong></h4>\n<p>Immediately after you deal damage to a target with a force attack, you can expend a superiority die and target a second creature that you can see within 30 feet of the first creature. Roll the die, and the second creature takes force damage equal to the roll + your forcecasting modifier.</p>\n<hr />\n<h4><strong>FORTUNE AND GLORY</strong></h4>\n<p>When you would make a weapon attack against a target within 30 feet, you can instead manipulate the Force to expend a superiority die and make a Sleight of Hand check using your universal forcecasting ability to plant something on the target, conceal an object on the target, lift the target's purse, or take something from its pocket. Roll the superiority die, and add the result to the check.</p>\n<hr />\n<h4><strong>FOSSIL FUELED</strong></h4>\n<p>When you would spend force points to cast a force power, you can instead expend a superiority die to cast the power. When you do so, you take necrotic damage equal to the number rolled + your forcecasting modifier + twice the power's level. This damage cannot be reduced in any way.</p>\n<p>For each additional time you use this maneuver without taking a short or long rest, roll and additional superiority die of damage.</p>\n<hr />\n<h4><strong>ONE WITH THE FORCE</strong></h4>\n<p>Once per turn, when you make a Constitution saving throw to maintain concentration on a force power, you can expend a superiority die and add the number rolled to the saving throw.</p>\n<hr />\n<h4><strong>OVERWHELMING WIT</strong></h4>\n<p>Once per round, when a creature secceds on a force power you cast that requires a Wisdom or Charisma saving throw, you can expend a superiority die to make a universal forcecasting ability check with proficiency, substituting the result of the roll for the save DC for that power.</p>\n<hr />\n<h4><strong>MIND OVER MYSTERY</strong></h4>\n<p>When you are forced to make a saving throw against a force power or effect you can see, you can expend a superiority die to change the saving throw to an Intelligence saving throw.</p>\n<hr />\n<h4><strong>SHORT ROUND</strong></h4>\n<p>When you cast a force power of 1st-level or higher that has a casting time of 1 action, you can expend a superiority die to change the casting time to 1 bonus action for this casting.</p>\n<hr />\n<h4><strong>STRIKEFORCE</strong></h4>\n<p>When you make a melee weapon attack against a creature, you can expend one superiority die and add the number rolled to the attack roll. On a hit, the target takes additional force damage equal to the number rolled.</p>\n<hr />\n<h4><strong>YOU CALL THIS ARCHAEOLOGY?</strong></h4>\n<p>When you or an ally that you can see reduces a hostile creature to 0 hit points, you can use a reaction and expend a superiority die to give yourself or that ally temporary hit points equal to the number rolled + your forcecasting ability modifer.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

@@ -1,0 +1,50 @@
+{
+    "name": "Smugglepack",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "backpack",
+    "data": {
+        "description": {
+            "value": "<p>This backpack comes with a main compartment that can store up to 15 lb., not exceeding a volume of 1/2 cubic foot. Additionally, it has a hidden storage compartment that can hold up to 5 lb, not exceeding a volume of 1/4 cubic foot. Finding the hidden compartment requires a DC 15 Investigation check.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 6,
+        "price": 400,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "capacity": {
+            "type": "weight",
+            "value": 20,
+            "weightless": false
+        },
+        "currency": {
+            "cp": 0,
+            "sp": 0,
+            "ep": 0,
+            "gp": 0,
+            "pp": 0
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Storage/Smugglerpack.webp",
+    "_id": "Zlj5z56A4oVQ5iEC"
+}

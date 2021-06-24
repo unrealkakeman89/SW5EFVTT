@@ -1,0 +1,262 @@
+{
+    "_id": "lyGh48xpvK3ydQpn",
+    "name": "Bothan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Bothans are a short species of furry humanoids. Bothans are covered in fur which shifted in response to their emotional state by way of gentle ripplings. It is this trait, named Wrendui, that betrays them when members of their kind intend to be duplicitous in their dealings with others. They possess tapered pointed ears, and both males and females were known to sport beards. Bothans are able to interbreed with the other species, though it is rare that they do so. Such hybrids somewhat resembled baseline humans with haunches, hooves, fur, pointed ears and a long tail.</p>\n<h2>Society and Culture</h2>\n<p>Bothan culture is guided by the philosophy and principles from the ancient text known as The Way, written by Golm Fervse'dra. In this \"Bothan Way\", the pursuit of power and influence is paramount. Thus, individual bothans put their own political and economic success above all other concerns, and as a species, bothans put their own advancement ahead of other intergalactic interests. The volume of backstabbing, subtle character assassination and political maneuvering in bothan society is dizzying, and results in many species stereotyping bothans as untrustworthy. In fact, most bothans are habitually paranoid, believing that anyone who's not working with them, is working against them. In times of crisis, the focus of bothan society shifts to a survivalist state known as \"ar'krai\". When engaged in ar'krai, all fit bothans volunteer to defend their species from impending extinction.</p>\n<h2>Names</h2>\n<p>Male bothan names are often tricky while female names are soft. Surnames are familial.</p>\n<p><strong>&nbsp; Male Names.</strong> Garc, Hibriak, Nith, Tramom, Ventagt</p>\n<p><strong>&nbsp; Female Names.</strong> Ceerriah, Dhaim, Gnam, Meenn, Vit</p>\n<p><strong>&nbsp; Surnames.</strong> Bwif'livi, Gra'kit, Hia'faitu, Main'dil</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Bothans reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Bothans' duplicitous nature causes them to tend toward the dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Bothans stand 4-5 feet tall and weigh under 100 pounds. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Naturally Stealthy.</strong></em> You can attempt to hide even when you are obscured only by a creature that is your size or larger than you.</p><p><em><strong>Nimble Escape.</strong></em> You can take the Disengage or Hide action as a bonus action on each of its turns.</p><p><em><strong>Shrewd.</strong></em> You are proficient in the Insight and Deception skills.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Bothese. Bothese had a great influence on the forming of Galactic Basic; the two languages share many cognates.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Brown"
+        },
+        "hairColorOptions": {
+            "value": "Black, brown, or gray (with age)"
+        },
+        "eyeColorOptions": {
+            "value": "Brown or green"
+        },
+        "distinctions": {
+            "value": "Diminutive stature, mood-sensitive fur"
+        },
+        "heightAverage": {
+            "value": "4'3\""
+        },
+        "heightRollMod": {
+            "value": "+2d4\""
+        },
+        "weightAverage": {
+            "value": "60 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Bothawui"
+        },
+        "slanguage": {
+            "value": "Bothese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Bothan",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.ins.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Insight"
+                },
+                {
+                    "modSpecKey": "data.skills.dec.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Deception"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "bothese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "kIHixP4V6Z5tFKg9",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Bothan.webp",
+    "effects": [
+        {
+            "_id": "nTIwpqn8tPkjpase",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Bothan",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.ins.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.dec.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "bothese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.naturallyStealthy",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.nimbleEscape",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Bothan.webp",
+            "label": "Bothan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

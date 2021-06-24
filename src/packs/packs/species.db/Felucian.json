@@ -1,0 +1,244 @@
+{
+    "_id": "JB327dJNFAiEOxyp",
+    "name": "Felucian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Felucians are a tall, bipedal species. Both their arms and legs end in four, large webbed digits with suction-cup fingertips. Springing from the underside of each forearm is a second short arm, ending in three large and agile fingers. A Felucian's head is a thick mass of long flexible tendrils featuring illuminated tips. The eyes and mouth appear as black holes or openings within this mass.</p><h2>Society and Culture</h2><p>Felucians are mysterious sentient beings native to the vast fungal swamps and jungles of Felucia. Though Felucia has long been colonized, the native Felucians avoided notice by living deep in the jungle. Such seclusion was easily maintained. Even the hardiest of colonists were loath to brave the perils of the dangerous wilderness without cause.\n\nThe Felucians are an unusual, amphibious species. They are highly adapted to surviving the wilds of their home planet, and fade easily into its confusing mass of plant life. They are equally at home on land or in the water, and they traverse the swamps with ease.\n\nAll Felucians are part of a single, planetwide tribe that is broken down into smaller villages and communities, each one led by shamans and chieftains. These shamans are very strong in the Force, using it to their own ends with incredible skill.</p><h2>Names</h2><p>Felucian names are usually two syllables and full of hard consonants. Surnames are a combination of tribe lineage.</p><strong>&nbsp;&nbsp;Male Names.</strong> Gokkuul, Kargrek, Hagark, Ruggorn<p></p><strong>&nbsp;&nbsp;Female Names.</strong> Lakko, Taarell, Duuna, Frula <p></p><strong>&nbsp;&nbsp;Surnames.</strong> s'Gokuul, d'Lakko, s'Kargrek, d'Frula",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Felucians reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Felucians' connection to the Living Force causes them to tend toward the light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Felucians typically stand over 6 feet tall and generally weigh about 200 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Force Sensitive.</strong></em> You know the <em>burst</em> at-will Force power. When you reach 3rd level, you can cast the <em>beast trick</em> Force power once per day. When you reach 5th level, you can also cast the <em>plant surge</em> Force power once per day. Wisdom is your forcecasting ability for these powers.</p>\n<p><em><strong>Amphibious.</strong></em> You can breathe air and water.</p>\n<p><em><strong>Stealthy.</strong></em> You are proficient in the Stealth skill.</p>\n<p><em><strong>Mask of the Wild.</strong></em> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic, Felucianese, and one more language of your choice. Felucianese is characterized by guttural, whisper-like vowels, interspersed with hard clicks.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Gray, with blue, red, or yellow markings"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Red"
+        },
+        "distinctions": {
+            "value": "Extra limb at elbow, innate Force-sensitivity"
+        },
+        "heightAverage": {
+            "value": "5'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "165 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Felucia"
+        },
+        "slanguage": {
+            "value": "Felucianese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Felucian",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "aMOoVFBHoKmmBPe3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "aMOoVFBHoKmmBPe3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "aMOoVFBHoKmmBPe3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "aMOoVFBHoKmmBPe3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "aMOoVFBHoKmmBPe3",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.ste.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "aMOoVFBHoKmmBPe3",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "aMOoVFBHoKmmBPe3",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "felucianese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "aMOoVFBHoKmmBPe3",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Felucian.webp",
+    "effects": [
+        {
+            "_id": "0sYjEeYfNqJnGDdC",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Felucian",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.ste.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "felucianese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.maskOfTheWild",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Felucian.webp",
+            "label": "Felucian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

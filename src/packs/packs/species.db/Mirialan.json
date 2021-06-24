@@ -1,0 +1,245 @@
+{
+    "_id": "TQdULHobIknBek5O",
+    "name": "Mirialan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Mirialans are a near-human species native to the planet Mirial. They have green to yellow skin and tattoos on their faces. The Mirialans are known for their spirituality and strong connection with the world around them. Mirialans are very flexible and agile, making them fast and formidable foes.</p><h2>Society and Culture</h2><p>The Mirialan people are deeply religious and practice a primitive understanding of the Force. They believe each individual's actions contribute to their destiny, building upon past successes and failures to drive them towards their fates. Within their belief system was the view that individual actions ripple through the Force, also affecting the destiny of the species as a whole.\r\n\r\nA Mirialan often places a unique, geometrically repeated tattoo on their face and hands to signify that they have completed a certain test or task, or achieved sufficient aptitude for a certain skill. The number of tattoos often acts as a good indicator of how mature and/or skilled a Mirialan was. Because the more markings brings about a form of status, Mirialan society is stratified and allows the heavily marked citizens to access greater opportunities. Despite its importance, most Mirialans do not know the entirety of the tattoo lexicon due to its complexity. The interaction between placement and positioning of the shapes is incredibly subtle and changes their meaning greatly.</p><h2>Names</h2><p>Mirialan names are typically concise and rarely more than two syllables. Surnames are familial.</p><strong>&nbsp;&nbsp;Male Names.</strong> Boca, Floha, Jemy, Puv, Choqa</p><strong>&nbsp;&nbsp;Female Names.</strong> Buf, Ches, Kebe, Ovof, Shaqa</p><strong>&nbsp;&nbsp;Surnames.</strong> Acave, Ishakee, Kefvi, Uflozi, Zoria",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Intelligence score increases by 1.</p><p><em><strong>Age.</strong></em> Mirialan reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Mirialans spiritual tendencies cause them to tend towards the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Mirialan typically stand 5 to 6 feet tall and weight 150 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 35 feet.</p><p><em><strong>Spiritual.</strong></em> You have proficiency in Lore. Additionally, you are considered to have expertise in Intelligence (Lore) checks made to learn or recall something about a culture's religion.</p><p><em><strong>Surprise Attack.</strong></em> If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.</p><p><em><strong>Unarmed Combatant.</strong></em> Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Mirialan.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, olive, or yellow"
+        },
+        "hairColorOptions": {
+            "value": "Black, blonde, brown, or red"
+        },
+        "eyeColorOptions": {
+            "value": "Blue, green, violet, grey, red, yellow, or orange"
+        },
+        "distinctions": {
+            "value": "Facial tattoos, flexible and agile"
+        },
+        "heightAverage": {
+            "value": "4'6\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Mirial"
+        },
+        "slanguage": {
+            "value": "Mirialan"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Mirialan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "1EcSkQcKurcuq5Ug",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "1EcSkQcKurcuq5Ug",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "1EcSkQcKurcuq5Ug",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "1EcSkQcKurcuq5Ug",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "35",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "1EcSkQcKurcuq5Ug",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.lor.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "1EcSkQcKurcuq5Ug",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Lore"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "1EcSkQcKurcuq5Ug",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "mirialan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "1EcSkQcKurcuq5Ug",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Mirialan.webp",
+    "effects": [
+        {
+            "_id": "uLanO2lY6ro8UeYE",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Mirialan",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "35",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.lor.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "mirialan",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.surpriseAttack",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.unarmedCombatant",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Mirialan.webp",
+            "label": "Mirialan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "drTe0erGKuBdZvd8",
+    "name": "Jack of All Roles",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong>  5th rank, Multi-Roles venture</em></p><p>Over a long rest you may switch out a number of maneuvers you know up to your intelligence modifier (minimum of 1) for an equal number of maneuvers from other deployments. </p>"
+        },
+        "prerequisites": [
+            " 5th rank, Multi-Roles venture"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

@@ -1,0 +1,273 @@
+{
+    "_id": "5eXS9vuPMHw1GEqA",
+    "name": "Vurk",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Vurks are the predominant sentient species of the planet Sembla. They are tall, reptilian humanoids with bulbous dark eyes and sweeping head crests. Their hands and feet have three digits each, one of which was opposable. They have distinguishing gray-green, leathery skin. Being able to breathe both water and air, they are perfectly adapted to travel Sembla's warm, shallow seas dotted with volcanic islands. They share a strong nomadic instinct with their amphibious ancestors.  </p><h2>Society and Culture</h2><p>Young Vurk males are married off by their parents; those who failed to marry before reaching adulthood remain bachelors for the rest of their lives. Because their way of living resulted in virtually no sizable permanent settlement whatsoever, Vurks were generally considered primitive by the rest of the galaxy; however, that was not true. They are very intelligent and believe in a highly developed philosophical tradition that emphasizes personal integrity and individual freedom and encourage personal honesty. Their compassionate and calm manner made them better than average diplomats.\r\n\r\nVurks are very family-oriented. It is common for multiple generations to remain in the same location as a single household, with the eldest family member being the patriarch or matriarch and making the decision for the entire family.</p><h2>Names</h2><p>Vurk names are traditionally two to three syllables. Female names typically end with a vowel, while male names vary. Surnames are familial.</p><strong>&nbsp;&nbsp;Male Names.</strong> Coleman, Jadran, Milanko, Zlatko</p><strong>&nbsp;&nbsp;Female Names.</strong> Elka, Iryna, Miglena, Tanya, Verka</p><strong>&nbsp;&nbsp;Surnames.</strong> Cheevochik, Provric, Trebor, Vorgecz",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 2, and your Constitution score increases by 1.</p><p><em><strong>Age.</strong></em> Vurk reach adulthood in their 20s and live an average of 70 years.</p><p><em><strong>Alignment.</strong></em> Vurk philosophies cause them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Vurks typically stand between 6 and 7 feet tall and weigh around 175 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 35 feet.</p><p><em><strong>Amphibious.</strong></em> You can breathe air and water.</p><p><em><strong>Athletic.</strong></em> You have proficiency in the Athletics skill.</p><p><em><strong>Darkvision.</strong></em> Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Head Crest.</strong></em> Your head crest is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal 1d6 + your Strength modifier kinetic damage.</p><p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Semblan. Semblan has a very melodic feel and often evokes images of waterfalls to those who don't understand its meanings.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Dark blues, greens, greys, or reds"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Bulbous eyes, head crests, three-fingered hands"
+        },
+        "heightAverage": {
+            "value": "5'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "130 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Sembla"
+        },
+        "slanguage": {
+            "value": "Semblan"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Vurk",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "35",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.ath.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Athletics"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "semblan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "DZ76Ji0AtShNcKag",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Vurk.webp",
+    "effects": [
+        {
+            "_id": "Q0QM1el7ltMmxAt5",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Vurk",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 35,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.ath.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "semblan",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Vurk.webp",
+            "label": "Vurk",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

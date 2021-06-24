@@ -1,0 +1,39 @@
+{
+    "_id": "174qCi5FWBd5LDP0",
+    "name": "Illusionist Technique",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Scout",
+        "description": {
+            "value": "<h1>Illusionist Technique</h1>\n<p>Throughout the galaxy you may find various infiltrators and agents who make ample use of holographic technology to get themselves in and out of danger. Followers of the Illusionist Technique make use of this holographic technology to give themselves an illusory edge in combat.</p>\n<h2>Holographic Decoy</h2>\n<p>When you choose this technique at 3rd level, as an action, you can create a perfect illusion of yourself that lasts for 10 minutes, or until you lose your concentration (as if you were concentrating on a power). The decoy appears in an unoccupied space that you can see within 30 feet of you. The decoy is purely visual. If anything passes through it, it is revealed to be an illusion. For the duration, you can cast tech powers as though you were in the decoy's space. Both your decoy and the target of your tech power must be within your line of sight.</p>\n<p>You can use your bonus action to cause the decoy to move up to 30 feet. As your decoy changes location, you can alter its appearance so that its movements appear natural for the decoy. If your decoy is ever more than 120 feet away from you, it immediately disappears.</p>\n<p>Additionally, when both you and your decoy are within 5 feet of a creature that can see the decoy, but is not aware it is an illusion, you have advantage on attack rolls against that creature.</p>\n<p>A creature that uses its action to examine your decoy can determine that it is an illusion with a successful Intelligence (Investigation) check against your tech save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p>\n<p>Once you've used this feature, you must complete a short or long rest before you can use it again.</p>\n<h2>Mark of the Illusionist</h2>\n<p>Also at 3rd level, the target of your Ranger's Quarry feature has disadvantage on all checks made to discern the nature of your illusions. Additionally, when the target of your Ranger's Quarry is reduced to 0 hit points, you can use your reaction to immediately cause an active illusion, or your Holographic Decoy, to take the form of the creature as long as the creature's dimensions fall within the power's capacity restrictions.</p>\n<h2>Charged Illusions</h2>\n<p>Beginning at 7th level, when a creature discerns the nature of an illusion you have created using a tech power or class feature while within 5 feet of it, you can dispel the illusion (no action required) to have the creature take energy damage equal to 1d10 + half your scout level (rounded down).</p>\n<h2>Quick Escape</h2>\n<p>Starting at 11th level, whenever you take damage, you can use your reaction to swap places with an illusion of yourself that you have created using a tech power or class feature. The illusion must be within 60 feet of you, and you must be able to see it.</p>\n<h2>Improved Decoys</h2>\n<p>At 15th level, you can create up to four duplicates of yourself, instead of one, when you use your Holographic Decoy feature. When you use your bonus action to move a decoy, you can move any number of them with the same bonus action.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Techcaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Illusionist%20Technique.webp",
+    "effects": []
+}

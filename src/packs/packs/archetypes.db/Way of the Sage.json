@@ -1,0 +1,39 @@
+{
+    "_id": "FLN1Vqb53UECBMVu",
+    "name": "Way of the Sage",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Consular",
+        "description": {
+            "value": "<h1>Way of the Sage</h1>\n<p>The rejuvenating power of the Force is incredible, and the consular is the master of this usage. Those consulars who follow the Way of the Sage assist with an array of healing powers that grant allies the strength to continue through even the harshest of encounters. Separated from the heart of the fray, the sage can be an unfailing warden to those in need.</p>\n<h2>Disciple of Life</h2>\n<p>When you choose this tradition at 3rd level, when you cast a force power that restores hit points, you can use Wisdom or Charisma as your forcecasting ability for it.</p>\n<p>Additionally, whenever you use a power of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the power's level.</p>\n<h2>Preserve Life</h2>\n<p>At 6th level, as an action, you can channel the Force and evoke healing energy that restores a number of hit points equal to five times your consular level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. This feature has no effect on droids or constructs.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a long rest.</p>\n<h2>Blessed Healer</h2>\n<p>Beginning at 10th level, the healing powers you cast on others heal you as well. When you cast a force power that restores hit points to a creature other than you, you regain hit points equal to 2 + the power's level.</p>\n<h2>Blessed by the Force</h2>\n<p>At 14th level you gain the ability to overcome grievous injuries. As a bonus action when you have fewer than half of your hit points remaining, you can regain a number of hit points equal to half your hit point maximum.</p>\n<p>Once you've used this feature, you can't use it again until you finish a long rest.</p>\n<h2>Supreme Healing</h2>\n<p>Starting at 18th level, when you would normally roll one or more dice to restore hit points with a power, you instead use the highest number possible for each die. For example, instead of restoring 2d6 hit points to a creature, you restore 12.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Way%20of%20the%20Sage.webp",
+    "effects": []
+}

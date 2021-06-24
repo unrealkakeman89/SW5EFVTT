@@ -1,0 +1,41 @@
+{
+    "name": "Chef's Kit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>This kit includes all of the necessary implements to prepare and serve food to up to six people. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify food. Also, proficiency with this kit is required to create field rations.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 8,
+        "price": 70,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Kit/Chef_s%20Kit.webp",
+    "_id": "pHOnHawoE6CLWNey"
+}

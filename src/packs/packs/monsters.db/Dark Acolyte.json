@@ -1,0 +1,1636 @@
+{
+    "_id": "yDXxTICHd4vP7nwl",
+    "name": "Dark Acolyte",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 11,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": 11,
+                "min": 0,
+                "formula": ""
+            },
+            "hp": {
+                "value": 9,
+                "min": 0,
+                "max": 9,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "2d8"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 1,
+                "prof": 0,
+                "total": 1
+            },
+            "powercasting": "consular",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 6,
+                    "min": 0,
+                    "max": 6,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 9,
+                "min": 0,
+                "max": 9
+            },
+            "bar2": {
+                "value": 11,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 10"
+            },
+            "death": {
+                "success": null,
+                "failure": null
+            },
+            "exhaustion": null,
+            "inspiration": false
+        },
+        "details": {
+            "biography": {
+                "value": "",
+                "public": ""
+            },
+            "alignment": "Any Alignment",
+            "species": "",
+            "type": {
+                "value": "humanoid",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 0.25,
+            "powerForceLevel": 1,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 50
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Galactic Basic, One Other"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ste": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 1000,
+                "fmax": 1000,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": true,
+                "initiative": 20
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Dark Acolyte",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/token.webp",
+        "tint": "",
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "mirrorY": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightColor": "",
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "yDXxTICHd4vP7nwl",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "YWEwNWExMDJkMzIy",
+            "name": "Forcecasting",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The acolyte is a 1st-level forcecaster. Its forcecasting ability is Charisma (power save DC 12, +4 to hit with force attacks) and it has 6 force points.</p><p>The acolyte knows the following force powers:</p><p>At-will: denounce, force push/pull, saber reflect, saber ward</p><p>1st-level: cloud mind, slow</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZWNkNTQyYTNlNTE4",
+            "name": "Parry",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The captain adds 3 to its AC against one melee attack that would hit it. To do so, the captain must see the attacker and be wielding a melee weapon.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "Yjc5MzJkOGNlNmFk",
+            "name": "Shotosaber",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+3, Reach 5 ft., One target. <em>Hit : </em>4 (1d6+1) energy damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+1",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "MTlkYjhlNTE0ZWU0",
+            "name": "Teleport",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The Nightsister uses the Force to teleport with any equipment she is wearing or carrying, up to 120 feet to an unoccupied space it can see.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZjY5MTNmOTk2ZWNk",
+            "name": "Forcecasting",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The Nightsister casts an at-will force power.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZjNlMGU0NWQ0MzYz",
+            "name": "Ichor Blade",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The Nightsister makes one ichor blade attack.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 60000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "N2JkMzZhZTI0YWM2",
+            "name": "Ichor Torture (costs 3 actions)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The Nightsister can call upon the force to attack any being that is marked by the Nightsister's blood trail. The targets must then make a DC 21 Constitution saving throw taking 24 (8d6) necrotic damage on a failed save, or half as much on a successful one. On a failed save the target is restrained.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "legendary",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 70000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/390_-_Dark_Acolyte/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "0RpLBhhB4eEqbgVz",
+            "name": "Denounce",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>A target of your choice within range must make a Charisma saving throw. On a failed save, when the target makes their next attack roll or saving throw they must roll a d4 and subtract the number from it. The power then ends.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "minute"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 30,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": "0",
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "save",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "1d4",
+                "save": {
+                    "ability": "cha",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "drk",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "prepared",
+                    "prepared": true
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                },
+                "armorproperties": {
+                    "parts": []
+                },
+                "weaponproperties": {
+                    "parts": []
+                }
+            },
+            "sort": 170000,
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.sw5e.forcepowers.81kLSpx80zEEr0O2"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Force%20Powers/Denounce.webp",
+            "effects": []
+        },
+        {
+            "_id": "zJIcnsJdW3RDLzXj",
+            "name": "Force Push/Pull",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You gain the minor ability to move or manipulate creatures and objects with the Force. You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial. Alternatively, you can push or pull a creature or object you can see.</p>\n<p>You use the Force to move a Medium or smaller creature or object not being worn or carried within range. The target must make a Strength saving throw. An object automatically fails this saving throw. On a failed save, the creature or object moves a number of feet in a direction of your choice based on its size. A Tiny creature or object can be moved up to 20 feet, a Small creature or object can be moved up to 10 feet, and a Medium creature or object can be moved up to 5 feet. If at the end of this movement the creature or object strikes another creature or object, they both take 1d4 kinetic damage.</p>\n<p>This power improves when you reach higher levels. At 5th level, you can move a Tiny creature or object up to 30 feet, a Small creature or object up to 20 feet, a Medium creature or object up to 10 feet, and the power\u2019s damage increases to 2d4 kinetic damage. At 11th level, you can move a Small creature or object up to 30 feet, a Medium creature up to 20 feet, and the power\u2019s damage increases to 3d4 kinetic damage. At 17th level, you can move a Medium creature to up 30 feet, and the power\u2019s damage increases to 4d4 kinetic damage.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 60,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": "0",
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "save",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "str",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "uni",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "prepared",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "atwill",
+                    "formula": "1d4"
+                },
+                "armorproperties": {
+                    "parts": []
+                },
+                "weaponproperties": {
+                    "parts": []
+                }
+            },
+            "sort": 270000,
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.sw5e.forcepowers.kNiT2BD3eIgE1zys"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Force%20Powers/Force%20Push.webp",
+            "effects": []
+        },
+        {
+            "_id": "WuA5HTQ1aSoq8c0Y",
+            "name": "Saber Reflect",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>In response to being attacked, you raise your weapon to attempt to deflect. When you you use this power, the damage you take from the attack is reduced by 1d6. If you reduce the damage to 0, you\u2019re wielding a lightweapon or vibroweapon, and the damage is energy or ion, you can reflect the attack at a target within range as part of the same reaction. Make a ranged force attack at a target you can see. The attack has a normal range of 20 feet and a long range of 60 feet. On a hit, the target takes the triggering attack\u2019s normal damage.</p>\n<p>If you would have resistance to the triggering damage, resistance is applied before the damage reduction.</p>\n<p>The power\u2019s damage reduction increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": "which you take in response to being hit by a ranged attack"
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": "0",
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "other",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "1d6",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "uni",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "prepared",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "atwill",
+                    "formula": "1d6"
+                },
+                "armorproperties": {
+                    "parts": []
+                },
+                "weaponproperties": {
+                    "parts": []
+                }
+            },
+            "sort": 370000,
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.sw5e.forcepowers.CuAbwhIt3j2V30Ey"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Force%20Powers/Saber%20Reflect.webp",
+            "effects": []
+        },
+        {
+            "_id": "Z0B9fwsGKBlQGwlX",
+            "name": "Saber Ward",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You take a defensive stance. Until the end of your next turn, you have resistance against kinetic and energy damage dealt by weapons.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": "inst"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": "0",
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": null,
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "uni",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "prepared",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                },
+                "armorproperties": {
+                    "parts": []
+                },
+                "weaponproperties": {
+                    "parts": []
+                }
+            },
+            "sort": 470000,
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.sw5e.forcepowers.RfhP3KotZcqIBmC9"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Force%20Powers/Saber%20Ward.webp",
+            "effects": []
+        },
+        {
+            "_id": "lwAo4OKWQCdaTUKc",
+            "name": "Cloud Mind",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>Roll 5d8; the total is how many hit points of creatures this power can affect. Creatures within 20 feet of a point you choose are affected in order of their current hit points.</p>\n<p>Starting with the creature that has the lowest current hit points, each creature affected by this power falls unconscious. If the power ends, the sleeper takes damage, or someone uses an action wake the sleeper, they will be awoken.</p>\n<p>Subtract each creature\u2019s hit points from the total before moving on to the creature with the next lowest hit points. A creature\u2019s hit points must be equal to or less than the remaining total for that creature to be affected.</p>\n<p>This power has no effect on droids or constructs.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 2nd level or higher, you can roll an additional 2d8 for each slot level above 1st.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "minute"
+                },
+                "target": {
+                    "value": 20,
+                    "width": null,
+                    "units": "ft",
+                    "type": "radius"
+                },
+                "range": {
+                    "value": 90,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": "0",
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "other",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "5d8",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "lgt",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "prepared",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "level",
+                    "formula": "2d8"
+                },
+                "armorproperties": {
+                    "parts": []
+                },
+                "weaponproperties": {
+                    "parts": []
+                }
+            },
+            "sort": 570000,
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.sw5e.forcepowers.BJDl4AQjFfR1RTxc"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "icons/svg/mystery-man.svg",
+            "effects": []
+        },
+        {
+            "_id": "5v91IHeKOXFalm4X",
+            "name": "Slow",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>A hostile creature of your choice must make a Constitution saving throw. On a failed save, the target\u2019s speed decreases by 10 feet until the power ends.</p>\n<p>The target\u2019s speed decreases by 5 more feet when you reach 5th level (15 feet), 11th level (20 feet), and 17th level (25 feet).</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "enemy"
+                },
+                "range": {
+                    "value": 15,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": "0",
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "save",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "drk",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "prepared",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                },
+                "armorproperties": {
+                    "parts": []
+                },
+                "weaponproperties": {
+                    "parts": []
+                }
+            },
+            "sort": 670000,
+            "flags": {
+                "core": {
+                    "sourceId": "Compendium.sw5e.forcepowers.maQoLsCcelDb2hWJ"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Force%20Powers/Slow.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

@@ -1,0 +1,20 @@
+{
+    "_id": "J3dTvJQgwCaIFCUF",
+    "name": "Equilibrium Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at fighting without the confines of armor. While you are wearing light or no armor and not wielding a shield, you gain the following benefits:</p><ul><li>You can use your bonus action to mark a target within 30 feet that you can see until the end of your next turn. When you do so, you gain a bonus to AC and Dexterity saving throws against effects the target controls equal to half your Dexterity modifier (rounded up, minimum of +1) while marked. You can only have one creature marked in this way at a time.</li><li>You have advantage on Dexterity checks and Dexterity saving throws to avoid being moved.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Equilibrium%20Style.webp",
+    "effects": []
+}

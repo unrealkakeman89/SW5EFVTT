@@ -1,0 +1,39 @@
+{
+    "_id": "KXH9dZsv2CAXAa6X",
+    "name": "Disabling Practice",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Operative",
+        "description": {
+            "value": "<h1>Disabling Practice</h1>\n<p>Those operatives who choose the Disabling Practice utilize a variety of pushes, pulls, weight shifts, and joint locks to immobilize their opponent. They use these techniques to manipulate their opponent, moving them across the battlefield before incapacitating them.</p>\n<h2>Clinch Strike</h2>\n<p>When you choose this practice at 3rd level, you learn how to discourage, debilitate, and harm your enemies. You gain the following benefits while you aren't wearing heavy armor or a medium or heavy shield:</p>\n<ul>\n<li>Your unarmed strikes use a d4 for damage.</li>\n<li>You can deal Sneak Attack damage when making an unarmed strike. Additionally, you don't need advantage on your unarmed attack roll to use your Sneak Attack if the target of your Sneak Attack is a creature grappled by you. All the other rules for the Sneak Attack class feature still apply to you.</li>\n<li>You can use the bonus action granted by your Cunning Action to make an unarmed strike against a creature you are grappling.</li>\n</ul>\n<h2>Skilled Grappler</h2>\n<p>Also at 3rd level, you learn a number of grappling techniques to subdue your opponents. When you hit a creature grappled by you with an unarmed strike and deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to make the attack a grappling technique.</p>\n<p>Some of your grappling techniques require your target to make a saving throw to resist the grappling technique's effects. The saving throw DC is calculated as follows:</p>\n<p><strong>Grapple Technique save DC</strong> = 8 + your proficiency bonus + your Strength modifier.</p>\n<h3>Constrict</h3>\n<p>You attempt to choke the target into unconscious-ness. The target must make a Constitution saving throw or be restrained until the end of your following turn.</p>\n<p>If you maintain this technique for 1 minute, the target falls unconscious for 1 hour. Droids and constructs can not be knocked unconscious in this way.</p>\n<h3>Disarm</h3>\n<p>You attempt to disarm a weapon or other object the target is holding. The target must make a Strength saving throw. On a failed save, it releases the object. If you have a free hand, you can catch the object. Otherwise, it lands at your feet.</p>\n<h3>Hip Toss</h3>\n<p>You attempt to throw your target to the ground. The target must make a Dexterity saving throw. On a failed save, the target is pushed back 5 feet, knocked prone, and stunned until the start of your next turn. This ends the grapple.</p>\n<h2>Human Shield</h2>\n<p>Beginning at 9th level you learn to manipulate the body of a grappled target to make attacks against you more difficult to land. Moving a grappled creature the same size as you or smaller no longer halves your speed, and when a creature grappled by you would grant you half cover, you instead have three-quarters cover. Additionally, when you are hit by an attack while grappling a creature, you can use your reaction to force that attack to instead hit the grappled creature.</p>\n<h2>Kiss the Wall</h2>\n<p>Starting at 13th level, you can use your surroundings to further punish the target of your grapple. When you roll a 1 or 2 on a Sneak Attack damage die for an unarmed attack you make against a creature grappled by you, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>\n<h2>Neck Snap</h2>\n<p>At 17th level, you learn how to immediately remove your grappled opponent from the fight. As an action, you can force a creature grappled by you to make a Constitution saving throw. On a failed save, if the creature has 100 hit points or fewer, it dies. If the target has more than 100 hit points, it immediately takes 10d10 kinetic damage. This damage can't be reduced in any way.</p>\n<p>Once you've used this feature, you must complete a short or long rest before you can use it again.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Disabling%20Practice.webp",
+    "effects": []
+}

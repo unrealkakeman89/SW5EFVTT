@@ -1,0 +1,161 @@
+{
+    "_id": "608OTY7dWr8tSNDT",
+    "name": "Nikto",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Nikto are reptilian humanoids that are noted for their leathery skin. They hold a limited range of facial expressions because they lack the necessary anatomical infrastructure. Their eyes are covered by a protective membrane, being a thin transparent pellicle that protects their eyes underwater and during windstorms. As a result, they are noted for their \"staring\" eyes and a seemingly blank expression which leads to many underestimating nikto intelligence.</p>\n<h2>Society and Culture</h2>\n<p>Although lacking in personal charisma, nikto posses a single-minded tenacity that makes them excellent followers. Their lives made nikto cunning combatants. Most nikto are content with a life of servitude as in their eyes a life in slavery was preferable to the hardship and toil on their homeworld. Not all nikto work for the hutts though most free members of their kind were formerly enslaved. Whilst nikto are known to escape from their master, most tend to fall into service of another hutt who \"inherited\" them according to custom should their previous employer die. However, some escaped nikto did instead use some opportunities to genuinely become free beings. Any such emancipated nikto have to be constantly on guard as they risked capture by hutt-employed slavers who return their prey to their \"rightful owners\". In addition, they lacked charisma and preferred to follow orders instead of giving them. As a result, the Nikto were most identified with their Hutt masters.</p>\n<h2>Names</h2>\n<p>Nikto names are very complex, hard to pronounce, and harsh sounding. Name length also differs a lot, longer names having apostrophes or dashes. Their names are unisex, with surnames being familial and optional.</p>\n<p>&nbsp;&nbsp;<strong>First Names.</strong> Jydabdaum, N'rok'ratu, Sussa, Vydgish</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Gozorc, Irtitt, Qegmarg, Umpluurg</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "traits": {
+            "value": "<p><strong><em>Ability Score Increase.</em></strong> Your Constitution score increases by 2, and one other ability score of your choice increases by 1.</p>\n<p><strong><em>Age.</em></strong> Nikto reach adulthood in their late teens and live less than a century.</p>\n<p><strong><em>Alignment.</em></strong> Nikto's self-sufficient and clever nature causes them to tend toward balanced alignments, though there are exceptions.</p>\n<p><strong><em>Size.</em></strong> Nikto typically stand 5 to 6 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>\n<p><strong><em>Hide.</em></strong> You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier.</p>\n<p><strong><em>Protective Membrane.</em></strong> You have advantage on saving throws against being blinded.</p>\n<p><strong><em>Radiation Resistant.</em></strong> The dying star nearby their homeworld makes nikto naturally used to radiation. You have resistance to necrotic damage.</p>\n<p><strong><em>Languages.</em></strong> You can speak, read, and write Galactic Basic, Nikto, and Huttese. Nikto is spoken with sharp syllables with a deep and rumbling cadence.</p>\n<p><strong><em>Adaptation.</em></strong> The frequent radiation bursts from the nearby dying star caused the nikto to mutate and adapt into different subspecies over time, specialized for different environments. Choose one of the following adaptations:</p>\n<ul>\n<li><strong>Esral'sa'Nikto (Mountain)</strong><br /><strong><em>Acute Hearing.</em></strong> Whenever you make a Wisdom (Perception) check related to hearing, you are considered to have expertise in the Perception skill.<br /><strong><em>Cold Adaptation.</em></strong> You have advantage on Constitution saving throws made to avoid exhaustion due to extreme cold.</li>\n<li><strong>Gluss'sa'Nikto (Pale)</strong><br /><strong><em>Hold Breath.</em></strong> You can hold your breath for up to 15 minutes at a time.<br /><strong><em>Swim.</em></strong> You have a swimming speed of 30 feet.</li>\n<li><strong>Kadas'sa'Nikto (Green)</strong><br /><strong><em>Claws.</em></strong> Your claws are natural weapons, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.<br /><strong><em>Forest Dweller.</em></strong> You don't treat forest terrain as difficult terrain.<br /><strong><em>Treeclimber.</em></strong> You have a climbing speed of 30 feet.</li>\n<li><strong>Kajain'sa'Nikto (Red)</strong><br /><strong><em>Heat Adaptation.</em></strong> You have advantage on Constitution saving throws made to avoid exhaustion due to extreme heat.<br /><strong><em>Survivor.</em></strong> You have proficiency in the Survival skill.</li>\n<li><strong>M'shento'su'Nikto (Southern)</strong><br /><strong><em>Darkvision.</em></strong> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</li>\n</ul>"
+        },
+        "skinColorOptions": {
+            "value": "Varies by subspecies"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Leathery skin, subspecies"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "90 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Kintan"
+        },
+        "slanguage": {
+            "value": "Nikto, Huttese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "flags": {
+            "dynamiceffects": {
+                "equipActive": false,
+                "alwaysActive": false
+            }
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        },
+        "core": {
+            "sourceId": "Item.0v9AEKfjSolMVFi1"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Nikto.webp",
+    "effects": [
+        {
+            "_id": "XtkULUPpuoRCGzYl",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Nikto",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "13+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "necrotic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "Nikto",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "huttese",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Nikto.webp",
+            "label": "Nikto",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

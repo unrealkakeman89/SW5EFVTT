@@ -1,0 +1,37 @@
+{
+    "_id": "XoI65gAyu88yeLfi",
+    "name": "Scanner, Renowned",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Scanner, Prototype"
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "4"
+        },
+        "description": {
+            "value": "<p>This modification massively improves the radar scanner on your ship. Your ship gains truesight out to 1,000 feet.</p><p>Your ship has advantage on Intelligence (Probe) and Wisdom (Scan) checks that rely on scanners.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

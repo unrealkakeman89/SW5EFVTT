@@ -1,0 +1,234 @@
+{
+    "_id": "qpuiKKzr9QhyqKnR",
+    "name": "Gotal",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Gotals possess cranial horns as receptors to sense electromagnetism and other energy emissions. These nerve-ending filled cones can sense the natural electromagnetic fields produced by Antar 4's magnetite-rich crust, allowing the species to operate even in total darkness. Their senses also pick up the electromagnetic auras from other life forms. When close to their hunting targets, they can ascertain information on its mood, awareness, and state of mind. Electronic devices can also be sensed by Gotals; in fact, most droids give off enough electromagnetic emissions to at least annoy a Gotal, and at worst to seriously disorient the horned beings, making them notoriously distrustful of droids. Gotals rely heavily on their cones, with their eyesight and hearing being quite weak, and their sense of smell almost completely absent. </p><h2>Society and Culture</h2><p>Since their natural empathy makes them instantly sensitive to the feelings of others, Gotals have little use for government or laws on their homeworld, resulting in problems when dealing with other societies. No central authority figure can speak for Antar 4 as a whole in a crisis, and no organized Gotal military or police force can act on their behalf. Other species respect the Gotals for their discretion and restraint, but some individuals fear interacting with the horned beings for fear of having their emotional state revealed to others.</p><h2>Names</h2><p>Gotal names are quite guttural, though there are also many harsher tones within their names. Gotal names do not vary significantly based on gender, and surnames are familial. </p><strong>&nbsp;&nbsp;First Names.</strong> Thon, Fern, Fuu'rash, Jir, Vluphol</p><strong>&nbsp;&nbsp;Surnames.</strong> Gratlul, Klux, Vathon, Zilat, Krigh, Rahxem",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 2, and one other ability score of your choice increases by 1.</p><p><em><strong>Age.</strong></em> Gotals reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Gotals' polite and respectful nature causes them to tend toward lawful alignments, though there are exceptions.</p><p><em><strong>Size.</strong></em> Gotals typically stand 6 to 7 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Energy Sensors.</strong></em> Gotals perceive the environment around them through use of electromagnetic sensors held in their cranial horns. You have blindsight out to 30 feet. If another trait would grant you blindsight, the range is increased by half as many feet.</p><p><em><strong>Hunter.</strong></em> You are proficient in Survival.</p><p><em><strong>Natural Empathy.</strong></em> Gotal's electromagnetic sensors allow them to sense the emotions in those around them. You have advantage on Wisdom (Insight) checks to determine emotions against humanoids and beasts within 10 feet of you.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Antarian. The Antarian language is characterized by growls and clicking noises at various volumes.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Grey, brown, or black"
+        },
+        "hairColorOptions": {
+            "value": "White, grey, or brown"
+        },
+        "eyeColorOptions": {
+            "value": "Red, orange, yellow, grey, green, or black"
+        },
+        "distinctions": {
+            "value": "Full body fur, flat noses, head cones"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "120 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Antar 4"
+        },
+        "slanguage": {
+            "value": "Antarian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Gotal",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "0p4bt1QkJRK55UAw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "0p4bt1QkJRK55UAw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "0p4bt1QkJRK55UAw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "0p4bt1QkJRK55UAw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Blindsight (30 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "0p4bt1QkJRK55UAw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.sur.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "0p4bt1QkJRK55UAw",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Survival"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "0p4bt1QkJRK55UAw",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "antarian",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "0p4bt1QkJRK55UAw",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Gotal.webp",
+    "effects": [
+        {
+            "_id": "rNPBs7jT9wzHZoaG",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Gotal",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.blindsight",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.sur.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "antarian",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Gotal.webp",
+            "label": "Gotal",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

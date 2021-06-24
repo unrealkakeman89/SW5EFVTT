@@ -1,0 +1,39 @@
+{
+    "_id": "pSIVnxwvRlyNoFM4",
+    "name": "Warchief Approach",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Berserker",
+        "description": {
+            "value": "<h1>Warchief Approach</h1>\n<p>For some berserkers, it is their duty or birthright to lead their tribe and kin to battle and victory. The Warchief Approach is one forged from alliances, bonds, and strategy. In combat, your rages are less mindless, and more focused. Ignoring the distractions of unimportant events, your attention hones in on the battlefield and how best to direct and control it. You guide your allies\u2019 strikes, and your presence is enough to wash away their fatigue.</p>\n<h2>Savage Diplomat</h2>\n<p>Your path necessitates that you build relationships with others, for the betterment of your tribe or yourself.</p>\n<p>When you choose this approach at 3rd level, you gain proficiency in one of the following skills of your choice: Persuasion or Intimidation. You can choose to learn one language in place of the skill proficiency.</p>\n<h2>Commanding Rage</h2>\n<p>Also at 3rd level, when in your rage, you become more aware of your allies, and their intent when fighting at your side. While you are raging, when an ally within 10 feet of you makes an attack roll against an enemy, you can use your reaction to grant advantage to that attack and add your rage damage bonus to the damage roll, if the attack hits.</p>\n<h2>Inspiring Presence</h2>\n<p>At 6th level your mere presence on the battlefield rallies your allies. When you rage, choose up to 3 allies that you can see within 30 feet of you. Each creature gains temporary hit points equal to half your berserker level (rounded down) + your Charisma modifier (minimum of one).</p>\n<h2>Raid Planning</h2>\n<p>Starting at 10th level, you learn to flare up your allies\u2019 drive for combat, urging them to follow you into the fray. During a long rest, you tell sagas, sing battle songs, and give inspiring speeches. At the end of the long rest choose up to 5 creatures that can hear and understand you (which can include yourself) to add your Charisma modifier (minimum of one) to their next initiative roll, and a 10 foot bonus to their speed on their first turn of combat.</p>\n<h2>War Chant</h2>\n<p>By 14th level you have memorized the litanies, songs, and chants of your people and their dedication to war. When you enter a rage you can take a commanding stance. If you do so, for the duration of your rage you have a special reaction you can take on a number of allies\u2019 turns equal to your Charisma modifier (minimum of one). You can only use this special reaction to use your Commanding Rage feature.</p>\n<p>Additionally, during this rage, when an enemy within 10 feet of you makes an attack roll against an ally, you can use your reaction to reduce that roll by an amount equal to your Charisma modifier.</p>\n<p>Once you\u2019ve used this feature, you must complete a long rest before you can use it again.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Warchief%20Approach.webp",
+    "effects": []
+}

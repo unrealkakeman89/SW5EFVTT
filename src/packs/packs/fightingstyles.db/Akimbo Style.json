@@ -1,0 +1,20 @@
+{
+    "_id": "PFs65bn88Q5NbJba",
+    "name": "Akimbo Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at fighting with two blasters. While you are wielding separate weapons in each hand with which you are proficient, you gain the following benefits:</p><ul><li>When you engage in Two-Weapon Fighting, you can add your ability modifier to the damage roll of your Two-Weapon Fighting attack as long as it doesn't already include that modifier.</li><li>Reloading a weapon no longer requires a free hand.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Akimbo%20Style.webp",
+    "effects": []
+}

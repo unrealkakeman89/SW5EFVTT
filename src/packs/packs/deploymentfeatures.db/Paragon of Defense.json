@@ -1,0 +1,31 @@
+{
+    "_id": "EHbxsR3TYqgx14ox",
+    "name": "Paragon of Defense",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Technician"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "5th Rank"
+        },
+        "description": {
+            "value": "<p>As of 5th rank, you are a paragon of your deployment. When you would expend a Power die, you can use a d4 instead of expending a die. You can only use this feature once per round.</p><p>Additionally, when you take the Boost Shields or Patch action, when you would roll to restore hull points or shield points, you can take the maximum instead of rolling. You can use this feature before or after making the roll. Once you\u2019ve used this feature, you must com-plete a short or long rest before you can use it again.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Technician.webp",
+    "effects": []
+}

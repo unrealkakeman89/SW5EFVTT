@@ -1,0 +1,119 @@
+{
+    "_id": "ua8SMi9eB45JvLvn",
+    "name": "Shard Modification",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Droid type</em></p>\n<p>You are specially modified droid used to house a shard. Shards are sentient crystals native to the planet Orax, roughly a foot in length, that communicate with each other through pulses of light. While inhabiting a specialized droid host, shards are able to overcome the droid's inability to wield the Force, granting the following benefits:</p>\n<ul>\n<li>Increase an ability score of your choice by 1, to a maximum of 20.</li>\n<li>You lose the Force Insensitive special trait.</li>\n<li>You can cast the <em>sense force</em> force power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for this power.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 4900000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Shard%20Modification.webp",
+    "effects": [
+        {
+            "_id": "ADseZBBm0OiENVFg",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "flags.dnd5e.forceInsensitive",
+                    "value": "0",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Feats/Shard%20Modification.webp",
+            "label": "Shard Modification",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

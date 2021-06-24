@@ -1,0 +1,16 @@
+{
+    "_id": "BTRaEXUjZCg0r8x0",
+    "name": "Charmed",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.lu8f1Mo6SD5PsGGp"
+        }
+    },
+    "content": "<h4 id=\"charmed\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">CHARMED</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">A charmed creature can&rsquo;t attack the charmer or target the charmer with harmful abilities or enhanced effects.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The charmer has advantage on any ability check to interact socially with the creature.</li>\n</ul>",
+    "img": "icons/svg/daze.svg"
+}

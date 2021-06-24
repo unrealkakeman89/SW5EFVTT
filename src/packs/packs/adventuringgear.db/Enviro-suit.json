@@ -1,0 +1,32 @@
+{
+    "name": "Enviro-suit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>Environment suits, atmospheric suits, or EVA suits, are pressure suits that enabled wearers to survive and operate in zero gravity space and other dangerous conditions.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 15,
+        "price": 2000,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Life%20Support/Enviro-suit.webp",
+    "_id": "hf7WTDBfO8zCt2HQ"
+}

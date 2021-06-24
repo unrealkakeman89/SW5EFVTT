@@ -1,0 +1,31 @@
+{
+    "_id": "9hfNnkr1SKOCZknx",
+    "name": "Brace for Impact",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Technician"
+        },
+        "featureType": {
+            "value": "Stratagem"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Shields</em><br>When you are reduced to zero shields, as a reaction, you can expend a power die to instead reduce your shields to one.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Technician.webp",
+    "effects": []
+}

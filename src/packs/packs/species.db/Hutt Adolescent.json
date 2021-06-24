@@ -1,0 +1,228 @@
+{
+    "_id": "yf50ip9dqeD5J604",
+    "name": "Hutt, Adolescent",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Hutts are a massive slug-like species who have large mouths and stubby arms. They have three lungs and thick leathery skin, which is wrinkled and slimy. Hutts often have watery eyes and lack facial expressions. Their tails are supported by a skeletal spine. Despite their legendary size, hutts start out as tiny huttlets less than half a foot in height, and continually grow over the long lives.</p>\n<h2>Society and Culture</h2>\n<p>Most hutts are crime lords who live opulent lives overseeing criminal underworld activities like spice smuggling, slavery, gambling and bounty hunting. This is not true for all, however, as some eschew the life of a decadent, obese version of their species and prefer a more mobile existence. Hutt society is divided into families known as kajidics, a social structure that is both familial and a crime gang. Hutts are encouraged to make a name for themselves around the age of 150 while simultaneously not threatening the welfare of the clan. At around 200, they will likely stop being saved by the clan and encouraged even further to fend for themselves while benefiting the kajidic; they may even be granted a star system or two. Nomadic or kajidic-less hutts are often hunted or killed by other hutts in fear of the nomad coming to claim a territory.</p>\n<h2>Names</h2>\n<p>Hutt names with a suffix title as \"the Hutt\" are usually reserved for noteworthy huts, with the name of a hutt's kajidic coming before the title. Because hutts are hermaphroditic, choosing a gender at will, their names are considered androgynous.</p>\n<p><strong>&nbsp;&nbsp;First Names.</strong> Arok, Gorga, Jabba, Mama, Ziro</p>\n<p>&nbsp; <strong>Kajidic Names.</strong> Besadii, Desilijic, Fenn'ak, Gnuda</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and two other ability scores of your choice increase by 1.</p><p><em><strong>Age.</strong></em> Hutts are considered a child until around the age of 200 in which they are a full fledged adult.  Hutts can live upwards of 900 years with even more ancient ones exceeding that.</p><p><em><strong>Alignment.</strong></em> Hutts are selfish, greedy, and highly organized, causing them to tend toward chaotic dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Hutts have a unique special characteristic; from birth to death, they never stop growing. As an adolescent hutt, you typically stand between 6 and 7 feet tall and weigh at least 400 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 20 feet.</p><p><em><strong>Closed Mind.</strong></em> Hutt brains have an unusual composition which made them resistant to influence from the Force. You have advantage on Wisdom and Charisma saving throws against force powers.</p><p><em><strong>Natural Resistance.</strong></em> You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).</p><p><em><strong>Powerful Build.</strong></em> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p><p><em><strong>Prehensile Tail.</strong></em> You have supreme control over your tail and can use it to manipulate objects as well as your hands.</p><p><em><strong>Shrewd Demeanor.</strong></em> You have proficiency in two Intelligence, Wisdom, or Charisma skills of your choice.</p><p><em><strong>Slow and Lethargic.</strong></em> Hutts are slow and generally incapable of moving quickly. You have disadvantage on Dexterity saving throws, and when determining your bonus to AC from your Dexterity, you can't add more than +3.</p><p><em><strong>Wealthy.</strong></em> During character creation, you start with additional credits equal to your level x your proficiency bonus x 1,000 cr.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Huttese. Hutts rarely speak Galactic Basic, even though they are perfectly able; if the person with whom they are speaking doesn't understand Huttese, they are more likely to use an interpretor than deign to speak the language of lesser species.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black, blue, brown, gold, green, purple, tan, white, or yellow"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Blue, gray, green, orange, turquoise, violet, or yellow"
+        },
+        "distinctions": {
+            "value": "Three lungs, slug-like appearance"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "400 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d8) lb."
+        },
+        "homeworld": {
+            "value": "Nal Hutta"
+        },
+        "slanguage": {
+            "value": "Huttese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Hutt",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "f2GGkEjQBJW5Qi8e",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "f2GGkEjQBJW5Qi8e",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "f2GGkEjQBJW5Qi8e",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "20",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "f2GGkEjQBJW5Qi8e",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "f2GGkEjQBJW5Qi8e",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Damage Resistance"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "f2GGkEjQBJW5Qi8e",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "huttese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "f2GGkEjQBJW5Qi8e",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Hutt.webp",
+    "effects": [
+        {
+            "_id": "LF9pTbpX8wisnODN",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Hutt",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "20",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "huttese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.closedMind",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.powerfulBuild",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Hutt.webp",
+            "label": "Hutt, Adolescent",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

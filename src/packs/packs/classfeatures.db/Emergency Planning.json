@@ -1,0 +1,71 @@
+{
+    "_id": "6Y9hwUuoPL64JXCv",
+    "name": "Emergency Planning",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Starting at 11th level, you&rsquo;ve learned to formulate and execute a plan. As an action, you can choose up to six creatures (including yourself) that you can see within 60 feet of you. For each creature, choose one of the following: ability check, attack roll, or saving throw. Each creature gains an Emergency Planning die, which is a d8.</p>\n<p>Once within the next 10 minutes, each creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw, as determined when you use this feature. The creature can wait until after it rolls the d20 before deciding to use the Emergency Planning die, but must decide before the GM says whether the roll succeeds or fails. Once the Emergency Planning die is rolled, it is lost.</p>\n<p>A creature can have only one Emergency Planning die at a time.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>\n<p>Your Emergency Planning die changes when you reach certain levels in this class. to 1d10 at 13th level, and to 1d12 at 17th level.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "action",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 10,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

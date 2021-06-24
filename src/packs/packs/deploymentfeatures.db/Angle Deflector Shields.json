@@ -1,0 +1,31 @@
+{
+    "_id": "dSMbwvdqRmrHWvwl",
+    "name": "Angle Deflector Shields",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Technician"
+        },
+        "featureType": {
+            "value": "Stratagem"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Shields</em><br>When you are hit by a ship attack, you can expend one power die as a reaction to redirect some of the impact. Reduce the damage absorbed by your shields by the amount rolled on the power die plus the ship\u2019s intelligence modifier.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Technician.webp",
+    "effects": []
+}

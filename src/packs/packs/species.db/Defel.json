@@ -1,0 +1,288 @@
+{
+    "_id": "VoCfefvgeZnehS0L",
+    "name": "Defel",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>While defel appear to be visually similar to the shistavanen, they are very different on a biological level. Defel have the ability to bend waves of light in such a manner that it renders them practically invisible to the human eye. Despite this ability, they could be still be spotted by force-users and keen-eyed individuals. Defel have extremely high perceptive ability because of their large ears, sensitive noses, and keen eyes. Because of the heightened levels of visual stimuli their eyes experience, defel are nearly blinded by sunlight but can see rather well in the dark.</p>\n<h2>Society and Culture</h2>\n<p>Defel live in tight-knit, interdependent communites underground. The harsh environment on Af'El turned the defel into rugged survivors, able to hold their own in the Galaxy. Defel have a strong sense of honor and will not associate with individuals that do not keep their word. Because defel have yet to achieve interplanetary travel, they are a rare sight in the galaxy.</p>\n<h2>Names</h2>\n<p>Defel names tend to sound dark and mysterious, and are mostly composed of multiple syllables. Defel surnames are familial, using stern and simple sounds.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Alustair, Claustro, Tenebris, Varsiin</p>\n<p><strong>&nbsp;&nbsp;Female Names.</strong> Lhantra, Soliel, Stroika, Zavtra</p>\n<p><strong>&nbsp;&nbsp;Surnames.</strong> Gauss, Neura, Tume, Vecherom</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Defel reach adulthood in their early teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Defel tend toward no particular alignment. The best and worst are found among them.</p><p><em><strong>Size.</strong></em> Defel typically stand 4 to 5 feet tall and generally weigh around 100 lbs. Regardless of your position in that range, your size is Small.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 25 feet.</p><p><em><strong>Claws.</strong></em> You have sharp claws, which deal 1d4 kinetic damage on a hit. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p><p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Hidden Step.</strong></em> As a bonus action, you can turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you've used this trait, you can't use it again until you finish a short or long rest.</p><p><em><strong>Miners.</strong></em> You have proficiency in scavenging kits.</p><p><em><strong>Sunlight Sensitivity.</strong></em> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p><p><em><strong>Sneaky.</strong></em> You are proficient in the Stealth skill.</p><p><em><strong>Surprise Attack.</strong></em> If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.</p><p><em><strong>Undersized.</strong></em> Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields. Additionally, you can't use martial weapons with the two-handed property unless it also has the light property, and if a martial weapon has the versatile property, you can only wield it in two hands.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Defel. Most defel refuse to speak Galactic Basic while on their home planet of Af'El unless they have a specific need for it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black, brown, or grey"
+        },
+        "hairColorOptions": {
+            "value": "Blue to yellow in ultraviolet light, black to dark brown in visible light"
+        },
+        "eyeColorOptions": {
+            "value": "Black, orange, or red"
+        },
+        "distinctions": {
+            "value": "Ability to absorb light, light blindness, claws"
+        },
+        "heightAverage": {
+            "value": "3'10\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "65 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Af'El"
+        },
+        "slanguage": {
+            "value": "Defel"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Defel",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "sm",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "25",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.ste.value",
+                    "value": "1",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Stealth"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "defel",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "n5LtyuhZwOFD1LLa",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.toolProf.value",
+                    "value": "scav",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "ghKmUoOj75TEKey2",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Tool Prof"
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Defel.webp",
+    "effects": [
+        {
+            "_id": "avJjg9zlYNomK9Uw",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Defel",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "sm",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 25,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.ste.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "defel",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "scav",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.sunlightSensitivity",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.surpriseAttack",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Defel.webp",
+            "label": "Defel",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

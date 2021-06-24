@@ -1,0 +1,32 @@
+{
+    "name": "Tripod",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>A tripod is a device used to mount a two-handed blaster weapon to offer increased stability. Over the course of 1 minute, you can deploy or collapse the tripod. While deployed, you ignore the Strength requirement on ranged weapons with the strength property, and your speed is reduced to 0.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 16,
+        "price": 450,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Weapon%20or%20Armor%20Accessory/Tripod.webp",
+    "_id": "fzBAaF0XzX3DTlAp"
+}

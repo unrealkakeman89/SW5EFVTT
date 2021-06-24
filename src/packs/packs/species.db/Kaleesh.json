@@ -1,0 +1,324 @@
+{
+    "_id": "DvgR9Gq3sGjEsXKf",
+    "name": "Kaleesh",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Tusks protrud from a Kaleesh's upper jaw, and shorter ones jut from their chins. Kaleesh have large pointed ears and long nostrils that stretched close to their eyes. They have very keen olfactory sense and were able to produce pheromones. Most of their facial features are obscured behind the traditional masks they wear, and outsiders rarely see Kaleesh unmasked. They are known to practice polygyny, a form of polygamy, where a male courts multiple wives. </p><h2>Society and Culture</h2><p>Kaleesh society is divided into numerous autonomous tribes. War is viewed as an essential and sacred practice, and the culture's large emphasis on honor is known to spur many acts of vengeance among the various tribes. However, when necessary, the tribes will put aside their differences and bond to fend off a common enemy.\r\n\r\nThe Kaleesh are a spiritual people, believing that those who perform great deeds in life became gods in death; therefore, burial places are sacred to them. A large number of temples are devoted to their ancestor gods, the holiest of which was called Shrupak. \r\n\r\nAbesmi, a great monolith of stone in the Jenuwaa Sea, is the place the Kaleesh believed the gods ascended to the heavens. Pilgrims take the perilous voyage to Abesmi to beseech the gods.</p><h2>Names</h2><p>Male Kaleesh names are typically one syllable while female are two. Kaleesh surnames are tribal and often use two words.</p><strong>&nbsp;&nbsp;Male Names.</strong> Bir, Grost, Jick, Xygh, Yles</p><strong>&nbsp;&nbsp;Female Names.</strong> Dduzu, Glaglo, Runda, Yugdo, Zodey</p><strong>&nbsp;&nbsp;Surnames.</strong> Jal Greennath, Lij Jum, San Syrro,",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Kaleesh reach adulthood in their early teens and live to be about 80.</p><p><em><strong>Alignment.</strong></em> Kaleesh tend toward no particular alignment. The best and worst are found among them.</p><p><em><strong>Size.</strong></em> Kaleesh typically stand about five and a half feet tall and weigh about 140 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> The thermal pits under a Kaleesh's eyes grant darkvision. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Weapon Training.</strong></em> Kaleesh are adept hunters. You are proficient with the blaster carbine, vibroblade, vibropike, and, vibrospear.</p><p><em><strong>Keen Smell.</strong></em> You have advantage on Wisdom (Perception) checks that rely on smell.</p><p><em><strong>Tracker.</strong></em> You have proficiency in the Survival skill. Additionally, you are considered to have expertise in Wisdom (Survival) checks made to track a creature if that creature has a scent.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Kaleesh.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Orange, red, or yellow"
+        },
+        "hairColorOptions": {
+            "value": "Black or brown"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow"
+        },
+        "distinctions": {
+            "value": "Bone masks, elongated ears, flat nose, tusks"
+        },
+        "heightAverage": {
+            "value": "5'1\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "105 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Kalee"
+        },
+        "slanguage": {
+            "value": "Kaleesh"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Kaleesh",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "blaster carbine",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibroblade",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibropike",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibrospear",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.skills.sur.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 12,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "kaleesh",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 13,
+                    "itemId": "LzYVLbkRHK1B3Bwt",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Kaleesh.webp",
+    "effects": [
+        {
+            "_id": "uRB8h6A9A9SrsbWe",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Kaleesh",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "blaster carbine",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibroblade",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibropike",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibrospear",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.skills.sur.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "kaleesh",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Kaleesh.webp",
+            "label": "Kaleesh",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

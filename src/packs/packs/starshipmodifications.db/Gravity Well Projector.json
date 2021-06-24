@@ -1,0 +1,37 @@
+{
+    "_id": "wq4a59Gtv1AkDjHq",
+    "name": "Gravity Well Projector",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Large or larger"
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>Your ship is modified with a gravity well projector that prevents ships from jumping to hyperspace, and even pulls ships from hyperspace, through use of an interdiction field. A crew member can activate or deactivate the gravity well projector as an action, which has a range of 1,000 feet and a limited firing arc, as described in Chapter 9. While active, this ship and ships of the same size or smaller that enter or start their turn within the gravity well projector's firing arc can't activate their hyperdrives.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

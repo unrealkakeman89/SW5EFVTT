@@ -1,0 +1,75 @@
+{
+    "name": "Adaptive Armor",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 4th tier, when your ship is hit with an attack roll, a deployed pilot can add the ship&rsquo;s Constitution modifier to AC, potentially causing the attack to miss.</p>\n<p>This feature can be used a number of times equal to your ship&rsquo;s tier. All expended uses are regained when the ship is refitted.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "special",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": "4",
+            "max": "@details.tier",
+            "per": "refitting"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "con",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Medium",
+        "tier": "4",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.zHF2wD1iG1qM5gdl"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Medium.webp",
+    "effects": [],
+    "_id": "LUbYxort97HhJtcZ"
+}

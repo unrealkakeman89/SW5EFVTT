@@ -1,0 +1,37 @@
+{
+    "_id": "p7gji5QWLzqJujYU",
+    "name": "Comms Package, Renowned",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Comms Package, Prototype"
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "4"
+        },
+        "description": {
+            "value": "<p>This modification massively improves the native communications on your ship. Crew members can now communicate in real time with any planets, space stations, and starships anywhere in the known galaxy as long as they are similarly equipped.</p><p>Additionally, crew members have advantage on checks to encrypt a message. If they already have advantage on the roll, they can instead reroll one of the dice once.</p><p>Finally, your ship has advantage on Charisma (Broadcast) checks. If they already have advantage on the roll, they can instead reroll one of the dice once.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

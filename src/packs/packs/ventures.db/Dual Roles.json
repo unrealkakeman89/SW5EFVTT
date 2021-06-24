@@ -1,0 +1,21 @@
+{
+    "_id": "30OjHPm2Xh2hV1bw",
+    "name": "Dual Roles",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "When you take Dual Role, choose a secondary deployment. When you advance a rank in your primary deployment, you may select a maneuver from your secondary deployment instead of your primary deployment.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

@@ -1,0 +1,119 @@
+{
+    "_id": "ccsjgZgwSyw3r0on",
+    "name": "Exalted Awareness",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p><strong><em>Prerequisite:</em></strong> <em>Wisdom 20</em></p>\n<p>You have the wisdom associated with the most renowned masters of the Force, granting the following benefits:</p>\n<ul>\n<li>You gain proficiency in Wisdom saving throws. If you are already proficient in them, you add double your proficiency bonus to Wisdom saving throws you make.</li>\n<li>Creatures within 60 feet of you have disadvantage on Dexterity (Stealth) checks made to hide from you.</li>\n<li>As an action, you can sense the presence of illusions and other effects designed to deceive the senses within 30 feet of you, provided that you aren't blinded or deafened. You sense that an effect is trying to trick you, but you gain no insight into what is hidden or its true nature. Once you've used this feature, you must complete a short or long rest before you can use it again.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "Level 12",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 8100000,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Exalted%20Awareness.webp",
+    "effects": [
+        {
+            "_id": "xqw5n8lT98H50eTg",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.wis.proficient",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Feats/Exalted%20Awareness.webp",
+            "label": "Exalted Awareness",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

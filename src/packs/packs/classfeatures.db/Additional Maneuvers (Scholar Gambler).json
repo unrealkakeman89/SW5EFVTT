@@ -1,0 +1,71 @@
+{
+    "_id": "g8vHPN6X8xr2itzg",
+    "name": "Additional Maneuvers (Scholar: Gambler)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain access to new maneuvers which reflect your deep understanding of chance. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ALL IN</strong></h4>\n<p>When you make an attack roll, and the result is less than 20, you can expend a superiority die and roll it, adding it to the roll. If the resulting sum is 20 or 23, the attack is considered a critical hit.</p>\n<hr />\n<h4><strong>BLIND LUCK</strong></h4>\n<p>When you fail an ability check, you can expend a superiority die. If the result of your ability check plus the superiority die is within a range equal to half your proficiency bonus (rounded down) above or below the check&rsquo;s DC, you pass the check instead.</p>\n<hr />\n<h4><strong>DOUBLE BLUFF</strong></h4>\n<p>If on the same round of combat that you have missed a weapon attack, an enemy also misses you with a weapon attack, you can expend a superiority die and make a single weapon attack, adding the results of your superiority die to both the attack and damage rolls.</p>\n<hr />\n<h4><strong>THE IDIOT&rsquo;S ARRAY</strong></h4>\n<p>When a creature hits you with a weapon attack roll, you can expend a superiority die and roll it. On a roll of 4 or higher, you take minimum damage on the damage roll and subtract the value of the superiority die. On a roll of 3 or lower, you instead take the maximum.</p>\n<hr />\n<h4><strong>PLAYED THEIR HAND</strong></h4>\n<p>When a creature hits you with an opportunity attack while within 5 feet of you, you can use your reaction and expend a superiority die to impose disadvantage on the attack roll. If the attack misses, you can make a Dexterity (Sleight of Hand) check contested by the attacker&rsquo;s Strength (Athletics) or Dexterity (Acrobatics) check (their choice) as a part of this reaction. On a success, the target drops the weapon it made the attack with. If you are within 5 feet of the target, and you have a free hand, you can catch the item. Otherwise, the object lands at its feet.</p>\n<hr />\n<h4><strong>PURE SABACC</strong></h4>\n<p>When you score a critical hit with a weapon attack, you can expend a superiority die and roll it. On a roll of 4 or higher, you deal maximum damage on the weapon&rsquo;s damage roll, including the superiority die. On a roll of 3 or lower, you instead deal the minimum.</p>\n<hr />\n<h4><strong>RAISE THE STAKES</strong></h4>\n<p>When the target of your Critical Analysis feature makes an attack roll against you, you can use your reaction to expend a superiority die. Roll the die and subtract the result from the enemy&rsquo;s attack roll, but add the result to their damage roll on a hit.</p>\n<hr />\n<h4><strong>TAKE A CHANCE</strong></h4>\n<p>Before making an attack roll, you can expend a superiority die. On a miss, you lose that superiority die and do not benefit from it in any way. On a hit, you can choose two other maneuvers that you know, and subject the target to both maneuvers, without expending additional superiority dice.</p>\n<hr />\n<h4><strong>TIEBREAKER</strong></h4>\n<p>When you roll a superiority die as a part of a maneuver you learned from this class, you can expend another superiority die and use the total of both dice.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

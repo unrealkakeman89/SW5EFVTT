@@ -1,0 +1,37 @@
+{
+    "_id": "Pd0sEF20lQlgBqB8",
+    "name": "Inertial Dampeners",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This system lessens the transfer of external impacts into the ship's interior.  When you are forced to make a Concentration check due to damage, impacts, or explosions exterior to the ship, you have advantage.</p><p>Additionally, when you take the Evade action, skill checks and attack rolls made by your ship or anyone on it do not suffer from disadvantage from the evasion.  Once this feature has been used, it can't be used again until the ship recharges.  </p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

@@ -1,0 +1,20 @@
+{
+    "_id": "ck3ZnfUFhowzhwu1",
+    "name": "Sharpshooter Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled with blaster weapons and can make shots that others find difficult. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:</p><ul><li>You can use your bonus action to mark a target 30 feet or greater from you. If you do so, and that target moves at least 5 feet before the start of your next turn, they provoke an opportunity attack from you, and you can use a blaster weapon for that opportunity attack.</li><li>Your ranged weapon attacks ignore one-quarter and half cover against targets 30 feet or greater from you.</li><li>Grasping a two-handed weapon you are wielding in only one hand with your other hand no longer requires your object interaction.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Sharpshooter%20Style.webp",
+    "effects": []
+}

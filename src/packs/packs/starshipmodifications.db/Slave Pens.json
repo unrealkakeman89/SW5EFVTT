@@ -1,0 +1,37 @@
+{
+    "_id": "u9B24muWWZbYnFVE",
+    "name": "Slave Pens",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Large or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite offers a single room, equipped with both a key and a code lock, that can house a number of prisoners equal to twice the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table. Slave pen doors are magnetically sealed to prevent them opening in the event of power failure. When a creature completes a long rest involving this suite, their exhaustion level is not reduced. Additionally, for each week spent in this suite, creatures suffer 1 level of exhaustion.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

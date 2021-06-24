@@ -1,0 +1,37 @@
+{
+    "_id": "nS8gTHr1doVZmxQr",
+    "name": "Anti-Boarding System",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>An anti-boarding system is a robust series of blast doors, cameras, and hidden turrets, reinforcing each portal throughout the ship, as well as directly outside each ship entrance. These features are controllable from the cockpit or in the Security Suite (if it exists) by a crew member. The anti-boarding system comes with its own power backup in case of main system failure.</p><p>The reinforced doors can be bypassed with a DC 20 Intelligence (Security Kit) check.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

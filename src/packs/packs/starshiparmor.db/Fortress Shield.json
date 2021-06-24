@@ -1,0 +1,150 @@
+{
+    "_id": "Wj62TEtwKeG1P2DD",
+    "name": "Fortress Shield",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "equipment",
+    "data": {
+        "description": {
+            "value": "<p>Fortress shields offer a higher maximum shield points, but regenerate slower than normal shields.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "quantity": 1,
+        "weight": 0,
+        "price": 4650,
+        "attuned": false,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "armor": {
+            "value": 0,
+            "type": "ssshield",
+            "dex": null
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "speed": {
+            "value": null,
+            "conditions": ""
+        },
+        "strength": 0,
+        "stealth": false,
+        "proficient": true,
+        "properties": {
+            "Absorptive": false,
+            "Agile": false,
+            "Anchor": false,
+            "Avoidant": false,
+            "Barbed": false,
+            "Bulky": false,
+            "Charging": false,
+            "Concealing": false,
+            "Cumbersome": false,
+            "Gauntleted": false,
+            "Imbalanced": false,
+            "Impermeable": false,
+            "Insulated": false,
+            "Interlocking": false,
+            "Lambent": false,
+            "Lightweight": false,
+            "Magnetic": false,
+            "Obscured": false,
+            "Obtrusive": false,
+            "Powered": false,
+            "Reactive": false,
+            "Regulated": false,
+            "Reinforced": false,
+            "Responsive": false,
+            "Rigid": false,
+            "Silent": false,
+            "Spiked": false,
+            "Steadfast": false,
+            "Strength": false,
+            "Versatile": false
+        },
+        "capx": {
+            "value": "(3/2)"
+        },
+        "hpperhd": {
+            "value": ""
+        },
+        "regrateco": {
+            "value": "(2/3)"
+        },
+        "attributes": {
+            "dr": ""
+        },
+        "cscap": {
+            "value": ""
+        },
+        "sscap": {
+            "value": ""
+        },
+        "fuelcostsmod": {
+            "value": ""
+        },
+        "powdicerec": {
+            "value": ""
+        },
+        "hdclass": {
+            "value": ""
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Equipment/Fortress%20Shield.webp",
+    "effects": []
+}

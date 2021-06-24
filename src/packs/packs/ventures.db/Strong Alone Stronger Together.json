@@ -1,0 +1,23 @@
+{
+    "_id": "jNoh3rqIqdTo9IX1",
+    "name": "Strong Alone, Stronger Together",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 3 ranks in coordinator</em></p><p>When you take the Direct action, you have advantage on the next ability check or saving throw you make before the start of your next turn.</p>"
+        },
+        "prerequisites": [
+            "at least 3 ranks in coordinator"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

@@ -1,0 +1,39 @@
+{
+    "_id": "PCwepUZqHYlxr4T3",
+    "name": "Addicted Approach",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Berserker",
+        "description": {
+            "value": "<h1>Addicted Approach</h1>\n<p>For some, the consumption of substances is the entirety of their life. For berserkers of the Addicted Approach, substances cause their fury to burn stronger and deeper, granting significant benefits.</p>\n<h2>Slythmonger Savvy</h2>\n<p>When you choose this approach at 3rd level, you gain proficiency in your choice of brewer\u2019s kit or spicer\u2019s kit. Additionally, you have advantage on saving throws to avoid the low or addiction to substances. Lastly, you can consume substances as a bonus action, and when you do so, you can also enter a rage as a part of this same bonus action.</p>\n<h2>Freedom Through Slavery</h2>\n<p>Also at 3rd level, while you are raging or experiencing the high of a substance, you have advantage on saving throws that would force you to act against your will, be frightened, or prevent you from attacking a creature. If you are both raging and experiencing the high of a substance, you are instead immune to effects that would force you to act against your will or would prevent you from attacking a creature.</p>\n<h2>Release the Beast</h2>\n<p>At 6th level, while you are raging or experiencing the high of a substance, when you hit a creature with a melee weapon attack, you can expend a Hit Die to deal additional damage to the target. Roll the Hit Die, adding the result of the die to the damage roll. If you are both raging and experiencing the high of a substance, you also add your Constitution modifier to the damage roll.</p>\n<h2>Seeing Sound</h2>\n<p>Starting at 10th level, while you are raging or experiencing the high of a substance, you have blindsight with a range of 10 feet. If you are both raging and experiencing the high of a substance, you instead have blindsight with a range of 30 feet.</p>\n<h2>Fuel the Rampage</h2>\n<p>At 14th level, while you are both raging and experiencing the high of a substance, having 0 hit points doesn\u2019t knock you unconscious. You still must make death saving throws, and you suffer the normal effects of taking damage while at 0 hit points. However, if you would die due to failing death saving throws, you don\u2019t die until your rage ends, and you die then only if you still have 0 hit points.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Addicted%20Approach.webp",
+    "effects": []
+}

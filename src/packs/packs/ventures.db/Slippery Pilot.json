@@ -1,0 +1,23 @@
+{
+    "_id": "Ks8TffMcgBcJFPSm",
+    "name": "Slippery Pilot",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 2 levels in operative</em></p><p>Your quick thinking and agility allow you to act and move your ship quickly. You can take a bonus action on each of your turns in combat. This action can be used only to take the Dash, Disengage, or Hide action.</p>"
+        },
+        "prerequisites": [
+            "at least 2 levels in operative"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

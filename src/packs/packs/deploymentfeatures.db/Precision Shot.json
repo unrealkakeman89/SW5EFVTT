@@ -1,0 +1,31 @@
+{
+    "_id": "6R7dm1mCOW7Y4bfC",
+    "name": "Precision Shot",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": "Gambit"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Weapons</em><br>When you make a ship attack roll against a ship, you can expend one power die to add it to the roll. If that attack hits, add the power die to the attack\u2019s damage roll. You can use this power before or after making the attack roll, but before any effects of the attack are applied.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

@@ -1,0 +1,39 @@
+{
+    "_id": "RulD3rQZqDk5H0Pl",
+    "name": "Scrapper Practice",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Operative",
+        "description": {
+            "value": "<h1>Scrapper Practice</h1>\n<p>Those operatives who choose the Scrapper Practice don't have the time or patience for the fair fight. They utilize close-quarters blaster combat blended with underhanded tactics to surprise and disable their foes.</p>\n<h2>Back Blast</h2>\n<p>When you choose this practice at 3rd level, you gain proficiency in all blasters with the burst or rapid property that lack the two-handed property. Additionally, when a creature fails a saving throw against the burst or rapid property of a weapon you control and with which you are proficient, you can apply your Sneak Attack damage to one creature dealt damage in this way as long as that creature didn't have advantage on the save.</p>\n<p>When you reach 9th level in this class, when multiple creatures fail a saving throw against the burst property of a weapon you control and with which you are proficient, you can divide your Sneak Attack dice amongst the targets as you see fit.</p>\n<h2>Upper Hand</h2>\n<p>Also at 3rd level, you learn to user underhanded tactics to gain the upper hand. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack Dice in order to perform an upper hand technique.</p>\n<p>Some of your upper hand techniques require your target to make a saving throw to resist the technique's effects. The saving throw DC is calculated as follows:</p>\n<p><strong>Upper Hand save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p>\n<h3>Brutal Hit</h3>\n<p>You attempt to knock the target prone while within 15 feet of it. The target must make a Strength saving throw or be knocked prone.</p>\n<h3>Low Blow</h3>\n<p>You attempt to stun the target while within 15 feet of it. The target must make a Constitution saving throw or be stunned until the start of its next turn.</p>\n<h3>Shank Shot</h3>\n<p>You attempt to hamper the target while within 15 feet of it. The target must make a Dexterity saving throw. If it fails, its movement speed is to 0 and it makes Dexterity saving throws with disadvantage until the end of its next turn.</p>\n<h2>Sleight of Foot</h2>\n<p>Beginning at 9th level, when a creature moves to within 5 feet of you, you can use your reaction to move up to half your speed away from the creature without provoking opportunity attacks. You must end this movement further from the creature than you started.</p>\n<h2>Hostile Negotiations</h2>\n<p>Starting at 13th level, when you make a Charisma (Intimidation) or Charisma (Persuasion) check, you gain a bonus to the check equal to half your Dexterity modifier (rounded down) if it doesn't already include that modifier.</p>\n<h2>Double Tap</h2>\n<p>At 17th level, you can deal Sneak Attack damage twice per turn, but you can't deal more than your total Sneak Attack dice to a single target per turn.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Scrapper%20Practice.webp",
+    "effects": []
+}

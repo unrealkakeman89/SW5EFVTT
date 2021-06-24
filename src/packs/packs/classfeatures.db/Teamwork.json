@@ -1,0 +1,71 @@
+{
+    "_id": "Xjqp6SkY1VZZINmp",
+    "name": "Teamwork",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>By 15th level, you gain one of the following features. Choose Takedown for Vonil or Rebuttal for Ishu.</p>\n<hr />\n<blockquote>\n<h4><strong>TAKEDOWN</strong></h4>\n<p>When your companion takes the Help action and helps you, you have advantage on the next two ability checks or attack rolls you make before the start of your next turn, instead of only one. When you take the Help action and help your companion, your companion has advantage on the next two ability checks or attack rolls it makes before the start of its next turn, instead of only one.</p>\n<hr />\n<h4><strong>REBUTTAL</strong></h4>\n<p>When your companion takes the Help action and helps you, you gain temporary hit points equal to your guardian level that last until the start of your next turn. When you take the Help action and help your companion, it gains temporary hit points equal to your guardian level that last until the start of its next turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

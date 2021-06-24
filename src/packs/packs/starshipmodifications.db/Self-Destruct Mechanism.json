@@ -1,0 +1,37 @@
+{
+    "_id": "C9NxteDU3ujgjvpJ",
+    "name": "Self-Destruct Mechanism",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>Your ship is equipped with a self-destruct mechanism that can cause immense destruction at the expense of the ship. A crew member can activate the self-destruct mechanism as an action, setting a timer up to 10 minutes in length. When the timer expires, the ship explodes, dealing thermite damage to each enemy within range. The damage is calculated as follows; for each Hull Die the ship has, roll it and add the ship's Strength modifier to the roll. </p><p>The range that the self-destruct mechanism impacts varies, depending on the ship's size:</p><ul><li><strong>Tiny:</strong> A Tiny ship deals damage to each ship within 50 feet of it.</li><li><strong>Small:</strong> A Small ship deals damage to each ship within 100 feet of it.</li><li><strong>Medium:</strong> A Medium ship deals damage to each ship within 200 feet of it.</li><li><strong>Large:</strong> A Large ship deals damage to each ship within 400 feet of it.</li><li><strong>Huge:</strong> A Huge ship deals damage to each ship within 1,000 feet of it.</li><li><strong>Gargantuan:</strong> A Gargantuan ship deals damage to each ship within 2,000 feet of it.</li></ul>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

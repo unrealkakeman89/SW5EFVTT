@@ -1,0 +1,71 @@
+{
+    "_id": "UeB3t6DmMaGzNijo",
+    "name": "Crimson Armaments",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Beginning when you choose this order at 3rd level, you gain proficiency in light and medium armor. If you are already proficient in light and medium armor, you instead gain proficiency in heavy armor. Additionally, you can now gain the benefits of your Martial Arts and Unarmored Movement features while wearing armor as long as you are not wielding a shield.</p>\n<p>Additionally, you&rsquo;ve learned to adapt to new weaponry. Over the course of an hour, which can be performed during a short rest, you can perform a kata with a weapon of your choice. You gain proficiency in that weapon if you do not already have proficiency, and it becomes a monk weapon for you. You can only adapt to one weapon at a time, and if you attempt to adapt to another weapon you immediately lose your proficiency with the chosen weapon.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

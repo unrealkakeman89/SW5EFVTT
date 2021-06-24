@@ -1,0 +1,276 @@
+{
+    "_id": "J7HJQkcvghtwMAdF",
+    "name": "Anzellan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The anzellans are a diminutive species hailing from the secluded planet Anzella. Their eyes have floating corneal micro-lenses that allow them to see microscopic details. Anzellans are a bubbly and receptive people. They are a jovial and trusting people that tend to welcome strangers with open arms. Due to their volcanic homeworld, anzellans are also adapted towards heat. This, coupled with their small size, make them well-suited to working in compact places.</p>\n<h2>Society and Culture</h2>\n<p>Anzella is a tropical planet covered in thousands of small volcanic islands. Many of these islands are developed as small villages, with the largest islands designed to accommodate larger species. Anzellan culture is generally based around tourism and crafting; in fact, anzellans are renowned craftsmen due to their discerning eyesight and ability to fit into small spaces. Anzellan government is generally casual. Each village has its own governing council of rotating members; these villages act independently from one another unless their decisions would affect more than a single island. In that case, all of the councils work together to come to a planet-wide decision.</p>\n<h2>Names</h2>\n<p>Anzellan names are rarely longer than two syllables, with a bouncy intonation to them. Their surnames are familial.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Babu, Gridel, Moru, Rano, Yodel</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Dibi, Fing, Nooni, Teena, Zazi</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> E'ayoo, Frik, Meer, Tanni, Vrut</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and two other ability scores of your choice increase by 1.</p><p><em><strong>Age.</strong></em> Anzellans are considered adults at ten years old. They are a short-lived species, however, that rarely lives longer than 60 years.</p><p><em><strong>Alignment.</strong></em> Anzellans are a friendly and respectful people, which causes them to tend toward lawful light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Anzellans stand between 1 and 2 feet tall and weigh around 10 lbs. Regardless of your position in that range, your size is Tiny.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 20 feet.</p><p><em><strong>Crafters.</strong></em> You have proficiency in one tool of your choice.</p><p><em><strong>Detail Oriented.</strong></em> You are practiced at scouring for details. You have advantage on Intelligence (Investigation) checks within 5 feet.</p><p><em><strong>Pintsized.</strong></em> Your tiny stature makes it hard for you to wield bigger weapons. You can't use medium or heavy shields. Additionally, you can't wield weapons with the two-handed or versatile property, and you can only wield one-handed weapons in two hands unless they have the light property.</p><p><em><strong>Puny.</strong></em> Anzellans are too small to pack much of a punch. You have disadvantage on Strength saving throws, and when determining your bonus to attack and damage rolls for weapon attacks using Strength, you can't add more than +3.</p><p><em><strong>Small and Nimble.</strong></em> You are too small and fast to effectively target. You have a +1 bonus to AC, and you have advantage on Dexterity saving throws.</p><p><em><strong>Tanned.</strong></em> You are naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.</p><p><em><strong>Technician.</strong></em> You are proficient in the Technology skill.</p><p><em><strong>Tinker.</strong></em> You have proficiency with tinker's tools. You can use these and spend 1 hour and 100 cr worth of materials to construct a Tiny Device (AC 5, 1 hp). You can take the Use an Object action to have your device cause one of the following effects: create a small explosion, create a repeating loud noise for 1 minute, create smoke for 1 minute, create a soothing melody for 1 minute. You can maintain a number of these devices up to your proficiency bonus at once, and a device stops functioning after 24 hours away from you. You can dismantle the device to reclaim the materials used to create it.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Anzellan. Anzellan is characterized by its bouncy sound and emphasis on alternating syllables.</p>",
+            "source": "Expanded Content"
+        },
+        "skinColorOptions": {
+            "value": "Brown, green, or tan"
+        },
+        "hairColorOptions": {
+            "value": "Black, gray, or white"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Diminutive size, wispy eyebrows"
+        },
+        "heightAverage": {
+            "value": "1'0\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "3 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Anzella"
+        },
+        "slanguage": {
+            "value": "Anzellan"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Anzellan",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "tin",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "20",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.skills.tec.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Technology"
+                },
+                {
+                    "modSpecKey": "data.traits.toolProf.custom",
+                    "value": "Tinker's tools",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Tool Prof Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "anzellan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "bIEwmrB96DiRuntI",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Anzellan.webp",
+    "effects": [
+        {
+            "_id": "ZGdzAq1Gl4xaxDRD",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Anzellan",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "tiny",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 20,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.tec.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.custom",
+                    "value": "Tinker's tools",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "anzellan",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.detailOriented",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.pintsized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.puny",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.tinker",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Anzellan.webp",
+            "label": "Anzellan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "_id": "dQPxDkFpfUhGbfUS",
+    "name": "Formation Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered fighting with a partner, learning to move and act as a single unit. While an ally is within 5 feet of you, you gain the following benefits:</p><ul><li>When a creature misses an ally within 5 feet of you with a weapon attack, you can use your reaction to make a weapon attack against that creature without your proficiency bonus.</li><li>When a creature hits an ally within 5 feet of you with a weapon attack, you can use your reaction to impose a penalty to the attack roll equal to your proficiency bonus, potentially causing the attack to miss.</li><li>When you take the Guard action, the guarded ally has advantage on Dexterity saving throws that would affect only them while guarded.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Formation%20Mastery.webp",
+    "effects": []
+}

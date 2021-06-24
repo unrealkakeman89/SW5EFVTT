@@ -1,0 +1,214 @@
+{
+    "_id": "Cz5JMLKTAIcmZIfu",
+    "name": "Miraluka",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The Miraluka are a near-human species that differs from Humans in that they lack eyes, only retaining vestigial eye sockets, and perceive the environment around them through <em>Force sight</em> instead of regular vision. This vision is so strong that if a Miraluka looks upon a Jedi or Sith, they can \"see\" Force radiating off them. The strength of a Miraluka's connection to the Force varies by individual.</p>\n<h2>Society and Culture</h2>\n<p>Miraluka are a thoughtful, cautious, and deliberative species. They have little interest in personal gain or glory. For social reasons, Miraluka hide their appearance by wearing a headband, a mask, or similar concealing headwear. In addition all Miraluka are very united by species. They call themselves \"brothers\" and are considered as members of a great family. As a Force-using species, Miraluka are often quite shocked if 'shown' life not connected to the Force. Many Miraluka worship two gods, Ashla and Bogan, through the philosophy of the Greater Force. They do not believe in good or evil, but were taught to accept both life and death. Miraluka Force-sensitives are an order of their own called the Luka Sene. Academic in atmosphere and culture, the Luka Sene focus primarily on developing the sense-related powers of their members. However, unlike the Jedi, Sith and other traditions, the Luka Sene does not dictate a member's personal life.</p>\n<h2>Names</h2>\n<p>Miraluka names are generally two syllables. Miraluka don't use surnames, as they believe they are one family.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Aakih, Pafil, Rikhor, Vociif, Xuwuth</p>\n<p><strong>&nbsp;&nbsp;Female Names.</strong> Auchaod, Favom, Mucem, Wilierth</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 2, and your Charisma score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Miraluka reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Miraluka believe in balance and thus tend toward no particular alignment. The best and worst are found among them.</p>\n<p><em><strong>Size.</strong></em> Miraluka typically stand 5 to 6 feet tall and generally weigh about 150 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Force Sensitive.</strong></em> You know the <em>mind trick</em> at-will Force power. When you reach 3rd level, you can cast the <em>sanctuary</em> Force power once per day. When you reach 5th level, you can also cast the <em>Force confusion</em> power once per day. Wisdom or Charisma (your choice) is your forcecasting ability for these powers.</p>\n<p><em><strong>Force Sight.</strong></em> Miraluka perceive the environment around them through use of the Force. You are constantly under the effects of the force power <em>Force sight</em>, though the power does not require concentration for you.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Miralukese.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Pale to brown"
+        },
+        "hairColorOptions": {
+            "value": "Black, brown, grey, or white"
+        },
+        "eyeColorOptions": {
+            "value": "None"
+        },
+        "distinctions": {
+            "value": "Lack of physical eyes, inherent Force sight"
+        },
+        "heightAverage": {
+            "value": "4'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "110 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Alpheridies"
+        },
+        "slanguage": {
+            "value": "Miralukese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Miraluka",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "O3WefM3k3ZgfhQoe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "O3WefM3k3ZgfhQoe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "O3WefM3k3ZgfhQoe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "O3WefM3k3ZgfhQoe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "O3WefM3k3ZgfhQoe",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "O3WefM3k3ZgfhQoe",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "miralukese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "O3WefM3k3ZgfhQoe",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Miraluka.webp",
+    "effects": [
+        {
+            "_id": "8u9KvszXamdVwo8Y",
+            "flags": {
+                "dae": {
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Miraluka",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "miralukese",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Miraluka.webp",
+            "label": "Miraluka",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "WtrQOrZ6YT4fcHSa",
+    "name": "Infuse Ship Weapon",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 2 levels in engineer</em></p><p>Ship weapons become valid targets for your Infuse Item class feature.</p>"
+        },
+        "prerequisites": [
+            "at least 2 levels in engineer"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

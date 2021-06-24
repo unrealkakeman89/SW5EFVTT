@@ -1,0 +1,88 @@
+{
+    "_id": "bK2remeEKqu4htPZ",
+    "name": "Sonic Trick",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You use the Force to produce an effect within range. You create one of the following special effects within range:</p>\n<ul>\n<li>Your voice booms up to three times as loud as normal, and you can alter its tone, for 1 minute.</li>\n<li>You cause harmless tremors in the ground for 1 minute.</li>\n<li>You create an instantaneous sound that originates from a point of your choice within range, such as a rumble of thunder, the cry of a bird, or ominous whispers.</li>\n<li>You gain the ability to speak like another species for 1 minute, allowing you to speak in a language you know but otherwise lack the physical ability to speak, such as a Wookiee speaking Basic.</li>\n<li>You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, a billowing of someone\u2019s clothes, or a flickering of unenhanced light fixtures within range.</li>\n</ul>\n<p>A wary creature can use its action to make an Intelligence (Investigation) check against your force save DC, discerning that the effects are illusory on a success.</p>\n<p>If you cast this power multiple times, you can have up to three of its 1-minute effects active at a time, and you can dismiss such an effect as an action.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 30,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "int",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 0,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Sonic%20Trick.webp",
+    "effects": []
+}

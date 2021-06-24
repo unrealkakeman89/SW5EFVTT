@@ -1,0 +1,109 @@
+{
+    "name": "Role Spec: Juggernaut",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 2nd tier, you adopt a particular style of design for your ship.</p>\n<h3>Juggernaut</h3>\n<p>Your hull point maximum increases by an amount equal to twice your number of hull dice. Whenever you gain a hull die thereafter, your hull point maximum increases by an additional 2 hull points.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Huge",
+        "tier": "2"
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.zHF2wD1iG1qM5gdl"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Huge.webp",
+    "effects": [
+        {
+            "_id": "qQTMHDrpIch61Q7C",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.role",
+                    "value": "Juggernaut",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.hp.max",
+                    "value": "(data.attributes.hd)*2",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Starship%20Features/Small.webp",
+            "label": "Role Specialization: Juggernaut",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "IeEhOFpety68HCIk"
+}

@@ -1,0 +1,31 @@
+{
+    "_id": "GjPn4M3GHYmpNjNz",
+    "name": "Feinting Shot",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": "Gambit"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Weapons</em><br>You can expend one power die and use a bonus action on your turn to feint, choosing one ship within your primary weapon\u2019s normal range as your target. You have advantage on your next attack roll against that ship. If that attack hits, add the power die to the attack\u2019s damage roll.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

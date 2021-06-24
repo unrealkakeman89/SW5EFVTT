@@ -1,0 +1,39 @@
+{
+    "_id": "ucmQpCjxdEN6tpxD",
+    "name": "Form IX: Tr\u00e0kata",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form IX: Tr&agrave;kata</h1>\n<p>Form IX, also known as Deception Form, capitalizes on a lightweapon's ability to quickly be toggled on and off. Those guardians who focus on Tr&agrave;kata Form perform dazzling tricks with their lightweapon, confusing their opponents before dispatching them.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.hGM2crUL5i4fZX9G]{Tr&agrave;kata Lightsaber Form}, detailed in Chapter 6 of the Player&rsquo;s Handbook. If you already know this form, you can instead choose another lightsaber form. You can&rsquo;t take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Monkey-Lizard</h2>\n<p>Also at 3rd level, as a bonus action, you can enter a confusing stance for one minute. As a part of this bonus action, and as a bonus action on each of your turns, when you take the Dodge action, you can make one melee weapon attack against a creature within range. Additionally, when you make this melee weapon attack, you can flourish your weapon to attempt to distract your target. Make a Dexterity (Sleight of Hand) check contested by a Wisdom (Perception) check of the target of your attack. On a success, you make this attack roll with advantage.</p>\n<p>This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<h3>Unbalancing Block</h3>\n<p>When you are hit with a melee weapon attack, and you are wielding a lightweapon with which you are proficient, you can use your reaction and expend a use of your Channel the Force to add your Wisdom or Charisma modifier (your choice, minimum of +1) to your AC for that attack, potentially causing the attack to miss you.</p>\n<h2>Duplicitous Force</h2>\n<p>Beginning at 7th level, when you make a Dexterity (Sleight of Hand) check, you gain a bonus to that check equal to your Wisdom or Charisma modifier (your choice, minimum of one).</p>\n<h2>Pass the Blade</h2>\n<p>Starting at 15th level, when a creature misses you with an attack, you gain temporary hit points equal to your Wisdom or Charisma modifier (your choice, minimum of one), and you add your Wisdom or Charisma modifier (your choice, minimum of one) to the first melee weapon attack and damage rolls you make against that creature before the end of your next turn.</p>\n<h2>Master of Deception</h2>\n<p>At 20th level, your skill with a lightweapon is both mesmerizing and confounding. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage from unenhanced weapons.</li>\n<li>Your attack rolls can't suffer from disadvantage.</li>\n<li>Whenever a creature misses you with a melee attack, it takes 5 energy damage.</li>\n<li>Whenever a creature hits you with a melee attack, it takes damage equal to half of the damage you take from the attack.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Trakata%20Form.webp",
+    "effects": []
+}

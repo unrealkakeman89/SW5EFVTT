@@ -1,0 +1,280 @@
+{
+    "_id": "qvM90xSQ9qGFRhE8",
+    "name": "Quarren",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The Quarren are squid-like with four facial tentacles which protrude from their lower jaw. They have a pair of deep, turquoise eyes and finned hands with suction-tipped fingers. As an amphibious species, they are strong swimmers. They are also bipedal beings that can walk and sit upright. In the two long protrusions that extended from either side of their faces, Quarren have gill-like structures that are actually hearing organs. The Quarren are also capable of spitting out clouds of ink as a defensive measure.</p>\n<h2>Society and Culture</h2>\n<p>Quarren are a very self-centered and proud species, almost to the point of being xenophobic, would coincides with their isolationist behavior. Quarren find Humans to be very crude beings and think Galactic Basic to be very cumbersome and unsuitable for speech. The Quarren instead speak their native language more frequently. The Quarren are conservative and practical in their thinking, yet they reminisce more than they look to the future. The Quarren are isolationist, preferring to stay in the depths of the oceans of their homeworld. However, some Quarren make their living in the galaxy as business managers and accountants. The Quarren diligently mine metal ore from the deepest parts of the ocean, where they live deep beneath the waves. Their cities stretch far below the surface.</p>\n<h2>Names</h2>\n<p>Quarren names are typically harsh. Male and female names do not significantly deviate. Surnames are familial.</p>\n<p>&nbsp;&nbsp;<strong>Names.</strong> Bagker, Jujon, Kibkyl, Qiockish, Yuntoz</p>\n<p><strong>&nbsp;&nbsp;Surnames.</strong> Chobnek, Geeckol, Nukranx, Tsastanx</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Wisdom score increases by 1.</p><p><em><strong>Age.</strong></em> Quarren reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Quarren desire for equal rights causes them to tend toward balanced, though there are exceptions.</p><p><em><strong>Size.</strong></em> Quarren typically stand between 5 and 6 feet tall and weigh about 160 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Amphibious.</strong></em> You can breathe air and water.</p><p><em><strong>Climb.</strong></em> You have a climbing speed of 30 feet.</p><p><em><strong>Darkvision.</strong></em> You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Ink Cloud.</strong></em> You can use your action to expel ink in a 10-foot cone. When you do so, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your proficiency bonus + your Constitution modifier. On a failed save, a creature is blinded until the end of its next turn. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain one use of this feature when you finish a long rest.</p><p><em><strong>Keen Hearing.</strong></em> You have advantage on Wisdom (Perception) checks that rely on hearing.</p><p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Quarrenese. The Quarrenese language is characterized by its garbled nature that evokes an image of speaking underwater.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Orange, pink, purple, or red"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Blue or green"
+        },
+        "distinctions": {
+            "value": "Four tentacles that protrude from their jaws, finned or suction-cup tipped fingers, able to spit out clouds of ink in defense"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "105 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Mon Cala"
+        },
+        "slanguage": {
+            "value": "Quarrenese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Quarren",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.climb",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "quarrenese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "UJ5jfoXCFcJhswvT",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Quarren.webp",
+    "effects": [
+        {
+            "_id": "IS0m3cc1VZFBsy2j",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Quarren",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.climb",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "quarrenese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Quarren.webp",
+            "label": "Quarren",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

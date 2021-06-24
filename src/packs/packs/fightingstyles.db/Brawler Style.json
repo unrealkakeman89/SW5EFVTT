@@ -1,0 +1,20 @@
+{
+    "_id": "OntMXiMcasmS0H57",
+    "name": "Brawler Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at using your weight to your advantage. You gain the following benefits:</p><ul><li>You are proficient with improvised weapons.</li><li>Your damage die for your unarmed strikes and natural weapons increases by one step (from 1 to d4, d4 to d6, or d6 to d8).</li><li>When you take the Attack action and attempt to grapple, shove, or trip a creature, or make an attack against a creature with an unarmed strike or a weapon wielded in one hand on your turn, you can use your bonus action to make an unarmed strike, grapple, shove, or trip against the same creature.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Brawler%20Style.webp",
+    "effects": []
+}

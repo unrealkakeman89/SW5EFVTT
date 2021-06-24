@@ -1,0 +1,31 @@
+{
+    "_id": "CXpsc3IX1mUE7g78",
+    "name": "Enhance Scopes",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": "Disruption"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Sensors</em><br>As a bonus action, can expend one power die to increase the ranges of your ship\u2019s next primary or secondary weapon attack by 500 feet. If it hits, you add the power die to the attack\u2019s damage roll.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

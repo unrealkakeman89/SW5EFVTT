@@ -1,0 +1,41 @@
+{
+    "name": "Fusion Cutter",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>A fusion cutter is a handheld cutting tool popular among technicians. It cut through almost any reinforced material, given enough time. The internal power cell supplies an hour\u2019s worth of continuous operation.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 2,
+        "price": 25,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Utility/Fusion%20Cutter.webp",
+    "_id": "cwQ3qHjcVSaB6O7M"
+}

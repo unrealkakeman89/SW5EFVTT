@@ -1,0 +1,255 @@
+{
+    "_id": "NsmER4B8ezabPZIt",
+    "name": "Barabel",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Barabel are a bipedal species of reptilians who are covered in very tough dark colored scales. Evolved from nocturnal lizards, the Barabel adapted a thick layer of fat which allowed them to remain active and not sluggish when temperatures dropped. A blaster set on stun would not damage them at all or slow them down, as it would merely bounce off their scales. Barabel are able to shed their tails if necessary, an ability that proved the undoing of many startled foes. They also possess heavy retractable claws along with needle sharp teeth which can grow to be 2 inches in length. A carnivorous species, Barabel possess two stomachs in order to process the massive amount of food they required to survive.</p>\n<h2>Society and Culture</h2>\n<p>Living in low tech communities ranging from a few dozen individuals to no more than ten thousand, the Barabel community is built around a warren where the group thrives and hunted from. The Barabel species is noted for its hunting and tracking prowess; many of their actions are fueled by their hunting instincts, leading to the general feeling that Barabel are always angry. They are well known for their aggression but are also extremely loyal. They also have a great deal of respect for the Jedi because of their first experiences with a Jedi Master who settled a dangerous clan dispute. Apologies, whether for a misdeed or in sympathy, are an unknown concept to Barabel and are considered insulting.</p>\n<h2>Names</h2>\n<p>Barabel names are harsh and gutteral. Female names are often softer. Surnames are warren-based.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Anidroks, Bridiz, Trurzuk, Vilzinok</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Alge, Bulzo, Ekthamo, Inako, Nolku</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Akken, Dutarca, Khigta, Srabulgid, Zhomo</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Barabel reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Barabel aggression causes them to tend toward the dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Barabel typically stand between 6 and 7 feet tall and weigh about 200 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Claws.</strong></em> Barabel have retractable claws. You are proficient with your claws, which deal 1d4 kinetic damage on a hit.</p><p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Hide.</strong></em> You have a thick hide. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to cold climates, as described in chapter 5 of the Dungeon Master's Guide.</p><p><em><strong>Hungry Jaws.</strong></em> As a bonus action, you can make a special attack with your bite. If the attack hits, it deals 1d4 kinetic damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</p><p><em><strong>Hunter.</strong></em> You are proficient in Survival.</p><p><em><strong>Prehensile Tail.</strong></em> You have supreme control over your tail and can use it to manipulate objects as well as your hands.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Barabel. The Barabel language is characterized by its barks and hisses.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Black, green, grey, or red"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black or red"
+        },
+        "distinctions": {
+            "value": "Four-fingered hands, two inch long teeth"
+        },
+        "heightAverage": {
+            "value": "5'7\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "140 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Barab I"
+        },
+        "slanguage": {
+            "value": "Barabel"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Barabel",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "13",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.skills.sur.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "barabel",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "EpkPitX3yM3P6cOO",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Barabel.webp",
+    "effects": [
+        {
+            "_id": "rZWNCSEJqZsjLbV5",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Barabel",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "13+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.skills.sur.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "barabel",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Barabel.webp",
+            "label": "Barabel",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

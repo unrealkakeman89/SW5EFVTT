@@ -1,0 +1,105 @@
+{
+    "name": "Scout (Multiclass) Proficiencies",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<h1>Multiclass Proficiencies</h1>\n<p>As a multiclassed Scout, you gain the following proficiencies.</p>\n<p style=\"box-sizing: inherit; user-select: text; color: #1c1c1c; font-family: 'Open Sans'; font-size: 12px;\"><strong style=\"box-sizing: inherit; user-select: text;\">Armor:</strong> Light armor</p>\n<p style=\"box-sizing: inherit; user-select: text; color: #1c1c1c; font-family: 'Open Sans'; font-size: 12px;\"><strong style=\"box-sizing: inherit; user-select: text;\">Skills:</strong> Choose one from Animal Handling, Athletics, Insight, Investigation, Perception, Piloting, Stealth, Survival, and Technology</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "requirements": "Str or Dex 13, Int 13",
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": "0",
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.cvznqGJ6tfYULgjN"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCT-ARCH-Passive.webp",
+    "effects": [
+        {
+            "_id": "ajl2HjApW53QvtU7",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.traits.armorProf.value",
+                    "value": "lgt",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SCT-ARCH-Passive.webp",
+            "label": "Scout (Multiclass) Proficiencies",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "AjWb0VJqA2wJHGLk"
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "bRDz6yfrDH3IA5F9",
+    "name": "Discoveries (Politician)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect the progress of your studies into the political world. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>CHARMING FEINT</strong></h4>\n<p>Allies within range of your Motivating Diplomat feature also gain a bonus to their damage roll equal to half your Intelligence modifier (rounded down).</p>\n<hr />\n<h4><strong>DEMANDING LEADER</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;5th level</span><br />The range of each of your maneuvers increases by 10 feet. If the range is touch, it becomes 10 feet.</p>\n<hr />\n<h4><strong>DOMINATING PRESENCE</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;15th level</span><br />As a bonus action, you can call out to a humanoid who can understand you that is charmed by you or frightened of you to direct their next action. The target must succeed a Wisdom saving throw against your maneuver save DC. On a failed save, until the end of your next turn, the creature takes only the actions you choose, and doesn&rsquo;t do anything that you don&rsquo;t allow it to do.</p>\n<p>During this time you can use your reaction to force the creature to use its reaction.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>\n<hr />\n<h4><strong>INFLUENCER</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;5th level</span><br />The range on the your Motivating Diplomat feature is increased to 15 feet.</p>\n<hr />\n<h4><strong>RELIABLE WORDS</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;9th level</span><br />When you make a Deception, Intimidation, or Persuasion skill check, you may treat any roll 9 or lower as if you had rolled a 10.</p>\n<hr />\n<h4><strong>SOCIAL OPPORTUNIST</strong></h4>\n<p>You can add half your proficiency bonus (rounded down) to any Charisma check you make that doesn&rsquo;t already include your proficiency bonus.</p>\n<hr />\n<h4><strong>TYRANT&rsquo;S FEROCITY</strong></h4>\n<p>You have advantage on any attack against a creature that is charmed by you or frightened of you.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

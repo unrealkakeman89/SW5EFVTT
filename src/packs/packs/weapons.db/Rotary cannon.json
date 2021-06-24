@@ -1,0 +1,127 @@
+{
+    "_id": "qVeMdnOgsk1EkUGN",
+    "name": "Rotary cannon",
+    "permission": {
+        "default": 0,
+        "MmfWtlBdw3ij5wl9": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>Rather than traditional power cells, the rotary cannon uses specialized power generator that allow it to fire continuously for 10 minutes. Replacing a power generator takes an action.</p>\n<p>The rotary cannon requires the use of a tripod unless you meet its strength requirement, which is included in the price. Over the course of 1 minute, you can deploy or collapse the rotary cannon on the tripod. While deployed, your speed is reduced to 0.</p>\n<p>&nbsp;</p>\n<p>Ammunition (range 100/400), Auto, Burst, Rapid, Special, Strength 19, Two-handed</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 76,
+        "price": 9800,
+        "attunement": 0,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 10,
+            "width": null,
+            "units": "ft",
+            "type": "cube"
+        },
+        "range": {
+            "value": 100,
+            "long": 400,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "ammo",
+            "target": "",
+            "amount": 1
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": "0",
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "2d6 + @mod",
+                    "energy"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": null,
+            "scaling": "dex"
+        },
+        "armor": {
+            "value": 10
+        },
+        "hp": {
+            "value": 0,
+            "max": 0,
+            "dt": null,
+            "conditions": ""
+        },
+        "weaponType": "simpleVW",
+        "properties": {
+            "amm": true,
+            "aut": true,
+            "bur": true,
+            "def": false,
+            "dex": false,
+            "dir": false,
+            "drm": false,
+            "dgd": false,
+            "dis": false,
+            "dpt": false,
+            "dou": false,
+            "fin": false,
+            "fix": false,
+            "foc": false,
+            "hvy": false,
+            "hid": false,
+            "ken": false,
+            "lgt": false,
+            "lum": false,
+            "mig": false,
+            "pic": false,
+            "rap": true,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "shk": false,
+            "sil": false,
+            "spc": true,
+            "str": true,
+            "thr": false,
+            "two": true,
+            "ver": false,
+            "vic": false,
+            "nodam": false,
+            "fulldam": false
+        },
+        "proficient": true
+    },
+    "folder": "7rtfHBtXhhiRSS8u",
+    "sort": 6799806,
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Martial%20Blasters/Rotary%20Cannon.webp",
+    "effects": []
+}

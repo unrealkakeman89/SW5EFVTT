@@ -1,0 +1,71 @@
+{
+    "name": "Retro Thrusters",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 2nd tier, when an attacker that a deployed pilot or operator can see deals damage to your ship with a weapon, they can use their reaction to immediately move the ship up to 50 feet in a direction of their choice, halving the damage your ship takes. The orientation of the ship does not change.</p>\n<p>Once this feature has been used, it can't be used again until the ship recharges.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "reaction",
+            "cost": 1,
+            "condition": "when an attacker that a deployed pilot or operator can see deals damage to your ship with a weapon"
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": "1",
+            "max": "1",
+            "per": "recharge"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Small",
+        "tier": "2",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Small.webp",
+    "effects": [],
+    "_id": "wcrP5FTiW9MIUG5G"
+}

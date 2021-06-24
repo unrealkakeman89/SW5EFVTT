@@ -1,0 +1,39 @@
+{
+    "_id": "igjYYoVyL95UNC0c",
+    "name": "Nightsister Order",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Monk",
+        "description": {
+            "value": "<h1>Nightsister Order</h1>\n<p>Monks of the Nightsister Order utilize an innate Force-sensitivity to commune with death. They learn to channel this power to drain the life of their foes to prolong their own existence. Males who join this order are called Nightbrothers.</p>\n<h2>Ichor Lightning</h2>\n<p>Beginning when you choose this order at 3rd level, you gain a new attack option that you can use with the Attack action. This special attack is a ranged focus attack with a range of 30 feet. You are proficient with it, and you add your focus ability modifier to its attack and damage rolls. Its damage is necrotic, and it uses your Martial Arts die for its damage die.</p>\n<p>When you would make an unarmed strike as part of your Martial Arts bonus action attack or your Flurry of Blows, you can replace the attack with this one.</p>\n<p>When you reduce a creature to 0 hit points with this attack, you gain temporary hit points equal to your Wisdom or Charisma modifier + your monk level (your choice, minimum of one).</p>\n<h2>Dark Magick</h2>\n<p>At 6th level, you can use your action to force each creature within 30 feet of you that can see you to make a Wisdom saving throw against your focus save DC or be charmed or frightened (your choice) of you until the end of your next turn.</p>\n<h2>Mastery of Death</h2>\n<p>Starting at 11th level, when you are reduced to 0 hit points, you can expend 1 focus point (no action required) to have 1 hit point instead.</p>\n<h2>Spirit Blade Assault</h2>\n<p>At 17th level, as an action, you conjure a blade of negative energy and strike one creature within 5 feet of you with it, expending 1 to 10 focus points. The target must make a Constitution saving throw. On a failed save, it takes 2d10 necrotic damage per focus point spent, or half as much on a successful one.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Nightsister%20Order.webp",
+    "effects": []
+}

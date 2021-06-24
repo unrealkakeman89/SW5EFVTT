@@ -1,0 +1,31 @@
+{
+    "_id": "2FXFUjMbxTFaisyv",
+    "name": "Call for Backup",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Coordinator"
+        },
+        "featureType": {
+            "value": "Collaboration"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Comms</em><br>When a ship makes an attack roll against your ship, you can use your reaction and expend a power die and command another willing ally ship within 300 feet of the enemy ship to intercede. A crew member on that allied ship manning a weapon station must use their reaction to do so. The enemy ship is then forced to make an attack on the ally ship instead. If the attack misses, the crew member can immediately make a weapon attack against the enemy ship as a part of that same reaction. Roll the power die, and add the result to the ally\u2019s attack roll.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Coordinator.webp",
+    "effects": []
+}

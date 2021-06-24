@@ -1,0 +1,146 @@
+{
+    "_id": "SuW4JICEor44cFi3",
+    "name": "Reinforced Plating, Mark I",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "description": {
+            "value": "<p>You upgrade your ship's armor plating, granting your ship a total DR of 7.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "prerequisites": {
+            "value": "Reinforced Armor"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "1"
+        },
+        "activation": {
+            "cost": null,
+            "type": "",
+            "condition": ""
+        },
+        "actionType": "",
+        "armor": {
+            "type": "ssarmor",
+            "value": null,
+            "dex": null
+        },
+        "attunement": 0,
+        "proficient": false,
+        "equipped": false,
+        "identified": false,
+        "properties": {
+            "Absorptive": false,
+            "Agile": false,
+            "Anchor": false,
+            "Avoidant": false,
+            "Barbed": false,
+            "Bulky": false,
+            "Charging": false,
+            "Concealing": false,
+            "Cumbersome": false,
+            "Gauntleted": false,
+            "Imbalanced": false,
+            "Impermeable": false,
+            "Insulated": false,
+            "Interlocking": false,
+            "Lambent": false,
+            "Lightweight": false,
+            "Magnetic": false,
+            "Obscured": false,
+            "Obtrusive": false,
+            "Powered": false,
+            "Reactive": false,
+            "Regulated": false,
+            "Reinforced": false,
+            "Responsive": false,
+            "Rigid": false,
+            "Silent": false,
+            "Spiked": false,
+            "Steadfast": false,
+            "Strength": false,
+            "Versatile": false
+        },
+        "capx": {
+            "value": ""
+        },
+        "attributes": {
+            "dr": "7"
+        },
+        "regrateco": {
+            "value": ""
+        },
+        "cscap": {
+            "value": ""
+        },
+        "sscap": {
+            "value": ""
+        },
+        "fuelcostsmod": {
+            "value": ""
+        },
+        "powdicerec": {
+            "value": ""
+        },
+        "hdclass": {
+            "value": ""
+        },
+        "strength": null,
+        "stealth": false,
+        "target": {
+            "value": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "uses": {
+            "value": ",,,",
+            "max": ",,,",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "formula": ",,,",
+        "save": {
+            "ability": "",
+            "scaling": "power"
+        },
+        "chatFlavor": ",,,",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.3crddHhQKCyvmcvH"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

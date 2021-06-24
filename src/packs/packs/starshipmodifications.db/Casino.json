@@ -1,0 +1,37 @@
+{
+    "_id": "2WxwBEDni0YqbIG1",
+    "name": "Casino",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Large or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite offers all of the necessary implements, including furniture and customized chips, to run a gambling institution. In order to operate, the casino requires a number of crew members, equal to one-tenth the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table.</p>\n<p>A casino can comfortably host a number of guests equal to half the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table.</p>\n<p>At the end of each gaming day, the GM can roll a d20 to determine whether and how much the casino makes or loses money. The amount the casino makes or loses depends on the ship's size:</p>\n<table style=\"border: none; width: 300px;\">\n<tbody>\n<tr>\n<th style=\"text-align: center;\">d20 Roll</th>\n<th style=\"text-align: center;\">Large</th>\n<th style=\"text-align: center;\">Huge</th>\n<th style=\"text-align: center;\">Gargantuan</th>\n</tr>\n</tbody>\n<tbody>\n<tr>\n<td style=\"text-align: center;\">20</td>\n<td style=\"text-align: right;\">15,000 cr</td>\n<td style=\"text-align: right;\">150,000 cr</td>\n<td style=\"text-align: right;\">1,500,000 cr</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">16-19</td>\n<td style=\"text-align: right;\">7,200 cr</td>\n<td style=\"text-align: right;\">72,000 cr</td>\n<td style=\"text-align: right;\">720,000 cr</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">12-15</td>\n<td style=\"text-align: right;\">3,500 cr</td>\n<td style=\"text-align: right;\">35,000 cr</td>\n<td style=\"text-align: right;\">350,000 cr</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">8-11</td>\n<td style=\"text-align: right;\">1,000 cr</td>\n<td style=\"text-align: right;\">10,000 cr</td>\n<td style=\"text-align: right;\">100,000 cr</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">4-7</td>\n<td style=\"text-align: right;\">0 cr</td>\n<td style=\"text-align: right;\">0 cr</td>\n<td style=\"text-align: right;\">0 cr</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">2-3</td>\n<td style=\"text-align: right;\">-4,800 cr</td>\n<td style=\"text-align: right;\">-48,000 cr</td>\n<td style=\"text-align: right;\">-480,000 cr</td>\n</tr>\n<tr>\n<td style=\"text-align: center;\">1</td>\n<td style=\"text-align: right;\">-9,000 cr</td>\n<td style=\"text-align: right;\">-90,000 cr</td>\n<td style=\"text-align: right;\">-900,000 cr</td>\n</tr>\n</tbody>\n</table>\n<p>These amounts include the wages of the employees.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

@@ -1,0 +1,119 @@
+{
+    "name": "Mercenary",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>As a sell-sword who fought battles for coin, you're well acquainted with risking life and limb for a chance at a share of treasure. Now, you look forward to fighting foes and reaping even greater rewards as an adventurer. Your experience makes you familiar with the ins and outs of mercenary life, and you likely have harrowing stories of events on the battlefield. You might have served with a large outfit or a smaller band of sell-swords, maybe even more than one.</p>\n<p>Now you're looking for something else, perhaps greater reward for the risks you take, or the freedom to choose your own activities. For whatever reason, you're leaving behind the life of a soldier for hire, but your skills are undeniably suited for battle, so now you fight on in a different way.</p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Athletics, Investigation, Persuasion, and Piloting"
+        },
+        "toolProficiencies": {
+            "value": "One type of gaming set"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "<p>A uniform of your company (traveler's clothes in quality), an insignia of your rank, a gaming set (one of your choice), and a pouch containing the remainder of your last wages (100 cr)</p>"
+        },
+        "suggestedCharacteristics": {
+            "value": "Mercenaries are shaped by their lively nature, for the better and the worse. They tend to be driven by either their commitment to money or something more valuable."
+        },
+        "featureName": {
+            "value": "Mercenary Life"
+        },
+        "featureText": {
+            "value": "You know the mercenary life as only someone who has experienced it can. You are able to identify mercenary companies by their emblems, and you know a little about any such company, including the names and reputations of its commanders and leaders, and who has hired them recently. You can find the cantinas and feasthalls where mercenaries abide in any area, as long as you speak the language, and if you spend at least an hour in such a location you can come across one of the following bits of information: a job offer, significant rumor, referal to a skilled merchant, blacksmith, etc., or a hint towards the pursuit of your current quest. Additionally, you can find mercenary work between adventures sufficient to maintain a comfortable lifestyle (see \"Practicing a Profession\" under \"Downtime Activities\" in chapter 8 of the Player's Handbook)."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Charmer</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Ace Pilot</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Weapon Expert</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Durable</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I do not fear death, but accept it as part of life.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I have a crude sense of humor.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I face problems head-on. A simple, direct solution is the best path to success.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I find it good luck to have a flask of ale on me even when the most of my other belongings are gone.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I ask a lot of questions.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I never pass up a friendly wager.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I am always polite and respectful when speaking to those above my station.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I like a job well done, especially if I'm not the one doing it.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Greed. I'm only doing it for the money. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Fairness. We all did the work. it is only right that everyone gets a share of the reward. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Live and Let Live. You may not have a family left, but your enemy may. A little compassion goes a long way. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Measure of Last Resort. Sometimes we have to do things that we REALLY don't want to do, but we must remember that we only do them because we have to. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Debts. I never leave a favor left undone and nor will I leave those whom owe me favors on the hook. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I have heard a tale of a legendary person of my class. I strive to be more like them. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I am always looking for the bigger pay.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I can't tell a lie for the life of me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I judge too easily by special appearance and pride.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I am almost always carrying some ale in with my gear.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I believe that I am the only skilled person of the group and am even open about it.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I will never let a comrade stand alone, even if it gets me killed.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I have a personal debt that must be paid.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am with friends whom I trust with my life as they should trust me with theirs.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I come from a family that dislikes weaknesses, so I push myself to know my weaknesses.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">My life is my honor. I shall, until death, shape my life to what I want it to be.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Without a purpose in the world, I find myself to be broken which I do not like.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I secretly pursue a love interest that is forbidden by a family whether it is my own or my love's family.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Mercenary.webp",
+    "effects": [
+        {
+            "_id": "gLabPSWBP29hTaiU",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Mercenary",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "game",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Mercenary",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "ZIb0llolc0r89eh9"
+}

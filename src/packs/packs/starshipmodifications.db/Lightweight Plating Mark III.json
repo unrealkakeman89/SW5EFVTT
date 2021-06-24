@@ -1,0 +1,104 @@
+{
+    "_id": "WhUqAtiBqBrTQoh4",
+    "name": "Lightweight Plating, Mark III",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Lightweight Armor; Lightweight Plating, MK II"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "3"
+        },
+        "description": {
+            "value": "<p>You substantially upgrade your ship's armor plating, adding 50 feet to your speed.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "armor": {
+            "type": "",
+            "value": null,
+            "dex": null
+        },
+        "attunement": 0,
+        "proficient": false,
+        "equipped": false,
+        "identified": false,
+        "properties": {
+            "Absorptive": false,
+            "Agile": false,
+            "Anchor": false,
+            "Avoidant": false,
+            "Barbed": false,
+            "Bulky": false,
+            "Charging": false,
+            "Concealing": false,
+            "Cumbersome": false,
+            "Gauntleted": false,
+            "Imbalanced": false,
+            "Impermeable": false,
+            "Insulated": false,
+            "Interlocking": false,
+            "Lambent": false,
+            "Lightweight": false,
+            "Magnetic": false,
+            "Obscured": false,
+            "Obtrusive": false,
+            "Powered": false,
+            "Reactive": false,
+            "Regulated": false,
+            "Reinforced": false,
+            "Responsive": false,
+            "Rigid": false,
+            "Silent": false,
+            "Spiked": false,
+            "Steadfast": false,
+            "Strength": false,
+            "Versatile": false
+        },
+        "capx": {
+            "value": ""
+        },
+        "attributes": {
+            "dr": ""
+        },
+        "regrateco": {
+            "value": ""
+        },
+        "cscap": {
+            "value": ""
+        },
+        "sscap": {
+            "value": ""
+        },
+        "fuelcostsmod": {
+            "value": ""
+        },
+        "powdicerec": {
+            "value": ""
+        },
+        "hdclass": {
+            "value": ""
+        },
+        "strength": null,
+        "stealth": false
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

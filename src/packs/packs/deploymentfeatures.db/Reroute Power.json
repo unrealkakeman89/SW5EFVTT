@@ -1,0 +1,31 @@
+{
+    "_id": "MZLYQTFwmVQlgWpv",
+    "name": "Reroute Power",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Technician"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "3rd Rank"
+        },
+        "description": {
+            "value": "<p>Additionally, when your ship\u2019s shields are fully depleted, you can use your reaction to immediately restore a number of shield points equal to your Intelligence modifier. Once you\u2019ve used this feature, you must finish a long rest before you can use it again.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Technician.webp",
+    "effects": []
+}

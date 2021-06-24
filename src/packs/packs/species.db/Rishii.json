@@ -1,0 +1,239 @@
+{
+    "_id": "xotbdGBAJznPTsK7",
+    "name": "Rishii",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Rishii are a sentient, avian species of carnivores which possess two legs ending in four-toed feet, two arms, a tail, and a head. The species' two arms consist of feathered wings ending in nimble humanoid hands, capable of manipulating tools. The wings grant the Rishii the ability to fly at great speeds, which is their method of travel equivalent to running in land-based species. A Rishii's head contained a beak between two yellow eyes framed by a large brow. Rishii were capable of mimicking anything said to them perfectly, and also possessed extremely strong senses, particularly hearing and sight. </p><h2>Society and Culture</h2><p>Native to the planet Rishi, the Rishii live in loose primitive tribes, known as nests, clustered high upon the planet's mountains, away from the hot and humid lowland swamps. Each nest consists of a small number of family units led by a chieftain, with neighbouring nests respecting each others territories and living in harmony. This peaceful and accepting attitude goes beyond just other Rishii and was extended to all neighbours of a nest, including the many other species who colonise the lowlands of Rishi. Due to the unfavorable conditions found in the lowlands, the native avians do not understand the off-worlders' choice to live there, but were not opposed to their presence.</p><h2>Names</h2><p>As with much of their speech, Rishii names include clicks, trills, and whistles to the point that other peoples have a difficult time pronouncing them. Typically, a name has two to four syllables with the sounds acting as connectors. Rishii names do not vary based on gender. Rishii are responsive to nicknames given by outsiders. ",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Constitution score increases by 1.</p><p><em><strong>Age.</strong></em> Rishii reach adulthood at 10 and generally live no longer than 60 years.</p><p><em><strong>Alignment.</strong></em> Rishii tend toward no particular alignment. The best and worst are found among them.</p><p><em><strong>Size.</strong></em> Rishii range from 4 to 6 feet tall and generally weigh less than 130 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Flight.</strong></em> You have a flying speed of 30 feet. To use this speed, you can't be wearing medium or heavy armor.</p><p><em><strong>Keen Hearing and Sight.</strong></em> You have advantage on Wisdom (Perception) checks that rely on hearing or sight.</p><p><em><strong>Mimicry.</strong></em> You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Rishii. Rishii's clicks, trills, and whistles are difficult for outsiders to learn without the aid of a protocol droid, and so Rishii often feel comfortable speaking to eachother in the language in front of others.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Yellow"
+        },
+        "hairColorOptions": {
+            "value": "Brown or white"
+        },
+        "eyeColorOptions": {
+            "value": "Brown or yellow"
+        },
+        "distinctions": {
+            "value": "Sound mimicry, enhanced hearing and sight"
+        },
+        "heightAverage": {
+            "value": "4'2\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "60 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Rishi"
+        },
+        "slanguage": {
+            "value": "Rishii"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Rishii",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "TzmDF7YCG4Bd0Nb6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "TzmDF7YCG4Bd0Nb6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "TzmDF7YCG4Bd0Nb6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "TzmDF7YCG4Bd0Nb6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "TzmDF7YCG4Bd0Nb6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.fly",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "TzmDF7YCG4Bd0Nb6",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "TzmDF7YCG4Bd0Nb6",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "rishii",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "TzmDF7YCG4Bd0Nb6",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Rishii.webp",
+    "effects": [
+        {
+            "_id": "EG1cQYESSqx7uV17",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Rishii",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.fly",
+                    "value": "30",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "rishii",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Rishii.webp",
+            "label": "Rishii",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

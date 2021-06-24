@@ -1,0 +1,115 @@
+{
+    "name": "Smuggler",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You have spent your life hiding in the darkness, making shady deals behind closed doors. What led you to engage in a life of crime? Do you crave the thrill of lawbreaking, or did you enter the profession to pay off a debt, risking your hide on behalf of a less than honorable noble? A smuggler is an individual trained in the art of acquisition, a professional thug who can deliver anything... for a price. Smugglers tend to be more bolder criminals than most, preferring bribery or distraction over subterfuge and stealth."
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Deception, Piloting, Sleight of Hand, and Stealth"
+        },
+        "toolProficiencies": {
+            "value": "One type of gaming set and your choice of demolitions kit, security kit, or slicer's kit"
+        },
+        "languages": {
+            "value": null
+        },
+        "equipment": {
+            "value": "A fusion cutter, a set of dark common clothes including a hood, and a belt pouch containing 150 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Smugglers might seem like villains on the surface, and many of them are nefarious to the core. But some have an abundance of endearing, if not redeeming, characteristics. There might be honor among thieves, but spies rarely show any respect for law or authority. "
+        },
+        "featureName": {
+            "value": "Careful Selection"
+        },
+        "featureText": {
+            "value": "Some close brushes with the law have taught you that not every city guard can be bribed, and some people are simply too keen to miss minute discrepancies. This feature allows you to study a person and gain insight into whether or not they would accept a bribe, or to pick up on whether they are exceptionally more perceptive than you. It does not reveal how expensive a bribe may be for a given situation, however."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Silver-Tongued</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Ace Pilot</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Quick-Fingered</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Stealthy</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Feigned Confidence</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Force of Personality</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I am extremely sociable, especially over a mug of ale.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I always keep my wares close to me, you never know who might stumble across them otherwise.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">The best way to hide is out in the open.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm a terrible gossip.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Being seen with any unsavory figures is a sure way to undermine my work, which is why I work out of sight.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Deflecting questions has become second nature to me, so I rarely answer straight.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I have dozens of identities and live in constant fear of answering to the wrong name.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I act irrationally confident in the face of danger, nobody suspects anything when you seem like you're in charge.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Morals. I only smuggle things to improve the lives of the common folk. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Ruthless. I will rise to the top of the heap by any means necessary. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Friendship. My associates are dear to me, and I want them to rise with me when I hit it big. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Dauntless. No border crossing or bribe is too difficult- that's just the coward's way of saying exciting! (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Greater. Good I work for a greater cause, and ply my trade only in service to it. (Any)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Unperturbed. I only want to make a living for myself, and smuggling is just an edge I can use to do so. (Neutral)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">\"Trust nobody, not even yourself.\" I am plagued by paranoia.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm so charismatic that sometimes I woo myself. Who am I, Narcissus?</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Money is my greatest motivator. I'll do almost anything given enough of it, even if I'll regret it later.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I would betray anyone to save my own skin.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I detach myself from the results of my actions in order to sleep better at night.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Someone who knows me well might call me \"two-faced\" but those who don't have no idea what hit 'em.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">A corrupt official shut me down back in my honest days. I aim to show him a thing or two about recovery.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I never wanted to be a criminal, but it pays the bills.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">A bloodthirsty pirate stole a shipment from me and killed a dear friend of mine. I will have my vengeance.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Someone I cared about discovered my profession and has publicly denounced me, and I am caught between protecting my reputation and restoring our relationship.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">My love interest is someone who once stole from right under my nose- but they have no idea who I am or how much I admire them for their accomplishment.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">My business partners are closer to me than my family.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Smuggler.webp",
+    "effects": [
+        {
+            "_id": "ICTn4aQwmyndSpfG",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Smuggler",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "game",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Smuggler",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "9vBIo5qRLlFgtayA"
+}

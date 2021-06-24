@@ -1,0 +1,94 @@
+{
+    "_id": "G5mI31lc5lBqMT4V",
+    "name": "Master Force Immunity",
+    "permission": {
+        "default": 0,
+        "00LEX91CfLcf3HGf": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Improved Force Immunity</em></p>\n<p>A 10-foot-radius faintly shimmering barrier surrounds you. Within the sphere, powers can&rsquo;t be cast and enhanced items become mundane. Until the power ends, the sphere moves with you, centered on you.</p>\n<p>Powers and other enhanced effects are suppressed in the sphere and can&rsquo;t protrude into it. A slot expended to cast a suppressed power is consumed. While an effect is suppressed, it doesn&rsquo;t function, but the time it spends suppressed counts against its duration.</p>\n<p>Targeted Effects.&nbsp;Powers and other enhanced effects that target a creature or an object in the sphere have no effect on that target.</p>\n<p>Enhanced Areas.&nbsp;The area of another power or enhanced effect, such as&nbsp;force storm, can&rsquo;t extend into the sphere. If the sphere overlaps an enhanced area, the part of the area that is covered by the sphere is suppressed.</p>\n<p>Powers.&nbsp;Any active power or other enhanced effect on a creature or an object in the sphere is suppressed while the creature or object is in it.</p>\n<p>Enhanced Items.&nbsp;The properties and powers of enhanced items are suppressed in the sphere. For example, a +1 vibrosword in the sphere functions as an unenhanced vibrosword.</p>\n<p>An enhanced weapon&rsquo;s properties and powers are suppressed if it is used against a target in the sphere or wielded by an attacker in the sphere. If an enhanced weapon or a piece of enhanced ammunition fully leaves the sphere (for example, if you fire an enhanced shot or throw an enhanced saberspear at a target outside the sphere), the enhancement of the item ceases to be suppressed as soon as it exits.</p>\n<p>Enhanced Travel.&nbsp;Teleportation fails to work in the sphere, whether the sphere is the destination or the departure point for such enhanced travel. A portal to another location temporarily closes while in the sphere.</p>\n<p>Creatures and Objects.&nbsp;A creature or object summoned or created by powers temporarily winks out of existence in the sphere. Such a creature instantly reappears once the space the creature occupied is no longer within the sphere.</p>\n<p>Tech Override/Sever Force.&nbsp;Powers and enhanced effects such as&nbsp;sever force&nbsp;have no effect on the sphere. Likewise, the spheres created by different scrambling field powers don&rsquo;t nullify each other.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "hour"
+        },
+        "target": {
+            "value": 10,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": "self"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 8,
+        "school": "uni",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": true
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Master%20Force%20Immunity.webp",
+    "effects": []
+}

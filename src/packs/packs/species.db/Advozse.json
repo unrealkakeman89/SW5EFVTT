@@ -1,0 +1,167 @@
+{
+    "_id": "ZiVBeB90FBaqFFoV",
+    "name": "Advozse",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Advozsec evolved from herbivorous reptile-analogs which fed on the vegetation known to form around Riflor's hot springs. Evolving into a class of reptomammal, advozsec have a single horn at the crown of their heads, four digits on each hand and foot, pointed ears, and large eyes. Advozsec are strictly vegetarian, unable to properly digest meat. The geothermal hot springs that appear on their homeworld forced the species to evolve thick skin in order to survive. The large eyes of the advozsec are adaptations to the clouds of volcanic ash which darken Riflor's skies.</p>\n<h2>Society and Culture</h2>\n<p>Since so much of the sunlight on Riflor is blocked by volcanic eruptions, advozsec tend to settle near geothermal springs for heat. Unfortunately, these springs also tend to be in geologically unstable regions, and anything built near them is often destroyed or abandoned due to eruptions or groundquakes. As a result, the advozse people ended up having little attachment to material goods or long-term plans, and developed a pessimistic, selfish, and even paranoid outlook on life. This facet of their culture remained long after contact with the Galactic Republic gave them access to modern construction techniques allowing for more permanent buildings. Seeing financial stability as the only truly achievable stability one could find in life, the advozsec constantly strive to accumulate as much monetary wealth as they can in a lifetime in order to have the ability to rebuild when the worst happens.</p>\n<h2>Names</h2>\n<p>Advozsec have simple names that do not distinguish between genders, using familial surnames.</p>\n<p>&nbsp;&nbsp;<strong>First Names.</strong> Dleck, Fjemm, Gorde, Rollar, Xon</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Ghantere, Leventraim, Timack, Vy, Zimda</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Advozsec reach adulthood in their late teens and typically live for over half a century.</p>\n<p><em><strong>Alignment.</strong></em> Advozsec's paranoid and pessimistic nature causes them to tend towards balanced alignments, particularly lawful balanced, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Advozsec typically stand 5 to 6 feet tall and generally weigh about 130 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Darkvision.</strong></em> Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can&rsquo;t discern color in darkness, only shades of gray.</p>\n<p><em><strong>Hide.</strong></em> You have a thick hide. While you are unarmored or wearing light armor, your AC is 12 + your Dexterity modifier.</p>\n<p><em><strong>Horn.</strong></em> Your sharp horn is a natural weapon, which you can use to make unarmed strikes. Additionally, your unarmed strikes deal 1d4 kinetic damage.</p>\n<p><em><strong>Lava Dweller.</strong></em> Your body is well accustomed to extreme heat, giving you resistance to fire damage.</p>\n<p><em><strong>Vigilant.</strong></em> When you would roll initiative, you can choose to have advantage on the roll. Once you've done so, you must complete a short or long rest before you can do so again.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Advb. Advb sounds quick and aggressive. It's incredibly rare to find a non-advozsec speaking Advb, and some linguists even consider it to be an all but dead language.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Green, brown, muddy yellow, or tan"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black or red"
+        },
+        "distinctions": {
+            "value": "Large eyes, single horn on head, pointed ears"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d6\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Riflor"
+        },
+        "slanguage": {
+            "value": "Advb"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "flags": {
+            "dynamiceffects": {
+                "equipActive": false,
+                "alwaysActive": false
+            }
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        },
+        "core": {
+            "sourceId": "Item.E9fS8ySKUs00ASas"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Advozse.webp",
+    "effects": [
+        {
+            "_id": "G49BHyIIfQBdFmUt",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Advozse",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "12+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "fire",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "Advb",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "modules/hgttg/packs/Icons/Advozse.webp",
+            "label": "Advozse",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

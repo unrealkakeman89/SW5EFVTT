@@ -1,0 +1,864 @@
+{
+    "_id": "EWeZqfBJ4tohlYeC",
+    "name": "Mistryl Apprentice",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 11,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 17,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 13,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 11,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": "16",
+                "min": 0,
+                "formula": "unarmored defense"
+            },
+            "hp": {
+                "value": 60,
+                "min": 0,
+                "max": 60,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "11d8+11"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 3,
+                "prof": 0,
+                "total": 3
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 60,
+                "min": 0,
+                "max": 60
+            },
+            "bar2": {
+                "value": 16,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 13"
+            }
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"The Mistryl are the warriors of a forgotten cause; and if we hire ourselves out as temporary security to people like you, it's because our world and our people require money to survive. We will not work with Imperial forces. Ever.\"</i></p><p><span style=\"font-size: 13px\">- Manda D'ulin, to Kellering</span></p></blockquote><table class=\"userscript-table userscript-table-bordered\"><tbody><tr><td><u>Organization type</u></td><td>Mercenary organization</td></tr><tr><td><u>Leader(s)</u></td><td>Eleven Elders of the People</td></tr><tr><td><u>Headquarters</u></td><td>Emberlene</td></tr><tr><td><u>Formed from</u></td><td>Silent Hand</td></tr><tr><td><u>Date founded</u></td><td>22 - 19 BBY</td></tr><tr><td><u>Date reorganized</u></td><td>19 - 16 BBY (as a mercenary organization)</td></tr><tr><td><u>Affiliation</u></td><td>Confederacy of Indipendent Systems</td></tr></tbody></table><p>The Mistryl Shadow Guards were an elite group of all-female Human mercenaries, sent from their home planet of Emberlene to earn money in support of the devastated communities of their world. The Shadow Guards history was a long and tragic one, full of deception, greed, anger, and destruction, beginning long ago, with the loss of Emberlene.</p><h3>History</h3><blockquote><p><i>\"The Mistryl that I joined twenty-two years ago was an honorable clan of warriors fighting to preserve what was left of our people. Honorable warriors don't knowingly deal in murder. I would hope at least some of the Eleven remember that.\"</i></p><p><span style=\"font-size: 13px\"><i>\"Maybe the Eleven have changed. Maybe the Mistryl have changed.\"</i></span></p><p>- Shada D'ukal and Karoly D'ulin</p></blockquote><p>Three years before its destruction, Emberlene used its might and wealth to conquer its neighbors. They subjugated dozens of worlds in their sector, plundering their wealth, and destroyed anything of value that they couldn't take with them.</p><p>The remaining planets in the sector decided that they could not stand idly by and wait for the armies of Emberlene to crush them underfoot. Pooling their resources, the governments of these worlds hired a mercenary army to fight for them. The mercenaries struck hard and fast, devastating Emberlene's forces and reducing the planet's infrastructure to rubble. Ensuing firestorms and air strikes against populated areas effectively ended the Emberlene threat, reducing its people to abject poverty.</p><p>In the years after their destruction and partial reconstruction, the Eleven Elders decided to create a lie from this disaster. From a young age, the citizens of Emberlene were taught that many years ago, while the Galactic Empire was still young and early resistance had not been crushed, Emperor Palpatine ordered the destruction of Emberlene as an example to all. Emberlene had been a rich planet, full of splendor and beauty, and had made it apparent that they were ruled by no one but themselves. Fearing the planet's growing power and prestige, the Emperor sent his forces to destroy Emberlene as an example to those who thought they could escape the rule of the Empire. This lie was created to instill a sense of loyalty and pride in the people of Emberlene, as well as a false sense of duty amongst the Mistryl.</p><p>Since then, the Mistryl hired themselves out as mercenaries, to earn enough money to support the millions of refugees left after the planet's destruction, and loathing the Empire's role in the disaster.</p><p>At some point, Loruna Scathe left the Shadow Guard and formed a rival organization, the Azure Cabal, that competed with Mistryl Shadow Guard for contracts.</p><p>Shadow Guards were sometimes employed by the Smugglers' Alliance and in 11 ABY, two of them helped the Alliance to take control of the Spice Mines of Kessel.</p><h3>Organization</h3><blockquote><p><i>\"We're Mistryl. We're given orders and we follow them.\"</i></p><p><span style=\"font-size: 13px\">- Karoly D'ulin, to Shada D'ukal</span></p></blockquote><p>The Shadow Guard typically operated in small teams led by a commander known as the Team Prime. In 0 BBY, the team led by Manda D'ulin consisted of six warriors, including herself, Karoly D'ulin, Pav D'armon, Shada D'ukal, Sileen and Cai, together with two heavy starfighters, Skyclaw and Mirage.</p><p>If a larger force was required, several teams could be called in\u2014for example, Team Prime D'ulin planned to assemble a force of twelve ships to escort the Hammertong convoy. On the other hand, Mistryl sometimes traveled as master-and-apprentice pairs, and individual warriors could be contracted out long-term as bodyguards. After the breakup of Manda D'ulin's team, Shada D'ukal traveled the Galaxy with trainee Dunc T'racen aboard the freighter The Fury, before becoming Mazzic's bodyguard, a position she held from at least 9 ABY until she left the Shadow Guard to become Talon Karrde's lieutenant in 19 ABY.</p><p>True to their mythos that Emberlene had been ravaged by Imperial forces, the Mistryl claimed that they never worked for the New Order, although when that loathing got in the way of a job, they often forgot this animosity, either through convenience or necessity.</p><h3>Equipment and methods</h3><blockquote><p><i>\"The Mistryl shadow guards do not kill casually or without cause.\"</i></p><p><span style=\"font-size: 13px\">- Flim, to Grodin Tierce</span></p></blockquote><p>While the Guard were deadly at any time, the Shadow Guard were especially adept at close-quarters combat. They were well trained in martial arts, and also had a large amount of weapons training as well. They were trained to use hold-out blasters and vibroblades, and were also educated in the use of more exotic weapons such as hand claws, shock whips, and zenji needles.</p><p>The Mistryl were legendary for their stealth and ability to remain unnoticed at all times. They had access to a huge database of profiles of galactic citizens. When needed, a guard could quickly use one of these and assume that person's identity in order to either get close to a target or get away from an area.</p>",
+                "public": ""
+            },
+            "alignment": "Unaligned",
+            "species": "",
+            "type": {
+                "value": "humanoid",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 3,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 700
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Galactic Basic"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ins": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 0,
+                "passive": 10,
+                "prof": 0,
+                "total": 0
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ste": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/267_-_Mistryl_Apprentice/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Mistryl Apprentice",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/267_-_Mistryl_Apprentice/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "EWeZqfBJ4tohlYeC",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "NzgzMjYzYWVlYTk1",
+            "name": "Unarmored Defense",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>While the Mistryl is wearing no armor and wielding no shield, her AC includes her Wisdom modifier.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/267_-_Mistryl_Apprentice/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YThjYzU3ZjM4ZTA2",
+            "name": "Multiattack",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The Mistryl makes three unarmed strikes or three dart attacks.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/skills/green_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "ZDZhNDU0OWU3NDQw",
+            "name": "Dart",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+5, Range 20/60 ft., One target. <em>Hit : </em>5 (1d4+3) kinetic damage.</p><p>The target must make a DC 13 Constitution saving throw. On a failure, the target takes 7 (2d6) poison damage and is poisoned for 1 minute. On a success, the target takes half the damage and isn't poisoned.</p><p></p><p></p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 20,
+                    "long": 60,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d4+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "con",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "simpleR",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/dnd5e/icons/items/weapons/dart.webp",
+            "effects": []
+        },
+        {
+            "_id": "MjQ4MzgzYTEzYzc3",
+            "name": "Unarmored Strike",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+5, Reach 5 ft., One target. <em>Hit : </em>7 (1d8+3) kinetic damage.</p><p>If the target is a creature, the Mistryl can choose one of the following additional effects. The target must Succeed on a DC 13: -Strength saving throw or drop one item it is holding (Mistryl's choice). -Dexterity saving throw or be knocked prone. -Constitution saving throw or be stunned until the Mistryl's next turn.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d8+3",
+                            "kinetic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/267_-_Mistryl_Apprentice/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

@@ -1,0 +1,31 @@
+{
+    "_id": "V3fT3R6dhqeo4Yud",
+    "name": "Improved Critical",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Gunner"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>Also at 2nd rank, your critical hit range with primary and secondary weapons increases by 1, and when a ship rolls a 1 on a saving throw against a tertiary or quaternary weapon that you control, they treat the effect\u2019s damage as if it had rolled the maximum.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Gunner.webp",
+    "effects": []
+}

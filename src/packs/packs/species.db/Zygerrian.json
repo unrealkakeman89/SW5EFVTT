@@ -1,0 +1,302 @@
+{
+    "_id": "N33394CnzydgJNbk",
+    "name": "Zygerrian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The Zygerrians are a bipedal, sentient humanoid species. Feline in appearance, the species possesses strong, angular features, with long fangs jutting from their jaws and claws extending from their hands. The Zygerrians' faces and their pointed ears are almost entirely covered with fur; males usually have more hair than females, with bands of fur growing on their cheeks. Male Zygerrians also display a number of bony spurs protruding from the chin, which females typically lack. Zygerrians usually have sallow complexions and are physically strong, but some suffer from obesity.</p>\n<h2>Society and Culture</h2>\n<p>A warlike species, the Zygerrians hold strength\u2014both physical and mental\u2014in great esteem, viewing it as a means to gain power and authority. They believe that it is the natural order of life for the strong to dominate the weak, so slavery is normal for the species, and a display of weakness could mean death or enslavement in their culture. Those who become their slaves are viewed as inferior by the Zygerrians. Zygerrian society is organized into clans and classes. They have a noble class, many members of which, despite their high status, pursue a career in the military. The Zygerrian government is a monarchy; female rulers hold the title of Queen, and males are addressed as Kings. The center of the Zygerrian society is the Zygerrian Slavers Guild, which focuses on the slave trade in the Outer Rim Territories.</p>\n<h2>Names</h2>\n<p>Zygerrian names are rather diverse, though shorter names are the most common. Surnames are familial.</p>\n<p><strong>&nbsp;&nbsp;Male Names.</strong> Agruss, Darts, Atai, Sono</p>\n<p><strong>&nbsp;&nbsp;Female Names.</strong> Miraj, Faralhi, Latrans, MaDall</p>\n<p><strong>&nbsp;&nbsp;Surnames.</strong> D'nar, Molec, Scientel, Thanda, Tyne</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Intelligence score increases by 1.</p><p><em><strong>Age.</strong></em> Zygerrians reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Zygerrian culture's emphasis on subjugation and strength causes them to tend towards chaotic dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Zygerrians normally stand between 5 to 6 feet tall and weigh about 140 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Acrobatic.</strong></em> You have proficiency in Acrobatics.</p><p><em><strong>Claws.</strong></em> Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p><p><em><strong>Darkvision.</strong></em> You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Notorious Slavers.</strong></em> Whenever you make an ability check related to the buying, selling, or controlling of slaves, you are considered proficient in the check. If you would already be proficient, you instead have expertise.</p><p><em><strong>Reputation for Cruelty.</strong></em> You are proficient in Intimidation, as well as the saberwhip and vibrowhip.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Zygerrian. Zygerrian is characterized by its subtle growls and purrs.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Light tones"
+        },
+        "hairColorOptions": {
+            "value": "Black, brown, gray, or red"
+        },
+        "eyeColorOptions": {
+            "value": "Blue or yellow"
+        },
+        "distinctions": {
+            "value": "Large pointed ears, clawed hands, fur-covered faces, bony facial spurs"
+        },
+        "heightAverage": {
+            "value": "5'1\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "120 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Zygerria"
+        },
+        "slanguage": {
+            "value": "Zygerrian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Zygerrian",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.acr.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Acrobatics"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.itm.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Intimidation"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "saberwhip",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "vibrowhip",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "zygerrian",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 12,
+                    "itemId": "6MO90piX6tJOvvqL",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Zygerrian.webp",
+    "effects": [
+        {
+            "_id": "zFWMZ7TZhGP32ghr",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Zygerrian",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.acr.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.itm.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "saberwhip",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "vibrowhip",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "zygerrian",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Zygerrian.webp",
+            "label": "Zygerrian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

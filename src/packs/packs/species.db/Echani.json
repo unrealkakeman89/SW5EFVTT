@@ -1,0 +1,256 @@
+{
+    "_id": "ynuvnI54pMKLwF2a",
+    "name": "Echani",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Echani are characterized by their white skin, hair, and eyes, and their remarkable tendency to look very much alike one another to outside observers, particularly amongst family members. It is thought that their origins stem from Arkanian experimentation on the human genome, a hypothesis that could explain their physical conformity.</p><h2>Society and Culture</h2><p>A matriarchal, caste-based society originating from the Inner Rim world of Eshan, the echani spread to encompass a confederacy of six worlds including Bengali and Thyrsus, known as the Six Sisters, governed by the all-female Echani Command. \r\n\t\r\nEchani generals are sometimes seen by others as having the ability to predict their opponent's next move. This is no biologicial trait inherent to the species, but rather stems from the fact that combat is so ingrained into every level of echani culture; the echani hold to the idea that combat is the truest form of communication, and to know someone fully, you must fight them. While their combat rituals require complete freedom of movement and unarmed martial arts, in warfare, they tend towards light armor and melee weapons, and are considered excellent craftsmen of such.</p><h2>Names</h2><p>Echani names tend to lack hard consonants, but are otherwise as variable as human ones. Echani surnames are tied directly to their place in the caste system.</p><strong>&nbsp;&nbsp;Male Names.</strong> Caelian, Inarin, Losor, Uelis, Yusanis </p><strong>&nbsp;&nbsp;Female Names.</strong> Astri, Brianna, Isena, Raskta, Senriel</p><strong>&nbsp;&nbsp;Surnames.</strong> Authal, Elysi, Fenni, Kinro, Lsu",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Echani reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Echani culture's emphasis on honor and combat cause them to tend towards lawful alignments, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Echani stand between 5 and a half and 6 feet tall and weigh around 150 lbs, with little variation between them. Your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Allies of the Force.</strong></em> Whenever you make a Wisdom (Insight) check against someone you know to wield the Force, you are considered to have expertise in the Insight skill.</p>\n<p><em><strong>Combative Culture.</strong></em>&nbsp;You have proficiency in Lore and Acrobatics.</p>\n<p><em><strong>Echani Art.</strong></em>&nbsp;If a humanoid you can see makes a melee weapon attack, you can use your reaction to make a Wisdom (Insight) check against the target's Charisma (Deception). On a success you learn one of the following traits about that creature: it's Strength, Dexterity or Constitution score; bonus to Strength, Dexterity or Constitution saving throws; armor class; or current hit points. On a failure, the target becomes immune to this feature for one day. You can use this ability a number of times equal to your Wisdom modifier (a minimum of once). You regain all expended uses on a long rest.</p>\n<p><em><strong>Martial Upbringing.</strong></em>&nbsp;You have proficiency in light armor, and gain proficiency with two martial vibroweapons of your choice.</p>\n<p><em><strong>Unarmed Combatant.</strong></em> Your unarmed strikes deal 1d6 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and one extra language of your choice.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Pale tones"
+        },
+        "hairColorOptions": {
+            "value": "White"
+        },
+        "eyeColorOptions": {
+            "value": "Silver"
+        },
+        "distinctions": {
+            "value": "Fair skin, white hair and eyes, remarkable familial similarity."
+        },
+        "heightAverage": {
+            "value": "5'1\""
+        },
+        "heightRollMod": {
+            "value": "+1d10\""
+        },
+        "weightAverage": {
+            "value": "105 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Eshan"
+        },
+        "slanguage": {
+            "value": "Galactic Basic"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Echani",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.lor.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Lore"
+                },
+                {
+                    "modSpecKey": "data.skills.acr.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Acrobatics"
+                },
+                {
+                    "modSpecKey": "data.traits.armorProf.value",
+                    "value": "lgt",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "RZ06rVoMQ80tK8W1",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Echani.webp",
+    "effects": [
+        {
+            "_id": "HNBMxZCToQEy6PSr",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Echani",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.lor.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.acr.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.armorProf.value",
+                    "value": "lgt",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.unarmedCombatant",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Echani.webp",
+            "label": "Echani",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

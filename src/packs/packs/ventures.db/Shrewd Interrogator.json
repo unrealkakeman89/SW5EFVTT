@@ -1,0 +1,21 @@
+{
+    "_id": "XCfImlUdBzvW8UGp",
+    "name": "Shrewd Interrogator",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "When you make a Wisdom (Insight) or Charisma (Deception) check while aboard your ship, you may use your Intelligence modifier instead of your Wisdom or Charisma modifier. </p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

@@ -1,0 +1,257 @@
+{
+    "_id": "GxmmS5KqZkxCn3D9",
+    "name": "Weequay",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Weequays are humanoids with thick, leathery skin that ranges in color from tan to dark brown. Their faces are lipless, with a frill along each of their jowls.</p><h2>Society and Culture</h2><p>Weequays have the ability to communicate with members of their own clan through smell by exuding complex pheromones. This pheromonal language can not be understood by any other species, or even by Weequays of another clan. Only Jedi senses can even tell that two Weequay are communicating. Since each Weequay's pheromones are unique, Weequay have no need for a name within their clan. As a result, speech is only a secondary form of communication for Weequay, and they seldom speak a whole sentence, resulting in Humans mistakenly believing the species to be unintelligent.\r\n\r\nMale Weequay often tie their hair into a long braid each year spent away from their homeworld as a tribute to their home. When they returned, they shaved their braids. Weequays serving the Hutts were often very close to their homeworld, and would only have one or two braids. Female Weequay were usually bald, and did not follow this tradition.</p><h2>Names</h2><p>Only Weequay who have to live among other clans, or among non-Weequay, take a personal name. Even then, some are simply referred to as \"Weequay\". In Weequay culture, individual identity is much less important than the clan. As long as the clan survives, a single Weequay is expendable. This results in a sometimes brutal culture.</p><strong>&nbsp;&nbsp;Male Names.</strong> Chublu, Fah, Kreakk, Og-Rollo, Yurrenn</p><strong>&nbsp;&nbsp;Female Names.</strong> Gila, Qommi, Palsa, Sex, Xelror</p><strong>&nbsp;&nbsp;Surnames.</strong> Britreg, Dlur, Klanz, Maub, Semu",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Charisma score increases by 2, and your Constitution score increases by 1.</p><p><em><strong>Age.</strong></em> Weequay reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Weequay ruthlessness and greed cause them to tend toward chaotic dark side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Weequay typically stand about 6 feet tall and weigh 150 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Charming.</strong></em> You have proficiency in Deception or Persuasion.</p><p><em><strong>Darkvision.</strong></em> Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Keen Smell.</strong></em> You have advantage on Wisdom (Perception) checks that rely on smell.</p><p><em><strong>Tanned.</strong></em> You have tough, leathery skin. While you are unarmored or wearing light armor, your AC is 13 + your Dexterity modifier. Additionally, your thick hide is naturally adapted to hot climates, as described in chapter 5 of the Dungeon Master's Guide.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Sriluurian. You can communicate with other Weequay without speaking through use of pheromones. Force attuned individuals can detect the communication but can't understand it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Brown, gray, red, or yellow"
+        },
+        "hairColorOptions": {
+            "value": "Black or blond"
+        },
+        "eyeColorOptions": {
+            "value": "Black, gold, or gray"
+        },
+        "distinctions": {
+            "value": "Tough, leathery skin that provided resistance to blasterfire"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "120 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Sriluur"
+        },
+        "slanguage": {
+            "value": "Sriluurian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Weequay",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.ac.min",
+                    "value": "13",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Armor Class Min"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "sriluurian",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "5QK1Z46ue8vQalOI",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Weequay.webp",
+    "effects": [
+        {
+            "_id": "wsSPpwrkO8w3mi04",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Weequay",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.ac.value",
+                    "value": "13+@abilities.dex.mod",
+                    "mode": 5,
+                    "priority": 1
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "sriluurian",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Weequay.webp",
+            "label": "Weequay",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

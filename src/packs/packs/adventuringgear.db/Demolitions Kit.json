@@ -1,0 +1,41 @@
+{
+    "name": "Demolitions Kit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>This kit contains the appropriate equipment for disarming and setting explosives. It contains a plastic face guard and heavy duty gloves, as well as precision cutting and gripping tools, and various common components of grenades and mines. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to disarm or set an explosive.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 4,
+        "price": 400,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Kit/Demolitions%20Kit.webp",
+    "_id": "oH2HgXxSM0EFnj7A"
+}

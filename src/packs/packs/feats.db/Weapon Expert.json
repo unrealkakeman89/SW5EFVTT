@@ -1,0 +1,165 @@
+{
+    "_id": "iiZ66oT6lIqkrOGk",
+    "name": "Weapon Expert",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p>You have practiced extensively with a variety of weapons, gaining the following benefits:</p>\n<ul>\n<li>Increase your Strength, Dexterity, or Constitution score by 1, to a maximum of 20.</li>\n<li>You gain proficiency with all blasters, lightweapons, and vibroweapons. If you are already proficient with all blasters, lightweapons or vibroweapons, instead once per turn when you roll damage for a weapon attack using a weapon from a category in which you are proficient with all weapons, you can reroll the weapon's damage dice and use either total.</li>\n</ul>\n<p>You can take this feat twice.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 5007813,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "all blasters",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "iiZ66oT6lIqkrOGk",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "all lightweapons",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "iiZ66oT6lIqkrOGk",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "all vibroweapons",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "iiZ66oT6lIqkrOGk",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Weapon%20Expert.webp",
+    "effects": [
+        {
+            "_id": "0d8iTrYN5SNWLeSw",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "All blasters",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "All lightweapons",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "All vibroweapons",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Feats/Weapon%20Expert.webp",
+            "label": "Weapon Expert",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

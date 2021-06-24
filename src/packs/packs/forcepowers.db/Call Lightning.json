@@ -1,0 +1,93 @@
+{
+    "_id": "BMIFAP3MEIihGmi5",
+    "name": "Call Lightning",
+    "permission": {
+        "default": 0,
+        "XA86Wm4MjngMySbc": 3
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>As you align yourself with nature through the Force, a 10-foot tall, 60-foot radius storm cloud cylinder appears, centered on a point you can see within range above you, with you as the center point. The power fails if your location can\u2019t accommodate the cloud\u2019s size or height. When you cast the power, choose a point under the cloud for lightning to strike. Each creature within 5 feet must make a Dexterity save, taking 3d10 lightning damage on a fail and half on a success. While the power persists, you can use your action to call lightning to a point in range again.</p>\n<p>If you\u2019re outdoors and in a storm, the power gives you control of the storm rather than creating a new one. The lightning damage also increases by 1d10.</p>\n<p><em><strong>Force Potency.</strong></em>&nbsp;When you cast this power using a force slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": 10,
+            "units": "minute"
+        },
+        "target": {
+            "value": 60,
+            "units": "ft",
+            "type": "cylinder"
+        },
+        "range": {
+            "value": 120,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": "0",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "3d10",
+                    "lightning"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 3,
+        "school": "lgt",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": true
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "prepared",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "level",
+            "formula": "1d10"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Force%20Powers/Call%20Lightning.webp",
+    "effects": []
+}

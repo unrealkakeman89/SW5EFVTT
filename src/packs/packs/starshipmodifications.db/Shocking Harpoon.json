@@ -1,0 +1,37 @@
+{
+    "_id": "hU3DRksAgX1IrnKs",
+    "name": "Shocking Harpoon",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Boarding Harpoon"
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "4"
+        },
+        "description": {
+            "value": "<p>Your ship's harpoon has been modified, allowing it to conduct bursts of energy into the harpooned ship. A harpooned ship has disadvantage on the contested Strength (Boost) check to remove the harpoon. Additionally, as an action on each of their turns, a crew member can deal pulse damage to a harpooned ship. The damage is equal to one of your ship's Shield Dice + your ship's Strength modifier.</p><p>Finally, when your ship makes a Strength (Ram) check, it can reroll one of the dice.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

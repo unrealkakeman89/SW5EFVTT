@@ -1,0 +1,252 @@
+{
+    "_id": "ArdRIBU7d9vvkbGA",
+    "name": "Togruta",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Togruta have rusty skin tones ranging in hue from blue to red to green, with white pigmentation on their faces, greyish lips, and white stripes adorn various parts of their bodies. The pattern of stripes varies from individual to individual. This red and white pattern was a phenotype left over from their ancestor's camouflage that helped them to blend in with Shili's natural surroundings.</p><p>Their heads bear two montrals, with three to four head-tails, whose stripes were darker than those of the montrals. Togruta have the ability to sense the proximity and movement of physical objects around them by means of their hollow montrals, which detect space ultrasonically. Young togrutas' montrals and posterior head-tail do not fully grow until adolescence, when their montrals curve and their final head-tail grows to the length of their other head-tails.</p><h2>Society and Culture</h2><p>Togruta have a strong sense of unity and togetherness. On their native homeworld of Shili, they rely on each other and band together to take a stand against the massive monsters that hunt them. The creatures of Shili most often attack in groups, which was even more reason for the native togruta to work together. While most of Shili is covered in the scrublands where the togruta hunt their herbivorous prey, the togruta live in small communities in the forest valleys.</p><h2>Names</h2><p>Togruta names are typically long. Surnames are familial.</p><p>&nbsp;&nbsp;<strong>Male Names.</strong> Acanaar, Mukraas, Obolak, Tokrym</p><p>&nbsp;&nbsp;<strong>Female Names.</strong> Akoma, Maasha, Okohlo, Shola</p><p>&nbsp;&nbsp;<strong>Surnames.</strong> Hyl, Na, Nim, Ris, Resh, Vaal, Zin</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Wisdom score increases by 2, and your Strength or Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Togruta reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Togruta culture focuses on unity which causes them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Togruta typically stand between 5 and 6 feet tall and weigh 150 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Montral Reception.</strong></em> You have tremorsense out to 30 feet. You can detect and pinpoint the origin of vibrations within a specific radius, provided that monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can't be used to detect flying or incorporeal creatures</p><p><em><strong>Wild Hunters.</strong></em> You have proficiency with the Survival skill.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Togruti. Togruti is an ornate language characterized by trills and long vowel sounds which are modified by subtle tremors in the togruta's head-tails. This language is heavily influenced by Basic, but also incorporates some native idioms, which caused Basic-speaking togruta to use seemingly strange expressions.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, green, orange, purple, red, white, or yellow"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black, blue, green, orange, purple, yellow, or red"
+        },
+        "distinctions": {
+            "value": "Sharp canine teeth, two montrals, three or four head-tails"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "115 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Shili"
+        },
+        "slanguage": {
+            "value": "Togruti"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Togruta",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Tremorsense (30 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.sur.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Survival"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "togruti",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "a6nvR93PW0IDP5Al",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Togruta.webp",
+    "effects": [
+        {
+            "_id": "57U88UyYUeWc8lGm",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Togruta",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.tremorsense",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.sur.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "togruti",
+                    "mode": 0,
+                    "priority": 0
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Togruta.webp",
+            "label": "Togruta",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

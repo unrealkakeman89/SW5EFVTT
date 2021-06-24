@@ -1,0 +1,39 @@
+{
+    "_id": "bBMsNrnCUOXGfb0h",
+    "name": "Cyclone Approach",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Berserker",
+        "description": {
+            "value": "<h1>Cyclone Approach</h1>\n<p>The Cyclone Approach empowers the berserker\u2019s ability to fight with weapons in each hand. Followers of this approach learn to move quickly to avoid attacks and can become a whirlwind of fury and steel, cleaving through hordes of enemies.</p>\n<h2>Dual Wielder</h2>\n<p>When you choose this approach at 3rd level, when you engage in Two-Weapon Fighting, you can add your Strength or Dexterity modifier (your choice) to the damage of your Two-Weapon Fighting attack as long as it doesn\u2019t already include that modifier.</p>\n<h2>Double Swing</h2>\n<p>Also at 3rd level, once on each of your turns when you miss with an attack while raging, you can immediately make a melee attack with the weapon in your other hand.</p>\n<h2>Twisting Winds</h2>\n<p>At 6th level, your unpredictable movement makes you harder to hit and pin down. When you make a saving throw or ability checks to avoid being knocked prone, pushed, grappled, or restrained, it gains a bonus equal to your Strength or Dexterity modifier (your choice) as long as it doesn\u2019t already include that modifier.</p>\n<h2>Mighty Leap</h2>\n<p>Starting at 10th level, the distance you can jump is doubled, and you do not provoke attacks of opportunity if you leave a hostile creature\u2019s reach while jumping.</p>\n<h2>Tornado</h2>\n<p>At 14th level, you can become a tornado of attacks. When you take the Attack action on your turn, you can forgo one of your regular attacks to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target. If you are wielding a separate melee weapon in each hand, each successful hit against a target deals damage equal to the damage dice of both weapons + your ability modifier + any other modifiers.</p>\n<p>You can use this feature a number of times equal to your Strength modifier (a minimum of once). You regain all expended uses when you finish a short or long rest.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Cyclone%20Approach.webp",
+    "effects": []
+}

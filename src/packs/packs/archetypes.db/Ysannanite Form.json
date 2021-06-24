@@ -1,0 +1,33 @@
+{
+    "_id": "VXmVX5a3ac4kKAIT",
+    "name": "Ysannanite Form",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Ysannanite Form</h1>\n<p>Ysannanite Form, also know as the Unorthodox Form, pairs the use of lightsaber with blasters, seamlessly blending the two weapons to perform impressive feats. Those guardians who focus on the Ysannanite Form are able to cut enemies down as efficiently with blaster as with blade.</p>\n<h2>Bonus Proficiencies</h2>\n<p>You gain proficiency in simple blasters and martial blasters that lack the two-handed property.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the Ysannanite lightsaber form. If you already know this form, you can instead choose another lightsaber form. You can't take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Yerdua</h2>\n<p>Also at 3rd level, as a bonus action, you can take a meditative stance for 1 minute, granting you supreme accuracy as you guide your shots to their target through the Force. While in this stance, you add your Wisdom or Charisma modifier (your choice, minimum of+1) to one ranged weapon attack and damage roll you make each turn. Additionally, when making a ranged weapon attack while you are within 5 feet of a hostile creature, you do not have disadvantage on the attack roll.</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<h3>Force-Empowered Shots</h3>\n<p>Once per turn, when you hit a creature with a ranged weapon attack, you can expend a use of your Channel the Force and expend force points to deal additional damage to the target, which is the same type as the weapon's damage. The additional damage is 1d8 for each point spent in this way. You can't deal more additional damage than the amount shown in the Focused Strikes column of the guardian table.</p>\n<h2>Improved Force-Empowered Shots</h2>\n<p>Starting at 7th level, your familiarity with blaster weapons has granted you greater insight into their function and usage. Once on each of your turns, drawing or stowing a blaster no longer requires your object interaction. Additionally, you no longer require a free hand to reload.</p>\n<p>At 11th level, once per turn, when you hit a creature with a ranged weapon, the creature takes an extra 1d8 damage. If you also use your Force-Empowered Shots with an attack, you add this damage to the extra damage of your Force-Empowered Shots. The damage is the same type as the weapon's damage.</p>\n<h2>Phasestorm</h2>\n<p>By 15th level, you can use your action to dart across the battlefield, striking up to six such creatures that you can see within 30 feet. You immediately move to each creature in succession without provoking opportunity attacks, after which you return to the space in which you started. Each creature must make a Dexterity saving throw (DC = 8 + your bonus to attacks with your weapon). A creature takes normal weapon damage on a failed save, or half as much on a successful one. If you are wielding separate weapons in each hand with which you are proficient, a creature makes this save with disadvantage, and takes additional damage equal to your Wisdom or Charisma modifier (your choice, minimum of one) on a failed save if the damage doesn't already include that modifier.</p>\n<p>Once you've used this feature, you must complete a short or long rest before you can use it again.</p>\n<h2>Master of the Unorthodox</h2>\n<p>At 20th level, you've mastered the unity between blaster and blade. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for these scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic, energy, and ion damage from weapons.</li>\n<li>When you hit a creature with a ranged weapon attack, you have advantage on the next melee weapon attack you make against that creature. When you hit a creature with a melee weapon attack, you have advantage on the next ranged weapon attack you make against that creature.</li>\n<li>When you roll below half the maximum on a damage die. you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your Wisdom or Charisma modifier (your choice, rounded up, minimum of one) in this way.</li>\n</ul>"
+        },
+        "source": "EC",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.a7mbZGcgMqyXAhyy"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Ysannanite%20Form.webp",
+    "effects": []
+}

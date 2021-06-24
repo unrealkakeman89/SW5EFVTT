@@ -1,0 +1,31 @@
+{
+    "_id": "2NUqt5H4hmf2X9Gl",
+    "name": "Overwhelming Presence",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Coordinator"
+        },
+        "featureType": {
+            "value": "Collaboration"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Comms</em><br>As an action, you can make a Charisma (Impress) or Charisma (Menace) skill check and expend one power die to attempt to charm or frighten a humanoid creature who can see and perceive your ship within 600 feet. Add the power die to the roll. The target makes a contested Intelligence (Probe) check. If your check succeeds, the target is charmed by you if you used Impress, or frightened of you if you used Menace, until the end of your next turn.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Coordinator.webp",
+    "effects": []
+}

@@ -1,0 +1,67 @@
+{
+    "name": "Spinal Mount",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 5th tier, once on each crew member&rsquo;s turn, they can add the ship&rsquo;s Strength modifier to the attack roll or the ship&rsquo;s Intelligence modifier to the damage roll of an attack it makes. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Large",
+        "tier": "5"
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Large.webp",
+    "effects": [],
+    "_id": "uJyL88mJC15E1aIb"
+}

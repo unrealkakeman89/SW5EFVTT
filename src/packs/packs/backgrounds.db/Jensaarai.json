@@ -1,0 +1,114 @@
+{
+    "name": "Jensaarai",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>You are a Jensaarai, a Force user who has come to understand the failings of both Jedi inactivity and Sith malevolence. While they wield lightsabers, a true mark of skill among the Jensaarai is the crafting of their armor. Each suit is perfectly unique to the wearer, and is frequently (but not always) adorned and shaped to represent an animal that the Jensaarai finds kinship with, up to and potentially including additional mounted weapons or sensors to further emulate that creature.</p>\n<p>While the Jensaarai train in, and will use dark side powers when necessary, they seek to avoid true corruption. They are not evil, nor are they wholly good either. They are anti-heroes, and well-practiced in this craft. In addition, the Jensaarai train in more than the lightsaber, employing whatever tools are at hand to best fit the job.</p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Intimidation, Lore, and Perception"
+        },
+        "toolProficiencies": {
+            "value": "Armormech's Tools"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of common clothes including a robe, a sturdy knife, and a belt pouch containing 150 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Jensaarai are shaped by the unique capacity of their upbringing. Their study of the duality of the Force manifests in their mannerisms and ideals. Their bond might be their family or their armor. Their flaws might be some a hatred of the Jedi or Sith or a desire to become one or the other."
+        },
+        "featureName": {
+            "value": "Depths of Duality"
+        },
+        "featureText": {
+            "value": "Due to the corruption of the Jedi training done to the pre-Jensaarai, you have a unique insight into both the Light and Dark side of the Force, as well as its history, applications, and techniques in a scholarly manner.\r\n\r\nYou fully understand concepts, and can recall key information, However, if the research was hidden from the public and you have not had experience working with it, you can only partially understand it. You also recognize well-known Jedi Masters and Sith Lords by their works and marks.\r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Threatening</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Loremaster</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Perceptive</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Alert</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Observant</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I ignore the rhetoric a person spouts when meeting them, preferring to judge them by action.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm the first to swing a punch, but the last to draw a weapon.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Danger is my middle name.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Goodwill is in short supply in the galaxy, and I always try to foster a little more wherever I go.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Both the Republic and the Empire have tried to crush us under their bootheels. I refuse to yield.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Defiant to the last isn't good enough. Upon death I will become a force spirit and continue to defy my killer.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Well-behaved people rarely make history.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">What gave you the idea that I was going to give you a fair fight?</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Respect. Respect will be shown to everyone, disrespect will be shown to those who earn it. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Freedom. People should be free to make their own way without interference. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Growth. Self-improvement is an unending chore, but one that must be done. (Any)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Escalation. I will immediately end a hostile situation with all means at my disposal. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Power. Given our luck with both Jedi and Sith, I need all I can get. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Redemption. There's a spark of good in everyone. (Light)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I might be a little too enamored with force choking my enemies.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am my own worst critic, in everything I do.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">My armor is precision crafted and has served me faithfully. I never give up a chance to prove how well.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I have a collection of lightsabers from fallen foes, and I love adding to it.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">The Jedi and Sith worship the Force as a religion. I do everything I can to remind them they're just worshipping a hammer.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">The minute you tell me that someone should not be crossed, I'm already crossing them.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">The Jensaarai took me in when nobody else would. I back the order 100%.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I was once a Jedi, but grew disillusioned by their inactivity.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I fight for those who cannot fight for themselves.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I lost my mentor in battle. I will honor their sacrifice by destroying their killer.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I was able to slough off Dark Side corruption, but I couldn't avoid making amends.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">The powerful use their strength to raise people up, not keep them down.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Jensaarai.webp",
+    "effects": [
+        {
+            "_id": "bHgvM2GogP4JMnXK",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Jensaari",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "armor",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Jensaari",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "1U8Y17wy5Csabvau"
+}

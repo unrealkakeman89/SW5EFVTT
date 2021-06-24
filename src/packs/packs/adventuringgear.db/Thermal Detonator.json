@@ -1,0 +1,106 @@
+{
+    "name": "Thermal Detonator",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "weapon",
+    "data": {
+        "description": {
+            "value": "<p>Thermal detonators are palm-sized, spherical, and extremely deadly explosive weapons. In addition to being surprisingly powerful for their size, they can only be turned off by whoever turned them on. Thermal detonators have a range equal to 30 feet + your Strength modifier x 5. As an action, you can throw a grenade at a point you can see within range. Each creature within 10 feet must make a DC 13 Dexterity saving throw. A creature takes 2d6 fire and 2d6 kinetic damage on a failed save, or half as much as on a successful one. Additionally, on a failed save, the creature is knocked prone.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 1,
+        "price": 750,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 10,
+            "units": "ft",
+            "type": "radius"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "charges"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "save",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "2d6",
+                    "fire"
+                ],
+                [
+                    "2d6",
+                    "bludgeoning"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": 13,
+            "scaling": "flat"
+        },
+        "weaponType": "improv",
+        "properties": {
+            "amm": false,
+            "fin": false,
+            "fir": false,
+            "foc": false,
+            "hvy": false,
+            "lgt": false,
+            "lod": false,
+            "rch": false,
+            "rel": false,
+            "ret": false,
+            "spc": false,
+            "thr": false,
+            "two": false,
+            "ver": false
+        },
+        "proficient": false,
+        "attributes": {
+            "spelldc": 10
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Explosive/Thermal%20Detonator.webp",
+    "_id": "qiLWpJa33pythE4J"
+}

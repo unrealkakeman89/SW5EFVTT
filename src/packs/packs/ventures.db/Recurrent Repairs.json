@@ -1,0 +1,23 @@
+{
+    "_id": "9L2LihZWReZzksed",
+    "name": "Recurrent Repairs",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 3 ranks in mechanic</em></p><p>When you succeed on a Constitution (Patch) check as a part of a Patch action you take, you have advantage on the next Constitution (Patch) check you take as a part of the Patch action you take before the end of your next turn.</p>"
+        },
+        "prerequisites": [
+            "at least 3 ranks in mechanic"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

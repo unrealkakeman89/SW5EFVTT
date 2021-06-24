@@ -1,0 +1,258 @@
+{
+    "_id": "M97eHBrk6ZbAu9CP",
+    "name": "Balosar",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Physically similar to humans, balosars appear to be sickly and gaunt when compared with the galaxy's most common species due to the heavy pollution of their homeworld. The most striking difference between balosars and humanity is a pair of antennapalps which sprouts from underneath the thick, coarse hair on their skulls. Retractable, these atennapalps allow them to listen into the subsonic range and give the species physical intuition and preternatural reflexes, which members of the Jedi Order sometimes mistook for Force sensitivity. Balosars also possess an acute tolerance for poisonous substances, a byproduct of life on their toxic homeworld.</p>\n<h2>Society and Culture</h2>\n<p>Early in its history, the balosar homeworld was overrun by galactic megacorporations eager to exploit the world's lax ecological protection laws. The planet was home to the balo mushroom, a key ingredient in death sticks, one of the galaxy's most infamous narcotics. After its discovery, Balosar was wrought with corruption, addiction, and pollution from the production and usage of death sticks. Since there is little opportunity to flourish on their homeworld, balosars often leave in search of fortune elsewhere. Their natural resistance to the lethal\u2014but not the addictive\u2014effects of the drug encourages some to enter the death stick business.</p>\n<h2>Names</h2>\n<p>Balosar names have a slight exotic tinge to them\u2014often because Balosar parents name their children while on a death stick high. Their surnames are familial.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Barin, Elan, Fantes, Zerba</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Delaana, Ferrika, Reki, Vetyl</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Cher'dak, Mer'darro, Sel'Sabagno</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Charisma score increases by 1.</p><p><em><strong>Age.</strong></em> Balosars reach adulthood in their late teens and live about 70 years naturally, though death stick addiction has lead to a general decline in their lifespan.</p><p><em><strong>Alignment.</strong></em> Balosars are notoriously cynical, selfish, and pragmatic, causing most to be neutral dark side. However, there are exceptions.</p><p><em><strong>Size.</strong></em> Balosar stand at an average height of about 5 feet, and weigh about 115 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Keen Hearing.</strong></em> Your antennapalps give you advantage on Wisdom (Perception) checks based on hearing.</p><p><em><strong>Snap Senses.</strong></em> Through your antennapalps, you can sense incoming danger and react accordingly. When you roll for initiative, you can choose to gain advantage on the roll. Alternatively, if you are surprised, you may act normally on your first turn. Once you've used this trait, you can't use it again until you finish a short or long rest.</p><p><em><strong>Spicer.</strong></em> You are proficient in spicer's tools.</p><p><em><strong>Toxin Resistance.</strong></em> You have advantage on saving throws against poison, and you have resistance against poison damage (explained in chapter 9).</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Balosur. Balosur is known by its throaty rasps and deep vocalizations, and is considered crude as a written language.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Pale"
+        },
+        "hairColorOptions": {
+            "value": "Black, blond, orange, brown, white"
+        },
+        "eyeColorOptions": {
+            "value": "Varies"
+        },
+        "distinctions": {
+            "value": "Antennapalps, resistance to toxins"
+        },
+        "heightAverage": {
+            "value": "4'8\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "100 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Balosar"
+        },
+        "slanguage": {
+            "value": "Balosur"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Balosar",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "v95gSSuo462HMJYl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "v95gSSuo462HMJYl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "v95gSSuo462HMJYl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "v95gSSuo462HMJYl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "v95gSSuo462HMJYl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "v95gSSuo462HMJYl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Damage Resistance"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "v95gSSuo462HMJYl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "balosur",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "v95gSSuo462HMJYl",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.toolProf.value",
+                    "value": "spice",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "GcPfseXCDeXeu6az",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Tool Prof"
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Balosar.webp",
+    "effects": [
+        {
+            "_id": "DkWzA7SfsdXIq6aA",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Balosar",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "balosur",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "spice",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.keenSenses",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Balosar.webp",
+            "label": "Balosar",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

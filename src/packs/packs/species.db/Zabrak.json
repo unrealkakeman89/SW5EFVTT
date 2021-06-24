@@ -1,0 +1,229 @@
+{
+    "_id": "oFjZ191TdZdH4iIH",
+    "name": "Zabrak",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Zabrak are near-human, but have a number of significant physical characteristics that set them apart from baseline Humanity. The most striking of these are a series of vestigial horns that crown the heads of both males and females. These horns grow at puberty in varying patterns and signified that their rite of passage is drawing near.</p><p>In addition to their horns, another of the traits that make zabrak instantly recognizable are their facial tattoos, which are made up of thin lines received during their rite of passage. These could symbolize many things, including but not limited to family lineage, place of birth, or even a design that reflected their individual personalities.</p><p>Lastly, zabraks possess a second heart.</p><h2>Society and Culture</h2><p>Zabrak are often seen by most other species as being single-minded, an observation that is not terribly incorrect. This single-minded determination comes from the fact that they are a species with a strong sense of self-assuredness, confident that they are able to accomplish any task that they set out to do. However, this does not lead a zabrak to develop a sense of prideful superiority towards others. Though it is not uncommon to see competition between colonies, this is not seen as a negative. The zabraks believe that the various experiences of the different colonies only serve to add to the species' overall value throughout the galaxy.</p><h2>Names</h2><p>Zabrak names are usually derived from the animals living on their planet. Zabraks don't use surnames.</p><p>&nbsp;&nbsp;<strong>Male Names.</strong> Kadro, Muraa, Neqama, Ruvroo, Xadra</p><p>&nbsp;&nbsp;<strong>Female Names.</strong> Blostopa, Mega, Novrar, Rebroke</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Constitution score increases by 2, and your Strength or Dexterity score increases by 1.</p><p><em><strong>Age.</strong></em> Zabraks reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Zabraks tend toward no particular alignment. The best and worst are found among them.</p><p><em><strong>Size.</strong></em> Zabraks stand anywhere from 5 to 7 feet tall and weigh up to 300 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Coercive.</strong></em> You have proficiency with Persuasion or Intimidation (your choice).</p><p><em><strong>Crafters.</strong></em> You have proficiency with with one artisan's tool of your choice.</p><p><em><strong>Darkvision.</strong></em> Your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Second Heart.</strong></em> When you are reduced to 0 hit points but not killed outright, you can drop to 1 hit point instead. You can't use this feature again until you finish a long rest.</p><p><em><strong>Unarmed Combatant.</strong></em> Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Zabraki.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Pale to dark brown, red, orange and yellow"
+        },
+        "hairColorOptions": {
+            "value": "Black, blonde, brown, red, or purple"
+        },
+        "eyeColorOptions": {
+            "value": "Yellow, green, orange, brown, blue, red, or purple"
+        },
+        "distinctions": {
+            "value": "Horns, two hearts, facial tattoos"
+        },
+        "heightAverage": {
+            "value": "5'1\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "120 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Iridonia or Dathomir"
+        },
+        "slanguage": {
+            "value": "Zabraki"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Zabrak",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "1kGACJMqt4pxyk1o",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "1kGACJMqt4pxyk1o",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "1kGACJMqt4pxyk1o",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "1kGACJMqt4pxyk1o",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "1kGACJMqt4pxyk1o",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "1kGACJMqt4pxyk1o",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "zabraki",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "1kGACJMqt4pxyk1o",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Zabrak.webp",
+    "effects": [
+        {
+            "_id": "o7n6csSMm1fhRWhM",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Zabrak",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "zabraki",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.multipleHearts",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.unarmedCombatant",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Zabrak.webp",
+            "label": "Zabrak",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

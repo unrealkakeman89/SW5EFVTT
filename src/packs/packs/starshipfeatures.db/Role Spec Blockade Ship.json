@@ -1,0 +1,99 @@
+{
+    "name": "Role Spec: Blockade Ship",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 2nd tier, you adopt a particular style of design for your ship.</p>\n<h3>Blockade Ship</h3>\n<p>Your ship gains the Emergency Generator and Power Backup modifications at no cost. Additionally, your ships shields extend further around it. Whenever a friendly ship would take damage while within 500 feet of your ship, if the source of that damage is more than 500 feet away from your ship and your ship&rsquo;s shields are active, your ship&rsquo;s shields instead take that damage. If the damage reduces your ship&rsquo;s shields to 0, the protected ship takes any remaining damage.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Gargantuan",
+        "tier": "2"
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Gargantuan.webp",
+    "effects": [
+        {
+            "_id": "qQTMHDrpIch61Q7C",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": [],
+                    "transfer": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.role",
+                    "value": "Blockade Ship",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Starship%20Features/Small.webp",
+            "label": "Role Specialization: Blockade Ship",
+            "tint": "",
+            "transfer": false
+        }
+    ],
+    "_id": "zCFuj5DkuZcRgcvw"
+}

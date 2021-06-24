@@ -1,0 +1,24 @@
+{
+    "_id": "EMTzwdHtEY41M1RI",
+    "name": "Vonil/Ishu Form",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "lightsaberform",
+    "data": {
+        "description": {
+            "value": "<p>If you took the Attack action before adopting this form, you can direct one of your companions to strike a creature you hit with an attack.&nbsp; Choose a friendly creature within 5 feet of the creature you hit with an attack that can see or hear you. That creature can immediately use its reaction to make one weapon attack against the same creature you hit with an attack.</p>\n<p>If you did not take the Attack action before adopting this form, and there is a friendly creature within 15 feet of you, you can move up to 10 feet. You must end this movement within 5 feet of the friendly creature.</p>"
+        },
+        "source": {
+            "value": "Expanded Content"
+        }
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.u7vBOskAb0MsFSlZ"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Lightsaber%20Forms/Vonil-Ishu%20Form.webp",
+    "effects": []
+}

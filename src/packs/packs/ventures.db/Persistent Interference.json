@@ -1,0 +1,23 @@
+{
+    "_id": "fEI7hwGbDzBDfdke",
+    "name": "Persistent Interference",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 3 ranks in operator</em></p><p>When you take the Interfere action and succeed on the contest, the target has disadvantage on the next Charisma (Interfere) check before the end of your next turn.</p>"
+        },
+        "prerequisites": [
+            "at least 3 ranks in operator"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "3lqydI4v73szourv",
+    "name": "Raging Whirlwind",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 14th level, you can send your weapon spinning into a gravity-defying whirlwind of pain. Once per rage as an action, you may throw a weapon with the thrown property to a point you choose within 60 feet. The weapon fills the air as a cyclone in a 10 foot radius sphere centered on that point. A creature takes damage equal to the thrown weapon&rsquo;s damage + your Strength modifier + your Rage Damage when it enter&rsquo;s the whirlwind&rsquo;s area for the first time on a turn or starts its turn there. This effect ends when you command the weapon to return to you as a free action or your rage ends.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

@@ -1,0 +1,269 @@
+{
+    "_id": "yyCUAG4cUUKh4IUz",
+    "name": "Iktotchi",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Iktotchi do not have hair, but rather they had a very resistant skin which protected them from the violent winds which crossed the satellite. Both males and females have down-curved cranial horns, which gave them an aggressive aspect. The males' horns are generally a little larger, a remnant from their mountain-dwelling, caprinaen ancestors. The horns are able to regenerate if damaged.</p><h2>Society and Culture</h2><p>The Iktotchi are a fiercely guarded and isolationist species - vaunted for their ability to hide their feelings and bury any semblance of emotion. Originating on the harsh, windy moon of Iktotch, which orbits the planet Iktotchon in the Expansion Region, the Iktotch are gifted with precognition, and are courted as often by Jedi as by pirates for their skills.\r\n\r\nIktotchi society is a stratified society. Upward mobility is both possible and encouraged. Iktotchi are an outwardly dispassionate people, which is evidenced by their culture. They have a robust legal system, and suffer little crime. Iktotchi are respectful of cultures other than their own and can easily integrate with others.\r\n\r\nIktotchi who distinguish themselves often earn a titular nickname, by which they are referred to in place of their name. Generally, this is done by accomplishing a remarkable feat that benefits the Iktotchi as whole.</p><h2>Names</h2><p>Iktotchi names are generally two syllables. Surnames are familial. Respected Iktotchi often adopt a nickname, which they use in place of their birth name.</p><strong>&nbsp;&nbsp;Male Names.</strong> Dilnam, Imruth, Kashkil, Yellam</p><strong>&nbsp;&nbsp;Female Names.</strong> Kemkal, Onyeth, Reshu, Zorlu</p><strong>&nbsp;&nbsp;Surnames.</strong> Hevil, Kaawi, Mimir, Nudaal, Zelend",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Intelligence score increases by 2, and your Strength score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Iktotchi reach adulthood in their late teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> Iktotchi are lawful and tend toward the light side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Iktotchi typically stand between 5 and 6 feet tall and weigh about 170 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Precognition.</strong></em> You can see brief fragments of the future that allow you to turn failures into successes. When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</p>\n<p><em><strong>Telepathy.</strong></em> You can communicate telepathically with creatures within 30 feet of you. You must share a language with the target in order to communicate in this way.</p>\n<p><em><strong>Horns.</strong></em> Your horns are a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal kinetic damage equal to 1d6 + your Strength modifier.</p>\n<p><em><strong>Pilot.</strong></em> You have proficiency in the Piloting skill.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Iktotchese.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Pink"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Horns, precognition, telepathy, thick pink skin"
+        },
+        "heightAverage": {
+            "value": "4'11\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "120 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Iktotch, moon of Iktotchon"
+        },
+        "slanguage": {
+            "value": "Iktotchese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "colorScheme": {
+            "value": ""
+        },
+        "manufacturer": {
+            "value": ""
+        },
+        "planguage": {
+            "value": ""
+        },
+        "droidDistinctions": {
+            "value": ""
+        },
+        "droidLanguage": {
+            "value": ""
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Iktotchi",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.pil.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "iktotchese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.custom",
+                    "value": "telepathy (30 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "UZKrP5BCcEle7QSh",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Iktotchi.webp",
+    "effects": [
+        {
+            "_id": "MAjUMql3tivJTfVO",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Iktotchi",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.pil.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "iktotchese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.custom",
+                    "value": "telepathy (30 ft.)",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.precognition",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Iktotchi.webp",
+            "label": "Iktotchi",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

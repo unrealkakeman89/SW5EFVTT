@@ -1,0 +1,23 @@
+{
+    "_id": "IYISdGaTflGHxJSY",
+    "name": "Space Explorer",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 1 level in scout</em></p><p>While deployed, parts of your Skilled Explorer class feature extend to your ship:<ul><li>Your ship is not slowed by difficult terrain.</li><li>Your ship can't get lost by unenhanced means.</li><li>Your ship can move stealthily at a normal pace.</li></ul></p>"
+        },
+        "prerequisites": [
+            "at least 1 level in scout"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

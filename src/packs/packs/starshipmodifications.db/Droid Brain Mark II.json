@@ -1,0 +1,37 @@
+{
+    "_id": "h101yxfjp2NrczM1",
+    "name": "Droid Brain, Mark II",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Droid Brain, Mark I"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "2"
+        },
+        "description": {
+            "value": "<p>You further improve your ship's droid brain. Your droid brain's proficiency bonus increases to 3. Additionally, your ship's droid brain has advantage on initiative rolls.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

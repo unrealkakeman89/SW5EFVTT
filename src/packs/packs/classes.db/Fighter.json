@@ -1,0 +1,154 @@
+{
+    "_id": "oWdjvPwScXkQxEzd",
+    "name": "Fighter",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "class",
+    "data": {
+        "description": {
+            "value": "<p><img style=\"float: right; margin: 20px; border: 0px;\" src=\"systems/sw5e/packs/Icons/Classes/fighter_01.webp\" /></p>\n<p><span style=\"float: left; width: 0.8em; font-size: 300%; line-height: 80%;\">A</span> Trandoshan runs frantically across rooftops, constantly looking over his shoulder. As he prepares to leap a gap, a blaster bolt hits him in the back and renders him unconscious. His blurry vision barely makes out the figure of a masked woman who casually approaches, ready to collect her bounty.</p>\n<p>With his muscular arms held wide, a grizzled-looking Wookiee grins to his bloodthirsty crowd. He turns back to his arena opponent just in time to see the Besalisk take a swing. He ducks, punching the four-armed fighter in the gut. Two wild haymakers later, and he stands alone as the gladiatorial champion.</p>\n<p>Taking a deep breath, a Republic soldier looks out onto the war zone waging across the frozen surface of Ilum. He grips his blaster rifle tightly then, with a nod to the dozen squad-mates beside him, he charges onto the battlefield.</p>\n<p>Fighters combine discipline with martial skills to become the best pure warriors in the galaxy. Fighters can be stalwart defenders of those in need, cruel marauders, or brave advent-urers. They fight for glory, honor, to right wrongs, to gain power, to acquire wealth, or simple for the thrill of battle.</p>\n<h2>All in a Day&rsquo;s Work</h2>\n<p>Many fighters see adventures, raids on enemy strongholds, and dangerous missions as their jobs. Some want to defend those who can&rsquo;t defend themselves while others seek to use their muscle to carve their own place of importance in the galaxy. Fighters can take the form of guards, champions, bounty hunters, enforcers, mercenaries, freedom fighters, or simply armed explorers.</p>\n<h2>Code Red</h2>\n<p>Most fighters come to the profession after receiving at least some amount of formal training from a military organization. Some attend formal academies; others are self-taught and well tested. A fighter may have taken up his weapon to escape a mundane life while another may be following a proud family tradition. Whatever their origins, most fighters share an unshakeable loyalty. Fighters follow orders with little hesitation, as failure can often mean death.</p>\n<p>While creating your fighter character, consider where your loyalties lie. You could be part of a formal military, one of countless troopers fighting for your enterprise. Perhaps you are a gun-for-hire, traveling the galaxy in search of your next gig. What weapons do you prefer and specialize in? Who or what do you fight for? Do you have aspirations of a life beyond the battlefield, or have you been at war so long you know of nothing else?</p>\n<h3>Quick Build</h3>\n<p>You can make a fighter quickly by following these suggestions. First, make Strength or Dexterity your highest ability modifier, depending on whether you want to focus on melee combat or on ranged weapons (or finesse weapons). Your next-highest score should be Constitution. Second, choose the @Compendium[sw5e.backgrounds.6jOIxwB8TYnShEJJ]{Soldier} background.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "levels": 1,
+        "archetype": "",
+        "hitDice": "d10",
+        "hitDiceUsed": 0,
+        "skills": {
+            "number": 2,
+            "choices": [],
+            "value": []
+        },
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        },
+        "archetypes": {
+            "value": ""
+        },
+        "powercasting": {
+            "progression": "none",
+            "ability": ""
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "levelsTable": {
+            "value": "<p>Test</p>"
+        },
+        "classFeatures": {
+            "value": "<div class=\"classtable\">\n<blockquote>\n<table width=\"100%\">\n<thead>\n<tr style=\"height: 18px;\">\n<td style=\"color: #000000; text-transform: uppercase; font-family: 'Russo One'; background-color: #bdc8cc; text-shadow: none; font-size: 16px; height: 18px; width: 101.417%;\" colspan=\"7\" align=\"left\">The Fighter</td>\n</tr>\n<tr>\n<th style=\"width: 6.77165%;\" align=\"center\">Level</th>\n<th style=\"width: 15.748%;\" align=\"center\">Proficiency Bonus</th>\n<th style=\"width: 44.8819%;\" align=\"center\">Features</th>\n<th style=\"width: 15.2756%;\" align=\"center\">Superiority Dice</th>\n<th style=\"width: 17.1654%;\" align=\"center\">Maneuvers Known</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">1st</td>\n<td style=\"width: 15.748%;\" align=\"center\">+2</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Fighting Style, Second Wind</td>\n<td style=\"width: 15.2756%;\" align=\"center\">-</td>\n<td style=\"width: 17.1654%;\" align=\"center\">-</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">2nd</td>\n<td style=\"width: 15.748%;\" align=\"center\">+2</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Action Surge (one use), Combat Superiority</td>\n<td style=\"width: 15.2756%;\" align=\"center\">2</td>\n<td style=\"width: 17.1654%;\" align=\"center\">2</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">3rd</td>\n<td style=\"width: 15.748%;\" align=\"center\">+2</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Fighter Specialty</td>\n<td style=\"width: 15.2756%;\" align=\"center\">2</td>\n<td style=\"width: 17.1654%;\" align=\"center\">2</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">4th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+2</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 15.2756%;\" align=\"center\">2</td>\n<td style=\"width: 17.1654%;\" align=\"center\">2</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">5th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+3</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Extra Attack</td>\n<td style=\"width: 15.2756%;\" align=\"center\">2</td>\n<td style=\"width: 17.1654%;\" align=\"center\">2</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">6th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+3</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 15.2756%;\" align=\"center\">2</td>\n<td style=\"width: 17.1654%;\" align=\"center\">2</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">7th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+3</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Fighter Specialty feature</td>\n<td style=\"width: 15.2756%;\" align=\"center\">3</td>\n<td style=\"width: 17.1654%;\" align=\"center\">3</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">8th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+3</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 15.2756%;\" align=\"center\">3</td>\n<td style=\"width: 17.1654%;\" align=\"center\">3</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">9th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+4</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Indomitable (one use)</td>\n<td style=\"width: 15.2756%;\" align=\"center\">3</td>\n<td style=\"width: 17.1654%;\" align=\"center\">3</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">10th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+4</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Fighter Specialty feature</td>\n<td style=\"width: 15.2756%;\" align=\"center\">3</td>\n<td style=\"width: 17.1654%;\" align=\"center\">3</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">11th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+4</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Greater Extra Attack</td>\n<td style=\"width: 15.2756%;\" align=\"center\">3</td>\n<td style=\"width: 17.1654%;\" align=\"center\">4</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">12th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+4</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 15.2756%;\" align=\"center\">3</td>\n<td style=\"width: 17.1654%;\" align=\"center\">4</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">13th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+5</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Indomitable (two uses)</td>\n<td style=\"width: 15.2756%;\" align=\"center\">3</td>\n<td style=\"width: 17.1654%;\" align=\"center\">4</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">14th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+5</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 15.2756%;\" align=\"center\">3</td>\n<td style=\"width: 17.1654%;\" align=\"center\">4</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">15th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+5</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Fighter Specialty feature</td>\n<td style=\"width: 15.2756%;\" align=\"center\">4</td>\n<td style=\"width: 17.1654%;\" align=\"center\">5</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">16th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+5</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 15.2756%;\" align=\"center\">4</td>\n<td style=\"width: 17.1654%;\" align=\"center\">5</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">17th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+6</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Action Surge (two uses), Indomitable (three uses)</td>\n<td style=\"width: 15.2756%;\" align=\"center\">4</td>\n<td style=\"width: 17.1654%;\" align=\"center\">5</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">18th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+6</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Fighter Specialty feature</td>\n<td style=\"width: 15.2756%;\" align=\"center\">4</td>\n<td style=\"width: 17.1654%;\" align=\"center\">5</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">19th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+6</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Ability Score Improvement</td>\n<td style=\"width: 15.2756%;\" align=\"center\">4</td>\n<td style=\"width: 17.1654%;\" align=\"center\">5</td>\n</tr>\n<tr class=\"rows\">\n<td style=\"width: 6.77165%;\" align=\"center\">20th</td>\n<td style=\"width: 15.748%;\" align=\"center\">+6</td>\n<td style=\"width: 44.8819%;\" align=\"center\">Master of Combat</td>\n<td style=\"width: 15.2756%;\" align=\"center\">4</td>\n<td style=\"width: 17.1654%;\" align=\"center\">5</td>\n</tr>\n</tbody>\n</table>\n</blockquote>\n</div>\n<h1>Class Features</h1>\n<p>As a Fighter, you gain the following class features.</p>\n<h3>Hit Points</h3>\n<p><strong>Hit Dice:</strong> 1d10 per Fighter level</p>\n<p><strong>Hit Points at 1st Level:</strong> 10 + your Constitution modifier</p>\n<p><strong>Hit Points at Higher Levels:</strong> 1d10 (or 6) + your Constitution modifier per fighter level after 1st</p>\n<h3>Proficiencies</h3>\n<p><strong>Armor:</strong> All armor</p>\n<p><strong>Weapons:</strong> All blasters, all vibroweapons</p>\n<p><strong>Tools:</strong> None</p>\n<p><strong>Saving Throws:</strong> Strength, Constitution</p>\n<p><strong>Skills:</strong> Choose two skills from Acrobatics, Animal Handling, Athletics, Lore, Insight, Intimidation, Perception, and Survival</p>\n<h3>Equipment</h3>\n<p>You start with the following equipment, in addition to the equipment granted by your background</p>\n<ul>\n<li><em>(a)</em> mesh armor or <em>(b)</em> combat suit, blaster rifle, and two power cells</li>\n<li><em>(a)</em> a martial vibroweapon and a light or medium physical shield or <em>(b)</em> two martial vibroweapons</li>\n<li><em>(a)</em> a hold-out and a power cell or <em>(b)</em> two vibrodaggers</li>\n<li><em>(a)</em> a dungeoneer&rsquo;s pack or <em>(b)</em> an explorer&rsquo;s pack</li>\n</ul>\n<h3 class=\"mt-2\">Variant: Starting Wealth</h3>\n<p>In lieu of the equipment granted by your class and background, you can elect to purchase your starting gear. If you do so, you receive no equipment from your class and background, and instead roll for your starting wealth using the criteria below:</p>\n<table style=\"border: 0px; width: 300px;\">\n<tbody>\n<tr>\n<td style=\"width: 150px;\"><strong>Class</strong></td>\n<td style=\"width: 150px;\"><strong>Funds</strong></td>\n</tr>\n<tr>\n<td style=\"width: 150px;\">Fighter</td>\n<td style=\"width: 150px;\">8d4 x 100 cr</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<h2>Fighting Style</h2>\n<p>Beginning at 1st level, you adopt a particular style of fighting as your specialty. Choose one of the Fighting Style options, detailed in Chapter 6. You can&rsquo;t take a Fighting Style option more than once, even if you later get to choose again.</p>\n<h2>Second Wind</h2>\n<p>You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level.</p>\n<p>Once you&rsquo;ve used this feature, you must finish a short or long rest before you can use it again.</p>\n<h2>Action Surge</h2>\n<p>Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action.</p>\n<p>Once you&rsquo;ve used this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.</p>\n<h2>Combat Superiority</h2>\n<p>Also at 2nd level, you learn maneuvers that are fueled by special dice called superiority dice.</p>\n<h3>Maneuvers</h3>\n<p>You learn two maneuvers of your choice, which are detailed under &ldquo;Maneuvers&rdquo; below, and you earn more at higher levels, as shown in the Maneuvers Known column of the fighter class table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.</p>\n<p>Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.</p>\n<h3>Superiority Dice</h3>\n<p>You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the fighter class table. A superiority die is expended when you use it. You regain all of your expended superiority dice when you finish a short or long rest.</p>\n<h3>Saving Throws</h3>\n<p>Some of your maneuvers require your target to make a saving throw to resist the maneuver&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<p><strong>Maneuver save DC</strong> = 8 + your proficiency bonus + your Strength or Dexterity modifier (your choice)</p>\n<h2>Maneuvers</h2>\n<p>The maneuvers are presented in alphabetical order.</p>\n<h3>Commander&rsquo;s Strike</h3>\n<p>When you take the Attack action on your turn, you can forgo one of your attacks and use a bonus action to direct one of your companions to strike. When you do so, choose a friendly creature who can see or hear you and expend one superiority die. That creature can immediately use its reaction to make one weapon attack, adding the superiority die to the attack&rsquo;s damage roll.</p>\n<h3>Disarming Attack</h3>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to disarm the target, forcing it to drop one item of your choice that it&rsquo;s holding. You add the superiority die to the attack&rsquo;s damage roll, and the target must make a Strength saving throw. On a failed save, it drops the object you choose. The object lands at its feet.</p>\n<h3>Distracting Strike</h3>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to distract the creature, giving your allies an opening. You add the superiority die to the attack&rsquo;s damage roll. The next attack roll against the target by an attacker other than you has advantage if the attack is made before the start of your next turn.</p>\n<h3>Evasive Footwork</h3>\n<p>When you move, you can expend one superiority die, rolling the die and adding the number rolled to your AC until you stop moving.</p>\n<h3>Feinting Attack</h3>\n<p>You can expend one superiority die and use a bonus action on your turn to feint, choosing one creature within 5 feet of you as your target. You have advantage on your next attack roll against that creature. If that attack hits, add the superiority die to the attack&rsquo;s damage roll.</p>\n<h3>Goading Attack</h3>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack&rsquo;s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</p>\n<h3>Lunging Attack</h3>\n<p>When you make a melee weapon attack on your turn, you can expend one superiority die to increase your reach for that attack by 5 feet. If you hit, you add the superiority die to the attack&rsquo;s damage roll.</p>\n<h3>Maneuvering Attack</h3>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to maneuver one of your comrades into a more advantageous position. You add the superiority die to the attack&rsquo;s damage roll, and you choose a friendly creature who can see or hear you.</p>\n<p>That creature can use its reaction to move up to half its speed without provoking opportunity attacks from the target of your attack.</p>\n<h3>Menacing Attack</h3>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to frighten the target. You add the superiority die to the attack&rsquo;s damage roll, and the target must make a Wisdom saving throw. On a failed save, it is frightened of you until the end of your next turn.</p>\n<h3>Parry</h3>\n<p>When another creature damages you with a melee attack, you can use your reaction and expend one superiority die to reduce the damage by the number you roll on your superiority die + your Dexterity modifier.</p>\n<h3>Precision Attack</h3>\n<p>When you make a weapon attack roll against a creature, you can expend one superiority die to add it to the roll. You can use this maneuver before or after making the attack roll, but before any effects of the attack are applied.</p>\n<h3>Pushing Attack</h3>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to drive the target back. You add the superiority die to the attack&rsquo;s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you push the target up to 15 feet away from you.</p>\n<h3>Rally</h3>\n<p>On your turn, you can use a bonus action and expend one superiority die to bolster the resolve of one of your companions. When you do so, choose a friendly creature who can see or hear you. That creature gains temporary hit points equal to the superiority die roll + your Charisma modifier.</p>\n<h3>Riposte</h3>\n<p>When a creature misses you with a melee attack, you can use your reaction and expend one superiority die to make a melee weapon attack against the creature. If you hit, you add the superiority die to the attack&rsquo;s damage roll.</p>\n<h3>Sweeping Attack</h3>\n<p>When you hit a creature with a melee weapon attack, you can expend one superiority die to attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to the number you roll on your superiority die. The damage is of the same type dealt by the original attack.</p>\n<h3>Trip Attack</h3>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to knock the target down. You add the superiority die to the attack&rsquo;s damage roll, and if the target is Large or smaller, it must make a Strength saving throw. On a failed save, you knock the target prone.</p>\n<h2>Fighter Specialty</h2>\n<p>At 3rd level, you choose a specialty that you strive to emulate in your combat styles and techniques, which is detailed at the end of the class description. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.</p>\n<h2>Ability Score Improvement</h2>\n<p>When you reach 4th level, and again at 6th, 8th, 12th, 14th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can&rsquo;t increase an ability score above 20 using this feature. Alternatively, you can choose a feat (see Chapter 6 for a list of feats).</p>\n<h2>Extra Attack</h2>\n<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>\n<h2>Indomitable</h2>\n<p>Beginning at 9th level, you can reroll a saving throw that you fail. If you do so, you must use the new roll, and you can&rsquo;t use this feature again until you finish a long rest.</p>\n<p>You can use this feature twice between long rests starting at 13th level and three times between long rests starting at 17th level.</p>\n<h2>Greater Extra Attack</h2>\n<p>Beginning at 11th level, you can attack three times, instead of once, whenever you take the Attack action on your turn.</p>\n<p>Additionally, when you use a bonus action to engage in two-weapon fighting, you can make two attacks instead of one.</p>\n<h2>Master of Combat</h2>\n<p>At 20th level, you are the master of combat. Your Strength or Dexterity score increases by 2, and your Constitution score increases by 2. Your maximum for those scores increases by 2.</p>\n<p>Additionally, you can attack four times, instead of once, whenever you take the Attack action on your turn.</p>"
+        },
+        "className": {
+            "value": "Fighter"
+        },
+        "atFlavorText": {
+            "value": "<h1>Fighter Specialties</h1>\n<p>Different fighters choose different approaches to perfecting their fighting prowess. The fighter specialty you choose to emulate reflects your approach. Your specialty grants you features at 3rd, 7th, 10th, 15th, and 18th level.</p>\n<p>@Compendium[sw5e.archetypes.6HRxOPMOmOiKmuIG]{Adept Specialist}</p>\n<p>@Compendium[sw5e.archetypes.vWCA4gae11g8s1xq]{Assault Specialist}</p>\n<p>@Compendium[sw5e.archetypes.7OqolLOiiu5K59rD]{Blademaster Specialist}</p>\n<p>@Compendium[sw5e.archetypes.V4vCxmTwJFxi0HGM]{Demolitions Specialist}</p>\n<p>@Compendium[sw5e.archetypes.dY9gPH2vjYpS9onW]{Enhancement Specialist}</p>\n<p>@Compendium[sw5e.archetypes.dLJ1gAt5hi0COlMu]{Exhibition Specialist}</p>\n<p>@Compendium[sw5e.archetypes.n46s1RsRnnQjxHvX]{Heavy Weapons Specialist}</p>\n<p>@Compendium[sw5e.archetypes.uV3tG38Fo7JAXF0W]{Mounted Specialist}</p>\n<p>@Compendium[sw5e.archetypes.zxnST2OeLGmt8buI]{Praetorian Specialist}</p>\n<p>@Compendium[sw5e.archetypes.huTTmKT9yzE89Go1]{Shield Specialist}</p>\n<p>@Compendium[sw5e.archetypes.SKluJRGJzsX03qlx]{Tactical Specialist}</p>\n<p>@Compendium[sw5e.archetypes.CRRgJPKHIHD72CEt]{Totem Specialist}</p>"
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.traits.armorProf.value",
+                    "value": "lgt",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "oWdjvPwScXkQxEzd",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Armor Prof"
+                },
+                {
+                    "modSpecKey": "data.traits.armorProf.value",
+                    "value": "med",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "oWdjvPwScXkQxEzd",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Armor Prof"
+                },
+                {
+                    "modSpecKey": "data.traits.armorProf.value",
+                    "value": "hvy",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "oWdjvPwScXkQxEzd",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Armor Prof"
+                },
+                {
+                    "modSpecKey": "data.traits.armorProf.value",
+                    "value": "shl",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "oWdjvPwScXkQxEzd",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Armor Prof"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "all blasters",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "oWdjvPwScXkQxEzd",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "all vibroweapons",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "oWdjvPwScXkQxEzd",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.proficient",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "oWdjvPwScXkQxEzd",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution Proficiency"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.proficient",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "oWdjvPwScXkQxEzd",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Classes/Fighter%20Alt.webp",
+    "effects": []
+}

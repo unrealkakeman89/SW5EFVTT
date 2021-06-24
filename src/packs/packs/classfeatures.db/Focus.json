@@ -1,0 +1,71 @@
+{
+    "_id": "k6PmkEsEbxKy6xAs",
+    "name": "Focus",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Monk</strong>:&nbsp;2nd and 11th level</em></p>\n<p>Your training allows you to harness the mystic energy of focus. Your access to this energy is represented by a number of focus points. Your monk level determines the number of points you have, as shown in the Focus Points column of the monk table.</p>\n<p>You can spend these points to fuel various focus features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind. You learn more focus features as you gain levels in this class.</p>\n<p>When you spend a focus point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended focus back into yourself. You must spend at least 30 minutes of the rest meditating to regain your focus points.</p>\n<p>You use your choice of Wisdom or Charisma for your focus ability. You use the chosen ability modifier whenever a feature refers to your focus ability. Additionally, you use the chosen ability modifier when making an attack with a focus feature or setting the saving throw DC for one.</p>\n<hr />\n<p><strong>Focus save DC</strong>&nbsp;= 8 + your proficiency bonus + your Wisdom or Charisma modifier (your choice)</p>\n<hr />\n<p><strong>Focus attack modifier</strong>&nbsp;= your proficiency bonus + your Wisdom or Charisma modifier (your choice)</p>\n<hr />\n<blockquote>\n<h4><strong>FLURRY OF BLOWS</strong></h4>\n<p>When you make your Martial Arts bonus action unarmed strike, you can spend 1 focus point to make an additional unarmed strike (no action required). At 11th level, you can instead spend 2 focus points to make two additional unarmed strikes.</p>\n<hr />\n<h4><strong>PATIENT DEFENSE</strong></h4>\n<p>When you use your bonus action to Disengage, you can spend 1 focus point to also Dodge (no action required). At 11th level, you can instead spend 2 focus points to Dodge and gain an additional reaction until the start of your next turn. You can only take one reaction per turn.</p>\n<hr />\n<h4><strong>STEP OF THE WIND</strong></h4>\n<p>When you use your bonus action to Dash, you can spend 1 focus point to double your jump distance for the turn. At 11th level, you can instead spend 2 focus points to gain a flying speed equal to your walking speed until the end of your turn, though you fall if you end your speed in the air and nothing else is holding you aloft.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Monk 1",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/MNK-Passive.webp",
+    "effects": []
+}

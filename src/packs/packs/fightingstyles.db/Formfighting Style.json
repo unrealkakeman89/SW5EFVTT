@@ -1,0 +1,20 @@
+{
+    "_id": "ClVTkRUhbl5XH7HJ",
+    "name": "Formfighting Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> The ability to cast force powers</em><br />You are skilled at the basics of the known forms of lightsaber combat. You gain the following benefits:</p><ul><li>You learn three lightsaber forms, detailed later in this chapter.</li><li>Once on each of your turns, you can draw or stow a lightweapon without using your object interaction.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Formfighting%20Style.webp",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "name": "Staging Ground",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 2nd tier, the capacity for your Barracks, Living Quarters, and Luxury Quarters suites are doubled. Additionally, when crew members or troopers deploy, they have advantage on their first ability check, attack roll, or saving throw they make before the end of their next long rest. Once a crew member or troop has benefited from this feature, they can not benefit from it again until they complete a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "size": "Huge",
+        "tier": "2"
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.zHF2wD1iG1qM5gdl"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Huge.webp",
+    "effects": [],
+    "_id": "OGN9eY7cKjSjp8Da"
+}

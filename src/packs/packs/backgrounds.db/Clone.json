@@ -1,0 +1,98 @@
+{
+    "_id": "duxWOJgR4IY2R5Jo",
+    "name": "Clone",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are a miracle of science, a creature born not from love or passion but from logic and machinery. Created in a laboratory, you are a perfect genetic replica of your DNA-Donor, whoever that is."
+        },
+        "flavorName": {
+            "value": "DNA-Donor"
+        },
+        "flavorDescription": {
+            "value": "The background of your DNA-Donor often shapes a clone&#39;s path in life."
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d20</th><th align=\"center\">Donor's Background</th></tr></thead><tbody><tr><td align=\"center\">1</td><td align=\"center\">Agent</td></tr><tr><td align=\"center\">2</td><td align=\"center\">Bounty Hunter</td></tr><tr><td align=\"center\">3</td><td align=\"center\">Criminal</td></tr><tr><td align=\"center\">4</td><td align=\"center\">Entertainer</td></tr><tr><td align=\"center\">5</td><td align=\"center\">Force Adept</td></tr><tr><td align=\"center\">6</td><td align=\"center\">Gambler</td></tr><tr><td align=\"center\">7</td><td align=\"center\">Investigator</td></tr><tr><td align=\"center\">8</td><td align=\"center\">Jedi</td></tr><tr><td align=\"center\">9</td><td align=\"center\">Mandalorian</td></tr><tr><td align=\"center\">10</td><td align=\"center\">Mercenary</td></tr><tr><td align=\"center\">11</td><td align=\"center\">Noble</td></tr><tr><td align=\"center\">12</td><td align=\"center\">Nomad</td></tr><tr><td align=\"center\">13</td><td align=\"center\">Outlaw</td></tr><tr><td align=\"center\">14</td><td align=\"center\">Pirate</td></tr><tr><td align=\"center\">15</td><td align=\"center\">Scientist</td></tr><tr><td align=\"center\">16</td><td align=\"center\">Scoundrel</td></tr><tr><td align=\"center\">17</td><td align=\"center\">Sith</td></tr><tr><td align=\"center\">18</td><td align=\"center\">Smuggler</td></tr><tr><td align=\"center\">19</td><td align=\"center\">Soldier</td></tr><tr><td align=\"center\">20</td><td align=\"center\">Spacer</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Athletics, Lore, Sleight of Hand and Survival"
+        },
+        "toolProficiencies": {
+            "value": "Your choice of geneticist's implements, security kit, or slicer's kit"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of clothes appropriate to your duties, a trinket related to your DNA-donor, and 150 credits"
+        },
+        "suggestedCharacteristics": {
+            "value": "A clone's demeanor often, though not always, matches that of their DNA-Donor. Is it nature, or is it nurture?"
+        },
+        "featureName": {
+            "value": "A Life Not Lived"
+        },
+        "featureText": {
+            "value": "Being a clone, you were born from the existence of another. Flashes of deeds you never did, of people you have never met and of information you have never learned sporadically appear. You may be confused with your DNA-Donor by others, being befriended by, or made enemies of, people you have never met before. The exact nature of these revelations depends on the nature of your DNA-Donor; they might lead to a site that only one other has ever seen, some long-forgotten fact, relic or weapon from the past that could reshape the present, or even information that would be damaging to the people who created you."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr><td align=\"center\">1</td><td align=\"center\">Athlete</td></tr><tr><td align=\"center\">2</td><td align=\"center\">Loremaster</td></tr><tr><td align=\"center\">3</td><td align=\"center\">Quick-Fingered</td></tr><tr><td align=\"center\">4</td><td align=\"center\">Survivalist</td></tr><tr><td align=\"center\">5</td><td align=\"center\">Crafter</td></tr><tr><td align=\"center\">6</td><td align=\"center\">Specialist</td></tr><tr><td align=\"center\">7</td><td align=\"center\">Linguist</td></tr><tr><td align=\"center\">8</td><td align=\"center\">Force-Sensitive</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th style=\"text-align:center\">d8</th><th style=\"text-align:left\">Personality Trait</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:left\">I speak rarely but mean every word I say.</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:left\">I laugh loudly and see the humor in stressful situations.</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:left\">I prefer to solve problems without violence, but I finish fights decisively.</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:left\">I enjoy being out in nature; poor weather never sours my mood.</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:left\">I am dependable.</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:left\">I am always working on some project or other.</td></tr><tr><td style=\"text-align:center\">7</td><td style=\"text-align:left\">I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.</td></tr><tr><td style=\"text-align:center\">8</td><td style=\"text-align:left\">I bluntly say what others are hinting at or hiding.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th style=\"text-align:center\">d6</th><th style=\"text-align:left\">Ideal</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:left\"><strong>Charity.</strong> I always try to help those in need, no matter what the personal cost. (Light)</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:left\"><strong>Logic.</strong> Emotions must not cloud our sense of what is right and true, or our logical thinking. (Lawful)</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:left\"><strong>Live and Let Live.</strong> Meddling in the affairs of others only causes trouble. (Balanced)</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:left\"><strong>Freedom.</strong> Chains are meant to be broken, as are those who would forge them. (Chaotic)</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:left\"><strong>Pride.</strong> I will do whatever it takes to be recognized as the best. (Dark)</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:left\"><strong>Aspiration.</strong> I'm determined to make something of myself. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th style=\"text-align:center\">d6</th><th style=\"text-align:left\">Flaw</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:left\">I secretly believe that everyone is beneath me.</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:left\">I write exceptionally bad poetry and recite it at inopportune times.</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:left\">I spend money freely and live life to the fullest, knowing that tomorrow I might die.</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:left\">Every social situation I'm in seems to lead to my asking rude personal questions.</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:left\">I have trouble trusting in my allies.</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:left\">I invest so much time into planning that I can't bring myself to deviate from the plan, even when it is needed.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th style=\"text-align:center\">d6</th><th style=\"text-align:left\">Bond</th></tr></thead><tbody><tr><td style=\"text-align:center\">1</td><td style=\"text-align:left\">I am fiercely loyal to those with whom I work.</td></tr><tr><td style=\"text-align:center\">2</td><td style=\"text-align:left\">In my birth laboratory, I discovered something that could endanger the world.</td></tr><tr><td style=\"text-align:center\">3</td><td style=\"text-align:left\">I spend money freely and live life to the fullest, knowing that tomorrow I might die.</td></tr><tr><td style=\"text-align:center\">4</td><td style=\"text-align:left\">I live for the thrill of the hunt.</td></tr><tr><td style=\"text-align:center\">5</td><td style=\"text-align:left\">I owe my instructor a great debt for forging me into the person I am today.</td></tr><tr><td style=\"text-align:center\">6</td><td style=\"text-align:left\">One day I will return to my home planet and prove that I am their greatest creation.</td></tr></tbody></table>"
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "core": {
+            "sourceId": "Item.Jm9NYVi2OOV8HDLC"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Clone.webp",
+    "effects": [
+        {
+            "_id": "0j3DdcBsllbba2Tu",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Clone",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Backgrounds/Clone.webp",
+            "label": "Clone",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

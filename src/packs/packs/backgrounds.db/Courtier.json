@@ -1,0 +1,108 @@
+{
+    "name": "Courtier",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>In your earlier days, you were a personage of some significance in a noble court or a bureaucratic organization. You might or might not come from an upper-class family; your talents, rather than the circumstances of your birth, could have secured you this position.</p><p>You might have been one of the many functionaries, attendants, and other hangers-on in Coruscant's upper echelons, or perhaps you traveled in Nar Shaddaa's baroque and sometimes cutthroat conglomeration of factions, nobles, adventurers, and secret societies. You might have been one of the behind-the-scenes law-keepers or functionaries on Dromund Kaas, or you might have grown up on some other affluent planet.</p><p>Even if you are no longer a full-fledged member of the group that gave you your start in life, your relationships with your former fellows can be an advantage for you and your adventuring comrades. You might undertake missions with your new companions that further the interest of the organization that gave you your start in life. In any event, the abilities that you honed while serving as a courtier will stand you in good stead as an adventurer.</p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Deception, Insight, Performance, and Survival"
+        },
+        "toolProficiencies": {
+            "value": null
+        },
+        "languages": {
+            "value": "Two of your choice"
+        },
+        "equipment": {
+            "value": "A set of fine clothes and a pouch containing 150 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "The noble court or bureaucratic organization where you got your start is directly or indirectly associated with your bond (which could pertain to certain individuals in the group, such as your sponsor or mentor). Your ideal might be concerned with the prevailing philosophy of your court or organization."
+        },
+        "featureName": {
+            "value": "Court Functionality"
+        },
+        "featureText": {
+            "value": "Your knowledge of how bureaucracies function lets you gain access to the records and inner workings of any noble court or government you encounter. You know who the movers and shakers are, whom to go to for the favors you seek, and what the current intrigues of interest in the group are."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Silver-Tongued</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Performer</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Survivalist</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Actor</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Practiced</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Force of Personality</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I believe that anything worth doing is worth doing right. I can't help it&mdash;I'm a perfectionist.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm a snob who looks down on those who can't appreciate fine art.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I always want to know how things work and what makes people tick.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm full of witty aphorisms and have a proverb for every occasion.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm rude to people who lack my commitment to hard work and fair play.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I like to talk at length about my profession.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I don't part with my money easily and will haggle tirelessly to get the best deal possible.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I'm well known for my work, so I'm always taken aback when people haven't heard of me.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Generosity. My talents were given to me so that I could use them to benefit the world. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Greed. I'm only in it for the money. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">People. I'm committed to the people I care about, not to ideals. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I work hard to be the best there is at my craft. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I'll do anything to get my hands on something rare or priceless.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm quick to assume that someone is trying to cheat me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">No one must ever learn that I once stole money from faction coffers.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm never satisfied with what I have&mdash;I always want more.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I would kill to acquire a noble title.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">The location where I learned my trade is the most important place in the world to me.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I created a great work for someone unworthy to receive it. I'm still looking for someone worthy.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I owe someone a great debt for forging me into the person I am today.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I pursue wealth to secure someone's love.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">One day I will return to my faction and prove that I am the greatest artisan of them all.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Courtier.webp",
+    "effects": [
+        {
+            "_id": "J2pXAY3HF4uS6AiR",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Courtier",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Courtier",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "sxqmjdxvHMtvXwOW"
+}

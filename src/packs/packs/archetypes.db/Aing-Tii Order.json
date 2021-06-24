@@ -1,0 +1,39 @@
+{
+    "_id": "f6laKRexQAH7Oa3b",
+    "name": "Aing-Tii Order",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Monk",
+        "description": {
+            "value": "<h1>Aing-Tii Order</h1>\n<p>Monks of the Aing-Tii Order blend an attunement to the Force with their supreme focus to become a blur of motion in the heat of battle.</p>\n<h2>Forcecasting</h2>\n<p>When you choose this order at 3rd level, you have learned powers, fragments of knowledge that imbue you with an abiding force ability. See chapter 10 for the general rules of forcecasting and chapter 11 for the force powers list.</p>\n<h3>Force Powers Known</h3>\n<p>You learn 4 force powers of your choice, and you learn more at higher levels, as shown in the Force Powers Known column of the Aing-Tii Order Forcecasting table. You may not learn a force power of a level higher than your Max Power Level, and you may learn a force power at the same time you learn its prerequisite.</p>\n<h3>Force Points</h3>\n<p>You have a number of force points equal to your monk level, as shown in the Force Points column of the Aing-Tii Order Forcecasting table, + your Wisdom or Charisma modifier (your choice). You use these force points to cast force powers. You regain all expended force points when you finish a long rest.</p>\n<h3>Max Power Level</h3>\n<p>Many force powers can be overpowered, consuming more force points to create a greater effect. You can overpower these abilities to a maximum level, which increases at higher levels, as shown in the Max Power Level column of the Aing-Tii Order Forcecasting table.</p>\n<p>You may only cast force powers at 4th-level once. You regain the ability to do so after a long rest.</p>\n<h3>Forcecasting Ability</h3>\n<p>Your forcecasting ability varies based on the alignment of the powers you cast. You use your Wisdom for light side powers, Charisma for dark side powers, and Wisdom or Charisma for universal powers (your choice). You use this ability score modifier whenever a power refers to your forcecasting ability. In addition, you use this ability score modifier when setting the saving throw DC for a force power you cast and when making an attack roll with one.</p>\n<p><strong>Force save DC</strong> = 8 + your proficiency bonus +your forcecasting ability modifier</p>\n<p><strong>Force attack modifier</strong> = your proficiency bonus +your forcecasting ability modifier</p>\n<div class=\"classtable\">\n<blockquote>\n<table>\n<thead style=\"bg-color: #bdc8cc;\">\n<tr style=\"bg-color: #bdc8cc;\">\n<td style=\"color: #000000; text-transform: uppercase; font-family: 'Russo One'; background-color: #bdc8cc; font-size: 16px;\" colspan=\"6\"><em>Aing-Tii Order Forcecasting</em></td>\n</tr>\n<tr>\n<th align=\"center\">Level</th>\n<th align=\"center\">Force Powers Known</th>\n<th align=\"center\">Force Points</th>\n<th align=\"center\">Max Power Level</th>\n</tr>\n</thead>\n<tbody>\n<tr class=\"rows\">\n<td align=\"center\">3rd</td>\n<td align=\"center\">4</td>\n<td align=\"center\">3</td>\n<td align=\"center\">1st</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">4th</td>\n<td align=\"center\">6</td>\n<td align=\"center\">4</td>\n<td align=\"center\">1st</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">5th</td>\n<td align=\"center\">7</td>\n<td align=\"center\">5</td>\n<td align=\"center\">1st</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">6th</td>\n<td align=\"center\">8</td>\n<td align=\"center\">6</td>\n<td align=\"center\">1st</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">7th</td>\n<td align=\"center\">10</td>\n<td align=\"center\">7</td>\n<td align=\"center\">2nd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">8th</td>\n<td align=\"center\">11</td>\n<td align=\"center\">8</td>\n<td align=\"center\">2nd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">9th</td>\n<td align=\"center\">12</td>\n<td align=\"center\">9</td>\n<td align=\"center\">2nd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">10th</td>\n<td align=\"center\">13</td>\n<td align=\"center\">10</td>\n<td align=\"center\">2nd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">11th</td>\n<td align=\"center\">14</td>\n<td align=\"center\">11</td>\n<td align=\"center\">2nd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">12th</td>\n<td align=\"center\">15</td>\n<td align=\"center\">12</td>\n<td align=\"center\">2nd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">13th</td>\n<td align=\"center\">17</td>\n<td align=\"center\">13</td>\n<td align=\"center\">3rd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">14th</td>\n<td align=\"center\">18</td>\n<td align=\"center\">14</td>\n<td align=\"center\">3rd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">15th</td>\n<td align=\"center\">19</td>\n<td align=\"center\">15</td>\n<td align=\"center\">3rd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">16th</td>\n<td align=\"center\">20</td>\n<td align=\"center\">16</td>\n<td align=\"center\">3rd</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">17th</td>\n<td align=\"center\">22</td>\n<td align=\"center\">17</td>\n<td align=\"center\">4th</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">18th</td>\n<td align=\"center\">23</td>\n<td align=\"center\">18</td>\n<td align=\"center\">4th</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">19th</td>\n<td align=\"center\">24</td>\n<td align=\"center\">19</td>\n<td align=\"center\">4th</td>\n</tr>\n<tr class=\"rows\">\n<td align=\"center\">20th</td>\n<td align=\"center\">25</td>\n<td align=\"center\">20</td>\n<td align=\"center\">4th</td>\n</tr>\n</tbody>\n</table>\n</blockquote>\n</div>\n<h2>Flow-Walking</h2>\n<p>At 6th level, you can cast the @Compendium[sw5e.forcepowers.G8UVHP4MXW6Dudky]{Phasestrike} force power without expending force points. When you reach 11th level, the damage bonus of the special attack made during <em>phasestrike</em> increases to 2d8, and at 17th level it increases to 3d8.</p>\n<p>Additionally, when you use your action to cast an at-will force power, you can use your Martial Arts or Focus features.</p>\n<p>You can use these features a combined number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain any expended uses when you finish a long rest.</p>\n<h2>Prismatic Step</h2>\n<p>At 11th level, when you take the Attack action, you can teleport up to 10 feet before each attack to an unoccupied space you can see.</p>\n<p>If you attack at least two different creatures with the action, you can make one additional attack against a third creature (no action required).</p>\n<h2>Iridescent Strikes</h2>\n<p>Starting at 17th level, when you use your action to cast a force power, you can spend 2 focus points to teleport to a space within 5 feet of a creature affected by the power and make two unarmed attacks against that creature as a bonus action.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Aing-Tii%20Order.webp",
+    "effects": []
+}

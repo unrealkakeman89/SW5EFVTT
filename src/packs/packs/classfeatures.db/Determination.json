@@ -1,0 +1,71 @@
+{
+    "_id": "6eMAnnFSy2Em1tyB",
+    "name": "Determination",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Starting at 7th level, you gain one of the following features.</p>\n<p>Choose Aggressive Negotiations for Shien or Reliable Vigor for Djem So.</p>\n<blockquote>\n<h4><strong>AGGRESSIVE NEGOTIATIONS</strong></h4>\n<p>When you make a Charisma (Intimidation) or Charisma (Persuasion) check, you gain a bonus to the check equal to half your Strength modifier (rounded down) if it doesn&rsquo;t already include that modifier.</p>\n<hr />\n<h4><strong>RELIABLE VIGOR</strong></h4>\n<p>If your total for a Strength check or saving throw is less than your guardian level, you can use your guardian level in place of the total.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

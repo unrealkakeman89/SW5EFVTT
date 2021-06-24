@@ -1,0 +1,23 @@
+{
+    "_id": "OTC9779u1CU4M3wW",
+    "name": "Experienced Slicer",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 1 rank in operator</em></p><p>When setting your Operator's Disruptions save DC and whenever a Disruption uses your ship's Charisma modifier, you may add half your Intelligence modifier.</p>"
+        },
+        "prerequisites": [
+            " at least 1 rank in operator*  "
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

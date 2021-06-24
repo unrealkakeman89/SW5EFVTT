@@ -1,0 +1,160 @@
+{
+    "_id": "10x48RWCWobSNXkh",
+    "name": "Ideal of the Hunter",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>You gain darkvision out to a range of 60 feet. If you already have darkvision, this ideal increases its range by 30 feet.</p>\n<p>Additionally, as a bonus action, you can manifest this ideal in a brief surge of energy. For the next minute, you can see normally in enhanced darkness, and you gain blindsight to 10 feet.</p>\n<section class=\"secret\">\n<p>In the Details tab, set Resource Consumption to [Item Uses] [Sentinel Ideals] [1].</p>\n</section>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "bonus",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "charges",
+            "target": "",
+            "amount": 1
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+    "effects": [
+        {
+            "_id": "bf00ymcpwtJ3ZAn8",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": "(@attributes.senses.darkvision === 0 ? 60 : 30)",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+            "label": "Ideal of the Hunter",
+            "tint": "",
+            "transfer": true
+        },
+        {
+            "_id": "jr1d82Aoyr2xkFqW",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": false
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.attributes.senses.blindsight",
+                    "value": 10,
+                    "mode": 4,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": 60,
+                "rounds": 10,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Bonus.webp",
+            "label": "Ideal of the Hunter Manifestation",
+            "tint": "",
+            "transfer": false
+        }
+    ]
+}

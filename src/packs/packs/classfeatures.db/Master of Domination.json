@@ -1,0 +1,71 @@
+{
+    "_id": "Im0RXSNpKTuOE42u",
+    "name": "Master of Domination",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 20th level, you are a whirlwind of strikes, eviscerating all who step within your reach. Your Strength and Dexterity scores increase by 2. Your maximum for these scores increases by 2.</p>\n<hr />\n<p>Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic, energy, and ion damage from weapons.</li>\n<li>When you hit a creature with a melee weapon attack, you have advantage on the next melee weapon attack roll you make against that creature, and that creature provokes an opportunity attack from you even if they take the Disengage action before leaving your reach until the end of your next turn.</li>\n<li>Creatures provoke an opportunity attack from you when they enter your reach.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you use this feature, you can&rsquo;t use it again until you finish a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "action",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

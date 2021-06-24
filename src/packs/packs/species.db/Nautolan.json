@@ -1,0 +1,258 @@
+{
+    "_id": "d1v4WUpl7Y3DYmgX",
+    "name": "Nautolan",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>Nautolans possess physiology common to amphibious species, including low light vision and excellent swimming skills. Their bony endoskeleton and dense cartilage make them tough and resistant to glancing blows. An egg-laying species, Nautolans emerge from their egg as a tadpole that develops arms, legs, and head-tails during their second year of life. Roughly the same size as a Human infant during this time, their limbs are weak and unable to support their weight, forcing youthful Nautolans to remain in aquatic environments for much of their childhood. </p><h2>Society and Culture</h2><p>The society developed by the Nautolans on Glee Anselm is centralized around local families and governments. The centralized government of Glee Anselm is comprised of representatives from the Council of Elders that govern each settlement. Elders are elected on merit, and can be made up of youthful politicians as well as the most aged members of the society. A culture that promotes life-long mates, Nautolan families are characterized by their loyalty between spouses and the equality of the sexes in the household. Arranged marriages are not uncommon. \r\n\r\nNo cultural affinity for the Force ever developed on Glee Anselm, though members of the Nautolan species recognize its importance and respected those among them that were Forceful.</p><h2>Names</h2><p>Nautolan names are generally short and melodic. Female names usually end in a vowel. Surnames are familial.</p><strong>&nbsp;&nbsp;Male Names.</strong> Brod, Knirkoc, Peng, Tikuwik, Zesufreat</p><strong>&nbsp;&nbsp;Female Names.</strong> Doli, Hahi, Thamlymyo, Usha, Zezu</p><strong>&nbsp;&nbsp;Surnames.</strong> Iarre, Rirrall, Sompanong, Uzumdall",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p><p><em><strong>Age.</strong></em> Nautolans reach adulthood in their early teens and live about 70 years on average.</p><p><em><strong>Alignment.</strong></em> Nautolans' benevolence cause them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Nautolans typically stand 5 to 6 feet tall and rarely weigh more than 160 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 35 feet.</p><p><em><strong>Amphibious.</strong></em> You can breathe air and water.</p><p><em><strong>Darkvision.</strong></em> Accustomed to life underwater, you have superior vision in low light conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Insightful.</strong></em> Nautolan head tentacles are adept at determining moods. You have advantage on Wisdom (Insight) checks to determine emotions.</p><p><em><strong>Swim.</strong></em> You have a swimming speed of 30 feet.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Nautila. Nautila is unique in that it can only be properly pronounced underwater due to its use of pheromones in addition to spoken sounds. In any other environment, the language loses a great amount of detail; that Nautolans find this annoying.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Blue, brown, green, purple, or grey"
+        },
+        "hairColorOptions": {
+            "value": "None"
+        },
+        "eyeColorOptions": {
+            "value": "Black, brown, or red"
+        },
+        "distinctions": {
+            "value": "Extrasensory head tentacles capable of detecting chemicals"
+        },
+        "heightAverage": {
+            "value": "5'1\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "120 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Glee Anselm"
+        },
+        "slanguage": {
+            "value": "Nautila"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Nautolan",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "35",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.swim",
+                    "value": "30",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "nautila",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "IrpHrnc26h2Dlgu7",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Nautolan.webp",
+    "effects": [
+        {
+            "_id": "nlORbLb6xwbjSHm8",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Nautolan",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 35,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.swim",
+                    "value": 30,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "nautila",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.amphibious",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Nautolan.webp",
+            "label": "Nautolan",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

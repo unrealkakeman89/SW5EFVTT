@@ -1,0 +1,21 @@
+{
+    "_id": "PTAgOkWW8iF5TnkW",
+    "name": "Calculating Gunner",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "When you make an attack roll with a secondary ship weapon, you can use your Intelligence modifier, instead of the ship's Intelligence modifier, for the attack rolls.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

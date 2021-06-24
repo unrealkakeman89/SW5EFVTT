@@ -1,0 +1,39 @@
+{
+    "_id": "EipqN28Px01dBfmH",
+    "name": "Stalker Technique",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Scout",
+        "description": {
+            "value": "<h1>Stalker Technique</h1>\n<p>Some Scouts become consumed by the thrill of the hunt. Only heard and never seen they revel in the violence of battle. Followers of the Stalker Technique hone their abilities to track others utilizing a variety of techniques: camouflage, infiltration, surveillance, and target acquisition.</p>\n<h2>Accomplished Ambusher</h2>\n<p>When you choose this technique at 3rd level, when you take the Attack action against a creature that is surprised, you can make one additional attack against that creature as a part of that action.</p>\n<h2>Mark of the Stalker</h2>\n<p>Also at 3rd level, while you are hidden from the target of your Ranger's Quarry feature, the first attack roll you make each round against that creature does not automatically reveal your presence to that creature. Make a Dexterity (Stealth) check contested by your target's Wisdom (Perception) check. On a success, you remain hidden. If you are less than 30 feet from your target, the Dexterity (Stealth) check is made with disadvantage.</p>\n<h2>Concealment</h2>\n<p>Beginning at 7th level, you've become adept at evading creatures that rely on darkvision. While in darkness, you are invisible to any creature that relies on darkvision to see you in that darkness.</p>\n<p>Additionally, when you hit a creature with a ranged weapon attack while hidden, you can force that creature to make a Dexterity saving throw against your tech save DC. On a failed save, the creature's speed is reduced to 0 until the end of your next turn. You can use this feature a number of times equal to your Intelligence modifier (minimum of one). You regain all expended uses when you finish a short or long rest.</p>\n<h2>Stalker's Flurry</h2>\n<p>Starting at 11th level, if you have advantage on a weapon attack against a target on your turn, you can forgo that advantage to immediately make an additional weapon attack against the same target as a bonus action.</p>\n<h2>Stalker's Dodge</h2>\n<p>At 15th level, whenever a creature attacks you and does not have advantage, you can use your reaction to impose disadvantage on the creature's attack roll against you. You can use this feature before or after the attack roll is made, but it must be used before the outcome of the roll is determined.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Techcaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Stalker%20Technique.webp",
+    "effects": []
+}

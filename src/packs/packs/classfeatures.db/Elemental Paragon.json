@@ -1,0 +1,71 @@
+{
+    "_id": "OwENWRt1mFVfU8bB",
+    "name": "Elemental Paragon",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><strong><em>Monk: Kro Var Order:&nbsp;17th level</em></strong></p>\n<p>You gain one of the following features.</p>\n<p>Once you've used the chosen feature, you must complete a long rest before you can use it again.</p>\n<p>While you have no remaining uses of this feature, you can instead expend 4 focus points to use it. When you do so, your maximum focus points are reduced by 4 until you complete a long rest.</p>\n<hr />\n<blockquote>\n<h3><strong>Archetype of Air</strong></h3>\n<p><em><strong>Prerequisite:&nbsp;Ride the Wind</strong></em></p>\n<p>As an action, you conjure a whirlwind around you, granting the following benefits until the start of your next turn:</p>\n<ul>\n<li>Ranged attacks made against you have disadvantage.</li>\n<li>You gain a flying speed of 60 feet. If you are still flying when the technique ends, you fall, unless you can somehow prevent it.</li>\n<li>You can use your action to create a 15 foot cube of swirling wind centered on a point you can see within 60 feet of you. Each creature in that area must make a Constitution saving throw. A creature takes 2d10 kinetic damage on a failed save, or half as much damage on a successful one. If a Large or smaller creature fails the save, that creature is also pushed up to 10 feet away from the center of the cube.</li>\n</ul>\n<p>At the start of each of your turns, you can use your bonus action to extend the benefits of this feature until the start of your next turn, to a maximum duration of 1 minute. This effect ends immediately if you are incapacitated or die.</p>\n<hr />\n<h3><strong>Figure of Flame</strong></h3>\n<p><em><strong>Prerequisite:&nbsp;River of Hungry Flame</strong></em></p>\n<p>As an action, you cause flames to race across your body, granting the following benefits until the start of your next turn:</p>\n<ul>\n<li>You have resistance to fire damage.</li>\n<li>The flames shed bright light in a 30 foot radius and dim light for an additional 30 feet.</li>\n<li>Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.</li>\n<li>You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw, taking 4d8 fire damage on a failed save or half as much on a successful one.</li>\n</ul>\n<p>At the start of each of your turns, you can use your bonus action to extend the benefits of this feature until the start of your next turn, to a maximum duration of 1 minute. This effect ends immediately if you are incapacitated or die.</p>\n<hr />\n<h3><strong>Icon of Ice</strong></h3>\n<p><em><strong>Prerequisite:&nbsp;Shape the Flowing River</strong></em></p>\n<p>As an action, you cause frost to chill the area around you, granting the following benefits until the start of your next turn:</p>\n<ul>\n<li>You have resistance to cold damage.</li>\n<li>You can move across difficult terrain created by ice or snow without spending extra movement.</li>\n<li>The ground in a 10 foot radius around you is icy and is difficult terrain for creatures other than you. The radius moves with you.</li>\n<li>You can use your action to create a 15 foot cone of freezing ice extending from your outstretched hand in a direction you choose. Each creature in the cone must make a Constitution saving throw. A creature takes 4d6 cold damage on a failed save or half as much damage on a successful one. A creature that fails its save against this effect gains 1 slowed level until the start of your next turn.</li>\n</ul>\n<p>At the start of each of your turns, you can use your bonus action to extend the benefits of this feature until the start of your next turn, to a maximum duration of 1 minute. This effect ends immediately if you are incapacitated or die.</p>\n<hr />\n<h3><strong>Embodiment of Earth</strong></h3>\n<p><em><strong>Prerequisite:&nbsp;Earth Reaches for Sky</strong></em></p>\n<p>As an action, you cause rock to envelop you, granting the following benefits until the start of your next turn:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage.</li>\n<li>You can move across difficult terrain made of earth or stone without spending extra movement. You can move through solid earth or stone as if it were air without destabilizing it, but you can't end your movement there. If you do so, you are immediately shunted to the nearest unoccupied space that you can occupy and take force damage equal to twice the number of feet you are moved.</li>\n<li>You can use your action to create a small earthquake on the ground in a 15 foot radius centered on you. Other creatures on that ground must succeed on a Dexterity saving throw or be knocked prone.</li>\n</ul>\n<p>At the start of each of your turns, you can use your bonus action to extend the benefits of this feature until the start of your next turn, to a maximum duration of 1 minute. This effect ends immediately if you are incapacitated or die.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

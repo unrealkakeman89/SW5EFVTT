@@ -1,0 +1,31 @@
+{
+    "_id": "mLSe2KZoyfq7gZgV",
+    "name": "Threat Assessment",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Operator"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "3rd Rank"
+        },
+        "description": {
+            "value": "<p>Also at 3rd rank, as a bonus action, you can learn certain information about the capabilities of the target of your System Disruption. The GM tells you if the ship is your ship\u2019s equal, superior, or inferior in regard to two of the following characteristics of your choice:</p><ul><li>An ability score</li><li>Armor Class</li><li>Current total hull and shield points</li><li>Total ship tiers (if any)</li><li>Total deployment ranks (if any)</li></ul>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Operator.webp",
+    "effects": []
+}

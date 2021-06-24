@@ -1,0 +1,39 @@
+{
+    "_id": "9AQImD6JBpd9c1UK",
+    "name": "Path of the Corsair",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Sentinel",
+        "description": {
+            "value": "<h1>Path of the Corsair</h1>\n<p>There may come a time when a sentinel finds themselves stranded, hunted, or in any situation where they must hide their nature as a force wielder. Those sentinels who follow the Path of the Corsair make use of alternative weaponry not commonly associated with force-wielders to great effect.</p>\n<h2>Scavenger's Reach</h2>\n<p>Starting when you choose this calling at 3rd level, you learn the @Compendium[sw5e.forcepowers.5o01ADUmNyzy470b]{Force Disarm} force power. Additionally, you can use your Kinetic Combat feature when you cast it as your action. Finally, when you cast the <em>force disarm</em> power, disarm a blaster weapon, and catch it, you can reload the weapon as a part of the same action.</p>\n<h2>Corsair Weapons</h2>\n<p>Also at 3rd level, you can use the force to quickly learn the use of unfamiliar weapons. When you hold a weapon that you are not proficient in, you can spend 1 force point (no action required) to gain proficiency with that weapon until the end of your next long rest. If that weapon is a blaster, you can use it to make Kinetic Combat attacks as long as the target of the attack is within the weapon's normal range.</p>\n<p>Additionally, when you throw a grenade, you can use Wisdom or Charisma instead of Strength when determining your throwing range.</p>\n<h2>Force-Empowered Detonators</h2>\n<p>At 7th level, you learn to infuse a number of small detonators with the Force. Over the course of a short or long rest, you can create a number of detonators equal to your Wisdom or Charisma modifier (your choice, minimum of one). Your detonators can only be used by you, and they lose their potency at the end of your next short or long rest.</p>\n<p>As a bonus action on each of your turns, you can throw one of your detonators at a point within range. Your detonators have a range equal to 30 feet + your Wisdom or Charisma modifier x 5. Make a universal ranged force attack. On a hit, the detonator adheres to the target, and if the target is a Large or smaller creature, it is pushed back 5 feet. On a miss, it falls to the ground. Hit or miss, the detonator then explodes. The target and each creature within 5 feet must make a Dexterity saving throw against your universal force save DC. If the detonator adhered to a target, the creature has disadvantage on the saving throw. A creature takes force damage equal to your Kinetic Combat Damage Die + your Wisdom or Charisma modifier (your choice) on a failed save, or half as much on a successful one.</p>\n<h2>Energized Kinetics</h2>\n<p>By 13th level, once per turn, when you deal damage with a Force-Empowered Detonator or your Double Strike feature, you can deal additional damage equal to your Kinetic Combat Damage Die. The damage type is force, lightning, necrotic, or psychic (your choice).</p>\n<h2>Disorienting Detonations</h2>\n<p>At 18th level, when a creature fails the saving throw against your Force-Empowered Detonators feature, you can spend 2 force points to subject it to the effects of one of the following force powers: @Compendium[sw5e.forcepowers.KCVdYOoxu0kfkSCn]{Affliction}<em>, </em>@Compendium[sw5e.forcepowers.bDdyZTL7KCiz2zXR]{Force Blind/Deafen}, @Compendium[sw5e.forcepowers.8UOBsZEV8esbx6IG]{Stun}, or @Compendium[sw5e.forcepowers.83VXTwWszl8bMlW6]{Stun Droid}. They automatically fail the saving throw for the selected power, but the effects only last until the end of your next turn.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Path%20of%20the%20Corsair.webp",
+    "effects": []
+}

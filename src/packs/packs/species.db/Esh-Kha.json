@@ -1,0 +1,241 @@
+{
+    "_id": "7nPC2ZPgyHPFxugE",
+    "name": "Esh-Kha",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Esh-kha are a gray-skinned humanoid species with equine features, including muzzles and digitigrade legs. They also have small black eyes.&nbsp;</p>\n<h2>Society and Culture</h2>\n<p>In terms of society, their race's culture resembles that of a hive society though each individual retain their own thoughts and aspirations yet all being bred for a specific role that they were eager to fulfill. A caste system is present amongst the esh-kha which included Force-sensitive simple minded savants, more numerous skilled determined warriors that watched over them and finally the patriarchs that acted as leaders who provided their wisdom as well as decisions to their entire people. Esh-kha appear to outsiders as a savage violent species that care only for the destruction of all other races. This hatred for other sentient species is believed to had stemmed from their tightly-knit hive-like society. It is suspected that the esh-kha are simply unable to tolerate or even adapt to the existence of thinking of outsiders who only suffered their wrath. Their race only turns violent against one another in the most extreme of circumstances.</p>\n<h2>Names</h2>\n<p>Whilst their kind are individuals, esh-kha are not named at birth but instead earn their names through their actions. An esh-kha that displayed great skill in battle could be called \"Swift Blade\", or maybe \"Deadly Cutter\" or some other such name. It is believed that this partly explained an esh-kha's zeal in battle with young warriors seeking not only victory but an opportunity to lay claim to a name and forge their own identity. Esh-kha do not use surnames, as they believe they are one family.</p>\n<p>&nbsp;&nbsp;<strong>Names.</strong> Bleeding Yell, Dormant Heart, Blue Survivor, Ancient Cull, Sharp Grip, Running Sun, Flame Walker</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength or Wisdom score increases by 2, and your Constitution score increases by 1.</p>\n<p><em><strong>Age.</strong></em> Esh-kha reach adulthood in their early teens and live less than a century.</p>\n<p><em><strong>Alignment.</strong></em> The esh-kha's stubborn and racially-centric mindsets cause them to tend toward lawful balanced, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Esh-kha typically stand 6 to 6 and a half feet tall and generally weigh about 200 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Darkvision.</strong></em> You have keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can\u2019t discern color in darkness, only shades of gray.&nbsp;</p>\n<p><em><strong>Force-Sensitive.</strong></em> You know your choice of the <em>turbulence</em>, <em>Force disarm</em>, or <em>slow</em> at-will force powers. Your forcecasting ability is Wisdom or Charisma (depending on power alignment).&nbsp;</p>\n<p><em><strong>Inquisitive.</strong></em> You have proficiency in the Investigation skill.&nbsp;</p>\n<p><em><strong>Savage Attacks.</strong></em> When you score a critical hit with a melee weapon attack, you can roll one of the weapon\u2019s damage dice one additional time and add it to the extra damage of the critical hit.</p>\n<p><em><strong>Skill Versatility.</strong></em> You gain proficiency in one skill of your choice.</p>\n<p><em><strong>Weapon Training.</strong></em> You have proficiency in two vibroweapons or blasters of your choice.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Kharan. Kharan contains many metaphorical expressions when translated to Galactic Basic. The language has many comparisons to music and singing, such as a galactic government being compared to a chorus.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Gray or tan"
+        },
+        "hairColorOptions": {
+            "value": "Gray"
+        },
+        "eyeColorOptions": {
+            "value": "Black"
+        },
+        "distinctions": {
+            "value": "Horizontal head protrusions"
+        },
+        "heightAverage": {
+            "value": "5'4\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "145 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Unknown, Belsavis (adopted)"
+        },
+        "slanguage": {
+            "value": "Kharan"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Esh-kha",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "SNbSlwagTE0HcMVv",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "SNbSlwagTE0HcMVv",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "SNbSlwagTE0HcMVv",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "SNbSlwagTE0HcMVv",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "SNbSlwagTE0HcMVv",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.skills.inv.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "SNbSlwagTE0HcMVv",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Investigation"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "SNbSlwagTE0HcMVv",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "kharan",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "SNbSlwagTE0HcMVv",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Esh-Kha.webp",
+    "effects": [
+        {
+            "_id": "aUdPMqzH9ntC1KQB",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Esh-kha",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.inv.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "kharan",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.savageAttacks",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Esh-Kha.webp",
+            "label": "Esh-Kha",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

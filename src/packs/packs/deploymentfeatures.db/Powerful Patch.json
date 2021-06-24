@@ -1,0 +1,31 @@
+{
+    "_id": "b8m62D2EelLhHlZv",
+    "name": "Powerful Patch",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Technician"
+        },
+        "featureType": {
+            "value": "Stratagem"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<h3>Powerful Patch</h3><p><em><strong>Power Die Location:</strong> Shields</em><br>As an action, you can expend one power die to use a hull dice and recover Hull Points.  You gain additional Hull Points equal to the amount rolled on the power die.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Technician.webp",
+    "effects": []
+}

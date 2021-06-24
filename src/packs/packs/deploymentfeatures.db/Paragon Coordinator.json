@@ -1,0 +1,31 @@
+{
+    "_id": "0ChMqVmu5Zbm1MdK",
+    "name": "Paragon Coordinator",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Coordinator"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "5th Rank"
+        },
+        "description": {
+            "value": "<p>As of 5th tier, you are a paragon of your deployment. When you would expend a Power die or an Inspiring Display die, you can use a d4 instead of expending a die. You can only use this feature once per round.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Coordinator.webp",
+    "effects": []
+}

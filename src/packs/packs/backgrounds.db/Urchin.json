@@ -1,0 +1,121 @@
+{
+    "name": "Urchin",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "<p>You grew up on the streets alone, orphaned, and poor. You had no one to watch over you or to provide for you, so you learned to provide for yourself. You fought fiercely over food and kept a constant watch out for other desperate souls who might steal from you. You slept on rooftops and in alleyways, exposed to the elements, and endured sickness without the advantage of medicine or a place to recuperate. You've survived despite all odds, and did so through cunning, strength, speed, or some combination of each.</p>\n<p>You begin your adventuring career with enough money to live modestly but securely for at least ten days. How did you come by that money? What allowed you to break free of your desperate circumstances and embark on a better life?</p>"
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Deception, Insight, Sleight of Hand, and Stealth"
+        },
+        "toolProficiencies": {
+            "value": "Disguise kit, security kit"
+        },
+        "languages": {
+            "value": null
+        },
+        "equipment": {
+            "value": "A small knife, a map of the city you grew up in, a pet mouse, a token to remember your parents by, a set of common clothes, and a belt pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Urchins are shaped by lives of desperate poverty, for good and for ill. They tend to be driven either by a commitment to the people with whom they shared life on the street or by a burning desire to find a better life&mdash;and maybe get some payback on all the rich people who treated them badly."
+        },
+        "featureName": {
+            "value": "City of Secrets"
+        },
+        "featureText": {
+            "value": "You know the secret patterns and flows to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.\r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Silver-Tongued</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Quick-Fingered</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Stealthy</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Alert</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Athlete</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Observant</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I hide scraps of food and trinkets away in my pockets.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I ask a lot of questions.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I like to squeeze into small places where no one else can get to me.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I sleep with my back to a wall or tree, with everything I own wrapped in a bundle in my arms.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I eat like a pig and have bad manners.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I think anyone who's nice to me is hiding Dark intent.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I don't like to bathe.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I bluntly say what other people are hinting at or hiding.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Respect. All people, rich or poor, deserve respect. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Community. We have to take care of each other, because no one else is going to do it. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Change. The low are lifted up, and the high and mighty are brought down. Change is the nature of things. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Retribution. The rich need to be shown what life and death are like in the gutters. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">People. I help the people who help me&mdash;that's what keeps us alive. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I'm going to prove that I'm worthy of a better life. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">If I'm outnumbered, I will run away from a fight.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Gold seems like a lot of money to me, and I'll do just about anything for more of it.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I will never fully trust anyone other than myself.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'd rather kill someone in their sleep then fight fair.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">It's not stealing if I need it more than someone else.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">People who can't take care of themselves get what they deserve.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">My town or city is my home, and I'll fight to defend it.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I sponsor an orphanage to keep others from enduring what I was forced to endure.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I owe my survival to another urchin who taught me to live on the streets.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I owe a debt I can never repay to the person who took pity on me.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I escaped my life of poverty by robbing an important person, and I'm wanted for it.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">No one else should have to endure the hardships I've been through.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Urchin.webp",
+    "effects": [
+        {
+            "_id": "MmxMSEE6PlFniWzE",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Urchin",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "disg",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "secur",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Urchin",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "aLSbyAx8KCKC9VCA"
+}

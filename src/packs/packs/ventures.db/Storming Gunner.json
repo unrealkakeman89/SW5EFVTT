@@ -1,0 +1,21 @@
+{
+    "_id": "3fHlNmzGAt2OkCte",
+    "name": "Storming Gunner",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "You can use your immense strength to steady primary weapons with the burst, rapid, or saturate features.  When you make an attack roll with a primary ship weapon having at least one of these features while on a Medium or smaller ship, you can use your Strength modifier, instead of the ship's Intelligence modifier, for the attack rolls or setting the DC for the targets' saves.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

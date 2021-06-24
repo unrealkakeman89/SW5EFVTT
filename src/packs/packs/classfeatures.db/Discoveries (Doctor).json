@@ -1,0 +1,71 @@
+{
+    "_id": "lHfSIS1I14hKp6wO",
+    "name": "Discoveries (Doctor)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect the progress of your studies into the medical arts. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ADVANCED REMOTE HEALER</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;12th level</span><br />The range of your Remote Healer feature increases to 60 feet.</p>\n<hr />\n<h4><strong>EXPERIMENTAL TREATMENTS</strong></h4>\n<p>Your medication and treatments are known to be untested and unstable. Immediately after you use a maneuver that causes a creature to regain hit points or gain temporary hit points, you can choose to roll on the Side Effects table below. The condition or effect lasts until the creature completes a long rest, or you use this feature again.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier. You regain all expended uses when you finish a short or long rest.</p>\n<h3>Side Effects</h3>\n<table style=\"width: 100%;\">\n<thead>\n<tr style=\"height: 16px;\">\n<th style=\"height: 16px; width: 9.32412%;\">d20</th>\n<th style=\"height: 16px; width: 90.4073%;\">Side Effects</th>\n</tr>\n</thead>\n<tbody>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">1</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature turns out to be allergic to this specific treatment. Every ability score is reduced by 1.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">2</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature starts sneezing uncontrollably. Any attack rolls with a die roll value of 19 results in a miss due to a poorly timed sneeze.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">3</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature&rsquo;s legs become swollen. The creature gains 1 slowed level.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">4</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature becomes one size larger or smaller.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">5</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The skin at their joints turns into a wooden material, giving them a bonus of +2 to AC.</td>\n</tr>\n<tr style=\"height: 50px;\">\n<td style=\"height: 50px; width: 9.32412%; text-align: center;\">6</td>\n<td style=\"height: 50px; width: 90.4073%; text-align: center;\">The creature&rsquo;s body starts producing powerful stomach acid in high amounts. The creature can use an action to spew stomach acid in a 15 feet cone. The DC for this saving throw equals 8 + your proficiency bonus + your Constitution modifier. A creature takes 2d6 acid damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 5th level, 4d6 at 11th level, and 5d6 at 17th level.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">7</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature becomes mute and has uncontrollable gas. They have disadvantage on Dexterity (Stealth) checks that rely on smell.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">8</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature&rsquo;s eyes glows bright red. The creature also gains darkvision, but if they already have darkvision they get a light headache instead.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">9</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature gains advantage on perception checks based on hearing, but everything seems uncomfortably loud to them. They gain vulnerability to sonic damage.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">10</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The treatment slows down their brain function, reducing their Intelligence by 4.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">11</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature&rsquo;s skin turns dark purple. If they are already purple, they turn bright pink instead.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">12</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature becomes covered in sickly, green pustules. When the creature is hit by a melee attack, the attacker takes 1d4 poison damage.</td>\n</tr>\n<tr style=\"height: 50px;\">\n<td style=\"height: 50px; width: 9.32412%; text-align: center;\">13</td>\n<td style=\"height: 50px; width: 90.4073%; text-align: center;\">The creature&rsquo;s skin starts to seriously bloat up from internal pressure build-up, and a strong impact may cause it to explode. Whenever the creature takes damage, the creature has to pass a concentration check or the creature takes kinetic damage equal to half their maximum hit points. Other creatures within 10 feet of the explosion also take a fourth of the damage. Once this explosion occurs, their skin becomes very soft.</td>\n</tr>\n<tr style=\"height: 33px;\">\n<td style=\"height: 33px; width: 9.32412%; text-align: center;\">14</td>\n<td style=\"height: 33px; width: 90.4073%; text-align: center;\">The creature rapidly grows body hair all over, including the face, until they resemble a wookiee. If they are already a wookiee, the reverse effect occurs; all hair immediately falls off, leaving the skin bare.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">15</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature&rsquo;s body temperature fluctuates to extremes. They gain resistance to cold and fire damage.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">16</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature becomes ravenous. Every hour they haven&rsquo;t eaten a meal they gain a level of exhaustion.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">17</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature believes they are the chosen one.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">18</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature has a difficult time resting. The amount they heal from Hit Dice is now halved.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">19</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature&rsquo;s movement speed is increased by 15 feet, and opportunity attacks on them have disadvantage.</td>\n</tr>\n<tr style=\"height: 16px;\">\n<td style=\"height: 16px; width: 9.32412%; text-align: center;\">20</td>\n<td style=\"height: 16px; width: 90.4073%; text-align: center;\">The creature gains 10d10 hit points, and they feel happy and carefree.</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h4><strong>FROM THE BRINK</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;7th level</span><br />If the target of your Critical Analysis feature would be reduced to 0 hp, you may use your reaction and end your Critical Analysis feature to have them be reduced to 1 hp instead. Once a creature has benefited from this feature, they must complete a long rest before they can do so again.</p>\n<hr />\n<h4><strong>HEALTH ADVISOR</strong></h4>\n<p>Whenever a creature that is a target of your Critical Analysis feature begins their turn, you can use your reaction to give them temporary hit points equal to one-fourth your scholar level (rounded down) + your Intelligence modifier (minimum of one) which last until the start of their next turn.</p>\n<hr />\n<h4><strong>PATIENT PROTECTOR</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;5th level</span><br />When you attack creatures that are within 5 feet of an ally that is the target of your Critical Analysis feature, attack rolls and damage rolls made on them with a finesse or ranged weapon may use your Intelligence modifier instead of Strength of Dexterity.</p>\n<hr />\n<h4><strong>SURGICAL PRECISION</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;5th level</span><br />When you hit a creature that is the target of your Critical Analysis feature with a weapon attack, it takes additional damage equal to your Dexterity modifier.</p>\n<hr />\n<h4><strong>TEND THE WOUNDED</strong></h4>\n<p>If you or any friendly creatures you can touch regain hit points by spending one or more Hit Dice at the end of a short rest, each of those creatures regain 1d4 extra hit points.</p>\n<p>This die increases when you reach certain levels in this class: 1d6 at 5th level, 1d8 at 9th level, 1d10 at 13th level, and to 1d12 at 17th level.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

@@ -1,0 +1,16 @@
+{
+    "_id": "QP60KPXDnCPckDY7",
+    "name": "Stunned",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.gd4IoCvxYy57uhfZ"
+        }
+    },
+    "content": "<h4 id=\"stunned\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">STUNNED</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">A stunned creature is incapacitated (see the condition), can&rsquo;t move, and can speak only falteringly.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The creature automatically fails Strength and Dexterity saving throws.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">Attack rolls against the creature have advantage.</li>\n</ul>",
+    "img": "icons/svg/stoned.svg"
+}

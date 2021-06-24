@@ -1,0 +1,71 @@
+{
+    "_id": "I3UvZaGNY7D1Vyl3",
+    "name": "Academic Superiority",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Scholar</strong>:&nbsp;1st level</em></p>\n<p>You learn maneuvers that are fueled by special dice called superiority dice.</p>\n<h4><strong>MANEUVERS</strong></h4>\n<p>You know two maneuvers of your choice, which are detailed under &ldquo;Maneuvers&rdquo; below, and you earn more at higher levels, as shown in the Maneuvers Known column of the scholar table. Many maneuvers enhance an attack in some way. You can use only one maneuver per attack, and you may only use each maneuver once per turn.</p>\n<p>Each time you learn new maneuvers, you can also replace one maneuver you know with a different one.</p>\n<h4><strong>SUPERIORITY DICE</strong></h4>\n<p>You have two superiority dice, which are d4s, and you earn more at higher levels, as shown in the Superiority Dice column of the scholar table. This die changes as you gain scholar levels, as shown in the Academic Superiority column of the scholar table. A superiority die is expended when you use it.</p>\n<p>You regain all of your expended superiority dice when you finish a short or long rest.</p>\n<h4><strong>SAVING THROWS</strong></h4>\n<p>Some of your maneuvers require your target to make a saving throw to resist the maneuver&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<hr />\n<p><strong>Maneuver save DC</strong>&nbsp;= 8 + your proficiency bonus + your Intelligence modifier</p>\n<hr />\n<h2>MANEUVERS</h2>\n<p>The maneuvers are presented in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ADMINISTER AID</strong></h4>\n<p>As an action, you can expend a superiority die to tend to a creature you can touch. The creature regains a number of hit points equal to the number rolled + your Intelligence modifier.</p>\n<hr />\n<h4><strong>ASSESS THE SITUATION</strong></h4>\n<p>You can expend one superiority die to make a Wisdom (Perception) or Intelligence (Investigation) check as a bonus action, adding the superiority die to the check.</p>\n<hr />\n<h4><strong>CRIPPLING STRIKE</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to cripple the creature. You add the superiority die to the attack&rsquo;s damage roll and the creature&rsquo;s gains 1 slowed level until the end of their next turn.</p>\n<hr />\n<h4><strong>DELIBERATE MOVEMENT</strong></h4>\n<p>You can expend one superiority die to take the Disengage action as a bonus action and ignore the effects of standard difficult terrain until the end of your turn.</p>\n<hr />\n<h4><strong>EXPLOIT WEAKNESS</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend a superiority die and deal additional damage equal to the number rolled. This damage cannot be reduced in any way.</p>\n<hr />\n<h4><strong>GOADING ATTACK</strong></h4>\n<p>When you hit a creature with a weapon attack, you can expend one superiority die to attempt to goad the target into attacking you. You add the superiority die to the attack&rsquo;s damage roll, and the target must make a Wisdom saving throw. On a failed save, the target has disadvantage on all attack rolls against targets other than you until the end of your next turn.</p>\n<hr />\n<h4><strong>HEADS UP</strong></h4>\n<p>When a friendly creature who can see or hear you makes a saving throw, you can use your reaction and expend a superiority die, adding the number rolled to the result of the saving throw. You can use this maneuver before or after making the saving throw, but before any effects of the saving throw are determined.</p>\n<hr />\n<h4><strong>MEASURED ACTION</strong></h4>\n<p>As a reaction when you make a roll for a contested skill check, you can expend a superiority die to add to the roll. You can use this maneuver before or after making the contested skill check roll, but before any effects of the contested skill check are determined.</p>\n<hr />\n<h4><strong>ONE STEP AHEAD</strong></h4>\n<p>When you roll initiative and you are not surprised, you can expend a superiority die and add the number rolled to your initiative.</p>\n<hr />\n<h4><strong>TARGETED STRIKE</strong></h4>\n<p>When an ally makes an attack against a creature, you can use your reaction to expend a superiority die. You add the superiority die to the attack roll, and the damage roll if it hits. You can use this maneuver before or after the attack roll, but before the GM determines whether or not the attack hits.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "none",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 2,
+            "max": "2",
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-Passive.webp",
+    "effects": []
+}

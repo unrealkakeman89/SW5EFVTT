@@ -1,0 +1,86 @@
+{
+    "_id": "hNLCVeWzPt9KyXDY",
+    "name": "Razor Focus",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Pugnacity Practice</strong>:&nbsp;17th level</em></p>\n<p>You can enter a hyper-focused state of mind for 1 minute as a bonus action. You must maintain concentration, as if concentrating on a power. For the duration, each time you successfully deal Sneak Attack damage against a creature, you gain two additional Sneak Attack dice, cumulatively, as your attacks become increasingly precise. These additional dice are lost when your focus ends, whether through failing to maintain concentration or after 1 minute.</p>\n<p>The first time you use this feature, you suffer no ill effect. If you use this feature again before you finish a long rest, you suffer one level of exhaustion each time you use it.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "bonus",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": "1",
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": "Pugnacity 17"
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Class%20Features/OPRT-ARCH-Bonus.webp",
+    "effects": [
+        {
+            "_id": "8H40zgYS6J0C1rPc",
+            "flags": {},
+            "changes": [],
+            "duration": {},
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/OPRT-ARCH-Bonus.webp",
+            "label": "New Active Effect",
+            "transfer": false
+        }
+    ]
+}

@@ -1,0 +1,116 @@
+{
+    "_id": "nOhGyYRV5xols2V9",
+    "name": "Triage Training",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>You gain proficiency in the Medicine skill.</p>\n<p>Additionally, when you would use your action to make an ability check to stabilize a creature, expend a use of a traumakit, or use a medpac, you can instead use your bonus action.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "requirements": "Triage Technique: 3",
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "recharge": {
+            "charged": false,
+            "value": null
+        },
+        "className": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCT-ARCH-Passive.webp",
+    "effects": [
+        {
+            "_id": "x8b3JBG0agqMIuSZ",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                },
+                "ActiveAuras": {
+                    "isAura": false,
+                    "ignoreSelf": false,
+                    "hidden": false,
+                    "height": false,
+                    "alignment": "",
+                    "type": "",
+                    "aura": "None",
+                    "radius": null,
+                    "save": "",
+                    "savedc": null,
+                    "hostile": false,
+                    "onlyOnce": false
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.skills.med.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Class%20Features/SCT-ARCH-Passive.webp",
+            "label": "Triage Training",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

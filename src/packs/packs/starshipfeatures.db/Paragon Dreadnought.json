@@ -1,0 +1,76 @@
+{
+    "name": "Paragon Dreadnought",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipfeature",
+    "data": {
+        "description": {
+            "value": "<p>As of 5th tier, your starship is the best in its class. Two of your ship&rsquo;s ability scores increase by 4, and its maximum for these scores increase by 4. Another ability score increases by 2, and its maximum for this score increases by 2.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "SotG",
+        "activation": {
+            "type": "",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": "6",
+            "max": "6",
+            "per": "recharge"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "15d10",
+                    "energy"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": "",
+            "scaling": "power"
+        },
+        "size": "Gargantuan",
+        "tier": "5",
+        "recharge": {
+            "value": null,
+            "charged": false
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Features/Gargantuan.webp",
+    "effects": [],
+    "_id": "D7omkkFZv6a0yePr"
+}

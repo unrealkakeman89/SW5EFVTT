@@ -1,0 +1,854 @@
+{
+    "_id": "dIezCt8o9dUTHHEg",
+    "name": "Dark Side Spirit",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 6,
+                "proficient": 0,
+                "min": 3,
+                "mod": -2,
+                "save": -2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 17,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 17,
+                "proficient": 1,
+                "min": 3,
+                "mod": 3,
+                "save": 6,
+                "prof": 3,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 15,
+                "proficient": 1,
+                "min": 3,
+                "mod": 2,
+                "save": 5,
+                "prof": 3,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 16,
+                "proficient": 0,
+                "min": 3,
+                "mod": 3,
+                "save": 3,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": 13,
+                "min": 0,
+                "formula": ""
+            },
+            "hp": {
+                "value": 40,
+                "min": 0,
+                "max": 40,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "9d8"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 3,
+                "prof": 0,
+                "total": 3
+            },
+            "powercasting": "none",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": 0,
+                    "tempmax": 0
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 40,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": true
+            },
+            "prof": 3,
+            "powerdc": 11,
+            "bar1": {
+                "value": 40,
+                "min": 0,
+                "max": 40
+            },
+            "bar2": {
+                "value": 13,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "darkvision": 60
+            },
+            "death": {
+                "success": null,
+                "failure": null
+            },
+            "exhaustion": null,
+            "inspiration": false
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"What's in there?\"</i></p><p><i>\"Only what you take with you.\"</i></p><p>- Yoda and Luke Skywalker</p></blockquote><p>The Dark Spirit was a protean manifestation of the dark side of the Force that dwelt within the Dark Side Cave on the planet Dagobah. In the years that followed the birth of the Galactic Empire in 19 BBY, a number of individuals confronted the Spirit. Those included the Jedi Master Yoda, who faced an apparition of the Galactic Emperor Palpatine. Twenty-two years later, the young Luke Skywalker also dueled the mysterious entity during his apprenticeship under Yoda, where the Spirit assumed the form of Darth Vader, his father.</p><h3 style=\"font-family: &#34;helvetica neue&#34; , &#34;helvetica&#34; , &#34;arial&#34; , sans-serif\">History</h3><blockquote><p><i>\"That which you seek, inside you will find.\"</i></p><p>- Yoda to Galen Marek's clone</p></blockquote><p>Toward the end of the Clone Wars in 19 BBY, a lone Dark Jedi was mortally wounded after a duel with the Jedi Master Yoda. The darksider was able to retreat into a cave on the swamp planet of Dagobah, where he took his last breath. The site of the Dark Jedi's death absorbed their dark energies. It became the Cave of Evil and was haunted by a protean manifestation of the dark side known as the Dark Spirit. That fearful phantom was endowed with prophetic powers, and those who confronted it would learn about the darker side of their own nature. Although bound to the cave, the Dark Spirit could still roam the swamp-covered landscape of Dagobah, radiating an aura of fear and hate that could cloud the minds of most Force-sensitive individuals, thus weakening or even paralyzing them in the process. At least one other entity with similar powers was known to have existed in the Dark Force Temple located on the planet Dromund Kaas.</p><p>Shortly after the death of the Dark Jedi, the autocratic Galactic Empire was formed, and Yoda chose to settle on Dagobah in order to avoid the new government's anti-Jedi persecutions. At some point, the old Jedi Master explored the Cave of Evil. He came to face the Dark Spirit, which had taken the form of his arch-foe Palpatine, Galactic Emperor and Dark Lord of the Sith.[8] Immediately before his self-imposed exile on Dagobah, Yoda had fought the real Palpatine in the Grand Convocation Chamber of the Senate Rotunda, and the Jedi had been forced to flee. Now in the Cave, Yoda confronted the grinning Spirit without his lightsaber, only armed with a gimer stick.</p><p>In 1 BBY, the clone of the late Galen Marek, pioneer of the Rebel Alliance, came to Dagobah with the desire to find his identity. After entering the Cave of Evil, he encountered the Dark Spirit, who took several shapes. First, the entity appeared as several \"clones\" of the young man, all entangled in vines and asking for help. A little further on, the spirit transformed into the captain Juno Eclipse, an old acquaintance of Marek, standing on the bridge of a ship. The clone then saw the false Eclipse getting attacked, which filled him with distress. He called out to the apparition, but both Eclipse and the rest of the vision faded all of a sudden.</p><p>Two years later, the young Force-sensitive Zak Arranda accidentally led a group of cannibal younglings into the Cave. The Dark Spirit tortured them reenacting scenes of their past, when their parents were forced to nourish them upon their own flesh.</p><p>By 3 ABY, Yoda had been hiding from the Empire for years. As part of his training, Yoda sent the young Luke Skywalker into the cave to confront the Dark Spirit. Upon the apprentice's entry, the phantom took the form of Darth Vader, a Sith Lord and Palpatine's second-in-command. Unbeknownst to the young apprentice, Vader had once been a Jedi Knight named Anakin Skywalker and was also his father, whom Skywalker had been led to believe to have been murdered by Vader. After a short duel, Skywalker gave in to rage and beheaded the spirit. As the apprentice watched the helmet-encased head fall to the ground, the Dark Spirit's armored body completely vanished in the shadows. For a moment the helmet remained on the ground completely still, then its faceplate exploded, revealing Luke Skywalker's own face, looking up at him. The young apprentice realized that, although that construct had been defeated, he still had much training left to do before confronting the real Vader. In no time, the ghostly vision of the decapitated head dissolved into nothingness.</p><h3 style=\"font-family: &#34;helvetica neue&#34; , &#34;helvetica&#34; , &#34;arial&#34; , sans-serif\">Powers and abilities</h3><blockquote><p><i>\"Help me! Help me!\"</i></p><p>- The Spirit to Galen Marek's clone, in the form of several other clones</p></blockquote><p>The Dark Spirit was able take on the form of its intended victim's fears or darker sides. It could move unhindered and nearly undetected through the swamp of Dagobah, only being noticed by strong Force-sensitives. In battle, the entity radiated an aura of hate and fear that could unnerve and even paralyze an opponent. Unlike Force ghosts, which were normally impalpable, the Spirit had all the appearances of tangibility for those who faced it. As Darth Vader, and Palpatine, it even used a phantom lightsaber that could cut like a genuine lightsaber. More than just morphing into a single being, the spirit could actually assume the shape of several individuals at a time and mimic entire scenes with a realistic background. It could also alter the vision that its victim had of their own appearance.</p>",
+                "public": ""
+            },
+            "alignment": "Neutral Dark",
+            "species": "",
+            "type": {
+                "value": "undead",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 5,
+            "powerForceLevel": 0,
+            "powerTechLevel": 0,
+            "xp": {
+                "value": 1800
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [
+                    "cold",
+                    "necrotic",
+                    "poison"
+                ],
+                "custom": ""
+            },
+            "dr": {
+                "value": [
+                    "acid",
+                    "fire"
+                ],
+                "custom": "Sonic, Kinetic"
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [
+                    "charmed",
+                    "frightened",
+                    "grappled",
+                    "paralyzed",
+                    "petrified",
+                    "poisoned",
+                    "prone",
+                    "restrained",
+                    "exhaustion"
+                ],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "The Languages It Knew In Life"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": -2,
+                "passive": 8,
+                "prof": 0,
+                "total": -2
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 15,
+                "prof": 3,
+                "total": 5
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ste": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 16,
+                "prof": 3,
+                "total": 6
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/265_-_Dark_Side_Spirit/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "Dark Side Spirit",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/265_-_Dark_Side_Spirit/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "dIezCt8o9dUTHHEg",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "ZDQ0YWUyMGQ2MmQz",
+            "name": "Incorporeal Movement",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The spirit can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/265_-_Dark_Side_Spirit/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "Mzc5Mzg2NjJmZmUx",
+            "name": "Maddening Touch",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Melee Weapon Attack </em>+6, Reach 5 ft., One target. <em>Hit : </em>17 (4d6+3) psychic damage</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 5,
+                    "long": "",
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "mwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "4d6+3",
+                            "psychic"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 20000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/265_-_Dark_Side_Spirit/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "Y2UzZmQ4OWNiYWZm",
+            "name": "Whispers of Madness",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>The spirit chooses up to three creatures it can see within 60 feet of it. Each target must succeed on a DC 14 Wisdom saving throw, or it takes 7 (1d8 + 3) psychic damage and must use its reaction to make a melee weapon attack against one creature of the spirit's choice that the spirit can see.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "wis",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/265_-_Dark_Side_Spirit/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "ZTZjNDk2MDMwM2M4",
+            "name": "Howling Babble (Recharge 6)",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong>.</p><p>Each creature within 30 feet of the spirit that can hear it must make a DC 14 Wisdom saving throw. On a failed save, a target takes 12 (2d8 + 3) psychic damage, and it is stunned until the end of its next turn. On a successful save, it takes half as much damage and isn't stunned.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "wis",
+                    "dc": 10,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/265_-_Dark_Side_Spirit/avatar.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

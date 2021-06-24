@@ -1,0 +1,71 @@
+{
+    "_id": "3NOg28znKOJczSZi",
+    "name": "Discoveries (Geneticist)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect the changes you have caused your own body to undergo. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ADAPTED HIDE</strong></h4>\n<p>When you aren&rsquo;t wearing armor, your AC is 13 + your Dexterity modifier. Additionally, you are adapted to hot or cold climates (your choice), as described in chapter 5 of the Dungeon Master&rsquo;s Guide. When you undergo your mutagenic transformation, you add your full Intelligence modifier, instead of half, to your AC for the duration.</p>\n<hr />\n<h4><strong>ATMOSPHERIC ADAPTATION</strong></h4>\n<p>You can breathe air and water. When you undergo your mutagenic transformation, you no longer need to breathe, and you can survive up to one hour within the vacuum of space for the duration.</p>\n<hr />\n<h4><strong>ENHANCED MUSCULATURE</strong></h4>\n<p>Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples. Additionally, when you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier. When you undergo your mutagenic transformation, you have advantage on Strength checks and Strength saving throws for the duration.</p>\n<hr />\n<h4><strong>ICARIAN MUTATION</strong></h4>\n<p>You sprout a pair of winged arms. You gain a flying speed equal to half your walking speed. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required). When you undergo your mutagenic transformation, your flying speed increases to your full walking speed, and you can use your bonus action to take the Dash action for the duration.</p>\n<hr />\n<h4><strong>MUTAGENIC HARDINESS</strong></h4>\n<p>Your hit point maximum increases by a number equal to your level, and it increases by 1 every time you gain a level. When you undergo your mutagenic transformation, and at the beginning of each of your turns, you gain temporary hit points equal to your half your scholar level (rounded down) + your Intelligence modifier for the duration.</p>\n<hr />\n<h4><strong>PREDATORY SENSES</strong></h4>\n<p>You have darkvision out to 60 feet. If you already have darkvision, its range instead increases by 30 feet. When you undergo your mutagenic transformation, you gain advantage on Wisdom (Perception) checks that rely on smell for the duration. Additionally, you can track creatures that have left a scent in the last 24 hours.</p>\n<hr />\n<h4><strong>UNDERGROUND ADAPTATION</strong></h4>\n<p>You gain a burrowing speed equal to your walking speed and you can tunnel through solid rock at a rate of 1 foot per round. In order to use this speed, you must have two free hands. When you undergo your mutagenic transformation, you gain tremorsense out to 30 feet for the duration. You can detect and pinpoint the origin of vibrations within a specific radius, provided that monster and the source of the vibrations are in contact with the same ground or substance. Tremorsense can&rsquo;t be used to detect flying or incorporeal creatures.</p>\n<hr />\n<h4><strong>UNNATURAL WEAPONRY</strong></h4>\n<p>You sprout claws or some other natural weapon, which deal 1d4 kinetic damage on a hit. You can use your choice of your Strength, Dexterity, or Intelligence modifier for the attack and damage rolls. You must use the same modifier for both rolls. When you undergo your mutagenic transformation, your unarmed strikes increase to a d6 and are considered enhanced for the duration. Additionally, you deal an additional 1d4 acid, lightning, or poison damage when you hit with them.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "AAIu6uSn4bW00mHp",
+    "name": "Chimeric Adaption",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Once you&rsquo;ve reached 17th level, your genetic modifications have reached new heights. When you complete a short or long rest, you can choose one of the following features. When you undergo your mutagenic transformation, you also gain the benefits of the chosen feature for the duration. You can only have one of these features at a time.</p>\n<hr />\n<blockquote>\n<h4><strong>ASPECT OF THE TERENTATEK</strong></h4>\n<p>You gain proficiency in Wisdom and Charisma saving throws.</p>\n<p>Additionally, you have advantage on saving throws against force powers, and when a creature within 30 feet of you casts a force power, you can use your reaction to move up to half your speed towards the creature. You must end this movement closer to the creature than you started. If you end this movement within 5 feet of the creature, you can make one melee attack against the creature (no action required).</p>\n<hr />\n<h4><strong>ASPECT OF THE RANCOR</strong></h4>\n<p>You gain proficiency in Strength and Constitution saving throws.</p>\n<p>Additionally, you gain immunity to the frightened condition,<br />and when you deal damage with a weapon or unarmed strike, you can deal an additional 1d8 damage of the same type as the weapon&rsquo;s damage.</p>\n<hr />\n<h4><strong>ASPECT OF THE VARACTYL</strong></h4>\n<p>You gain proficiency in Dexterity and Intelligence saving throws.</p>\n<p>Additionally, your speed increases by 10 feet, you ignore effects that would reduce your speed, your attack rolls can&rsquo;t suffer from disadvantage, and creatures can&rsquo;t have advantage on attack rolls against you.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

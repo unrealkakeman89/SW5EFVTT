@@ -1,0 +1,160 @@
+{
+    "_id": "q7ahgoAYWA5ghy81",
+    "name": "Tiny Terror",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "feat",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> Strength 13, size Tiny</em><br />Despite falling below knee height of other species, your size has less impact on your strength and virility. You gain the following benefits:</p>\n<ul>\n<li>Increase your Strength score by 1, to a maximum of 20.</li>\n<li>Your speed increases by 5 feet.</li>\n<li>You lose the Pintsized special trait, and you are no longer limited to +3 when determing your bonus to attack and damasge rolls for weapon attacks using Strength due to the Puny special trait.</li>\n<li>You gain the Undersized special trait:<br /><br /><strong><em>Undersized.</em></strong> Your small stature makes it hard for you to wield bigger weapons. You can't use heavy shields or martial weapons with the two-handed property unless it has the light property, and if a martial weapon has the versatile property, you can only wield it in two-hands.</li>\n</ul>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 0,
+            "units": ""
+        },
+        "target": {
+            "value": 0,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": 0,
+            "long": 0,
+            "units": null
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "requirements": "",
+        "recharge": {
+            "value": 0,
+            "charged": true
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "folder": "dFnKIJCGmpjqdA2C",
+    "sort": 5012500,
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "q7ahgoAYWA5ghy81",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.attributes.speed.value",
+                    "value": "5",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "q7ahgoAYWA5ghy81",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Feats/Tiny%20Terror.webp",
+    "effects": [
+        {
+            "_id": "UDRjGgS1kz9N91VB",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 5,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.pintsized",
+                    "value": "0",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.undersized",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Feats/Tiny%20Terror.webp",
+            "label": "Tiny Terror",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

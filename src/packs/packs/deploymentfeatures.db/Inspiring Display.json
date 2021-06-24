@@ -1,0 +1,31 @@
+{
+    "_id": "OGpaIWWJUTx2UVmO",
+    "name": "Inspiring Display",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Coordinator"
+        },
+        "featureType": {
+            "value": ""
+        },
+        "rank": {
+            "value": "2nd Rank"
+        },
+        "description": {
+            "value": "<p>Also at 2nd rank, you can inspire others through stirring words. You spend the next minute rallying your allies by giving an inspiring speech. You grant a number of ships up to your proficiency bonus temporary hull points equal to your Charisma modifier.  You also grant to a number of crew members up to your proficiency bonus from those ships one Inspiring Display die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Inspiring Display die, but must decide before the GM says whether the roll succeeds or fails. Once the Inspiring Display die is rolled, it is lost. A creature can have only one Inspiring Display die at a time.</p><p>Once you\u2019ve used this feature, you can\u2019t use it again until you finish a long rest.</p><p>Your Inspiring Display die changes when you reach certain ranks in this deployment. The die becomes a d8 at 3rd rank, a d10 at 4th rank, and a d12 at 5th rank.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Coordinator.webp",
+    "effects": []
+}

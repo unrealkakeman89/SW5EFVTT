@@ -1,0 +1,71 @@
+{
+    "_id": "OEiv2Yjz1QhM3osS",
+    "name": "Modified Weaponry",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn to modify one unenhanced weapon with which you are proficient utilizing your armstech experience. Over the course of a long rest, you can modify the weapon. You must have the weapon and armstech&rsquo;s implements in order to perform this modification.</p>\n<p>Your modified weapon is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified weapon has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).</p>\n<p>Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.</p>\n<p>At 9th level, you can maintain two modified weapons. Each modified weapon has modification slots as shown in the Modification Slots column of the engineer table.</p>\n<h2>ARMSTECH MODIFICATIONS</h2>\n<p>If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.</p>\n<hr />\n<blockquote>\n<h4><strong>ACCURACY FOCUS</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level, Blaster</em><br />You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>AMPLIFYING BARREL</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level, Blaster</em><br />You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>BAYONET</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Blaster</em><br />You affix a short blade to the barrel of your modified blaster weapon, allowing you to make a melee weapon attack with it. The blade is a melee weapon with the finesse property that you are proficient with, and deals 1d6 kinetic damage.</p>\n<hr />\n<h4><strong>BURST CORE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Blaster</em><br />Your weapon gains the burst property, with a burst number equal to its reload number.</p>\n<hr />\n<h4><strong>BOOMING STRIKES</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />You pack extra power into your modified weapon. Once per turn, when you hit with the weapon, you can deal an additional 1d6 damage. If you do so, the weapon makes a loud boom which can be heard 100 feet away. If you are hidden, Intelligence (Investigation) and Wisdom (Perception) checks made to locate you that rely on sound have advantage.</p>\n<hr />\n<h4><strong>CELERITY OSCILLATOR</strong></h4>\n<p>Once per turn, when you deal damage with your modified weapon, your walking speed increases by 10 feet until the start of your next turn, and the damaged creature can&rsquo;t make opportunity attacks against you for the rest of your turn.</p>\n<hr />\n<h4><strong>COLLAPSIBLE FRAME</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Vibroweapon</em><br />You install an expandable hilt on your modified weapon. Your modified weapon gains the reach property.</p>\n<hr />\n<h4><strong>CONTOURED GRIP</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level, Vibroweapon</em><br />You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>EXPANDED MAGAZINE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Blaster</em><br />Your modified weapon can be more efficiently reloaded. You can reload your modified weapon once without using an action. You can&rsquo;t use this feature again until you reload the weapon with an action.</p>\n<hr />\n<h4><strong>FLASHLIGHT</strong></h4>\n<p>You affix a targeted light to your weapon. As a bonus action, you can toggle the light on or off. While on, your weapon sheds bright light in a 60-foot cone.</p>\n<hr />\n<h4><strong>HARPOON REEL</strong></h4>\n<p>You install a secondary firemode that launches a harpoon attached to a tightly coiled cord. With this harpoon, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d6 kinetic damage. This attack can target a surface, object, or creature.</p>\n<p>A creature struck by this attack is impaled by the harpoon. As an action, a creature can attempt to remove the harpoon. Removing the harpoon requires a Strength check. While the harpoon is stuck in the target, you are connected to the target by a 60 foot cable.</p>\n<p>While connected in this manner, you can use your bonus action to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to release the cable (no action required).</p>\n<p>Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you recover and reinsert the harpoon as an action.</p>\n<hr />\n<h4><strong>IMBUE WEAPON</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em><br />You modify your weapon to carry a charge. Over the course of a short rest, you can cast an at-will tech power, channeling it into your weapon. The next time you hit with your weapon, the stored power is released. If the power would require an attack roll, make a tech attack roll. If the power would require a saving throw, the target must make the saving throw as normal. On a hit, or a failure, the target suffers the power&rsquo;s normal effects.</p>\n<hr />\n<h4><strong>IMPROVED BURST CORE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Burst Core</em><br />Your weapon&rsquo;s burst number is reduced to half its reload number.</p>\n<hr />\n<h4><strong>INTEGRATED MAGAZINE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Expanded Magazine</em><br />Your modified weapon can be more efficiently reloaded. You can reload your modified weapon twice without using an action. You can&rsquo;t use this feature again until you reload the weapon with an action.</p>\n<hr />\n<h4><strong>JAGGED OSCILLATOR</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Vibroweapon</em><br />When you critically hit with the weapon, you deal an additional 1d8 kinetic damage.</p>\n<hr />\n<h4><strong>KEEN OSCILLATOR</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Jagged Oscillator</em><br />Your weapon&rsquo;s critical hit range increases by 1.</p>\n<hr />\n<h4><strong>NEUTRONIUM EDGE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level, Vibroweapon</em><br />You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>OVERCHARGE WEAPON</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;11th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Booming Strikes</em><br />You gain the ability to channel your tech power to enhance your weapon&rsquo;s damage. You can expend one tech slot to deal additional damage to the target. The extra damage is 1d6 for a 1st-level tech slot, plus 1d6 for each slot level higher than 1st, to a maximum of 5d6. The damage is the same type as the weapon damage. If you also use your Booming Strikes with an attack, you add this damage to the extra damage of your Booming Strikes.</p>\n<hr />\n<h4><strong>POWER LOOP</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em><br />When you hit with the weapon, you can choose channel the energy generated, gaining temporary hit points equal to half the damage dealt.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>\n<hr />\n<h4><strong>RECOIL DAMPENER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Blaster with the strength property</em><br />You install a recoil dampener in your modified blaster, removing the strength property from it.</p>\n<hr />\n<h4><strong>RETURNING WEAPON GUARD</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Vibroweapon</em><br />You install a retractible chain in your modified vibroweapon. If the weapon does not already have the thrown property, it gains it with a range of 20/60. Additionally, it gains the returning property.</p>\n<hr />\n<h4><strong>SCREENING WEAPON</strong></h4>\n<p>You modify your modified weapon with a sound dampening module. When you make a weapon attack with your weapon while hidden, Investigation and Perception checks made to locate you that rely on sound have disadvantage.</p>\n<hr />\n<h4><strong>SHOCK ABSORBER</strong></h4>\n<p>You add a reclamation device to your modified weapon to gather energy from the surroundings when it is present. While wielding your modified weapon, you can cast the&nbsp;absorb energy&nbsp;tech power and the power&rsquo;s extra damage applies to both melee and ranged weapon attacks.</p>\n<hr />\n<h4><strong>SIEGE WEAPON</strong></h4>\n<p>You modify your weapon to be more effective against barriers. Your weapon deals double damage against structures.</p>\n<hr />\n<h4><strong>SHOCKING HARPOON</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Harpoon Reel</em><br />After hitting a creature with the harpoon fire mode, you can use the connection to deliver an at-will tech power. As a bonus action, you can cast an at-will tech power at the target with a range of touch. If the power requires an attack roll, you have advantage. If the target requires a saving throw, the target has disadvantage.</p>\n<p>Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you recover the harpoon.</p>\n<hr />\n<h4><strong>SHOCKING OSCILLATOR</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level, Vibroweapon</em><br />When you hit with the weapon, you can create an electronic burst. Each creature in a 15-foot cone centered on the creature you hit must make a Dexterity saving throw against your tech save DC, taking 1d8 lightning damage on a failed save or half as much on a successful one.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>\n<hr />\n<h4><strong>SNAP FIRE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level, Blaster</em><br />You modify your modified blaster weapon for quick shots. You can use your reaction to take a opportunity attack with your modified weapon if an enemy comes within 10 feet of you. You have disadvantage on this attack.</p>\n<hr />\n<h4><strong>STABILIZER CELL</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Vibroweapon with the dexterity property</em><br />You install a stabilizer cell in your modified vibroweapon, removing the dexterity property from it.</p>\n<hr />\n<h4><strong>STAGGERING OSCILLATOR</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Vibroweapon</em><br />When you hit with the weapon, you can force the target to make a Strength saving throw. On a failed save, the creature is pushed back 10 feet and knocked prone.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>\n<hr />\n<h4><strong>TRACKER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />You add a tracking mechanism to your modified weapon. The tracker has 3 charges. As an action you can use 1 charge to cast&nbsp;target lock. As an action you can use 2 charges to cast&nbsp;detect invisibility.</p>\n<p>The tracker regains all expended charges after a long rest.</p>\n<hr />\n<h4><strong>TRUELIGHT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;11th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Flashlight</em><br />When toggled on, your flashlight now automatically dispels illusions and can detect invisibility, as with truesight.</p>\n<hr />\n<h4><strong>VENOMOUS OSCILLATOR</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level, Vibroweapon</em><br />As a bonus action, you can coat your weapon in a thin layer of poison for 1 minute. The next time you hit with the weapon, the creature must make a Constitution saving throw against your tech save DC. On a failed save, a creature takes 1d10 poison damage and becomes poisoned for 1 minute.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

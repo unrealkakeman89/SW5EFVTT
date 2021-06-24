@@ -1,0 +1,115 @@
+{
+    "name": "Nomad",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You grew up in the wilds, far from civilization and the comforts of town and technology. You've witnessed the migration of herds larger than forests, survived weather more extreme than any city-dweller could comprehend, and enjoyed the solitude of being the only thinking creature for miles in any direction. The wilds are in your blood, whether you were a nomad, an explorer, a recluse, a hunter-gatherer, or even a marauder. Even in places where you don't know the specific features of the terrain, you know the ways of the wild."
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Animal Handling, Athletics, Medicine, and Survival"
+        },
+        "toolProficiencies": {
+            "value": "One type of musical instrument"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A walking stick, a hunting trap, a trophy from an animal you killed, a set of traveler's clothes, and a belt pouch containing 100 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Often considered rude and uncouth among civilized folk, nomads have little respect for the niceties of life in the cities. The ties of tribe, clan, family, and the natural world are the most important bonds to nomads."
+        },
+        "featureName": {
+            "value": "Wanderer"
+        },
+        "featureText": {
+            "value": "You have an excellent memory for maps and geography, and you can always recall the general layout of terrain, settlements, and other features around you. In addition, you can find food and fresh water for yourself and up to five other people each day, provided that the land offers berries, small game, water, and so forth."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Animal Handler</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Medic</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Survivalist</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Dungeon Delver</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Observant</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I'm driven by a wanderlust that led me away from home.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I watch over my friends as if they were a litter of newborn pups.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I once ran twenty-five miles without stopping to warn my clan of an approaching horde. I'd do it again if I had to.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I have a lesson for every situation, drawn from observing nature.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I place no stock in wealthy or well-mannered folk. Money and manners won't save you from a hungry rancor.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I'm always picking things up, absently fiddling with them, and sometimes accidentally breaking them.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I feel far more comfortable around animals than people.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I was, in fact, raised by wampas.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Change. Life is like the seasons, in constant change, and we must change with it. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Greater Good. It is each person's responsibility to make the most happiness for the whole tribe. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Honor. If I dishonor myself, I dishonor my whole clan. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Might. The strongest are meant to rule. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Nature. The natural world is more important than all the constructs of civilization. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Glory. I must earn glory in battle, for myself and my clan. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I am too enamored of ale, wine, and other intoxicants.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">There's no room for caution in a life lived to the fullest.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I remember every insult I've received and nurse a silent resentment toward anyone who's ever wronged me.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I am slow to trust members of other species, tribes, and societies.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Violence is my answer to almost any challenge.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Don't expect me to save those who can't save themselves. It is nature's way that the strong thrive and the weak perish.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">My family, clan, or tribe is the most important thing in my life, even when they are far from me.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">An injury to the unspoiled wilderness of my home is an injury to me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I will bring terrible wrath down on the Darkdoers who destroyed my homeland.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I am the last of my tribe, and it is up to me to ensure their names enter legend.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I suffer awful visions of a coming disaster and will do anything to prevent it.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">It is my duty to provide children to sustain my tribe.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Nomad.webp",
+    "effects": [
+        {
+            "_id": "9i2Wqxl58NK5ZsY5",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Nomad",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "music",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Nomad",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "iw9SoyGS7iMNtG6f"
+}

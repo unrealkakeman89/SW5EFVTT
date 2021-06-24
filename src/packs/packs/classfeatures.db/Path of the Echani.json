@@ -1,0 +1,71 @@
+{
+    "_id": "7EFy4psVKFV8Txr5",
+    "name": "Path of the Echani",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Beginning when you choose this order at 3rd level, your special martial arts training leads you to master the use of certain weapons. You gain the following benefits.</p>\n<blockquote>\n<h4><strong>ECHANI WEAPONS</strong></h4>\n<p>Choose two types of weapons to be your Echani weapons: one vibroweapon and one blaster. Each of these weapons can be any simple or martial weapon that lacks the special property. You gain proficiency with these weapons if you don&rsquo;t already have it. Weapons of the chosen types are monk weapons for you. Many of this order&rsquo;s features work only with your Echani weapons. When you reach 6th, 11th, and 17th level in this class, you can choose another type of weapon to be an Echani weapon for you, following the criteria above.</p>\n<hr />\n<h4><strong>AGILE PARRY</strong></h4>\n<p>If you make an unarmed strike as part of the Attack action on your turn and are holding an Echani weapon, you can use it to defend yourself if it is a melee weapon. You gain a +2 bonus to AC until the start of your next turn, while the weapon is in your hand and you aren&rsquo;t incapacitated.</p>\n<hr />\n<h4><strong>ECHANI'S SHOT</strong></h4>\n<p>&nbsp;You can use a bonus action on your turn to make your ranged attacks with an Echani weapon more deadly. When you do so, any target you hit with a ranged attack using an Echani weapon takes an extra 1d4 damage of the weapon&rsquo;s type. You retain this benefit until the end of the current turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

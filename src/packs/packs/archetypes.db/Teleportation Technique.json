@@ -1,0 +1,35 @@
+{
+    "_id": "np8PlkH43bFHGOjq",
+    "name": "Teleportation Technique",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Scout",
+        "description": {
+            "value": "<h1>Teleportation Technique</h1>\n<p>Whether through experimentation or discovery of an ancient technology, followers of the Teleportation Technique have learned to create brief teleportation portals, allowing them to maneuver and attack both quickly and unpredictably throughout the battlefield.</p>\n<h2>Personal Teleporter</h2>\n<p>When you choose this technique at 3rd level, you can use portable teleporters as a bonus action, instead of an action.</p>\n<p>Additionally, while you are wielding a tech focus, you can use your bonus action to create a pair of linked portals: one portal appears in a space within 5 feet of you, and the other portal appears in an unoccupied space you can see up to 30 feet away. These portals last until the start of your next turn, and they are large enough to accommodate Medium and smaller creatures and objects. Portals take the appearance of an elongated, shimmering mirror, and looking through a portal, a creature can see through the linked portal as if looking through a window. A creature or object who passes through a portal immediately appears in a space within 5 feet of the linked portal. You can use your reaction to end your portals early. If a creature is partially within your portals, it is shunted back to the space it previously occupied and it must make a Dexterity saving throw against your tech save DC. On a failed save, it takes energy damage equal to your scout level + your intelligence modifier.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest. At the beginning of each of your turns, while you have a pair of portals active, you can expend a use of this feature to extend the duration of the portals until the start of your next turn (no action required).</p>\n<p>The distance at which you can create portals increases at higher levels. It increases to 60 feet at 5th level, 90 feet at 9th level, 150 feet at 13th level, 300 feet at 17th level, and 1,000 feet at 20th level.</p>\n<h2>Mark of the Teleporter</h2>\n<p>Also at 3rd level, on your turn, when you deal damage to the target of your Ranger's Quarry, and either you, your weapon, or the source of your damage have passed through the portal on this turn, when you roll below half the maximum on a damage die, you can treat the roll as if you'd rolled half the maximum on the damage die. You can only affect a number of dice up to half your intelligence modifier (rounded up) in this way.</p>\n<h2>Residual Warp</h2>\n<p>Beginning at 7th level, when you use your Personal Teleporter feature, you can place your portal in a place you've visited in the last 10 minutes, provided you can remember it, as opposed to a place you can see. That place must still be within range of your teleporter.</p>\n<h2>Quantum Entanglement</h2>\n<p>Starting at 11th level, when you use your Personal Teleporter feature, you can place the portal that you would normally place within 5 feet of you in a place you can see within your Personal Teleporter's range. If that space is occupied by a Huge or smaller creature or a Medium or smaller unsecured object, it must make a Dexterity saving throw against your tech save DC. An object automatically fails this saving throw, and a creature can choose to fail. On a failed save, a Medium or smaller creature or object falls through the portal, immediately appearing in a space within 5 feet of the linked portal and falling prone. A Large or Huge creature, instead, falls prone without moving.</p>\n<h2>Reprisal</h2>\n<p>At 15th level, when you would be affected by a weapon or tech power that requires a Dexterity saving throw or attack roll and would affect only you, you can use your reaction to instantaneously create a pair of portals to redirect that power to another target within 30 feet. If the weapon or power required a melee or ranged attack roll, make a melee or ranged tech attack roll against the new target, as appropriate. If it required a Dexterity saving throw, the new target must make a Dexterity saving throw against your tech save DC.</p>\n<p>Once you've used this feature, you must complete a short or long rest before you can use it again.</p>"
+        },
+        "source": "EC",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Techcaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Teleportation%20Technique.webp",
+    "effects": []
+}

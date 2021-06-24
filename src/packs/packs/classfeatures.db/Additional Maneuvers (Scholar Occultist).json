@@ -1,0 +1,71 @@
+{
+    "_id": "bXxLsDfA3w1lZcvI",
+    "name": "Additional Maneuvers (Scholar: Occultist)",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Occultist Pursuit</strong>:&nbsp;3rd level</em></p>\n<p>You gain access to new maneuvers which reflect the progress of your studies of the supernatural. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h3><strong>Agonizing Lethargy</strong></h3>\n<p>You can use an action to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you. The target must succeed on a Constitution saving throw. On a failed save, the target takes 1d6 necrotic damage for each attack it makes until the start of your next turn. A creature targeted by your Critical Analysis has disadvantage on the save.</p>\n<hr />\n<h3><strong>Befogging Ichor</strong></h3>\n<p>You can use a bonus action to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you. The target must succeed on a Wisdom saving throw. On a failed save, the target can't take reactions until the start of its next turn and on its turn must use its movement to move half its speed in a random direction. Roll a d8 and assign a direction to each face. If the direction rolled is blocked, the target doesn't move.</p>\n<hr />\n<h3><strong>Chains of Transfixing</strong></h3>\n<p>You can use a bonus action to expend a superiority die. When you do so, choose a creature you can see within 30 feet of you that is no more than one size larger than you. The target must succeed on a Strength saving throw or gain four levels of slowed until the start of your next turn.</p>\n<hr />\n<h3><strong>Dark Transference</strong></h3>\n<p>When you hit the target of your Critical Analysis with an attack, you can expend a superiority die and roll it to attempt to siphon life from it. The target must succeed on a Constitution saving throw. On a failed save, add the result to the damage roll, and you regain one expended Hit Die.</p>\n<hr />\n<h3><strong>Deathseek</strong></h3>\n<p>When an attack made against the target of your Critical Analysis that you can see would miss, you can use a reaction to expend a superiority die and roll it to force the creature to instead take the hit. The creature must succeed on a Wisdom saving throw. On a failed save, the target takes the minimum damage the attack could have dealt plus additional damage equal to the roll.</p>\n<hr />\n<h3><strong>Reverse Curse</strong></h3>\n<p>When another creature attempts to charm or frighten you or an ally you can see within 15 feet of you, you can use your reaction to expend a superiority die and roll it to attempt to turn the effect back on that creature. The creature must succeed on a Wisdom saving throw or be be charmed or frightened by you, dependent on the triggering ability, for a number of rounds equal to the die roll or until the creature takes any damage.</p>\n<hr />\n<h3><strong>Shadow Puppetry</strong></h3>\n<p>When a creature you can see within 30 feet of you is reduced to 0 hit points, you can use your reaction to expend a superiority die to give that creature a final act of aggression. That creature can immediately move a number of feet equal to 5 times the result of the die and make a single weapon attack against a target of your choice within its attack range, adding the die to the attack roll.</p>\n<hr />\n<h3><strong>Water of Life</strong></h3>\n<p>When an allied creature within 30 feet that you can see takes damage, you can use a reaction to expend a superiority die and roll it. The ally regains a number of hit points equal to the roll + your Intelligence modifier.</p>\n<hr />\n<h3><strong>Wracking Torment</strong></h3>\n<p>When a hostile creature you can see within 30 feet would take damage from an effect you or a friendly creature controls, you can use your reaction to expend a superiority die to temporarily weaken their resilience against it. Until the end of the turn, the target loses resistance to the damage types of the triggering attack or power.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Occultist 3",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-ARCH-Passive.webp",
+    "effects": []
+}

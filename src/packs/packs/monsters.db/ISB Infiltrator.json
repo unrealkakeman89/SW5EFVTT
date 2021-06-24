@@ -1,0 +1,1725 @@
+{
+    "_id": "yu6AHhxvTmWVsFou",
+    "name": "ISB Infiltrator",
+    "permission": {
+        "default": 0,
+        "ZTMzMzlmOTEwY2U4": 3
+    },
+    "type": "npc",
+    "data": {
+        "abilities": {
+            "str": {
+                "value": 8,
+                "proficient": 0,
+                "min": 3,
+                "mod": -1,
+                "save": -1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "dex": {
+                "value": 16,
+                "proficient": 1,
+                "min": 3,
+                "mod": 3,
+                "save": 5,
+                "prof": 2,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "con": {
+                "value": 10,
+                "proficient": 0,
+                "min": 3,
+                "mod": 0,
+                "save": 0,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "int": {
+                "value": 16,
+                "proficient": 1,
+                "min": 3,
+                "mod": 3,
+                "save": 5,
+                "prof": 2,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "wis": {
+                "value": 12,
+                "proficient": 0,
+                "min": 3,
+                "mod": 1,
+                "save": 1,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            },
+            "cha": {
+                "value": 14,
+                "proficient": 0,
+                "min": 3,
+                "mod": 2,
+                "save": 2,
+                "prof": 0,
+                "saveBonus": 0,
+                "checkBonus": 0
+            }
+        },
+        "attributes": {
+            "ac": {
+                "value": 15,
+                "min": 0,
+                "formula": "heavy combat suit"
+            },
+            "hp": {
+                "value": 36,
+                "min": 0,
+                "max": 36,
+                "temp": 0,
+                "tempmax": 0,
+                "formula": "8d8"
+            },
+            "init": {
+                "value": 0,
+                "bonus": 0,
+                "mod": 3,
+                "prof": 0,
+                "total": 3
+            },
+            "powercasting": "engineer",
+            "force": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 0,
+                    "min": 0,
+                    "max": 0,
+                    "temp": null,
+                    "tempmax": null
+                },
+                "level": 0
+            },
+            "tech": {
+                "known": {
+                    "value": 0,
+                    "max": 0
+                },
+                "points": {
+                    "value": 15,
+                    "min": 0,
+                    "max": 15,
+                    "temp": null,
+                    "tempmax": null
+                },
+                "level": 0
+            },
+            "movement": {
+                "burrow": 0,
+                "climb": 0,
+                "fly": 0,
+                "swim": 0,
+                "walk": 30,
+                "units": "ft",
+                "hover": false
+            },
+            "prof": 2,
+            "powerdc": 10,
+            "bar1": {
+                "value": 36,
+                "min": 0,
+                "max": 36
+            },
+            "bar2": {
+                "value": 15,
+                "min": 0,
+                "max": 0
+            },
+            "senses": {
+                "special": "passive Perception 13"
+            },
+            "death": {
+                "success": null,
+                "failure": null
+            },
+            "exhaustion": null,
+            "inspiration": false
+        },
+        "details": {
+            "biography": {
+                "value": "<blockquote><p><i>\"The Imperial Security Bureau pays attention to patterns.\"</i></p><p><span style=\"font-size: 13px\">- Agent Alexsandr Kallus, to Cumberlayne Aresko</span></p></blockquote><table class=\"userscript-table userscript-table-bordered\"><tbody><tr><td><u>Organization type</u></td><td><ul><li>Law enforcement agency</li><li>Intelligence agency</li></ul></td></tr><tr><td><u>Founder(s)</u></td><td>Galactic Emperor Sheev Palpatine</td></tr><tr><td><u>Leader(s)</u></td><td><ul><li>Unidentified Director</li><li>Deputy Director Harus Ison</li><li>Colonel Wullf Yularen</li><li>ISB high command</li></ul></td></tr><tr><td><u>Sub-group(s)</u></td><td><ul><li>Enforcement</li><li>Imperial Military Department of Advanced Weapons Research</li><li>Internal Affairs</li><li>Interrogation</li><li>Investigations</li><li>Re-Education</li><li>Special Operations</li><li>Surveillance</li></ul></td></tr><tr><td><u>Headquarters</u></td><td>ISB Central Office, Coruscant</td></tr><tr><td><u>Location(s)</u></td><td><ul><li>Imperial Office of Security, Scarif</li><li>Imperial Security Bureau headquarters, Lothal</li><li>ISB Academy and Offices, Coruscant</li><li>Killun Station, Killun</li><li>Scarif vault, Scarif</li><li>Viper's Nest, Virkoi</li><li>Wretch of Tayron,&nbsp;<span style=\"background-color: transparent\">Tayron</span></li></ul></td></tr><tr><td><u>Date founded</u></td><td>19 BBY</td></tr><tr><td><u>Date fragmented</u></td><td><p>4 ABY, after the battle of Endor</p></td></tr><tr><td><u>Date dissolved</u></td><td>5 ABY</td></tr><tr><td><u>Affiliation</u></td><td>Galactic Empire (Select Committee)</td></tr></tbody></table><p>The Imperial Security Bureau (ISB), also referred to as the Imperial Security Office, Security Bureau, or Imperial Security, was a law-enforcement and intelligence agency of the Galactic Empire that was charged with matters of internal state security and ensuring the loyalty of citizens to the Empire. Aside from that, it happened to be one of the many umbrella organizations under the greater Commission for the Preservation of the New Order (COMPNOR), and was larger than its sister agency Imperial Intelligence. It was led by ISB high command.<br></p><blockquote>History</blockquote><p><b>Early growth</b></p><p>The Imperial Security Bureau was formed by Galactic Emperor Palpatine as a secret police organization, dedicated to rooting out enemies of the New Order and maintaining stability throughout Imperial territories shortly after the proclamation of the New Order. Within fourteen years, the organization grew from a handful of agents into an organization double the size of Imperial Intelligence.</p><p>Following the Clone Wars, the agency helped oversee the dismantling of Confederate warships and martial supplies. Concurrent loyalty purges saw vast amounts of Separatist propaganda destroyed, rescinded, and withheld. Only a handful of propaganda posters such as Ansibella Delu's Count Dooku: Words of Truth escaped the purges. When Art Group agents discovered egregious violations of its artistic tenets, agents of the ISB were called in to make troublesome artists disappear.</p><p>Five years into the Emperor's reign, Imperial Intelligence agents found a cache of communications devices on the remote world of Murkhana and referred the case to the ISB, who brought the matter to the Emperor and his Imperial Ruling Council. It was ultimately decided to send Wilhuff Tarkin and Darth Vader to investigate the cache, which was in reality set up by a small rebel cell, despite the ISB hoping to receive full oversight of the investigation from Imperial Intelligence and the Naval Intelligence Agency.</p><p><b>Fighting the Rebellion</b></p><p>One of the ISB's top members was Agent Kallus, who worked in both the Investigation and Internal Affairs branches of the organization and searched for signs of disloyal activity or insurgency. His primary mission was to ensure it did not spread into a full-scale rebellion against the Empire. In the fifteenth year of the Empire, the Imperial Security Bureau took special interest in the Lothal-based Spectres rebel cell, whose attacks on Imperial outposts revealed risks of sedition and gave warning signs of rebellion. Kallus became a perennial foe of the Spectres before striking an unlikely friendship with the Lasat Spectre Garazeb Orrelios, which led him to reconsider his allegiance to the Empire. Kallus subsequently became the rebel operative known as Fulcrum, who supplied the Phoenix Cell and Spectres with intelligence.</p><p>During Nightswan's campaign, ISB Colonel and Clone Wars veteran Wullf Yularen took an interest in investigating the shadowy insurgent leader and pirate known as Nightswan. He was assisted by the Imperial Navy officers Thrawn and Eli Vanto, and future Lothal Governor Arihnda Pryce. Together, they exposed Nightswan's Coruscant spy ring, which included the Higher Skies Advocacy Group and members of the Yinchom Dojo. During the siege of the Creekpath Mining and Refining complex on Batonn, Pryce convinced Yularen to let her accompany Agent Gudry on a mission to disable the Batonn insurgents' deflector shield generator. After Pryce killed Gudry for refusing to evacuate her parents before Thrawn's assault, Pryce blew up the mine's explosive cache to cover up Gudry's murder. This led to many civilian casualties on Batonn, horrifying both Yularen and Thrawn.</p><p>Later, Kallus helped the Spectres steal Thrawn's TIE/D Defender blueprints from the Imperial Armory Complex on Lothal. This led Thrawn to realize that the rebels had a mole within the Imperial ranks.Thrawn began screening the local Imperial sector command for the spy with the help of Yularen. To avoid discovery, Kallus framed Lieutenant Yogar Lyste. Despite Kallus' efforts, Thrawn realized that Kallus was the true spy but allowed him to continue operating in order to find Phoenix Squadron's rebel base. Thrawn subsequently tricked Kallus into exposing the location of Chopper Base by disclosing information about the Rebel Alliance's plans to attack the Imperial Armory Complex. However, Kallus managed to escape during the Battle of Atollon and officially joined the Alliance.</p><p>After Senator Mon Mothma resigned from the Imperial Senate and condemned Palpatine for his actions during the Ghorman Massacre, the ISB issued an alert for Mothma in an attempt to capture her. ISB agents also visited Cantham House on Coruscant, the meeting place of the Cantham House meetings, based on suspicions they had, and questioned Leia Organa and several others there.</p><p>Another ISB agent was loyalty officer Sinjir Rath Velus, who was recruited by ISB officer Sid Uddra. After a brutal period of training on the ocean world of Virkoi, Velus personally interrogated the traitorous Imperial Navy officer Lieutenant Alster Grove, who was part of a cabal that sought to assassinate Darth Vader. Velus interrogated Grove, who revealed his fellow conspirators. While Vader executed the other conspirators, Uddra threw Grove to his death in Virkoi's oceans.</p><p><b>Galactic Civil War</b></p><p>Following the destruction of the first Death Star, the ISB engaged in an increasing number of operations to root out the growing rebellion, and became busier than at any previous time in its history. These operations included a plan to sway mathematical genius Drusil Bephorin to the Empire's cause by keeping her in a sort of luxurious imprisonment on Denon. Project Hidden Eye was aimed at seeding sleeper operatives across the galaxy to spread propaganda and secretly report on citizens. The project, however, was cut short due to the intervention of Commander Luke Skywalker, a hero of the Rebel Alliance.</p><p><b>Post-Endor fragmentation</b></p><p>As with most other governmental agencies following the Empire's defeat at the Battle of Endor, the ISB was left scattered as the New Republic attacked distant ISB outposts and fomented dissent. Twenty days after the Battle of Endor, the ISB kept information on the Emperor's posthumous contingency plan on one of its Black Sites, the Wretch of Tayron. However, the base was taken by Rebel Alliance General Han Solo and his elite Pathfinders. The base commander was unable to initiate a data purge, and the Alliance obtained information on Operation: Cinder, thwarting attempts at its implementation for over three months.</p><p>In the months following Endor, the ISB was given full oversight over the security of the Imperial throneworld, Coruscant, after the Imperial Navy refused to provide ships to defend the planet, with Fleet Admiral Gallius Rax viewing it as a symbol of indolence and torpidity. As such, control of Imperial forces was left to the Empire's chief administrator, Grand Vizier Mas Amedda. While the ISB lacked the ships to effectively withstand a New Republic naval assault, ISB-loyal stormtroopers and personnel were deeply entrenched on the surface of the planet, which was already involved in a civil war between the ISB and New Republic\u2013backed resistance movements.</p><p>Velus joined a team of Imperial hunters led by the New Republic starfighter pilot Norra Wexley after defecting to the New Republic. After losing his family during a New Republic attack on the Hyborean Moon, Romwell Krass Junior abandoned his post and traveled the galaxy to grieve the loss of his loved ones. During the Battle of Jakku, Commander Brisney served as the ISB officer aboard the Imperial Star Destroyer Inflictor.</p><p><b>Legacy</b></p><p>By 28 ABY, the Imperial Security Bureau had ceased to exist along with the \"Old Empire.\" One former ISB officer was Arliz Hadrassian, a small-time businesswoman who was the leader of the Amaxine warriors, a paramilitary faction that served as a front group for the First Order, a remnant of the Old Empire based in the Unknown Regions. During a meeting with the Centrist senator Ransolm Casterfo, Hadrassian spent hours regaling the young senator with stories about her career in the Imperial Military and the ISB, unaware that he was part of Senator Leia Organa's investigation into the Amaxine warriors.</p><h3>Organization</h3><p><b>Command hierarchy and administration</b></p><p>The Imperial Security Bureau was a sister agency and rival to Imperial Intelligence. The ISB worked closely with Emperor Palpatine, being led five years into his reign by a Bureau Chief under which served Deputy Director Harus Ison and Colonel Yularen, who often operated in conjunction with the Joint Chiefs. ISB was sometimes attached to various fleets, sometimes falling under the command of the Navy and working alongside Naval intelligence. Members of the ISB worked from the ISB Central Office as part of the Federal District on Coruscant, while agents in the field would constantly provide intelligence updates to headquarters. The ISB high command governed the ISB. Many military officers feared the group and its power.</p><p><b>Personnel</b></p><p>Prospective ISB personnel were drawn from the Imperial Academy system and given training within the ISB Academy and Offices complex, located within the Verity District on Coruscant. Members went through a training regimen which included learning xenophobic propaganda, and were taught from the ISB Loyalty Manual. Members of the ISB were taught a specialized vocabulary to prevent outsiders from understanding their conversations. The term \"auditing\" was used to signal that suspects knew they were being investigated. The practice of provoking a suspect to commit a crime was referred to as \"crustbusting,\" and interrogating a supposed innocent in hopes he or she would react suspiciously was known as \"scattering.\" Framing a wanted suspect for a crime to make sure he or she would be arrested was referred to as \"Jabba.\"</p><p>Following completion of the Academy, recruits filed into one of several branches of the organization, such as Surveillance, Interrogation, and Re-Education.</p><p>High-ranking ISB agents could command stormtrooper squads, override orders of civilian and military authorities, replace questionable officers and commandeer Imperial military hardware, including Star Destroyers. Loyalty officers of the ISB were tasked with ensuring that regular troops and officers obeyed orders and conformed to Imperial ideology, and were regarded with great fear and respect. Impromptu inspections, undercover surveillance and seemingly limitless authority gave such officers unprecedented access to the lives of regular servicemen, creating a culture of fear to deter any tenuous links within the chain of command.</p><p>While most ISB agents were human, at least one Gotal named Barrisk Favvin worked as an ISB agent in the Kupohan city of Tonekh.</p><p><b>Enforcement</b></p><p>The Enforcement branch of the ISB served as backup for agents in the field, specially trained to provide support when necessary.</p><p><b>Interrogation</b></p><p>Interrogation was the second-largest branch in the ISB, and was intent on extracting information from various lifeforms to obtain valuable information. It claimed to have a 95 percent success rate in recovering useful data from questioned subjects. To that end, the ISB notably used IT-O Interrogation Units developed by the Imperial Department of Military Research.</p><p><b>Re-Education</b></p><p>The Re-Education division was focused on what some called \"brainwashing\" its subjects into supporting the Galactic Empire and its actions across the galaxy. Project Unity consisted of re-educating elements of society resistant to the New Order through a process of psychological manipulation and pharmaceutical conditioning.</p><p><b>Imperial Military Department of Advanced Weapons Research</b></p><p>Advanced Weapons Research was an agency responsible for special research and development of classified weapons, both before and during the Galactic Civil War. Weapons development fell under the arm of Imperial Intelligence while the Imperial Security Bureau defended the agency's secrets.</p><p><b>Internal Affairs</b></p><p>The Internal Affairs division maintained order by investigating possible instances of insubordination within the Empire, with Yularen briefly heading a division dedicated to exposing sedition within the Imperial Senate before becoming Deputy Director of the Naval Intelligence Agency. In addition, a single Internal Affairs officer was stationed aboard all Star Destroyers to investigate any signs of sedition among the crew.</p><p><b>Investigation</b></p><p>Those in Investigation used previously collected data to suppress rebel activity.</p><p><b>Special Operations</b></p><p>Blue Glass Arrow Main article: Special Operations (Imperial Security Bureau)</p><p>The Special Operations division was responsible for varying tasks within the Bureau, such as establishing Project Hidden Eye during the Galactic Civil War.</p><p><b>Surveillance</b></p><p>Operatives in the Surveillance branch were by far the most numerous, with its members focused on deciphering encrypted information and analyzing data to screen for potential threats against the New Order.<br></p>",
+                "public": ""
+            },
+            "alignment": "Lawful Dark",
+            "species": "",
+            "type": {
+                "value": "humanoid",
+                "subtype": "",
+                "swarm": "",
+                "custom": ""
+            },
+            "environment": "",
+            "cr": 3,
+            "powerForceLevel": 0,
+            "powerTechLevel": 3,
+            "xp": {
+                "value": 700
+            },
+            "source": "Roll 20",
+            "race": "",
+            "class": ""
+        },
+        "traits": {
+            "size": "med",
+            "di": {
+                "value": [],
+                "custom": ""
+            },
+            "dr": {
+                "value": [],
+                "custom": ""
+            },
+            "dv": {
+                "value": [],
+                "custom": ""
+            },
+            "ci": {
+                "value": [],
+                "custom": ""
+            },
+            "languages": {
+                "value": [],
+                "custom": "Galactic Basic, One Other Of Your Choice"
+            }
+        },
+        "currency": {
+            "gc": 0,
+            "pp": 0,
+            "gp": 0,
+            "ep": 0,
+            "sp": 0,
+            "cp": 0
+        },
+        "skills": {
+            "acr": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "ani": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "ath": {
+                "value": 0,
+                "ability": "str",
+                "bonus": 0,
+                "mod": -1,
+                "passive": 9,
+                "prof": 0,
+                "total": -1
+            },
+            "dec": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "ins": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "itm": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "inv": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "lor": {
+                "value": 0,
+                "ability": "int"
+            },
+            "med": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "nat": {
+                "value": 0,
+                "ability": "int",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "pil": {
+                "value": 0,
+                "ability": "int"
+            },
+            "prc": {
+                "value": 1,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 13,
+                "prof": 2,
+                "total": 3
+            },
+            "prf": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "per": {
+                "value": 0,
+                "ability": "cha",
+                "bonus": 0,
+                "mod": 2,
+                "passive": 12,
+                "prof": 0,
+                "total": 2
+            },
+            "slt": {
+                "value": 0,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 13,
+                "prof": 0,
+                "total": 3
+            },
+            "ste": {
+                "value": 1,
+                "ability": "dex",
+                "bonus": 0,
+                "mod": 3,
+                "passive": 15,
+                "prof": 2,
+                "total": 5
+            },
+            "sur": {
+                "value": 0,
+                "ability": "wis",
+                "bonus": 0,
+                "mod": 1,
+                "passive": 11,
+                "prof": 0,
+                "total": 1
+            },
+            "tec": {
+                "value": 0,
+                "ability": "int"
+            }
+        },
+        "powers": {
+            "power1": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 1000,
+                "tmax": 1000,
+                "toverride": null
+            },
+            "power2": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 1000,
+                "tmax": 1000,
+                "toverride": null
+            },
+            "power3": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power4": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power5": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power6": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power7": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power8": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "power9": {
+                "max": 0,
+                "fvalue": 0,
+                "fmax": 0,
+                "foverride": null,
+                "tvalue": 0,
+                "tmax": 0,
+                "toverride": null
+            },
+            "pact": {
+                "value": 0,
+                "max": 0,
+                "override": null,
+                "level": 0
+            },
+            "power0": {
+                "value": 0,
+                "max": 0
+            }
+        },
+        "bonuses": {
+            "mwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rwak": {
+                "attack": "",
+                "damage": ""
+            },
+            "mpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "rpak": {
+                "attack": "",
+                "damage": ""
+            },
+            "abilities": {
+                "check": "",
+                "save": "",
+                "skill": ""
+            },
+            "power": {
+                "forceLightDC": "",
+                "forceDarkDC": "",
+                "forceUnivDC": "",
+                "techDC": ""
+            }
+        },
+        "resources": {
+            "legact": {
+                "value": 0,
+                "max": 0
+            },
+            "legres": {
+                "value": 0,
+                "max": 0
+            },
+            "lair": {
+                "value": false,
+                "initiative": 0
+            }
+        }
+    },
+    "sort": 100001,
+    "flags": {
+        "sw5e": {
+            "dataVersion": "1.2.4"
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/monsters/207_-_ISB_Infiltrator/avatar.webp",
+    "token": {
+        "flags": {},
+        "name": "ISB Infiltrator",
+        "displayName": 40,
+        "img": "systems/sw5e/packs/Icons/monsters/207_-_ISB_Infiltrator/token.webp",
+        "tint": null,
+        "width": 1,
+        "height": 1,
+        "scale": 1,
+        "mirrorX": false,
+        "lockRotation": false,
+        "rotation": 0,
+        "vision": false,
+        "dimSight": 5,
+        "brightSight": 5,
+        "dimLight": 0,
+        "brightLight": 0,
+        "sightAngle": 360,
+        "lightAngle": 360,
+        "lightAlpha": 1,
+        "lightAnimation": {
+            "speed": 5,
+            "intensity": 5
+        },
+        "actorId": "yu6AHhxvTmWVsFou",
+        "actorLink": false,
+        "disposition": -1,
+        "displayBars": 40,
+        "bar1": {
+            "attribute": "attributes.hp"
+        },
+        "bar2": {
+            "attribute": "attributes.bar2"
+        },
+        "randomImg": false
+    },
+    "items": [
+        {
+            "_id": "MDM0YzEwYjk2Zjk2",
+            "name": "Cunning Action",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>On each of its turns, the infiltrator can use a bonus action to take the Dash, Disengage, or Hide action.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 10000,
+            "flags": {
+                "_sheetTab": "description",
+                "entityorder": {
+                    "order": 149
+                }
+            },
+            "img": "systems/dnd5e/icons/skills/violet_10.jpg",
+            "effects": []
+        },
+        {
+            "_id": "OGQ5MjNlOTUzY2Nj",
+            "name": "Evasion",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>If the infiltrator is subjected to an effect that allows it to make a Dex saving throw to take only half damage, the infiltrator instead takes no damage on a success, and half damage on a fail.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 20000,
+            "flags": {
+                "_sheetTab": "details",
+                "entityorder": {
+                    "order": 187
+                }
+            },
+            "img": "systems/dnd5e/icons/skills/red_03.jpg",
+            "effects": []
+        },
+        {
+            "_id": "MTA5MmJlMTliMzhh",
+            "name": "Techcasting",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The infiltrator is a 3rd-level techcaster. Its techcasting ability is Intelligence (tech save DC 13, +5 to hit with tech powers). It has 15 tech points and knows the following tech powers: At will: electrical burst, encrypted message, on/off 1st-level: holographic disguise, smoke cloud, tranquilizer 2nd-level: infiltrate, scorching ray</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "",
+                    "cost": 0,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 30000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/207_-_ISB_Infiltrator/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "YTI0MzU5NGE0ODNj",
+            "name": "Uncanny Dodge",
+            "type": "feat",
+            "data": {
+                "description": {
+                    "value": "<p>The infiltrator halves the damage that it takes from an attack that hits it.</p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "activation": {
+                    "type": "reaction",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": "",
+                    "long": "",
+                    "units": ""
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "",
+                "actionType": "",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "requirements": "",
+                "recharge": {
+                    "value": 0,
+                    "charged": false
+                }
+            },
+            "sort": 40000,
+            "flags": {
+                "_sheetTab": "description",
+                "entityorder": {
+                    "order": 139
+                }
+            },
+            "img": "systems/dnd5e/icons/skills/armor_01.jpg",
+            "effects": []
+        },
+        {
+            "_id": "YmE5MDU0OTMxYTcw",
+            "name": "Blaster Carbine",
+            "type": "weapon",
+            "data": {
+                "description": {
+                    "value": "<p><p><strong></strong><em>Ranged Weapon Attack </em>+5, Range 60/240 ft., One target. <em>Hit : </em>6 (1d6+3) energy damage.</p><p>The attack deals an extra 14 (4d6) damage when the infiltrator has advantage on the attack roll, or when the target is within 5 feet of an ally of the infiltrator and the infiltrator doesn't have disadvantage on the attack roll.</p></p>",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "",
+                "quantity": 1,
+                "weight": 1,
+                "price": 0,
+                "equipped": true,
+                "rarity": "",
+                "identified": true,
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 0,
+                    "units": ""
+                },
+                "target": {
+                    "value": "",
+                    "units": "",
+                    "type": ""
+                },
+                "range": {
+                    "value": 60,
+                    "long": 240,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": null,
+                    "amount": null
+                },
+                "ability": "dex",
+                "actionType": "rwak",
+                "attackBonus": 0,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6+3",
+                            "energy"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "armor": {
+                    "value": 10
+                },
+                "hp": {
+                    "value": 0,
+                    "max": 0,
+                    "dt": null,
+                    "conditions": ""
+                },
+                "weaponType": "natural",
+                "properties": {
+                    "amm": false,
+                    "hvy": false,
+                    "fin": false,
+                    "fir": false,
+                    "foc": false,
+                    "lgt": false,
+                    "rch": false,
+                    "rel": false,
+                    "ret": false,
+                    "spc": false,
+                    "thr": false,
+                    "two": false,
+                    "ver": false
+                },
+                "proficient": true,
+                "attunement": 0
+            },
+            "sort": 50000,
+            "flags": {},
+            "img": "systems/sw5e/packs/Icons/monsters/207_-_ISB_Infiltrator/avatar.webp",
+            "effects": []
+        },
+        {
+            "_id": "7fVKhppxfx8dcLsy",
+            "name": "Electrical Burst",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You emit a burst of electricity. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d6 lightning damage.</p>\n<p>This power's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": ""
+                },
+                "target": {
+                    "value": 5,
+                    "width": null,
+                    "units": "ft",
+                    "type": "sphere"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "save",
+                "attackBonus": null,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "1d6",
+                            "lightning"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "dex",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 150000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.dDOMCEIMHUrrdvho"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/ElectricalBurst.webp",
+            "effects": []
+        },
+        {
+            "_id": "XPNn5jcUrlHtVPNj",
+            "name": "Encrypted Message",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You point your finger toward a creature within range that possesses a commlink and whisper a message. The target (and only the target) hears the message and can send an encrypted reply that only you can hear. These messages cannot be intercepted or decrypted by unenhanced means.</p>\n<p>You can cast this power through solid objects if you are familiar with the target and know it is beyond the barrier. 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood blocks the power. The power doesn't have to follow a straight line and can travel freely around corners or through openings.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "round"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 120,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": null,
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 250000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.Jp3f51H4VaRiMLvb"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/EncryptedMessage.webp",
+            "effects": []
+        },
+        {
+            "_id": "34wPMlsoQa6Z9ujy",
+            "name": "On/Off",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>This power allows you to activate or deactivate any electronic device within range, as long as the device is not being wielded by a creature, and has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by <em>on/off</em>.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": ""
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "object"
+                },
+                "range": {
+                    "value": 60,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 0,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 350000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.E6OviwnCfEjRTx3X"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/OnOff.webp",
+            "effects": []
+        },
+        {
+            "_id": "p3VHgkLYz2Ws8Xax",
+            "name": "Holographic Disguise",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>Until the power ends or you use an action to dismiss it, you can disguise yourself through the use of a hologram emitter. You can appear to be shorter or taller by about a foot and change the appearance of your body weight, but you cannot change the basic structure of your body. The hologram can include your clothes, armor, weapons, and other belongings on your person.</p>\n<p>The illusion is only visual, so any sort of physical contact will only interact with the real size and shape of you. A creature can use its action to make an Intelligence (Investigation) check against your tech save DC, seeing through the hologram on a success.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": null,
+                    "width": null,
+                    "units": "",
+                    "type": "self"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "self"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "save",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "int",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 450000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.mFW2RREnUTmbXX4C"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/HolographicDisguise.webp",
+            "effects": []
+        },
+        {
+            "_id": "1suW3DBFO79hijQZ",
+            "name": "Smoke Cloud",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You cause thick smoke to erupt from a point within range, filling a 20-foot-radius sphere. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 2nd level or higher, the radius of the smoke cloud increases by 20 feet for each slot level above 1st.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 20,
+                    "width": null,
+                    "units": "ft",
+                    "type": "radius"
+                },
+                "range": {
+                    "value": 120,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 550000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.K5f18kJ5V2eMqLH7"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/SmokeCloud.webp",
+            "effects": []
+        },
+        {
+            "_id": "EhuEHjLBpkbpJBJ0",
+            "name": "Tranquilizer",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You emit a tranquilizing dart that knocks a creature unconscious. Roll 5d8; if the creature's remaining hit points are less than the total, the creature falls unconscious until the power ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. This power has no effect on droids or constructs.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 2nd level or higher, you can target an additional creature for each slot level above 1st. For each target, roll 5d8 separately.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "minute"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 90,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "util",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "5d8",
+                            ""
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 1,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 650000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.PrQodh2dn2Q7jJz7"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Tranquilizer.webp",
+            "effects": []
+        },
+        {
+            "_id": "H9tWY5ExJq2n1kIY",
+            "name": "Infiltrate",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>A creature you touch becomes invisible. Anything the target is carrying is invisible as long as it is on the target. The power ends if the target attacks or casts a power.</p>\n<p><em><strong>Overcharge Tech.</strong></em> You can target one additional creature for each slot level above 2nd.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": 1,
+                    "units": "hour"
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": null,
+                    "long": null,
+                    "units": "touch"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 2,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": true
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 750000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.Fb1sIhs7d6YWnF1J"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/Infiltrate.webp",
+            "effects": []
+        },
+        {
+            "_id": "TSpNelWL35vi7O5O",
+            "name": "Shocking Ray",
+            "type": "power",
+            "data": {
+                "description": {
+                    "value": "<p>You create three ionic rays and hurl them at targets within range. You can hurl them at one target or several. Make a ranged tech attack for each ray. On a hit, the target takes 2d4 ion damage.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 3rd level or higher, you create one additional ray for each slot level above 2nd.</p>\n",
+                    "chat": "",
+                    "unidentified": ""
+                },
+                "source": "PHB",
+                "activation": {
+                    "type": "action",
+                    "cost": 1,
+                    "condition": ""
+                },
+                "duration": {
+                    "value": null,
+                    "units": ""
+                },
+                "target": {
+                    "value": 1,
+                    "width": null,
+                    "units": "",
+                    "type": "creature"
+                },
+                "range": {
+                    "value": 120,
+                    "long": null,
+                    "units": "ft"
+                },
+                "uses": {
+                    "value": 0,
+                    "max": 0,
+                    "per": ""
+                },
+                "consume": {
+                    "type": "",
+                    "target": "",
+                    "amount": null
+                },
+                "ability": "int",
+                "actionType": "rpak",
+                "attackBonus": "@prof",
+                "chatFlavor": "",
+                "critical": null,
+                "damage": {
+                    "parts": [
+                        [
+                            "2d4",
+                            "ion"
+                        ]
+                    ],
+                    "versatile": ""
+                },
+                "formula": "",
+                "save": {
+                    "ability": "",
+                    "dc": null,
+                    "scaling": "power"
+                },
+                "level": 2,
+                "school": "tec",
+                "components": {
+                    "value": "",
+                    "vocal": false,
+                    "somatic": false,
+                    "material": false,
+                    "ritual": false,
+                    "concentration": false
+                },
+                "materials": {
+                    "value": "",
+                    "consumed": false,
+                    "cost": 0,
+                    "supply": 0
+                },
+                "preparation": {
+                    "mode": "",
+                    "prepared": false
+                },
+                "scaling": {
+                    "mode": "none",
+                    "formula": ""
+                }
+            },
+            "sort": 850000,
+            "flags": {
+                "exportSource": {
+                    "world": "sw5e",
+                    "system": "sw5e",
+                    "coreVersion": "0.6.6",
+                    "systemVersion": 0.98
+                },
+                "core": {
+                    "sourceId": "Compendium.sw5e.techpowers.Rs9CicKafsOq5FCa"
+                },
+                "sw5e": {
+                    "dataVersion": "1.2.4"
+                }
+            },
+            "img": "systems/sw5e/packs/Icons/Tech%20Powers/ShockingRay.webp",
+            "effects": []
+        }
+    ],
+    "effects": []
+}

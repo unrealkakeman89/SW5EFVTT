@@ -1,0 +1,20 @@
+{
+    "_id": "qj81y22qE76DbgYS",
+    "name": "Snapshot Mastery",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingmastery",
+    "data": {
+        "description": {
+            "value": "<p>You've mastered getting up close and personal with blaster weapons, maintaining both rate of fire and accuracy. While you are wielding a blaster weapon with which you are proficient, you gain the following benefits:</p><ul><li>When you take the Attack action targeting a creature within 30 feet, you can choose to attack rapidly at the expense of accuracy. Your ranged weapon attack is made without the aid of your proficiency bonus, but you can use your bonus action to make an additional ranged weapon attack, also without your proficiency bonus. If you would make more than one attack when you take the Attack action, only one attack is made without your proficiency bonus.</li><li>Your ranged weapon attacks ignore one-quarter and half cover against targets within 30 feet of you. If your ranged weapon attacks would already ignore one-quarter and half cover against targets within 30 feet of you, they now also ignore three-quarters cover.</li><li>Other creatures provoke an opportunity attack from you when they move to within 30 feet of you, and you can use blaster weapons when making opportunity attacks.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Snapshot%20Mastery.webp",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "J4Fm8fhsVnEE6BVK",
+    "name": "Additional Maneuvers (Scholar: Zoologist)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, you gain access to new maneuvers which reflect the progress of your studies into the biology and behavior of animals. Whenever you learn a new maneuver, you can choose from any of the following as well. The maneuvers are listed in alphabetical order.</p>\n<hr />\n<h4><strong>LOYAL BOND</strong></h4>\n<p>Whenever you are hit with an attack, you can expend one superiority die to command your companion to immediately use its reaction and move up to its speed directly towards you. If it ends this movement within 5 feet of you, roll the superiority die. Your companion takes the damage instead of you, subtracting the amount you rolled from the total.</p>\n<hr />\n<h4><strong>GO GET 'EM</strong></h4>\n<p>While your companion is moving, you can expend a superiority die and add 5 times the number rolled to its movement speed.</p>\n<hr />\n<h4><strong>PIN DOWN</strong></h4>\n<p>When your beast attempts to grapple or knock a creature prone, you can expend a superiority die to give it direction as long as it can see or hear you. Roll a superiority die and add it to your beast&rsquo;s Strength (Athletics) check.</p>\n<hr />\n<h4><strong>PRIMAL ENDURANCE</strong></h4>\n<p>As an action, you can expend a superiority die to improve your beast&rsquo;s defense. Roll the die and add it to your beast&rsquo;s AC until the beginning of your next turn.</p>\n<hr />\n<h4><strong>SIC 'EM</strong></h4>\n<p>As an action, you can command your beast to savage a nearby enemy. Your beast can use its reaction to immediately move up to 10 feet and make one attack, adding the superiority dice to the damage roll on a hit.</p>\n<hr />\n<h4><strong>SPINE-CHILLING HOWLS</strong></h4>\n<p>As an action, you can expend one superiority die to command your beast to frighten another creature. The target must then succeed on a Wisdom saving throw against your Maneuver save DC or become frightened of both you and your beast for 1 minute.</p>\n<hr />\n<h4><strong>WILD SENSES</strong></h4>\n<p>Whenever you make a Wisdom (Perception) or a Wisdom (Survival) check, you can request the aid of your beast by expending a superiority die, adding the number rolled to the check. You can use this maneuver before or after making the ability check, but before the results of the ability check are determined.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

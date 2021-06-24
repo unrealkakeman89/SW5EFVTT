@@ -1,0 +1,270 @@
+{
+    "_id": "aqCgiO8ny3JFBgPm",
+    "name": "Ardennian",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>Ardennians are sentient humanoid simians hailing from the tropical paradise of Ardennia. They are covered in fur from head to their wrists and ankles, with brown and grey being the most common fur colors. Ardennians sport four arms and prehensile feet. All six of their limbs are equally dexterous.</p>\n<h2>Society and Culture</h2>\n<p>The Ardennian people themselves are a friendly communal species that are well known for welcoming visitors and inviting newcomers to traditional feasts and dances on the sandy beaches of Ardennia. Rural Ardiennan's live in modern tree-villages in the thick, dim jungle canopy on the majority of the islands. Ground level accommodations are available for off world visitors even in the smaller villages. Most off-worlders stay in the large modern resort complexes which boast having miles of private beaches or in the modern cities. Several large cities exist, scattered around the world, which typically encompass an entire island or a series of smaller islands joined together.</p>\n<p>Ardennia's distance from the main hyperlanes makes it one of the lesser-known vacation destinations, but it's a popular one for those who don't mind the extra travel time. Some affluent visitors prefer the solitude that Ardennia offers, and occasionally end up purchasing one of the smaller islands to build their own home. Ardennia is notable for having the most beach per square meter in the galaxy.</p>\n<h2>Names</h2>\n<p>Ardennians' names are typically concise and rarely more than two syllables, with a familal surname.</p>\n<p>&nbsp;&nbsp;<strong>Male Names.</strong> Rio, Jakar, Hul, Lup, Quil, Jerno</p>\n<p>&nbsp;&nbsp;<strong>Female Names.</strong> Rac, Bras, Nuc, Kua, Karta, Sanya</p>\n<p>&nbsp;&nbsp;<strong>Surnames.</strong> Betal, Durant, Jabut, Karon, Rambuan</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Charisma score increases by 1.</p><p><em><strong>Age.</strong></em> Ardennians reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Ardennians' peaceful nature causes them to tend toward the light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Ardennians typically stand 4 to 4 and a half feet tall and weigh around 60 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Four-Armed.</strong></em> Ardennians have four arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).</p><p><em><strong>Jungle Dweller.</strong></em> Growing up in the tree-villages of Ardennia has left an impact. You don't treat jungle terrain as difficult terrain.</p><p><em><strong>Mask of the Wild.</strong></em> You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</p><p><em><strong>Prehensile Feet.</strong></em> You have supreme control over your feet and can use them to manipulate objects as well as your hands.</p><p><em><strong>Strong-Legged.</strong></em> When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.</p><p><em><strong>Treeclimber.</strong></em> You have a climbing speed of 25 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Ardennian. Ardennian has a bubbly, energizing tone to it.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Brown or black"
+        },
+        "hairColorOptions": {
+            "value": "Brown to gray"
+        },
+        "eyeColorOptions": {
+            "value": "Brown or black"
+        },
+        "distinctions": {
+            "value": "Four arms, fur-covered, prehensile feet"
+        },
+        "heightAverage": {
+            "value": "3'2\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "50 lb."
+        },
+        "weightRollMod": {
+            "value": "x1 lb."
+        },
+        "homeworld": {
+            "value": "Ardennia"
+        },
+        "slanguage": {
+            "value": "Adrennian"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Ardennian",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.cha.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Charisma"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.climb",
+                    "value": "25",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Language"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "ardennian",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "N0nQEW5WU61tfyIg",
+                    "active": false,
+                    "_targets": []
+                }
+            ],
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Ardennian.webp",
+    "effects": [
+        {
+            "_id": "abUBIqj4EjIoc7yP",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Ardennian",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.cha.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.climb",
+                    "value": 25,
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "ardennian",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.maskOfTheWild",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.strongLegged",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.extraArms",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Ardennian.webp",
+            "label": "Ardennian",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

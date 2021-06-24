@@ -1,0 +1,31 @@
+{
+    "_id": "aqA8Oqnw1oj7ex1z",
+    "name": "Skim the Surface",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Pilot"
+        },
+        "featureType": {
+            "value": "Tactic"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Engines</em><br>As a bonus action, you can expend a power die and attempt to fly through the space of a hostile ship. Roll the die, take the result, and multiply it by 50. Your ship\u2019s flying speed increases by that amount until the end of your turn. Additionally, moving through a hostile ship\u2019s space does not count as hostile terrain this turn.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Pilot.webp",
+    "effects": []
+}

@@ -1,0 +1,37 @@
+{
+    "_id": "iBW7FadgLhaKsULk",
+    "name": "Interrogation Chamber",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite includes all of the necessary implements and apparatuses necessary to interrogate, or even torture, a number of prisoners equal to half the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table. When interrogating a prisoner, the interrogator has advantage on Charisma (Intimidation) and Charisma (Persuasion) checks. If they spend at least an hour interrogating a prisoner, the prisoner has disadvantage on Charisma (Deception) checks.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

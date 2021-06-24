@@ -1,0 +1,76 @@
+{
+    "_id": "LucUd3PXlxFHsgPO",
+    "name": "Toil and Trouble",
+    "permission": {
+        "default": 0,
+        "s2rjv4MJWWDF4RjH": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Occultist Pursuit</strong>:&nbsp;17th level</em></p>\n<p>You perfect your control of your curses, granting them unmatched potency. When the target of your <em>Curse of Objurgation</em> fails a saving throw against one of your maneuvers, you can choose to amplify that maneuver by expending a number of Hit Dice of your choice. The target immediately takes 1d8 psychic damage for every Hit Die spent in this way.</p>\n<p>Additionally, when creatures attempt to use a power like&nbsp;remove curse&nbsp;or other similar abilities to remove a curse you set, they must roll a Wisdom or Charisma check (their choice) against your maneuver save DC. On a failed save, their attempt fails, and any force or tech points spent in this way are wasted.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": null,
+            "max": "",
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "other",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d8",
+                    "psychic"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": "Occultist 17"
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCLR-ARCH-Passive.webp",
+    "effects": []
+}

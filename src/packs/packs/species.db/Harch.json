@@ -1,0 +1,274 @@
+{
+    "_id": "s9tDG6FriEAlVUfj",
+    "name": "Harch",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2>\n<p>The Harch possess a large-fanged mouth between two prominent chelicerae, above which they have six red eyes arranged in a semicircle. The two lowest eyes are larger and roughly twice the size of the four smaller eyes. Harch walk on two legs and have six arms, with the second and third set of arm protruding from behind the first pair rather than directly above or below them. These arms are covered in thick hair and end in three-fingered hands. The Harch are distantly related to the Aqualish species and there is much debate among geneticists regarding the relationship between the Harch and the Aqualish Ualaq subspecies. However, the Harch themselves considered such discussions to be obscene.</p>\n<h2>Society and Culture</h2>\n<p>Not much is known about the Harch, as few of them have mingled with the galactic community, preferring to stay on Secundus Ando. Harch that leave the planet tend to have a more aspirant nature than their fellows, and often reach great heights in their chosen professions in the galaxy. Such Harch are considered outliers\u2014most apparently care little for titles. Like the Arcona species, female Harch are seen as more domineering and aggressive than their male counterparts. It is not unheard of for a male Harch to raise entire broods of hatchlings alone.</p>\n<h2>Names</h2>\n<p>Harch names are not gender-specific. Harch do not use surnames.</p>\n<p>&nbsp; <strong>Names.</strong> Cubach, Quixoch, Trench, Turch</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Strength, Constitution, and Intelligence scores increase by 1.</p>\n<p><em><strong>Age.</strong></em> Harch reach adulthood at age 10 and can live up to 200 years.</p>\n<p><em><strong>Alignment.</strong></em> Harch are cold, calculating beings, causing them to tend toward the dark side, though there are exceptions.</p>\n<p><em><strong>Size.</strong></em> Harch stand around 6 feet tall and weigh between 200 and 300 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p>\n<p><em><strong>Darkvision.</strong></em> You have a keen eyesight, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p>\n<p><em><strong>Bite.</strong></em> Your fangs are a natural weapon, which you can use to make unarmed strikes. If you hit with them, you deal 1d4 + your Strength modifier kinetic damage.</p>\n<p><em><strong>Six-Armed.</strong></em> Harch have six arms which they can use independently of one another. You can only gain the benefit of items held by two of your arms at any given time, and once per round you can switch which arms you are benefiting from (no action required).</p>\n<p><em><strong>Spider Climb.</strong></em> You have a climbing speed of 30 feet. You have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing, and while climbing you always have two hands free.</p>\n<p><em><strong>Venomous Fangs.</strong></em> As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and the target must make a Constitution saving throw (DC = 8 + your proficiency bonus + your Constitution modifier). On a failed save, the target is poisoned until the end of its next turn, and you can't use this feature again until you complete a short or long rest.</p>\n<p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and Harchese. Harchese is discernible from other insectoid languages by a noticeable emphasis on consonants, especially the \"ch\" sound.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Pale pink"
+        },
+        "hairColorOptions": {
+            "value": "Brown, black"
+        },
+        "eyeColorOptions": {
+            "value": "Red"
+        },
+        "distinctions": {
+            "value": "Spider-like with six eyes, eight limbs and chelicerae"
+        },
+        "heightAverage": {
+            "value": "5'5\""
+        },
+        "heightRollMod": {
+            "value": "+2d8\""
+        },
+        "weightAverage": {
+            "value": "150 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Secundus Ando"
+        },
+        "slanguage": {
+            "value": "Harchese"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Harch",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.str.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Strength"
+                },
+                {
+                    "modSpecKey": "data.abilities.con.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Constitution"
+                },
+                {
+                    "modSpecKey": "data.abilities.int.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Intelligence"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (60 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.climb",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed Special"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": []
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "harchese",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "NveRcDDsRYXbUF0W",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Harch.webp",
+    "effects": [
+        {
+            "_id": "fVMBhfpLgK7mYOvF",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Harch",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.con.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.int.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 60,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.climb",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "harchese",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.extraArms",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Harch.webp",
+            "label": "Harch",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

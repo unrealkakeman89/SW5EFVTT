@@ -1,0 +1,32 @@
+{
+    "_id": "b5VLu2y247JeDz3Q",
+    "name": "Binders",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>These durasteel restraints can bind a Small or Medium creature. Escaping the binders requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of binders comes with one key. Without the key, a creature proficient with security kits can pick the binders\u2019 lock with a successful DC 15 Dexterity check. Binders have 15 hit points.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "",
+        "quantity": 1,
+        "weight": 6,
+        "price": 50,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Utility/Binders.webp"
+}

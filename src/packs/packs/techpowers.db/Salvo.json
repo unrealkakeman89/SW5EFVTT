@@ -1,0 +1,102 @@
+{
+    "_id": "cWpl0AM6R0DkEbzM",
+    "name": "Salvo",
+    "permission": {
+        "default": 0
+    },
+    "type": "power",
+    "data": {
+        "description": {
+            "value": "<p>You launch three projectiles at points you can see within range. Each creature within a 10-foot radius sphere of each point must make a Dexterity saving throw. A creature takes 3d6 fire and 3d6 kinetic damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one sphere is affected only once.</p>\n<p>The power damages objects in the area and ignites flammable objects that aren't being worn or carried.</p>\n<p><em><strong>Overcharge Tech.</strong></em> When you cast this power using a tech slot of 6th level or higher, you create four projectiles. When you cast this power using a tech slot of 8th level or higher, you create five projectiles.</p>\n",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "action",
+            "cost": 1,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 10,
+            "units": "ft",
+            "type": "sphere"
+        },
+        "range": {
+            "value": 60,
+            "long": null,
+            "units": "ft"
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": ""
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "int",
+        "actionType": "save",
+        "attackBonus": null,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "3d6",
+                    "fire"
+                ],
+                [
+                    "3d6",
+                    "kinetic"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": null,
+            "scaling": "power"
+        },
+        "level": 4,
+        "school": "tec",
+        "components": {
+            "value": "",
+            "vocal": false,
+            "somatic": false,
+            "material": false,
+            "ritual": false,
+            "concentration": false
+        },
+        "materials": {
+            "value": "",
+            "consumed": false,
+            "cost": 0,
+            "supply": 0
+        },
+        "preparation": {
+            "mode": "",
+            "prepared": false
+        },
+        "scaling": {
+            "mode": "none",
+            "formula": ""
+        }
+    },
+    "flags": {
+        "exportSource": {
+            "world": "sw5e",
+            "system": "sw5e",
+            "coreVersion": "0.6.6",
+            "systemVersion": 0.98
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Tech%20Powers/Salvo.webp"
+}

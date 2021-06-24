@@ -1,0 +1,71 @@
+{
+    "_id": "EmiCBDAZDJcTTBfb",
+    "name": "The Way of the Hydra",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Lastly at 3rd level, as a bonus action, you can enter a synchronized stance with your companion for 1 minute, as long as your companion is within 10 feet of you. While in this stance, once per turn, when you hit a creature with an attack, your companion has advantage on the next attack it makes against the same target before the end of your next turn. Additionally, once per turn, when your companion hits a creature with an attack, you have advantage on the next attack you make against the same target before the end of your next turn.</p>\n<p>This effect ends early if either you or your companion are incapacitated or die, or if your companion is ever more than 10 feet away from you. Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you complete a long rest.</p>\n<p>At 11th level, your companion must be within 30 feet of you to benefit from this feature. At 17th level, your companion must be within 60 feet.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "bonus",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": 1,
+            "units": "minute"
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

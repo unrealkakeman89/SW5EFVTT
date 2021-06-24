@@ -1,0 +1,23 @@
+{
+    "_id": "FGQRhvmHD3GLtjbx",
+    "name": "Rime Salvo",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> The ability to cast tech powers, at least 1 rank in gunner</em></p><p>Once per turn, when you hit a target with a ship attack from a primary or secondary weapon, you may use a reaction to spend one tech point to make the target gain 1 slowed level until the end of its turn as the hull is coated in frigid carbonite.</p>"
+        },
+        "prerequisites": [
+            "The ability to cast tech powers, at least 1 rank in gunner"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

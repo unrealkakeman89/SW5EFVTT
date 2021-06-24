@@ -1,0 +1,71 @@
+{
+    "_id": "sTy1MsBoX23ucs5S",
+    "name": "Discoveries (Slicer)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect your understanding of tech casting. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ADMINISTRATOR&rsquo;S LOG</strong></h4>\n<p>If you spend at least 10 minutes working on a computer or terminal, you can get a full list of users who have accessed the machine within the past 24 hours. Over the course of a long rest, you may then form a facsimile of identification that would allow you to pass yourself off as that person when accessing machines.</p>\n<hr />\n<h4><strong>BACKDOOR EGRESS</strong></h4>\n<p>When you cast a tech power that affects an area and requires a saving throw, and you are inside that power&rsquo;s area, you can use your reaction to move up to half your speed without provoking opportunity attacks. If you end this movement outside the area affected by the tech power, you do not have to make a saving throw to avoid its effects.</p>\n<hr />\n<h4><strong>INTELLIGENCE CORE OVERRIDE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em><br />You can cast the&nbsp;override interface&nbsp;tech power at 5th level without spending tech points.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>\n<hr />\n<h4><strong>RESOURCE APPROPRIATION</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;11th level</em><br />If you reduce the target of your Critical Analysis feature to 0 hit points, and it has tech point remaining, you may choose to gain any tech points it had remaining. Your current tech points cannot exceed your tech point maximum.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>\n<hr />\n<h4><strong>SKILLFUL CASTING</strong></h4>\n<p>When you hit a creature with an at-will tech power that requires an attack roll, you may treat that attack roll as a weapon attack for the purpose of using maneuvers.</p>\n<hr />\n<h4><strong>SLEEPER PROGRAM</strong></h4>\n<p>Whenever you cast a tech power with a casting time of 1 action, you can choose to delay the power&rsquo;s activation up to a minute. When you do so, you cast the power as normal, but holds its energy for the duration of the delay. Holding onto the power&rsquo;s effect requires concentration. If your concentration is broken before the delay ends, the power dissipates without taking effect. You can use your reaction to activate the power at any time.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you finish a long rest.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

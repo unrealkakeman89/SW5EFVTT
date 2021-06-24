@@ -1,0 +1,39 @@
+{
+    "_id": "MorU2Jy5yx77N9QO",
+    "name": "Kage Order",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Monk",
+        "description": {
+            "value": "<h1>Kage Order</h1>\n<p>Monks of the Kage Order, known as Kage warriors, have mastered fighting in darkness, using that which others fear as a weapon against them. Kage warriors learn tricks to create darkness where none exists, and learn to fight using their intuition rather than relying on sight.</p>\n<h2>Darkness Charges</h2>\n<p>Beginning when you choose this order at 3rd level, you learn to create a number of small charges that create enhanced darkness. Over the course of a short or long rest, you can create a number of charges equal to your Wisdom or Charisma modifier (your choice). Your charges can only be used by you, and they lose their potency at the end of your next short or long rest.</p>\n<p>Once per turn, when you would make a weapon attack or unarmed strike, you can instead throw one of your charges. Your charges have a range equal to 30 feet + your Strength modifier x 5. You can throw a device at a point you can see within range. The charges create a pocket of darkness in a 10-foot radius sphere centered on that point. The darkness spreads around corners. It lasts for 1 minute or until an enhanced source of brigiht light dispells it.</p>\n<h2>Disruptive Shock</h2>\n<p>At 6th level, once per turn, when you hit a creature with a melee weapon attack when you have advantage, or it fails a saving throw against an effect that you control, you can choose to roll a Martial Arts die and deal additional psychic damage equal to the amount rolled.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain any expended uses when you finish a short or long rest.</p>\n<h2>One With Darkness</h2>\n<p>Starting at 11th level, you have learned to become one with the shadows. When you are in an area of dim light or darkness, you can use your action to become invisible. You remain invisible until you make an attack, cast a power, or are in an area of bright light.</p>\n<h2>Opportunist</h2>\n<p>At 17th level, you can exploit a creature's momentary distraction when it is hit by an attack. Whenever a creature within 5 feet of you is hit by an attack made by a creature other than you, you can use your reaction to make a melee attack against that creature.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Kage%20Order.webp",
+    "effects": []
+}

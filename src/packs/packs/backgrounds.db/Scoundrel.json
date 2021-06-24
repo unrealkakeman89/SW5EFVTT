@@ -1,0 +1,121 @@
+{
+    "name": "Scoundrel",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You have always had a way with people. You can tease out their heart's desires after a few minutes of conversation, and with a few leading questions you can read them like they were children's books. It's a useful talent, and one that you're perfectly willing to use for your advantage. You know what people want and you promise to deliver, coaxing people into otherwise foolish decisions. You make the improbable sound plausible, and come ahead on every deal."
+        },
+        "flavorName": {
+            "value": "Favorite Schemes"
+        },
+        "flavorDescription": {
+            "value": "Every scoundrel has an angle they use in preference to other schemes. Choose a favorite scam or roll on the table below."
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Favorite Schemes</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I cheat at games involving chance.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I shave creds or forge documents.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I insinuate myself into people's lives to prey on their weakness and secure their fortunes.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I put on new identities like clothes.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I run sleight-of-hand cons on street corners.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I convince people that worthless junk is worth their hard-earned money.</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Deception, Insight, Performance, and Sleight of Hand"
+        },
+        "toolProficiencies": {
+            "value": "Disguise Kit, Forgery Kit"
+        },
+        "languages": {
+            "value": null
+        },
+        "equipment": {
+            "value": "A set of fine clothes, a disguise kit, a memento of a former con, and a belt pouch containing 150 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Scoundrels are colorful characters who conceal their true selves behind the masks they construct. They reflect what people want to see, what they want to believe, and how they see the world. But their true selves are sometimes plagued by an uneasy conscience, an old enemy, or deep-seated trust issues."
+        },
+        "featureName": {
+            "value": "False Identity"
+        },
+        "featureText": {
+            "value": "<p>You have created a second identity that includes documentation, established acquaintances, and disguises that allow you to assume that persona.</p><p>Additionally, you can forge documents including official papers and personal letters, as long as you have seen an example of the kind of document or the handwriting you are trying to copy.</p>"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Silver-Tongued</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Performer</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Quick-Fingered</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Force of Personality</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Snappy Interjection</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Actor</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I fall in and out of love easily, and am always pursuing someone.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I have a joke for every occasion, especially occasions where humor is inappropriate.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Flattery is my preferred trick for getting what I want.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm a born gambler who can't resist taking a risk for a potential payoff.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I lie about almost everything, even when there's no good reason to.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Sarcasm and insults are my weapons of choice.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I keep multiple symbols on me and invoke whatever power might come in useful at any given moment.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I pocket anything I see that might have some value.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Independence. I am a free spirit&mdash;no one tells me what to do. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Fairness. I never target people who can't afford to lose a few creds. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Charity. I distribute the money I acquire to the people who really need it. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Creativity. I never run the same con twice. (Any)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Friendship. Material goods come and go. Bonds of friendship last forever. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I'm determined to make something of myself. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I can't resist a pretty face.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I'm convinced that no one could ever fool me the way I fool others.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm too greedy for my own good. I can't resist taking a risk if there's money involved.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I can't resist swindling people who are more powerful than me.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I hate to admit it and will hate myself for it, but I'll run and preserve my own hide if the going gets tough.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I owe everything to my mentor&mdash;a horrible person who's probably rotting in jail somewhere.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Somewhere out there, I have a child who doesn't know me. I'm making the world better for him or her.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">A powerful person killed someone I love. Some day soon, I'll have my revenge.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I swindled and ruined a person who didn't deserve it, and I seek to atone for my misdeeds.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Scoundrel.webp",
+    "effects": [
+        {
+            "_id": "zxbZwq5rUD0VZ4jl",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Scoundrel",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "disg",
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "forg",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Scoundrel",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "hgbzmtOKbrrpaH5O"
+}

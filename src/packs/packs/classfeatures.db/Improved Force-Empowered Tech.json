@@ -1,0 +1,71 @@
+{
+    "_id": "bfmpE9LUMpZ4l2ax",
+    "name": "Improved Force-Empowered Tech",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>By 13th level, you&rsquo;ve gained access to two additional Force-Empowered Tech effects: Harmonic Synthesis and Conservation of Energy.</p>\n<hr />\n<blockquote>\n<h4><strong>HARMONIC SYNTHESIS</strong></h4>\n<p>When you use your action to cast a force power, you can use your bonus action to gain resistance to damage dealt by tech powers until the start of your next turn. If you use your action to cast a tech power, you can instead gain resistance to damage dealt by force powers.</p>\n<hr />\n<h4><strong>CONSERVATION OF ENERGY</strong></h4>\n<p>When you reduce a hostile creature to 0 hit points with a tech power, you can reduce the force point cost of the tech power to 0 (no action required).</p>\n</blockquote>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

@@ -1,0 +1,20 @@
+{
+    "_id": "m9nBfNVSNb6baCA1",
+    "name": "Shien/Djem So Form",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "lightsaberform",
+    "data": {
+        "description": {
+            "value": "<p>Until the start of your next turn, you can add half your Wisdom or Charisma modifier (your choice, rounded down) to the next ability check or attack roll you make using Strength.</p>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Lightsaber%20Forms/Shien-Djem%20So%20Form.webp",
+    "effects": []
+}

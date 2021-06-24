@@ -1,0 +1,304 @@
+{
+    "_id": "GWtkrShwS7OV9Pm5",
+    "name": "Kage",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<h2>Biology and Appearance</h2><p>The kage are a pale-skinned sentient species native to the caverns in the planet of Quarzite. The kage have a long-time conflict with the belugans, consistently at odds with them. During the Clone Wars, Otua Blank ordered the capture of Pluma Sodi to marry her, she was later given back to the Kage Warriors by Asajj Ventress. </p><h2>Society and Culture</h2><p>The kage are a dedicated people of physical excellence; they train tireless and elite fighter-monks known as Kage warriors. They tend to use weapons with electric or disruptive properties, but they are also great fighters in unarmed combat. Kage warriors are respected in Kage society as the greatest calling a kage might follow.\r\n\r\nKage also share an affinity with animals, most notably the native multi-legged milodon, developing a symbiotic relationship. They use the milodon as transport; they can keep pace with the subtram transports that supply belugan strongholds, and launch raids that often catch the belugan security forces off-guard.</p><h2>Names</h2><p>Kage names are generally multisyllable with melodic intonations. Surnames are familial.</p><strong>&nbsp;&nbsp;Male Names.</strong> Baalin, Forta, Krismo, Rafa, Timko</p><strong>&nbsp;&nbsp;Female Names.</strong> Chena, Fari, Moora, Ooni, Pluma</p><strong>&nbsp;&nbsp;Surnames.</strong> Buno, Keeli, Nima, Sodi, Tani",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><em><strong>Ability Score Increase.</strong></em> Your Dexterity score increases by 2, and your Wisdom score increases by 1.</p><p><em><strong>Age.</strong></em> Kage reach adulthood in their late teens and live less than a century.</p><p><em><strong>Alignment.</strong></em> Kages' rigid sense of honor causes them to tend toward lawful light side, though there are exceptions.</p><p><em><strong>Size.</strong></em> Kage typically stand between 5 and 6 feet tall, and weigh around 150 lbs. Regardless of your position in that range, your size is Medium.</p><p><em><strong>Speed.</strong></em> Your base walking speed is 30 feet.</p><p><em><strong>Animal Handler.</strong></em> You are proficient in Animal Handling.</p><p><em><strong>Athletic.</strong></em> You have proficiency in the Athletics skill.</p><p><em><strong>Strong-Legged.</strong></em> When you make a long jump, you can cover a number of feet up to twice your Strength score. When you make a high jump, you can leap a number of feet up into the air equal to 3 + twice your Strength modifier.</p><p><em><strong>Sunlight Sensitivity.</strong></em> You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p><p><em><strong>Superior Darkvision.</strong></em> You've lived most of your life without direct sunlight. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</p><p><em><strong>Unarmed Combatant.</strong></em> Your unarmed strikes deal 1d4 kinetic damage. You can use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.</p><p><em><strong>Weapon Training.</strong></em> Kage are adept warriors. You are proficient with the electroprod and electrostaff.</p><p><em><strong>Languages.</strong></em> You can speak, read, and write Galactic Basic and one language of your choice.</p>"
+        },
+        "skinColorOptions": {
+            "value": "Gray, white"
+        },
+        "hairColorOptions": {
+            "value": "Gray, pale yellow, white"
+        },
+        "eyeColorOptions": {
+            "value": "Green, pink, red, yellow"
+        },
+        "distinctions": {
+            "value": "Athleticism, pale skin, piercing eyes"
+        },
+        "heightAverage": {
+            "value": "4'9\""
+        },
+        "heightRollMod": {
+            "value": "+2d10\""
+        },
+        "weightAverage": {
+            "value": "95 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d4) lb."
+        },
+        "homeworld": {
+            "value": "Quarzite"
+        },
+        "slanguage": {
+            "value": "Galactic Basic"
+        },
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "source": "EC"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": true,
+            "alwaysActive": false,
+            "effects": [
+                {
+                    "modSpecKey": "data.details.species",
+                    "value": "Kage",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 1,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Details Species"
+                },
+                {
+                    "modSpecKey": "data.abilities.dex.value",
+                    "value": "2",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 2,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Dexterity"
+                },
+                {
+                    "modSpecKey": "data.abilities.wis.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 3,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Abilities Wisdom"
+                },
+                {
+                    "modSpecKey": "data.traits.size",
+                    "value": "med",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 4,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Size"
+                },
+                {
+                    "modSpecKey": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": "=",
+                    "targetSpecific": false,
+                    "id": 5,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Attributes Speed"
+                },
+                {
+                    "modSpecKey": "data.skills.ani.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 6,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Animal Handling"
+                },
+                {
+                    "modSpecKey": "data.skills.ath.value",
+                    "value": "1",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 7,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Skills Athletics"
+                },
+                {
+                    "modSpecKey": "data.traits.senses",
+                    "value": "Darkvision (120 ft.)",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 8,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Senses"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "electroprod",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 9,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.weaponProf.custom",
+                    "value": "electrostaff",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 10,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": [],
+                    "label": "Traits Weapon Prof. Custom"
+                },
+                {
+                    "modSpecKey": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": "+",
+                    "targetSpecific": false,
+                    "id": 11,
+                    "itemId": "QTUYXHT2mwCXYUsy",
+                    "active": false,
+                    "_targets": []
+                }
+            ]
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Kage.webp",
+    "effects": [
+        {
+            "_id": "i0cnHmFVkjW8q1nQ",
+            "flags": {
+                "dae": {
+                    "transfer": true,
+                    "stackable": false,
+                    "specialDuration": []
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.species",
+                    "value": "Kage",
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.abilities.dex.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.abilities.wis.value",
+                    "value": 1,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": 30,
+                    "mode": 5,
+                    "priority": 5
+                },
+                {
+                    "key": "data.skills.ani.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.ath.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.senses.darkvision",
+                    "value": 120,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "electroprod",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.weaponProf.custom",
+                    "value": "electrostaff",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 0
+                },
+                {
+                    "key": "flags.sw5e.strongLegged",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.unarmedCombatant",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.sunlightSensitivity",
+                    "value": "1",
+                    "mode": 0,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Kage.webp",
+            "label": "Kage",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

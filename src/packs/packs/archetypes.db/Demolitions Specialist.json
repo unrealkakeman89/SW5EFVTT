@@ -1,0 +1,39 @@
+{
+    "_id": "V4vCxmTwJFxi0HGM",
+    "name": "Demolitions Specialist",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Fighter",
+        "description": {
+            "value": "<h1>Demolitions Specialist</h1>\n<p>Those fighters who choose to become Demolitions Specialists are experts in using explosives in combat. They have an explosive for every situation, whether it be breaching a fortified bunker, taking down a walker, or simply demonstrating that in combat, standing too close to your squadmates can be fatal.</p>\n<h2>Bonus Proficiencies</h2>\n<p>When you choose this specialty at 3rd level, you gain proficiency in demolitions kit. Additionally, when you would install a breaching charge, you can do so in half the time.</p>\n<h2>Explosive Charge</h2>\n<p>Also at 3rd level, you learn to create a number of small explosives known as charges. Over the course of a short or long rest, you can create a number of charges equal to your Intelligence modifier. You must have a demolitions kit in order to create these charges. Your charges can only be used by you, and they lose their potency at the end of your next short or long rest.</p>\n<p>Once per turn, when you would make a ranged weapon attack, you can instead throw one of your charges. Your charges have a range equal to 30 feet + your Strength modifier x 5. You can throw a charge at a point you can see within range. Each creat-ure within 5 feet must make a Dexterity sav-ing throw (DC = 8 + your proficiency bonus + your Intelligence modifier + any bonuses to ranged weapon attack rolls). A creature takes 2d4 + your Intelligence modifier kin-etic damage on a failed save, or half as much on a successful one.</p>\n<p>The damage of your charges increases to 3d4 at 7th level and 4d4 at 15th level.</p>\n<h2>Cause and Effect</h2>\n<p>Beginning at 7th level, you learn to throw grenades as a bonus action. Additionally, when a creature fails a saving throw against a charge or grenade, you can expend a superiority die to apply one of your maneuvers. You can only use this feature once per grenade.</p>\n<h2>Volatile Reflexes</h2>\n<p>At 10th level, when a creature within 5 feet of you makes a melee attack against you, you can use your reaction and throw a charge behind the target. If the target fails its saving throw against the charge, you impose disadvantage on the attack roll made against you.</p>\n<h2>Backup Plans</h2>\n<p>Starting at 15th level, when you roll initiative and have no charges remaining, you can create 2 charges. Additionally, whenever you create a charge, you can change the damage type to acid, energy, fire, ion, lightning, or sonic.</p>\n<h2>Bombard</h2>\n<p>At 18th level, when a creature fails its saving throw against a charge or grenade thrown by you, it has disadvantage on the next Dexterity saving throw it makes before the end of your next turn.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Demolitions%20Specialist.webp",
+    "effects": []
+}

@@ -1,0 +1,32 @@
+{
+    "_id": "LDg5j9Q11UEPFINJ",
+    "name": "Mandalorian Helmet",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>Requires attunement<br>This helmet comes equipped with a headcomm and holorecorder. Additionally, while wearing this helmet, you have darkvision out to 60 feet.</p>\n<p>Mandalorian Vestments.&nbsp;While wearing and attuned to this helmet and Mandalorian Beskar\u2019gam, you have advantage on Wisdom (Perception) checks that rely on sight within 60 feet. While wearing and attuned to this helmet, Mandalorian Beskar\u2019gam, and Mandalorian Shuk\u2019orok, you have advantage on Intelligence (Investigation) checks within 5 feet.</p>\n<p>Featuring the iconic T-shaped visor of the Mandalorians, this helmet strikes fear into the hearts of the unwary.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "WH",
+        "quantity": 1,
+        "weight": 0,
+        "price": 0,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "Premium",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Enhanced%20Items/Mandalorian%20Helmet.webp"
+}

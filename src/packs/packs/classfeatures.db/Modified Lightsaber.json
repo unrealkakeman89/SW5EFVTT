@@ -1,0 +1,71 @@
+{
+    "_id": "1f9cw6pS3RiiF8DZ",
+    "name": "Modified Lightsaber",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn to modify an unenhanced lightsaber utilizing your artificer knowledge. Over the course of a long rest, you can modify your lightsaber. You must have the lightsaber and artificer&rsquo;s implements in order to perform this modification.</p>\n<p>Your modified lightsaber is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified lightsaber has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).</p>\n<p>Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.</p>\n<p>At 9th level, you can maintain two different modified lightsabers. The total modification slots are split across the two items.</p>\n<h2>ARTIFICER MODIFICATIONS</h2>\n<p>If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.</p>\n<hr />\n<blockquote>\n<h4><strong>ADDITONAL BEAM PORT</strong></h4>\n<p>You install a second beam port into your modified lightsaber. Your modified lightsaber gains the double (1d8) property. You can only benefit from this property while wielding your modified lightsaber with two hands.</p>\n<hr />\n<h4><strong>ADEGAN CRYSTAL</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />You gain a +1 bonus to damage rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>ADVANCED BLASTSABER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;15th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Prototype Blastsaber</em><br />You further fine tune your blastsaber. As an action, you can disable a single electronic device not being worn or held by another creature within 5 feet of you. The device is then disabled until it is rebooted.</p>\n<p>Additionally, when you activate this conversion to alter the properties of your lightweapon, you create a projected barrier of ion energy in a 10-foot-radius sphere around you until the start of your next turn. Hostile creatures treat this area as difficult terrain. When a hostile creature enters the shielded area or starts its turn there, that creature takes 3d4 ion damage. Any electronics not being worn or held within the barrier&rsquo;s radius are disabled until rebooted.</p>\n<hr />\n<h4><strong>ADVANCED BRIGHTSABER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;15th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Prototype Brightsaber</em><br />You further fine tune your brightsaber. While activated, your modified lightsaber&rsquo;s bright light now automatically dispels illusions and can detect invisibility, as with truesight.</p>\n<p>Additionally, when you activate this conversion to alter the properties of your lightweapon and use a bonus action to attempt to blind your target, it makes the saving throw with disadvantage.</p>\n<hr />\n<h4><strong>ADVANCED DISRUPTORSABER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;15th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Prototype Disruptorsaber</em><br />You further fine tune your disruptorsaber. While activated, your modified lightsaber lightly obscures the area within 5 feet of it.</p>\n<p>Additionally, when you activate this conversion to alter the properties of your lightweapon and use a bonus action to attempt to knock your target prone, the next saving throw you make before the end of your next turn has advantage.</p>\n<hr />\n<h4><strong>BARRIER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />On your turn, when you make an attack roll with your modified lightsaber, you can choose to forgo your proficiency bonus. If you do, you can use your reaction to erect a temporary barrier that lasts until the start of your next turn. While the barrier is activated, you have a bonus to AC against the first attack roll made against you equal to your proficiency bonus.</p>\n<hr />\n<h4><strong>BEAM GEM LENS</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />You gain a +1 bonus to attack rolls made with this weapon. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>BIOMETRIC SAFETY MEASURES</strong></h4>\n<p>A security system is installed into the hilt of your lightweapon. When a creature other than you attempts to activate your lightweapon, the activation fails. Additionally, the creature attempting to activate must make on a Constitution saving throw or take lightning damage equal to engineer level, and become shocked until the start of its next turn. On a successful save the creature takes half damage and is not shocked. Regardless of success or failure, the creature drops your modified lightsaber.</p>\n<hr />\n<h4><strong>BLASTSABER CONVERSION</strong></h4>\n<p><em>Incompatible with other conversions</em><br />You heavily modify your lightweapon to allow you to make a ranged weapon attack. With this modification, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d6 energy damage.</p>\n<p>Additionally, when you make your first attack on your turn, you can alter the properties of your modified lightsaber. Until the start of your next turn, the damage type of your modified lightsaber is changed to ion.</p>\n<p>You can use this trait a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.</p>\n<hr />\n<h4><strong>BRIGHTSABER CONVERSION</strong></h4>\n<p><em>Incompatible with other conversions</em><br />You modify your lightweapon, giving it a brighter glow. While activated, your modified lightsaber sheds bright light in a 20-foot radius and dim light for an additional 20 feet.</p>\n<p>Additionally, when you make your first attack on your turn, you can alter the properties of your modified lightsaber. Until the start of your next turn, the damage type of your modified lightsaber is changed to fire.</p>\n<p>You can use this trait a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.</p>\n<hr />\n<h4><strong>BURN THROUGH</strong></h4>\n<p>When you score a critical hit with your modified lightsaber, you have advantage on the next attack roll you make against that creature.</p>\n<hr />\n<h4><strong>COMFORTABLE HANDLE</strong></h4>\n<p>You make minor modifications to the ergonomics of your modified saber&rsquo;s hilt. Your modified lightsaber gains the finesse property.</p>\n<hr />\n<h4><strong>CROSSGUARD</strong></h4>\n<p>You add an energy guard at the base of your modified lightsaber&rsquo;s blade. While wielding your modified lightsaber, you gain a +1 bonus to your armor class against melee weapon attacks.</p>\n<hr />\n<h4><strong>DISRUPTORSABER CONVERSION</strong></h4>\n<p><em>Incompatible with other conversions</em><br />You modify your lightweapon, causing it to eminate a sickly green light. Your modified lightsaber loses the luminous property.</p>\n<p>Additionally, when you make your first attack on your turn, you can alter the properties of your modified lightsaber. Until the start of your next turn, the damage type of your modified lightsaber is changed to acid.</p>\n<p>You can use this trait a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.</p>\n<hr />\n<h4><strong>EXTENDED BEAM</strong></h4>\n<p>You install a series of beam focusing amplifiers into your modified lightsaber. Your modified lightsaber gains the reach property.</p>\n<hr />\n<h4><strong>GREATSABER ARRAY</strong></h4>\n<p>You augment the configuration of your modified lightsaber. Your modified lightsaber gains the two-handed property, and it&rsquo;s damage die increases to 1d12.</p>\n<hr />\n<h4><strong>INTENSE BEAM</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;11th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Burn Through</em><br />Your modified lightsaber&rsquo;s critical hit range increases by 1.</p>\n<hr />\n<h4><strong>MAGNETIC-LOCK GRIP</strong></h4>\n<p>You insert a series of magnetically charged grips into your modified lightsaber&rsquo;s hilt. While wielding your modified lightsaber, you have advantage on ability checks and saving throws made to disarm or avoid being disarmed.</p>\n<hr />\n<h4><strong>PROTOTYPE BLASTSABER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Blastsaber Conversion</em><br />You fine tune your blastsaber. When you activate this conversion to alter the properties of your lightweapon, you can use your bonus action to cause your modified lightsaber to let loose a burst of energy. Creatures other than yourself within 5 feet of the target creature must succeed on a Dexterity saving throw. On a failed save, they take ion damage equal to your Intelligence modifier.</p>\n<hr />\n<h4><strong>PROTOTYPE BRIGHTSABER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Brightsaber Conversion</em><br />You fine tune your brightsaber. When you activate this conversion to alter the properties of your lightweapon, you can use your bonus action to attempt to blind the target of the attack. The creature must succeed on a Constitution saving throw or be blinded.</p>\n<hr />\n<h4><strong>PROTOTYPE DISRUPTORSABER</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Disruptorsaber Conversion</em><br />You fine tune your disruptorsaber. When you activate this conversion to alter the properties of your lightweapon, you can use your bonus action to attempt to knock the target of your attack prone. The creature must make a Strength saving throw or be knocked prone.</p>\n<hr />\n<h4><strong>RETURNING WEAPON</strong></h4>\n<p>You install a retractible chain in the hilt of your modified lightsaber. Your modified lightsaber gains the thrown property with a range of 20/60, and when you throw the weapon, it immediately returns to your hand.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

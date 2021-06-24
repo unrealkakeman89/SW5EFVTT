@@ -1,0 +1,16 @@
+{
+    "_id": "SCQd5S60spYMfZe1",
+    "name": "Frightened",
+    "permission": {
+        "default": 0,
+        "nmw6aXa7fQJXHYmz": 3
+    },
+    "folder": "",
+    "flags": {
+        "core": {
+            "sourceId": "JournalEntry.NG1JUHhKcNZX46h1"
+        }
+    },
+    "content": "<h4 id=\"frightened\" style=\"box-sizing: inherit; user-select: text; margin-bottom: 0px; font-weight: bold; font-family: 'Russo One', sans-serif; font-size: 0.35cm; letter-spacing: 0.5px; color: #c40f0f; background-repeat: no-repeat; text-transform: uppercase;\">FRIGHTENED</h4>\n<ul style=\"box-sizing: inherit; user-select: text; margin-top: 0px; margin-bottom: 1rem; padding-left: 24px; color: #1c1c1c; font-family: 'Open Sans'; font-size: 13px; background-repeat: no-repeat;\">\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.</li>\n<li style=\"box-sizing: inherit; user-select: text; background-repeat: no-repeat; padding: 0px; margin: 0px;\">The creature can&rsquo;t willingly move closer to the source of its fear.</li>\n</ul>",
+    "img": "icons/svg/terror.svg"
+}

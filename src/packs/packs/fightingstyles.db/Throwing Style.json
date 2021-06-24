@@ -1,0 +1,20 @@
+{
+    "_id": "Ph1y86bQCKeYUKZE",
+    "name": "Throwing Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled with the techniques of throwing weapons. While you are wielding a weapon with the thrown property with which you are proficient, you gain the following benefits:</p><ul><li>Whenever you make a ranged attack with a thrown weapon, you can immediately draw another weapon as part of the attack.</li><li>Whenever you make a ranged attack with a thrown weapon, you can move up to 5 feet.</li><li>When you miss with a ranged attack with a thrown weapon, you can use your bonus action to repeat the attack against a creature within 15 feet and behind your initial target. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Throwing%20Style.webp",
+    "effects": []
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "A6I7VApYuQI0p8LE",
+    "name": "Legendary Multitasking",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> 5th rank, Split Focused venture</em></p><p>When operating a ship, you gain a second action you can take with the ship.</p>"
+        },
+        "prerequisites": [
+            "5th rank,  Split Focused venture"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

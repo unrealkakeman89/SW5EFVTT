@@ -1,0 +1,71 @@
+{
+    "_id": "MZWGENUJx8b2PETJ",
+    "name": "Skilled Grappler",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn a number of grappling techniques to subdue your opponents. When you hit a creature grappled by you with an unarmed strike and deal Sneak Attack damage, you may choose to forgo two of your Sneak Attack dice to make the attack a grappling technique.</p>\n<p>Some of your grappling techniques require your target to make a saving throw to resist the grappling technique&rsquo;s effects. The saving throw DC is calculated as follows:</p>\n<hr />\n<p>Grapple Technique save DC&nbsp;= 8 + your proficiency bonus + your Strength modifier</p>\n<hr />\n<blockquote>\n<h4><strong>CONSTRICT</strong></h4>\n<p>You attempt to choke the target into unconsciousness. The target must make a Constitution saving throw or be restrained until the end of your following turn.</p>\n<p>If you maintain this technique for 1 minute, the target falls unconscious for 1 hour. Droids and constructs can not be knocked unconscious in this way.</p>\n<hr />\n<h4><strong>DISARM</strong></h4>\n<p>You attempt to disarm a weapon or other object the target is holding. The target must make a Strength saving throw. On a failed save, it releases the object. If you have a free hand, you can catch the object. Otherwise, it lands at your feet.</p>\n<hr />\n<h4><strong>HIP TOSS</strong></h4>\n<p>You attempt to throw your target to the ground. The target must make a Dexterity saving throw. On a failed save, the target is pushed back 5 feet, knocked prone, and stunned until the start of your next turn. This ends the grapple.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

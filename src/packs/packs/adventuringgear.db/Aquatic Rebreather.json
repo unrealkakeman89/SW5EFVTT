@@ -1,0 +1,32 @@
+{
+    "name": "Aquatic Rebreather",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "loot",
+    "data": {
+        "description": {
+            "value": "<p>Aquatic breathers are breath masks designed to operate underwater. While worn, the wearer can breathe both air and water.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 2,
+        "price": 100,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Life%20Support/Aquatic%20Rebreather.webp",
+    "_id": "d508bDYXnIHgIRYL"
+}

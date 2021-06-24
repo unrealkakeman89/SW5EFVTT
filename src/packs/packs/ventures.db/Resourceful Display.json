@@ -1,0 +1,23 @@
+{
+    "_id": "p9RR1JJzHxqI04SP",
+    "name": "Resourceful Display",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 1 rank in coordinator</em></p><p>Once per round, when you, or an ally with your Inspiring Display die, roll an Inspiring Display, they can roll the die twice and take either result.</p>"
+        },
+        "prerequisites": [
+            "at least 1 rank in coordinator"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

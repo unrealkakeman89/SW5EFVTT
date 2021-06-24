@@ -1,0 +1,31 @@
+{
+    "_id": "uIJwWQbv92GSHJTN",
+    "name": "Countermeasures",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Technician"
+        },
+        "featureType": {
+            "value": "Stratagem"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p><em><strong>Power Die Location:</strong> Shields</em><br>When you fail a Dexterity Saving throw forced by a Ship weapon, you can expend one power die as a reaction. Until the start of your next turn, your ship has a bonus to dexterity saving throws equal to the amount rolled on the power die. This includes the triggering save.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Technician.webp",
+    "effects": []
+}

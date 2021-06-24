@@ -1,0 +1,71 @@
+{
+    "_id": "riPd6LYH9XCBUPbI",
+    "name": "Force-Empowered Tech",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 7th level, you learn to fully blend your technological aptitude with your use of the Force. You have three such effects: Disruption Pulse, Force Override, and Techcasting Insight. When you use your Force-Empowered Tech, you choose which effect to create.</p>\n<p>You can use this feature a number of times equal to your Wisdom or Charisma modifier (your choice, a minimum of once). You regain all expended uses when you finish a short or long rest.</p>\n<hr />\n<blockquote>\n<h4><strong>DISRUPTION PULSE</strong></h4>\n<p>As an action, you can send out a 30 foot cone of electromagnetically-charged energy to overload enemy weapons. Each creature within the cone that is wearing or carrying a weapon with electric components must make an Intelligence saving throw. If the weapon is being worn, this save is made with disadvantage. On a failed save, the first attack they attempt to make with that weapon has disadvantage. A creature with multiple weapons must make a separate save for each weapon.</p>\n<hr />\n<h4><strong>FORCED OVERRIDE</strong></h4>\n<p>When you cast a tech power that requires a saving throw, you can impose disadvantage on the save (no action required).</p>\n<hr />\n<h4><strong>TECHCASTING INSIGHT</strong></h4>\n<p>As an action, you can attempt to determine another creature&rsquo;s experience with techcasting. When you do so, you make an Intelligence (Technology) check contested by the target&rsquo;s Intelligence (Technology) check. If you succeed, you immediately learn the target&rsquo;s techcasting Max Power Level, as well as any tech powers currently affecting the target.</p>\n</blockquote>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "special",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

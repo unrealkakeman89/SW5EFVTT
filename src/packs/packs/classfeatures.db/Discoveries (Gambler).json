@@ -1,0 +1,71 @@
+{
+    "_id": "2F3RlN4VyyAG2XrU",
+    "name": "Discoveries (Gambler)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect your deep understanding of chance. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>ACE UP YOUR SLEEVE</strong></h4>\n<p>Whenever you make a Dexterity (Sleight of Hand) or Charisma (Deception) check, you can expend a superiority die, adding the result to your total for the check.</p>\n<hr />\n<h4><strong>AGAINST THE HOUSE</strong></h4>\n<p>Whenever you would make a Charisma (Persuasion) check involving haggling, you can instead challenge the target to a game of chance. If they accept your offer, you can make an ability check with an available gaming set. If you win the challenge, you automatically succeed on the Charisma (Persuasion) check.</p>\n<hr />\n<h4><strong>ANTE UP</strong></h4>\n<p>When you roll initiative, are not surprised, and end up first in the initiative order, you can take one additional action on top of your regular action and a possible bonus action during your first turn in combat.</p>\n<hr />\n<h4><strong>CALCULATED BLUFF</strong></h4>\n<p>When you make an ability check using your Charisma, you can choose to instead make the check using your Intelligence.</p>\n<hr />\n<h4><strong>COLD READ</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;5th level</span><br />As an action, you may make a Wisdom (Insight) check contested by a target&rsquo;s Charisma (Deception) check. On a success, you know the next action the target intends to take, so long as the situation does not change dramatically.</p>\n<hr />\n<h4><strong>FEELING THE PRESSURE</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;13th level</span><br />Whenever you roll a 4 or higher on your Risk Versus Reward feature, the target of your Critical Analysis feature also has disadvantage on attack rolls made against you until the start of your next turn.</p>\n<hr />\n<h4><strong>THE MAGIC NUMBER</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;7th level</span><br />Whenever you roll a 7 on an ability check or saving throw, you can reroll the ability check or saving throw with advantage.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

@@ -1,0 +1,71 @@
+{
+    "_id": "6SND1rFXxTWOyREh",
+    "name": "Gadgeteer Harness",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn to create and modify adventuring gear utilizing your gadgeteer experience. Over the course of a long rest, you can create your modified gadgeteer harness. You must have gadgeteer&rsquo;s implements in order to perform this modification.</p>\n<p>Your gadgeteer harness is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your gadgeteer harness has 4 modification slots to which you can affix gadgets, and it gains more at higher levels, as shown in the Modification Slots column of the engineer class table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).</p>\n<p>Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.</p>\n<h2>GADGETEER CONTRAPTIONS</h2>\n<p>If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.</p>\n<hr />\n<blockquote>\n<h4><strong>ADVANCED GROUNDING SYSTEM</strong></h4>\n<p>Prerequisite:&nbsp;13th level<br />Prerequisite:&nbsp;Prototype Grounding System<br />While wearing your gadgeteer harness you have immunity to lightning damage.</p>\n<hr />\n<h4><strong>AUTO-INJECTION REGENERATOR</strong></h4>\n<p>Prerequisite:&nbsp;5th level<br />You install a special kolto injector into your gadgeteer harness that can inject you with kolto in response to pain. When you take damage, you can use your reaction and expend a Hit Die to regain health as long as the damage would not reduce your hit points to 0.</p>\n<hr />\n<h4><strong>AUTOTHRUSTERS</strong></h4>\n<p>Prerequisite:&nbsp;Jet Pack<br />You can take the Dash and Disengage actions as a bonus action while your jet pack is active.</p>\n<hr />\n<h4><strong>CLIMBING GLOVES</strong></h4>\n<p>You craft a set of gloves with a powerful assisted grip. While wearing these gloves, you have a climbing speed of 20 feet, and you have advantage on Strength saving throws and Strength (Athletics) checks that involve climbing.</p>\n<hr />\n<h4><strong>DARKVISION GOGGLES</strong></h4>\n<p>You craft a pair of sight-enhancing goggles. While wearing these goggles, you have darkvision to a range of 60 feet. If you already have darkvision, this modification increases its range by 30 feet.</p>\n<hr />\n<h4><strong>EXTENDED TANK</strong></h4>\n<p>Prerequisite:&nbsp;5th level<br />Prerequisite:&nbsp;Jet Pack<br />Your jet pack now lasts up to 10 minutes when activated.</p>\n<hr />\n<h4><strong>FLAME VENTS</strong></h4>\n<p>Prerequisite:&nbsp;9th level<br />Prerequisite:&nbsp;Jet Pack<br />You learn the&nbsp;flame sweep&nbsp;tech power and can cast it at first level without using tech points. Once you have used this ability, you cannot use it again until you finish a short or long rest.</p>\n<p>Additionally, while your jet pack is active, you can cast&nbsp;flame sweep&nbsp;using your bonus action instead of your action.</p>\n<hr />\n<h4><strong>GROUNDING SYSTEM</strong></h4>\n<p>While wearing your gadgeteer harness you are immune to the shocked condition.</p>\n<hr />\n<h4><strong>INTEGRATED INHIBITOR</strong></h4>\n<p>Prerequisite:&nbsp;5th level<br />While using your harness as a tech focus, you gain a +1 bonus to your tech save DC. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>INTEGRATED TARGETER</strong></h4>\n<p>Prerequisite:&nbsp;5th level<br />While using your harness as a tech focus, you gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>INTELLIGENCE CORE OVERRIDE</strong></h4>\n<p>Prerequisite:&nbsp;9th level<br />You can cast the&nbsp;override interface&nbsp;tech power at 5th level without spending tech points.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>\n<hr />\n<h4><strong>JET PACK</strong></h4>\n<p>You add integrate a jet pack into your gadgeteer harness to grant you temporary, limited flight. Activating or deactivating the jets requires a bonus action and, while active, you have a flying speed of 30 feet.</p>\n<p>The jet pack last for 1 minute before deactivating. Once the jets have been activated, they can&rsquo;t be activated again until you finish a short or long rest.</p>\n<p>Your jet pack&rsquo;s speed increases to 40 feet at 5th level, 50 feet at 9th level, 60 feet at 13th level, 70 feet at 17th level, and 80 feet at 20th level.</p>\n<hr />\n<h4><strong>MECHANICAL ARM</strong></h4>\n<p>You create a mechanical arm which mounts to your shoulder, which you can use independently. You can only gain the benefit of items held by two of your arms at any given time.</p>\n<p>You can choose this modification twice.</p>\n<hr />\n<h4><strong>MIMICKER</strong></h4>\n<p>Prerequisite:&nbsp;9th level<br />You create a device that attaches to your gadgeteer harness. Your mimicker casts a shadow that makes you appear to be standing in a place near your actual location, causing any creature to have disadvantage on attack rolls against you. If you take damage, the property ceases to function for 1 minute. Your mimicker is suppressed while you are incapacitated, restrained, or otherwise unable to move.</p>\n<hr />\n<h4><strong>MINIATURIZED HYDRAULICS</strong></h4>\n<p>Your gadgeteer harness can store 20 pounds of equipment without adding to your encumbrance.</p>\n<hr />\n<h4><strong>OIL SPILL</strong></h4>\n<p>As an action, you can cast the&nbsp;oil slick&nbsp;tech power without expending tech points. Casting the power in this way does not require concentration, and the oil will remain in place for the full duration of the power.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>\n<hr />\n<h4><strong>POWERED GRAPPLING HOOK</strong></h4>\n<p>Prerequisite:&nbsp;9th level<br />Prerequisite:&nbsp;Wrist-Mounted Grappling Hook<br />While your wrist-mounted grappling hook is deployed, when you cast a tech power with a range of touch, your hook can deliver the power as if it had cast it.</p>\n<hr />\n<h4><strong>PROTOTYPE GROUNDING SYSTEM</strong></h4>\n<p>Prerequisite:&nbsp;9th level<br />Prerequisite:&nbsp;Grounding System<br />While wearing your gadgeteer harness you have resistance to lightning damage.</p>\n<hr />\n<h4><strong>QUICK START ENGINE</strong></h4>\n<p>Prerequisite:&nbsp;5th level<br />Prerequisite:&nbsp;Jet Pack<br />You can now activate your Jet Pack as an object interaction rather than as a bonus action.</p>\n<hr />\n<h4><strong>RECYCLED ADRENALS</strong></h4>\n<p>You can augment a single adrenal to regain its charge. This adrenal can only be used by you, and it can only affect you. Once you&rsquo;ve used this adrenal, you can&rsquo;t use it again until you finish a short or long rest.</p>\n<hr />\n<h4><strong>RECYCLED EXPLOSIVES</strong></h4>\n<p>You can augment a single explosive to regain its charge. This explosive can only be used by you, and it uses your tech save DC instead of its own, unless its own DC would be higher. Once you&rsquo;ve used this explosive, you can&rsquo;t use it again until you finish a short or long rest.</p>\n<hr />\n<h4><strong>RECYCLED STIMPACS</strong></h4>\n<p>You can augment a single stimpac to regain its charge. This stimpac can only be used by you, and it can only affect you. Once you&rsquo;ve used this stimpac, you can&rsquo;t use it again until you finish a short or long rest.</p>\n<hr />\n<h4><strong>SENTRY TURRET</strong></h4>\n<p>You learn how to craft small sentry turrets shaped like globes that can adhere to any surface. As an action or bonus action (your choice), you can throw a sentry to a point you can see within range (30 feet + your Strength modifier x 5). At the end of each of your turns, a deployed sentry automatically targets a hostile creature within 10 feet of it. If multiple targets are available, one is chosen at random. The target must make a Dexterity saving throw. On a failed save, it takes 1d4 energy damage and gains 1 slowed level until the end of your next turn. If a creature would be targeted by more than one of these sentries, it only makes this saving throw once, taking an additional d4 damage for each sentry beyond the first.</p>\n<p>The sentries have 1 hit point, an armor class of 10, and can be repaired over the course of a long rest. Each sentry lasts for 1 minute before deactivating. You can maintain a number of sentries equal to your Intelligence modifier. Once a sentry has been activated, it can&rsquo;t be activated again until you finish a short or long rest.</p>\n<hr />\n<h4><strong>SHOCKING HOOK</strong></h4>\n<p>Prerequisite:&nbsp;9th level<br />Prerequisite:&nbsp;Wrist-Mounted Grappling Hook<br />After hitting a creature with your grappling hook, you can use the connection to deliver an at-will tech power. As a bonus action, you can cast an at-will tech power at the target with a range of touch. If the power requires an attack roll, you have advantage. If the target requires a saving throw, the target has disadvantage.</p>\n<p>Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you recover the harpoon.</p>\n<hr />\n<h4><strong>STEALTH FIELD GENERATOR</strong></h4>\n<p>Prerequisite:&nbsp;9th level<br />You create an augmented belt that functions as a portable, personal cloaking device. Activating or deactivating the generator requires a bonus action and, while active, you have advantage on Dexterity (Stealth) ability checks that rely on sight. The generator lasts for 1 minute. This effect ends early if you make an attack or cast a force- or tech- power.</p>\n<p>Once the belt has been activated, it can&rsquo;t be activated again until you finish a short or long rest.</p>\n<hr />\n<h4><strong>SHOCKING BARRIER</strong></h4>\n<p>Prerequisite:&nbsp;5th level<br />You enhanced your barriers. Whenever a creature with one of your barriers active takes damage from a creature within 5 feet of it, the damaged creature can roll your Potent Aptitude die, dealing the result of the die as lightning damage to the creature that damaged it.</p>\n<hr />\n<h4><strong>TRUESIGHT GOGGLES</strong></h4>\n<p>Prerequisite:&nbsp;11th level<br />Prerequisite:&nbsp;Darkvision Goggles<br />You modify your goggles with a toggle allowing you to briefly gain enhanced sight. As a bonus action, you can activate the truesight feature of your goggles. When toggled on, for the next minute your goggles now automatically dispel illusions and can detect invisibility, as with truesight.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>\n<hr />\n<h4><strong>WEAPON INTEGRATION</strong></h4>\n<p>You can integrate a single weapon that weighs no more than 8 lb. into your gadgeteer harness. While integrated, that weapon gains the hidden and fixed properties.</p>\n<hr />\n<h4><strong>WRIST-MOUNTED GRAPPLING HOOK</strong></h4>\n<p>You craft a wrist-mounted grappling hook weapon attached to a tightly coiled cord. With this contraption, you can make a ranged weapon attack with a range of 30/60. On a hit, it deals 1d4 kinetic damage. This attack can target a surface, object, or creature.</p>\n<p>A creature struck by this attack is impaled by the hook. As an action, a creature can attempt to remove the hook. Removing the hook requires a Strength check. While the hook is stuck in the target, you are connected to the target by a 60 foot cable.</p>\n<p>While the hook is deployed, you can use your bonus action to activate the reel, pulling yourself to the location if the target is your size or larger. A creature or object smaller than you is pulled to you. Alternatively, you can opt to release the cable (no action required).</p>\n<p>Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you recover and reinsert the hook as an action.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

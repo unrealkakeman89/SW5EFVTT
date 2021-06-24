@@ -1,0 +1,198 @@
+{
+    "_id": "L7jVJxWNNsWAPj6c",
+    "name": "Droid, Class V",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "species",
+    "data": {
+        "data": "$characteristics-table",
+        "description": {
+            "value": "<blockquote style=\"width: 620px; font-style: normal;\">\n<h3>Players as Droids</h3>\n<p>Work with your GM to determine if playing as a droid is appropriate for your campaign. Droids are impervious to many effects and vulnerable to others. If your GM approves this choice of species, work with them to determine your droids designation, name, and appearance. If you want to play a different type of droid, work with your GM to find traits to realize your character.</p>\n</blockquote>\n<h2>Appearance</h2>\n<p>Class V droids are typically vaguely human-like in both shape and size, standing at around 6 feet, although many can be larger. They are usually a polished metallic color, though this can vary based on tasks for which they are created, their affiliation, or quirks of their owner.</p>\n<p>They are noteworthy for their simple programming and quiet, focused work habits.</p>\n<h2>Utility</h2>\n<p>Class V droids are programmed for menial and low-skill tasks. Such droids tend to perform basic tasks such as construction, lifting, maintenance, mining, sanitation, and transportation. Labor droids are fifth-degree droids.</p>\n<h2>Names</h2>\n<p>Droids are typically called by their designation, given to them when they are created, or some affectation given to them by their owner. Often this affectation is a play on their designation.</p>\n<p>Occasionally, noteworthy droids will earn monikers based on their accomplishments.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "traits": {
+            "value": "<p><strong><em>Ability Score Increase.</em></strong> Your Strength score increases by 2, and your Dexterity or Constitution score increases by 1.</p>\n<p><strong><em>Age.</em></strong> Droids don&rsquo;t age, though they require maintenance to retain functionality.</p>\n<p><strong><em>Alignment.</em></strong> Droids tend toward no particular alignment. The best and worst are found among them.</p>\n<p><strong><em>Size.</em></strong> Class V droids typically stand between 5 and 7 feet and weigh around 260 lbs. Regardless of your position in that range, your size is Medium.</p>\n<p><strong><em>Speed.</em></strong> Your base walking speed is 30 feet.</p>\n<p><strong><em>Type.</em></strong> Your creature type is droid.</p>\n<p><strong><em>Armor Integration.</em></strong> You cannot wear armor, but you can have the armor professionally integrated into your chassis over the course of a long rest. This work must be done by someone proficient with astrotech&rsquo;s implements. You must be proficient in armor in order to have it integrated.</p>\n<p><strong><em>Droid Resistances.</em></strong> You are resistant to necrotic, poison, and psychic damage, and are immune to poison and disease.</p>\n<p><strong><em>Droid Systems.</em></strong> You do not need to eat or drink. Additionally, you no longer require a tech focus to cast tech powers.</p>\n<p><strong><em>Droid Vulnerabilities.</em></strong> You are vulnerable to ion damage. Additionally, you have disadvantage on saving throws against effects that would deal ion or lightning damage.</p>\n<p><strong><em>Force Insensitive.</em></strong> While droids can be manipulated by many force powers, they cannot sense the Force. You can not use force powers or take levels in forcecasting classes.</p>\n<p><strong><em>Maintenance Mode.</em></strong> Rather than sleep, you enter an inactive state to perform routine maintenance for 4 hours each day. You have disadvantage on Wisdom (Perception) checks while performing maintenance.</p>\n<p><strong><em>Manual Laborer.</em></strong> You have proficiency in Athletics and one set of artisan&rsquo;s implements of your choice.</p>\n<p><strong><em>Powerful Build.</em></strong> Your carrying capacity and the weight you can push, drag, or lift doubles. If it would already double, it instead triples.</p>\n<p><strong><em>Rapid Reconstruction.</em></strong> You are built with internal repair mechanisms. As a bonus action, you can choose to spend one of your Hit Dice to recover hit points.</p>\n<p><strong><em>Languages.</em></strong> You can speak, read, and write Binary. You can understand spoken and written Galactic Basic and one language of your choice, but you cannot speak it.</p>"
+        },
+        "skinColorOptions": {
+            "value": ""
+        },
+        "hairColorOptions": {
+            "value": ""
+        },
+        "eyeColorOptions": {
+            "value": ""
+        },
+        "distinctions": {
+            "value": ""
+        },
+        "colorScheme": {
+            "value": "Typically metallic"
+        },
+        "droidDistinctions": {
+            "value": "Vaguely human-like size and shape, typically quiet"
+        },
+        "heightAverage": {
+            "value": "5'2\""
+        },
+        "heightRollMod": {
+            "value": "+2d12\""
+        },
+        "weightAverage": {
+            "value": "140 lb."
+        },
+        "weightRollMod": {
+            "value": "x(2d8) lb."
+        },
+        "homeworld": {
+            "value": ""
+        },
+        "slanguage": {
+            "value": ""
+        },
+        "manufacturer": {
+            "value": "Cybot Galactica, Industrial Automaton"
+        },
+        "droidLanguage": {
+            "value": "Binary"
+        },
+        "source": "PHB"
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Species/Droid%20Class%20V.webp",
+    "effects": [
+        {
+            "_id": "Z3v7Cj4aSpJg4K8C",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.abilities.str.value",
+                    "value": 2,
+                    "mode": 2,
+                    "priority": 20
+                },
+                {
+                    "key": "data.details.species",
+                    "value": "Droid, Class V",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.size",
+                    "value": "med",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.attributes.movement.walk",
+                    "value": "30",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "necrotic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "poison",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dr.value",
+                    "value": "psychic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.ci.value",
+                    "value": "diseased",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.ci.value",
+                    "value": "poisoned",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.dv.value",
+                    "value": "ion",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.skills.ath.value",
+                    "value": 1,
+                    "mode": 4,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.powerfulBuild",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "binary",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.languages.value",
+                    "value": "basic",
+                    "mode": 0,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.forceInsensitive",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.maintenanceMode",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "flags.sw5e.rapidReconstruction",
+                    "value": "1",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "systems/sw5e/packs/Icons/Species/Droid%20Class%20V.webp",
+            "label": "Droid, Class V",
+            "tint": "",
+            "transfer": true
+        }
+    ]
+}

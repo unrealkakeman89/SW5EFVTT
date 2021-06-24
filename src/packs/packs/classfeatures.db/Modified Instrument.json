@@ -1,0 +1,71 @@
+{
+    "_id": "Nz8stfh2Fy7b9hq5",
+    "name": "Modified Instrument",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Also at 3rd level, you learn to modify an instrument utilizing your audiotech knowledge. Over the course of a long rest, you can modify an instrument. You must have the instrument and audiotech&rsquo;s implements in order to perform this modification.</p>\n<p>Your modified instrument is enhanced, requires attunement, can only be used by you, and counts as a tech focus for your tech powers while you are attuned to it. Your modified instrument has 4 modification slots, and it gains more at higher levels, as shown in the Modification Slots column of the engineer table. For each modification installed in excess of your proficiency bonus, your tech point maximum is reduced by 1. Over the course of a long rest, you can replace or remove a number of modifications up to your Intelligence modifier (minimum of one).</p>\n<p>Some modification effects require saving throws. When you use such an effect from this class, the DC equals your tech save DC.</p>\n<h2>AUDIOTECH MODIFICATIONS</h2>\n<p>If a modification has prerequisites, you must meet them to install it. You can install the modification at the same time that you meet its prerequisites.</p>\n<hr />\n<blockquote>\n<h4><strong>ADVANCED BATTLE ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;15th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Prototype Battle Enhancement</em><br />While playing your Song of Battle, your tech powers and class features ignore resistance to sonic damage, and immunity to sonic damage is instead treated as resistance from any creature within range of your song that can hear you.</p>\n<p>Additionally, when you use your Battle Song Enhancement feature, you create a fourth burst.</p>\n<hr />\n<h4><strong>ADVANCED DISRUPTION ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;15th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Prototype Disruption Enhancement</em><br />While playing your Song of Disruption, any hostile creature within range of your song that can hear you must make a Constitution saving throw at the end of each of its turns to maintain concentration on the power.</p>\n<hr />\n<h4><strong>ADVANCED SUPPORT ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;15th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Prototype Support Enhancement</em><br />While playing your Song of Support, allies add your Intelligence modifier to their death saving throws (minimum of +1). If this amount would increase the roll of the d20 to 20 or greater, the creature regains 1 hit point.</p>\n<hr />\n<h4><strong>BATTLE SONG ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />While playing your Song of Battle, as an action, you can send forth busts of directed sonic energy, make two ranged power attacks. These attacks can target the same creature different ones. Make separate attack rolls for each burst. The attack has a range equal to the radius of your song, and deals 1d8 sonic damage on a hit.</p>\n<hr />\n<h4><strong>DISRUPTION SONG ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />While playing your Song of Disruption, as an action, you can choose a number of creatures concentrating on a power equal to your Intelligence modifier (a minimum of one) within range of your song that can hear you, and force them to make a Concentration saving throw. If you cause at least one creature to lose concentration on a power using this feature, you can use your reaction to make all creatures that lost concentration take damage equal to your Intelligence modifier.</p>\n<hr />\n<h4><strong>ENTHRALLING PERFORMANCE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Hypnotic Melody</em><br /><em>F</em>or the duration of an enhanced song you play, whenever any creature that can hear your song tries to attack you for the first time on a turn, the attacker must make a Charisma saving throw. On a failed save, it can&rsquo;t attack you on this turn, and it must choose a new target for its attack or the attack is wasted. On a successful save, it can attack you on this turn, but it has disadvantage on any saving throw it makes against your powers or features on your next turn.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a long rest before you can use it again.</p>\n<hr />\n<h4><strong>FINDING MY WAY</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;Rush</em><br />While you are playing an enhanced song, when a creature makes a melee attack roll against you, you can use your reaction to move 5 feet without provoking opportunity attacks, imposing disadvantage on the roll.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.</p>\n<hr />\n<h4><strong>HYPNOTIC MELODY</strong></h4>\n<p>As an action while wielding your modified instrument, you can begin to play a song woven with subtle hypnotic influence. Choose a number of creature up to your Intelligence modifier. If those creatures listen to this song for a full minute, they must succeed on a Wisdom saving throw or become charmed by you for 1 minute. Creatures that succeed the saving throw are not aware that you attempted to influence them, nor are creatures that failed their saving throw once the power ends.</p>\n<p>Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you finish a short or long rest.</p>\n<hr />\n<h4><strong>INAUDIBLE CASTING</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;7th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Simple Melodies</em><br />When you cast a tech power or make use of a feature that requires playing your modified instrument, you can choose to do so quietly. Creatures have disadvantage on Intelligence (Investigation) and Wisdom (Perception) checks that rely on sound to determine you cast a tech power.</p>\n<hr />\n<h4><strong>LONG RANGE NOISE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;13th level</em><br />The radius of your songs increases to 120 feet. Additionally, any tech power you cast with your modified instrument that deals sonic damage and has a range of 10 feet or greater gains a range of 120 feet.</p>\n<hr />\n<h4><strong>MAGNIFYING DEVICE</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />While using your harness as a tech focus, you gain a +1 bonus to tech attack rolls. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>OVERWHELMING SOUNDWAVES</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;15th level</em><br />While playing, creatures of your choice treat a 15-foot-radius sphere around you as difficult terrain. Additionally, as an action, you can cause each affected creature to make a Constitution saving throw, taking 3d8 sonic damage on a failed save.</p>\n<hr />\n<h4><strong>PROTOTYPE BATTLE ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Battle Song Enhancement</em><br />While playing your Song of Battle, when you cast a tech power or use a class feature that affects other creatures within the radius of your song, you can choose a number of them equal to 1 + the power&rsquo;s level. The chosen creatures automatically succeed on their saving throws against the power, and they take no damage if they would normally take half damage on a successful save.</p>\n<p>Additionally, when you use your Battle Song Enhancement feature, you create a third burst.</p>\n<hr />\n<h4><strong>PROTOTYPE DISRUPTION ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Disruption Song Enhancement</em><br />While playing your Song of Disruption, when a creature you can see that can hear you attempts to cast a power, you can use your reaction to cast the&nbsp;tech override&nbsp;power at 3rd level. When you cast this power using this feature, the power works against both tech and force powers, and when you make the techcasting ability check as a part of this casting, you add double your proficiency bonus to the check, instead of your normal proficiency bonus.</p>\n<p>Once you&rsquo;ve used this feature, you must complete a short or long rest before you can use it again.</p>\n<hr />\n<h4><strong>PROTOTYPE SUPPORT ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;9th level</em><br /><em><strong>Prerequisite</strong>:&nbsp;Support Song Enhancement</em><br />While playing your Song of Support, when you use your Song of Support&rsquo;s Potent Amplitude feature, the target instead takes no damage if they succeed on the saving throw, and only half damage if they fail.</p>\n<hr />\n<h4><strong>RESTFUL MELODY</strong></h4>\n<p>Over the course of a short rest, you can play a rejuvenating song to assist in the recovery of your allies. If you or any friendly creatures who can hear your performance regain hit points at the end of the short rest, each of those creatures regains an extra 1d6 hit points.</p>\n<p>The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.</p>\n<hr />\n<h4><strong>RUSH</strong></h4>\n<p>While you are playing an enhanced song, your speed increases by 10 feet, and opportunity attacks made against you have disadvantage.</p>\n<hr />\n<h4><strong>SHARP NOISE</strong></h4>\n<p>As an action while wielding your modified instrument, choose a creature you can see. If it can hear you, it must succeed on a Constitution saving throw or take 1d4 sonic damage and have disadvantage on its next attack roll before the end of its next turn.</p>\n<p>This feature&rsquo;s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).</p>\n<hr />\n<h4><strong>SHOCK MOUNT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />While using your instrument as a tech focus, you gain a +1 bonus to your tech save DC. This bonus increases to +2 at 9th level and +3 at 13th level.</p>\n<hr />\n<h4><strong>SIMPLE MELODIES</strong></h4>\n<p>When you are holding your modified instrument, and not actively playing a song, any tech power that you could cast that could have its damage type altered by your Potent Amplitude feature can be cast as if used with Potent Amplitude.</p>\n<p>You can use this feature a number of times equal to your Intelligence modifier (a minimum of once). You regain all expended uses when you complete a short or long rest.</p>\n<hr />\n<h4><strong>SONAR PULSE</strong></h4>\n<p>As an action while wielding your modified instrument, you can release a wave of sound that provides feedback on your surroundings. For the next minute, you have advantage on Wisdom (Perception) and Intelligence (Investigation) checks to search for hidden doors, traps, or invisible creatures.</p>\n<p>Once you&rsquo;ve used this feature, you can&rsquo;t use it again until you finish a short or long rest.</p>\n<hr />\n<h4><strong>SONG FLOW</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;11th level</em><br />While playing an enhanced song, you can use your bonus action to change from one song to another.</p>\n<hr />\n<h4><strong>SUPPORT SONG ENHANCEMENT</strong></h4>\n<p><em><strong>Prerequisite</strong>:&nbsp;5th level</em><br />While playing your Song of Support, when you cast a tech power that restores hit points or grants temporary hit points, the amount restored or granted is increased by an amount equal to your Intelligence modifier (minimum of +1).</p>\n<hr />\n<h4><strong>WEAPON INTEGRATION</strong></h4>\n<p>You can integrate a single weapon that weighs no more than 8 lb. into your instrument. While integrated, that weapon gains the hidden property.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

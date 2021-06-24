@@ -1,0 +1,31 @@
+{
+    "_id": "PMxG5cMOa1Ke5xSZ",
+    "name": "Reactor Boost",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "deploymentfeature",
+    "data": {
+        "deployment": {
+            "value": "Mechanic"
+        },
+        "featureType": {
+            "value": "Technique"
+        },
+        "rank": {
+            "value": "1st Rank"
+        },
+        "description": {
+            "value": "<p>As an action, you can roll your tech die.  Your reactor immediately produces that many power dice that must be stored immediately based on your ship\u2019s power coupling.  For any power dice produced in excess of your ship\u2019s capacity to store, your ship takes that many hull points in damage.</p><p>Additionally, your ship must succeed on a Constitution (Regulation) check (DC = 10 + the number rolled on your tech die) or take hull damage equal to one hull die + your ship\u2019s strength modifier.</p>"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Deployments/Mechanic.webp",
+    "effects": []
+}

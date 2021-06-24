@@ -1,0 +1,71 @@
+{
+    "_id": "2jowNrxwqUrXnIlu",
+    "name": "Force-Empowered Self",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Sentinel</strong>:&nbsp;2nd level</em></p>\n<p>Your training allows you to harness the mystical energy of the Force throughout your body. When you hit a creature with a melee weapon attack, you can spend 1 force point to use a Force-Empowered Self effect. Each effect uses a d4, which changes as you gain sentinel levels, as shown in the Kinetic Combat column of the sentinel table. You have three such effects: Deflection, Double Strike, and Slow Time. You can only use each effect once per turn, and you can only use one effect per hit.</p>\n<hr />\n<blockquote>\n<h4><strong>DEFLECTION</strong></h4>\n<p>You can roll a Kinetic Combat die and add it to your AC against one attack before the start of your next turn.</p>\n<hr />\n<h4><strong>DOUBLE STRIKE</strong></h4>\n<p>You can roll a Kinetic Combat die and deal additional damage of the same type equal to the amount rolled.</p>\n<hr />\n<h4><strong>SLOW TIME</strong></h4>\n<p>You can roll a Kinetic Combat die to increase your speed by 5 x the amount rolled until the end of your turn.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "Sentinel 2",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SNTL-Passive.webp",
+    "effects": []
+}

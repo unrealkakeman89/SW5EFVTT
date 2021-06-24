@@ -1,0 +1,37 @@
+{
+    "_id": "Aok9P0HQWl1g1air",
+    "name": "Secondary Transponder Code",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Operation"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This modification implements a secondary transponder code into your ship's sublight engines. This transponder code can differ from your primary transponder code in terms of ship's owner, designation, make and model, any registered modifications, and the ship's ownership history. </p><p>A crew member can switch the ship's transponder code as an action. A creature can determine this transponder code is a fake by making an Intelligence (Technology) check (DC = 8 + your ship's bonus to Charisma (Swindle) checks). On a success, they determine that your transponder code is a fake.</p><p>Additionally, your ship is proficiently equipped for Charisma (Swindle) checks.  If your ship is already proficiently equipped, it is instead considered expertly equipped.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Operation.webp",
+    "effects": []
+}

@@ -1,0 +1,106 @@
+{
+    "name": "Faction Artisan",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are a member of an artisan's faction, skilled in a particular field and closely associated with other artisans. You are a well-established part of the mercantile world, freed by talent and wealth from the constraints of a feudal social order. You learned your skills as an apprentice to a master artisan, under the sponsorship of your faction, until you became a master in your own right."
+        },
+        "flavorName": {
+            "value": "Faction Business"
+        },
+        "flavorDescription": {
+            "value": "Factions are generally found in cities large enough to support several artisans practicing the same trade. However, your faction might instead be a loose network of artisans who each work in a different village within a larger realm. Work with your GM to determine the nature of your faction.\r\n"
+        },
+        "flavorOptions": null,
+        "skillProficiencies": {
+            "value": "Choose two from Athletics, Insight, Persuasion, and Technology"
+        },
+        "toolProficiencies": {
+            "value": "One type of artisan's implements, biochemist's kit, or chef's kit"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of tools (one of your choice), a letter of introduction from your faction, a set of traveler's clothes, and a belt pouch containing 150 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Faction artisans are among the most ordinary people in the world&mdash;until they set down their tools and take up an adventuring career. They understand the value of hard work and the importance of community, but they're vulnerable to sins of greed and covetousness."
+        },
+        "featureName": {
+            "value": "Faction Membership"
+        },
+        "featureText": {
+            "value": "<p>As an established and respected member of a faction, you can rely on certain benefits that membership provides. Your fellow faction members will provide you with lodging and food if necessary, and pay for your funeral if needed. In some cities and towns, a factionhall offers a central place to meet other members of your profession, which can be a good place to meet potential patrons, allies, or hirelings.</p><p>Factions often wield tremendous political power. If you are accused of a crime, your faction will support you if a good case can be made for your innocence or the crime is justifiable. You can also gain access to powerful political figures through the faction, if you are a member in good standing. You must pay dues of 50 cr per month to the faction. Your dues must be current to remain in the faction's good graces.</p>"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Brawny</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Charmer</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Techie</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Crafter</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Haggler</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I believe that anything worth doing is worth doing right. I can't help it&mdash;I'm a perfectionist.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm a snob who looks down on those who can't appreciate fine art.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I always want to know how things work and what makes people tick.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm full of witty aphorisms and have a proverb for every occasion.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm rude to people who lack my commitment to hard work and fair play.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I like to talk at length about my profession.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I don't part with my money easily and will haggle tirelessly to get the best deal possible.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I believe I'm well known for my work, and I'm always taken aback when people haven't heard of me.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Community. It is the duty of all civilized people to strengthen the bonds of community and the security of civilization. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Generosity. My talents were given to me so that I could use them to benefit the world. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Freedom. Everyone should be free to pursue his or her own livelihood. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Greed. I'm only in it for the money. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">People. I'm committed to the people I care about, not to ideals. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Aspiration. I work hard to be the best there is at my craft. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I'll do anything to get my hands on something rare or priceless.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I'm quick to assume that someone is trying to cheat me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">No one must ever learn that I once stole money from faction coffers.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I'm never satisfied with what I have&mdash;I always want more.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I would kill to acquire a noble title.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I'm horribly jealous of anyone who can outshine my handiwork. Everywhere I go, I'm surrounded by rivals.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">The workshop where I learned my trade is the most important place in the world to me.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I created a great work for someone, and then found them unworthy of it; I now search for someone worthy.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I owe my faction a great debt for forging me into the person I am today.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I pursue wealth to secure someone's love.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">One day I will return to my faction and prove that I am the greatest artisan of them all.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I will get revenge on the Dark forces that destroyed my place of business and ruined my livelihood.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Faction%20Artisan.webp",
+    "effects": [
+        {
+            "_id": "XLWkOngF0epU9QvV",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Faction Artisan",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Faction Artisan",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "rqM7RDip2pGOuVtz"
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "zTgZVw4RFiAZDYoc",
+    "name": "Force-Empowered Shooting",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 2 levels in sentinel</em></p><p>When you take the Fire action, you can spend 1 force point and use your bonus action to make an additional attack. This additional attack must be made with a primary weapon.</p>"
+        },
+        "prerequisites": [
+            "at least 2 levels in sentinel"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

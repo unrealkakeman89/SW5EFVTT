@@ -1,0 +1,71 @@
+{
+    "_id": "zdQodeYfWZauJ3Mv",
+    "name": "Totem Creation",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you choose this specialty at 3rd level, you&rsquo;ve learned to create powerful talismans infused with the Force. Your totems can take the form of sigils painted directly onto your equipment, or adornments attached to it, as you see fit. Regardless of the form they take, only you can benefit from them. You learn two totems of your choice, which are detailed under &ldquo;Totems&rdquo; below. When you complete a long rest, you can replace one totem you know with a different one.</p>\n<p>When you finish a long rest, you can touch a number of weapons, armor, or shields equal to the number of totems you know, affixing a different totem to each object. Your totem remains affixed until you finish a long rest, and an object can only bear one totem at a time. You must be wielding or wearing the object to benefit from a totem affixed to it.</p>\n<p>Each totem can be invoked to grant an effect. Once you&rsquo;ve invoked a totem in this way, you can&rsquo;t do so again until you complete a short or long rest.</p>\n<h2>TOTEM OPTIONS</h2>\n<p>The totems are listed in alphabetical order. If a totem requires a saving throw, the DC = 8 + your proficiency bonus + your Wisdom or Charisma modifier (your choice).</p>\n<hr />\n<blockquote>\n<h4><strong>TOTEM OF THE ACKLAY</strong></h4>\n<p>This totem evokes the ferocity of an acklay, granting you advantage on Intelligence (Nature) checks and Charisma (Intimidation) checks.</p>\n<p>Additionally, you can invoke the totem as a bonus action. For 10 minutes, your carrying capacity and the weight you can push, drag, or lift doubles, and your Strength score increases by 2. This increase can cause your score to exceed 20.</p>\n<hr />\n<h4><strong>TOTEM OF THE HAWK</strong></h4>\n<p>This totem is inspired by the visage of a hawk, granting you advantage on Intelligence (Investigation) checks, and darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.</p>\n<p>Additionally, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the totem and force the creature to make a Constitution saving throw by emitting a powerful sound. Unless the save succeeds, the creature is dazed, suffering from the Charmed condition. While charmed in this way, the creature has a speed of 0 and is incapacitated. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the totem, you can&rsquo;t do so again until you finish a short or long rest. A deaf creature automatically succeeds on its saving throw.</p>\n<hr />\n<h4><strong>TOTEM OF THE LOTH-WOLF</strong></h4>\n<p>This totem emulates the near etherealness of a loth-wolf, granting you advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.</p>\n<p>Additionally, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the totem and cause that attack to target a different creature within 30 feet of you (other than the attacker) that you can see, using the same roll. This ability can transfer the attack regardless of the attack&rsquo;s range.</p>\n<hr />\n<h4><strong>TOTEM OF THE RANCOR</strong></h4>\n<p>This totem bestows a resilience reminiscent of a mighty rancor, granting you advantage on saving throws against being poisoned and resistance to poison damage.</p>\n<p>Additionally, you can invoke the totem as a bonus action, gaining resistance to energy and kinetic damage for 1 minute.</p>\n<hr />\n<h4><strong>TOTEM OF THE SARLACC</strong></h4>\n<p>This totem channels the experience of an ancient sarlacc, granting you expertise in any tool in which you are proficient.</p>\n<p>Additionally, when you hit a creature with a weapon attack, you can invoke the totem to summon the tentacles of the creature: The target must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the tentacles, the target takes 2d6 acid damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, tearing free on a success.</p>\n<hr />\n<h4><strong>TOTEM OF THE VORNSKR</strong></h4>\n<p>With this totem you are able to access the Force-enhanced senses of the vornskr, granting you advantage on Wisdom (Survival) checks, and you can&rsquo;t be surprised as long as you are not incapacitated.</p>\n<p>Additionally, you can invoke the totem as a bonus action to enter a state of hyper awareness for 1 minute or until you&rsquo;re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

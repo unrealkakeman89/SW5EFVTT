@@ -1,0 +1,76 @@
+{
+    "_id": "0mVbi9yePHoAjUaD",
+    "name": "Force-Empowered Detonators",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>At 7th level, you learn to infuse a number of small detonators with the Force. Over the course of a short or long rest, you can create a number of detonators equal to your Wisdom or Charisma modifier (your choice, minimum of one). Your detonators can only be used by you, and they lose their potency at the end of your next short or long rest.</p>\n<p>As a bonus action on each of your turns, you can throw one of your detonators at a point within range. Your detonators have a range equal to 30 feet + your Wisdom or Charisma modifier x 5. Make a universal ranged force attack. On a hit, the detonator adheres to the target, and if the target is a Large or smaller creature, it is pushed back 5 feet. On a miss, it falls to the ground. Hit or miss, the detonator then explodes. The target and each creature within 5 feet must make a Dexterity saving throw against your universal force save DC. If the detonator adhered to a target, the creature has disadvantage on the saving throw. A creature takes force damage using your Kinetic Combat die + your Wisdom or Charisma modifier (your choice) on a failed save, or half as much on a successful one.</p>\n<p>&nbsp;</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "EC",
+        "activation": {
+            "type": "bonus",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": 1,
+            "width": null,
+            "units": "",
+            "type": "enemy"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": 1,
+            "per": "sr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "rpak",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [
+                [
+                    "1d4+@mod",
+                    "kinetic"
+                ]
+            ],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "dex",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "recharge": {
+            "value": null,
+            "charged": false
+        },
+        "requirements": ""
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

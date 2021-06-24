@@ -1,0 +1,37 @@
+{
+    "_id": "aq3G0ttWFx2ifr5f",
+    "name": "Security Suite",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Ship size Medium or larger"
+        },
+        "system": {
+            "value": "Suite"
+        },
+        "basecost": {
+            "value": "5000"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>This suite comes equipped with a full base of security for your ship, including secured storage, a brig, and a compact armory.</p>\n<ul>\n<li>The secured storage can hold an amount equal to one-tenth the ship's base cargo capacity, as shown in the @JournalEntry[pMX6ND1g3oNyo09c]{Starship Size Cargo Capacity} on page 79. The secured storage is equipped with both a key and a code lock, and is magnetically sealed to prevent it opening in the event of power failure. The secured storage can be accessed with a DC 20 Intelligence (Security Kit) check.</li>\n<li>The brig can host a number of prisoners equal to one-fourth the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table.</li>\n<li>The armory comes equipped with an amount of simple blasters and vibroweapons, as well as light armor and shields, to outfit a force equal to one-fourth the ship's suite capacity by size, as shown in the @JournalEntry[Mnvw9iBw8gxgfCXw]{Starship Size Suite Capacity}&nbsp;table.</li>\n</ul>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Suite.webp",
+    "effects": []
+}

@@ -1,0 +1,20 @@
+{
+    "_id": "J5h9YtlvTGJXkKRE",
+    "name": "Versatile Style",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "fightingstyle",
+    "data": {
+        "description": {
+            "value": "<p>You are skilled at using weapons in different ways. While you are wielding a melee weapon with the versatile property with which you are proficient and no other weapons, you gain the following benefits:</p><ul><li>When you miss with a melee weapon attack on your turn while wielding a weapon in two hands, you can use your bonus action to repeat the attack roll against the same target using one hand. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this attack roll.</li><li>When you miss with a melee weapon attack on your turn while wielding a weapon in one hand, you can use your bonus action to attempt to shove or trip that creature. Any modifications to the original attack roll, such as advantage, disadvantage, or without your proficiency bonus, also affect this ability check.</li><li>Grasping a versatile weapon you are wielding in only one hand with your other hand no longer requires your object interaction.</li></ul>"
+        },
+        "source": {
+            "value": "PHB"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Fighting%20Styles%20and%20Masteries/Versatile%20Style.webp",
+    "effects": []
+}

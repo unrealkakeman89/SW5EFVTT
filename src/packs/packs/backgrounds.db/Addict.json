@@ -1,0 +1,112 @@
+{
+    "name": "Addict",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You hammer down your fifth bottle of the night, do your last bit of snuff, and bid farewell to the seedy cantina barman. You stagger onto the streets and find a nearby alley in which you empty the night's contents. To many, the next morning's hangovers would be hell. To you, they're a ritual."
+        },
+        "flavorName": {
+            "value": "Pick Your Poison"
+        },
+        "flavorDescription": {
+            "value": "While most addicts are willing to try everything once, they typically have a drug of choice. You can determine what the source of your addiction or determine it randomly below."
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d16</th><th align=\"center\">Pick Your Poison</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Deuterium-pyro</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Mummergy</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Novanian grog</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Raava</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Spicebrew</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Tihaar</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Tsiraki</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Vayerbok</td></tr><tr class=\"rows\"><td align=\"center\">9</td><td align=\"center\">Andris</td></tr><tr class=\"rows\"><td align=\"center\">10</td><td align=\"center\">Cilona</td></tr><tr class=\"rows\"><td align=\"center\">11</td><td align=\"center\">Giggledust</td></tr><tr class=\"rows\"><td align=\"center\">12</td><td align=\"center\">Glitterstim</td></tr><tr class=\"rows\"><td align=\"center\">13</td><td align=\"center\">Karrak</td></tr><tr class=\"rows\"><td align=\"center\">14</td><td align=\"center\">Muon gold</td></tr><tr class=\"rows\"><td align=\"center\">15</td><td align=\"center\">Yaladai</td></tr><tr class=\"rows\"><td align=\"center\">16</td><td align=\"center\">Yarrock</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Deception, Performance, Persuasion, Sleight of Hand"
+        },
+        "toolProficiencies": {
+            "value": "Your choice of any gaming set, brewer's kit, or spicer's kit"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A chance cube set, a sabaac deck, 2 days field rations, a flask or belt pouch containing your addiction, a set of common clothes, a bedroll, and a belt pouch containing 25 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Addicts can be rude and uncouth, wearing their addiction visibly, or they might hide that addiction and appear to function normally. Importantly, and varying with every addict, why are you addicted? To forget the past? To drown your sorrows? Or are you simply chasing the dragon?"
+        },
+        "featureName": {
+            "value": "Addicted"
+        },
+        "featureText": {
+            "value": "You've been abusing substances for a long time. You always know who to talk to and where to find substances, and you can often identify them in their raw form."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Silver-Tongued</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Performer</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Charmer</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Quick-Fingered</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Specialist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Durable</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I am guaranteed to fight someone if I'm drunk/high enough.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Life is pain. All I want is to drink/smoke myself into nothingness.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I have a simple rule; life's a party, so grab the deathsticks!</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">The only thing keeping me from burning down this village is the fact that you make some damn good spice.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm quite reserved until the moment I fulfill my addictive needs.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">This stuff is a bit weak, do you have anything higher than 60% in the back?</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I take pride in my addiction and am often snobbish when talking about it.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I blow up at the slightest insult.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Hope. I hope to one day be free of my addiction. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Carelessness. I don't care what I have to do, just let me feed my addiction. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Isolation. Just let me deal with my demons in peace. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Caution. I will never let my addiction harm others. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Independence. Addiction frees me. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Comradery. Hey, some of my favorite people are addicts! (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">This could be rough, let's take something before we go.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Hopefully this will be the one to end it.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">The mission can wait, we should find some dealers first.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">What? I don't have a problem. You're the one with the problem!</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">It looks like my drug, so it should be safe to take right?</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I'm never myself when I'm on it.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I use my addiction as a tool to wash away my past sins.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">My family never wanted to be forgotten. I take drugs in the hopes they will be.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I hope to start a drug business myself and give people the same happiness I've found.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Everything I do is in the hopes of getting my hands on my drug.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I traded my former self to my addiction. Now I need to find a way to get him back.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">To be addicted is to be truly alive.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        },
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Addict.webp",
+    "effects": [
+        {
+            "_id": "8CglKXcVxBkb79Dg",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Addict",
+                    "mode": 5,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Addict",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "iAyhpB9Nibw6O90t"
+}

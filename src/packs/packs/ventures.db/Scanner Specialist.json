@@ -1,0 +1,21 @@
+{
+    "_id": "UcE2oiQHyVRWzn00",
+    "name": "Scanner Specialist",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "When you take the Search action, you have advantage on Wisdom (Scan) and Intelligence (Probe) checks that rely on the scanner.</p>"
+        },
+        "prerequisites": [],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

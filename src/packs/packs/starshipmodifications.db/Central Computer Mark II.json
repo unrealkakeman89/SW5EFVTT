@@ -1,0 +1,37 @@
+{
+    "_id": "fAILDHuTbkVlWrdj",
+    "name": "Central Computer, Mark II",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": "Central Computer, Mark I"
+        },
+        "system": {
+            "value": "Universal"
+        },
+        "basecost": {
+            "value": "4000"
+        },
+        "grade": {
+            "value": "2"
+        },
+        "description": {
+            "value": "<p>You further improve your ship's central computer. Your artificial intelligence's proficiency bonus increases to 3. Additionally, your ship can now take reactions granted by modifications and can take the attack action with ship weapons.  It is still limited to one action per turn.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Universal.webp",
+    "effects": []
+}

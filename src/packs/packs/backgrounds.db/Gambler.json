@@ -1,0 +1,114 @@
+{
+    "name": "Gambler",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are a skilled gambler who spends most of your time in casinos, bar rooms, and gambling dens. Are your activities legal, or do you break the law? Have you ever cheated in a game, or do you play by the rules? No matter what, your life has been one of excitement, chance, and danger."
+        },
+        "flavorName": {
+            "value": null
+        },
+        "flavorDescription": {
+            "value": null
+        },
+        "flavorOptions": {
+            "value": null
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Deception, Insight, Intimidation, and Sleight of Hand"
+        },
+        "toolProficiencies": {
+            "value": "Two types of gaming sets"
+        },
+        "languages": {
+            "value": null
+        },
+        "equipment": {
+            "value": "A set of common clothes, a set of dice, a deck of playing cards, a lucky charm, and a belt pouch containing 100 cr."
+        },
+        "suggestedCharacteristics": {
+            "value": "Gambling is your passion, for better or for worse. Most gamblers see their vices as virtues, and overlook things in their pursuit of the rush."
+        },
+        "featureName": {
+            "value": "Let's Make It Interesting"
+        },
+        "featureText": {
+            "value": "You can convince nearly anyone to put up something they aren't normally willing to part with (property or information) in a game of chance. Your GM might rule that they will only agree to a game of their choosing, and they may only agree if they feel the odds are in their favor."
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Silver-Tongued</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Threatening</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Quick-Fingered</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Keen Mind</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Observant</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Practiced</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I like to impress everyone I meet with a simple trick or a quick joke.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I constantly make side bets on everything that happens around me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">No matter how high the stakes, I always appear calm.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I try to be unpredictable, so no one will know when I'm bluffing.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I never back down from a challenge.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I can't get satisfaction out of something if the stakes are too low.</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I tend to make friends out of enemies, and enemies out of friends.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I prefer one game above all others.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Risk. Nothing worth doing is ever a sure thing. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Victory. Never make a bet unless you're sure you can win. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Greed. Anything that isn't mine soon will be. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Charity. I share my winnings with the less fortunate. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Surprise. Life is a game worth playing, because you never know how the dice will land. (Any)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Laziness. Working is for chumps. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I can't step away from the table when I'm losing.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I spend money faster than I can make it.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Everyone has a price. Mine happens to be pretty low.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I assume everyone is hiding something from me.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I tend to value money more than people.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I like to think I could drink anyone under the table, but I'm really a lightweight.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I owe a lot of money to the wrong kind of people.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I still keep the first coin I ever won. It's my good luck charm.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Most of my winnings go to my home.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Someday I will own my own casino.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I lost a large sum of money to a con artist; I seek to get it back.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I hide my gambling behind a normal life. My friends have no idea who I really am.</td></tr></tbody></table>"
+        },
+        "source": "PHB",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Gambler.webp",
+    "effects": [
+        {
+            "_id": "9HkjNgqUUwqVm64c",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Gambler",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "game",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Gambler",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "gZV9TW4MOi4s3zM0"
+}

@@ -1,0 +1,23 @@
+{
+    "_id": "ECGFElbSJoH7YoWh",
+    "name": "Spacecasting",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> The ability to cast force or tech powers</em></p><p>When casting a force or tech power while aboard your ship and in space, the power's range is multiplied by 2. You can not target a hostile creature with a power unless you are aware of their presence and location.</p>"
+        },
+        "prerequisites": [
+            "The ability to cast force or tech powers"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}

@@ -1,0 +1,41 @@
+{
+    "name": "Biochemist's Kit",
+    "permission": {
+        "default": 0,
+        "vXYkFWX6qzvOu2jc": 3
+    },
+    "type": "tool",
+    "data": {
+        "description": {
+            "value": "<p>This kit includes all of the necessary components to create and house standard adrenals, medpacs, and stimpacs. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify adrenals, medpacs, and stimpacs. Also, proficiency with this kit is required to create adrenals, medpacs, and stimpacs.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "quantity": 1,
+        "weight": 8,
+        "price": 500,
+        "attuned": false,
+        "equipped": false,
+        "rarity": "",
+        "identified": true,
+        "ability": "int",
+        "chatFlavor": "",
+        "proficient": 0,
+        "attributes": {
+            "spelldc": 10
+        },
+        "damage": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false,
+            "effects": []
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Kit/Biochemist_s%20Kit.webp",
+    "_id": "5Hm6nv1vS3fYq8rp"
+}

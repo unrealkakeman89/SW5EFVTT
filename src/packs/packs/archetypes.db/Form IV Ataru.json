@@ -1,0 +1,39 @@
+{
+    "_id": "9Hva27QHj2ruQXTA",
+    "name": "Form IV: Ataru",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Guardian",
+        "description": {
+            "value": "<h1>Form IV: Ataru</h1>\n<p>Form IV, also know as Aggression Form, is a kinetically active form that relies on speed, acrobatics, and power. Those guardians who focus on Ataru Form utilize high energy tactics to confuse and distract their opponents, quickly moving about the battlefield.</p>\n<h2>Form Basics</h2>\n<p>When you choose this form as your focus at 3rd level, you learn the basics of the chosen form. You gain the @Compendium[sw5e.lightsaberform.yfCFM4d8xPdcsNKe]{Ataru Lightsaber Form}, detailed in Chapter 6 of the Player&rsquo;s Handbook. If you already know this form, you can instead choose another lightsaber form. You can&rsquo;t take a lightsaber form option more than once, even if you later get to choose again.</p>\n<h2>The Way of the Hawk-Bat</h2>\n<p>Also at 3rd level, as a bonus action, you you can take an aggressive stance, leaping around the battlefield for 1 minute. As a part of this bonus action, and as a bonus action on each of your turns, you can cast the @Compendium[sw5e.forcepowers.oPi4Y7zezP7MxNDK]{Force Jump power}&nbsp;at 1st-level without expending force points. Additionally, when you cast <em>force jump</em>, you have advantage on the first attack roll you make against each creature within 5 feet of where you land.</p>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>\n<h2>Channel the Force</h2>\n<p>Lastly at 3rd level, you gain the following Channel the Force option.</p>\n<h3>Retreating Leap</h3>\n<p>When a creature makes a melee attack roll against you, you can expend a use of your Channel the Force and your reaction to jump 10 feet in a direction of your choice, imposing disadvantage on the roll. This movement does not provoke opportunity attacks. You can wait until after the attack roll is made, but before the DM determines whether the attack hits.</p>\n<h2>Hawk-Bat Swoop</h2>\n<p>At 7th level, you gain the ability to move along vertical surfaces without falIing during the move. If you end your turn in the air, you fall immediately to the ground.</p>\n<p>Additionally, you no longer take damage when falling from a distance no greater than your walking speed.</p>\n<h2>Whirlwind Attack</h2>\n<p>At 15th level, you can use your action to make melee attacks against any number of creatures within 5 feet of you, with a separate attack roll for each target.</p>\n<h2>Master of Aggression</h2>\n<p>At 20th level, your presence on the field of battle is as a graceful blur of deadly blades and daring acrobatics. Your Dexterity and Wisdom or Charisma scores (your choice) increase by 2. Your maximum for those scores increases by 2. Additionally, you can use your action to gain the following benefits for 1 minute:</p>\n<ul>\n<li>You have resistance to kinetic and energy damage from unenhanced weapons.</li>\n<li>When an ally within 30 feet of you takes the Attack action, they can make one additional attack as a part of that same action.</li>\n<li>When you hit a creature with a weapon attack, you can move up to 10 feet. This movement does not provoke opportunity attacks.</li>\n</ul>\n<p>This effect ends early if you are incapacitated or die. Once you've used this feature, you can't use it again until you finish a long rest.</p>"
+        },
+        "source": "EC",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": "Forcecaster"
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Ataru%20Form.webp",
+    "effects": []
+}

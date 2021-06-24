@@ -1,0 +1,71 @@
+{
+    "_id": "IlZ1K1GB0hW4YaSq",
+    "name": "Discoveries (Tactician)",
+    "permission": {
+        "default": 0,
+        "lwoKvFakziGOHjXS": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>When you select this pursuit, you gain access to new discoveries which reflect your mastery in the field of combat. Whenever you learn a new discovery, you can choose from any of the following as well. The discoveries are listed in alphabetical order.</p>\n<hr />\n<blockquote>\n<h4><strong>COMMANDER&rsquo;S ARMOR</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;5th level</span><br />You gain proficiency in medium armor.</p>\n<hr />\n<h4><strong>CONTINGENCY PLAN</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;9th level</span><br />When the target of your Critical Analysis feature scores a critical hit, you can use your reaction and expend a superiority die to treat the attack as a normal hit instead.</p>\n<hr />\n<h4><strong>FIGHTING STYLE</strong></h4>\n<p>You adopt a particular style of fighting as your specialty. Choose one of the fighting style options, detailed in Chapter 6. You can&rsquo;t take a fighting style option more than once, even if you later get to choose again.</p>\n<hr />\n<h4><strong>FIRING COMMAND</strong></h4>\n<p>As a bonus action, you can take the Help action. Additionally, when you take the Help action, it has a range of 30 feet.</p>\n<hr />\n<h4><strong>OBSERVANT LEADER</strong></h4>\n<p>You can add your Intelligence modifier to any Wisdom (Perception) skill checks you make.</p>\n<hr />\n<h4><strong>STUDIED COMMANDER</strong></h4>\n<p>When you make an Intelligence (Lore) or Intelligence (Technology) check related to battles, tactics, or weaponry, you may expend a superiority die and add it to the roll.</p>\n<hr />\n<h4><strong>TACTICAL RETREAT</strong></h4>\n<p>When you take the Dash action, opportunity attacks made against you are made at disadvantage.</p>\n<hr />\n<h4><strong>UNBOUND COMMANDER</strong></h4>\n<p><span style=\"font-style: normal;\"><strong>Prerequisite</strong>:&nbsp;12th level</span><br />You learn to command your allies to victory from afar. Your Critical Analysis range is increased to 120 feet.</p>\n</blockquote>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "source": "PHB",
+        "activation": {
+            "type": "",
+            "cost": 0,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": "",
+            "type": ""
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 0,
+            "max": 0,
+            "per": null
+        },
+        "consume": {
+            "type": "",
+            "target": null,
+            "amount": null
+        },
+        "ability": null,
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "className": "",
+        "requirements": "",
+        "recharge": {
+            "charged": false,
+            "value": null
+        }
+    },
+    "flags": {},
+    "img": "icons/svg/mystery-man.svg",
+    "effects": []
+}

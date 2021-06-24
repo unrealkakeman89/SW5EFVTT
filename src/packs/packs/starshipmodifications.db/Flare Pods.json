@@ -1,0 +1,37 @@
+{
+    "_id": "3RMeXwni1xyQbw0J",
+    "name": "Flare Pods",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "NA"
+        },
+        "description": {
+            "value": "<p>Your ship is a equipped with a series of counter-measure flares. When your ship is forced to make a Dexterity saving throw, a crew member can use their reaction to release a flare. When they do so, your ship has advantage on the triggering saving throw. The crew member can choose to use this feature after the roll is made, but before the GM says whether the roll succeeds or fails. If they already have advantage on the saving throw, they can instead reroll one of the dice once.</p><p>This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship undergoes refitting.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

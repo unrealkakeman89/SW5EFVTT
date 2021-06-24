@@ -1,0 +1,39 @@
+{
+    "_id": "YByrgf4R9lfeVVBQ",
+    "name": "Sharpshooter Practice",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "archetype",
+    "data": {
+        "className": "Operative",
+        "description": {
+            "value": "<h1>Sharpshooter Practice</h1>\n<p>Those operatives who choose the Sharpshooter Practice are bringers of death. Striking from a safe distance, the Sharpshooter uses precision shooting to control the battlefield and bring targets down quickly.</p>\n<h2>Assume the Position</h2>\n<p>Beginning at 3rd level, you don't need advantage on your attack roll to use your Sneak Attack if your target is greater than 30 feet from you and no enemies are within 5 feet of you. In addition, standing up from prone now only costs 5 feet of movement.</p>\n<p>Additionally, you gain proficiency with two martial blasters of your choice.</p>\n<h2>Place Shot</h2>\n<p>Also at 3rd level, you perfect the art of placing distant shots for maximum effectiveness in debilitating and controlling your enemies. When you deal Sneak Attack damage to a creature, you may choose to forgo two of your Sneak Attack dice to make the attack a placed shot.</p>\n<p>Some of your placed shots require your target to make a saving throw to resist the placed shot's effects. The saving throw DC is calculated as follows:</p>\n<p><strong>Placed Shot save DC</strong> = 8 + your proficiency bonus + your Dexterity modifier</p>\n<h3>Disarming Shot</h3>\n<p>You attempt to disarm a creature with your attack. The target must succeed on a Strength saving throw or be forced to drop one item of your choice that it's holding. The object lands at its feet.</p>\n<h3>Penetrating Shot</h3>\n<p>You attempt to damage another target with the same attack. Choose a second target within 15 feet of and directly behind your initial target. If the original attack roll would hit the second target, it takes two dice worth of Sneak Attack damage.</p>\n<p>The damage is of the same type dealt by the original attack.</p>\n<h3>Suppressive Shot</h3>\n<p>You attempt to pin the target to its location. The target must succeed on a Wisdom saving throw or be frightened of you until the end of its next turn.</p>\n<h2>Head Shot</h2>\n<p>At 9th level, you are at your deadliest when your enemies are unaware of the danger they are in. You have advantage on attack rolls against any creature that hasn't taken a turn in combat yet.</p>\n<p>Additionally, any hit you score against a creature that is surprised is a critical hit.</p>\n<h2>Distracting Shot</h2>\n<p>Starting at 13th level, you are able to defend your compatriots from afar. When a friendly creature you can see within your weapon's normal range is the target of a ranged attack, or forced to make a saving throw, and the source of the effect is within your weapon's normal range, you can use your reaction to make a ranged weapon attack against the source. On a hit, instead of dealing damage, the target of your attack has disadvantage on the attack roll against your ally, or your ally has advantage on the saving throw to resist the effect.</p>\n<h2>Double Tap</h2>\n<p>At 17th level, you've learned to capitalize when you have the advantage. When you take the Attack action and make an attack with advantage, you can choose to forgo the advantage. If you do, you can make an additional attack against the target or another creature within 5 feet of it (no action required). Both attacks can benefit from your Sneak Attack damage, instead of only one.</p>"
+        },
+        "source": "PHB",
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": "",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        },
+        "classCasterType": ""
+    },
+    "flags": {
+        "dynamiceffects": {
+            "equipActive": false,
+            "alwaysActive": false
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Archetypes/Sharpshooter%20Practice.webp",
+    "effects": []
+}

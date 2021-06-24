@@ -1,0 +1,71 @@
+{
+    "_id": "IMYYQfB9ZfXTHaaP",
+    "name": "Double Dose",
+    "permission": {
+        "default": 0,
+        "sJbOwuXHycdB3CY1": 3
+    },
+    "type": "classfeature",
+    "data": {
+        "description": {
+            "value": "<p>Your application of medicine does not interfere with your own ability to recover from injuries. When you restore hit points or grant temporary hit points to another creature with a tech power or class feature, you recover the same amount of hit points or gain the same number of temporary hit points.</p>\n<p>You can use this feature a number of times equal to your proficiency bonus, as shown in the scout table. You regain all expended uses when you complete a long rest.</p>",
+            "chat": "",
+            "unidentified": ""
+        },
+        "requirements": "Triage Technique: 7",
+        "source": "EC",
+        "activation": {
+            "type": "special",
+            "cost": null,
+            "condition": ""
+        },
+        "duration": {
+            "value": null,
+            "units": ""
+        },
+        "target": {
+            "value": null,
+            "width": null,
+            "units": null,
+            "type": "self"
+        },
+        "range": {
+            "value": null,
+            "long": null,
+            "units": ""
+        },
+        "uses": {
+            "value": 1,
+            "max": "@classes.scout.levels",
+            "per": "lr"
+        },
+        "consume": {
+            "type": "",
+            "target": "",
+            "amount": null
+        },
+        "ability": "",
+        "actionType": "",
+        "attackBonus": 0,
+        "chatFlavor": "",
+        "critical": null,
+        "damage": {
+            "parts": [],
+            "versatile": ""
+        },
+        "formula": "",
+        "save": {
+            "ability": "",
+            "dc": null,
+            "scaling": "power"
+        },
+        "recharge": {
+            "charged": false,
+            "value": null
+        },
+        "className": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Class%20Features/SCT-ARCH-Passive.webp",
+    "effects": []
+}

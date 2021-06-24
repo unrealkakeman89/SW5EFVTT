@@ -1,0 +1,115 @@
+{
+    "name": "Office Worker",
+    "permission": {
+        "default": 0,
+        "5TZqObbCr9nKC79s": 3
+    },
+    "type": "background",
+    "data": {
+        "flavorText": {
+            "value": "You are an experienced office worker, having been employed by one or more local, planetary, or galactic governments, or one or more private enterprises or syndicates.  You have spent plenty of time around the water cooler and still have contacts in the governmental and corporate worlds.  Love them or hate them, you know your way around rules and regulations and you function well in structured environments."
+        },
+        "flavorName": {
+            "value": "Office Specialty"
+        },
+        "flavorDescription": {
+            "value": "<p>There are many kinds of office workers, and within a government or private enterprise, individual members have particular specialties. Choose your role or the department you worked for in your office life or roll on the table below.</p>"
+        },
+        "flavorOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Office Specialty</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Accounting</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Droid Management</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Executive Assistant</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Facilities</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Information Technology</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Procurement</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Public Relations</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Sentient Resources</td></tr></tbody></table>"
+        },
+        "skillProficiencies": {
+            "value": "Choose two from Insight, Investigation, Lore, and Perception"
+        },
+        "toolProficiencies": {
+            "value": "One type of gaming set"
+        },
+        "languages": {
+            "value": "One of your choice"
+        },
+        "equipment": {
+            "value": "A set of common clothes, an expired data cylinder, a gaming set (one of your choice), and a belt pouch containing 150 cr"
+        },
+        "suggestedCharacteristics": {
+            "value": "Office workers run the gamut from loyal and effective team member to lazy and incompetent employee.   "
+        },
+        "featureName": {
+            "value": "Clerical Augur"
+        },
+        "featureText": {
+            "value": "You have an intuitive understanding of how offices work and can readily fit in to an office environment as if you were meant to be there, as long as no one looks too carefully. Additionally, you know where the true power lies in the office: you know who is likely to know the local gossip and you know who to sweet talk into getting things done for you.\r\n"
+        },
+        "featOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Feat</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Empathic</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Investigator</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Loremaster</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Perceptive</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">Entertainer</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Linguist</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">Feigned Confidence</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">Snappy Interjection</td></tr></tbody></table>"
+        },
+        "personalityTraitOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d8</th><th align=\"center\">Personality Trait</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I can find common ground between the fiercest enemies, empathizing with them and always working towards peace.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am always calm, no matter what the situation. I never raise my voice or let me emotions control me.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I have little practical experience dealing with people in the world and prefer to work alone.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I would rather make a new friend than a new enemy.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I am always figuring out how to implement better procedures to prevent mistakes.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">There is no \"I\" in \"team.\"</td></tr><tr class=\"rows\"><td align=\"center\">7</td><td align=\"center\">I work to live.</td></tr><tr class=\"rows\"><td align=\"center\">8</td><td align=\"center\">I live to work.</td></tr></tbody></table>"
+        },
+        "idealOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Ideal</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">Prestige. I hope to one day rise to the top of my field and command the respect of those who work for me. (Lawful)</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Superiority. Rules are meant to control the sheep.I'm no sheep. (Chaotic)</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">Community. It is the duty of all people to strengthen the bonds of community and thereby improve civilization. (Light)</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">Greed. I will do whatever it takes to climb to the top. (Dark)</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">People. I'm loyal to my friends, not to any ideals, and everyone else can take a walk for all I care. (Neutral)</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">Faith. I trust that my leader will guide my actions, I have faith that if I work hard, things will go well. (Any)</td></tr></tbody></table>"
+        },
+        "flawOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Flaw</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I put too much trust in those who wield power within my employer's hierarchy.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">I am inflexible in my thinking.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I like to talk at length about my office job.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">I do anything I can to avoid real work.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I am not an independent thinker.I need detailed instructions and close supervision.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I gossip about others to hide my inadequacies.</td></tr></tbody></table>"
+        },
+        "bondOptions": {
+            "value": "<table><thead><tr><th align=\"center\">d6</th><th align=\"center\">Bond</th></tr></thead><tbody><tr class=\"rows\"><td align=\"center\">1</td><td align=\"center\">I will someday get revenge on the corrupt boss who fired me.</td></tr><tr class=\"rows\"><td align=\"center\">2</td><td align=\"center\">Everything I do is for the common people.</td></tr><tr class=\"rows\"><td align=\"center\">3</td><td align=\"center\">I will do anything to protect my employer.</td></tr><tr class=\"rows\"><td align=\"center\">4</td><td align=\"center\">No one must ever learn that I once stole from my employer.</td></tr><tr class=\"rows\"><td align=\"center\">5</td><td align=\"center\">I'm guilty of a terrible crime. I hope I can redeem myself for it.</td></tr><tr class=\"rows\"><td align=\"center\">6</td><td align=\"center\">I am committed to my group's goals over my own.</td></tr></tbody></table>"
+        },
+        "source": "Expanded Content",
+        "damage": {
+            "parts": []
+        },
+        "armorproperties": {
+            "parts": []
+        },
+        "weaponproperties": {
+            "parts": []
+        }
+    },
+    "flags": {
+        "dae": {
+            "activeEquipped": false,
+            "alwaysActive": true
+        }
+    },
+    "img": "systems/sw5e/packs/Icons/Backgrounds/Office%20Worker.webp",
+    "effects": [
+        {
+            "_id": "D6PdP2IpQh5eyeWL",
+            "flags": {
+                "dae": {
+                    "stackable": false,
+                    "specialDuration": "None",
+                    "transfer": true
+                }
+            },
+            "changes": [
+                {
+                    "key": "data.details.background",
+                    "value": "Office Worker",
+                    "mode": 5,
+                    "priority": 20
+                },
+                {
+                    "key": "data.traits.toolProf.value",
+                    "value": "game",
+                    "mode": 2,
+                    "priority": 20
+                }
+            ],
+            "disabled": false,
+            "duration": {
+                "startTime": null,
+                "seconds": null,
+                "rounds": null,
+                "turns": null,
+                "startRound": null,
+                "startTurn": null
+            },
+            "icon": "icons/svg/mystery-man.svg",
+            "label": "Office Worker",
+            "tint": "",
+            "transfer": true
+        }
+    ],
+    "_id": "NDBuuJicGiWthnnu"
+}

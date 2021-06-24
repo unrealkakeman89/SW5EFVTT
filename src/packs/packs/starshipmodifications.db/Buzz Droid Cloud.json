@@ -1,0 +1,37 @@
+{
+    "_id": "PAPCj7dsWyVBzwVo",
+    "name": "Buzz Droid Cloud",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "starshipmod",
+    "data": {
+        "prerequisites": {
+            "value": ""
+        },
+        "system": {
+            "value": "Engineering"
+        },
+        "basecost": {
+            "value": "3500"
+        },
+        "grade": {
+            "value": "2"
+        },
+        "description": {
+            "value": "<p>As an action, a crew member may scatter a large number of Buzz Droids across space in a 200-foot radius sphere centered on a point within 1500 feet. These Buzz Droids tear apart the hull of any ship that encounters them. The area becomes difficult terrain for the duration. When a ship moves into or within the area, it takes 2d4 kinetic damage directly to the hull for every 50 feet it travels.</p><p>The Buzz Droids are nearly invisible in the darkness of space. Any creature or ship that can't see the area at the time the area is created must make a Wisdom (Scan) check (DC 15) to notice the Buzz Droids before entering the area.</p><p>This feature can be used a number of times equal to your ship's tier (a minimum of once). All expended uses are regained when the ship is refitted.</p>"
+        },
+        "source": {
+            "value": "SotG"
+        },
+        "activation": {
+            "cost": null,
+            "type": ""
+        },
+        "actionType": ""
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Starship%20Modifications/Engineering.webp",
+    "effects": []
+}

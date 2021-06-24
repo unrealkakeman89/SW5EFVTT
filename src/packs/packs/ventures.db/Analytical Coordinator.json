@@ -1,0 +1,23 @@
+{
+    "_id": "dhvjTcuHf2Np6DcZ",
+    "name": "Analytical Coordinator",
+    "permission": {
+        "default": 0,
+        "IpSq6HI4edO6e0Yw": 3
+    },
+    "type": "venture",
+    "data": {
+        "description": {
+            "value": "<p><em><strong>Prerequisite:</strong> at least 1 level in scholar</em></p><p>When an ally makes an ability check or attack roll affected by your Direct action, and they are also the target of your Critical Analysis class feature, they can also roll a d6 and add it to the ability check or attack roll.</p>"
+        },
+        "prerequisites": [
+            "at least 1 level in scholar"
+        ],
+        "source": {
+            "value": "SotG"
+        }
+    },
+    "flags": {},
+    "img": "systems/sw5e/packs/Icons/Ventures/Venture.webp",
+    "effects": []
+}
