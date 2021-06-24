@@ -28,4 +28,10 @@ hs_err_pid*
 # IDE Folders
 .idea/
 .vs/
+.vscode/
+
+# Nodejs Modules
 node_modules
+
+# Compiled Files
+dist/
