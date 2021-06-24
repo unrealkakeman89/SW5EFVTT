@@ -10,7 +10,7 @@ const fs = require('fs');
 const src = "./src/"
 const dest = "./dist/"
 
-const foundryDest = process.env.LOCALAPPDATA + "/FoundryVTT/Data/systems/SW5e-Dev";
+const foundryDest = process.env.LOCALAPPDATA + "/FoundryVTT/Data/systems/sw5e";
 
 /* ----------------------------------------- */
 /*  Compile LESS
