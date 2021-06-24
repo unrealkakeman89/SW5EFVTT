@@ -10,6 +10,8 @@ const fs = require('fs');
 const src = "./src/"
 const dest = "./dist/"
 
+const foundryDest = process.env.LOCALAPPDATA + "/FoundryVTT/Data/systems/SW5e-Dev";
+
 /* ----------------------------------------- */
 /*  Compile LESS
 /* ----------------------------------------- */
@@ -96,6 +98,16 @@ async function copy() {
 const build = gulp.parallel(css, compilePacks, copy)
 
 /* ----------------------------------------- */
+/*  Send to foundry
+/* ----------------------------------------- */
+
+async function copyToFoundry() {
+  gulp.src(dest + "/**").pipe(gulp.dest(foundryDest));
+}
+
+const foundry = gulp.series(build, copyToFoundry);
+
+/* ----------------------------------------- */
 /*  Watch Updates
 /* ----------------------------------------- */
 
@@ -109,4 +121,5 @@ function watchUpdates() {
 /* ----------------------------------------- */
 
 exports.default = build;
+exports.foundry = foundry;
 exports.watch = watchUpdates;
