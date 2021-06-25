@@ -10,7 +10,7 @@ const fs = require('fs');
 const src = "./src/"
 const dest = "./dist/"
 
-const foundryDest = process.platform === "win32" ? process.env.LOCALAPPDATA : process.env.HOME + (process.platform === "darwin" ? "" : "/.local/share") + "/FoundryVTT/Data/systems/sw5e/";
+const foundryDest = (process.platform === "win32" ? process.env.LOCALAPPDATA : process.env.HOME + (process.platform === "darwin" ? "" : "/.local/share")) + "/FoundryVTT/Data/systems/sw5e/";
 
 /* ----------------------------------------- */
 /*  Compile LESS
@@ -167,9 +167,9 @@ async function sendTemplatesToFoundry() {
 async function sendRemainingToFoundry() {
   return new Promise ((resolve, reject) => {
     gulp.src(dest + "README.md").pipe(gulp.dest(foundryDest));
-    gulp.src(dest + "fonts/**").pipe(gulp.dest(foundryDest + "fonts/Icons"));
+    gulp.src(dest + "fonts/**").pipe(gulp.dest(foundryDest + "fonts"));
     gulp.src(dest + "packs/Icons/**").pipe(gulp.dest(foundryDest + "packs/Icons"));
-    gulp.src(dest + "ui/**").pipe(gulp.dest(foundryDest + "ui/Icons"));
+    gulp.src(dest + "ui/**").pipe(gulp.dest(foundryDest + "ui"));
     resolve();
   });
 }
